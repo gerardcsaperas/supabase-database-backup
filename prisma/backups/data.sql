@@ -4,7 +4,7 @@ SET session_replication_role = replica;
 -- PostgreSQL database dump
 --
 
--- \restrict aaCtRyMM0CdRbVqdtx5nMDjsZoeryChy9NISob3Pq8DTenjyt5D0oyXY7ffBvRR
+-- \restrict BpmmsucnMgHuDwQ0fQHLGWCPmV6aWu6TgWfBlgeTcJCmKBpTTz5L6BwHB7HLCSf
 
 -- Dumped from database version 17.6
 -- Dumped by pg_dump version 17.6
@@ -229,8 +229,8 @@ cmq709p73000004l7e26w0dst	david121cc@proton.me	$2b$12$2YdiXRBGVJS4RMyar73Y/OV0Qa
 cmpvaoc350000yjt2w4ur6be3	test@cangerard.cat	$2b$12$J9y1LY3XEOEy8WoYGeBq9uYK.nClRP5yYKxV6W354ejlN0FRPYF1W	Venedor Demo	SELLER	ca	\N	a81ca51def852ec88d23936b710dd440d39b617fb02edc39db52408af51767d8	\N	\N	f	2026-06-01 14:19:11.537	2026-06-09 19:08:50.489
 cmq723oae000004joi3yp01p0	jordi@racodepensar.com	$2b$12$bIn7kOqjxOyd0itJ5cLOl.R3DfrrpQ4EQjRICU72x9MftUM52rrrq	JORDI TARRAGÓ ROCA	BUYER	ca	2026-06-10 05:44:50.374	\N	\N	\N	f	2026-06-09 19:52:24.758	2026-06-10 05:44:50.382
 cmq7pl9hy000004jz8jufbmlo	gonzalezjodarlaura@gmail.com	$2b$12$NjVj4kTURgZEM72SO/fUj.1Ym6X/mjj3OZG/gN2IC1hRGtuV8F2wu	Laura Gonzalez	BUYER	ca	2026-06-10 07:02:18.029	\N	\N	\N	f	2026-06-10 06:49:56.566	2026-06-10 07:02:18.036
-cmq8cnzjc000004l8utnoryka	albaauledasc@gmail.com	$2b$12$m11Gftn0Mz9ct4CeSjP1refUHmfycsmfRvluC0pb9Z5MKonHAxGra	Alba Auledas Costa	BUYER	ca	\N	cdfd5d0cd40e075be9e85ed0011c3b73b38864df90dc0403b61bbd9e2b9c8592	\N	\N	f	2026-06-10 17:35:54.792	2026-06-10 17:35:54.792
 cmq8er2lj000004jumh7n0q0j	janimarti@gmail.com	$2b$12$FRW3vMW2Q7oJP8S78HErpOmyZyFAP8YmjogRZxc6P0Xcc6NJZJtHO	Èlia Casanovas Hernàndez	BUYER	ca	2026-06-10 18:35:15.715	\N	\N	\N	f	2026-06-10 18:34:17.959	2026-06-10 18:36:01.927
+cmq8cnzjc000004l8utnoryka	albaauledasc@gmail.com	$2b$12$m11Gftn0Mz9ct4CeSjP1refUHmfycsmfRvluC0pb9Z5MKonHAxGra	Alba Auledas Costa	BUYER	ca	2026-06-11 05:48:29.177	\N	\N	\N	f	2026-06-10 17:35:54.792	2026-06-11 05:48:29.186
 \.
 
 
@@ -952,6 +952,6 @@ SELECT pg_catalog.setval('"auth"."refresh_tokens_id_seq"', 1, false);
 -- PostgreSQL database dump complete
 --
 
--- \unrestrict aaCtRyMM0CdRbVqdtx5nMDjsZoeryChy9NISob3Pq8DTenjyt5D0oyXY7ffBvRR
+-- \unrestrict BpmmsucnMgHuDwQ0fQHLGWCPmV6aWu6TgWfBlgeTcJCmKBpTTz5L6BwHB7HLCSf
 
 RESET ALL;
