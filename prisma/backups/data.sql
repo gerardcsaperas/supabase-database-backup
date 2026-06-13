@@ -4,7 +4,7 @@ SET session_replication_role = replica;
 -- PostgreSQL database dump
 --
 
--- \restrict BpmmsucnMgHuDwQ0fQHLGWCPmV6aWu6TgWfBlgeTcJCmKBpTTz5L6BwHB7HLCSf
+-- \restrict YZ5RRolMHLGLWr2AXu8PXjdWJUfuCCTuGPuFYFALRAd24JcTgIZfWXIvhfKzEDQ
 
 -- Dumped from database version 17.6
 -- Dumped by pg_dump version 17.6
@@ -226,11 +226,11 @@ cmq0mzkv4000104jrs8isx6ym	alejandrapbanca@gmail.com	$2b$12$kW2MF5wqJbp0Y5l.F2boI
 cmq0qwn5n000004l1b0zd7m8o	verorio85@gmail.com	$2b$12$2I9Mcmz6uVG0M96V6G312em.Qj8cKoHEA8FSfDnr6xap4pmTNsfC6	Verónica Rio	BUYER	ca	2026-06-05 10:25:02.872	\N	\N	\N	f	2026-06-05 09:52:23.867	2026-06-05 10:25:02.881
 cmq24otby000004kzyfgzs554	aaxeel93@hotmail.com	$2b$12$hHqneWcLvY0PkjXLbMakoOVjYnq7.o41F0mw5cQaykqGFJSnXrZSG	Axel Dagá Canudas	BUYER	ca	2026-06-07 10:06:08.054	\N	\N	\N	f	2026-06-06 09:05:59.422	2026-06-07 10:06:08.063
 cmq709p73000004l7e26w0dst	david121cc@proton.me	$2b$12$2YdiXRBGVJS4RMyar73Y/OV0QaLeL5HINsVsvfT2k/X9J4lzcORiC	David Camacho	BUYER	ca	2026-06-09 19:02:25.881	\N	\N	\N	f	2026-06-09 19:01:06.639	2026-06-09 19:02:25.887
-cmpvaoc350000yjt2w4ur6be3	test@cangerard.cat	$2b$12$J9y1LY3XEOEy8WoYGeBq9uYK.nClRP5yYKxV6W354ejlN0FRPYF1W	Venedor Demo	SELLER	ca	\N	a81ca51def852ec88d23936b710dd440d39b617fb02edc39db52408af51767d8	\N	\N	f	2026-06-01 14:19:11.537	2026-06-09 19:08:50.489
 cmq723oae000004joi3yp01p0	jordi@racodepensar.com	$2b$12$bIn7kOqjxOyd0itJ5cLOl.R3DfrrpQ4EQjRICU72x9MftUM52rrrq	JORDI TARRAGÓ ROCA	BUYER	ca	2026-06-10 05:44:50.374	\N	\N	\N	f	2026-06-09 19:52:24.758	2026-06-10 05:44:50.382
 cmq7pl9hy000004jz8jufbmlo	gonzalezjodarlaura@gmail.com	$2b$12$NjVj4kTURgZEM72SO/fUj.1Ym6X/mjj3OZG/gN2IC1hRGtuV8F2wu	Laura Gonzalez	BUYER	ca	2026-06-10 07:02:18.029	\N	\N	\N	f	2026-06-10 06:49:56.566	2026-06-10 07:02:18.036
 cmq8er2lj000004jumh7n0q0j	janimarti@gmail.com	$2b$12$FRW3vMW2Q7oJP8S78HErpOmyZyFAP8YmjogRZxc6P0Xcc6NJZJtHO	Èlia Casanovas Hernàndez	BUYER	ca	2026-06-10 18:35:15.715	\N	\N	\N	f	2026-06-10 18:34:17.959	2026-06-10 18:36:01.927
 cmq8cnzjc000004l8utnoryka	albaauledasc@gmail.com	$2b$12$m11Gftn0Mz9ct4CeSjP1refUHmfycsmfRvluC0pb9Z5MKonHAxGra	Alba Auledas Costa	BUYER	ca	2026-06-11 05:48:29.177	\N	\N	\N	f	2026-06-10 17:35:54.792	2026-06-11 05:48:29.186
+cmpvaoc350000yjt2w4ur6be3	test@cangerard.cat	$2b$12$J9y1LY3XEOEy8WoYGeBq9uYK.nClRP5yYKxV6W354ejlN0FRPYF1W	Venedor Demo	SELLER	ca	2026-06-12 16:36:59.51	\N	\N	\N	f	2026-06-01 14:19:11.537	2026-06-12 16:36:59.517
 \.
 
 
@@ -241,6 +241,7 @@ cmq8cnzjc000004l8utnoryka	albaauledasc@gmail.com	$2b$12$m11Gftn0Mz9ct4CeSjP1refU
 COPY "public"."Address" ("id", "userId", "recipient", "street", "city", "postalCode", "province", "country", "phone", "isDefault", "createdAt", "updatedAt") FROM stdin;
 cmpvcikg10007yjt26wuequhw	cmpu7a2oe0000l8t232dsj2jq	test	test	test	08520	test	ES	667717567	t	2026-06-01 15:10:41.665	2026-06-01 15:10:41.665
 cmq8ewu3z000004le4z00vp0p	cmq8er2lj000004jumh7n0q0j	Èlia Casanovas Hernàndez	C/ Gran Via de Lluís Companys, 204 3r 2a	Premià de Mar	08330	El Maresme	ES	618038622	t	2026-06-10 18:38:46.895	2026-06-10 18:38:46.895
+cmqb5nd1v000004lbb9756ccm	cmpvaoc350000yjt2w4ur6be3	Test CanGerard	c/ Test cangerard.cat	LES FRANQUESES DEL VALLES	08520	Barcelona	ES	667717567	t	2026-06-12 16:42:46.868	2026-06-12 16:42:46.868
 \.
 
 
@@ -255,9 +256,9 @@ cmpu7a3uq000hl8t2izdspdci	cmpu7a3rz000fl8t2gpop3t7w	La Cadernera	la-cadernera	Ll
 cmpu7a47u000ml8t2rpsunk86	cmpu7a45l000kl8t250r3mgr9	Tramuntana	tramuntana	Taller de disseny i artesania de l'Empordà: ceràmica, tèxtil de la llar, espardenyes i material de muntanya.	Taller de diseño y artesanía del Empordà: cerámica, textil del hogar, alpargatas y material de montaña.	An Empordà design and craft workshop: pottery, home textiles, espadrilles and mountain gear.	\N	Alt Empordà	APPROVED	\N	10.00	\N	f	f	f	f	2026-05-31 19:56:23.006	2026-05-31 19:56:23.049	2026-05-31 19:56:23.049	Figueres	ES	17600	Alt Empordà	Carrer de la Tramuntana, 23	Carrer de la Tramuntana, 23	\N	Figueres	ES	17600	Alt Empordà	ES	\N	Tramuntana Disseny SL	\N	B98765431	\N	GENERAL	+34 972 503 144	tramuntana@cangerard.cat	1	CG-B98765431
 cmpu7a4lj000rl8t22nheyztj	cmpu7a4jb000pl8t2z99dv0ay	Ceràmica Montsant	ceramica-montsant	Ceràmica feta a mà al Priorat: terrissa, plats i gerres amb esmalts tradicionals.	Cerámica hecha a mano en el Priorat: alfarería, platos y jarras con esmaltes tradicionales.	Handmade pottery from Priorat: earthenware, plates and jugs with traditional glazes.	\N	Priorat	PENDING	\N	10.00	\N	f	f	f	f	\N	2026-05-31 19:56:23.543	2026-05-31 19:56:23.543	Falset	ES	43730	Priorat	Carrer del Forn, 9	\N	\N	\N	ES	\N	\N	ES	\N	\N	\N	\N	\N	GENERAL	\N	\N	1	\N
 cmpvaoc650002yjt2cim935ix	cmpvaoc350000yjt2w4ur6be3	Test	test	test	test	test	\N	Test	APPROVED	\N	10.00	\N	f	f	f	f	2026-06-01 15:06:24.796	2026-06-01 14:19:11.537	2026-06-01 15:06:24.8	\N	ES	\N	\N	\N	c/ Test 1-3	\N	Granollers	ES	08502	Barcelona	ES	6a1d9540ee7a73ecb103debf	TEST, S.L.	\N	47920372X	\N	GENERAL	667717567	test@cangerard.cat	1	CG-B1213141516
-cmpu7a33m0007l8t2zwqbkwf7	cmpu7a31d0005l8t2bcdsydsr	Cal Forner	cal-forner	Forn de pa i botiga de gust del Bages: embotits, formatges, torrons, conserves i caves de tota la vida.	Horno de pan y tienda gourmet del Bages: embutidos, quesos, turrones, conservas y cavas de toda la vida.	A bakery and gourmet shop from Bages: cured meats, cheeses, nougat, preserves and cava.	\N	Bages	APPROVED	\N	10.00	\N	f	f	f	f	2026-05-31 19:56:21.556	2026-05-31 19:56:21.601	2026-06-01 15:10:57.163	Manresa	ES	08241	Bages	Carrer del Born, 12	Carrer del Born, 12	\N	Manresa	ES	08241	Bages	ES	\N	Cal Forner SL	\N	B12345674	\N	GENERAL	+34 938 720 011	calforner@cangerard.cat	2	CG-B12345674
 cmpy87w4o000204l1twrbo7ye	cmpy87vzd000004l1nekjm03g	Quota Vita	quota-vita	Whey protein amb gustos locals de crema catalana i orxata	Whey protein amb gustos locals de crema catalana i orxata	Whey protein amb gustos locals de crema catalana i orxata	\N	Premià de Mar	PENDING	\N	10.00	\N	f	f	f	f	\N	2026-06-03 15:33:43.465	2026-06-03 15:33:43.465	\N	ES	\N	\N	\N	\N	\N	\N	ES	\N	\N	ES	\N	\N	\N	\N	\N	GENERAL	683338038	\N	1	\N
 cmpyhlfag000204l428x8he27	cmpyhlf4w000004l4f8q7ljyu	Marta Segarra	marta-segarra	Les Franqueses del Vallès Les Franqueses del Vallès Les Franqueses del Vallès	Les Franqueses del Vallès Les Franqueses del Vallès Les Franqueses del Vallès	Les Franqueses del Vallès Les Franqueses del Vallès Les Franqueses del Vallès	\N	Les Franqueses del Vallès	PENDING	\N	10.00	\N	f	f	f	f	\N	2026-06-03 19:56:11.36	2026-06-03 19:56:11.36	\N	ES	\N	\N	\N	\N	\N	\N	ES	\N	\N	ES	\N	\N	\N	\N	\N	GENERAL	667717567	\N	1	\N
+cmpu7a33m0007l8t2zwqbkwf7	cmpu7a31d0005l8t2bcdsydsr	Cal Forner	cal-forner	Forn de pa i botiga de gust del Bages: embotits, formatges, torrons, conserves i caves de tota la vida.	Horno de pan y tienda gourmet del Bages: embutidos, quesos, turrones, conservas y cavas de toda la vida.	A bakery and gourmet shop from Bages: cured meats, cheeses, nougat, preserves and cava.	\N	Bages	APPROVED	\N	10.00	\N	f	f	f	f	2026-05-31 19:56:21.556	2026-05-31 19:56:21.601	2026-06-12 19:32:36.576	Manresa	ES	08241	Bages	Carrer del Born, 12	Carrer del Born, 12	\N	Manresa	ES	08241	Bages	ES	\N	Cal Forner SL	\N	B12345674	\N	GENERAL	+34 938 720 011	calforner@cangerard.cat	4	CG-B12345674
 \.
 
 
@@ -339,7 +340,7 @@ cmpu7bvzt005vl8t21o1ga9ty	cmpu7a33m0007l8t2zwqbkwf7	cmpu7a64c001cl8t2eom88xbr	Me
 cmpu7bxjb0060l8t226ep4ocm	cmpu7a47u000ml8t2rpsunk86	cmpu7a66q001el8t2qc3yi0dz	Bol de ceràmica esmaltada	Bol de cerámica esmaltada	Glazed ceramic bowl	glazed-ceramic-bowl	Bol fet a torn i esmaltat a mà, apte per al microones i el rentaplats.	Bol hecho a torno y esmaltado a mano, apto para microondas y lavavajillas.	A wheel-thrown, hand-glazed bowl — microwave and dishwasher safe.	Tramuntana	13.64	\N	21.00	16.50	EUR	24	NEW	ACTIVE	{"care": "Apte rentaplats", "diameter": "14 cm", "material": "Ceràmica"}	4.75	4	2026-05-31 19:57:47.783	2026-05-31 19:57:54.053	20	28	1800	28	FET_A_CATALUNYA	2026-05-31 19:57:47.779	f	\N	\N	0
 cmpu7c2et0068l8t2fnbe7zpm	cmpu7a47u000ml8t2rpsunk86	cmpu7a66q001el8t2qc3yi0dz	Plat de terrissa pintat a mà	Plato de barro pintado a mano	Hand-painted earthenware plate	hand-painted-earthenware-plate	Plat decoratiu de terrissa amb motius tradicionals catalans pintats a mà.	Plato decorativo de barro con motivos tradicionales catalanes pintados a mano.	A decorative earthenware plate with hand-painted traditional Catalan motifs.	Tramuntana	18.18	\N	21.00	22.00	EUR	16	NEW	ACTIVE	{"style": "Tradicional", "diameter": "22 cm", "material": "Terrissa"}	5	3	2026-05-31 19:57:54.101	2026-05-31 19:57:57.902	20	28	1800	28	FET_A_CATALUNYA	2026-05-31 19:57:54.097	f	\N	\N	0
 cmpu7c5do006el8t2sdubxltt	cmpu7a47u000ml8t2rpsunk86	cmpu7a66q001el8t2qc3yi0dz	Gerro de ceràmica blau	Jarrón de cerámica azul	Blue ceramic vase	blue-ceramic-vase	Gerro de ceràmica amb esmalt blau mediterrani, peça única feta a mà.	Jarrón de cerámica con esmalte azul mediterráneo, pieza única hecha a mano.	A ceramic vase with a Mediterranean-blue glaze — a unique handmade piece.	Tramuntana	28.84	\N	21.00	34.90	EUR	9	NEW	ACTIVE	{"style": "Mediterrani", "height": "26 cm", "material": "Ceràmica"}	4.5	2	2026-05-31 19:57:57.948	2026-05-31 19:58:01.669	20	28	1800	28	FET_A_CATALUNYA	2026-05-31 19:57:57.945	f	\N	\N	0
-cmpu7bljf0055l8t280uw0rqw	cmpu7a33m0007l8t2zwqbkwf7	cmpu7a636001bl8t2qsqskc8s	Torró d'Agramunt IGP	Turrón de Agramunt IGP	Agramunt nougat IGP	agramunt-nougat-igp	Torró cruixent d'ametlla i mel d'Agramunt, amb Indicació Geogràfica Protegida.	Turrón crujiente de almendra y miel de Agramunt, con Indicación Geográfica Protegida.	Crunchy almond-and-honey nougat from Agramunt, with Protected Geographical Indication.	Cal Forner	11.73	\N	10.00	12.90	EUR	32	NEW	ACTIVE	{"weight": "300 g", "allergens": "Fruits secs, mel"}	4.33	6	2026-05-31 19:57:32.235	2026-06-01 15:10:56.154	4	22	400	12	FET_A_CATALUNYA	2026-05-31 19:57:32.232	f	\N	\N	0
+cmpu7bljf0055l8t280uw0rqw	cmpu7a33m0007l8t2zwqbkwf7	cmpu7a636001bl8t2qsqskc8s	Torró d'Agramunt IGP	Turrón de Agramunt IGP	Agramunt nougat IGP	agramunt-nougat-igp	Torró cruixent d'ametlla i mel d'Agramunt, amb Indicació Geogràfica Protegida.	Turrón crujiente de almendra y miel de Agramunt, con Indicación Geográfica Protegida.	Crunchy almond-and-honey nougat from Agramunt, with Protected Geographical Indication.	Cal Forner	11.73	\N	10.00	12.90	EUR	32	NEW	ACTIVE	{"weight": "300 g", "allergens": "Fruits secs, mel"}	4.33	6	2026-05-31 19:57:32.235	2026-06-12 19:32:35.608	4	22	400	12	FET_A_CATALUNYA	2026-05-31 19:57:32.232	f	\N	\N	1
 cmpu7c8ad006jl8t23i1d4afk	cmpu7a47u000ml8t2rpsunk86	cmpu7a67x001fl8t2j5ik7hrj	Espardenyes catalanes de set vetes	Alpargatas catalanas de siete cintas	Catalan seven-ribbon espadrilles	catalan-seven-ribbon-espadrilles	Espardenyes tradicionals de set vetes, fetes a mà amb sola de espart.	Alpargatas tradicionales de siete cintas, hechas a mano con suela de esparto.	Traditional seven-ribbon espadrilles, handmade with an esparto sole.	Tramuntana	23.14	\N	21.00	28.00	EUR	30	NEW	ACTIVE	{"sizes": "36-45", "style": "Tradicional", "material": "Espart i cotó"}	4.67	3	2026-05-31 19:58:01.717	2026-05-31 19:58:05.593	12	30	500	20	FET_A_CATALUNYA	2026-05-31 19:58:01.713	f	\N	\N	0
 cmpu7cbbc006pl8t28vnq7yqz	cmpu7a47u000ml8t2rpsunk86	cmpu7a694001gl8t231nis4zu	Joc de tovalloles de lli	Juego de toallas de lino	Linen towel set	linen-towel-set	Joc de dues tovalloles de lli català, suaus i absorbents.	Juego de dos toallas de lino catalán, suaves y absorbentes.	A set of two Catalan-linen towels — soft and absorbent.	Tramuntana	20.25	\N	21.00	24.50	EUR	22	NEW	ACTIVE	{"care": "Rentadora 40°", "pieces": 2, "material": "100% lli"}	4.5	2	2026-05-31 19:58:05.641	2026-05-31 19:58:09.264	8	30	600	24	FET_A_CATALUNYA	2026-05-31 19:58:05.637	f	\N	\N	0
 cmpu7ce5b006ul8t21xfh6ehf	cmpu7a47u000ml8t2rpsunk86	cmpu7a694001gl8t231nis4zu	Coixí teixit a mà	Cojín tejido a mano	Hand-woven cushion	hand-woven-cushion	Coixí decoratiu teixit a mà amb cotó natural i motius geomètrics.	Cojín decorativo tejido a mano con algodón natural y motivos geométricos.	A decorative hand-woven cushion in natural cotton with geometric motifs.	Tramuntana	16.45	\N	21.00	19.90	EUR	27	NEW	ACTIVE	{"size": "45 × 45 cm", "style": "Geomètric", "material": "Cotó"}	4	3	2026-05-31 19:58:09.311	2026-05-31 19:58:13.482	8	30	600	24	FET_A_CATALUNYA	2026-05-31 19:58:09.307	f	\N	\N	0
@@ -390,6 +391,7 @@ cmpyh4sac000304l2y738st48	cmpu7dh7s009bl8t245ldaxtr	Variant 2	Variant 2	Variant 
 
 COPY "public"."CartItem" ("id", "userId", "sessionId", "productId", "quantity", "createdAt", "updatedAt", "savedForLater", "variantId") FROM stdin;
 cmpwtrpvo000004jy40moei4q	cmpu7a2oe0000l8t232dsj2jq	\N	cmpu7bljf0055l8t280uw0rqw	1	2026-06-02 16:01:28.26	2026-06-02 16:01:28.26	f	\N
+cmqayr7es000004l2u2f95y3t	\N	85d84df5-62c2-410b-8ac2-9cb84e24320b	cmpu7dd7h0094l8t28p1b078o	1	2026-06-12 13:29:48.869	2026-06-12 13:29:48.869	f	\N
 \.
 
 
@@ -399,6 +401,7 @@ cmpwtrpvo000004jy40moei4q	cmpu7a2oe0000l8t232dsj2jq	\N	cmpu7bljf0055l8t280uw0rqw
 
 COPY "public"."ContactMessage" ("id", "reason", "name", "email", "subject", "body", "locale", "userId", "handled", "handledAt", "createdAt") FROM stdin;
 cmq6zimj3000004gwitzd4sdl	LOGISTICS	Fredrick	fredrick.cohen45@gmail.com	Suggestions to Improve Your Website’s User Experience cangerard.com	Hello,\r\n\r\nI noticed a few design-related issues on your website cangerard.com that could impact its performance and user experience.\r\n\r\nWould you like me to send a screenshot highlighting these errors? I can also prepare a detailed audit report, along with a proposal and pricing to improve your website’s design and optimize its ranking.\r\n\r\nLooking forward to your response.\r\n\r\nKind regard	ca	\N	f	\N	2026-06-09 18:40:03.471
+cmqaywyme000004jug2luj40d	OTHER	Hola	magikpat@protonmail.com	Teniu això obert jejeje	de fet varies coses :(	ca	\N	f	\N	2026-06-12 13:34:17.414
 \.
 
 
@@ -408,6 +411,7 @@ cmq6zimj3000004gwitzd4sdl	LOGISTICS	Fredrick	fredrick.cohen45@gmail.com	Suggesti
 
 COPY "public"."Order" ("id", "orderNumber", "buyerId", "status", "subtotal", "shippingTotal", "grandTotal", "currency", "shippingAddress", "stripePaymentIntentId", "paidAt", "createdAt", "updatedAt", "shippingMarginDelta", "shippingRealCost", "shippingService", "shippingVatBreakdown", "vatBreakdown") FROM stdin;
 cmpvcikjr0008yjt2tf4ihh33	CG-20260601-DIMMPF	cmpu7a2oe0000l8t232dsj2jq	PAID	129.00	0.00	129.00	EUR	{"city": "test", "phone": "667717567", "street": "test", "country": "ES", "province": "test", "recipient": "test", "postalCode": "08520"}	pi_3TdXUEGkg0BRtJUg1YCuUeRI	2026-06-01 15:10:56.011	2026-06-01 15:10:41.799	2026-06-01 15:10:56.065	0.00	0.00	custom	{}	[{"base": 117.27, "rate": 10, "cuota": 11.73}]
+cmqb5ndd5000104lbu95woi7r	CG-20260612-NICKI4	cmpvaoc350000yjt2w4ur6be3	CANCELLED	12.90	3.95	16.85	EUR	{"city": "LES FRANQUESES DEL VALLES", "phone": "667717567", "street": "c/ Test cangerard.cat", "country": "ES", "province": "Barcelona", "recipient": "Test CanGerard", "postalCode": "08520"}	pi_3ThYAOGkg0BRtJUg1MIXePv0	2026-06-12 16:43:02.579	2026-06-12 16:42:47.273	2026-06-12 19:32:35.415	0.00	3.95	standard	{"base": 3.26, "rate": 21, "cuota": 0.69}	[{"base": 11.73, "rate": 10, "cuota": 1.17}]
 \.
 
 
@@ -455,6 +459,7 @@ cmpu7a4rt000sl8t2kw42q43u	cmpu7a4lj000rl8t22nheyztj	Enviament gratuït a partir 
 
 COPY "public"."Shipment" ("id", "orderId", "sellerId", "service", "realCost", "sendcloudParcelId", "labelUrl", "trackingNumber", "trackingStatus", "carrier", "idempotencyKey", "labelSentToVendorAt", "createdAt", "updatedAt", "methodName", "sellerShippingMethodId") FROM stdin;
 cmpvcikr2000byjt2xzc2tvlw	cmpvcikjr0008yjt2tf4ihh33	cmpu7a33m0007l8t2zwqbkwf7	custom	0.00	\N	\N	\N	seller_fulfilled	\N	cmpvcikjr0008yjt2tf4ihh33-cmpu7a33m0007l8t2zwqbkwf7	2026-06-01 15:10:56.758	2026-06-01 15:10:42.062	2026-06-01 15:10:56.759	Enviament gratuït a partir de 40 €	cmpu7a3b60009l8t2un7lp59m
+cmqb5ndrm000404lbwq9r2ozd	cmqb5ndd5000104lbu95woi7r	cmpu7a33m0007l8t2zwqbkwf7	standard	3.95	MOCK-L8T2ZWQBKWF7	/uploads/labels/mock-cmqb5ndrm000404lbwq9r2ozd.pdf	CGMOCKL8T2ZWQBKWF7	label_created	mock-carrier	cmqb5ndd5000104lbu95woi7r-cmpu7a33m0007l8t2zwqbkwf7	2026-06-12 16:43:04.317	2026-06-12 16:42:47.794	2026-06-12 16:43:04.318	\N	\N
 \.
 
 
@@ -464,6 +469,7 @@ cmpvcikr2000byjt2xzc2tvlw	cmpvcikjr0008yjt2tf4ihh33	cmpu7a33m0007l8t2zwqbkwf7	cu
 
 COPY "public"."OrderItem" ("id", "orderId", "productId", "sellerId", "productTitle", "productImageUrl", "unitPrice", "quantity", "lineTotal", "platformFee", "sellerEarnings", "stripeTransferId", "fulfillmentStatus", "createdAt", "updatedAt", "shipmentId", "variantId", "variantLabel", "baseAmount", "vatAmount", "vatRate") FROM stdin;
 cmpvcikl40009yjt2au1qm4v5	cmpvcikjr0008yjt2tf4ihh33	cmpu7bljf0055l8t280uw0rqw	cmpu7a33m0007l8t2zwqbkwf7	Torró d'Agramunt IGP	https://res.cloudinary.com/gerardcsaperas/image/upload/v1779701168/cangerard/seed/agramunt-nougat-igp-1.svg	12.90	10	129.00	12.90	113.39	\N	UNFULFILLED	2026-06-01 15:10:41.799	2026-06-01 15:10:42.161	cmpvcikr2000byjt2xzc2tvlw	\N	\N	117.27	11.73	10.00
+cmqb5ndg5000204lbym2aqpvi	cmqb5ndd5000104lbu95woi7r	cmpu7bljf0055l8t280uw0rqw	cmpu7a33m0007l8t2zwqbkwf7	Torró d'Agramunt IGP	https://res.cloudinary.com/gerardcsaperas/image/upload/v1779701168/cangerard/seed/agramunt-nougat-igp-1.svg	12.90	1	12.90	1.29	11.34	\N	CANCELLED	2026-06-12 16:42:47.273	2026-06-12 19:32:35.512	cmqb5ndrm000404lbwq9r2ozd	\N	\N	11.73	1.17	10.00
 \.
 
 
@@ -473,6 +479,7 @@ cmpvcikl40009yjt2au1qm4v5	cmpvcikjr0008yjt2tf4ihh33	cmpu7bljf0055l8t280uw0rqw	cm
 
 COPY "public"."Payment" ("id", "orderId", "provider", "method", "status", "amount", "currency", "stripePaymentIntentId", "stripeChargeId", "createdAt", "updatedAt", "stripeBalanceTxId", "stripeFeeAmount") FROM stdin;
 cmpvcikmc000ayjt2ourov3zy	cmpvcikjr0008yjt2tf4ihh33	STRIPE	CARD	SUCCEEDED	129.00	EUR	pi_3TdXUEGkg0BRtJUg1YCuUeRI	ch_3TdXUEGkg0BRtJUg1Kmn3Bz8	2026-06-01 15:10:41.799	2026-06-01 15:10:56.111	\N	\N
+cmqb5ndjd000304lbru2xd3ql	cmqb5ndd5000104lbu95woi7r	STRIPE	CARD	REFUNDED	16.85	EUR	pi_3ThYAOGkg0BRtJUg1MIXePv0	ch_3ThYAOGkg0BRtJUg1xeo8lct	2026-06-12 16:42:47.273	2026-06-12 19:32:35.317	\N	\N
 \.
 
 
@@ -481,6 +488,8 @@ cmpvcikmc000ayjt2ourov3zy	cmpvcikjr0008yjt2tf4ihh33	STRIPE	CARD	SUCCEEDED	129.00
 --
 
 COPY "public"."PlatformInvoice" ("id", "concept", "status", "sellerId", "buyerId", "orderId", "period", "baseAmount", "vatRate", "vatAmount", "totalAmount", "holdedInvoiceId", "holdedInvoiceNum", "holdedSeries", "pdfUrl", "rectifiesId", "lastError", "attemptedAt", "createdAt", "updatedAt", "sourceOrderId") FROM stdin;
+cmqb5nqny000504lbovd9odq5	SHIPPING	ISSUED	\N	cmpvaoc350000yjt2w4ur6be3	cmqb5ndd5000104lbu95woi7r	\N	3.26	21.00	0.69	3.95	6a2c37199fa7ce743f0c8508	F260023	\N	\N	\N	\N	2026-06-12 16:43:06.05	2026-06-12 16:43:04.511	2026-06-12 16:43:06.052	\N
+cmqbbptiu000304l2wih60isu	SHIPPING_RECTIFY	ISSUED	\N	cmpvaoc350000yjt2w4ur6be3	cmqb5ndd5000104lbu95woi7r	\N	3.26	21.00	0.69	3.95	6a2c5ed74134af7f730f50ab	CN260002	\N	\N	cmqb5nqny000504lbovd9odq5	\N	2026-06-12 19:32:40.041	2026-06-12 19:32:39.222	2026-06-12 19:32:40.043	\N
 \.
 
 
@@ -594,6 +603,8 @@ COPY "public"."RectificationRequest" ("id", "invoiceRecipientId", "status", "rea
 --
 
 COPY "public"."Refund" ("id", "paymentId", "orderItemId", "amount", "reason", "status", "stripeRefundId", "stripeTransferReversalId", "createdAt", "updatedAt") FROM stdin;
+cmqbbpqfb000004l221xblva4	cmqb5ndjd000304lbru2xd3ql	\N	12.90	requested_by_customer	SUCCEEDED	re_3ThYAOGkg0BRtJUg1pgziRN5	\N	2026-06-12 19:32:35.207	2026-06-12 19:32:35.207
+cmqbbpqfb000104l2872kwlcy	cmqb5ndjd000304lbru2xd3ql	\N	3.95	delivery	SUCCEEDED	re_3ThYAOGkg0BRtJUg1d6XFKMX	\N	2026-06-12 19:32:35.207	2026-06-12 19:32:35.207
 \.
 
 
@@ -777,6 +788,8 @@ cmq724x41000004l5qhhfyaty	Auriculars	auriculars	ca	0	\N	2026-06-09 19:53:22.849
 
 COPY "public"."SellerSaleInvoice" ("id", "orderId", "sellerId", "buyerId", "kind", "type", "status", "series", "number", "invoiceNumber", "issueDate", "issuerSnapshot", "recipientSnapshot", "lineItems", "baseAmount", "vatBreakdown", "vatAmount", "totalAmount", "legalMention", "pdfPublicId", "pdfUrl", "rectifiesId", "lastError", "createdAt", "updatedAt", "saleIdempotencyKey") FROM stdin;
 cmpvciwfs000cyjt2csq0ofla	cmpvcikjr0008yjt2tf4ihh33	cmpu7a33m0007l8t2zwqbkwf7	cmpu7a2oe0000l8t232dsj2jq	SALE	SIMPLIFIED	ISSUED	CG-B12345674	1	CG-B12345674-000001	2026-06-01 15:10:57.208	{"taxId": "B12345674", "legalName": "Cal Forner SL", "vatRegime": "GENERAL", "fiscalCity": "Manresa", "fiscalCountry": "ES", "fiscalProvince": "Bages", "fiscalPostalCode": "08241", "fiscalAddressLine1": "Carrer del Born, 12", "fiscalAddressLine2": null, "vatExemptionLegalBasis": null}	null	[{"title": "Torró d'Agramunt IGP", "vatRate": 10, "quantity": 10, "lineTotal": 129, "unitPrice": 12.9, "vatAmount": 11.73, "baseAmount": 117.27, "variantLabel": null}]	117.27	[{"base": 117.27, "rate": 10, "cuota": 11.73}]	11.73	129.00	Factura expedida por cangerard.cat en nombre y por cuenta de Cal Forner SL, conforme al art. 5 del RD 1619/2012.	cangerard/fiscal/invoices/cmpvciwfs000cyjt2csq0ofla.pdf	https://res.cloudinary.com/gerardcsaperas/raw/private/s--YzXZN6RL--/v1780326658/cangerard/fiscal/invoices/cmpvciwfs000cyjt2csq0ofla.pdf	\N	\N	2026-06-01 15:10:57.208	2026-06-01 15:10:58.583	cmpvcikjr0008yjt2tf4ihh33:cmpu7a33m0007l8t2zwqbkwf7
+cmqb5nsv0000604lb6ovy6gkh	cmqb5ndd5000104lbu95woi7r	cmpu7a33m0007l8t2zwqbkwf7	cmpvaoc350000yjt2w4ur6be3	SALE	SIMPLIFIED	RECTIFIED	CG-B12345674	2	CG-B12345674-000002	2026-06-12 16:43:07.356	{"taxId": "B12345674", "legalName": "Cal Forner SL", "vatRegime": "GENERAL", "fiscalCity": "Manresa", "fiscalCountry": "ES", "fiscalProvince": "Bages", "fiscalPostalCode": "08241", "fiscalAddressLine1": "Carrer del Born, 12", "fiscalAddressLine2": null, "vatExemptionLegalBasis": null}	null	[{"title": "Torró d'Agramunt IGP", "vatRate": 10, "quantity": 1, "lineTotal": 12.9, "unitPrice": 12.9, "vatAmount": 1.17, "baseAmount": 11.73, "variantLabel": null}]	11.73	[{"base": 11.73, "rate": 10, "cuota": 1.17}]	1.17	12.90	Factura expedida por cangerard.cat en nombre y por cuenta de Cal Forner SL, conforme al art. 5 del RD 1619/2012.	cangerard/fiscal/invoices/cmqb5nsv0000604lb6ovy6gkh.pdf	https://res.cloudinary.com/gerardcsaperas/raw/private/s--0c18uHpL--/v1781282588/cangerard/fiscal/invoices/cmqb5nsv0000604lb6ovy6gkh.pdf	\N	\N	2026-06-12 16:43:07.356	2026-06-12 19:32:36.776	cmqb5ndd5000104lbu95woi7r:cmpu7a33m0007l8t2zwqbkwf7
+cmqbbprk4000204l2xljkqr0i	cmqb5ndd5000104lbu95woi7r	cmpu7a33m0007l8t2zwqbkwf7	cmpvaoc350000yjt2w4ur6be3	RECTIFICATION	SIMPLIFIED	ISSUED	CG-B12345674	3	CG-B12345674-000003	2026-06-12 19:32:36.676	{"taxId": "B12345674", "legalName": "Cal Forner SL", "vatRegime": "GENERAL", "fiscalCity": "Manresa", "fiscalCountry": "ES", "fiscalProvince": "Bages", "fiscalPostalCode": "08241", "fiscalAddressLine1": "Carrer del Born, 12", "fiscalAddressLine2": null, "vatExemptionLegalBasis": null}	null	[{"title": "Torró d'Agramunt IGP", "vatRate": 10, "quantity": 1, "lineTotal": -12.9, "unitPrice": 12.9, "vatAmount": -1.17, "baseAmount": -11.73, "variantLabel": null}]	-11.73	[{"base": -11.73, "rate": 10, "cuota": -1.17}]	-1.17	-12.90	Factura expedida por cangerard.cat en nombre y por cuenta de Cal Forner SL, conforme al art. 5 del RD 1619/2012.	cangerard/fiscal/invoices/cmqbbprk4000204l2xljkqr0i.pdf	https://res.cloudinary.com/gerardcsaperas/raw/private/s--vNu1WkfJ--/v1781292757/cangerard/fiscal/invoices/cmqbbprk4000204l2xljkqr0i.pdf	cmqb5nsv0000604lb6ovy6gkh	buyer email: The cangerard.cat domain is not verified. Please, add and verify your domain on https://resend.com/domains; seller email: The cangerard.cat domain is not verified. Please, add and verify your domain on https://resend.com/domains	2026-06-12 19:32:36.676	2026-06-12 19:32:38.931	\N
 \.
 
 
@@ -786,6 +799,7 @@ cmpvciwfs000cyjt2csq0ofla	cmpvcikjr0008yjt2tf4ihh33	cmpu7a33m0007l8t2zwqbkwf7	cm
 
 COPY "public"."Setting" ("key", "value", "updatedAt") FROM stdin;
 defaultCommissionRate	10	2026-05-31 19:56:21.021
+holdedB2CContactId	6a2c37182d9f849b320d93e1	2026-06-12 16:43:05.201
 \.
 
 
@@ -952,6 +966,6 @@ SELECT pg_catalog.setval('"auth"."refresh_tokens_id_seq"', 1, false);
 -- PostgreSQL database dump complete
 --
 
--- \unrestrict BpmmsucnMgHuDwQ0fQHLGWCPmV6aWu6TgWfBlgeTcJCmKBpTTz5L6BwHB7HLCSf
+-- \unrestrict YZ5RRolMHLGLWr2AXu8PXjdWJUfuCCTuGPuFYFALRAd24JcTgIZfWXIvhfKzEDQ
 
 RESET ALL;
