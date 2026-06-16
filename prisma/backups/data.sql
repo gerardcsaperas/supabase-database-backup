@@ -4,7 +4,7 @@ SET session_replication_role = replica;
 -- PostgreSQL database dump
 --
 
--- \restrict qRfhTnpEo0XmDV22h6njy4rO6apcQneBLSHS7qrsO5pfqT85MJnYkB3yTQCDMvu
+-- \restrict 68pBW4OoyTR20vd69rxQQ6cEzP8bHwEVCOzx1hzvtAbOEgRk8RDzc6lqVl6kOpm
 
 -- Dumped from database version 17.6
 -- Dumped by pg_dump version 17.6
@@ -402,6 +402,7 @@ cmqayr7es000004l2u2f95y3t	\N	85d84df5-62c2-410b-8ac2-9cb84e24320b	cmpu7dd7h0094l
 COPY "public"."ContactMessage" ("id", "reason", "name", "email", "subject", "body", "locale", "userId", "handled", "handledAt", "createdAt") FROM stdin;
 cmq6zimj3000004gwitzd4sdl	LOGISTICS	Fredrick	fredrick.cohen45@gmail.com	Suggestions to Improve Your Website’s User Experience cangerard.com	Hello,\r\n\r\nI noticed a few design-related issues on your website cangerard.com that could impact its performance and user experience.\r\n\r\nWould you like me to send a screenshot highlighting these errors? I can also prepare a detailed audit report, along with a proposal and pricing to improve your website’s design and optimize its ranking.\r\n\r\nLooking forward to your response.\r\n\r\nKind regard	ca	\N	f	\N	2026-06-09 18:40:03.471
 cmqaywyme000004jug2luj40d	OTHER	Hola	magikpat@protonmail.com	Teniu això obert jejeje	de fet varies coses :(	ca	\N	f	\N	2026-06-12 13:34:17.414
+cmqf08cyn000005gn27kjg8u8	OTHER	JUDITH CONTRERAS	judith.contreras@impackta.com	Can Gerard & GLS	Hola, \r\n\r\nSóc la Judith, de GLS 📦🚀.\r\n\r\nM'agradaria entendre com gestioneu actualment la paqueteria a  i veure si hi ha punts clars on puguem simplificar la vostra operativa o millorar costos 💯.\r\n\r\n¿Què us sembla si en parlem en una trucada ràpida?\r\n\r\nSalutacions, 👉	ca	\N	f	\N	2026-06-15 09:22:13.535
 \.
 
 
@@ -966,6 +967,6 @@ SELECT pg_catalog.setval('"auth"."refresh_tokens_id_seq"', 1, false);
 -- PostgreSQL database dump complete
 --
 
--- \unrestrict qRfhTnpEo0XmDV22h6njy4rO6apcQneBLSHS7qrsO5pfqT85MJnYkB3yTQCDMvu
+-- \unrestrict 68pBW4OoyTR20vd69rxQQ6cEzP8bHwEVCOzx1hzvtAbOEgRk8RDzc6lqVl6kOpm
 
 RESET ALL;
