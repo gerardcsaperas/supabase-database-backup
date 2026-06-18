@@ -46,6 +46,15 @@ CREATE EXTENSION IF NOT EXISTS "uuid-ossp" WITH SCHEMA "extensions";
 
 
 
+CREATE TYPE "public"."ConsentType" AS ENUM (
+    'PRIVACY_NOTICE',
+    'EBOOK_IMMEDIATE_EXECUTION'
+);
+
+
+ALTER TYPE "public"."ConsentType" OWNER TO "postgres";
+
+
 CREATE TYPE "public"."ContactReason" AS ENUM (
     'GENERAL',
     'LOGISTICS',
@@ -59,6 +68,37 @@ CREATE TYPE "public"."ContactReason" AS ENUM (
 
 
 ALTER TYPE "public"."ContactReason" OWNER TO "postgres";
+
+
+CREATE TYPE "public"."DsaNoticeStatus" AS ENUM (
+    'RECEIVED',
+    'UNDER_REVIEW',
+    'ACTIONED',
+    'REJECTED'
+);
+
+
+ALTER TYPE "public"."DsaNoticeStatus" OWNER TO "postgres";
+
+
+CREATE TYPE "public"."DsaPriority" AS ENUM (
+    'NORMAL',
+    'PRODUCT_SAFETY',
+    'AUTHORITY_ORDER'
+);
+
+
+ALTER TYPE "public"."DsaPriority" OWNER TO "postgres";
+
+
+CREATE TYPE "public"."DsaTargetType" AS ENUM (
+    'PRODUCT',
+    'SELLER',
+    'REVIEW'
+);
+
+
+ALTER TYPE "public"."DsaTargetType" OWNER TO "postgres";
 
 
 CREATE TYPE "public"."FulfillmentStatus" AS ENUM (
@@ -92,6 +132,60 @@ CREATE TYPE "public"."InvoiceRequestStatus" AS ENUM (
 
 
 ALTER TYPE "public"."InvoiceRequestStatus" OWNER TO "postgres";
+
+
+CREATE TYPE "public"."ModerationMeasure" AS ENUM (
+    'REMOVE_LISTING',
+    'RESTRICT',
+    'SUSPEND',
+    'TERMINATE',
+    'REVIEW_REMOVAL'
+);
+
+
+ALTER TYPE "public"."ModerationMeasure" OWNER TO "postgres";
+
+
+CREATE TYPE "public"."NotificationType" AS ENUM (
+    'ORDER_CONFIRMED',
+    'ORDER_SHIPPED',
+    'ORDER_DELIVERED',
+    'ORDER_CANCELLED',
+    'ORDER_REFUNDED',
+    'SELLER_NEW_ORDER',
+    'SELLER_ORDER_REFUNDED',
+    'SELLER_LABEL_READY',
+    'SELLER_STATUS_CHANGED',
+    'SELLER_PRODUCT_MODERATED',
+    'SELLER_LOW_STOCK',
+    'SELLER_NEW_REVIEW',
+    'SELLER_COMMISSION_INVOICE',
+    'SELLER_CATEGORY_POLICY_CHANGED',
+    'SELLER_SHIPMENT_DELAYED',
+    'ADMIN_NEW_USER',
+    'ADMIN_NEW_SELLER',
+    'ADMIN_NEW_ORDER',
+    'ADMIN_NEW_PRODUCT',
+    'ADMIN_NEW_SHIPPING_METHOD',
+    'ADMIN_REFUND',
+    'ADMIN_ACCOUNT_DELETED',
+    'ADMIN_SELLER_DELETION_REQUESTED',
+    'ADMIN_INVOICE_FAILED',
+    'ADMIN_CONTACT_MESSAGE',
+    'BUYER_RETURN_REQUESTED',
+    'SELLER_RETURN_REQUESTED',
+    'ADMIN_RETURN_REQUESTED',
+    'ADMIN_RETURN_RECEIVED',
+    'ADMIN_PRODUCT_FLAGGED',
+    'SELLER_REVIEW_REMOVED',
+    'BUYER_REVIEW_REMOVED',
+    'DSA_NOTICE_ACK',
+    'ADMIN_DSA_NOTICE',
+    'ADMIN_DSA_PRIORITY'
+);
+
+
+ALTER TYPE "public"."NotificationType" OWNER TO "postgres";
 
 
 CREATE TYPE "public"."OrderStatus" AS ENUM (
@@ -200,6 +294,15 @@ CREATE TYPE "public"."RectificationStatus" AS ENUM (
 ALTER TYPE "public"."RectificationStatus" OWNER TO "postgres";
 
 
+CREATE TYPE "public"."RefundExecutor" AS ENUM (
+    'SELLER',
+    'PLATFORM_SUBSIDIARY'
+);
+
+
+ALTER TYPE "public"."RefundExecutor" OWNER TO "postgres";
+
+
 CREATE TYPE "public"."RefundStatus" AS ENUM (
     'PENDING',
     'SUCCEEDED',
@@ -208,6 +311,26 @@ CREATE TYPE "public"."RefundStatus" AS ENUM (
 
 
 ALTER TYPE "public"."RefundStatus" OWNER TO "postgres";
+
+
+CREATE TYPE "public"."ReturnStatus" AS ENUM (
+    'REQUESTED',
+    'RECEIVED',
+    'REFUNDED',
+    'REJECTED'
+);
+
+
+ALTER TYPE "public"."ReturnStatus" OWNER TO "postgres";
+
+
+CREATE TYPE "public"."ReviewModerationStatus" AS ENUM (
+    'PUBLISHED',
+    'REMOVED'
+);
+
+
+ALTER TYPE "public"."ReviewModerationStatus" OWNER TO "postgres";
 
 
 CREATE TYPE "public"."Role" AS ENUM (
@@ -342,11 +465,28 @@ CREATE TABLE IF NOT EXISTS "public"."Category" (
     "sortOrder" integer DEFAULT 0 NOT NULL,
     "createdAt" timestamp(3) without time zone DEFAULT CURRENT_TIMESTAMP NOT NULL,
     "updatedAt" timestamp(3) without time zone NOT NULL,
-    "sendcloudEnabled" boolean DEFAULT true NOT NULL
+    "sendcloudEnabled" boolean DEFAULT true NOT NULL,
+    "ageRestricted" boolean DEFAULT false NOT NULL,
+    "withdrawalExcludedDefault" boolean DEFAULT false NOT NULL
 );
 
 
 ALTER TABLE "public"."Category" OWNER TO "postgres";
+
+
+CREATE TABLE IF NOT EXISTS "public"."ConsentRecord" (
+    "id" "text" NOT NULL,
+    "userId" "text" NOT NULL,
+    "type" "public"."ConsentType" NOT NULL,
+    "granted" boolean NOT NULL,
+    "textShown" "text" NOT NULL,
+    "locale" "text" NOT NULL,
+    "ip" "text",
+    "createdAt" timestamp(3) without time zone DEFAULT CURRENT_TIMESTAMP NOT NULL
+);
+
+
+ALTER TABLE "public"."ConsentRecord" OWNER TO "postgres";
 
 
 CREATE TABLE IF NOT EXISTS "public"."ContactMessage" (
@@ -365,6 +505,29 @@ CREATE TABLE IF NOT EXISTS "public"."ContactMessage" (
 
 
 ALTER TABLE "public"."ContactMessage" OWNER TO "postgres";
+
+
+CREATE TABLE IF NOT EXISTS "public"."DsaNotice" (
+    "id" "text" NOT NULL,
+    "targetType" "public"."DsaTargetType" NOT NULL,
+    "targetId" "text" NOT NULL,
+    "targetUrl" "text" NOT NULL,
+    "reporterName" "text",
+    "reporterEmail" "text",
+    "reporterUserId" "text",
+    "motivation" "text" NOT NULL,
+    "category" "text" NOT NULL,
+    "goodFaith" boolean DEFAULT false NOT NULL,
+    "status" "public"."DsaNoticeStatus" DEFAULT 'RECEIVED'::"public"."DsaNoticeStatus" NOT NULL,
+    "priority" "public"."DsaPriority" DEFAULT 'NORMAL'::"public"."DsaPriority" NOT NULL,
+    "decision" "text",
+    "statementOfReasons" "text",
+    "createdAt" timestamp(3) without time zone DEFAULT CURRENT_TIMESTAMP NOT NULL,
+    "resolvedAt" timestamp(3) without time zone
+);
+
+
+ALTER TABLE "public"."DsaNotice" OWNER TO "postgres";
 
 
 CREATE TABLE IF NOT EXISTS "public"."InvoiceDocument" (
@@ -409,6 +572,50 @@ CREATE TABLE IF NOT EXISTS "public"."InvoiceRequest" (
 ALTER TABLE "public"."InvoiceRequest" OWNER TO "postgres";
 
 
+CREATE TABLE IF NOT EXISTS "public"."ModerationAction" (
+    "id" "text" NOT NULL,
+    "measure" "public"."ModerationMeasure" NOT NULL,
+    "sellerId" "text",
+    "productId" "text",
+    "reviewId" "text",
+    "statementOfReasons" "text" NOT NULL,
+    "actorId" "text",
+    "appealStatus" "text",
+    "createdAt" timestamp(3) without time zone DEFAULT CURRENT_TIMESTAMP NOT NULL
+);
+
+
+ALTER TABLE "public"."ModerationAction" OWNER TO "postgres";
+
+
+CREATE TABLE IF NOT EXISTS "public"."Notification" (
+    "id" "text" NOT NULL,
+    "userId" "text" NOT NULL,
+    "type" "public"."NotificationType" NOT NULL,
+    "payload" "jsonb" DEFAULT '{}'::"jsonb" NOT NULL,
+    "readAt" timestamp(3) without time zone,
+    "emailedAt" timestamp(3) without time zone,
+    "createdAt" timestamp(3) without time zone DEFAULT CURRENT_TIMESTAMP NOT NULL
+);
+
+
+ALTER TABLE "public"."Notification" OWNER TO "postgres";
+
+
+CREATE TABLE IF NOT EXISTS "public"."NotificationPreference" (
+    "id" "text" NOT NULL,
+    "userId" "text" NOT NULL,
+    "type" "public"."NotificationType" NOT NULL,
+    "inApp" boolean DEFAULT true NOT NULL,
+    "email" boolean DEFAULT true NOT NULL,
+    "whatsapp" boolean DEFAULT false NOT NULL,
+    "updatedAt" timestamp(3) without time zone NOT NULL
+);
+
+
+ALTER TABLE "public"."NotificationPreference" OWNER TO "postgres";
+
+
 CREATE TABLE IF NOT EXISTS "public"."Order" (
     "id" "text" NOT NULL,
     "orderNumber" "text" NOT NULL,
@@ -427,7 +634,8 @@ CREATE TABLE IF NOT EXISTS "public"."Order" (
     "shippingRealCost" numeric(10,2) DEFAULT 0 NOT NULL,
     "shippingService" "text" DEFAULT 'standard'::"text" NOT NULL,
     "shippingVatBreakdown" "jsonb" DEFAULT '{}'::"jsonb" NOT NULL,
-    "vatBreakdown" "jsonb" DEFAULT '[]'::"jsonb" NOT NULL
+    "vatBreakdown" "jsonb" DEFAULT '[]'::"jsonb" NOT NULL,
+    "ebookConsentAt" timestamp(3) without time zone
 );
 
 
@@ -503,7 +711,9 @@ CREATE TABLE IF NOT EXISTS "public"."PlatformInvoice" (
     "attemptedAt" timestamp(3) without time zone,
     "createdAt" timestamp(3) without time zone DEFAULT CURRENT_TIMESTAMP NOT NULL,
     "updatedAt" timestamp(3) without time zone NOT NULL,
-    "sourceOrderId" "text"
+    "sourceOrderId" "text",
+    "orderKey" "text",
+    "pdfPublicId" "text"
 );
 
 
@@ -544,7 +754,18 @@ CREATE TABLE IF NOT EXISTS "public"."Product" (
     "unlimitedStock" boolean DEFAULT false NOT NULL,
     "netContentUnit" "text",
     "netContentValue" numeric(10,3),
-    "salesCount" integer DEFAULT 0 NOT NULL
+    "salesCount" integer DEFAULT 0 NOT NULL,
+    "withdrawalEligible" boolean DEFAULT true NOT NULL,
+    "age18Plus" boolean DEFAULT false NOT NULL,
+    "bookFixedPrice" numeric(10,2),
+    "euResponsibleContact" "text",
+    "euResponsibleName" "text",
+    "foodInfo" "jsonb",
+    "manufacturerAddress" "text",
+    "manufacturerName" "text",
+    "safetyWarningsEs" "text",
+    "digitalDownloadUrl" "text",
+    "isDigital" boolean DEFAULT false NOT NULL
 );
 
 
@@ -627,6 +848,38 @@ CREATE TABLE IF NOT EXISTS "public"."Refund" (
 ALTER TABLE "public"."Refund" OWNER TO "postgres";
 
 
+CREATE TABLE IF NOT EXISTS "public"."ReturnItem" (
+    "id" "text" NOT NULL,
+    "returnRequestId" "text" NOT NULL,
+    "orderItemId" "text" NOT NULL,
+    "quantity" integer NOT NULL
+);
+
+
+ALTER TABLE "public"."ReturnItem" OWNER TO "postgres";
+
+
+CREATE TABLE IF NOT EXISTS "public"."ReturnRequest" (
+    "id" "text" NOT NULL,
+    "orderId" "text" NOT NULL,
+    "sellerId" "text" NOT NULL,
+    "buyerId" "text" NOT NULL,
+    "status" "public"."ReturnStatus" DEFAULT 'REQUESTED'::"public"."ReturnStatus" NOT NULL,
+    "reason" "text",
+    "refundAmount" numeric(10,2),
+    "createdAt" timestamp(3) without time zone DEFAULT CURRENT_TIMESTAMP NOT NULL,
+    "receivedAt" timestamp(3) without time zone,
+    "refundedAt" timestamp(3) without time zone,
+    "updatedAt" timestamp(3) without time zone NOT NULL,
+    "refundExecutedBy" "public"."RefundExecutor",
+    "shipmentProofAt" timestamp(3) without time zone,
+    "shipmentProofUrl" "text"
+);
+
+
+ALTER TABLE "public"."ReturnRequest" OWNER TO "postgres";
+
+
 CREATE TABLE IF NOT EXISTS "public"."Review" (
     "id" "text" NOT NULL,
     "productId" "text" NOT NULL,
@@ -637,7 +890,11 @@ CREATE TABLE IF NOT EXISTS "public"."Review" (
     "verifiedPurchase" boolean DEFAULT false NOT NULL,
     "helpfulCount" integer DEFAULT 0 NOT NULL,
     "createdAt" timestamp(3) without time zone DEFAULT CURRENT_TIMESTAMP NOT NULL,
-    "updatedAt" timestamp(3) without time zone NOT NULL
+    "updatedAt" timestamp(3) without time zone NOT NULL,
+    "moderationStatus" "public"."ReviewModerationStatus" DEFAULT 'PUBLISHED'::"public"."ReviewModerationStatus" NOT NULL,
+    "orderId" "text",
+    "removalReason" "text",
+    "removedAt" timestamp(3) without time zone
 );
 
 
@@ -700,7 +957,10 @@ CREATE TABLE IF NOT EXISTS "public"."SellerProfile" (
     "phone" "text",
     "fiscalEmail" "text",
     "saleInvoiceNextNumber" integer DEFAULT 1 NOT NULL,
-    "saleInvoiceSeriesPrefix" "text"
+    "saleInvoiceSeriesPrefix" "text",
+    "rgseaa" "text",
+    "sellerTermsAcceptedAt" timestamp(3) without time zone,
+    "sellerTermsVersion" "text"
 );
 
 
@@ -811,7 +1071,8 @@ CREATE TABLE IF NOT EXISTS "public"."TaxProfile" (
     "fiscalProvince" "text" NOT NULL,
     "fiscalCountry" "text" DEFAULT 'ES'::"text" NOT NULL,
     "createdAt" timestamp(3) without time zone DEFAULT CURRENT_TIMESTAMP NOT NULL,
-    "updatedAt" timestamp(3) without time zone NOT NULL
+    "updatedAt" timestamp(3) without time zone NOT NULL,
+    "holdedContactId" "text"
 );
 
 
@@ -831,7 +1092,10 @@ CREATE TABLE IF NOT EXISTS "public"."User" (
     "passwordResetExpires" timestamp(3) without time zone,
     "suspended" boolean DEFAULT false NOT NULL,
     "createdAt" timestamp(3) without time zone DEFAULT CURRENT_TIMESTAMP NOT NULL,
-    "updatedAt" timestamp(3) without time zone NOT NULL
+    "updatedAt" timestamp(3) without time zone NOT NULL,
+    "deletedAt" timestamp(3) without time zone,
+    "dateOfBirth" timestamp(3) without time zone,
+    "displayAlias" "text"
 );
 
 
@@ -922,8 +1186,18 @@ ALTER TABLE ONLY "public"."Category"
 
 
 
+ALTER TABLE ONLY "public"."ConsentRecord"
+    ADD CONSTRAINT "ConsentRecord_pkey" PRIMARY KEY ("id");
+
+
+
 ALTER TABLE ONLY "public"."ContactMessage"
     ADD CONSTRAINT "ContactMessage_pkey" PRIMARY KEY ("id");
+
+
+
+ALTER TABLE ONLY "public"."DsaNotice"
+    ADD CONSTRAINT "DsaNotice_pkey" PRIMARY KEY ("id");
 
 
 
@@ -939,6 +1213,21 @@ ALTER TABLE ONLY "public"."InvoiceRecipient"
 
 ALTER TABLE ONLY "public"."InvoiceRequest"
     ADD CONSTRAINT "InvoiceRequest_pkey" PRIMARY KEY ("id");
+
+
+
+ALTER TABLE ONLY "public"."ModerationAction"
+    ADD CONSTRAINT "ModerationAction_pkey" PRIMARY KEY ("id");
+
+
+
+ALTER TABLE ONLY "public"."NotificationPreference"
+    ADD CONSTRAINT "NotificationPreference_pkey" PRIMARY KEY ("id");
+
+
+
+ALTER TABLE ONLY "public"."Notification"
+    ADD CONSTRAINT "Notification_pkey" PRIMARY KEY ("id");
 
 
 
@@ -984,6 +1273,16 @@ ALTER TABLE ONLY "public"."RectificationRequest"
 
 ALTER TABLE ONLY "public"."Refund"
     ADD CONSTRAINT "Refund_pkey" PRIMARY KEY ("id");
+
+
+
+ALTER TABLE ONLY "public"."ReturnItem"
+    ADD CONSTRAINT "ReturnItem_pkey" PRIMARY KEY ("id");
+
+
+
+ALTER TABLE ONLY "public"."ReturnRequest"
+    ADD CONSTRAINT "ReturnRequest_pkey" PRIMARY KEY ("id");
 
 
 
@@ -1089,11 +1388,27 @@ CREATE INDEX "Category_sortOrder_idx" ON "public"."Category" USING "btree" ("sor
 
 
 
+CREATE INDEX "ConsentRecord_userId_type_idx" ON "public"."ConsentRecord" USING "btree" ("userId", "type");
+
+
+
 CREATE INDEX "ContactMessage_handled_createdAt_idx" ON "public"."ContactMessage" USING "btree" ("handled", "createdAt");
 
 
 
 CREATE INDEX "ContactMessage_reason_idx" ON "public"."ContactMessage" USING "btree" ("reason");
+
+
+
+CREATE INDEX "DsaNotice_createdAt_idx" ON "public"."DsaNotice" USING "btree" ("createdAt");
+
+
+
+CREATE INDEX "DsaNotice_status_priority_idx" ON "public"."DsaNotice" USING "btree" ("status", "priority");
+
+
+
+CREATE INDEX "DsaNotice_targetType_targetId_idx" ON "public"."DsaNotice" USING "btree" ("targetType", "targetId");
 
 
 
@@ -1118,6 +1433,30 @@ CREATE UNIQUE INDEX "InvoiceRequest_orderId_buyerId_key" ON "public"."InvoiceReq
 
 
 CREATE INDEX "InvoiceRequest_status_idx" ON "public"."InvoiceRequest" USING "btree" ("status");
+
+
+
+CREATE INDEX "ModerationAction_createdAt_idx" ON "public"."ModerationAction" USING "btree" ("createdAt");
+
+
+
+CREATE INDEX "ModerationAction_reviewId_idx" ON "public"."ModerationAction" USING "btree" ("reviewId");
+
+
+
+CREATE INDEX "ModerationAction_sellerId_idx" ON "public"."ModerationAction" USING "btree" ("sellerId");
+
+
+
+CREATE UNIQUE INDEX "NotificationPreference_userId_type_key" ON "public"."NotificationPreference" USING "btree" ("userId", "type");
+
+
+
+CREATE INDEX "Notification_userId_createdAt_idx" ON "public"."Notification" USING "btree" ("userId", "createdAt");
+
+
+
+CREATE INDEX "Notification_userId_readAt_idx" ON "public"."Notification" USING "btree" ("userId", "readAt");
 
 
 
@@ -1173,11 +1512,11 @@ CREATE UNIQUE INDEX "PlatformInvoice_holdedInvoiceId_key" ON "public"."PlatformI
 
 
 
-CREATE UNIQUE INDEX "PlatformInvoice_orderId_concept_key" ON "public"."PlatformInvoice" USING "btree" ("orderId", "concept");
-
-
-
 CREATE INDEX "PlatformInvoice_orderId_idx" ON "public"."PlatformInvoice" USING "btree" ("orderId");
+
+
+
+CREATE UNIQUE INDEX "PlatformInvoice_orderKey_key" ON "public"."PlatformInvoice" USING "btree" ("orderKey");
 
 
 
@@ -1257,7 +1596,39 @@ CREATE INDEX "Refund_paymentId_idx" ON "public"."Refund" USING "btree" ("payment
 
 
 
+CREATE INDEX "ReturnItem_orderItemId_idx" ON "public"."ReturnItem" USING "btree" ("orderItemId");
+
+
+
+CREATE INDEX "ReturnItem_returnRequestId_idx" ON "public"."ReturnItem" USING "btree" ("returnRequestId");
+
+
+
+CREATE INDEX "ReturnRequest_buyerId_idx" ON "public"."ReturnRequest" USING "btree" ("buyerId");
+
+
+
+CREATE INDEX "ReturnRequest_orderId_idx" ON "public"."ReturnRequest" USING "btree" ("orderId");
+
+
+
+CREATE INDEX "ReturnRequest_sellerId_idx" ON "public"."ReturnRequest" USING "btree" ("sellerId");
+
+
+
+CREATE INDEX "ReturnRequest_status_idx" ON "public"."ReturnRequest" USING "btree" ("status");
+
+
+
+CREATE INDEX "Review_orderId_idx" ON "public"."Review" USING "btree" ("orderId");
+
+
+
 CREATE INDEX "Review_productId_idx" ON "public"."Review" USING "btree" ("productId");
+
+
+
+CREATE INDEX "Review_productId_moderationStatus_idx" ON "public"."Review" USING "btree" ("productId", "moderationStatus");
 
 
 
@@ -1345,6 +1716,10 @@ CREATE INDEX "Shipment_trackingNumber_idx" ON "public"."Shipment" USING "btree" 
 
 
 
+CREATE UNIQUE INDEX "TaxProfile_holdedContactId_key" ON "public"."TaxProfile" USING "btree" ("holdedContactId");
+
+
+
 CREATE UNIQUE INDEX "TaxProfile_userId_key" ON "public"."TaxProfile" USING "btree" ("userId");
 
 
@@ -1419,6 +1794,11 @@ ALTER TABLE ONLY "public"."Category"
 
 
 
+ALTER TABLE ONLY "public"."ConsentRecord"
+    ADD CONSTRAINT "ConsentRecord_userId_fkey" FOREIGN KEY ("userId") REFERENCES "public"."User"("id") ON UPDATE CASCADE ON DELETE CASCADE;
+
+
+
 ALTER TABLE ONLY "public"."InvoiceDocument"
     ADD CONSTRAINT "InvoiceDocument_invoiceRecipientId_fkey" FOREIGN KEY ("invoiceRecipientId") REFERENCES "public"."InvoiceRecipient"("id") ON UPDATE CASCADE ON DELETE CASCADE;
 
@@ -1446,6 +1826,26 @@ ALTER TABLE ONLY "public"."InvoiceRequest"
 
 ALTER TABLE ONLY "public"."InvoiceRequest"
     ADD CONSTRAINT "InvoiceRequest_orderId_fkey" FOREIGN KEY ("orderId") REFERENCES "public"."Order"("id") ON UPDATE CASCADE ON DELETE CASCADE;
+
+
+
+ALTER TABLE ONLY "public"."ModerationAction"
+    ADD CONSTRAINT "ModerationAction_actorId_fkey" FOREIGN KEY ("actorId") REFERENCES "public"."User"("id") ON UPDATE CASCADE ON DELETE SET NULL;
+
+
+
+ALTER TABLE ONLY "public"."ModerationAction"
+    ADD CONSTRAINT "ModerationAction_sellerId_fkey" FOREIGN KEY ("sellerId") REFERENCES "public"."SellerProfile"("id") ON UPDATE CASCADE ON DELETE SET NULL;
+
+
+
+ALTER TABLE ONLY "public"."NotificationPreference"
+    ADD CONSTRAINT "NotificationPreference_userId_fkey" FOREIGN KEY ("userId") REFERENCES "public"."User"("id") ON UPDATE CASCADE ON DELETE CASCADE;
+
+
+
+ALTER TABLE ONLY "public"."Notification"
+    ADD CONSTRAINT "Notification_userId_fkey" FOREIGN KEY ("userId") REFERENCES "public"."User"("id") ON UPDATE CASCADE ON DELETE CASCADE;
 
 
 
@@ -1536,6 +1936,36 @@ ALTER TABLE ONLY "public"."Refund"
 
 ALTER TABLE ONLY "public"."Refund"
     ADD CONSTRAINT "Refund_paymentId_fkey" FOREIGN KEY ("paymentId") REFERENCES "public"."Payment"("id") ON UPDATE CASCADE ON DELETE CASCADE;
+
+
+
+ALTER TABLE ONLY "public"."ReturnItem"
+    ADD CONSTRAINT "ReturnItem_orderItemId_fkey" FOREIGN KEY ("orderItemId") REFERENCES "public"."OrderItem"("id") ON UPDATE CASCADE ON DELETE RESTRICT;
+
+
+
+ALTER TABLE ONLY "public"."ReturnItem"
+    ADD CONSTRAINT "ReturnItem_returnRequestId_fkey" FOREIGN KEY ("returnRequestId") REFERENCES "public"."ReturnRequest"("id") ON UPDATE CASCADE ON DELETE CASCADE;
+
+
+
+ALTER TABLE ONLY "public"."ReturnRequest"
+    ADD CONSTRAINT "ReturnRequest_buyerId_fkey" FOREIGN KEY ("buyerId") REFERENCES "public"."User"("id") ON UPDATE CASCADE ON DELETE RESTRICT;
+
+
+
+ALTER TABLE ONLY "public"."ReturnRequest"
+    ADD CONSTRAINT "ReturnRequest_orderId_fkey" FOREIGN KEY ("orderId") REFERENCES "public"."Order"("id") ON UPDATE CASCADE ON DELETE CASCADE;
+
+
+
+ALTER TABLE ONLY "public"."ReturnRequest"
+    ADD CONSTRAINT "ReturnRequest_sellerId_fkey" FOREIGN KEY ("sellerId") REFERENCES "public"."SellerProfile"("id") ON UPDATE CASCADE ON DELETE RESTRICT;
+
+
+
+ALTER TABLE ONLY "public"."Review"
+    ADD CONSTRAINT "Review_orderId_fkey" FOREIGN KEY ("orderId") REFERENCES "public"."Order"("id") ON UPDATE CASCADE ON DELETE SET NULL;
 
 
 
