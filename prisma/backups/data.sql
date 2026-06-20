@@ -4,7 +4,7 @@ SET session_replication_role = replica;
 -- PostgreSQL database dump
 --
 
--- \restrict yYoZD5sDbjeNyaWmtaKqUI9iTCq1R7kyikKKaC21Hyi3Fbh7jkkgoGXKqQPh1Wn
+-- \restrict heWuBEzejQqL53FmawdmnjdcRPpAlqTVSHSNXvb41iAqkhRyv5Fl3xRpfUBRf6c
 
 -- Dumped from database version 17.6
 -- Dumped by pg_dump version 17.6
@@ -247,11 +247,9 @@ cmqj91p6i000504ilstx49t1o	salvador@cardus.cat	$2b$12$36CYiLRf9GsJB8MJzxPOYeAPqi.
 cmqjazpe4000004kz4d22drzp	embla77@hotmail.com	$2b$12$U5KWSIW9HZkSTThI12R9YOvk8Yytwr7/MI2kzss3HZ1oNdQ.R5WYi	vanesa tudela	BUYER	ca	\N	7cafefbffccad3b46d63d29d50ee76bca08de177b5050d24a98e30e02769c0ab	\N	\N	f	2026-06-18 09:34:30.22	2026-06-18 09:34:30.22	\N	1977-07-18 00:00:00	\N
 cmqj9hwcj000004jvioj091n6	santiago.alias@gmail.com	$2b$12$sfcHqeutLRHQlC/TcbswP.EiQKN2HT/Lqjb1XAlHUbsHBTsUr3nky	Santi Alias Luis	BUYER	ca	2026-06-18 10:33:52.263	\N	\N	\N	f	2026-06-18 08:52:39.811	2026-06-18 10:33:52.271	\N	1967-07-11 00:00:00	\N
 cmqjdtsco000004l78t08zf7l	chicovip@me.com	$2b$12$KlnAyouNDIipDWLuJLw69eEWK.x3ot.potMHOf.f77nEcFYbrqWQq	Enric Castillo	BUYER	ca	\N	38126d323f6e0ec9881c4706ac8b0941871f22bdb0d5a65796edbfc0b5ae268c	\N	\N	f	2026-06-18 10:53:52.968	2026-06-18 10:53:52.968	\N	1974-12-21 00:00:00	\N
-cmqjg5cry000404jlna8wgvc7	pradesmteresa561@gmail.com	$2b$12$80obH9oGP4gVljDbmRkpROap1Qcf0VqwbXYSAOhYVgx/ODDQle6iy	m teresa prades	BUYER	ca	\N	b6bb1a95a528863f012acf225e96bb7525add9b42941da1ed21583d992eaa922	\N	\N	f	2026-06-18 11:58:51.886	2026-06-18 11:58:51.886	\N	1966-06-11 00:00:00	\N
 cmqjg62po000004jxmzn6rskx	fracasopolar@gmail.com	$2b$12$rvQpUIafGdXkJjhYqDm.leqKM9/wzpBUZ7j.jwtqfXa1XwW0LeG7.	Jorge Serrate lamiel	BUYER	ca	\N	2199ecb158697f68aaeecc0560fe5a161fed5950a4be5bf3ba2043da9734b248	\N	\N	f	2026-06-18 11:59:25.5	2026-06-18 11:59:25.5	\N	1971-08-07 00:00:00	\N
 cmqjgfuxy000804jl2m66wf36	montseka2@gmail.com	$2b$12$iUPdh.lWh7X6L4jIqizWH.YMQQJbwpayGRX22tkFanxn/40aSUt0e	Montserrat Andreu Domingo	BUYER	ca	2026-06-18 12:20:12.496	\N	\N	\N	f	2026-06-18 12:07:01.99	2026-06-18 12:20:12.504	\N	1974-05-19 00:00:00	\N
 cmqjh2bty000004jvr8cham0u	francescbalcellsaleu@gmail.com	$2b$12$OBLqGFnfmu0vkU44wGjPDOaAzBTaMkEtIvLLZBlnTFQl5zxt7mhAi	Francesc Balcells Aleu	BUYER	ca	2026-06-18 12:25:13.943	\N	\N	\N	f	2026-06-18 12:24:30.31	2026-06-18 12:25:13.965	\N	1960-09-23 00:00:00	\N
-cmqjhardd000004ihc5hi51rr	raul.sa.me@icloud.com	$2b$12$zszmBnadjt7/FIm6PpsEjuIa//i/Us4FeZTMXOHgQ6AmFsVchhGOu	Raul Santamaria Menen	BUYER	ca	\N	23db551eb73b291892d30ead6bfd7487ee4e8c1e0e19b2b6415def05e0275aef	\N	\N	f	2026-06-18 12:31:03.697	2026-06-18 12:31:03.697	\N	1988-06-06 00:00:00	\N
 cmqjhbbgi000004lb371296dq	estrellayluna5@hotmail.es	$2b$12$Pb8OlxpisqK5qfXc8jwUc.S6cYcsSV1jR/D2P9lZeeGZ6LpKuwY02	Alba A	BUYER	ca	\N	ad085458f2097d976511f7d2032732911101c31ebc704ba435c81639069e88f2	\N	\N	f	2026-06-18 12:31:29.731	2026-06-18 12:31:29.731	\N	2000-12-05 00:00:00	\N
 cmqjjkqza000004l1z6ddmz1w	plopezpr11@gmail.com	$2b$12$/ni2vfVNULtEkOSKiulFU.PdpuG1TZqsR2UQmMKJgv3Om9DsH55Ae	PERE LOPEZ PRADO	BUYER	ca	2026-06-18 13:48:00.786	\N	\N	\N	f	2026-06-18 13:34:48.982	2026-06-18 13:48:00.801	\N	1977-12-30 00:00:00	\N
 cmqjf6xyq000004jl4zdta7ss	martastmary@gmail.com	$2b$12$UMEb4OOdM1UQiWykWoOlPuzX5KpFjrepxXIdCtlA5owJ32pgV3YlK	Marta Santamaria	BUYER	ca	2026-06-18 13:55:52.054	\N	\N	\N	f	2026-06-18 11:32:06.387	2026-06-18 13:55:52.058	\N	1961-12-20 00:00:00	\N
@@ -259,20 +257,30 @@ cmqjkjjom000004jrztfykx5l	esanuyriera@gmail.com	$2b$12$6SWwolua7EyiFprW1ToV3emtc
 cmqjlj63u000004l4xr2w5bko	weskins@gmail.com	$2b$12$XG0S5q2mEH28AH.vJ7KJ5.HnegxlG/yr5QC094tRMOTiLk5aoEGKK	Miquel Amorós Ortiz	BUYER	ca	\N	ddad05b89d5422fbb4c2fed26e8328432fe973091dc039d33449e11769ed24d0	\N	\N	f	2026-06-18 14:29:34.506	2026-06-18 14:29:34.506	\N	1956-04-13 00:00:00	\N
 cmqjlqvqj000004jpj2qde3xm	nadalfarmacia2@gmail.com	$2b$12$MXhNW79IRguIodPKHoe3EejJlxC6aJ8su7dCj4/ZLTIPMSYyg.Rbu	Lluis Nadal	BUYER	ca	2026-06-18 14:36:18.701	\N	\N	\N	f	2026-06-18 14:35:34.315	2026-06-18 14:36:18.704	\N	1961-10-10 00:00:00	\N
 cmqjlvezk000404jpi582pjka	noctilucass@gmail.com	$2b$12$1EsdWrbscUSKfr.0QHBPQO.u.eJ5MdwG2dNQsli.L3YUxqNF1EoYq	Sònia D. Boix	BUYER	ca	\N	976399e1e89ca0f1b2f2ec58cc4017ec3be90e37988c582f5ec8272dadd7f91f	\N	\N	f	2026-06-18 14:39:05.888	2026-06-18 14:39:05.888	\N	1970-12-18 00:00:00	\N
-cmqjmz0ba000004l4133jkklx	annabelengs@gmail.com	$2b$12$j0O4lxWAt1IYX7pluNh3suhPRSgxciVGAUVLSuhd53ydXVLJbIFa.	Anna Garcia	BUYER	ca	\N	afc0c10e1cc3b72dc6190a64fb87f1f6ddfb5c0a02cb5fb012347eb24b57fecc	\N	\N	f	2026-06-18 15:09:53.11	2026-06-18 15:09:53.11	\N	1971-04-08 00:00:00	\N
 cmqjpf8x1000004jv5mfwi8ci	lcg1975.lcg@gmail.com	$2b$12$Voi9KBzczZWXVVx13pA6vO8SpN8Xoiv/vxQZGjhPyHwaPccc3Tk7u	Laura Cerrato Gallego	BUYER	ca	\N	5306408e880a7cea6d2436aea10e6a31fb4f09e0950db3333e9d78eaea5c7641	\N	\N	f	2026-06-18 16:18:29.99	2026-06-18 16:18:29.99	\N	1975-06-12 00:00:00	\N
 cmqjo4ppb000004l7jzqlb2o1	joan.j.tortosa@gmail.com	$2b$12$78jBwSuKoxIoKzcpI.bcLuZnB6jmPNI9Dj.zfosIjZGpmiU/6hqf6	Joan Tortosa Pons	BUYER	ca	2026-06-18 16:20:00.325	\N	\N	\N	f	2026-06-18 15:42:18.911	2026-06-18 16:20:00.332	\N	1961-06-14 00:00:00	\N
 cmqjply8e000004js8i5o3mhw	nilmas.nm@gmail.com	$2b$12$.R48YaCrp8F0B6dnO.jP4./i0QyYyB2byjE0VZ0DMVUAyHrRpJaG.	Nil Mas Gallemí	BUYER	ca	2026-06-18 16:31:05.771	\N	\N	\N	f	2026-06-18 16:23:42.734	2026-06-18 16:31:05.774	\N	2000-08-29 00:00:00	\N
 cmqjrdhpd000004jv6cgs9aw9	mteresa.cufi@gmail.com	$2b$12$OmoF.QY5hBGfRb.ZgrTsyePU.eszmZmypsXzc.D.f/oiFvz59Zbga	Teresa Cufi	BUYER	ca	\N	9a702bf09a27e189edad8a46edface13e68e49ac6dc40d284c054631504ee0fb	\N	\N	f	2026-06-18 17:13:07.298	2026-06-18 17:13:07.298	\N	1963-08-29 00:00:00	\N
 cmqjrvg7k000004i5sxnpv9r2	casrosjo@gmail.com	$2b$12$okXV4.85OATRiQyUoxDyPOEKmVmrv4CAWlQoCiB0tx8hlz1ilvdZG	Josep Ros Cas	BUYER	ca	2026-06-18 17:28:31.023	\N	\N	\N	f	2026-06-18 17:27:05.168	2026-06-18 17:28:31.03	\N	1960-03-21 00:00:00	\N
 cmqjwpk16000004kydtgd3hxq	jollsu.jls@gmail.com	$2b$12$l9BJ0Lk0NeYGhu.FhSjSt.aISOoAHDOTDYgGU44VYd0aeQnF3M/bi	Jordi Lleo Subirats	BUYER	ca	\N	627be33286c60054165ff9974cf0ef49b83b746f87e83cca694e7ae49aa09ac9	\N	\N	f	2026-06-18 19:42:28.266	2026-06-18 19:42:28.266	\N	1971-10-25 00:00:00	\N
-cmqjxwvlq000404kybs366h86	jsgxaume@gmail.com	$2b$12$kpDUmyIo4su3tYjzBMvzWOYe/WVKT92VFRV1Psh0Qhw5/rhNJONbK	Jaume Saltó Garrabé	BUYER	ca	\N	011a2aa68e0db8a5a77795bc02b3b48eb4de909cfe2f13981bebed753649efa9	\N	\N	f	2026-06-18 20:16:09.47	2026-06-18 20:16:09.47	\N	1962-10-04 00:00:00	\N
 cmqjyvzcd000804kyqmjycah7	marcmarull@gmail.com	$2b$12$86DBXs0sVCTfazZD2E6wmODICd6kBzT4DyUixGvWNVi9YHP65mQkG	Marc Marull	BUYER	ca	2026-06-18 20:46:26.554	\N	\N	\N	f	2026-06-18 20:43:27.277	2026-06-18 20:46:26.561	\N	1974-07-12 00:00:00	\N
 cmqjz8y60000004jjtacmeyo2	peremr264@proton.me	$2b$12$uc2uDHnTNSG7CRXfn5Y1F.1z0Szy9D2eoo9z4NMc5nPfKq8CuoVTG	Pere Martinez Rodriguez	BUYER	ca	2026-06-18 20:53:50.92	\N	\N	\N	f	2026-06-18 20:53:32.281	2026-06-18 20:53:50.927	\N	1974-02-13 00:00:00	\N
 cmqjzntrx000404jjp08l8xyb	nuria.1967@hotmail.com	$2b$12$aPNy2N.Dy3O82/lZqEIPf.cFyuDRMrSjriWRE9O.zaEixzEjxhw3a	Núria Mañe Sal	BUYER	ca	\N	72e8ac10fe7092f45ec12b90667149caa97602179d5ba96667c73f3498fd5a02	\N	\N	f	2026-06-18 21:05:06.429	2026-06-18 21:05:06.429	\N	2008-06-18 00:00:00	\N
 cmqjzr34s000004jpt47ocl2p	jordimedi@protonmail.com	$2b$12$/IGF2p3Zi1VNCJ1D9hECo.xPFRS8A6bmcpzOLDtFXNjX9qW4YePGS	Jordi Medina Sala	BUYER	ca	2026-06-18 21:08:10.265	\N	\N	\N	f	2026-06-18 21:07:38.525	2026-06-18 21:08:10.268	\N	1963-07-11 00:00:00	\N
-cmqk0s2f8000004l5ibsuitun	edelweis68@hotmail.com	$2b$12$pFqakLuuWxbxuCsGm1QDVefmXxQ7oZEhkKy33OpilvODweQR6Yg0q	M. Angeles Puertolas Acin	BUYER	ca	\N	b933625af3308e141870ffee070ed7766b68aa1ea0af822b9e8ecf5e81d8abf5	\N	\N	f	2026-06-18 21:36:23.876	2026-06-18 21:36:23.876	\N	1968-10-08 00:00:00	\N
+cmqk0s2f8000004l5ibsuitun	edelweis68@hotmail.com	$2b$12$pFqakLuuWxbxuCsGm1QDVefmXxQ7oZEhkKy33OpilvODweQR6Yg0q	M. Angeles Puertolas Acin	BUYER	ca	2026-06-19 06:58:20.438	\N	\N	\N	f	2026-06-18 21:36:23.876	2026-06-19 06:58:20.444	\N	1968-10-08 00:00:00	\N
+cmqjmz0ba000004l4133jkklx	annabelengs@gmail.com	$2b$12$j0O4lxWAt1IYX7pluNh3suhPRSgxciVGAUVLSuhd53ydXVLJbIFa.	Anna Garcia	BUYER	ca	2026-06-19 09:23:54.713	\N	\N	\N	f	2026-06-18 15:09:53.11	2026-06-19 09:23:54.72	\N	1971-04-08 00:00:00	\N
+cmqjxwvlq000404kybs366h86	jsgxaume@gmail.com	$2b$12$kpDUmyIo4su3tYjzBMvzWOYe/WVKT92VFRV1Psh0Qhw5/rhNJONbK	Jaume Saltó Garrabé	BUYER	ca	2026-06-19 13:57:54.643	\N	\N	\N	f	2026-06-18 20:16:09.47	2026-06-19 13:57:54.656	\N	1962-10-04 00:00:00	\N
+cmqjhardd000004ihc5hi51rr	raul.sa.me@icloud.com	$2b$12$zszmBnadjt7/FIm6PpsEjuIa//i/Us4FeZTMXOHgQ6AmFsVchhGOu	Raul Santamaria Menen	BUYER	ca	2026-06-19 15:51:07.986	\N	\N	\N	f	2026-06-18 12:31:03.697	2026-06-19 15:51:07.996	\N	1988-06-06 00:00:00	\N
 cmqk5plq5000004l044h0kz47	ecofamilysensetoxics@gmail.com	$2b$12$ag.fknsUdcA8VMBN3iczY.9arrOXxVt1.M07Td6gGGtCXq/aHe9me	Xènia Josa Ferrer	BUYER	ca	\N	c8478ba9d9210347121aa5fb65d39ec65dd4746d5ab8b1a74bbb231f2c43f471	\N	\N	f	2026-06-18 23:54:27.005	2026-06-18 23:54:27.005	\N	1974-10-22 00:00:00	\N
+cmqkcgnkq000004l1732k7k1h	oriolpita@gmail.com	$2b$12$x8r4xXd/RvCoDHGJriwageyXAwMWXZPo3PMEPoNo5bJ/evOcRPRUS	Oriol Pita Ortin	BUYER	ca	2026-06-19 06:24:57.205	\N	\N	\N	f	2026-06-19 03:03:26.81	2026-06-19 06:24:57.214	\N	1989-10-11 00:00:00	\N
+cmqjg5cry000404jlna8wgvc7	pradesmteresa561@gmail.com	$2b$12$80obH9oGP4gVljDbmRkpROap1Qcf0VqwbXYSAOhYVgx/ODDQle6iy	m teresa prades	BUYER	ca	2026-06-19 06:49:55.82	\N	\N	\N	f	2026-06-18 11:58:51.886	2026-06-19 06:49:55.827	\N	1966-06-11 00:00:00	\N
+cmqkyoh0u000004l1w2wnx1fq	ngrane61@gmail.com	$2b$12$jBm/nQLr9WNCPEa4RmBXMec.0c01GNgSy3DbtouzoDrRPZbbqWW1m	Núria Grané Alsina	BUYER	ca	2026-06-19 13:36:36.478	\N	\N	\N	f	2026-06-19 13:25:23.118	2026-06-19 13:36:36.482	\N	1961-03-11 00:00:00	\N
+cmql0skeh000004l1uy8ngvre	eugenia.revilla@gmail.com	$2b$12$RPz9ofvWKdu1ZEchPM3Jb.L6GqJCRPJAu5miSNjotEvSs2a23loS2	Eugènia Revilla Esteve	BUYER	ca	\N	b028ff86f866f777c2f75d44f2fcfdc0a0d6112b37dbb9c6dd2d4de11aba8a7e	\N	\N	f	2026-06-19 14:24:33.353	2026-06-19 14:24:33.353	\N	1972-10-19 00:00:00	\N
+cmql303bs000004lby838azbl	joanriba@msn.com	$2b$12$W8/RmYtaNfYzTdtOyTpuGOP6AUkp9sNgkKIWvZbE0mv5UV3qrRSOm	Joan Riba	BUYER	ca	\N	c31985a6b6d1ddea2844be7bba019dc07b9813a7bc6a8c49800f413cc29f62d5	\N	\N	f	2026-06-19 15:26:23.704	2026-06-19 15:26:23.704	\N	2008-06-19 00:00:00	\N
+cmqkraagz000004l1vp6a90nk	antoniolle02@gmail.com	$2b$12$XkO.cjfRz77SfCoLsFaRY.688inpiZ9QjvccaYVhKkCKAtQGkUm6a	Antoni Olle	BUYER	ca	2026-06-19 15:37:53.786	\N	\N	\N	f	2026-06-19 09:58:24.131	2026-06-19 15:37:53.792	\N	1946-01-02 00:00:00	\N
+cmql3clua000404lb17o23afm	jordivilavila@movistar.es	$2b$12$atJpX8MlOlUt9m/MHDA5hOcJ3jvr2EzhVUP4GZVskGyt7elXLkRMq	Jordi Vila Vila	BUYER	ca	2026-06-19 16:00:12.193	\N	\N	\N	f	2026-06-19 15:36:07.57	2026-06-19 16:00:12.204	\N	1962-01-06 00:00:00	\N
+cmql8fxqj000004lbpnll7hbv	carles@merino.cat	$2b$12$xGEihNVy5y58cvFlcfDE3e54dAOJ7YpsOH7pSdq3GkE2hEehoEu3W	Carles Merino	BUYER	ca	\N	2d8756dd22a3a7a759d52cdc60f0576c9edf2cbfc589bfce6e7938acae1a4b88	\N	\N	f	2026-06-19 17:58:41.035	2026-06-19 17:58:41.035	\N	1967-07-25 00:00:00	\N
+cmqlce6df000004l8z67gbcvj	espetri64@hotmail.com	$2b$12$dit9RL/nO9byhrG0ao9U3uK.KwY.Q8oA1TkJqdgofKQxZ.a0GPgAe	Trinidad Espejo	BUYER	ca	\N	d758cd48f0db7a788d7c0016a551030851600e05340686de5afbffa90b2af412	\N	\N	f	2026-06-19 19:49:17.379	2026-06-19 19:49:17.379	\N	1964-04-12 00:00:00	\N
 \.
 
 
@@ -483,6 +491,14 @@ cmqjzntsb000604jj4vaxk7xe	cmqjzntrx000404jjp08l8xyb	PRIVACY_NOTICE	t	He llegit i
 cmqjzr356000204jp3o3a8hm8	cmqjzr34s000004jpt47ocl2p	PRIVACY_NOTICE	t	He llegit i accepto l'avís de privadesa.	ca	93.176.130.24	2026-06-18 21:07:38.525
 cmqk0s2fj000204l55tlv4wxp	cmqk0s2f8000004l5ibsuitun	PRIVACY_NOTICE	t	He llegit i accepto l'avís de privadesa.	ca	137.101.248.225	2026-06-18 21:36:23.876
 cmqk5plr0000204l0o2hri2y1	cmqk5plq5000004l044h0kz47	PRIVACY_NOTICE	t	He llegit i accepto l'avís de privadesa.	ca	85.251.67.69	2026-06-18 23:54:27.005
+cmqkcgnla000204l17w1rlwy2	cmqkcgnkq000004l1732k7k1h	PRIVACY_NOTICE	t	He llegit i accepto l'avís de privadesa.	ca	188.84.43.80	2026-06-19 03:03:26.81
+cmqkraaho000204l1nbatn53b	cmqkraagz000004l1vp6a90nk	PRIVACY_NOTICE	t	He llegit i accepto l'avís de privadesa.	ca	83.45.93.52	2026-06-19 09:58:24.131
+cmqkyoh1f000204l1xz6tr4h7	cmqkyoh0u000004l1w2wnx1fq	PRIVACY_NOTICE	t	He llegit i accepto l'avís de privadesa.	ca	79.155.90.146	2026-06-19 13:25:23.118
+cmql0skez000204l1f7i40ms5	cmql0skeh000004l1uy8ngvre	PRIVACY_NOTICE	t	He llegit i accepto l'avís de privadesa.	ca	31.4.243.197	2026-06-19 14:24:33.353
+cmql303c7000204lbqgygncxl	cmql303bs000004lby838azbl	PRIVACY_NOTICE	t	He llegit i accepto l'avís de privadesa.	ca	83.46.137.56	2026-06-19 15:26:23.704
+cmql3cluo000604lblyu1glfi	cmql3clua000404lb17o23afm	PRIVACY_NOTICE	t	He llegit i accepto l'avís de privadesa.	ca	79.152.125.44	2026-06-19 15:36:07.57
+cmql8fxr3000204lb2x01xktr	cmql8fxqj000004lbpnll7hbv	PRIVACY_NOTICE	t	He llegit i accepto l'avís de privadesa.	ca	90.168.174.141	2026-06-19 17:58:41.035
+cmqlce6e5000204l8qyt0r9fg	cmqlce6df000004l8z67gbcvj	PRIVACY_NOTICE	t	He llegit i accepto l'avís de privadesa.	ca	79.152.102.206	2026-06-19 19:49:17.379
 \.
 
 
@@ -595,6 +611,15 @@ cmqjzr36b000304jpkljppbkl	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Jor
 cmqk0s2gl000304l5vcbzizhf	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "M. Angeles Puertolas Acin", "email": "edelweis68@hotmail.com"}	\N	\N	2026-06-18 21:36:23.925
 cmqk5plsf000304l0mgbkoe19	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Xènia Josa Ferrer", "email": "ecofamilysensetoxics@gmail.com"}	\N	\N	2026-06-18 23:54:27.087
 cmqk97laa000004l152z7cvpr	cmpu7a31d0005l8t2bcdsydsr	SELLER_SHIPMENT_DELAYED	{"days": 17, "orderNumber": "CG-20260601-DIMMPF"}	\N	2026-06-19 01:32:25.071	2026-06-19 01:32:25.09
+cmqkcgnmx000304l1qrnvd08l	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Oriol Pita Ortin", "email": "oriolpita@gmail.com"}	\N	\N	2026-06-19 03:03:26.889
+cmqkraajb000304l1pyhkz791	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Antoni Olle", "email": "antoniolle02@gmail.com"}	\N	\N	2026-06-19 09:58:24.216
+cmqkyoh2p000304l1i44wdg5w	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Núria Grané Alsina", "email": "ngrane61@gmail.com"}	\N	\N	2026-06-19 13:25:23.185
+cmql0skg5000304l1fa5z7y8i	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Eugènia Revilla Esteve", "email": "eugenia.revilla@gmail.com"}	\N	\N	2026-06-19 14:24:33.413
+cmql303df000304lbwzwr036z	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Joan Riba", "email": "joanriba@msn.com"}	\N	\N	2026-06-19 15:26:23.763
+cmql3clvl000704lbxgc6n0cr	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Jordi Vila Vila", "email": "jordivilavila@movistar.es"}	\N	\N	2026-06-19 15:36:07.617
+cmql8fxsd000304lbmpv35275	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Carles Merino", "email": "carles@merino.cat"}	\N	\N	2026-06-19 17:58:41.101
+cmqlce6fp000304l8a3lhhy39	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Trinidad Espejo", "email": "espetri64@hotmail.com"}	\N	\N	2026-06-19 19:49:17.461
+cmqlonfpt000004i5zqh12m3a	cmpu7a31d0005l8t2bcdsydsr	SELLER_SHIPMENT_DELAYED	{"days": 18, "orderNumber": "CG-20260601-DIMMPF"}	\N	2026-06-20 01:32:24.778	2026-06-20 01:32:24.785
 \.
 
 
@@ -1094,6 +1119,14 @@ cmqjznts4000504jje0lqgljy	cmqjzntrx000404jjp08l8xyb	2026-06-18 21:05:06.429
 cmqjzr34y000104jpbppu9t30	cmqjzr34s000004jpt47ocl2p	2026-06-18 21:07:38.525
 cmqk0s2fd000104l5ncv7oqrl	cmqk0s2f8000004l5ibsuitun	2026-06-18 21:36:23.876
 cmqk5plqn000104l0ooo52h5j	cmqk5plq5000004l044h0kz47	2026-06-18 23:54:27.005
+cmqkcgnkz000104l1b6bborjw	cmqkcgnkq000004l1732k7k1h	2026-06-19 03:03:26.81
+cmqkraahb000104l1abmqcfy7	cmqkraagz000004l1vp6a90nk	2026-06-19 09:58:24.131
+cmqkyoh16000104l1bxrkb646	cmqkyoh0u000004l1w2wnx1fq	2026-06-19 13:25:23.118
+cmql0skeo000104l1o0pp5ym6	cmql0skeh000004l1uy8ngvre	2026-06-19 14:24:33.353
+cmql303c0000104lbxlf6bm2b	cmql303bs000004lby838azbl	2026-06-19 15:26:23.704
+cmql3clui000504lbb3v5y8oi	cmql3clua000404lb17o23afm	2026-06-19 15:36:07.57
+cmql8fxqu000104lbahi18fd1	cmql8fxqj000004lbpnll7hbv	2026-06-19 17:58:41.035
+cmqlce6dr000104l80tyztzdn	cmqlce6df000004l8z67gbcvj	2026-06-19 19:49:17.379
 \.
 
 
@@ -1205,6 +1238,6 @@ SELECT pg_catalog.setval('"auth"."refresh_tokens_id_seq"', 1, false);
 -- PostgreSQL database dump complete
 --
 
--- \unrestrict yYoZD5sDbjeNyaWmtaKqUI9iTCq1R7kyikKKaC21Hyi3Fbh7jkkgoGXKqQPh1Wn
+-- \unrestrict heWuBEzejQqL53FmawdmnjdcRPpAlqTVSHSNXvb41iAqkhRyv5Fl3xRpfUBRf6c
 
 RESET ALL;
