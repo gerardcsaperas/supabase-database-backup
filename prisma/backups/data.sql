@@ -4,7 +4,7 @@ SET session_replication_role = replica;
 -- PostgreSQL database dump
 --
 
--- \restrict heWuBEzejQqL53FmawdmnjdcRPpAlqTVSHSNXvb41iAqkhRyv5Fl3xRpfUBRf6c
+-- \restrict Uu7vKZHOYguJkQOb8kvtHjrFgsOOEg5AfnsC5ZchuqXF0QOMteRIBXraoExmMWI
 
 -- Dumped from database version 17.6
 -- Dumped by pg_dump version 17.6
@@ -233,7 +233,6 @@ cmq8er2lj000004jumh7n0q0j	janimarti@gmail.com	$2b$12$FRW3vMW2Q7oJP8S78HErpOmyZyF
 cmq8cnzjc000004l8utnoryka	albaauledasc@gmail.com	$2b$12$m11Gftn0Mz9ct4CeSjP1refUHmfycsmfRvluC0pb9Z5MKonHAxGra	Alba Auledas Costa	BUYER	ca	2026-06-11 05:48:29.177	\N	\N	\N	f	2026-06-10 17:35:54.792	2026-06-11 05:48:29.186	\N	\N	\N
 cmpvaoc350000yjt2w4ur6be3	test@cangerard.cat	$2b$12$J9y1LY3XEOEy8WoYGeBq9uYK.nClRP5yYKxV6W354ejlN0FRPYF1W	Venedor Demo	SELLER	ca	2026-06-12 16:36:59.51	\N	\N	\N	f	2026-06-01 14:19:11.537	2026-06-12 16:36:59.517	\N	\N	\N
 cmqii08xh000004ihicxy4c9l	txellguardiola@gmail.com	$2b$12$LIVZH2.4uSKHAk8BeTiYqu8Y28fNQyG3AclMtktqvM0e38h6naPu2	Meritxell Guardiola Sánchez	BUYER	ca	2026-06-17 20:03:21.457	\N	\N	\N	f	2026-06-17 20:03:06.678	2026-06-17 20:03:21.464	\N	1977-02-03 00:00:00	\N
-cmqij6psc000004l7tk29jibo	degomedinasoto12@gmail.com	$2b$12$xj6TW04LNuJiK37s5Gwy3eE6RHk.D8h9f2bSKwu0DPB5/V8W8kKdO	Dego M	BUYER	ca	\N	9b30e5c47bee20037ce58b79e4674a4bea8a4ef975633e2d81308f2714e756ce	\N	\N	f	2026-06-17 20:36:08.076	2026-06-17 20:36:08.076	\N	2000-04-19 00:00:00	\N
 cmqijdsre000404l7qh6x0ynm	mareyfofana@gmail.com	$2b$12$YXZxK7h.iWXiqDsrKBMLw.bdz4pbOioG/Q.UZRd.rX2Lzp1kTUF1a	Marey Fofana	BUYER	ca	2026-06-17 20:42:12.541	\N	\N	\N	f	2026-06-17 20:41:38.522	2026-06-17 20:42:12.548	\N	2000-02-08 00:00:00	\N
 cmqijf9r0000004jrses2kfx5	mariona.alau@gmail.com	$2b$12$M4ZM8f/IdXNLT3Zjj6cdlOcwVKfVox5n4M/5MmBejCGEXiFwL1OAm	Mariona Alamego Uceda	BUYER	ca	2026-06-18 05:31:24.905	\N	\N	\N	f	2026-06-17 20:42:47.196	2026-06-18 05:31:24.913	\N	2003-09-20 00:00:00	\N
 cmqin06q0000004jpgyabnte8	lauragogi7@gmail.com	$2b$12$u8M0iDqssPFBcRfAZaZ9Z.ihNZgO57B67PUjpFZ1soByDkwhLMW5i	Laura Gonzalez	BUYER	ca	2026-06-18 05:47:02.366	\N	\N	\N	f	2026-06-17 22:23:01.897	2026-06-18 05:47:02.373	\N	1972-10-20 00:00:00	\N
@@ -276,11 +275,16 @@ cmqkcgnkq000004l1732k7k1h	oriolpita@gmail.com	$2b$12$x8r4xXd/RvCoDHGJriwageyXAwM
 cmqjg5cry000404jlna8wgvc7	pradesmteresa561@gmail.com	$2b$12$80obH9oGP4gVljDbmRkpROap1Qcf0VqwbXYSAOhYVgx/ODDQle6iy	m teresa prades	BUYER	ca	2026-06-19 06:49:55.82	\N	\N	\N	f	2026-06-18 11:58:51.886	2026-06-19 06:49:55.827	\N	1966-06-11 00:00:00	\N
 cmqkyoh0u000004l1w2wnx1fq	ngrane61@gmail.com	$2b$12$jBm/nQLr9WNCPEa4RmBXMec.0c01GNgSy3DbtouzoDrRPZbbqWW1m	Núria Grané Alsina	BUYER	ca	2026-06-19 13:36:36.478	\N	\N	\N	f	2026-06-19 13:25:23.118	2026-06-19 13:36:36.482	\N	1961-03-11 00:00:00	\N
 cmql0skeh000004l1uy8ngvre	eugenia.revilla@gmail.com	$2b$12$RPz9ofvWKdu1ZEchPM3Jb.L6GqJCRPJAu5miSNjotEvSs2a23loS2	Eugènia Revilla Esteve	BUYER	ca	\N	b028ff86f866f777c2f75d44f2fcfdc0a0d6112b37dbb9c6dd2d4de11aba8a7e	\N	\N	f	2026-06-19 14:24:33.353	2026-06-19 14:24:33.353	\N	1972-10-19 00:00:00	\N
-cmql303bs000004lby838azbl	joanriba@msn.com	$2b$12$W8/RmYtaNfYzTdtOyTpuGOP6AUkp9sNgkKIWvZbE0mv5UV3qrRSOm	Joan Riba	BUYER	ca	\N	c31985a6b6d1ddea2844be7bba019dc07b9813a7bc6a8c49800f413cc29f62d5	\N	\N	f	2026-06-19 15:26:23.704	2026-06-19 15:26:23.704	\N	2008-06-19 00:00:00	\N
 cmqkraagz000004l1vp6a90nk	antoniolle02@gmail.com	$2b$12$XkO.cjfRz77SfCoLsFaRY.688inpiZ9QjvccaYVhKkCKAtQGkUm6a	Antoni Olle	BUYER	ca	2026-06-19 15:37:53.786	\N	\N	\N	f	2026-06-19 09:58:24.131	2026-06-19 15:37:53.792	\N	1946-01-02 00:00:00	\N
 cmql3clua000404lb17o23afm	jordivilavila@movistar.es	$2b$12$atJpX8MlOlUt9m/MHDA5hOcJ3jvr2EzhVUP4GZVskGyt7elXLkRMq	Jordi Vila Vila	BUYER	ca	2026-06-19 16:00:12.193	\N	\N	\N	f	2026-06-19 15:36:07.57	2026-06-19 16:00:12.204	\N	1962-01-06 00:00:00	\N
-cmql8fxqj000004lbpnll7hbv	carles@merino.cat	$2b$12$xGEihNVy5y58cvFlcfDE3e54dAOJ7YpsOH7pSdq3GkE2hEehoEu3W	Carles Merino	BUYER	ca	\N	2d8756dd22a3a7a759d52cdc60f0576c9edf2cbfc589bfce6e7938acae1a4b88	\N	\N	f	2026-06-19 17:58:41.035	2026-06-19 17:58:41.035	\N	1967-07-25 00:00:00	\N
 cmqlce6df000004l8z67gbcvj	espetri64@hotmail.com	$2b$12$dit9RL/nO9byhrG0ao9U3uK.KwY.Q8oA1TkJqdgofKQxZ.a0GPgAe	Trinidad Espejo	BUYER	ca	\N	d758cd48f0db7a788d7c0016a551030851600e05340686de5afbffa90b2af412	\N	\N	f	2026-06-19 19:49:17.379	2026-06-19 19:49:17.379	\N	1964-04-12 00:00:00	\N
+cmql8fxqj000004lbpnll7hbv	carles@merino.cat	$2b$12$xGEihNVy5y58cvFlcfDE3e54dAOJ7YpsOH7pSdq3GkE2hEehoEu3W	Carles Merino	BUYER	ca	2026-06-20 06:29:57.664	\N	\N	\N	f	2026-06-19 17:58:41.035	2026-06-20 06:29:57.674	\N	1967-07-25 00:00:00	\N
+cmql303bs000004lby838azbl	joanriba@msn.com	$2b$12$W8/RmYtaNfYzTdtOyTpuGOP6AUkp9sNgkKIWvZbE0mv5UV3qrRSOm	Joan Riba	BUYER	ca	2026-06-20 07:45:13.295	\N	\N	\N	f	2026-06-19 15:26:23.704	2026-06-20 07:45:13.302	\N	2008-06-19 00:00:00	\N
+cmqmf61lt000004ju3al1fnzd	rodriguezgine@hotmail.com	$2b$12$g5ZkFmrcrrrMwFWjxO9H/uHkrCY.dgBdTsJacTL7xJaUaxZ/5xnu6	Jesús Rodríguez Giné	BUYER	ca	\N	610b8f2f5e5530ca7981132dd871b9f3b4df5575f462124f9f9c3ce50d8a9bae	\N	\N	f	2026-06-20 13:54:42.977	2026-06-20 13:54:42.977	\N	1960-11-08 00:00:00	\N
+cmqmi6ra1000004l2mw67823n	franqui1014@gmail.com	$2b$12$OJZyiQRzVawB20D0oyDeH.02cSyHfsHyhTgTY8sweD1Rnb31Yn6oq	Albert Costa	BUYER	ca	2026-06-20 15:19:32.869	\N	\N	\N	f	2026-06-20 15:19:15.097	2026-06-20 15:19:32.876	\N	1978-12-21 00:00:00	\N
+cmqmvftz6000304jxm441kpeg	info@cervesalovilot.com	$2b$12$JvyddJ3Ly748.CAgqfrADO15LKhjAALZ4Xb9ZO6835vOxNz4dEeji	Quiònia Pujol Sabaté	SELLER	ca	2026-06-20 21:30:13.472	\N	\N	\N	f	2026-06-20 21:30:13.506	2026-06-20 21:30:13.506	\N	\N	\N
+cmqmxx8r8000004lgn5feflb6	raulescamot@gmail.com	$2b$12$h/rSoTVavTCQkisNYwVcguoP3vkT6KBwovCaICph8yFHfWCWJSJOC	Raül Roch	BUYER	ca	\N	92bab84c04d271896138078485be640d42f5b57d6f6f066c81513430a18367b8	\N	\N	f	2026-06-20 22:39:45.045	2026-06-20 22:39:45.045	\N	1980-04-27 00:00:00	\N
+cmqij6psc000004l7tk29jibo	degomedinasoto12@gmail.com	$2b$12$xj6TW04LNuJiK37s5Gwy3eE6RHk.D8h9f2bSKwu0DPB5/V8W8kKdO	Dego M	BUYER	ca	2026-06-21 00:16:47.135	\N	\N	\N	f	2026-06-17 20:36:08.076	2026-06-21 00:16:47.142	\N	2000-04-19 00:00:00	\N
 \.
 
 
@@ -305,6 +309,7 @@ cmpu7a3h7000cl8t27muo350k	cmpu7a3er000al8t2r270jifo	Mas de l'Oli	mas-de-l-oli	Ma
 cmpu7a3uq000hl8t2izdspdci	cmpu7a3rz000fl8t2gpop3t7w	La Cadernera	la-cadernera	Llibreria i editorial independent: literatura catalana, llibres infantils, disseny, regals i papereria.	Librería y editorial independiente: literatura catalana, libros infantiles, diseño, regalos y papelería.	An independent bookshop and publisher: Catalan literature, children’s books, design, gifts and stationery.	\N	Barcelonès	APPROVED	\N	10.00	\N	f	f	f	f	2026-05-31 19:56:22.517	2026-05-31 19:56:22.559	2026-05-31 19:56:22.559	Barcelona	ES	08002	Barcelonès	Carrer dels Llibreters, 7	Carrer dels Llibreters, 7	\N	Barcelona	ES	08002	Barcelonès	ES	\N	Edicions La Cadernera SL	\N	B62345673	\N	GENERAL	+34 933 015 588	lacadernera@cangerard.cat	1	CG-B62345673	\N	\N	\N
 cmpu7a47u000ml8t2rpsunk86	cmpu7a45l000kl8t250r3mgr9	Tramuntana	tramuntana	Taller de disseny i artesania de l'Empordà: ceràmica, tèxtil de la llar, espardenyes i material de muntanya.	Taller de diseño y artesanía del Empordà: cerámica, textil del hogar, alpargatas y material de montaña.	An Empordà design and craft workshop: pottery, home textiles, espadrilles and mountain gear.	\N	Alt Empordà	APPROVED	\N	10.00	\N	f	f	f	f	2026-05-31 19:56:23.006	2026-05-31 19:56:23.049	2026-05-31 19:56:23.049	Figueres	ES	17600	Alt Empordà	Carrer de la Tramuntana, 23	Carrer de la Tramuntana, 23	\N	Figueres	ES	17600	Alt Empordà	ES	\N	Tramuntana Disseny SL	\N	B98765431	\N	GENERAL	+34 972 503 144	tramuntana@cangerard.cat	1	CG-B98765431	\N	\N	\N
 cmpu7a4lj000rl8t22nheyztj	cmpu7a4jb000pl8t2z99dv0ay	Ceràmica Montsant	ceramica-montsant	Ceràmica feta a mà al Priorat: terrissa, plats i gerres amb esmalts tradicionals.	Cerámica hecha a mano en el Priorat: alfarería, platos y jarras con esmaltes tradicionales.	Handmade pottery from Priorat: earthenware, plates and jugs with traditional glazes.	\N	Priorat	PENDING	\N	10.00	\N	f	f	f	f	\N	2026-05-31 19:56:23.543	2026-05-31 19:56:23.543	Falset	ES	43730	Priorat	Carrer del Forn, 9	\N	\N	\N	ES	\N	\N	ES	\N	\N	\N	\N	\N	GENERAL	\N	\N	1	\N	\N	\N	\N
+cmqmvftzu000504jxy963ldl9	cmqmvftz6000304jxm441kpeg	Granja Cervesera Lo Vilot	granja-cervesera-lo-vilot	A la granja cervesera Lo Vilot fem cervesa artesana ecològica de granja, amb ingredients ecològics que produïm nosaltres mateixes, temps i passió.\r\n\r\nCada ampolla és una petita obra d’art que garanteix la seva qualitat, terrer, sabor i autenticitat.\r\n\r\nSi vols una cervesa honesta, amb caràcter i amb ingredients d’aquí, tria Lo Vilot.	A la granja cervesera Lo Vilot fem cervesa artesana ecològica de granja, amb ingredients ecològics que produïm nosaltres mateixes, temps i passió.\r\n\r\nCada ampolla és una petita obra d’art que garanteix la seva qualitat, terrer, sabor i autenticitat.\r\n\r\nSi vols una cervesa honesta, amb caràcter i amb ingredients d’aquí, tria Lo Vilot.	A la granja cervesera Lo Vilot fem cervesa artesana ecològica de granja, amb ingredients ecològics que produïm nosaltres mateixes, temps i passió.\r\n\r\nCada ampolla és una petita obra d’art que garanteix la seva qualitat, terrer, sabor i autenticitat.\r\n\r\nSi vols una cervesa honesta, amb caràcter i amb ingredients d’aquí, tria Lo Vilot.	\N	Lleida	PENDING	\N	10.00	\N	f	f	f	f	\N	2026-06-20 21:30:13.506	2026-06-20 21:30:13.506	\N	ES	\N	\N	\N	\N	\N	\N	ES	\N	\N	ES	\N	\N	\N	\N	\N	GENERAL	635409999	\N	1	\N	\N	\N	\N
 cmpvaoc650002yjt2cim935ix	cmpvaoc350000yjt2w4ur6be3	Test	test	test	test	test	\N	Test	APPROVED	\N	10.00	\N	f	f	f	f	2026-06-01 15:06:24.796	2026-06-01 14:19:11.537	2026-06-01 15:06:24.8	\N	ES	\N	\N	\N	c/ Test 1-3	\N	Granollers	ES	08502	Barcelona	ES	6a1d9540ee7a73ecb103debf	TEST, S.L.	\N	47920372X	\N	GENERAL	667717567	test@cangerard.cat	1	CG-B1213141516	\N	\N	\N
 cmpy87w4o000204l1twrbo7ye	cmpy87vzd000004l1nekjm03g	Quota Vita	quota-vita	Whey protein amb gustos locals de crema catalana i orxata	Whey protein amb gustos locals de crema catalana i orxata	Whey protein amb gustos locals de crema catalana i orxata	\N	Premià de Mar	PENDING	\N	10.00	\N	f	f	f	f	\N	2026-06-03 15:33:43.465	2026-06-03 15:33:43.465	\N	ES	\N	\N	\N	\N	\N	\N	ES	\N	\N	ES	\N	\N	\N	\N	\N	GENERAL	683338038	\N	1	\N	\N	\N	\N
 cmpyhlfag000204l428x8he27	cmpyhlf4w000004l4f8q7ljyu	Marta Segarra	marta-segarra	Les Franqueses del Vallès Les Franqueses del Vallès Les Franqueses del Vallès	Les Franqueses del Vallès Les Franqueses del Vallès Les Franqueses del Vallès	Les Franqueses del Vallès Les Franqueses del Vallès Les Franqueses del Vallès	\N	Les Franqueses del Vallès	PENDING	\N	10.00	\N	f	f	f	f	\N	2026-06-03 19:56:11.36	2026-06-03 19:56:11.36	\N	ES	\N	\N	\N	\N	\N	\N	ES	\N	\N	ES	\N	\N	\N	\N	\N	GENERAL	667717567	\N	1	\N	\N	\N	\N
@@ -358,6 +363,10 @@ cmpu7a6nm001sl8t2eiz0djgj	\N	Esport	Deporte	Sport	esport	Dumbbell	\N	5	2026-05-3
 cmpu7a6ot001tl8t23ysjdo2d	cmpu7a6nm001sl8t2eiz0djgj	Muntanya i senderisme	Montaña y senderismo	Hiking & outdoors	muntanya-i-senderisme	\N	\N	0	2026-05-31 19:56:26.333	2026-05-31 19:56:26.333	t	f	f
 cmpu7a6pz001ul8t2d44i5jud	\N	Infància	Infancia	Childhood	infancia	Baby	\N	6	2026-05-31 19:56:26.376	2026-05-31 19:56:26.376	t	f	f
 cmpu7a6r5001vl8t2roldrply	cmpu7a6pz001ul8t2d44i5jud	Joguines	Juguetes	Toys	joguines	\N	\N	0	2026-05-31 19:56:26.417	2026-05-31 19:56:26.417	t	f	f
+cmqmuhkra000004jxn5xsd31x	cmpu7a5vj0015l8t2pvwyxect	Cerveses	Cervezas	Beers	beers	\N	\N	7	2026-06-20 21:03:35.254	2026-06-20 21:03:35.254	t	f	f
+cmqmuiu61000004l815xi85s8	\N	Experiències	Experiencias	Experiences	experiences	\N	\N	7	2026-06-20 21:04:34.105	2026-06-20 21:04:34.105	t	f	f
+cmqmujalj000204jx03vaj8aq	\N	Música	Música	Music	music	\N	\N	8	2026-06-20 21:04:55.399	2026-06-20 21:04:55.399	t	f	f
+cmqmurtvk000004jxffsff7vd	cmqmuiu61000004l815xi85s8	Experiències	Experiencias	Experiences	experiences-2	\N	\N	0	2026-06-20 21:11:33.632	2026-06-20 21:11:33.632	t	f	f
 \.
 
 
@@ -499,6 +508,9 @@ cmql303c7000204lbqgygncxl	cmql303bs000004lby838azbl	PRIVACY_NOTICE	t	He llegit i
 cmql3cluo000604lblyu1glfi	cmql3clua000404lb17o23afm	PRIVACY_NOTICE	t	He llegit i accepto l'avís de privadesa.	ca	79.152.125.44	2026-06-19 15:36:07.57
 cmql8fxr3000204lb2x01xktr	cmql8fxqj000004lbpnll7hbv	PRIVACY_NOTICE	t	He llegit i accepto l'avís de privadesa.	ca	90.168.174.141	2026-06-19 17:58:41.035
 cmqlce6e5000204l8qyt0r9fg	cmqlce6df000004l8z67gbcvj	PRIVACY_NOTICE	t	He llegit i accepto l'avís de privadesa.	ca	79.152.102.206	2026-06-19 19:49:17.379
+cmqmf61mk000204jubqo7cj1m	cmqmf61lt000004ju3al1fnzd	PRIVACY_NOTICE	t	He llegit i accepto l'avís de privadesa.	ca	95.126.96.201	2026-06-20 13:54:42.977
+cmqmi6rap000204l2i1lunpcf	cmqmi6ra1000004l2mw67823n	PRIVACY_NOTICE	t	He llegit i accepto l'avís de privadesa.	ca	150.228.85.114	2026-06-20 15:19:15.097
+cmqmxx8ry000204lgjjxaqe1r	cmqmxx8r8000004lgn5feflb6	PRIVACY_NOTICE	t	He llegit i accepto l'avís de privadesa.	ca	139.47.116.28	2026-06-20 22:39:45.045
 \.
 
 
@@ -620,6 +632,10 @@ cmql3clvl000704lbxgc6n0cr	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Jor
 cmql8fxsd000304lbmpv35275	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Carles Merino", "email": "carles@merino.cat"}	\N	\N	2026-06-19 17:58:41.101
 cmqlce6fp000304l8a3lhhy39	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Trinidad Espejo", "email": "espetri64@hotmail.com"}	\N	\N	2026-06-19 19:49:17.461
 cmqlonfpt000004i5zqh12m3a	cmpu7a31d0005l8t2bcdsydsr	SELLER_SHIPMENT_DELAYED	{"days": 18, "orderNumber": "CG-20260601-DIMMPF"}	\N	2026-06-20 01:32:24.778	2026-06-20 01:32:24.785
+cmqmf61ny000304ju4ljibjw9	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Jesús Rodríguez Giné", "email": "rodriguezgine@hotmail.com"}	\N	\N	2026-06-20 13:54:43.054
+cmqmi6rc1000304l20ef1p61e	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Albert Costa", "email": "franqui1014@gmail.com"}	\N	\N	2026-06-20 15:19:15.169
+cmqmxx8t3000304lgd6cgbv01	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Raül Roch", "email": "raulescamot@gmail.com"}	\N	\N	2026-06-20 22:39:45.111
+cmqn3ztk9000004l1ja1vm4cl	cmpu7a31d0005l8t2bcdsydsr	SELLER_SHIPMENT_DELAYED	{"days": 19, "orderNumber": "CG-20260601-DIMMPF"}	\N	2026-06-21 01:29:43.01	2026-06-21 01:29:43.017
 \.
 
 
@@ -995,6 +1011,8 @@ cmqjg7cpy000504jxdkpidzav	Einas	einas	ca	0	cmqjg62po000004jxmzn6rskx	2026-06-18 
 cmqjj47ns000004js2ccgh04d	LLET	llet	ca	1	\N	2026-06-18 13:21:57.448
 cmqjj52jr000104jsj85stwed	LLET	llet	ca	1	\N	2026-06-18 13:22:37.479
 cmqjjlfqu000004jpe6gcrxs9	llet	llet	ca	1	cmqjjkqza000004l1z6ddmz1w	2026-06-18 13:35:21.079
+cmqm7vu4e000004jv9labg74y	Ventilador sostre	ventilador sostre	ca	0	\N	2026-06-20 10:30:49.406
+cmqm7w17i000004jpj65nh7hk	Ventilador	ventilador	ca	0	\N	2026-06-20 10:30:58.59
 \.
 
 
@@ -1127,6 +1145,10 @@ cmql303c0000104lbxlf6bm2b	cmql303bs000004lby838azbl	2026-06-19 15:26:23.704
 cmql3clui000504lbb3v5y8oi	cmql3clua000404lb17o23afm	2026-06-19 15:36:07.57
 cmql8fxqu000104lbahi18fd1	cmql8fxqj000004lbpnll7hbv	2026-06-19 17:58:41.035
 cmqlce6dr000104l80tyztzdn	cmqlce6df000004l8z67gbcvj	2026-06-19 19:49:17.379
+cmqmf61m6000104juzgasbznt	cmqmf61lt000004ju3al1fnzd	2026-06-20 13:54:42.977
+cmqmi6rah000104l2gnrzd53h	cmqmi6ra1000004l2mw67823n	2026-06-20 15:19:15.097
+cmqmvftzk000404jx78a73vzk	cmqmvftz6000304jxm441kpeg	2026-06-20 21:30:13.506
+cmqmxx8rn000104lgp56bt8rx	cmqmxx8r8000004lgn5feflb6	2026-06-20 22:39:45.045
 \.
 
 
@@ -1238,6 +1260,6 @@ SELECT pg_catalog.setval('"auth"."refresh_tokens_id_seq"', 1, false);
 -- PostgreSQL database dump complete
 --
 
--- \unrestrict heWuBEzejQqL53FmawdmnjdcRPpAlqTVSHSNXvb41iAqkhRyv5Fl3xRpfUBRf6c
+-- \unrestrict Uu7vKZHOYguJkQOb8kvtHjrFgsOOEg5AfnsC5ZchuqXF0QOMteRIBXraoExmMWI
 
 RESET ALL;
