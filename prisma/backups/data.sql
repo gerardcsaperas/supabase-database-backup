@@ -4,7 +4,7 @@ SET session_replication_role = replica;
 -- PostgreSQL database dump
 --
 
--- \restrict Uu7vKZHOYguJkQOb8kvtHjrFgsOOEg5AfnsC5ZchuqXF0QOMteRIBXraoExmMWI
+-- \restrict zivokKalrd9TTbElz4hbTC4ALih8AYZbTHJOxU4WwFMlKJdpRiwvvRmQHVAXhk7
 
 -- Dumped from database version 17.6
 -- Dumped by pg_dump version 17.6
@@ -285,6 +285,10 @@ cmqmi6ra1000004l2mw67823n	franqui1014@gmail.com	$2b$12$OJZyiQRzVawB20D0oyDeH.02c
 cmqmvftz6000304jxm441kpeg	info@cervesalovilot.com	$2b$12$JvyddJ3Ly748.CAgqfrADO15LKhjAALZ4Xb9ZO6835vOxNz4dEeji	Quiònia Pujol Sabaté	SELLER	ca	2026-06-20 21:30:13.472	\N	\N	\N	f	2026-06-20 21:30:13.506	2026-06-20 21:30:13.506	\N	\N	\N
 cmqmxx8r8000004lgn5feflb6	raulescamot@gmail.com	$2b$12$h/rSoTVavTCQkisNYwVcguoP3vkT6KBwovCaICph8yFHfWCWJSJOC	Raül Roch	BUYER	ca	\N	92bab84c04d271896138078485be640d42f5b57d6f6f066c81513430a18367b8	\N	\N	f	2026-06-20 22:39:45.045	2026-06-20 22:39:45.045	\N	1980-04-27 00:00:00	\N
 cmqij6psc000004l7tk29jibo	degomedinasoto12@gmail.com	$2b$12$xj6TW04LNuJiK37s5Gwy3eE6RHk.D8h9f2bSKwu0DPB5/V8W8kKdO	Dego M	BUYER	ca	2026-06-21 00:16:47.135	\N	\N	\N	f	2026-06-17 20:36:08.076	2026-06-21 00:16:47.142	\N	2000-04-19 00:00:00	\N
+cmqna76iv000004jxqktkxab5	mcarmegirart@gmail.com	$2b$12$mFUmFO6DM640nYkBSRgr0.TrOKs.VVm/UiTV.w56jhgr9udMEMNNG	M. Carme Girart	BUYER	ca	2026-06-21 04:24:32.988	\N	\N	\N	f	2026-06-21 04:23:24.103	2026-06-21 04:24:32.997	\N	1968-11-21 00:00:00	MCarmeG.
+cmqnkd6fu000004jvb313k6kh	pilartrubat@hotmail.com	$2b$12$QtsJYtpLY8SD1uF2O038iujcmOKFlB86jJuzd43E6EJ0j5cfIrdQS	Pilar Trubat Alltarriba	BUYER	ca	\N	ea9e3559e1617424f011ef96bb84878a189b3c72c0691b54839f1257a4281535	\N	\N	f	2026-06-21 09:08:00.09	2026-06-21 09:08:00.09	\N	2008-06-14 00:00:00	\N
+cmqnojisi000004l4vyamzrfz	isidre.sala@gmail.com	$2b$12$p4T6gz7o3lxlxxQkKz/y1eDK8lO/oluOu.6atF7WCmpLhc1XmvHEW	Isidre sala Elías	BUYER	ca	\N	cab615c21827f23cf8a7972765fc564cf707c199b5f35992a609e76d981e70ce	\N	\N	f	2026-06-21 11:04:54.498	2026-06-21 11:04:54.498	\N	1972-03-03 00:00:00	\N
+cmqo0vd2p000004l4gh8c8yxn	lauragine@gmail.com	$2b$12$7OTQcWyq/ZdzvJjyhRcW6eJKBywpNn62B4VZnA4y.w22oc3ntTRn6	Laura Giné Prades	BUYER	ca	2026-06-21 16:50:15.563	\N	\N	\N	f	2026-06-21 16:50:02.353	2026-06-21 16:50:44.403	\N	1979-07-03 00:00:00	Lau*
 \.
 
 
@@ -422,6 +426,7 @@ cmpu7diko009dl8t2xoprra7l	cmpu7a2qp0002l8t2jom93w15	cmpu7a6l7001ql8t2ra3ydbfu	Ca
 cmpu7dlaz009ml8t2m73c1nps	cmpu7a2qp0002l8t2jom93w15	cmpu7a5zg0018l8t2bbcpif6c	Oli d'oliva verge extra Arbequina	Aceite de oliva virgen extra Arbequina	Arbequina extra-virgin olive oil	arbequina-extra-virgin-olive-oil	Oli d'oliva verge extra de la varietat Arbequina, suau i afruitat. Tria el format que millor s'adapti a la teva cuina.	Aceite de oliva virgen extra de la variedad Arbequina, suave y afrutado. Elige el formato que mejor se adapte a tu cocina.	Arbequina extra-virgin olive oil — smooth and fruity. Pick the size that fits your kitchen.	Demo CanGerard	5.36	\N	10.00	5.90	EUR	66	NEW	ACTIVE	{"region": "Les Garrigues", "acidity": "0,2°", "variety": "Arbequina"}	4.5	2	2026-05-31 19:59:05.243	2026-05-31 19:59:09.31	30	10	1100	10	FET_A_CATALUNYA	2026-05-31 19:59:05.242	f	\N	\N	0	t	f	\N	\N	\N	\N	\N	\N	\N	\N	f
 cmpu7doh6009ul8t2kayxka2f	cmpu7a2qp0002l8t2jom93w15	cmpu7a6l7001ql8t2ra3ydbfu	Mel artesana de romaní	Miel artesana de romero	Artisan rosemary honey	artisan-rosemary-honey	Mel pura de romaní recollida al Bages, sense pasteuritzar. Triable en tres formats.	Miel pura de romero recogida en el Bages, sin pasteurizar. Disponible en tres formatos.	Pure rosemary honey from the Bages, unpasteurised. Available in three sizes.	Demo CanGerard	6.82	\N	10.00	7.50	EUR	52	NEW	ACTIVE	{"raw": "Sí", "floral": "Romaní", "region": "Bages"}	4.5	2	2026-05-31 19:59:09.354	2026-05-31 19:59:14.319	12	22	800	16	FET_A_CATALUNYA	2026-05-31 19:59:09.351	f	\N	\N	0	t	f	\N	\N	\N	\N	\N	\N	\N	\N	f
 cmpu7dh7s009bl8t245ldaxtr	cmpu7a4lj000rl8t22nheyztj	cmpu7a66q001el8t2qc3yi0dz	Gerra d'aigua de terrissa	Jarra de agua de barro	Earthenware water jug	earthenware-water-jug	Gerra d'aigua de terrissa tradicional que manté l'aigua fresca.	Jarra de agua de barro tradicional que mantiene el agua fresca.	A traditional earthenware water jug that keeps water cool.	Ceràmica Montsant	8.26	\N	21.00	10.00	EUR	20	NEW	DRAFT	[{"keyCa": "style", "keyEn": "style", "keyEs": "style", "valueCa": "Tradicional", "valueEn": "Tradicional", "valueEs": "Tradicional"}, {"keyCa": "capacity", "keyEn": "capacity", "keyEs": "capacity", "valueCa": "1,5 L", "valueEn": "1,5 L", "valueEs": "1,5 L"}, {"keyCa": "material", "keyEn": "material", "keyEs": "material", "valueCa": "Terrissa", "valueEn": "Terrissa", "valueEs": "Terrissa"}]	0	0	2026-05-31 19:58:59.944	2026-06-03 19:43:14.84	20	28	1800	28	FET_A_CATALUNYA	2026-05-31 19:58:59.943	f	\N	\N	0	t	f	\N	\N	\N	\N	\N	\N	\N	\N	f
+cmqndbk71000004jvsb6gjiyq	cmqmvftzu000504jxy963ldl9	cmpu7a5ww0016l8t25emkzqx4	Cervesa Alien Inoculated	Cerveza Alien Inoculated	Alien Inoculated Beer	test	La Alien Inoculated és una cervesa àcida elaborada amb maltes i llúpols ecològics i microorganismes de l’ambient de la nostra granja cervesera. Alcohol 6,5%.\n\nDesprès de deixar el most a l’aire lliure durant unes 12 hores, s’inicia la fermentació de manera espontània en tancs de fermentació (4 mesos aproximadament) i posteriorment s’envelleix en botes de fusta de roure durant 24 mesos.\n\nEls ingredients ecològics utilitzats per a l’elaboració d’aquesta cervesa han estat produïts 100% a la granja cervesera Lo Vilot Farm Brewery – full circle beer project.	Fermentación espontánea en coolship. Salvaje. Temperatura 6-8 °C. Alcohol 6,5%.\n\nCerveza ácida elaborada con maltas y lúpulos ecológicos de producción propia, y microorganismos del ambiente de nuestra granja cervecera. Envejecida en botas de roble durante 24 meses.	Spontaneous fermentation in coolship. Savage. Temperature 6-8oC. Alcohol 6.5%.\n\nAcid beer made with organic malts and hops of own production , and microorganisms of the environment of our beer farm. Aged in oak barrels for 24 months.	Granja Cervesera Lo Vilot	5.17	\N	21.00	6.25	EUR	0	NEW	DRAFT	[]	0	0	2026-06-21 05:50:47.293	2026-06-21 07:48:02.689	10	20	500	15	FET_A_CATALUNYA	2026-06-21 06:01:55.186	t	l	0.375	0	t	t	\N	\N	\N	{"storageEs": "Fred", "allergensEs": "Ordi", "businessName": "Granja Cervesera Lo Vilot", "ingredientsEs": "Cervesa"}	\N	Granja Cervesera Lo Vilot	\N	\N	f
 \.
 
 
@@ -511,6 +516,10 @@ cmqlce6e5000204l8qyt0r9fg	cmqlce6df000004l8z67gbcvj	PRIVACY_NOTICE	t	He llegit i
 cmqmf61mk000204jubqo7cj1m	cmqmf61lt000004ju3al1fnzd	PRIVACY_NOTICE	t	He llegit i accepto l'avís de privadesa.	ca	95.126.96.201	2026-06-20 13:54:42.977
 cmqmi6rap000204l2i1lunpcf	cmqmi6ra1000004l2mw67823n	PRIVACY_NOTICE	t	He llegit i accepto l'avís de privadesa.	ca	150.228.85.114	2026-06-20 15:19:15.097
 cmqmxx8ry000204lgjjxaqe1r	cmqmxx8r8000004lgn5feflb6	PRIVACY_NOTICE	t	He llegit i accepto l'avís de privadesa.	ca	139.47.116.28	2026-06-20 22:39:45.045
+cmqna76jm000204jx3mic1605	cmqna76iv000004jxqktkxab5	PRIVACY_NOTICE	t	He llegit i accepto l'avís de privadesa.	ca	88.2.250.53	2026-06-21 04:23:24.103
+cmqnkd6gk000204jvp0exkyjc	cmqnkd6fu000004jvb313k6kh	PRIVACY_NOTICE	t	He llegit i accepto l'avís de privadesa.	ca	83.41.252.217	2026-06-21 09:08:00.09
+cmqnojitb000204l49evnmkj4	cmqnojisi000004l4vyamzrfz	PRIVACY_NOTICE	t	He llegit i accepto l'avís de privadesa.	ca	104.28.34.163	2026-06-21 11:04:54.498
+cmqo0vd3k000204l46acxzx2f	cmqo0vd2p000004l4gh8c8yxn	PRIVACY_NOTICE	t	He llegit i accepto l'avís de privadesa.	ca	81.47.4.115	2026-06-21 16:50:02.353
 \.
 
 
@@ -580,62 +589,68 @@ COPY "public"."ModerationAction" ("id", "measure", "sellerId", "productId", "rev
 --
 
 COPY "public"."Notification" ("id", "userId", "type", "payload", "readAt", "emailedAt", "createdAt") FROM stdin;
-cmqii08ze000304ihbc60w0i2	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Meritxell Guardiola Sánchez", "email": "txellguardiola@gmail.com"}	\N	\N	2026-06-17 20:03:06.746
-cmqij6pub000304l7g4wn8vui	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Dego M", "email": "degomedinasoto12@gmail.com"}	\N	\N	2026-06-17 20:36:08.147
-cmqijdstb000704l7qs0336a2	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Marey Fofana", "email": "mareyfofana@gmail.com"}	\N	\N	2026-06-17 20:41:38.591
-cmqijf9s9000304jre3f7iwgd	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Mariona Alamego Uceda", "email": "mariona.alau@gmail.com"}	\N	\N	2026-06-17 20:42:47.241
-cmqin06s7000304jpqakv3zle	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Laura Gonzalez", "email": "lauragogi7@gmail.com"}	\N	\N	2026-06-17 22:23:01.975
 cmqiu5fr7000004jupaanaz9x	cmpu7a31d0005l8t2bcdsydsr	SELLER_SHIPMENT_DELAYED	{"days": 16, "orderNumber": "CG-20260601-DIMMPF"}	\N	2026-06-18 01:43:04.188	2026-06-18 01:43:04.195
-cmqj30j01000304l89hyp7blr	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Mireia Manyà", "email": "mireia.manya@gmail.com"}	\N	\N	2026-06-18 05:51:11.665
-cmqj3idd8000304kyhx24pkf4	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Gloria", "email": "gloria.maspoch@gmail.com"}	\N	\N	2026-06-18 06:05:04.172
-cmqj3pxw6000704kyz8fp8uxt	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Joana Valero Calero", "email": "valerotax@hotmail.com"}	\N	\N	2026-06-18 06:10:57.366
-cmqj5qood000304jyqluvq0is	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Laura Barneda Sureda", "email": "laurabsu@gmail.com"}	\N	\N	2026-06-18 07:07:31.309
-cmqj6ikg1000304jsetmfree2	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "laia alsina", "email": "laiaalsina3@gmail.com"}	\N	\N	2026-06-18 07:29:12.193
-cmqj83mnm000404il2s35weuy	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Francesc Agustinoy Conde", "email": "frankie.1962.8@gmail.com"}	\N	\N	2026-06-18 08:13:34.45
-cmqj91p8a000804ilodqg5wa3	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Salvador Cardús Ros", "email": "salvador@cardus.cat"}	\N	\N	2026-06-18 08:40:04.09
-cmqj9hwev000304jvelawmvpy	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Santi Alias Luis", "email": "santiago.alias@gmail.com"}	\N	\N	2026-06-18 08:52:39.895
-cmqjazpg0000304kzkxyhrhh2	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "vanesa tudela", "email": "embla77@hotmail.com"}	\N	\N	2026-06-18 09:34:30.288
-cmqjdtsed000304l7yrkqv0sm	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Enric Castillo", "email": "chicovip@me.com"}	\N	\N	2026-06-18 10:53:53.029
-cmqjf6y0j000304jlu9wg109x	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Marta Santamaria", "email": "martastmary@gmail.com"}	\N	\N	2026-06-18 11:32:06.451
-cmqjg5cti000704jlwrja10w6	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "m teresa prades", "email": "pradesmteresa561@gmail.com"}	\N	\N	2026-06-18 11:58:51.942
-cmqjg62r0000304jx461xmn4k	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Jorge Serrate lamiel", "email": "fracasopolar@gmail.com"}	\N	\N	2026-06-18 11:59:25.548
-cmqjgfuyz000b04jlmrtnuds8	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Montserrat Andreu Domingo", "email": "montseka2@gmail.com"}	\N	\N	2026-06-18 12:07:02.027
-cmqjh2bw5000304jvm9zblcu9	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Francesc Balcells Aleu", "email": "francescbalcellsaleu@gmail.com"}	\N	\N	2026-06-18 12:24:30.389
-cmqjharf4000304ihpn74iovf	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Raul Santamaria Menen", "email": "raul.sa.me@icloud.com"}	\N	\N	2026-06-18 12:31:03.76
-cmqjhbbhx000304lbb27m1n90	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Alba A", "email": "estrellayluna5@hotmail.es"}	\N	\N	2026-06-18 12:31:29.781
-cmqjjkr1w000304l12ym0pfov	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "PERE LOPEZ PRADO", "email": "plopezpr11@gmail.com"}	\N	\N	2026-06-18 13:34:49.076
-cmqjkjjpy000304jr0o4trpn0	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Eduard", "email": "esanuyriera@gmail.com"}	\N	\N	2026-06-18 14:01:52.534
-cmqjlj65c000304l4eg8h5qda	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Miquel Amorós Ortiz", "email": "weskins@gmail.com"}	\N	\N	2026-06-18 14:29:34.56
-cmqjlqvs0000304jpm6anvftr	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Lluis Nadal", "email": "nadalfarmacia2@gmail.com"}	\N	\N	2026-06-18 14:35:34.368
-cmqjlvf0p000704jped80i8ft	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Sònia D. Boix", "email": "noctilucass@gmail.com"}	\N	\N	2026-06-18 14:39:05.929
-cmqjmz0d3000304l4gqan2iok	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Anna Garcia", "email": "annabelengs@gmail.com"}	\N	\N	2026-06-18 15:09:53.175
-cmqjo4pra000304l7e2vn253f	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Joan Tortosa Pons", "email": "joan.j.tortosa@gmail.com"}	\N	\N	2026-06-18 15:42:18.982
-cmqjpf8z1000304jvt20815gk	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Laura Cerrato Gallego", "email": "lcg1975.lcg@gmail.com"}	\N	\N	2026-06-18 16:18:30.061
-cmqjply9x000304jsssegcs1f	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Nil Mas Gallemí", "email": "nilmas.nm@gmail.com"}	\N	\N	2026-06-18 16:23:42.789
-cmqjrdhra000304jvb0ebvzs7	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Teresa Cufi", "email": "mteresa.cufi@gmail.com"}	\N	\N	2026-06-18 17:13:07.366
-cmqjrvg96000304i5lpievn26	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Josep Ros Cas", "email": "casrosjo@gmail.com"}	\N	\N	2026-06-18 17:27:05.226
-cmqjwpk36000304kynkt39241	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Jordi Lleo Subirats", "email": "jollsu.jls@gmail.com"}	\N	\N	2026-06-18 19:42:28.338
-cmqjxwvn5000704kyntuztfuv	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Jaume Saltó Garrabé", "email": "jsgxaume@gmail.com"}	\N	\N	2026-06-18 20:16:09.521
-cmqjyvze5000b04ky8w8uayqm	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Marc Marull", "email": "marcmarull@gmail.com"}	\N	\N	2026-06-18 20:43:27.341
-cmqjz8y76000304jj8vvnfgl9	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Pere Martinez Rodriguez", "email": "peremr264@proton.me"}	\N	\N	2026-06-18 20:53:32.322
-cmqjzntt7000704jjl7g5u3h9	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Núria Mañe Sal", "email": "nuria.1967@hotmail.com"}	\N	\N	2026-06-18 21:05:06.475
-cmqjzr36b000304jpkljppbkl	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Jordi Medina Sala", "email": "jordimedi@protonmail.com"}	\N	\N	2026-06-18 21:07:38.579
-cmqk0s2gl000304l5vcbzizhf	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "M. Angeles Puertolas Acin", "email": "edelweis68@hotmail.com"}	\N	\N	2026-06-18 21:36:23.925
-cmqk5plsf000304l0mgbkoe19	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Xènia Josa Ferrer", "email": "ecofamilysensetoxics@gmail.com"}	\N	\N	2026-06-18 23:54:27.087
 cmqk97laa000004l152z7cvpr	cmpu7a31d0005l8t2bcdsydsr	SELLER_SHIPMENT_DELAYED	{"days": 17, "orderNumber": "CG-20260601-DIMMPF"}	\N	2026-06-19 01:32:25.071	2026-06-19 01:32:25.09
-cmqkcgnmx000304l1qrnvd08l	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Oriol Pita Ortin", "email": "oriolpita@gmail.com"}	\N	\N	2026-06-19 03:03:26.889
-cmqkraajb000304l1pyhkz791	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Antoni Olle", "email": "antoniolle02@gmail.com"}	\N	\N	2026-06-19 09:58:24.216
-cmqkyoh2p000304l1i44wdg5w	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Núria Grané Alsina", "email": "ngrane61@gmail.com"}	\N	\N	2026-06-19 13:25:23.185
-cmql0skg5000304l1fa5z7y8i	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Eugènia Revilla Esteve", "email": "eugenia.revilla@gmail.com"}	\N	\N	2026-06-19 14:24:33.413
-cmql303df000304lbwzwr036z	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Joan Riba", "email": "joanriba@msn.com"}	\N	\N	2026-06-19 15:26:23.763
-cmql3clvl000704lbxgc6n0cr	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Jordi Vila Vila", "email": "jordivilavila@movistar.es"}	\N	\N	2026-06-19 15:36:07.617
-cmql8fxsd000304lbmpv35275	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Carles Merino", "email": "carles@merino.cat"}	\N	\N	2026-06-19 17:58:41.101
-cmqlce6fp000304l8a3lhhy39	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Trinidad Espejo", "email": "espetri64@hotmail.com"}	\N	\N	2026-06-19 19:49:17.461
 cmqlonfpt000004i5zqh12m3a	cmpu7a31d0005l8t2bcdsydsr	SELLER_SHIPMENT_DELAYED	{"days": 18, "orderNumber": "CG-20260601-DIMMPF"}	\N	2026-06-20 01:32:24.778	2026-06-20 01:32:24.785
-cmqmf61ny000304ju4ljibjw9	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Jesús Rodríguez Giné", "email": "rodriguezgine@hotmail.com"}	\N	\N	2026-06-20 13:54:43.054
-cmqmi6rc1000304l20ef1p61e	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Albert Costa", "email": "franqui1014@gmail.com"}	\N	\N	2026-06-20 15:19:15.169
-cmqmxx8t3000304lgd6cgbv01	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Raül Roch", "email": "raulescamot@gmail.com"}	\N	\N	2026-06-20 22:39:45.111
 cmqn3ztk9000004l1ja1vm4cl	cmpu7a31d0005l8t2bcdsydsr	SELLER_SHIPMENT_DELAYED	{"days": 19, "orderNumber": "CG-20260601-DIMMPF"}	\N	2026-06-21 01:29:43.01	2026-06-21 01:29:43.017
+cmqii08ze000304ihbc60w0i2	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Meritxell Guardiola Sánchez", "email": "txellguardiola@gmail.com"}	2026-06-21 06:00:43.981	\N	2026-06-17 20:03:06.746
+cmqij6pub000304l7g4wn8vui	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Dego M", "email": "degomedinasoto12@gmail.com"}	2026-06-21 06:00:43.981	\N	2026-06-17 20:36:08.147
+cmqijdstb000704l7qs0336a2	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Marey Fofana", "email": "mareyfofana@gmail.com"}	2026-06-21 06:00:43.981	\N	2026-06-17 20:41:38.591
+cmqijf9s9000304jre3f7iwgd	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Mariona Alamego Uceda", "email": "mariona.alau@gmail.com"}	2026-06-21 06:00:43.981	\N	2026-06-17 20:42:47.241
+cmqin06s7000304jpqakv3zle	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Laura Gonzalez", "email": "lauragogi7@gmail.com"}	2026-06-21 06:00:43.981	\N	2026-06-17 22:23:01.975
+cmqj30j01000304l89hyp7blr	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Mireia Manyà", "email": "mireia.manya@gmail.com"}	2026-06-21 06:00:43.981	\N	2026-06-18 05:51:11.665
+cmqj3idd8000304kyhx24pkf4	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Gloria", "email": "gloria.maspoch@gmail.com"}	2026-06-21 06:00:43.981	\N	2026-06-18 06:05:04.172
+cmqj3pxw6000704kyz8fp8uxt	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Joana Valero Calero", "email": "valerotax@hotmail.com"}	2026-06-21 06:00:43.981	\N	2026-06-18 06:10:57.366
+cmqj5qood000304jyqluvq0is	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Laura Barneda Sureda", "email": "laurabsu@gmail.com"}	2026-06-21 06:00:43.981	\N	2026-06-18 07:07:31.309
+cmqj6ikg1000304jsetmfree2	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "laia alsina", "email": "laiaalsina3@gmail.com"}	2026-06-21 06:00:43.981	\N	2026-06-18 07:29:12.193
+cmqj83mnm000404il2s35weuy	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Francesc Agustinoy Conde", "email": "frankie.1962.8@gmail.com"}	2026-06-21 06:00:43.981	\N	2026-06-18 08:13:34.45
+cmqj91p8a000804ilodqg5wa3	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Salvador Cardús Ros", "email": "salvador@cardus.cat"}	2026-06-21 06:00:43.981	\N	2026-06-18 08:40:04.09
+cmqj9hwev000304jvelawmvpy	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Santi Alias Luis", "email": "santiago.alias@gmail.com"}	2026-06-21 06:00:43.981	\N	2026-06-18 08:52:39.895
+cmqjazpg0000304kzkxyhrhh2	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "vanesa tudela", "email": "embla77@hotmail.com"}	2026-06-21 06:00:43.981	\N	2026-06-18 09:34:30.288
+cmqjdtsed000304l7yrkqv0sm	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Enric Castillo", "email": "chicovip@me.com"}	2026-06-21 06:00:43.981	\N	2026-06-18 10:53:53.029
+cmqjf6y0j000304jlu9wg109x	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Marta Santamaria", "email": "martastmary@gmail.com"}	2026-06-21 06:00:43.981	\N	2026-06-18 11:32:06.451
+cmqjg5cti000704jlwrja10w6	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "m teresa prades", "email": "pradesmteresa561@gmail.com"}	2026-06-21 06:00:43.981	\N	2026-06-18 11:58:51.942
+cmqjg62r0000304jx461xmn4k	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Jorge Serrate lamiel", "email": "fracasopolar@gmail.com"}	2026-06-21 06:00:43.981	\N	2026-06-18 11:59:25.548
+cmqjgfuyz000b04jlmrtnuds8	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Montserrat Andreu Domingo", "email": "montseka2@gmail.com"}	2026-06-21 06:00:43.981	\N	2026-06-18 12:07:02.027
+cmqjh2bw5000304jvm9zblcu9	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Francesc Balcells Aleu", "email": "francescbalcellsaleu@gmail.com"}	2026-06-21 06:00:43.981	\N	2026-06-18 12:24:30.389
+cmqjharf4000304ihpn74iovf	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Raul Santamaria Menen", "email": "raul.sa.me@icloud.com"}	2026-06-21 06:00:43.981	\N	2026-06-18 12:31:03.76
+cmqjhbbhx000304lbb27m1n90	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Alba A", "email": "estrellayluna5@hotmail.es"}	2026-06-21 06:00:43.981	\N	2026-06-18 12:31:29.781
+cmqjjkr1w000304l12ym0pfov	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "PERE LOPEZ PRADO", "email": "plopezpr11@gmail.com"}	2026-06-21 06:00:43.981	\N	2026-06-18 13:34:49.076
+cmqjkjjpy000304jr0o4trpn0	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Eduard", "email": "esanuyriera@gmail.com"}	2026-06-21 06:00:43.981	\N	2026-06-18 14:01:52.534
+cmqjlj65c000304l4eg8h5qda	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Miquel Amorós Ortiz", "email": "weskins@gmail.com"}	2026-06-21 06:00:43.981	\N	2026-06-18 14:29:34.56
+cmqjlqvs0000304jpm6anvftr	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Lluis Nadal", "email": "nadalfarmacia2@gmail.com"}	2026-06-21 06:00:43.981	\N	2026-06-18 14:35:34.368
+cmqjlvf0p000704jped80i8ft	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Sònia D. Boix", "email": "noctilucass@gmail.com"}	2026-06-21 06:00:43.981	\N	2026-06-18 14:39:05.929
+cmqjmz0d3000304l4gqan2iok	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Anna Garcia", "email": "annabelengs@gmail.com"}	2026-06-21 06:00:43.981	\N	2026-06-18 15:09:53.175
+cmqjo4pra000304l7e2vn253f	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Joan Tortosa Pons", "email": "joan.j.tortosa@gmail.com"}	2026-06-21 06:00:43.981	\N	2026-06-18 15:42:18.982
+cmqjpf8z1000304jvt20815gk	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Laura Cerrato Gallego", "email": "lcg1975.lcg@gmail.com"}	2026-06-21 06:00:43.981	\N	2026-06-18 16:18:30.061
+cmqjply9x000304jsssegcs1f	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Nil Mas Gallemí", "email": "nilmas.nm@gmail.com"}	2026-06-21 06:00:43.981	\N	2026-06-18 16:23:42.789
+cmqjrdhra000304jvb0ebvzs7	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Teresa Cufi", "email": "mteresa.cufi@gmail.com"}	2026-06-21 06:00:43.981	\N	2026-06-18 17:13:07.366
+cmqjrvg96000304i5lpievn26	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Josep Ros Cas", "email": "casrosjo@gmail.com"}	2026-06-21 06:00:43.981	\N	2026-06-18 17:27:05.226
+cmqjwpk36000304kynkt39241	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Jordi Lleo Subirats", "email": "jollsu.jls@gmail.com"}	2026-06-21 06:00:43.981	\N	2026-06-18 19:42:28.338
+cmqjxwvn5000704kyntuztfuv	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Jaume Saltó Garrabé", "email": "jsgxaume@gmail.com"}	2026-06-21 06:00:43.981	\N	2026-06-18 20:16:09.521
+cmqjyvze5000b04ky8w8uayqm	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Marc Marull", "email": "marcmarull@gmail.com"}	2026-06-21 06:00:43.981	\N	2026-06-18 20:43:27.341
+cmqjz8y76000304jj8vvnfgl9	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Pere Martinez Rodriguez", "email": "peremr264@proton.me"}	2026-06-21 06:00:43.981	\N	2026-06-18 20:53:32.322
+cmqjzntt7000704jjl7g5u3h9	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Núria Mañe Sal", "email": "nuria.1967@hotmail.com"}	2026-06-21 06:00:43.981	\N	2026-06-18 21:05:06.475
+cmqjzr36b000304jpkljppbkl	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Jordi Medina Sala", "email": "jordimedi@protonmail.com"}	2026-06-21 06:00:43.981	\N	2026-06-18 21:07:38.579
+cmqk0s2gl000304l5vcbzizhf	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "M. Angeles Puertolas Acin", "email": "edelweis68@hotmail.com"}	2026-06-21 06:00:43.981	\N	2026-06-18 21:36:23.925
+cmqk5plsf000304l0mgbkoe19	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Xènia Josa Ferrer", "email": "ecofamilysensetoxics@gmail.com"}	2026-06-21 06:00:43.981	\N	2026-06-18 23:54:27.087
+cmqkcgnmx000304l1qrnvd08l	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Oriol Pita Ortin", "email": "oriolpita@gmail.com"}	2026-06-21 06:00:43.981	\N	2026-06-19 03:03:26.889
+cmqkraajb000304l1pyhkz791	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Antoni Olle", "email": "antoniolle02@gmail.com"}	2026-06-21 06:00:43.981	\N	2026-06-19 09:58:24.216
+cmqkyoh2p000304l1i44wdg5w	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Núria Grané Alsina", "email": "ngrane61@gmail.com"}	2026-06-21 06:00:43.981	\N	2026-06-19 13:25:23.185
+cmql0skg5000304l1fa5z7y8i	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Eugènia Revilla Esteve", "email": "eugenia.revilla@gmail.com"}	2026-06-21 06:00:43.981	\N	2026-06-19 14:24:33.413
+cmql303df000304lbwzwr036z	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Joan Riba", "email": "joanriba@msn.com"}	2026-06-21 06:00:43.981	\N	2026-06-19 15:26:23.763
+cmql3clvl000704lbxgc6n0cr	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Jordi Vila Vila", "email": "jordivilavila@movistar.es"}	2026-06-21 06:00:43.981	\N	2026-06-19 15:36:07.617
+cmql8fxsd000304lbmpv35275	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Carles Merino", "email": "carles@merino.cat"}	2026-06-21 06:00:43.981	\N	2026-06-19 17:58:41.101
+cmqlce6fp000304l8a3lhhy39	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Trinidad Espejo", "email": "espetri64@hotmail.com"}	2026-06-21 06:00:43.981	\N	2026-06-19 19:49:17.461
+cmqmf61ny000304ju4ljibjw9	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Jesús Rodríguez Giné", "email": "rodriguezgine@hotmail.com"}	2026-06-21 06:00:43.981	\N	2026-06-20 13:54:43.054
+cmqmi6rc1000304l20ef1p61e	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Albert Costa", "email": "franqui1014@gmail.com"}	2026-06-21 06:00:43.981	\N	2026-06-20 15:19:15.169
+cmqmxx8t3000304lgd6cgbv01	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Raül Roch", "email": "raulescamot@gmail.com"}	2026-06-21 06:00:43.981	\N	2026-06-20 22:39:45.111
+cmqna76l0000304jxiysr20kj	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "M. Carme Girart", "email": "mcarmegirart@gmail.com"}	2026-06-21 06:00:43.981	\N	2026-06-21 04:23:24.18
+cmqndbkb4000104jvtwzr6ki6	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_PRODUCT	{"storeName": "Granja Cervesera Lo Vilot", "productTitle": "Test"}	2026-06-21 06:00:43.981	\N	2026-06-21 05:50:47.44
+cmqnkd6id000304jvq6ram64d	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Pilar Trubat Alltarriba", "email": "pilartrubat@hotmail.com"}	\N	\N	2026-06-21 09:08:00.181
+cmqnojiuj000304l4h1lp5rvo	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Isidre sala Elías", "email": "isidre.sala@gmail.com"}	\N	\N	2026-06-21 11:04:54.571
+cmqo0vd4y000304l4n9hljqf2	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Laura Giné Prades", "email": "lauragine@gmail.com"}	\N	\N	2026-06-21 16:50:02.434
+cmqojfoxm000004l55tn7glqf	cmpu7a31d0005l8t2bcdsydsr	SELLER_SHIPMENT_DELAYED	{"days": 20, "orderNumber": "CG-20260601-DIMMPF"}	\N	2026-06-22 01:29:43.914	2026-06-22 01:29:43.93
 \.
 
 
@@ -795,6 +810,7 @@ cmpu7ds1x009vl8t2fvj677v9	cmpu7doh6009ul8t2kayxka2f	https://res.cloudinary.com/g
 cmpu7ds1x009wl8t2q8gnbqfg	cmpu7doh6009ul8t2kayxka2f	https://res.cloudinary.com/gerardcsaperas/image/upload/v1779740586/cangerard/seed/artisan-rosemary-honey-2.svg	Mel artesana de romaní	1
 cmpyh4s2b000004l2d8rq2dbm	cmpu7dh7s009bl8t245ldaxtr	https://res.cloudinary.com/gerardcsaperas/image/upload/v1779701269/cangerard/seed/earthenware-water-jug-1.svg	Gerra d'aigua de terrissa	0
 cmpyh4s2b000104l2cpwly7po	cmpu7dh7s009bl8t245ldaxtr	https://res.cloudinary.com/gerardcsaperas/image/upload/v1780515658/cangerard/products/beknmvrkys55dbd0ji9h.png	Gerra d'aigua de terrissa	1
+cmqnhicra000004l1ux58eko9	cmqndbk71000004jvsb6gjiyq	https://res.cloudinary.com/gerardcsaperas/image/upload/v1782021064/cangerard/products/hz5fnojeuydfwslsh5zq.jpg	Cervesa Alien Inoculated	0
 \.
 
 
@@ -1013,6 +1029,7 @@ cmqjj52jr000104jsj85stwed	LLET	llet	ca	1	\N	2026-06-18 13:22:37.479
 cmqjjlfqu000004jpe6gcrxs9	llet	llet	ca	1	cmqjjkqza000004l1z6ddmz1w	2026-06-18 13:35:21.079
 cmqm7vu4e000004jv9labg74y	Ventilador sostre	ventilador sostre	ca	0	\N	2026-06-20 10:30:49.406
 cmqm7w17i000004jpj65nh7hk	Ventilador	ventilador	ca	0	\N	2026-06-20 10:30:58.59
+cmqnq1alx000004jfm8zo9iqk	Roba	roba	ca	1	\N	2026-06-21 11:46:43.317
 \.
 
 
@@ -1149,6 +1166,10 @@ cmqmf61m6000104juzgasbznt	cmqmf61lt000004ju3al1fnzd	2026-06-20 13:54:42.977
 cmqmi6rah000104l2gnrzd53h	cmqmi6ra1000004l2mw67823n	2026-06-20 15:19:15.097
 cmqmvftzk000404jx78a73vzk	cmqmvftz6000304jxm441kpeg	2026-06-20 21:30:13.506
 cmqmxx8rn000104lgp56bt8rx	cmqmxx8r8000004lgn5feflb6	2026-06-20 22:39:45.045
+cmqna76ja000104jx2zcv0q7h	cmqna76iv000004jxqktkxab5	2026-06-21 04:23:24.103
+cmqnkd6g6000104jvwvsrkro9	cmqnkd6fu000004jvb313k6kh	2026-06-21 09:08:00.09
+cmqnojisx000104l4glaculhg	cmqnojisi000004l4vyamzrfz	2026-06-21 11:04:54.498
+cmqo0vd37000104l4nn248s4l	cmqo0vd2p000004l4gh8c8yxn	2026-06-21 16:50:02.353
 \.
 
 
@@ -1260,6 +1281,6 @@ SELECT pg_catalog.setval('"auth"."refresh_tokens_id_seq"', 1, false);
 -- PostgreSQL database dump complete
 --
 
--- \unrestrict Uu7vKZHOYguJkQOb8kvtHjrFgsOOEg5AfnsC5ZchuqXF0QOMteRIBXraoExmMWI
+-- \unrestrict zivokKalrd9TTbElz4hbTC4ALih8AYZbTHJOxU4WwFMlKJdpRiwvvRmQHVAXhk7
 
 RESET ALL;
