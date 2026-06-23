@@ -39,6 +39,13 @@ CREATE EXTENSION IF NOT EXISTS "supabase_vault" WITH SCHEMA "vault";
 
 
 
+CREATE EXTENSION IF NOT EXISTS "unaccent" WITH SCHEMA "public";
+
+
+
+
+
+
 CREATE EXTENSION IF NOT EXISTS "uuid-ossp" WITH SCHEMA "extensions";
 
 
@@ -784,6 +791,17 @@ CREATE TABLE IF NOT EXISTS "public"."ProductImage" (
 ALTER TABLE "public"."ProductImage" OWNER TO "postgres";
 
 
+CREATE TABLE IF NOT EXISTS "public"."ProductSlugHistory" (
+    "id" "text" NOT NULL,
+    "slug" "text" NOT NULL,
+    "productId" "text" NOT NULL,
+    "createdAt" timestamp(3) without time zone DEFAULT CURRENT_TIMESTAMP NOT NULL
+);
+
+
+ALTER TABLE "public"."ProductSlugHistory" OWNER TO "postgres";
+
+
 CREATE TABLE IF NOT EXISTS "public"."ProductVariant" (
     "id" "text" NOT NULL,
     "productId" "text" NOT NULL,
@@ -1256,6 +1274,11 @@ ALTER TABLE ONLY "public"."ProductImage"
 
 
 
+ALTER TABLE ONLY "public"."ProductSlugHistory"
+    ADD CONSTRAINT "ProductSlugHistory_pkey" PRIMARY KEY ("id");
+
+
+
 ALTER TABLE ONLY "public"."ProductVariant"
     ADD CONSTRAINT "ProductVariant_pkey" PRIMARY KEY ("id");
 
@@ -1537,6 +1560,14 @@ CREATE INDEX "PlatformInvoice_status_idx" ON "public"."PlatformInvoice" USING "b
 
 
 CREATE INDEX "ProductImage_productId_idx" ON "public"."ProductImage" USING "btree" ("productId");
+
+
+
+CREATE INDEX "ProductSlugHistory_productId_idx" ON "public"."ProductSlugHistory" USING "btree" ("productId");
+
+
+
+CREATE UNIQUE INDEX "ProductSlugHistory_slug_key" ON "public"."ProductSlugHistory" USING "btree" ("slug");
 
 
 
@@ -1906,6 +1937,11 @@ ALTER TABLE ONLY "public"."PlatformInvoice"
 
 ALTER TABLE ONLY "public"."ProductImage"
     ADD CONSTRAINT "ProductImage_productId_fkey" FOREIGN KEY ("productId") REFERENCES "public"."Product"("id") ON UPDATE CASCADE ON DELETE CASCADE;
+
+
+
+ALTER TABLE ONLY "public"."ProductSlugHistory"
+    ADD CONSTRAINT "ProductSlugHistory_productId_fkey" FOREIGN KEY ("productId") REFERENCES "public"."Product"("id") ON UPDATE CASCADE ON DELETE CASCADE;
 
 
 
