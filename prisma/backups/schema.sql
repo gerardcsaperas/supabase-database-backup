@@ -108,6 +108,16 @@ CREATE TYPE "public"."DsaTargetType" AS ENUM (
 ALTER TYPE "public"."DsaTargetType" OWNER TO "postgres";
 
 
+CREATE TYPE "public"."ExperienceRedemptionStatus" AS ENUM (
+    'ISSUED',
+    'REDEEMED',
+    'REFUNDED'
+);
+
+
+ALTER TYPE "public"."ExperienceRedemptionStatus" OWNER TO "postgres";
+
+
 CREATE TYPE "public"."FulfillmentStatus" AS ENUM (
     'UNFULFILLED',
     'SHIPPED',
@@ -188,7 +198,8 @@ CREATE TYPE "public"."NotificationType" AS ENUM (
     'BUYER_REVIEW_REMOVED',
     'DSA_NOTICE_ACK',
     'ADMIN_DSA_NOTICE',
-    'ADMIN_DSA_PRIORITY'
+    'ADMIN_DSA_PRIORITY',
+    'BUYER_EXPERIENCE_READY'
 );
 
 
@@ -474,7 +485,8 @@ CREATE TABLE IF NOT EXISTS "public"."Category" (
     "updatedAt" timestamp(3) without time zone NOT NULL,
     "sendcloudEnabled" boolean DEFAULT true NOT NULL,
     "ageRestricted" boolean DEFAULT false NOT NULL,
-    "withdrawalExcludedDefault" boolean DEFAULT false NOT NULL
+    "withdrawalExcludedDefault" boolean DEFAULT false NOT NULL,
+    "isExperience" boolean DEFAULT false NOT NULL
 );
 
 
@@ -535,6 +547,26 @@ CREATE TABLE IF NOT EXISTS "public"."DsaNotice" (
 
 
 ALTER TABLE "public"."DsaNotice" OWNER TO "postgres";
+
+
+CREATE TABLE IF NOT EXISTS "public"."ExperienceRedemption" (
+    "id" "text" NOT NULL,
+    "code" "text" NOT NULL,
+    "orderId" "text" NOT NULL,
+    "orderItemId" "text" NOT NULL,
+    "productId" "text",
+    "sellerId" "text" NOT NULL,
+    "buyerId" "text" NOT NULL,
+    "unitIndex" integer NOT NULL,
+    "status" "public"."ExperienceRedemptionStatus" DEFAULT 'ISSUED'::"public"."ExperienceRedemptionStatus" NOT NULL,
+    "redeemedAt" timestamp(3) without time zone,
+    "redeemedNote" "text",
+    "createdAt" timestamp(3) without time zone DEFAULT CURRENT_TIMESTAMP NOT NULL,
+    "updatedAt" timestamp(3) without time zone NOT NULL
+);
+
+
+ALTER TABLE "public"."ExperienceRedemption" OWNER TO "postgres";
 
 
 CREATE TABLE IF NOT EXISTS "public"."InvoiceDocument" (
@@ -772,7 +804,12 @@ CREATE TABLE IF NOT EXISTS "public"."Product" (
     "manufacturerName" "text",
     "safetyWarningsEs" "text",
     "digitalDownloadUrl" "text",
-    "isDigital" boolean DEFAULT false NOT NULL
+    "isDigital" boolean DEFAULT false NOT NULL,
+    "experienceMessageCa" "text",
+    "experienceMessageEn" "text",
+    "experienceMessageEs" "text",
+    "experienceVoucherUrl" "text",
+    "isExperience" boolean DEFAULT false NOT NULL
 );
 
 
@@ -1219,6 +1256,11 @@ ALTER TABLE ONLY "public"."DsaNotice"
 
 
 
+ALTER TABLE ONLY "public"."ExperienceRedemption"
+    ADD CONSTRAINT "ExperienceRedemption_pkey" PRIMARY KEY ("id");
+
+
+
 ALTER TABLE ONLY "public"."InvoiceDocument"
     ADD CONSTRAINT "InvoiceDocument_pkey" PRIMARY KEY ("id");
 
@@ -1432,6 +1474,26 @@ CREATE INDEX "DsaNotice_status_priority_idx" ON "public"."DsaNotice" USING "btre
 
 
 CREATE INDEX "DsaNotice_targetType_targetId_idx" ON "public"."DsaNotice" USING "btree" ("targetType", "targetId");
+
+
+
+CREATE INDEX "ExperienceRedemption_buyerId_idx" ON "public"."ExperienceRedemption" USING "btree" ("buyerId");
+
+
+
+CREATE UNIQUE INDEX "ExperienceRedemption_code_key" ON "public"."ExperienceRedemption" USING "btree" ("code");
+
+
+
+CREATE INDEX "ExperienceRedemption_orderId_idx" ON "public"."ExperienceRedemption" USING "btree" ("orderId");
+
+
+
+CREATE UNIQUE INDEX "ExperienceRedemption_orderItemId_unitIndex_key" ON "public"."ExperienceRedemption" USING "btree" ("orderItemId", "unitIndex");
+
+
+
+CREATE INDEX "ExperienceRedemption_sellerId_status_idx" ON "public"."ExperienceRedemption" USING "btree" ("sellerId", "status");
 
 
 
@@ -1827,6 +1889,26 @@ ALTER TABLE ONLY "public"."Category"
 
 ALTER TABLE ONLY "public"."ConsentRecord"
     ADD CONSTRAINT "ConsentRecord_userId_fkey" FOREIGN KEY ("userId") REFERENCES "public"."User"("id") ON UPDATE CASCADE ON DELETE CASCADE;
+
+
+
+ALTER TABLE ONLY "public"."ExperienceRedemption"
+    ADD CONSTRAINT "ExperienceRedemption_buyerId_fkey" FOREIGN KEY ("buyerId") REFERENCES "public"."User"("id") ON UPDATE CASCADE ON DELETE CASCADE;
+
+
+
+ALTER TABLE ONLY "public"."ExperienceRedemption"
+    ADD CONSTRAINT "ExperienceRedemption_orderId_fkey" FOREIGN KEY ("orderId") REFERENCES "public"."Order"("id") ON UPDATE CASCADE ON DELETE CASCADE;
+
+
+
+ALTER TABLE ONLY "public"."ExperienceRedemption"
+    ADD CONSTRAINT "ExperienceRedemption_orderItemId_fkey" FOREIGN KEY ("orderItemId") REFERENCES "public"."OrderItem"("id") ON UPDATE CASCADE ON DELETE CASCADE;
+
+
+
+ALTER TABLE ONLY "public"."ExperienceRedemption"
+    ADD CONSTRAINT "ExperienceRedemption_sellerId_fkey" FOREIGN KEY ("sellerId") REFERENCES "public"."SellerProfile"("id") ON UPDATE CASCADE ON DELETE CASCADE;
 
 
 
