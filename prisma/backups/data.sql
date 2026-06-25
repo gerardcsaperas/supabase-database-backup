@@ -4,7 +4,7 @@ SET session_replication_role = replica;
 -- PostgreSQL database dump
 --
 
--- \restrict ppJXCCNPXqgXkJeCcCFYE9hZCHM8j9jG2IUIUuy2M0skFB1bNEiqbbq0BvCgdhw
+-- \restrict Dx9G2fndgChFQn37ECOTk5Mxl6qGGvrhwFDLoH0Twm6j8YTSMO7Obed03cux3uC
 
 -- Dumped from database version 17.6
 -- Dumped by pg_dump version 17.6
@@ -279,7 +279,6 @@ cmqkraagz000004l1vp6a90nk	antoniolle02@gmail.com	$2b$12$XkO.cjfRz77SfCoLsFaRY.68
 cmql3clua000404lb17o23afm	jordivilavila@movistar.es	$2b$12$atJpX8MlOlUt9m/MHDA5hOcJ3jvr2EzhVUP4GZVskGyt7elXLkRMq	Jordi Vila Vila	BUYER	ca	2026-06-19 16:00:12.193	\N	\N	\N	f	2026-06-19 15:36:07.57	2026-06-19 16:00:12.204	\N	1962-01-06 00:00:00	\N
 cmql8fxqj000004lbpnll7hbv	carles@merino.cat	$2b$12$xGEihNVy5y58cvFlcfDE3e54dAOJ7YpsOH7pSdq3GkE2hEehoEu3W	Carles Merino	BUYER	ca	2026-06-20 06:29:57.664	\N	\N	\N	f	2026-06-19 17:58:41.035	2026-06-20 06:29:57.674	\N	1967-07-25 00:00:00	\N
 cmql303bs000004lby838azbl	joanriba@msn.com	$2b$12$W8/RmYtaNfYzTdtOyTpuGOP6AUkp9sNgkKIWvZbE0mv5UV3qrRSOm	Joan Riba	BUYER	ca	2026-06-20 07:45:13.295	\N	\N	\N	f	2026-06-19 15:26:23.704	2026-06-20 07:45:13.302	\N	2008-06-19 00:00:00	\N
-cmqmf61lt000004ju3al1fnzd	rodriguezgine@hotmail.com	$2b$12$g5ZkFmrcrrrMwFWjxO9H/uHkrCY.dgBdTsJacTL7xJaUaxZ/5xnu6	Jesús Rodríguez Giné	BUYER	ca	\N	610b8f2f5e5530ca7981132dd871b9f3b4df5575f462124f9f9c3ce50d8a9bae	\N	\N	f	2026-06-20 13:54:42.977	2026-06-20 13:54:42.977	\N	1960-11-08 00:00:00	\N
 cmqmi6ra1000004l2mw67823n	franqui1014@gmail.com	$2b$12$OJZyiQRzVawB20D0oyDeH.02cSyHfsHyhTgTY8sweD1Rnb31Yn6oq	Albert Costa	BUYER	ca	2026-06-20 15:19:32.869	\N	\N	\N	f	2026-06-20 15:19:15.097	2026-06-20 15:19:32.876	\N	1978-12-21 00:00:00	\N
 cmqmvftz6000304jxm441kpeg	info@cervesalovilot.com	$2b$12$JvyddJ3Ly748.CAgqfrADO15LKhjAALZ4Xb9ZO6835vOxNz4dEeji	Quiònia Pujol Sabaté	SELLER	ca	2026-06-20 21:30:13.472	\N	\N	\N	f	2026-06-20 21:30:13.506	2026-06-20 21:30:13.506	\N	\N	\N
 cmqmxx8r8000004lgn5feflb6	raulescamot@gmail.com	$2b$12$h/rSoTVavTCQkisNYwVcguoP3vkT6KBwovCaICph8yFHfWCWJSJOC	Raül Roch	BUYER	ca	\N	92bab84c04d271896138078485be640d42f5b57d6f6f066c81513430a18367b8	\N	\N	f	2026-06-20 22:39:45.045	2026-06-20 22:39:45.045	\N	1980-04-27 00:00:00	\N
@@ -290,6 +289,9 @@ cmqnkd6fu000004jvb313k6kh	pilartrubat@hotmail.com	$2b$12$QtsJYtpLY8SD1uF2O038iuj
 cmqo0vd2p000004l4gh8c8yxn	lauragine@gmail.com	$2b$12$7OTQcWyq/ZdzvJjyhRcW6eJKBywpNn62B4VZnA4y.w22oc3ntTRn6	Laura Giné Prades	BUYER	ca	2026-06-21 16:50:15.563	\N	\N	\N	f	2026-06-21 16:50:02.353	2026-06-21 16:50:44.403	\N	1979-07-03 00:00:00	Lau*
 cmqnojisi000004l4vyamzrfz	isidre.sala@gmail.com	$2b$12$p4T6gz7o3lxlxxQkKz/y1eDK8lO/oluOu.6atF7WCmpLhc1XmvHEW	Isidre sala Elías	BUYER	ca	2026-06-22 08:28:54.159	\N	\N	\N	f	2026-06-21 11:04:54.498	2026-06-22 08:28:54.166	\N	1972-03-03 00:00:00	\N
 cmqpmawzl000004jmlne1m13l	sergisegarra2@gmail.com	$2b$12$TCh/c3.1hjbtfRaqetURJ.odj2fI.YO6tu3Wd7Yt9Q/uVJocrm2JW	Sergi Segarra	BUYER	ca	2026-06-22 19:38:25.758	\N	\N	\N	f	2026-06-22 19:37:46.113	2026-06-22 19:38:25.765	\N	2007-11-23 00:00:00	\N
+cmqmf61lt000004ju3al1fnzd	rodriguezgine@hotmail.com	$2b$12$g5ZkFmrcrrrMwFWjxO9H/uHkrCY.dgBdTsJacTL7xJaUaxZ/5xnu6	Jesús Rodríguez Giné	BUYER	ca	2026-06-24 06:31:42.525	\N	\N	\N	f	2026-06-20 13:54:42.977	2026-06-24 06:31:42.54	\N	1960-11-08 00:00:00	\N
+cmqs1v7bb000004l7v88rjmi6	nuveca@gmail.com	$2b$12$2QT5PzIHs1sfW8PLnGK8z.PSe4pl.GaB2k6wMr3B8A/F1LOlwqjTK	Núria Verdaguer i Carbó	BUYER	ca	2026-06-24 12:29:34.735	\N	\N	\N	f	2026-06-24 12:28:59.207	2026-06-24 12:29:34.75	\N	1972-07-03 00:00:00	\N
+cmqs34pik000004l6xr2zdtun	lgarciamar@gmail.com	$2b$12$IuwzsEKjDfgcKx4BLVC62O9oVw77cWPxInmfLDG92.batCmVfMrSm	Laura García	BUYER	ca	2026-06-24 13:04:43.265	\N	\N	\N	f	2026-06-24 13:04:22.316	2026-06-24 13:04:43.282	\N	2005-06-15 00:00:00	\N
 \.
 
 
@@ -560,6 +562,8 @@ cmqnkd6gk000204jvp0exkyjc	cmqnkd6fu000004jvb313k6kh	PRIVACY_NOTICE	t	He llegit i
 cmqnojitb000204l49evnmkj4	cmqnojisi000004l4vyamzrfz	PRIVACY_NOTICE	t	He llegit i accepto l'avís de privadesa.	ca	104.28.34.163	2026-06-21 11:04:54.498
 cmqo0vd3k000204l46acxzx2f	cmqo0vd2p000004l4gh8c8yxn	PRIVACY_NOTICE	t	He llegit i accepto l'avís de privadesa.	ca	81.47.4.115	2026-06-21 16:50:02.353
 cmqpmax0i000204jmja9b16lb	cmqpmawzl000004jmlne1m13l	PRIVACY_NOTICE	t	He llegit i accepto l'avís de privadesa.	ca	104.28.34.164	2026-06-22 19:37:46.113
+cmqs1v7bt000204l7va3ucbgg	cmqs1v7bb000004l7v88rjmi6	PRIVACY_NOTICE	t	He llegit i accepto l'avís de privadesa.	ca	46.25.79.199	2026-06-24 12:28:59.207
+cmqs34pj1000204l6phphe5b7	cmqs34pik000004l6xr2zdtun	PRIVACY_NOTICE	t	He llegit i accepto l'avís de privadesa.	ca	77.229.46.248	2026-06-24 13:04:22.316
 \.
 
 
@@ -672,10 +676,12 @@ COPY "public"."ModerationAction" ("id", "measure", "sellerId", "productId", "rev
 
 COPY "public"."Notification" ("id", "userId", "type", "payload", "readAt", "emailedAt", "createdAt") FROM stdin;
 cmqqwxlq9000804jo7iz4s1bl	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_PRODUCT	{"storeName": "Quota Vita", "productTitle": "Proteína Whey gust Crema Catalana"}	\N	\N	2026-06-23 17:23:06.945
+cmqs1v7ct000304l7nqlqzou2	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Núria Verdaguer i Carbó", "email": "nuveca@gmail.com"}	\N	\N	2026-06-24 12:28:59.261
 cmqiu5fr7000004jupaanaz9x	cmpu7a31d0005l8t2bcdsydsr	SELLER_SHIPMENT_DELAYED	{"days": 16, "orderNumber": "CG-20260601-DIMMPF"}	\N	2026-06-18 01:43:04.188	2026-06-18 01:43:04.195
 cmqk97laa000004l152z7cvpr	cmpu7a31d0005l8t2bcdsydsr	SELLER_SHIPMENT_DELAYED	{"days": 17, "orderNumber": "CG-20260601-DIMMPF"}	\N	2026-06-19 01:32:25.071	2026-06-19 01:32:25.09
 cmqqy5alb000604l5tr8gisv8	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_PRODUCT	{"storeName": "Quota Vita", "productTitle": "Whey Protein gust orxata"}	\N	\N	2026-06-23 17:57:05.375
 cmqlonfpt000004i5zqh12m3a	cmpu7a31d0005l8t2bcdsydsr	SELLER_SHIPMENT_DELAYED	{"days": 18, "orderNumber": "CG-20260601-DIMMPF"}	\N	2026-06-20 01:32:24.778	2026-06-20 01:32:24.785
+cmqs34pk6000304l6zmuhp6jv	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Laura García", "email": "lgarciamar@gmail.com"}	\N	\N	2026-06-24 13:04:22.374
 cmqn3ztk9000004l1ja1vm4cl	cmpu7a31d0005l8t2bcdsydsr	SELLER_SHIPMENT_DELAYED	{"days": 19, "orderNumber": "CG-20260601-DIMMPF"}	\N	2026-06-21 01:29:43.01	2026-06-21 01:29:43.017
 cmqii08ze000304ihbc60w0i2	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Meritxell Guardiola Sánchez", "email": "txellguardiola@gmail.com"}	2026-06-21 06:00:43.981	\N	2026-06-17 20:03:06.746
 cmqij6pub000304l7g4wn8vui	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Dego M", "email": "degomedinasoto12@gmail.com"}	2026-06-21 06:00:43.981	\N	2026-06-17 20:36:08.147
@@ -732,6 +738,7 @@ cmqmxx8t3000304lgd6cgbv01	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Ra�
 cmqna76l0000304jxiysr20kj	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "M. Carme Girart", "email": "mcarmegirart@gmail.com"}	2026-06-21 06:00:43.981	\N	2026-06-21 04:23:24.18
 cmqndbkb4000104jvtwzr6ki6	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_PRODUCT	{"storeName": "Granja Cervesera Lo Vilot", "productTitle": "Test"}	2026-06-21 06:00:43.981	\N	2026-06-21 05:50:47.44
 cmqqyl9m6000a04jxx774u60g	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_PRODUCT	{"storeName": "Quota Vita", "productTitle": "Whey Protein gust neutre (sense sabor)"}	\N	\N	2026-06-23 18:09:30.606
+cmqsss6ex000004jpbefdkz9v	cmpu7a31d0005l8t2bcdsydsr	SELLER_SHIPMENT_DELAYED	{"days": 23, "orderNumber": "CG-20260601-DIMMPF"}	\N	2026-06-25 01:02:27.687	2026-06-25 01:02:27.705
 cmqojfoxm000004l55tn7glqf	cmpu7a31d0005l8t2bcdsydsr	SELLER_SHIPMENT_DELAYED	{"days": 20, "orderNumber": "CG-20260601-DIMMPF"}	\N	2026-06-22 01:29:43.914	2026-06-22 01:29:43.93
 cmqpncrrt000004le33myhorw	cmpu7a31d0005l8t2bcdsydsr	SELLER_PRODUCT_MODERATED	{"action": "REMOVED", "productTitle": "Cava Rosat Brut"}	\N	2026-06-22 20:07:12.275	2026-06-22 20:07:12.281
 cmqpyfpbf000004jpp5bw7izh	cmpu7a31d0005l8t2bcdsydsr	SELLER_SHIPMENT_DELAYED	{"days": 21, "orderNumber": "CG-20260601-DIMMPF"}	\N	2026-06-23 01:17:24.835	2026-06-23 01:17:24.843
@@ -1155,6 +1162,8 @@ cmqq7a6xl000004jr54i0myez	Cantir	cantir	ca	0	\N	2026-06-23 05:25:04.281
 cmqq7agkj000004kzwzidhkae	Tomaquet	tomaquet	ca	1	\N	2026-06-23 05:25:16.771
 cmqr0zf0h000004kyn1zhkcjj	Telecomunicacions	telecomunicacions	ca	0	\N	2026-06-23 19:16:30.017
 cmqr12yun000004kzsl6s6omo	Llet	llet	ca	1	\N	2026-06-23 19:19:15.695
+cmqs34xhd000004jxfsiznnra	Pa	pa	ca	22	cmqs34pik000004l6xr2zdtun	2026-06-24 13:04:32.641
+cmqs8njlz000004jj5bnb5glj	Pa	pa	ca	22	cmqs34pik000004l6xr2zdtun	2026-06-24 15:38:59.207
 \.
 
 
@@ -1296,6 +1305,8 @@ cmqnkd6g6000104jvwvsrkro9	cmqnkd6fu000004jvb313k6kh	2026-06-21 09:08:00.09
 cmqnojisx000104l4glaculhg	cmqnojisi000004l4vyamzrfz	2026-06-21 11:04:54.498
 cmqo0vd37000104l4nn248s4l	cmqo0vd2p000004l4gh8c8yxn	2026-06-21 16:50:02.353
 cmqpmax02000104jmy6kxm8yx	cmqpmawzl000004jmlne1m13l	2026-06-22 19:37:46.113
+cmqs1v7bi000104l7p4yspfbc	cmqs1v7bb000004l7v88rjmi6	2026-06-24 12:28:59.207
+cmqs34pis000104l6cbc71xt4	cmqs34pik000004l6xr2zdtun	2026-06-24 13:04:22.316
 \.
 
 
@@ -1412,6 +1423,6 @@ SELECT pg_catalog.setval('"auth"."refresh_tokens_id_seq"', 1, false);
 -- PostgreSQL database dump complete
 --
 
--- \unrestrict ppJXCCNPXqgXkJeCcCFYE9hZCHM8j9jG2IUIUuy2M0skFB1bNEiqbbq0BvCgdhw
+-- \unrestrict Dx9G2fndgChFQn37ECOTk5Mxl6qGGvrhwFDLoH0Twm6j8YTSMO7Obed03cux3uC
 
 RESET ALL;
