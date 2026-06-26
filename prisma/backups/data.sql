@@ -4,7 +4,7 @@ SET session_replication_role = replica;
 -- PostgreSQL database dump
 --
 
--- \restrict Dx9G2fndgChFQn37ECOTk5Mxl6qGGvrhwFDLoH0Twm6j8YTSMO7Obed03cux3uC
+-- \restrict b6J7fxRnEcTOUMq3xvdvKjNct03zs7CijScrwEKnSkczTqovpOdd5eMUg3KrGKg
 
 -- Dumped from database version 17.6
 -- Dumped by pg_dump version 17.6
@@ -772,6 +772,7 @@ cmqqd4r8n000204l2zw47wwdk	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_PRODUCT	{"storeNam
 cmqqd7v1h000204lab6us88ec	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_PRODUCT	{"storeName": "Granja Cervesera Lo Vilot", "productTitle": "Cervesa Tropical Funky"}	2026-06-23 17:10:33.647	\N	2026-06-23 08:11:13.253
 cmqqdeehv000704laqf0v6bnw	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_PRODUCT	{"storeName": "Granja Cervesera Lo Vilot", "productTitle": "Cervesa Torrada Sense Gluten Zatec"}	2026-06-23 17:10:33.647	\N	2026-06-23 08:16:18.403
 cmqqh7hod000204l2s7z5yjrh	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_PRODUCT	{"storeName": "Granja Cervesera Lo Vilot", "productTitle": "Experiència Zitogastronòmica – Granja Cervesera + Dinar"}	2026-06-23 17:10:33.647	\N	2026-06-23 10:02:54.397
+cmqu8828k000004l3a6mo0x6c	cmpu7a31d0005l8t2bcdsydsr	SELLER_SHIPMENT_DELAYED	{"days": 24, "orderNumber": "CG-20260601-DIMMPF"}	\N	2026-06-26 01:02:29.197	2026-06-26 01:02:29.204
 \.
 
 
@@ -1164,6 +1165,8 @@ cmqr0zf0h000004kyn1zhkcjj	Telecomunicacions	telecomunicacions	ca	0	\N	2026-06-23
 cmqr12yun000004kzsl6s6omo	Llet	llet	ca	1	\N	2026-06-23 19:19:15.695
 cmqs34xhd000004jxfsiznnra	Pa	pa	ca	22	cmqs34pik000004l6xr2zdtun	2026-06-24 13:04:32.641
 cmqs8njlz000004jj5bnb5glj	Pa	pa	ca	22	cmqs34pik000004l6xr2zdtun	2026-06-24 15:38:59.207
+cmqt67kxs000004l18nky7e1g	Secallona	secallona	ca	1	\N	2026-06-25 07:18:21.376
+cmqtjbfg5000004jvyrjv61fz	Botifarra	botifarra	ca	0	\N	2026-06-25 13:25:15.893
 \.
 
 
@@ -1423,6 +1426,6 @@ SELECT pg_catalog.setval('"auth"."refresh_tokens_id_seq"', 1, false);
 -- PostgreSQL database dump complete
 --
 
--- \unrestrict Dx9G2fndgChFQn37ECOTk5Mxl6qGGvrhwFDLoH0Twm6j8YTSMO7Obed03cux3uC
+-- \unrestrict b6J7fxRnEcTOUMq3xvdvKjNct03zs7CijScrwEKnSkczTqovpOdd5eMUg3KrGKg
 
 RESET ALL;
