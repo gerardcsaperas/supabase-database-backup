@@ -4,7 +4,7 @@ SET session_replication_role = replica;
 -- PostgreSQL database dump
 --
 
--- \restrict plr2ynS167oWDqbHnzLQtZWiCfrIRlgAReDUFSG9FHLlwhsGWkctaj8iVqXDUfF
+-- \restrict IfbKRSCCqSbMQmUeZR10ph0Di35xjNJO6N3cxWKiwjwVYVdEf80mYQ1pETb6qF8
 
 -- Dumped from database version 17.6
 -- Dumped by pg_dump version 17.6
@@ -294,6 +294,7 @@ cmqs1v7bb000004l7v88rjmi6	nuveca@gmail.com	$2b$12$2QT5PzIHs1sfW8PLnGK8z.PSe4pl.G
 cmqs34pik000004l6xr2zdtun	lgarciamar@gmail.com	$2b$12$IuwzsEKjDfgcKx4BLVC62O9oVw77cWPxInmfLDG92.batCmVfMrSm	Laura García	BUYER	ca	2026-06-24 13:04:43.265	\N	\N	\N	f	2026-06-24 13:04:22.316	2026-06-24 13:04:43.282	\N	2005-06-15 00:00:00	\N
 cmqv6665j000004lboby109pp	andreugiralto@gmail.com	$2b$12$wqfmrYYv59UBWweqL/og9.uM1b8Wf7btMblat5bQnKtNb2shQvI6G	Pere Andreu Giralto Morell	BUYER	ca	2026-06-26 17:34:40.723	\N	\N	\N	f	2026-06-26 16:52:47.911	2026-06-26 17:34:40.733	\N	1978-03-18 00:00:00	\N
 cmqva0ozl000004kyjv3tsj4n	jordireiki@me.com	$2b$12$eH.p9nlKswkiI3F4MnZtuOkF74sFRJ/uEKe5cMk53.LDRYTvHOMI2	Jordi Pallares Coll	BUYER	ca	\N	fc3a4785195bf5276a8c0bef42df92871f89667aefbf681cc519963c706243fd	\N	\N	f	2026-06-26 18:40:30.849	2026-06-26 18:40:30.849	\N	1962-07-26 00:00:00	\N
+cmqwaq13n000004l8t83lg89h	ogargallo@protonmail.com	$2b$12$NPwRl5rzgwyYp2JeVgxNh.PKHQknTY56xoOdxt4HumcYjb5ucYwO6	Oscar Gargallo	BUYER	ca	\N	908806af236165f1298f6216f39f4bbc83da8e2ba1128f1a0725e25a61c1e6df	\N	\N	f	2026-06-27 11:47:59.123	2026-06-27 11:47:59.123	\N	1974-01-14 00:00:00	\N
 \.
 
 
@@ -568,6 +569,7 @@ cmqs1v7bt000204l7va3ucbgg	cmqs1v7bb000004l7v88rjmi6	PRIVACY_NOTICE	t	He llegit i
 cmqs34pj1000204l6phphe5b7	cmqs34pik000004l6xr2zdtun	PRIVACY_NOTICE	t	He llegit i accepto l'avís de privadesa.	ca	77.229.46.248	2026-06-24 13:04:22.316
 cmqv6666l000204lbqkzfuurs	cmqv6665j000004lboby109pp	PRIVACY_NOTICE	t	He llegit i accepto l'avís de privadesa.	ca	31.221.166.100	2026-06-26 16:52:47.911
 cmqva0p0g000204kydg6psjgy	cmqva0ozl000004kyjv3tsj4n	PRIVACY_NOTICE	t	He llegit i accepto l'avís de privadesa.	ca	95.129.255.180	2026-06-26 18:40:30.849
+cmqwaq14c000204l8ccxqao2r	cmqwaq13n000004l8t83lg89h	PRIVACY_NOTICE	t	He llegit i accepto l'avís de privadesa.	ca	83.40.56.207	2026-06-27 11:47:59.123
 \.
 
 
@@ -682,6 +684,7 @@ COPY "public"."Notification" ("id", "userId", "type", "payload", "readAt", "emai
 cmqqwxlq9000804jo7iz4s1bl	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_PRODUCT	{"storeName": "Quota Vita", "productTitle": "Proteína Whey gust Crema Catalana"}	\N	\N	2026-06-23 17:23:06.945
 cmqs1v7ct000304l7nqlqzou2	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Núria Verdaguer i Carbó", "email": "nuveca@gmail.com"}	\N	\N	2026-06-24 12:28:59.261
 cmqv66682000304lbwug2u7bn	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Pere Andreu Giralto Morell", "email": "andreugiralto@gmail.com"}	\N	\N	2026-06-26 16:52:48.002
+cmqx33rd7000004jv402638ix	cmpu7a31d0005l8t2bcdsydsr	SELLER_SHIPMENT_DELAYED	{"days": 26, "orderNumber": "CG-20260601-DIMMPF"}	\N	2026-06-28 01:02:28.931	2026-06-28 01:02:28.939
 cmqiu5fr7000004jupaanaz9x	cmpu7a31d0005l8t2bcdsydsr	SELLER_SHIPMENT_DELAYED	{"days": 16, "orderNumber": "CG-20260601-DIMMPF"}	\N	2026-06-18 01:43:04.188	2026-06-18 01:43:04.195
 cmqk97laa000004l152z7cvpr	cmpu7a31d0005l8t2bcdsydsr	SELLER_SHIPMENT_DELAYED	{"days": 17, "orderNumber": "CG-20260601-DIMMPF"}	\N	2026-06-19 01:32:25.071	2026-06-19 01:32:25.09
 cmqqy5alb000604l5tr8gisv8	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_PRODUCT	{"storeName": "Quota Vita", "productTitle": "Whey Protein gust orxata"}	\N	\N	2026-06-23 17:57:05.375
@@ -780,6 +783,7 @@ cmqqd7v1h000204lab6us88ec	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_PRODUCT	{"storeNam
 cmqqdeehv000704laqf0v6bnw	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_PRODUCT	{"storeName": "Granja Cervesera Lo Vilot", "productTitle": "Cervesa Torrada Sense Gluten Zatec"}	2026-06-23 17:10:33.647	\N	2026-06-23 08:16:18.403
 cmqqh7hod000204l2s7z5yjrh	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_PRODUCT	{"storeName": "Granja Cervesera Lo Vilot", "productTitle": "Experiència Zitogastronòmica – Granja Cervesera + Dinar"}	2026-06-23 17:10:33.647	\N	2026-06-23 10:02:54.397
 cmqu8828k000004l3a6mo0x6c	cmpu7a31d0005l8t2bcdsydsr	SELLER_SHIPMENT_DELAYED	{"days": 24, "orderNumber": "CG-20260601-DIMMPF"}	\N	2026-06-26 01:02:29.197	2026-06-26 01:02:29.204
+cmqwaq15u000304l857ic8mbb	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Oscar Gargallo", "email": "ogargallo@protonmail.com"}	\N	\N	2026-06-27 11:47:59.202
 \.
 
 
@@ -1174,6 +1178,8 @@ cmqs34xhd000004jxfsiznnra	Pa	pa	ca	22	cmqs34pik000004l6xr2zdtun	2026-06-24 13:04
 cmqs8njlz000004jj5bnb5glj	Pa	pa	ca	22	cmqs34pik000004l6xr2zdtun	2026-06-24 15:38:59.207
 cmqt67kxs000004l18nky7e1g	Secallona	secallona	ca	1	\N	2026-06-25 07:18:21.376
 cmqtjbfg5000004jvyrjv61fz	Botifarra	botifarra	ca	0	\N	2026-06-25 13:25:15.893
+cmqwr6itq000004ky4fbwt6bc	Oli	oli	ca	13	cmqjf6xyq000004jl4zdta7ss	2026-06-27 19:28:42.446
+cmqwr75ko000004l1kky8sg6j	Oli	oli	ca	13	cmqjf6xyq000004jl4zdta7ss	2026-06-27 19:29:11.928
 \.
 
 
@@ -1319,6 +1325,7 @@ cmqs1v7bi000104l7p4yspfbc	cmqs1v7bb000004l7v88rjmi6	2026-06-24 12:28:59.207
 cmqs34pis000104l6cbc71xt4	cmqs34pik000004l6xr2zdtun	2026-06-24 13:04:22.316
 cmqv66660000104lb0ricuo4f	cmqv6665j000004lboby109pp	2026-06-26 16:52:47.911
 cmqva0p01000104ky5erigdf3	cmqva0ozl000004kyjv3tsj4n	2026-06-26 18:40:30.849
+cmqwaq13y000104l83cq21nod	cmqwaq13n000004l8t83lg89h	2026-06-27 11:47:59.123
 \.
 
 
@@ -1435,6 +1442,6 @@ SELECT pg_catalog.setval('"auth"."refresh_tokens_id_seq"', 1, false);
 -- PostgreSQL database dump complete
 --
 
--- \unrestrict plr2ynS167oWDqbHnzLQtZWiCfrIRlgAReDUFSG9FHLlwhsGWkctaj8iVqXDUfF
+-- \unrestrict IfbKRSCCqSbMQmUeZR10ph0Di35xjNJO6N3cxWKiwjwVYVdEf80mYQ1pETb6qF8
 
 RESET ALL;
