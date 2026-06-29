@@ -4,7 +4,7 @@ SET session_replication_role = replica;
 -- PostgreSQL database dump
 --
 
--- \restrict IfbKRSCCqSbMQmUeZR10ph0Di35xjNJO6N3cxWKiwjwVYVdEf80mYQ1pETb6qF8
+-- \restrict wobwPtFdzbXYNB1h7NZgnebbcx1cmVzfUREFNynqE0kreSg7JGbOT597RrFXZY9
 
 -- Dumped from database version 17.6
 -- Dumped by pg_dump version 17.6
@@ -270,7 +270,6 @@ cmqk0s2f8000004l5ibsuitun	edelweis68@hotmail.com	$2b$12$pFqakLuuWxbxuCsGm1QDVefm
 cmqjmz0ba000004l4133jkklx	annabelengs@gmail.com	$2b$12$j0O4lxWAt1IYX7pluNh3suhPRSgxciVGAUVLSuhd53ydXVLJbIFa.	Anna Garcia	BUYER	ca	2026-06-19 09:23:54.713	\N	\N	\N	f	2026-06-18 15:09:53.11	2026-06-19 09:23:54.72	\N	1971-04-08 00:00:00	\N
 cmqjxwvlq000404kybs366h86	jsgxaume@gmail.com	$2b$12$kpDUmyIo4su3tYjzBMvzWOYe/WVKT92VFRV1Psh0Qhw5/rhNJONbK	Jaume Saltó Garrabé	BUYER	ca	2026-06-19 13:57:54.643	\N	\N	\N	f	2026-06-18 20:16:09.47	2026-06-19 13:57:54.656	\N	1962-10-04 00:00:00	\N
 cmqjhardd000004ihc5hi51rr	raul.sa.me@icloud.com	$2b$12$zszmBnadjt7/FIm6PpsEjuIa//i/Us4FeZTMXOHgQ6AmFsVchhGOu	Raul Santamaria Menen	BUYER	ca	2026-06-19 15:51:07.986	\N	\N	\N	f	2026-06-18 12:31:03.697	2026-06-19 15:51:07.996	\N	1988-06-06 00:00:00	\N
-cmqk5plq5000004l044h0kz47	ecofamilysensetoxics@gmail.com	$2b$12$ag.fknsUdcA8VMBN3iczY.9arrOXxVt1.M07Td6gGGtCXq/aHe9me	Xènia Josa Ferrer	BUYER	ca	\N	c8478ba9d9210347121aa5fb65d39ec65dd4746d5ab8b1a74bbb231f2c43f471	\N	\N	f	2026-06-18 23:54:27.005	2026-06-18 23:54:27.005	\N	1974-10-22 00:00:00	\N
 cmqkcgnkq000004l1732k7k1h	oriolpita@gmail.com	$2b$12$x8r4xXd/RvCoDHGJriwageyXAwMWXZPo3PMEPoNo5bJ/evOcRPRUS	Oriol Pita Ortin	BUYER	ca	2026-06-19 06:24:57.205	\N	\N	\N	f	2026-06-19 03:03:26.81	2026-06-19 06:24:57.214	\N	1989-10-11 00:00:00	\N
 cmqjg5cry000404jlna8wgvc7	pradesmteresa561@gmail.com	$2b$12$80obH9oGP4gVljDbmRkpROap1Qcf0VqwbXYSAOhYVgx/ODDQle6iy	m teresa prades	BUYER	ca	2026-06-19 06:49:55.82	\N	\N	\N	f	2026-06-18 11:58:51.886	2026-06-19 06:49:55.827	\N	1966-06-11 00:00:00	\N
 cmqkyoh0u000004l1w2wnx1fq	ngrane61@gmail.com	$2b$12$jBm/nQLr9WNCPEa4RmBXMec.0c01GNgSy3DbtouzoDrRPZbbqWW1m	Núria Grané Alsina	BUYER	ca	2026-06-19 13:36:36.478	\N	\N	\N	f	2026-06-19 13:25:23.118	2026-06-19 13:36:36.482	\N	1961-03-11 00:00:00	\N
@@ -295,6 +294,7 @@ cmqs34pik000004l6xr2zdtun	lgarciamar@gmail.com	$2b$12$IuwzsEKjDfgcKx4BLVC62O9oVw
 cmqv6665j000004lboby109pp	andreugiralto@gmail.com	$2b$12$wqfmrYYv59UBWweqL/og9.uM1b8Wf7btMblat5bQnKtNb2shQvI6G	Pere Andreu Giralto Morell	BUYER	ca	2026-06-26 17:34:40.723	\N	\N	\N	f	2026-06-26 16:52:47.911	2026-06-26 17:34:40.733	\N	1978-03-18 00:00:00	\N
 cmqva0ozl000004kyjv3tsj4n	jordireiki@me.com	$2b$12$eH.p9nlKswkiI3F4MnZtuOkF74sFRJ/uEKe5cMk53.LDRYTvHOMI2	Jordi Pallares Coll	BUYER	ca	\N	fc3a4785195bf5276a8c0bef42df92871f89667aefbf681cc519963c706243fd	\N	\N	f	2026-06-26 18:40:30.849	2026-06-26 18:40:30.849	\N	1962-07-26 00:00:00	\N
 cmqwaq13n000004l8t83lg89h	ogargallo@protonmail.com	$2b$12$NPwRl5rzgwyYp2JeVgxNh.PKHQknTY56xoOdxt4HumcYjb5ucYwO6	Oscar Gargallo	BUYER	ca	\N	908806af236165f1298f6216f39f4bbc83da8e2ba1128f1a0725e25a61c1e6df	\N	\N	f	2026-06-27 11:47:59.123	2026-06-27 11:47:59.123	\N	1974-01-14 00:00:00	\N
+cmqk5plq5000004l044h0kz47	ecofamilysensetoxics@gmail.com	$2b$12$ag.fknsUdcA8VMBN3iczY.9arrOXxVt1.M07Td6gGGtCXq/aHe9me	Xènia Josa Ferrer	BUYER	ca	2026-06-28 05:37:14.783	\N	\N	\N	f	2026-06-18 23:54:27.005	2026-06-28 05:37:14.793	\N	1974-10-22 00:00:00	\N
 \.
 
 
@@ -691,6 +691,7 @@ cmqqy5alb000604l5tr8gisv8	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_PRODUCT	{"storeNam
 cmqlonfpt000004i5zqh12m3a	cmpu7a31d0005l8t2bcdsydsr	SELLER_SHIPMENT_DELAYED	{"days": 18, "orderNumber": "CG-20260601-DIMMPF"}	\N	2026-06-20 01:32:24.778	2026-06-20 01:32:24.785
 cmqs34pk6000304l6zmuhp6jv	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Laura García", "email": "lgarciamar@gmail.com"}	\N	\N	2026-06-24 13:04:22.374
 cmqva0p1z000304kyhqa6voaj	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Jordi Pallares Coll", "email": "jordireiki@me.com"}	\N	\N	2026-06-26 18:40:30.935
+cmqyijm2v000004l11cwy0xkz	cmpu7a31d0005l8t2bcdsydsr	SELLER_SHIPMENT_DELAYED	{"days": 27, "orderNumber": "CG-20260601-DIMMPF"}	\N	2026-06-29 01:02:28.99	2026-06-29 01:02:28.999
 cmqn3ztk9000004l1ja1vm4cl	cmpu7a31d0005l8t2bcdsydsr	SELLER_SHIPMENT_DELAYED	{"days": 19, "orderNumber": "CG-20260601-DIMMPF"}	\N	2026-06-21 01:29:43.01	2026-06-21 01:29:43.017
 cmqii08ze000304ihbc60w0i2	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Meritxell Guardiola Sánchez", "email": "txellguardiola@gmail.com"}	2026-06-21 06:00:43.981	\N	2026-06-17 20:03:06.746
 cmqij6pub000304l7g4wn8vui	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Dego M", "email": "degomedinasoto12@gmail.com"}	2026-06-21 06:00:43.981	\N	2026-06-17 20:36:08.147
@@ -1442,6 +1443,6 @@ SELECT pg_catalog.setval('"auth"."refresh_tokens_id_seq"', 1, false);
 -- PostgreSQL database dump complete
 --
 
--- \unrestrict IfbKRSCCqSbMQmUeZR10ph0Di35xjNJO6N3cxWKiwjwVYVdEf80mYQ1pETb6qF8
+-- \unrestrict wobwPtFdzbXYNB1h7NZgnebbcx1cmVzfUREFNynqE0kreSg7JGbOT597RrFXZY9
 
 RESET ALL;
