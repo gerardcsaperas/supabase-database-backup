@@ -4,7 +4,7 @@ SET session_replication_role = replica;
 -- PostgreSQL database dump
 --
 
--- \restrict wobwPtFdzbXYNB1h7NZgnebbcx1cmVzfUREFNynqE0kreSg7JGbOT597RrFXZY9
+-- \restrict dhzt2ElOwNKEVfmVJYm9vkxobOxfZtz2uFjBPg2nl0ubCSl6i8tTrYUeGjyrwvq
 
 -- Dumped from database version 17.6
 -- Dumped by pg_dump version 17.6
@@ -33,7 +33,7 @@ COPY "auth"."audit_log_entries" ("instance_id", "id", "payload", "created_at", "
 -- Data for Name: custom_oauth_providers; Type: TABLE DATA; Schema: auth; Owner: supabase_auth_admin
 --
 
-COPY "auth"."custom_oauth_providers" ("id", "provider_type", "identifier", "name", "client_id", "client_secret", "acceptable_client_ids", "scopes", "pkce_enabled", "attribute_mapping", "authorization_params", "enabled", "email_optional", "issuer", "discovery_url", "skip_nonce_check", "cached_discovery", "discovery_cached_at", "authorization_url", "token_url", "userinfo_url", "jwks_uri", "created_at", "updated_at") FROM stdin;
+COPY "auth"."custom_oauth_providers" ("id", "provider_type", "identifier", "name", "client_id", "client_secret", "acceptable_client_ids", "scopes", "pkce_enabled", "attribute_mapping", "authorization_params", "enabled", "email_optional", "issuer", "discovery_url", "skip_nonce_check", "cached_discovery", "discovery_cached_at", "authorization_url", "token_url", "userinfo_url", "jwks_uri", "created_at", "updated_at", "custom_claims_allowlist") FROM stdin;
 \.
 
 
@@ -751,6 +751,7 @@ cmqqyl9m6000a04jxx774u60g	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_PRODUCT	{"storeNam
 cmqsss6ex000004jpbefdkz9v	cmpu7a31d0005l8t2bcdsydsr	SELLER_SHIPMENT_DELAYED	{"days": 23, "orderNumber": "CG-20260601-DIMMPF"}	\N	2026-06-25 01:02:27.687	2026-06-25 01:02:27.705
 cmqvnnwxv000004lfr8pfqcml	cmpu7a31d0005l8t2bcdsydsr	SELLER_SHIPMENT_DELAYED	{"days": 25, "orderNumber": "CG-20260601-DIMMPF"}	\N	2026-06-27 01:02:29.236	2026-06-27 01:02:29.251
 cmqojfoxm000004l55tn7glqf	cmpu7a31d0005l8t2bcdsydsr	SELLER_SHIPMENT_DELAYED	{"days": 20, "orderNumber": "CG-20260601-DIMMPF"}	\N	2026-06-22 01:29:43.914	2026-06-22 01:29:43.93
+cmqzxzftl000004l5uu6qs5c8	cmpu7a31d0005l8t2bcdsydsr	SELLER_SHIPMENT_DELAYED	{"days": 28, "orderNumber": "CG-20260601-DIMMPF"}	\N	2026-06-30 01:02:27.794	2026-06-30 01:02:27.809
 cmqpncrrt000004le33myhorw	cmpu7a31d0005l8t2bcdsydsr	SELLER_PRODUCT_MODERATED	{"action": "REMOVED", "productTitle": "Cava Rosat Brut"}	\N	2026-06-22 20:07:12.275	2026-06-22 20:07:12.281
 cmqpyfpbf000004jpp5bw7izh	cmpu7a31d0005l8t2bcdsydsr	SELLER_SHIPMENT_DELAYED	{"days": 21, "orderNumber": "CG-20260601-DIMMPF"}	\N	2026-06-23 01:17:24.835	2026-06-23 01:17:24.843
 cmqqh2bqh000004l2cna0bohe	cmqmvftz6000304jxm441kpeg	SELLER_STATUS_CHANGED	{"status": "APPROVED"}	\N	2026-06-23 09:58:53.411	2026-06-23 09:58:53.417
@@ -1181,6 +1182,9 @@ cmqt67kxs000004l18nky7e1g	Secallona	secallona	ca	1	\N	2026-06-25 07:18:21.376
 cmqtjbfg5000004jvyrjv61fz	Botifarra	botifarra	ca	0	\N	2026-06-25 13:25:15.893
 cmqwr6itq000004ky4fbwt6bc	Oli	oli	ca	13	cmqjf6xyq000004jl4zdta7ss	2026-06-27 19:28:42.446
 cmqwr75ko000004l1kky8sg6j	Oli	oli	ca	13	cmqjf6xyq000004jl4zdta7ss	2026-06-27 19:29:11.928
+cmqytxv0m000004le7z6paeoc	Fruita	fruita	ca	6	\N	2026-06-29 06:21:29.542
+cmqyvq7z6000004jv9rx3h5dp	Fruita	fruita	ca	6	\N	2026-06-29 07:11:32.322
+cmqzcn0t6000004l4xr93vnck	Fruita	fruita	ca	6	\N	2026-06-29 15:04:56.538
 \.
 
 
@@ -1443,6 +1447,6 @@ SELECT pg_catalog.setval('"auth"."refresh_tokens_id_seq"', 1, false);
 -- PostgreSQL database dump complete
 --
 
--- \unrestrict wobwPtFdzbXYNB1h7NZgnebbcx1cmVzfUREFNynqE0kreSg7JGbOT597RrFXZY9
+-- \unrestrict dhzt2ElOwNKEVfmVJYm9vkxobOxfZtz2uFjBPg2nl0ubCSl6i8tTrYUeGjyrwvq
 
 RESET ALL;
