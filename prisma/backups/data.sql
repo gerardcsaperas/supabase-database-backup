@@ -4,7 +4,7 @@ SET session_replication_role = replica;
 -- PostgreSQL database dump
 --
 
--- \restrict dhzt2ElOwNKEVfmVJYm9vkxobOxfZtz2uFjBPg2nl0ubCSl6i8tTrYUeGjyrwvq
+-- \restrict aJ5uc7Oimpf2HrgQsImPib7hj2g5rn7PNR0u5N3zxMjMIkWhkhJpDtG1Y6dPWxS
 
 -- Dumped from database version 17.6
 -- Dumped by pg_dump version 17.6
@@ -295,6 +295,8 @@ cmqv6665j000004lboby109pp	andreugiralto@gmail.com	$2b$12$wqfmrYYv59UBWweqL/og9.u
 cmqva0ozl000004kyjv3tsj4n	jordireiki@me.com	$2b$12$eH.p9nlKswkiI3F4MnZtuOkF74sFRJ/uEKe5cMk53.LDRYTvHOMI2	Jordi Pallares Coll	BUYER	ca	\N	fc3a4785195bf5276a8c0bef42df92871f89667aefbf681cc519963c706243fd	\N	\N	f	2026-06-26 18:40:30.849	2026-06-26 18:40:30.849	\N	1962-07-26 00:00:00	\N
 cmqwaq13n000004l8t83lg89h	ogargallo@protonmail.com	$2b$12$NPwRl5rzgwyYp2JeVgxNh.PKHQknTY56xoOdxt4HumcYjb5ucYwO6	Oscar Gargallo	BUYER	ca	\N	908806af236165f1298f6216f39f4bbc83da8e2ba1128f1a0725e25a61c1e6df	\N	\N	f	2026-06-27 11:47:59.123	2026-06-27 11:47:59.123	\N	1974-01-14 00:00:00	\N
 cmqk5plq5000004l044h0kz47	ecofamilysensetoxics@gmail.com	$2b$12$ag.fknsUdcA8VMBN3iczY.9arrOXxVt1.M07Td6gGGtCXq/aHe9me	Xènia Josa Ferrer	BUYER	ca	2026-06-28 05:37:14.783	\N	\N	\N	f	2026-06-18 23:54:27.005	2026-06-28 05:37:14.793	\N	1974-10-22 00:00:00	\N
+cmr0beygz000004jj1sog8v2m	astrid.rp@gmail.com	$2b$12$Mi.KFnkjaAayEEWF9OVXFOAmzO0/F1itVNKUx7jD0BGiTe7R8ASMG	Àstrid Romero Pagan	BUYER	ca	2026-06-30 07:19:21.448	\N	\N	\N	f	2026-06-30 07:18:26.819	2026-06-30 07:19:21.455	\N	1964-01-22 00:00:00	\N
+cmr0dyx6s000004let43gsqu6	info@debosc.com	$2b$12$0a7V3qOgNKdGTKUJM0wzOOPIUi/SjX9UaGWSaifI.SK1F1vC8p6N2	Maria Teresa Roura Bataller	SELLER	ca	2026-06-30 08:59:53.19	\N	\N	\N	f	2026-06-30 08:29:57.508	2026-06-30 08:59:53.199	\N	1964-12-07 00:00:00	\N
 \.
 
 
@@ -324,6 +326,7 @@ cmpy87w4o000204l1twrbo7ye	cmpy87vzd000004l1nekjm03g	Quota Vita	quota-vita	Whey p
 cmpyhlfag000204l428x8he27	cmpyhlf4w000004l4f8q7ljyu	Marta Segarra	marta-segarra	Les Franqueses del Vallès Les Franqueses del Vallès Les Franqueses del Vallès	Les Franqueses del Vallès Les Franqueses del Vallès Les Franqueses del Vallès	Les Franqueses del Vallès Les Franqueses del Vallès Les Franqueses del Vallès	\N	Les Franqueses del Vallès	PENDING	\N	10.00	\N	f	f	f	f	\N	2026-06-03 19:56:11.36	2026-06-03 19:56:11.36	\N	ES	\N	\N	\N	\N	\N	\N	ES	\N	\N	ES	\N	\N	\N	\N	\N	GENERAL	667717567	\N	1	\N	\N	\N	\N
 cmpu7a33m0007l8t2zwqbkwf7	cmpu7a31d0005l8t2bcdsydsr	Cal Forner	cal-forner	Forn de pa i botiga de gust del Bages: embotits, formatges, torrons, conserves i caves de tota la vida.	Horno de pan y tienda gourmet del Bages: embutidos, quesos, turrones, conservas y cavas de toda la vida.	A bakery and gourmet shop from Bages: cured meats, cheeses, nougat, preserves and cava.	\N	Bages	APPROVED	\N	10.00	\N	f	f	f	f	2026-05-31 19:56:21.556	2026-05-31 19:56:21.601	2026-06-12 19:32:36.576	Manresa	ES	08241	Bages	Carrer del Born, 12	Carrer del Born, 12	\N	Manresa	ES	08241	Bages	ES	\N	Cal Forner SL	\N	B12345674	\N	GENERAL	+34 938 720 011	calforner@cangerard.cat	4	CG-B12345674	\N	\N	\N
 cmqmvftzu000504jxy963ldl9	cmqmvftz6000304jxm441kpeg	Granja Cervesera Lo Vilot	granja-cervesera-lo-vilot	A la granja cervesera Lo Vilot fem cervesa artesana ecològica de granja, amb ingredients ecològics que produïm nosaltres mateixes, temps i passió.\r\n\r\nCada ampolla és una petita obra d’art que garanteix la seva qualitat, terrer, sabor i autenticitat.\r\n\r\nSi vols una cervesa honesta, amb caràcter i amb ingredients d’aquí, tria Lo Vilot.	A la granja cervesera Lo Vilot fem cervesa artesana ecològica de granja, amb ingredients ecològics que produïm nosaltres mateixes, temps i passió.\r\n\r\nCada ampolla és una petita obra d’art que garanteix la seva qualitat, terrer, sabor i autenticitat.\r\n\r\nSi vols una cervesa honesta, amb caràcter i amb ingredients d’aquí, tria Lo Vilot.	A la granja cervesera Lo Vilot fem cervesa artesana ecològica de granja, amb ingredients ecològics que produïm nosaltres mateixes, temps i passió.\r\n\r\nCada ampolla és una petita obra d’art que garanteix la seva qualitat, terrer, sabor i autenticitat.\r\n\r\nSi vols una cervesa honesta, amb caràcter i amb ingredients d’aquí, tria Lo Vilot.	\N	Lleida	APPROVED	\N	10.00	\N	f	f	f	f	2026-06-23 09:58:52.991	2026-06-20 21:30:13.506	2026-06-23 09:58:52.999	\N	ES	\N	\N	\N	\N	\N	\N	ES	\N	\N	ES	\N	\N	\N	\N	\N	GENERAL	635409999	\N	1	\N	\N	\N	\N
+cmr0dyx7o000304lecfc4anpi	cmr0dyx6s000004let43gsqu6	Debosc	debosc	Disseny i fabricació de productes de fusta per la llar. Principalment tions de disseny per Nadal.	Disseny i fabricació de productes de fusta per la llar. Principalment tions de disseny per Nadal.	Disseny i fabricació de productes de fusta per la llar. Principalment tions de disseny per Nadal.	\N	Anglès	PENDING	\N	10.00	\N	f	f	f	f	\N	2026-06-30 08:29:57.508	2026-06-30 08:29:57.508	\N	ES	\N	\N	\N	\N	\N	\N	ES	\N	\N	ES	\N	\N	\N	\N	\N	GENERAL	649557273	\N	1	\N	\N	\N	\N
 \.
 
 
@@ -570,6 +573,8 @@ cmqs34pj1000204l6phphe5b7	cmqs34pik000004l6xr2zdtun	PRIVACY_NOTICE	t	He llegit i
 cmqv6666l000204lbqkzfuurs	cmqv6665j000004lboby109pp	PRIVACY_NOTICE	t	He llegit i accepto l'avís de privadesa.	ca	31.221.166.100	2026-06-26 16:52:47.911
 cmqva0p0g000204kydg6psjgy	cmqva0ozl000004kyjv3tsj4n	PRIVACY_NOTICE	t	He llegit i accepto l'avís de privadesa.	ca	95.129.255.180	2026-06-26 18:40:30.849
 cmqwaq14c000204l8ccxqao2r	cmqwaq13n000004l8t83lg89h	PRIVACY_NOTICE	t	He llegit i accepto l'avís de privadesa.	ca	83.40.56.207	2026-06-27 11:47:59.123
+cmr0beyhq000204jjvqbtrp1k	cmr0beygz000004jj1sog8v2m	PRIVACY_NOTICE	t	He llegit i accepto l'avís de privadesa.	ca	46.6.127.201	2026-06-30 07:18:26.819
+cmr0dyx7e000204le4ghzri6p	cmr0dyx6s000004let43gsqu6	PRIVACY_NOTICE	t	He llegit i accepto l'avís de privadesa.	ca	185.219.139.198	2026-06-30 08:29:57.508
 \.
 
 
@@ -685,6 +690,7 @@ cmqqwxlq9000804jo7iz4s1bl	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_PRODUCT	{"storeNam
 cmqs1v7ct000304l7nqlqzou2	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Núria Verdaguer i Carbó", "email": "nuveca@gmail.com"}	\N	\N	2026-06-24 12:28:59.261
 cmqv66682000304lbwug2u7bn	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Pere Andreu Giralto Morell", "email": "andreugiralto@gmail.com"}	\N	\N	2026-06-26 16:52:48.002
 cmqx33rd7000004jv402638ix	cmpu7a31d0005l8t2bcdsydsr	SELLER_SHIPMENT_DELAYED	{"days": 26, "orderNumber": "CG-20260601-DIMMPF"}	\N	2026-06-28 01:02:28.931	2026-06-28 01:02:28.939
+cmr0dyx8y000404le5aoc0ehm	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_SELLER	{"storeName": "Debosc"}	\N	\N	2026-06-30 08:29:57.586
 cmqiu5fr7000004jupaanaz9x	cmpu7a31d0005l8t2bcdsydsr	SELLER_SHIPMENT_DELAYED	{"days": 16, "orderNumber": "CG-20260601-DIMMPF"}	\N	2026-06-18 01:43:04.188	2026-06-18 01:43:04.195
 cmqk97laa000004l152z7cvpr	cmpu7a31d0005l8t2bcdsydsr	SELLER_SHIPMENT_DELAYED	{"days": 17, "orderNumber": "CG-20260601-DIMMPF"}	\N	2026-06-19 01:32:25.071	2026-06-19 01:32:25.09
 cmqqy5alb000604l5tr8gisv8	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_PRODUCT	{"storeName": "Quota Vita", "productTitle": "Whey Protein gust orxata"}	\N	\N	2026-06-23 17:57:05.375
@@ -693,6 +699,7 @@ cmqs34pk6000304l6zmuhp6jv	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Lau
 cmqva0p1z000304kyhqa6voaj	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Jordi Pallares Coll", "email": "jordireiki@me.com"}	\N	\N	2026-06-26 18:40:30.935
 cmqyijm2v000004l11cwy0xkz	cmpu7a31d0005l8t2bcdsydsr	SELLER_SHIPMENT_DELAYED	{"days": 27, "orderNumber": "CG-20260601-DIMMPF"}	\N	2026-06-29 01:02:28.99	2026-06-29 01:02:28.999
 cmqn3ztk9000004l1ja1vm4cl	cmpu7a31d0005l8t2bcdsydsr	SELLER_SHIPMENT_DELAYED	{"days": 19, "orderNumber": "CG-20260601-DIMMPF"}	\N	2026-06-21 01:29:43.01	2026-06-21 01:29:43.017
+cmr1dfaj1000004l1cs7lmge2	cmpu7a31d0005l8t2bcdsydsr	SELLER_SHIPMENT_DELAYED	{"days": 29, "orderNumber": "CG-20260601-DIMMPF"}	\N	2026-07-01 01:02:27.846	2026-07-01 01:02:27.853
 cmqii08ze000304ihbc60w0i2	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Meritxell Guardiola Sánchez", "email": "txellguardiola@gmail.com"}	2026-06-21 06:00:43.981	\N	2026-06-17 20:03:06.746
 cmqij6pub000304l7g4wn8vui	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Dego M", "email": "degomedinasoto12@gmail.com"}	2026-06-21 06:00:43.981	\N	2026-06-17 20:36:08.147
 cmqijdstb000704l7qs0336a2	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Marey Fofana", "email": "mareyfofana@gmail.com"}	2026-06-21 06:00:43.981	\N	2026-06-17 20:41:38.591
@@ -786,6 +793,7 @@ cmqqdeehv000704laqf0v6bnw	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_PRODUCT	{"storeNam
 cmqqh7hod000204l2s7z5yjrh	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_PRODUCT	{"storeName": "Granja Cervesera Lo Vilot", "productTitle": "Experiència Zitogastronòmica – Granja Cervesera + Dinar"}	2026-06-23 17:10:33.647	\N	2026-06-23 10:02:54.397
 cmqu8828k000004l3a6mo0x6c	cmpu7a31d0005l8t2bcdsydsr	SELLER_SHIPMENT_DELAYED	{"days": 24, "orderNumber": "CG-20260601-DIMMPF"}	\N	2026-06-26 01:02:29.197	2026-06-26 01:02:29.204
 cmqwaq15u000304l857ic8mbb	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Oscar Gargallo", "email": "ogargallo@protonmail.com"}	\N	\N	2026-06-27 11:47:59.202
+cmr0beyj2000304jjd6g00bun	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Àstrid Romero Pagan", "email": "astrid.rp@gmail.com"}	\N	\N	2026-06-30 07:18:26.894
 \.
 
 
@@ -1331,6 +1339,8 @@ cmqs34pis000104l6cbc71xt4	cmqs34pik000004l6xr2zdtun	2026-06-24 13:04:22.316
 cmqv66660000104lb0ricuo4f	cmqv6665j000004lboby109pp	2026-06-26 16:52:47.911
 cmqva0p01000104ky5erigdf3	cmqva0ozl000004kyjv3tsj4n	2026-06-26 18:40:30.849
 cmqwaq13y000104l83cq21nod	cmqwaq13n000004l8t83lg89h	2026-06-27 11:47:59.123
+cmr0beyhb000104jjtwb4q0fr	cmr0beygz000004jj1sog8v2m	2026-06-30 07:18:26.819
+cmr0dyx73000104letkt6z911	cmr0dyx6s000004let43gsqu6	2026-06-30 08:29:57.508
 \.
 
 
@@ -1447,6 +1457,6 @@ SELECT pg_catalog.setval('"auth"."refresh_tokens_id_seq"', 1, false);
 -- PostgreSQL database dump complete
 --
 
--- \unrestrict dhzt2ElOwNKEVfmVJYm9vkxobOxfZtz2uFjBPg2nl0ubCSl6i8tTrYUeGjyrwvq
+-- \unrestrict aJ5uc7Oimpf2HrgQsImPib7hj2g5rn7PNR0u5N3zxMjMIkWhkhJpDtG1Y6dPWxS
 
 RESET ALL;
