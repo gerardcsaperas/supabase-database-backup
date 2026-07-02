@@ -4,7 +4,7 @@ SET session_replication_role = replica;
 -- PostgreSQL database dump
 --
 
--- \restrict aJ5uc7Oimpf2HrgQsImPib7hj2g5rn7PNR0u5N3zxMjMIkWhkhJpDtG1Y6dPWxS
+-- \restrict O77HNsI9mX9VFeDia2w7yN6d9kXx9BdrRFCoLY6ZVb4JAgRMumL2o34dzCRhw8A
 
 -- Dumped from database version 17.6
 -- Dumped by pg_dump version 17.6
@@ -292,11 +292,11 @@ cmqmf61lt000004ju3al1fnzd	rodriguezgine@hotmail.com	$2b$12$g5ZkFmrcrrrMwFWjxO9H/
 cmqs1v7bb000004l7v88rjmi6	nuveca@gmail.com	$2b$12$2QT5PzIHs1sfW8PLnGK8z.PSe4pl.GaB2k6wMr3B8A/F1LOlwqjTK	Núria Verdaguer i Carbó	BUYER	ca	2026-06-24 12:29:34.735	\N	\N	\N	f	2026-06-24 12:28:59.207	2026-06-24 12:29:34.75	\N	1972-07-03 00:00:00	\N
 cmqs34pik000004l6xr2zdtun	lgarciamar@gmail.com	$2b$12$IuwzsEKjDfgcKx4BLVC62O9oVw77cWPxInmfLDG92.batCmVfMrSm	Laura García	BUYER	ca	2026-06-24 13:04:43.265	\N	\N	\N	f	2026-06-24 13:04:22.316	2026-06-24 13:04:43.282	\N	2005-06-15 00:00:00	\N
 cmqv6665j000004lboby109pp	andreugiralto@gmail.com	$2b$12$wqfmrYYv59UBWweqL/og9.uM1b8Wf7btMblat5bQnKtNb2shQvI6G	Pere Andreu Giralto Morell	BUYER	ca	2026-06-26 17:34:40.723	\N	\N	\N	f	2026-06-26 16:52:47.911	2026-06-26 17:34:40.733	\N	1978-03-18 00:00:00	\N
-cmqva0ozl000004kyjv3tsj4n	jordireiki@me.com	$2b$12$eH.p9nlKswkiI3F4MnZtuOkF74sFRJ/uEKe5cMk53.LDRYTvHOMI2	Jordi Pallares Coll	BUYER	ca	\N	fc3a4785195bf5276a8c0bef42df92871f89667aefbf681cc519963c706243fd	\N	\N	f	2026-06-26 18:40:30.849	2026-06-26 18:40:30.849	\N	1962-07-26 00:00:00	\N
 cmqwaq13n000004l8t83lg89h	ogargallo@protonmail.com	$2b$12$NPwRl5rzgwyYp2JeVgxNh.PKHQknTY56xoOdxt4HumcYjb5ucYwO6	Oscar Gargallo	BUYER	ca	\N	908806af236165f1298f6216f39f4bbc83da8e2ba1128f1a0725e25a61c1e6df	\N	\N	f	2026-06-27 11:47:59.123	2026-06-27 11:47:59.123	\N	1974-01-14 00:00:00	\N
 cmqk5plq5000004l044h0kz47	ecofamilysensetoxics@gmail.com	$2b$12$ag.fknsUdcA8VMBN3iczY.9arrOXxVt1.M07Td6gGGtCXq/aHe9me	Xènia Josa Ferrer	BUYER	ca	2026-06-28 05:37:14.783	\N	\N	\N	f	2026-06-18 23:54:27.005	2026-06-28 05:37:14.793	\N	1974-10-22 00:00:00	\N
 cmr0beygz000004jj1sog8v2m	astrid.rp@gmail.com	$2b$12$Mi.KFnkjaAayEEWF9OVXFOAmzO0/F1itVNKUx7jD0BGiTe7R8ASMG	Àstrid Romero Pagan	BUYER	ca	2026-06-30 07:19:21.448	\N	\N	\N	f	2026-06-30 07:18:26.819	2026-06-30 07:19:21.455	\N	1964-01-22 00:00:00	\N
 cmr0dyx6s000004let43gsqu6	info@debosc.com	$2b$12$0a7V3qOgNKdGTKUJM0wzOOPIUi/SjX9UaGWSaifI.SK1F1vC8p6N2	Maria Teresa Roura Bataller	SELLER	ca	2026-06-30 08:59:53.19	\N	\N	\N	f	2026-06-30 08:29:57.508	2026-06-30 08:59:53.199	\N	1964-12-07 00:00:00	\N
+cmqva0ozl000004kyjv3tsj4n	jordireiki@me.com	$2b$12$eH.p9nlKswkiI3F4MnZtuOkF74sFRJ/uEKe5cMk53.LDRYTvHOMI2	Jordi Pallares Coll	BUYER	ca	2026-07-01 08:28:23.935	\N	\N	\N	f	2026-06-26 18:40:30.849	2026-07-01 08:28:23.944	\N	1962-07-26 00:00:00	\N
 \.
 
 
@@ -760,6 +760,7 @@ cmqvnnwxv000004lfr8pfqcml	cmpu7a31d0005l8t2bcdsydsr	SELLER_SHIPMENT_DELAYED	{"da
 cmqojfoxm000004l55tn7glqf	cmpu7a31d0005l8t2bcdsydsr	SELLER_SHIPMENT_DELAYED	{"days": 20, "orderNumber": "CG-20260601-DIMMPF"}	\N	2026-06-22 01:29:43.914	2026-06-22 01:29:43.93
 cmqzxzftl000004l5uu6qs5c8	cmpu7a31d0005l8t2bcdsydsr	SELLER_SHIPMENT_DELAYED	{"days": 28, "orderNumber": "CG-20260601-DIMMPF"}	\N	2026-06-30 01:02:27.794	2026-06-30 01:02:27.809
 cmqpncrrt000004le33myhorw	cmpu7a31d0005l8t2bcdsydsr	SELLER_PRODUCT_MODERATED	{"action": "REMOVED", "productTitle": "Cava Rosat Brut"}	\N	2026-06-22 20:07:12.275	2026-06-22 20:07:12.281
+cmr2sv68b000004l4e2y4jr7h	cmpu7a31d0005l8t2bcdsydsr	SELLER_SHIPMENT_DELAYED	{"days": 30, "orderNumber": "CG-20260601-DIMMPF"}	\N	2026-07-02 01:02:29.179	2026-07-02 01:02:29.195
 cmqpyfpbf000004jpp5bw7izh	cmpu7a31d0005l8t2bcdsydsr	SELLER_SHIPMENT_DELAYED	{"days": 21, "orderNumber": "CG-20260601-DIMMPF"}	\N	2026-06-23 01:17:24.835	2026-06-23 01:17:24.843
 cmqqh2bqh000004l2cna0bohe	cmqmvftz6000304jxm441kpeg	SELLER_STATUS_CHANGED	{"status": "APPROVED"}	\N	2026-06-23 09:58:53.411	2026-06-23 09:58:53.417
 cmqrdcbym000004jsbkqeam7g	cmpu7a31d0005l8t2bcdsydsr	SELLER_SHIPMENT_DELAYED	{"days": 22, "orderNumber": "CG-20260601-DIMMPF"}	\N	2026-06-24 01:02:27.974	2026-06-24 01:02:27.982
@@ -1457,6 +1458,6 @@ SELECT pg_catalog.setval('"auth"."refresh_tokens_id_seq"', 1, false);
 -- PostgreSQL database dump complete
 --
 
--- \unrestrict aJ5uc7Oimpf2HrgQsImPib7hj2g5rn7PNR0u5N3zxMjMIkWhkhJpDtG1Y6dPWxS
+-- \unrestrict O77HNsI9mX9VFeDia2w7yN6d9kXx9BdrRFCoLY6ZVb4JAgRMumL2o34dzCRhw8A
 
 RESET ALL;
