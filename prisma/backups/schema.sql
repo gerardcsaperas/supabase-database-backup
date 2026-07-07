@@ -55,7 +55,9 @@ CREATE EXTENSION IF NOT EXISTS "uuid-ossp" WITH SCHEMA "extensions";
 
 CREATE TYPE "public"."ConsentType" AS ENUM (
     'PRIVACY_NOTICE',
-    'EBOOK_IMMEDIATE_EXECUTION'
+    'EBOOK_IMMEDIATE_EXECUTION',
+    'BUYER_TERMS',
+    'SELLER_TERMS'
 );
 
 
@@ -1150,7 +1152,9 @@ CREATE TABLE IF NOT EXISTS "public"."User" (
     "updatedAt" timestamp(3) without time zone NOT NULL,
     "deletedAt" timestamp(3) without time zone,
     "dateOfBirth" timestamp(3) without time zone,
-    "displayAlias" "text"
+    "displayAlias" "text",
+    "legalTermsAcceptedAt" timestamp(3) without time zone,
+    "legalTermsVersion" "text"
 );
 
 
