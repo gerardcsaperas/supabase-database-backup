@@ -4,7 +4,7 @@ SET session_replication_role = replica;
 -- PostgreSQL database dump
 --
 
--- \restrict 1IGA1IC3W4SKlAJvkCc6rYkMRADva5IZaUHPic6EKUo6FVGVtefa88Dyjil7Q5D
+-- \restrict 9uoC8WD6CtaQRkNUdaSeDHynGrfCyu5jSl9CUf3EJZD8qDVlrOWtR1pRdxKZUZi
 
 -- Dumped from database version 17.6
 -- Dumped by pg_dump version 17.6
@@ -297,6 +297,7 @@ cmqk5plq5000004l044h0kz47	ecofamilysensetoxics@gmail.com	$2b$12$ag.fknsUdcA8VMBN
 cmr0beygz000004jj1sog8v2m	astrid.rp@gmail.com	$2b$12$Mi.KFnkjaAayEEWF9OVXFOAmzO0/F1itVNKUx7jD0BGiTe7R8ASMG	Àstrid Romero Pagan	BUYER	ca	2026-06-30 07:19:21.448	\N	\N	\N	f	2026-06-30 07:18:26.819	2026-06-30 07:19:21.455	\N	1964-01-22 00:00:00	\N	\N	\N
 cmr0dyx6s000004let43gsqu6	info@debosc.com	$2b$12$0a7V3qOgNKdGTKUJM0wzOOPIUi/SjX9UaGWSaifI.SK1F1vC8p6N2	Maria Teresa Roura Bataller	SELLER	ca	2026-06-30 08:59:53.19	\N	\N	\N	f	2026-06-30 08:29:57.508	2026-06-30 08:59:53.199	\N	1964-12-07 00:00:00	\N	\N	\N
 cmqva0ozl000004kyjv3tsj4n	jordireiki@me.com	$2b$12$eH.p9nlKswkiI3F4MnZtuOkF74sFRJ/uEKe5cMk53.LDRYTvHOMI2	Jordi Pallares Coll	BUYER	ca	2026-07-01 08:28:23.935	\N	\N	\N	f	2026-06-26 18:40:30.849	2026-07-01 08:28:23.944	\N	1962-07-26 00:00:00	\N	\N	\N
+cmramsdlv000005jrre991r6z	erarde1921@gmail.com	$2b$12$P1QPkrrBEkzn5bEJ5y1np.MVjQxx8JeFOOAjz7mPxPBsPJXFnnxh6	Eric arenas denia	BUYER	ca	2026-07-07 12:34:52.009	\N	\N	\N	f	2026-07-07 12:34:30.499	2026-07-07 12:34:52.016	\N	1999-02-21 00:00:00	\N	2026-07-07 12:34:30.466	1.0
 \.
 
 
@@ -575,6 +576,8 @@ cmqva0p0g000204kydg6psjgy	cmqva0ozl000004kyjv3tsj4n	PRIVACY_NOTICE	t	He llegit i
 cmqwaq14c000204l8ccxqao2r	cmqwaq13n000004l8t83lg89h	PRIVACY_NOTICE	t	He llegit i accepto l'avís de privadesa.	ca	83.40.56.207	2026-06-27 11:47:59.123
 cmr0beyhq000204jjvqbtrp1k	cmr0beygz000004jj1sog8v2m	PRIVACY_NOTICE	t	He llegit i accepto l'avís de privadesa.	ca	46.6.127.201	2026-06-30 07:18:26.819
 cmr0dyx7e000204le4ghzri6p	cmr0dyx6s000004let43gsqu6	PRIVACY_NOTICE	t	He llegit i accepto l'avís de privadesa.	ca	185.219.139.198	2026-06-30 08:29:57.508
+cmramsdnl000205jruexdnmip	cmramsdlv000005jrre991r6z	PRIVACY_NOTICE	t	Accepto les condicions de compra i he llegit la política de privadesa.	ca	90.167.95.119	2026-07-07 12:34:30.499
+cmramsdnl000305jrv17e27u9	cmramsdlv000005jrre991r6z	BUYER_TERMS	t	Accepto les condicions de compra i he llegit la política de privadesa.	ca	90.167.95.119	2026-07-07 12:34:30.499
 \.
 
 
@@ -693,6 +696,7 @@ cmqx33rd7000004jv402638ix	cmpu7a31d0005l8t2bcdsydsr	SELLER_SHIPMENT_DELAYED	{"da
 cmr0dyx8y000404le5aoc0ehm	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_SELLER	{"storeName": "Debosc"}	\N	\N	2026-06-30 08:29:57.586
 cmqiu5fr7000004jupaanaz9x	cmpu7a31d0005l8t2bcdsydsr	SELLER_SHIPMENT_DELAYED	{"days": 16, "orderNumber": "CG-20260601-DIMMPF"}	\N	2026-06-18 01:43:04.188	2026-06-18 01:43:04.195
 cmr5nqvbr000004jxql0qarzc	cmpu7a31d0005l8t2bcdsydsr	SELLER_SHIPMENT_DELAYED	{"days": 32, "orderNumber": "CG-20260601-DIMMPF"}	\N	2026-07-04 01:02:28.879	2026-07-04 01:02:28.887
+cmramsdpq000405jr76iftzc8	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Eric arenas denia", "email": "erarde1921@gmail.com"}	\N	\N	2026-07-07 12:34:30.638
 cmqk97laa000004l152z7cvpr	cmpu7a31d0005l8t2bcdsydsr	SELLER_SHIPMENT_DELAYED	{"days": 17, "orderNumber": "CG-20260601-DIMMPF"}	\N	2026-06-19 01:32:25.071	2026-06-19 01:32:25.09
 cmqqy5alb000604l5tr8gisv8	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_PRODUCT	{"storeName": "Quota Vita", "productTitle": "Whey Protein gust orxata"}	\N	\N	2026-06-23 17:57:05.375
 cmqlonfpt000004i5zqh12m3a	cmpu7a31d0005l8t2bcdsydsr	SELLER_SHIPMENT_DELAYED	{"days": 18, "orderNumber": "CG-20260601-DIMMPF"}	\N	2026-06-20 01:32:24.778	2026-06-20 01:32:24.785
@@ -764,6 +768,7 @@ cmqzxzftl000004l5uu6qs5c8	cmpu7a31d0005l8t2bcdsydsr	SELLER_SHIPMENT_DELAYED	{"da
 cmqpncrrt000004le33myhorw	cmpu7a31d0005l8t2bcdsydsr	SELLER_PRODUCT_MODERATED	{"action": "REMOVED", "productTitle": "Cava Rosat Brut"}	\N	2026-06-22 20:07:12.275	2026-06-22 20:07:12.281
 cmr2sv68b000004l4e2y4jr7h	cmpu7a31d0005l8t2bcdsydsr	SELLER_SHIPMENT_DELAYED	{"days": 30, "orderNumber": "CG-20260601-DIMMPF"}	\N	2026-07-02 01:02:29.179	2026-07-02 01:02:29.195
 cmr8imjsg000004l3190kyaye	cmpu7a31d0005l8t2bcdsydsr	SELLER_SHIPMENT_DELAYED	{"days": 34, "orderNumber": "CG-20260601-DIMMPF"}	\N	2026-07-06 01:02:27.752	2026-07-06 01:02:27.76
+cmrbdt7et000004les4ybo318	cmpu7a31d0005l8t2bcdsydsr	SELLER_SHIPMENT_DELAYED	{"days": 36, "orderNumber": "CG-20260601-DIMMPF"}	\N	2026-07-08 01:10:58.746	2026-07-08 01:10:58.757
 cmqpyfpbf000004jpp5bw7izh	cmpu7a31d0005l8t2bcdsydsr	SELLER_SHIPMENT_DELAYED	{"days": 21, "orderNumber": "CG-20260601-DIMMPF"}	\N	2026-06-23 01:17:24.835	2026-06-23 01:17:24.843
 cmqqh2bqh000004l2cna0bohe	cmqmvftz6000304jxm441kpeg	SELLER_STATUS_CHANGED	{"status": "APPROVED"}	\N	2026-06-23 09:58:53.411	2026-06-23 09:58:53.417
 cmqrdcbym000004jsbkqeam7g	cmpu7a31d0005l8t2bcdsydsr	SELLER_SHIPMENT_DELAYED	{"days": 22, "orderNumber": "CG-20260601-DIMMPF"}	\N	2026-06-24 01:02:27.974	2026-06-24 01:02:27.982
@@ -1347,6 +1352,7 @@ cmqva0p01000104ky5erigdf3	cmqva0ozl000004kyjv3tsj4n	2026-06-26 18:40:30.849
 cmqwaq13y000104l83cq21nod	cmqwaq13n000004l8t83lg89h	2026-06-27 11:47:59.123
 cmr0beyhb000104jjtwb4q0fr	cmr0beygz000004jj1sog8v2m	2026-06-30 07:18:26.819
 cmr0dyx73000104letkt6z911	cmr0dyx6s000004let43gsqu6	2026-06-30 08:29:57.508
+cmramsdms000105jr45nsf5w4	cmramsdlv000005jrre991r6z	2026-07-07 12:34:30.499
 \.
 
 
@@ -1464,6 +1470,6 @@ SELECT pg_catalog.setval('"auth"."refresh_tokens_id_seq"', 1, false);
 -- PostgreSQL database dump complete
 --
 
--- \unrestrict 1IGA1IC3W4SKlAJvkCc6rYkMRADva5IZaUHPic6EKUo6FVGVtefa88Dyjil7Q5D
+-- \unrestrict 9uoC8WD6CtaQRkNUdaSeDHynGrfCyu5jSl9CUf3EJZD8qDVlrOWtR1pRdxKZUZi
 
 RESET ALL;
