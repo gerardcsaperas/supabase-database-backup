@@ -4,7 +4,7 @@ SET session_replication_role = replica;
 -- PostgreSQL database dump
 --
 
--- \restrict 9uoC8WD6CtaQRkNUdaSeDHynGrfCyu5jSl9CUf3EJZD8qDVlrOWtR1pRdxKZUZi
+-- \restrict upQWiDadLPetuVbhRez99Rgilf2nBBjWZ46UPVNKjNmIWkRrkv7gEgQ9vv9hmci
 
 -- Dumped from database version 17.6
 -- Dumped by pg_dump version 17.6
@@ -202,7 +202,6 @@ COPY "auth"."webauthn_credentials" ("id", "user_id", "credential_id", "public_ke
 --
 
 COPY "public"."User" ("id", "email", "passwordHash", "name", "role", "preferredLocale", "emailVerified", "emailVerifyToken", "passwordResetToken", "passwordResetExpires", "suspended", "createdAt", "updatedAt", "deletedAt", "dateOfBirth", "displayAlias", "legalTermsAcceptedAt", "legalTermsVersion") FROM stdin;
-cmpu7a2oe0000l8t232dsj2jq	admin@cangerard.cat	$2b$12$Ty4Cdu9WbvFSTw1p90Xwj.I/ynrno3Ih/jwmk59X0V0XdKlsPQFbm	Gerard · Admin	ADMIN	ca	2026-05-31 19:56:21.074	\N	\N	\N	f	2026-05-31 19:56:21.134	2026-05-31 19:56:21.134	\N	\N	\N	\N	\N
 cmpu7a31d0005l8t2bcdsydsr	calforner@cangerard.cat	$2b$12$Ty4Cdu9WbvFSTw1p90Xwj.I/ynrno3Ih/jwmk59X0V0XdKlsPQFbm	Roser Vilanova	SELLER	ca	2026-05-31 19:56:21.556	\N	\N	\N	f	2026-05-31 19:56:21.601	2026-05-31 19:56:21.601	\N	\N	\N	\N	\N
 cmpu7a3er000al8t2r270jifo	masdeloli@cangerard.cat	$2b$12$Ty4Cdu9WbvFSTw1p90Xwj.I/ynrno3Ih/jwmk59X0V0XdKlsPQFbm	Pere Gibert	SELLER	ca	2026-05-31 19:56:22.043	\N	\N	\N	f	2026-05-31 19:56:22.083	2026-05-31 19:56:22.083	\N	\N	\N	\N	\N
 cmpu7a3rz000fl8t2gpop3t7w	lacadernera@cangerard.cat	$2b$12$Ty4Cdu9WbvFSTw1p90Xwj.I/ynrno3Ih/jwmk59X0V0XdKlsPQFbm	Jaume Oller	SELLER	ca	2026-05-31 19:56:22.517	\N	\N	\N	f	2026-05-31 19:56:22.559	2026-05-31 19:56:22.559	\N	\N	\N	\N	\N
@@ -238,6 +237,7 @@ cmqijf9r0000004jrses2kfx5	mariona.alau@gmail.com	$2b$12$M4ZM8f/IdXNLT3Zjj6cdlOcw
 cmqin06q0000004jpgyabnte8	lauragogi7@gmail.com	$2b$12$u8M0iDqssPFBcRfAZaZ9Z.ihNZgO57B67PUjpFZ1soByDkwhLMW5i	Laura Gonzalez	BUYER	ca	2026-06-18 05:47:02.366	\N	\N	\N	f	2026-06-17 22:23:01.897	2026-06-18 05:47:02.373	\N	1972-10-20 00:00:00	\N	\N	\N
 cmqj30ixm000004l8n61y9hs3	mireia.manya@gmail.com	$2b$12$Hq0xxgDa1Ti/Zgo8/VrkTurZVJMpJrBl26JZJvf28uAZiicVuHthO	Mireia Manyà	BUYER	ca	2026-06-18 05:51:25.037	\N	\N	\N	f	2026-06-18 05:51:11.578	2026-06-18 05:51:25.044	\N	2002-06-14 00:00:00	\N	\N	\N
 cmqj3idbs000004kyityoqw50	gloria.maspoch@gmail.com	$2b$12$GiiGWDZzA/F75sjBwsWfUuH4f49gAp8DzMj2TmVZe2QGGtTtmkNT.	Gloria	BUYER	ca	\N	86a42794c7a6365b4c0eed9776af9f3c22b44012fdfa54010f11671220130e05	\N	\N	f	2026-06-18 06:05:04.121	2026-06-18 06:05:04.121	\N	1999-02-03 00:00:00	\N	\N	\N
+cmpu7a2oe0000l8t232dsj2jq	admin@cangerard.cat	$2b$12$Ty4Cdu9WbvFSTw1p90Xwj.I/ynrno3Ih/jwmk59X0V0XdKlsPQFbm	Gerard · Admin	ADMIN	ca	2026-05-31 19:56:21.074	\N	\N	\N	f	2026-05-31 19:56:21.134	2026-07-08 23:42:23.665	\N	\N	\N	2026-07-08 23:42:23.652	1.0
 cmqj3pxtw000404kyi6uwc4i3	valerotax@hotmail.com	$2b$12$voTaAT/WQLuNSmkL7GLUaOurHxlNYVo8bha2FaJ0ymwHlYYtwrDyu	Joana Valero Calero	BUYER	ca	\N	202c4fcd193c925eafcf6b08c5029c9a4d4ed7704465fa81d5475cb10cb70058	\N	\N	f	2026-06-18 06:10:57.284	2026-06-18 06:10:57.284	\N	1965-07-01 00:00:00	\N	\N	\N
 cmqj6ikde000004jsva6b3jbs	laiaalsina3@gmail.com	$2b$12$LYOMfNt5RBqnazDkaEgrfOGPxGGkNsYrhMfoVpC9Qh9rzV/pbhzc.	laia alsina	BUYER	ca	\N	2e29af3d2fda07aa3258719630b8e8e199effba824d86330583d0b60d5839d2b	\N	\N	f	2026-06-18 07:29:12.098	2026-06-18 07:29:12.098	\N	1981-06-20 00:00:00	\N	\N	\N
 cmqj5qomq000004jy2848o1zt	laurabsu@gmail.com	$2b$12$NEKWZh2Z2yYVqWwLyJuH/ekuHBKP3YNn50udWw7fgCFZIj5s2zeC2	Laura Barneda Sureda	BUYER	ca	2026-06-18 07:50:32.049	\N	\N	\N	f	2026-06-18 07:07:31.25	2026-06-18 07:50:32.056	\N	2000-04-11 00:00:00	\N	\N	\N
@@ -578,6 +578,7 @@ cmr0beyhq000204jjvqbtrp1k	cmr0beygz000004jj1sog8v2m	PRIVACY_NOTICE	t	He llegit i
 cmr0dyx7e000204le4ghzri6p	cmr0dyx6s000004let43gsqu6	PRIVACY_NOTICE	t	He llegit i accepto l'avís de privadesa.	ca	185.219.139.198	2026-06-30 08:29:57.508
 cmramsdnl000205jruexdnmip	cmramsdlv000005jrre991r6z	PRIVACY_NOTICE	t	Accepto les condicions de compra i he llegit la política de privadesa.	ca	90.167.95.119	2026-07-07 12:34:30.499
 cmramsdnl000305jrv17e27u9	cmramsdlv000005jrre991r6z	BUYER_TERMS	t	Accepto les condicions de compra i he llegit la política de privadesa.	ca	90.167.95.119	2026-07-07 12:34:30.499
+cmrcq34y7000004lbou8nwwmd	cmpu7a2oe0000l8t232dsj2jq	BUYER_TERMS	t	Accepto les condicions de compra i he llegit la política de privadesa.	ca	222.149.48.30	2026-07-08 23:42:23.695
 \.
 
 
@@ -805,6 +806,7 @@ cmqwaq15u000304l857ic8mbb	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Osc
 cmr0beyj2000304jjd6g00bun	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Àstrid Romero Pagan", "email": "astrid.rp@gmail.com"}	\N	\N	2026-06-30 07:18:26.894
 cmr48azur000004l48nfwxnlf	cmpu7a31d0005l8t2bcdsydsr	SELLER_SHIPMENT_DELAYED	{"days": 31, "orderNumber": "CG-20260601-DIMMPF"}	\N	2026-07-03 01:02:27.836	2026-07-03 01:02:27.843
 cmr9ydcsn000004k1x2ey790w	cmpu7a31d0005l8t2bcdsydsr	SELLER_SHIPMENT_DELAYED	{"days": 35, "orderNumber": "CG-20260601-DIMMPF"}	\N	2026-07-07 01:10:58.811	2026-07-07 01:10:58.823
+cmrct92ws000004l7vankowtu	cmpu7a31d0005l8t2bcdsydsr	SELLER_SHIPMENT_DELAYED	{"days": 37, "orderNumber": "CG-20260601-DIMMPF"}	\N	2026-07-09 01:10:59.827	2026-07-09 01:10:59.836
 \.
 
 
@@ -1470,6 +1472,6 @@ SELECT pg_catalog.setval('"auth"."refresh_tokens_id_seq"', 1, false);
 -- PostgreSQL database dump complete
 --
 
--- \unrestrict 9uoC8WD6CtaQRkNUdaSeDHynGrfCyu5jSl9CUf3EJZD8qDVlrOWtR1pRdxKZUZi
+-- \unrestrict upQWiDadLPetuVbhRez99Rgilf2nBBjWZ46UPVNKjNmIWkRrkv7gEgQ9vv9hmci
 
 RESET ALL;
