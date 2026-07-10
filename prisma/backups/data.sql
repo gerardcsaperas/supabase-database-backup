@@ -4,7 +4,7 @@ SET session_replication_role = replica;
 -- PostgreSQL database dump
 --
 
--- \restrict upQWiDadLPetuVbhRez99Rgilf2nBBjWZ46UPVNKjNmIWkRrkv7gEgQ9vv9hmci
+-- \restrict BR0HhKmMbO5e5RqqBXIVGvve65h11lKaJSTTY3QOnxt9mc2XQnnOZAbU9hnklwT
 
 -- Dumped from database version 17.6
 -- Dumped by pg_dump version 17.6
@@ -213,12 +213,10 @@ cmpu7a58c000xl8t2htaj0e0v	laia@example.com	$2b$12$Ty4Cdu9WbvFSTw1p90Xwj.I/ynrno3
 cmpu7a5e1000zl8t2wn4lmvys	pol@example.com	$2b$12$Ty4Cdu9WbvFSTw1p90Xwj.I/ynrno3Ih/jwmk59X0V0XdKlsPQFbm	Pol Mas	BUYER	ca	2026-05-31 19:56:24.609	\N	\N	\N	f	2026-05-31 19:56:24.649	2026-05-31 19:56:24.649	\N	\N	\N	\N	\N
 cmpu7a5kk0011l8t2mjyz3q0t	carla@example.com	$2b$12$Ty4Cdu9WbvFSTw1p90Xwj.I/ynrno3Ih/jwmk59X0V0XdKlsPQFbm	Carla Roig	BUYER	ca	2026-05-31 19:56:24.822	\N	\N	\N	f	2026-05-31 19:56:24.884	2026-05-31 19:56:24.884	\N	\N	\N	\N	\N
 cmpu7a5qq0013l8t23hutiwoy	marc@example.com	$2b$12$Ty4Cdu9WbvFSTw1p90Xwj.I/ynrno3Ih/jwmk59X0V0XdKlsPQFbm	Marc Soldevila	BUYER	ca	2026-05-31 19:56:25.05	\N	\N	\N	f	2026-05-31 19:56:25.106	2026-05-31 19:56:25.106	\N	\N	\N	\N	\N
-cmpvchf4w0004yjt2isrskbox	gcsaperas@gmail.com	$2b$12$qRhD7H6/5aerD8Usx.uBJeXKWYOB7c95W0.CEBhDnEmOB5UWf67sW	Gerard Castrelo Saperas	BUYER	ca	\N	f9bb1e8f40fbaef5456d3ea6b6f8210357c0840f3b880b67d3ccafd5b78c0591	\N	\N	f	2026-06-01 15:09:48.128	2026-06-01 15:09:48.128	\N	\N	\N	\N	\N
 cmpvp44yn0000l0t23ohg1rsd	gerard@recomposicioncorporal.es	$2b$12$fujMhnYWmA98nVohWXYYp.uOXYG1faiOvDarknojS5sVjKsMElhPi	Gerard Castrelo Saperas	BUYER	ca	2026-06-01 21:04:06.05	\N	\N	\N	f	2026-06-01 21:03:23.423	2026-06-01 21:05:03.684	\N	\N	\N	\N	\N
 cmpxq12g7000004la5bg7k22q	josep.f@lamant.cat	$2b$12$stB62CAHFQ6smlPaiMhdI.e31tkRFml7YLE/pzZhCfNeu03/s5ngW	Josep Fortunet	BUYER	ca	\N	538e1a62f2a67e0560fd90f271ddae2587ba9f74941fd3b903589be2864b8eb7	\N	\N	f	2026-06-03 07:04:32.167	2026-06-03 07:04:32.167	\N	\N	\N	\N	\N
 cmpy85uvo000004jojvlenfsq	hi@quotavita.com	$2b$12$mzc1pMXCuvQUeehigbcp4OLDZjaFL1Jkjs.1ilTUgrhV9S.93qzWy	Gerard Rosell	BUYER	ca	\N	40f84f6d214d2b374cfec01c6f1ec2efb91d63c3236a33fbe8dbb5a0160d5bfe	\N	\N	f	2026-06-03 15:32:08.724	2026-06-03 15:32:08.724	\N	\N	\N	\N	\N
 cmpy87vzd000004l1nekjm03g	gerardrosell@quotavita.com	$2b$12$i2X16BkjpXZHqCOymN1ScO/YaisfOewHJgKDS2qYNoHlnP7RchIoK	Gerard Rosell	SELLER	ca	\N	bf3a4d6c5d63d30082921a876480deb92c60be3a0bbe9ca59c9ed0393495428e	\N	\N	f	2026-06-03 15:33:43.465	2026-06-03 15:33:43.465	\N	\N	\N	\N	\N
-cmpyhlf4w000004l4f8q7ljyu	martasgrr@gmail.com	$2b$12$EpPfs0ohZneXPzlJUtrK6.r.hxTATJjC4CozewJOpW6B.C/ophXca	Marta Segarra Corcobado	SELLER	ca	2026-06-03 20:04:10.504	\N	\N	\N	f	2026-06-03 19:56:11.36	2026-06-03 20:04:10.506	\N	\N	\N	\N	\N
 cmpyick4e000004jlpb1optdv	esteveayma@gmail.com	$2b$12$F7hOyyG.cNL0xLRD8mDGV.wlB9xUrFXzFYW8uFHz6LxWwQauMl0Sq	Esteve Aymà Tintó	BUYER	ca	\N	6b21deb0994b12d9eb6a725fbe0f9cee6a8fbe2887f7cd3f6195ba5b1cc23bac	\N	\N	f	2026-06-03 20:17:17.534	2026-06-03 20:17:17.534	\N	\N	\N	\N	\N
 cmpzapzbe000004ieeqx3bi85	info@closdebasella.com	$2b$12$YEqKY/yqglVE5Eak/ddzOOnlE8qN4n4NeDixb2bzYLlw49./tDox2	Clos de Basella	BUYER	ca	2026-06-04 10:02:35.764	\N	\N	\N	f	2026-06-04 09:31:33.002	2026-06-04 10:02:35.771	\N	\N	\N	\N	\N
 cmq0mzkv4000104jrs8isx6ym	alejandrapbanca@gmail.com	$2b$12$kW2MF5wqJbp0Y5l.F2boIus.ki0T.Da/o2E0YL2zFsWhT9SgCfxV.	Alejandra Banca	BUYER	ca	2026-06-05 08:32:40.023	\N	\N	\N	f	2026-06-05 08:02:42.4	2026-06-05 08:32:40.03	\N	\N	\N	\N	\N
@@ -230,7 +228,6 @@ cmq723oae000004joi3yp01p0	jordi@racodepensar.com	$2b$12$bIn7kOqjxOyd0itJ5cLOl.R3
 cmq7pl9hy000004jz8jufbmlo	gonzalezjodarlaura@gmail.com	$2b$12$NjVj4kTURgZEM72SO/fUj.1Ym6X/mjj3OZG/gN2IC1hRGtuV8F2wu	Laura Gonzalez	BUYER	ca	2026-06-10 07:02:18.029	\N	\N	\N	f	2026-06-10 06:49:56.566	2026-06-10 07:02:18.036	\N	\N	\N	\N	\N
 cmq8er2lj000004jumh7n0q0j	janimarti@gmail.com	$2b$12$FRW3vMW2Q7oJP8S78HErpOmyZyFAP8YmjogRZxc6P0Xcc6NJZJtHO	Èlia Casanovas Hernàndez	BUYER	ca	2026-06-10 18:35:15.715	\N	\N	\N	f	2026-06-10 18:34:17.959	2026-06-10 18:36:01.927	\N	\N	\N	\N	\N
 cmq8cnzjc000004l8utnoryka	albaauledasc@gmail.com	$2b$12$m11Gftn0Mz9ct4CeSjP1refUHmfycsmfRvluC0pb9Z5MKonHAxGra	Alba Auledas Costa	BUYER	ca	2026-06-11 05:48:29.177	\N	\N	\N	f	2026-06-10 17:35:54.792	2026-06-11 05:48:29.186	\N	\N	\N	\N	\N
-cmpvaoc350000yjt2w4ur6be3	test@cangerard.cat	$2b$12$J9y1LY3XEOEy8WoYGeBq9uYK.nClRP5yYKxV6W354ejlN0FRPYF1W	Venedor Demo	SELLER	ca	2026-06-12 16:36:59.51	\N	\N	\N	f	2026-06-01 14:19:11.537	2026-06-12 16:36:59.517	\N	\N	\N	\N	\N
 cmqii08xh000004ihicxy4c9l	txellguardiola@gmail.com	$2b$12$LIVZH2.4uSKHAk8BeTiYqu8Y28fNQyG3AclMtktqvM0e38h6naPu2	Meritxell Guardiola Sánchez	BUYER	ca	2026-06-17 20:03:21.457	\N	\N	\N	f	2026-06-17 20:03:06.678	2026-06-17 20:03:21.464	\N	1977-02-03 00:00:00	\N	\N	\N
 cmqijdsre000404l7qh6x0ynm	mareyfofana@gmail.com	$2b$12$YXZxK7h.iWXiqDsrKBMLw.bdz4pbOioG/Q.UZRd.rX2Lzp1kTUF1a	Marey Fofana	BUYER	ca	2026-06-17 20:42:12.541	\N	\N	\N	f	2026-06-17 20:41:38.522	2026-06-17 20:42:12.548	\N	2000-02-08 00:00:00	\N	\N	\N
 cmqijf9r0000004jrses2kfx5	mariona.alau@gmail.com	$2b$12$M4ZM8f/IdXNLT3Zjj6cdlOcwVKfVox5n4M/5MmBejCGEXiFwL1OAm	Mariona Alamego Uceda	BUYER	ca	2026-06-18 05:31:24.905	\N	\N	\N	f	2026-06-17 20:42:47.196	2026-06-18 05:31:24.913	\N	2003-09-20 00:00:00	\N	\N	\N
@@ -238,6 +235,8 @@ cmqin06q0000004jpgyabnte8	lauragogi7@gmail.com	$2b$12$u8M0iDqssPFBcRfAZaZ9Z.ihNZ
 cmqj30ixm000004l8n61y9hs3	mireia.manya@gmail.com	$2b$12$Hq0xxgDa1Ti/Zgo8/VrkTurZVJMpJrBl26JZJvf28uAZiicVuHthO	Mireia Manyà	BUYER	ca	2026-06-18 05:51:25.037	\N	\N	\N	f	2026-06-18 05:51:11.578	2026-06-18 05:51:25.044	\N	2002-06-14 00:00:00	\N	\N	\N
 cmqj3idbs000004kyityoqw50	gloria.maspoch@gmail.com	$2b$12$GiiGWDZzA/F75sjBwsWfUuH4f49gAp8DzMj2TmVZe2QGGtTtmkNT.	Gloria	BUYER	ca	\N	86a42794c7a6365b4c0eed9776af9f3c22b44012fdfa54010f11671220130e05	\N	\N	f	2026-06-18 06:05:04.121	2026-06-18 06:05:04.121	\N	1999-02-03 00:00:00	\N	\N	\N
 cmpu7a2oe0000l8t232dsj2jq	admin@cangerard.cat	$2b$12$Ty4Cdu9WbvFSTw1p90Xwj.I/ynrno3Ih/jwmk59X0V0XdKlsPQFbm	Gerard · Admin	ADMIN	ca	2026-05-31 19:56:21.074	\N	\N	\N	f	2026-05-31 19:56:21.134	2026-07-08 23:42:23.665	\N	\N	\N	2026-07-08 23:42:23.652	1.0
+cmpvaoc350000yjt2w4ur6be3	test@cangerard.cat	$2b$12$J9y1LY3XEOEy8WoYGeBq9uYK.nClRP5yYKxV6W354ejlN0FRPYF1W	Venedor Demo	SELLER	ca	2026-06-12 16:36:59.51	\N	\N	\N	f	2026-06-01 14:19:11.537	2026-07-09 08:14:27.531	\N	\N	\N	2026-07-09 08:14:27.515	1.0
+cmpyhlf4w000004l4f8q7ljyu	martasgrr@gmail.com	$2b$12$EpPfs0ohZneXPzlJUtrK6.r.hxTATJjC4CozewJOpW6B.C/ophXca	Marta Segarra Corcobado	SELLER	ca	2026-06-03 20:04:10.504	\N	\N	\N	f	2026-06-03 19:56:11.36	2026-07-09 09:28:27.858	\N	\N	\N	2026-07-09 09:28:27.844	1.0
 cmqj3pxtw000404kyi6uwc4i3	valerotax@hotmail.com	$2b$12$voTaAT/WQLuNSmkL7GLUaOurHxlNYVo8bha2FaJ0ymwHlYYtwrDyu	Joana Valero Calero	BUYER	ca	\N	202c4fcd193c925eafcf6b08c5029c9a4d4ed7704465fa81d5475cb10cb70058	\N	\N	f	2026-06-18 06:10:57.284	2026-06-18 06:10:57.284	\N	1965-07-01 00:00:00	\N	\N	\N
 cmqj6ikde000004jsva6b3jbs	laiaalsina3@gmail.com	$2b$12$LYOMfNt5RBqnazDkaEgrfOGPxGGkNsYrhMfoVpC9Qh9rzV/pbhzc.	laia alsina	BUYER	ca	\N	2e29af3d2fda07aa3258719630b8e8e199effba824d86330583d0b60d5839d2b	\N	\N	f	2026-06-18 07:29:12.098	2026-06-18 07:29:12.098	\N	1981-06-20 00:00:00	\N	\N	\N
 cmqj5qomq000004jy2848o1zt	laurabsu@gmail.com	$2b$12$NEKWZh2Z2yYVqWwLyJuH/ekuHBKP3YNn50udWw7fgCFZIj5s2zeC2	Laura Barneda Sureda	BUYER	ca	2026-06-18 07:50:32.049	\N	\N	\N	f	2026-06-18 07:07:31.25	2026-06-18 07:50:32.056	\N	2000-04-11 00:00:00	\N	\N	\N
@@ -298,6 +297,7 @@ cmr0beygz000004jj1sog8v2m	astrid.rp@gmail.com	$2b$12$Mi.KFnkjaAayEEWF9OVXFOAmzO0
 cmr0dyx6s000004let43gsqu6	info@debosc.com	$2b$12$0a7V3qOgNKdGTKUJM0wzOOPIUi/SjX9UaGWSaifI.SK1F1vC8p6N2	Maria Teresa Roura Bataller	SELLER	ca	2026-06-30 08:59:53.19	\N	\N	\N	f	2026-06-30 08:29:57.508	2026-06-30 08:59:53.199	\N	1964-12-07 00:00:00	\N	\N	\N
 cmqva0ozl000004kyjv3tsj4n	jordireiki@me.com	$2b$12$eH.p9nlKswkiI3F4MnZtuOkF74sFRJ/uEKe5cMk53.LDRYTvHOMI2	Jordi Pallares Coll	BUYER	ca	2026-07-01 08:28:23.935	\N	\N	\N	f	2026-06-26 18:40:30.849	2026-07-01 08:28:23.944	\N	1962-07-26 00:00:00	\N	\N	\N
 cmramsdlv000005jrre991r6z	erarde1921@gmail.com	$2b$12$P1QPkrrBEkzn5bEJ5y1np.MVjQxx8JeFOOAjz7mPxPBsPJXFnnxh6	Eric arenas denia	BUYER	ca	2026-07-07 12:34:52.009	\N	\N	\N	f	2026-07-07 12:34:30.499	2026-07-07 12:34:52.016	\N	1999-02-21 00:00:00	\N	2026-07-07 12:34:30.466	1.0
+cmpvchf4w0004yjt2isrskbox	gcsaperas@gmail.com	$2b$12$qRhD7H6/5aerD8Usx.uBJeXKWYOB7c95W0.CEBhDnEmOB5UWf67sW	Gerard Castrelo Saperas	BUYER	ca	\N	f9bb1e8f40fbaef5456d3ea6b6f8210357c0840f3b880b67d3ccafd5b78c0591	\N	\N	f	2026-06-01 15:09:48.128	2026-07-09 07:52:20.489	\N	\N	\N	2026-07-09 07:52:20.476	1.0
 \.
 
 
@@ -322,12 +322,12 @@ cmpu7a3h7000cl8t27muo350k	cmpu7a3er000al8t2r270jifo	Mas de l'Oli	mas-de-l-oli	Ma
 cmpu7a3uq000hl8t2izdspdci	cmpu7a3rz000fl8t2gpop3t7w	La Cadernera	la-cadernera	Llibreria i editorial independent: literatura catalana, llibres infantils, disseny, regals i papereria.	Librería y editorial independiente: literatura catalana, libros infantiles, diseño, regalos y papelería.	An independent bookshop and publisher: Catalan literature, children’s books, design, gifts and stationery.	\N	Barcelonès	APPROVED	\N	10.00	\N	f	f	f	f	2026-05-31 19:56:22.517	2026-05-31 19:56:22.559	2026-05-31 19:56:22.559	Barcelona	ES	08002	Barcelonès	Carrer dels Llibreters, 7	Carrer dels Llibreters, 7	\N	Barcelona	ES	08002	Barcelonès	ES	\N	Edicions La Cadernera SL	\N	B62345673	\N	GENERAL	+34 933 015 588	lacadernera@cangerard.cat	1	CG-B62345673	\N	\N	\N
 cmpu7a47u000ml8t2rpsunk86	cmpu7a45l000kl8t250r3mgr9	Tramuntana	tramuntana	Taller de disseny i artesania de l'Empordà: ceràmica, tèxtil de la llar, espardenyes i material de muntanya.	Taller de diseño y artesanía del Empordà: cerámica, textil del hogar, alpargatas y material de montaña.	An Empordà design and craft workshop: pottery, home textiles, espadrilles and mountain gear.	\N	Alt Empordà	APPROVED	\N	10.00	\N	f	f	f	f	2026-05-31 19:56:23.006	2026-05-31 19:56:23.049	2026-05-31 19:56:23.049	Figueres	ES	17600	Alt Empordà	Carrer de la Tramuntana, 23	Carrer de la Tramuntana, 23	\N	Figueres	ES	17600	Alt Empordà	ES	\N	Tramuntana Disseny SL	\N	B98765431	\N	GENERAL	+34 972 503 144	tramuntana@cangerard.cat	1	CG-B98765431	\N	\N	\N
 cmpu7a4lj000rl8t22nheyztj	cmpu7a4jb000pl8t2z99dv0ay	Ceràmica Montsant	ceramica-montsant	Ceràmica feta a mà al Priorat: terrissa, plats i gerres amb esmalts tradicionals.	Cerámica hecha a mano en el Priorat: alfarería, platos y jarras con esmaltes tradicionales.	Handmade pottery from Priorat: earthenware, plates and jugs with traditional glazes.	\N	Priorat	PENDING	\N	10.00	\N	f	f	f	f	\N	2026-05-31 19:56:23.543	2026-05-31 19:56:23.543	Falset	ES	43730	Priorat	Carrer del Forn, 9	\N	\N	\N	ES	\N	\N	ES	\N	\N	\N	\N	\N	GENERAL	\N	\N	1	\N	\N	\N	\N
-cmpvaoc650002yjt2cim935ix	cmpvaoc350000yjt2w4ur6be3	Test	test	test	test	test	\N	Test	APPROVED	\N	10.00	\N	f	f	f	f	2026-06-01 15:06:24.796	2026-06-01 14:19:11.537	2026-06-01 15:06:24.8	\N	ES	\N	\N	\N	c/ Test 1-3	\N	Granollers	ES	08502	Barcelona	ES	6a1d9540ee7a73ecb103debf	TEST, S.L.	\N	47920372X	\N	GENERAL	667717567	test@cangerard.cat	1	CG-B1213141516	\N	\N	\N
+cmpvaoc650002yjt2cim935ix	cmpvaoc350000yjt2w4ur6be3	Test	test	test	test	test	\N	Test	APPROVED	\N	10.00	\N	f	f	f	f	2026-06-01 15:06:24.796	2026-06-01 14:19:11.537	2026-07-09 08:14:27.595	\N	ES	\N	\N	\N	c/ Test 1-3	\N	Granollers	ES	08502	Barcelona	ES	6a1d9540ee7a73ecb103debf	TEST, S.L.	\N	47920372X	\N	GENERAL	667717567	test@cangerard.cat	1	CG-B1213141516	\N	2026-07-09 08:14:27.515	1.0
 cmpy87w4o000204l1twrbo7ye	cmpy87vzd000004l1nekjm03g	Quota Vita	quota-vita	Whey protein amb gustos locals de crema catalana i orxata	Whey protein amb gustos locals de crema catalana i orxata	Whey protein amb gustos locals de crema catalana i orxata	\N	Premià de Mar	PENDING	\N	10.00	\N	f	f	f	f	\N	2026-06-03 15:33:43.465	2026-06-03 15:33:43.465	\N	ES	\N	\N	\N	\N	\N	\N	ES	\N	\N	ES	\N	\N	\N	\N	\N	GENERAL	683338038	\N	1	\N	\N	\N	\N
-cmpyhlfag000204l428x8he27	cmpyhlf4w000004l4f8q7ljyu	Marta Segarra	marta-segarra	Les Franqueses del Vallès Les Franqueses del Vallès Les Franqueses del Vallès	Les Franqueses del Vallès Les Franqueses del Vallès Les Franqueses del Vallès	Les Franqueses del Vallès Les Franqueses del Vallès Les Franqueses del Vallès	\N	Les Franqueses del Vallès	PENDING	\N	10.00	\N	f	f	f	f	\N	2026-06-03 19:56:11.36	2026-06-03 19:56:11.36	\N	ES	\N	\N	\N	\N	\N	\N	ES	\N	\N	ES	\N	\N	\N	\N	\N	GENERAL	667717567	\N	1	\N	\N	\N	\N
+cmpyhlfag000204l428x8he27	cmpyhlf4w000004l4f8q7ljyu	Marta Segarra	marta-segarra	Les Franqueses del Vallès Les Franqueses del Vallès Les Franqueses del Vallès	Les Franqueses del Vallès Les Franqueses del Vallès Les Franqueses del Vallès	Les Franqueses del Vallès Les Franqueses del Vallès Les Franqueses del Vallès	\N	Les Franqueses del Vallès	PENDING	\N	10.00	\N	f	f	f	f	\N	2026-06-03 19:56:11.36	2026-07-09 08:18:29.5	\N	ES	\N	\N	\N	\N	\N	\N	ES	\N	\N	ES	\N	\N	\N	\N	\N	GENERAL	667717567	\N	1	\N	\N	2026-07-09 08:18:29.436	1.0
 cmpu7a33m0007l8t2zwqbkwf7	cmpu7a31d0005l8t2bcdsydsr	Cal Forner	cal-forner	Forn de pa i botiga de gust del Bages: embotits, formatges, torrons, conserves i caves de tota la vida.	Horno de pan y tienda gourmet del Bages: embutidos, quesos, turrones, conservas y cavas de toda la vida.	A bakery and gourmet shop from Bages: cured meats, cheeses, nougat, preserves and cava.	\N	Bages	APPROVED	\N	10.00	\N	f	f	f	f	2026-05-31 19:56:21.556	2026-05-31 19:56:21.601	2026-06-12 19:32:36.576	Manresa	ES	08241	Bages	Carrer del Born, 12	Carrer del Born, 12	\N	Manresa	ES	08241	Bages	ES	\N	Cal Forner SL	\N	B12345674	\N	GENERAL	+34 938 720 011	calforner@cangerard.cat	4	CG-B12345674	\N	\N	\N
 cmqmvftzu000504jxy963ldl9	cmqmvftz6000304jxm441kpeg	Granja Cervesera Lo Vilot	granja-cervesera-lo-vilot	A la granja cervesera Lo Vilot fem cervesa artesana ecològica de granja, amb ingredients ecològics que produïm nosaltres mateixes, temps i passió.\r\n\r\nCada ampolla és una petita obra d’art que garanteix la seva qualitat, terrer, sabor i autenticitat.\r\n\r\nSi vols una cervesa honesta, amb caràcter i amb ingredients d’aquí, tria Lo Vilot.	A la granja cervesera Lo Vilot fem cervesa artesana ecològica de granja, amb ingredients ecològics que produïm nosaltres mateixes, temps i passió.\r\n\r\nCada ampolla és una petita obra d’art que garanteix la seva qualitat, terrer, sabor i autenticitat.\r\n\r\nSi vols una cervesa honesta, amb caràcter i amb ingredients d’aquí, tria Lo Vilot.	A la granja cervesera Lo Vilot fem cervesa artesana ecològica de granja, amb ingredients ecològics que produïm nosaltres mateixes, temps i passió.\r\n\r\nCada ampolla és una petita obra d’art que garanteix la seva qualitat, terrer, sabor i autenticitat.\r\n\r\nSi vols una cervesa honesta, amb caràcter i amb ingredients d’aquí, tria Lo Vilot.	\N	Lleida	APPROVED	\N	10.00	\N	f	f	f	f	2026-06-23 09:58:52.991	2026-06-20 21:30:13.506	2026-06-23 09:58:52.999	\N	ES	\N	\N	\N	\N	\N	\N	ES	\N	\N	ES	\N	\N	\N	\N	\N	GENERAL	635409999	\N	1	\N	\N	\N	\N
-cmr0dyx7o000304lecfc4anpi	cmr0dyx6s000004let43gsqu6	Debosc	debosc	Disseny i fabricació de productes de fusta per la llar. Principalment tions de disseny per Nadal.	Disseny i fabricació de productes de fusta per la llar. Principalment tions de disseny per Nadal.	Disseny i fabricació de productes de fusta per la llar. Principalment tions de disseny per Nadal.	\N	Anglès	PENDING	\N	10.00	\N	f	f	f	f	\N	2026-06-30 08:29:57.508	2026-06-30 08:29:57.508	\N	ES	\N	\N	\N	\N	\N	\N	ES	\N	\N	ES	\N	\N	\N	\N	\N	GENERAL	649557273	\N	1	\N	\N	\N	\N
+cmr0dyx7o000304lecfc4anpi	cmr0dyx6s000004let43gsqu6	Debosc	debosc	Disseny i fabricació de productes de fusta per la llar. Principalment tions de disseny per Nadal.	Disseny i fabricació de productes de fusta per la llar. Principalment tions de disseny per Nadal.	Disseny i fabricació de productes de fusta per la llar. Principalment tions de disseny per Nadal.	\N	Anglès	APPROVED	\N	10.00	\N	f	f	f	f	2026-07-10 00:12:28.918	2026-06-30 08:29:57.508	2026-07-10 00:12:28.926	\N	ES	\N	\N	\N	\N	\N	\N	ES	\N	\N	ES	\N	\N	\N	\N	\N	GENERAL	649557273	\N	1	\N	\N	\N	\N
 \.
 
 
@@ -579,6 +579,11 @@ cmr0dyx7e000204le4ghzri6p	cmr0dyx6s000004let43gsqu6	PRIVACY_NOTICE	t	He llegit i
 cmramsdnl000205jruexdnmip	cmramsdlv000005jrre991r6z	PRIVACY_NOTICE	t	Accepto les condicions de compra i he llegit la política de privadesa.	ca	90.167.95.119	2026-07-07 12:34:30.499
 cmramsdnl000305jrv17e27u9	cmramsdlv000005jrre991r6z	BUYER_TERMS	t	Accepto les condicions de compra i he llegit la política de privadesa.	ca	90.167.95.119	2026-07-07 12:34:30.499
 cmrcq34y7000004lbou8nwwmd	cmpu7a2oe0000l8t232dsj2jq	BUYER_TERMS	t	Accepto les condicions de compra i he llegit la política de privadesa.	ca	222.149.48.30	2026-07-08 23:42:23.695
+cmrd7l7or000004kwgk2cf5bj	cmpvchf4w0004yjt2isrskbox	BUYER_TERMS	t	Accepto les condicions de compra i he llegit la política de privadesa.	ca	222.149.48.30	2026-07-09 07:52:20.523
+cmrd8dnn7000004jlklc15l4j	cmpvaoc350000yjt2w4ur6be3	BUYER_TERMS	t	Accepto les condicions de compra i he llegit la política de privadesa.	ca	222.149.48.30	2026-07-09 08:14:27.571
+cmrd8dno5000104jlsxjc7ggq	cmpvaoc350000yjt2w4ur6be3	SELLER_TERMS	t	Com a venedor, accepto les Condicions Generals de Venedors, l'Annex I (facturació), l'Annex II (dades), l'Annex III (categories i segells) i la política de productes prohibits.	ca	222.149.48.30	2026-07-09 08:14:27.605
+cmrdan9xt000004jvpfxho1gh	cmpyhlf4w000004l4f8q7ljyu	BUYER_TERMS	t	Accepto les condicions de compra i he llegit la política de privadesa.	ca	222.149.48.30	2026-07-09 09:17:55.602
+cmrdb0tst000004jyyfpa5fj5	cmpyhlf4w000004l4f8q7ljyu	BUYER_TERMS	t	Accepto les condicions de compra i he llegit la política de privadesa.	ca	222.149.48.30	2026-07-09 09:28:27.869
 \.
 
 
@@ -597,7 +602,7 @@ cmqf08cyn000005gn27kjg8u8	OTHER	JUDITH CONTRERAS	judith.contreras@impackta.com	C
 -- Data for Name: DsaNotice; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
-COPY "public"."DsaNotice" ("id", "targetType", "targetId", "targetUrl", "reporterName", "reporterEmail", "reporterUserId", "motivation", "category", "goodFaith", "status", "priority", "decision", "statementOfReasons", "createdAt", "resolvedAt") FROM stdin;
+COPY "public"."DsaNotice" ("id", "targetType", "targetId", "targetUrl", "reporterName", "reporterEmail", "reporterUserId", "motivation", "category", "goodFaith", "status", "priority", "decision", "statementOfReasons", "createdAt", "resolvedAt", "reporterLocale") FROM stdin;
 \.
 
 
@@ -698,6 +703,7 @@ cmr0dyx8y000404le5aoc0ehm	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_SELLER	{"storeName
 cmqiu5fr7000004jupaanaz9x	cmpu7a31d0005l8t2bcdsydsr	SELLER_SHIPMENT_DELAYED	{"days": 16, "orderNumber": "CG-20260601-DIMMPF"}	\N	2026-06-18 01:43:04.188	2026-06-18 01:43:04.195
 cmr5nqvbr000004jxql0qarzc	cmpu7a31d0005l8t2bcdsydsr	SELLER_SHIPMENT_DELAYED	{"days": 32, "orderNumber": "CG-20260601-DIMMPF"}	\N	2026-07-04 01:02:28.879	2026-07-04 01:02:28.887
 cmramsdpq000405jr76iftzc8	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Eric arenas denia", "email": "erarde1921@gmail.com"}	\N	\N	2026-07-07 12:34:30.638
+cmre6loqu000004kzih5cvvua	cmr0dyx6s000004let43gsqu6	SELLER_STATUS_CHANGED	{"status": "APPROVED"}	\N	2026-07-10 00:12:29.186	2026-07-10 00:12:29.19
 cmqk97laa000004l152z7cvpr	cmpu7a31d0005l8t2bcdsydsr	SELLER_SHIPMENT_DELAYED	{"days": 17, "orderNumber": "CG-20260601-DIMMPF"}	\N	2026-06-19 01:32:25.071	2026-06-19 01:32:25.09
 cmqqy5alb000604l5tr8gisv8	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_PRODUCT	{"storeName": "Quota Vita", "productTitle": "Whey Protein gust orxata"}	\N	\N	2026-06-23 17:57:05.375
 cmqlonfpt000004i5zqh12m3a	cmpu7a31d0005l8t2bcdsydsr	SELLER_SHIPMENT_DELAYED	{"days": 18, "orderNumber": "CG-20260601-DIMMPF"}	\N	2026-06-20 01:32:24.778	2026-06-20 01:32:24.785
@@ -1402,6 +1408,7 @@ e507028a-2b8e-4abf-99ca-81ee94e85cec	bc8d92fab29c87fcfe44de797a526fb543f5be4822c
 bc69b89f-75c1-4c3f-8f4e-7cf86f6feaca	8a3a1448808c8018db4403ef0ea21132ed78646e44f3d386080c2cffbdb941ce	2026-07-06 03:25:57.967889+00	20260702090000_legal_acceptance_gate	\N	\N	2026-07-06 03:25:57.259891+00	1
 31242ca2-d16f-437f-945c-52f777991f96	01f83eaa6730c10f655a04db271de2c8bec13e84432264424cbfa5797a602143	2026-06-23 09:43:35.555683+00	20260622215418_experience_notification	\N	\N	2026-06-23 09:43:35.085496+00	1
 f7c87662-2560-4a56-8908-60a1d84a8d05	7fdad6e076ce825267a5e0efa535a4a9a8af4a406be7fb856b0676d12471ccfb	2026-06-23 09:43:37.226245+00	20260623055314_experience_redemptions	\N	\N	2026-06-23 09:43:35.742884+00	1
+357bd52a-1cc7-4668-98a8-852290967216	fee874e4f8fe8eb3ad9cb49217a8f53ccdc30101e23042554471c1c402791d73	2026-07-09 08:08:05.393157+00	20260703090000_dsa_decision_notice	\N	\N	2026-07-09 08:08:04.760574+00	1
 \.
 
 
@@ -1472,6 +1479,6 @@ SELECT pg_catalog.setval('"auth"."refresh_tokens_id_seq"', 1, false);
 -- PostgreSQL database dump complete
 --
 
--- \unrestrict upQWiDadLPetuVbhRez99Rgilf2nBBjWZ46UPVNKjNmIWkRrkv7gEgQ9vv9hmci
+-- \unrestrict BR0HhKmMbO5e5RqqBXIVGvve65h11lKaJSTTY3QOnxt9mc2XQnnOZAbU9hnklwT
 
 RESET ALL;

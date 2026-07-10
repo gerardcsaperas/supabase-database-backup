@@ -201,7 +201,8 @@ CREATE TYPE "public"."NotificationType" AS ENUM (
     'DSA_NOTICE_ACK',
     'ADMIN_DSA_NOTICE',
     'ADMIN_DSA_PRIORITY',
-    'BUYER_EXPERIENCE_READY'
+    'BUYER_EXPERIENCE_READY',
+    'DSA_NOTICE_DECISION'
 );
 
 
@@ -544,7 +545,8 @@ CREATE TABLE IF NOT EXISTS "public"."DsaNotice" (
     "decision" "text",
     "statementOfReasons" "text",
     "createdAt" timestamp(3) without time zone DEFAULT CURRENT_TIMESTAMP NOT NULL,
-    "resolvedAt" timestamp(3) without time zone
+    "resolvedAt" timestamp(3) without time zone,
+    "reporterLocale" "text"
 );
 
 
