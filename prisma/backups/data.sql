@@ -4,7 +4,7 @@ SET session_replication_role = replica;
 -- PostgreSQL database dump
 --
 
--- \restrict BR0HhKmMbO5e5RqqBXIVGvve65h11lKaJSTTY3QOnxt9mc2XQnnOZAbU9hnklwT
+-- \restrict iorrtSrcNYAUfzGh5Gos3oARthlmaXv59RmkZvL6Fd4tH0O8mYNxEgy72irjYYr
 
 -- Dumped from database version 17.6
 -- Dumped by pg_dump version 17.6
@@ -294,10 +294,10 @@ cmqv6665j000004lboby109pp	andreugiralto@gmail.com	$2b$12$wqfmrYYv59UBWweqL/og9.u
 cmqwaq13n000004l8t83lg89h	ogargallo@protonmail.com	$2b$12$NPwRl5rzgwyYp2JeVgxNh.PKHQknTY56xoOdxt4HumcYjb5ucYwO6	Oscar Gargallo	BUYER	ca	\N	908806af236165f1298f6216f39f4bbc83da8e2ba1128f1a0725e25a61c1e6df	\N	\N	f	2026-06-27 11:47:59.123	2026-06-27 11:47:59.123	\N	1974-01-14 00:00:00	\N	\N	\N
 cmqk5plq5000004l044h0kz47	ecofamilysensetoxics@gmail.com	$2b$12$ag.fknsUdcA8VMBN3iczY.9arrOXxVt1.M07Td6gGGtCXq/aHe9me	Xènia Josa Ferrer	BUYER	ca	2026-06-28 05:37:14.783	\N	\N	\N	f	2026-06-18 23:54:27.005	2026-06-28 05:37:14.793	\N	1974-10-22 00:00:00	\N	\N	\N
 cmr0beygz000004jj1sog8v2m	astrid.rp@gmail.com	$2b$12$Mi.KFnkjaAayEEWF9OVXFOAmzO0/F1itVNKUx7jD0BGiTe7R8ASMG	Àstrid Romero Pagan	BUYER	ca	2026-06-30 07:19:21.448	\N	\N	\N	f	2026-06-30 07:18:26.819	2026-06-30 07:19:21.455	\N	1964-01-22 00:00:00	\N	\N	\N
-cmr0dyx6s000004let43gsqu6	info@debosc.com	$2b$12$0a7V3qOgNKdGTKUJM0wzOOPIUi/SjX9UaGWSaifI.SK1F1vC8p6N2	Maria Teresa Roura Bataller	SELLER	ca	2026-06-30 08:59:53.19	\N	\N	\N	f	2026-06-30 08:29:57.508	2026-06-30 08:59:53.199	\N	1964-12-07 00:00:00	\N	\N	\N
 cmqva0ozl000004kyjv3tsj4n	jordireiki@me.com	$2b$12$eH.p9nlKswkiI3F4MnZtuOkF74sFRJ/uEKe5cMk53.LDRYTvHOMI2	Jordi Pallares Coll	BUYER	ca	2026-07-01 08:28:23.935	\N	\N	\N	f	2026-06-26 18:40:30.849	2026-07-01 08:28:23.944	\N	1962-07-26 00:00:00	\N	\N	\N
 cmramsdlv000005jrre991r6z	erarde1921@gmail.com	$2b$12$P1QPkrrBEkzn5bEJ5y1np.MVjQxx8JeFOOAjz7mPxPBsPJXFnnxh6	Eric arenas denia	BUYER	ca	2026-07-07 12:34:52.009	\N	\N	\N	f	2026-07-07 12:34:30.499	2026-07-07 12:34:52.016	\N	1999-02-21 00:00:00	\N	2026-07-07 12:34:30.466	1.0
 cmpvchf4w0004yjt2isrskbox	gcsaperas@gmail.com	$2b$12$qRhD7H6/5aerD8Usx.uBJeXKWYOB7c95W0.CEBhDnEmOB5UWf67sW	Gerard Castrelo Saperas	BUYER	ca	\N	f9bb1e8f40fbaef5456d3ea6b6f8210357c0840f3b880b67d3ccafd5b78c0591	\N	\N	f	2026-06-01 15:09:48.128	2026-07-09 07:52:20.489	\N	\N	\N	2026-07-09 07:52:20.476	1.0
+cmr0dyx6s000004let43gsqu6	info@debosc.com	$2b$12$0a7V3qOgNKdGTKUJM0wzOOPIUi/SjX9UaGWSaifI.SK1F1vC8p6N2	Maria Teresa Roura Bataller	SELLER	ca	2026-06-30 08:59:53.19	\N	\N	\N	f	2026-06-30 08:29:57.508	2026-07-10 06:13:58.433	\N	1964-12-07 00:00:00	\N	2026-07-10 06:13:58.418	1.0
 \.
 
 
@@ -327,7 +327,7 @@ cmpy87w4o000204l1twrbo7ye	cmpy87vzd000004l1nekjm03g	Quota Vita	quota-vita	Whey p
 cmpyhlfag000204l428x8he27	cmpyhlf4w000004l4f8q7ljyu	Marta Segarra	marta-segarra	Les Franqueses del Vallès Les Franqueses del Vallès Les Franqueses del Vallès	Les Franqueses del Vallès Les Franqueses del Vallès Les Franqueses del Vallès	Les Franqueses del Vallès Les Franqueses del Vallès Les Franqueses del Vallès	\N	Les Franqueses del Vallès	PENDING	\N	10.00	\N	f	f	f	f	\N	2026-06-03 19:56:11.36	2026-07-09 08:18:29.5	\N	ES	\N	\N	\N	\N	\N	\N	ES	\N	\N	ES	\N	\N	\N	\N	\N	GENERAL	667717567	\N	1	\N	\N	2026-07-09 08:18:29.436	1.0
 cmpu7a33m0007l8t2zwqbkwf7	cmpu7a31d0005l8t2bcdsydsr	Cal Forner	cal-forner	Forn de pa i botiga de gust del Bages: embotits, formatges, torrons, conserves i caves de tota la vida.	Horno de pan y tienda gourmet del Bages: embutidos, quesos, turrones, conservas y cavas de toda la vida.	A bakery and gourmet shop from Bages: cured meats, cheeses, nougat, preserves and cava.	\N	Bages	APPROVED	\N	10.00	\N	f	f	f	f	2026-05-31 19:56:21.556	2026-05-31 19:56:21.601	2026-06-12 19:32:36.576	Manresa	ES	08241	Bages	Carrer del Born, 12	Carrer del Born, 12	\N	Manresa	ES	08241	Bages	ES	\N	Cal Forner SL	\N	B12345674	\N	GENERAL	+34 938 720 011	calforner@cangerard.cat	4	CG-B12345674	\N	\N	\N
 cmqmvftzu000504jxy963ldl9	cmqmvftz6000304jxm441kpeg	Granja Cervesera Lo Vilot	granja-cervesera-lo-vilot	A la granja cervesera Lo Vilot fem cervesa artesana ecològica de granja, amb ingredients ecològics que produïm nosaltres mateixes, temps i passió.\r\n\r\nCada ampolla és una petita obra d’art que garanteix la seva qualitat, terrer, sabor i autenticitat.\r\n\r\nSi vols una cervesa honesta, amb caràcter i amb ingredients d’aquí, tria Lo Vilot.	A la granja cervesera Lo Vilot fem cervesa artesana ecològica de granja, amb ingredients ecològics que produïm nosaltres mateixes, temps i passió.\r\n\r\nCada ampolla és una petita obra d’art que garanteix la seva qualitat, terrer, sabor i autenticitat.\r\n\r\nSi vols una cervesa honesta, amb caràcter i amb ingredients d’aquí, tria Lo Vilot.	A la granja cervesera Lo Vilot fem cervesa artesana ecològica de granja, amb ingredients ecològics que produïm nosaltres mateixes, temps i passió.\r\n\r\nCada ampolla és una petita obra d’art que garanteix la seva qualitat, terrer, sabor i autenticitat.\r\n\r\nSi vols una cervesa honesta, amb caràcter i amb ingredients d’aquí, tria Lo Vilot.	\N	Lleida	APPROVED	\N	10.00	\N	f	f	f	f	2026-06-23 09:58:52.991	2026-06-20 21:30:13.506	2026-06-23 09:58:52.999	\N	ES	\N	\N	\N	\N	\N	\N	ES	\N	\N	ES	\N	\N	\N	\N	\N	GENERAL	635409999	\N	1	\N	\N	\N	\N
-cmr0dyx7o000304lecfc4anpi	cmr0dyx6s000004let43gsqu6	Debosc	debosc	Disseny i fabricació de productes de fusta per la llar. Principalment tions de disseny per Nadal.	Disseny i fabricació de productes de fusta per la llar. Principalment tions de disseny per Nadal.	Disseny i fabricació de productes de fusta per la llar. Principalment tions de disseny per Nadal.	\N	Anglès	APPROVED	\N	10.00	\N	f	f	f	f	2026-07-10 00:12:28.918	2026-06-30 08:29:57.508	2026-07-10 00:12:28.926	\N	ES	\N	\N	\N	\N	\N	\N	ES	\N	\N	ES	\N	\N	\N	\N	\N	GENERAL	649557273	\N	1	\N	\N	\N	\N
+cmr0dyx7o000304lecfc4anpi	cmr0dyx6s000004let43gsqu6	Debosc	debosc	Disseny i fabricació de productes de fusta per la llar. Principalment tions de disseny per Nadal.	Disseny i fabricació de productes de fusta per la llar. Principalment tions de disseny per Nadal.	Disseny i fabricació de productes de fusta per la llar. Principalment tions de disseny per Nadal.	\N	Anglès	APPROVED	\N	10.00	\N	f	f	f	f	2026-07-10 00:12:28.918	2026-06-30 08:29:57.508	2026-07-10 06:13:58.475	\N	ES	\N	\N	\N	\N	\N	\N	ES	\N	\N	ES	\N	\N	\N	\N	\N	GENERAL	649557273	\N	1	\N	\N	2026-07-10 06:13:58.418	1.0
 \.
 
 
@@ -584,6 +584,8 @@ cmrd8dnn7000004jlklc15l4j	cmpvaoc350000yjt2w4ur6be3	BUYER_TERMS	t	Accepto les co
 cmrd8dno5000104jlsxjc7ggq	cmpvaoc350000yjt2w4ur6be3	SELLER_TERMS	t	Com a venedor, accepto les Condicions Generals de Venedors, l'Annex I (facturació), l'Annex II (dades), l'Annex III (categories i segells) i la política de productes prohibits.	ca	222.149.48.30	2026-07-09 08:14:27.605
 cmrdan9xt000004jvpfxho1gh	cmpyhlf4w000004l4f8q7ljyu	BUYER_TERMS	t	Accepto les condicions de compra i he llegit la política de privadesa.	ca	222.149.48.30	2026-07-09 09:17:55.602
 cmrdb0tst000004jyyfpa5fj5	cmpyhlf4w000004l4f8q7ljyu	BUYER_TERMS	t	Accepto les condicions de compra i he llegit la política de privadesa.	ca	222.149.48.30	2026-07-09 09:28:27.869
+cmrejikak000004l8h5ukkwqr	cmr0dyx6s000004let43gsqu6	BUYER_TERMS	t	Accepto les condicions de compra i he llegit la política de privadesa.	ca	185.219.139.198	2026-07-10 06:13:58.46
+cmrejikb5000104l81peonje7	cmr0dyx6s000004let43gsqu6	SELLER_TERMS	t	Com a venedor, accepto les Condicions Generals de Venedors, l'Annex I (facturació), l'Annex II (dades), l'Annex III (categories i segells) i la política de productes prohibits.	ca	185.219.139.198	2026-07-10 06:13:58.481
 \.
 
 
@@ -776,6 +778,7 @@ cmqpncrrt000004le33myhorw	cmpu7a31d0005l8t2bcdsydsr	SELLER_PRODUCT_MODERATED	{"a
 cmr2sv68b000004l4e2y4jr7h	cmpu7a31d0005l8t2bcdsydsr	SELLER_SHIPMENT_DELAYED	{"days": 30, "orderNumber": "CG-20260601-DIMMPF"}	\N	2026-07-02 01:02:29.179	2026-07-02 01:02:29.195
 cmr8imjsg000004l3190kyaye	cmpu7a31d0005l8t2bcdsydsr	SELLER_SHIPMENT_DELAYED	{"days": 34, "orderNumber": "CG-20260601-DIMMPF"}	\N	2026-07-06 01:02:27.752	2026-07-06 01:02:27.76
 cmrbdt7et000004les4ybo318	cmpu7a31d0005l8t2bcdsydsr	SELLER_SHIPMENT_DELAYED	{"days": 36, "orderNumber": "CG-20260601-DIMMPF"}	\N	2026-07-08 01:10:58.746	2026-07-08 01:10:58.757
+cmrea6mg2000004jvnfhvcc3w	cmpu7a31d0005l8t2bcdsydsr	SELLER_SHIPMENT_DELAYED	{"days": 38, "orderNumber": "CG-20260601-DIMMPF"}	\N	2026-07-10 01:52:44.824	2026-07-10 01:52:44.834
 cmqpyfpbf000004jpp5bw7izh	cmpu7a31d0005l8t2bcdsydsr	SELLER_SHIPMENT_DELAYED	{"days": 21, "orderNumber": "CG-20260601-DIMMPF"}	\N	2026-06-23 01:17:24.835	2026-06-23 01:17:24.843
 cmqqh2bqh000004l2cna0bohe	cmqmvftz6000304jxm441kpeg	SELLER_STATUS_CHANGED	{"status": "APPROVED"}	\N	2026-06-23 09:58:53.411	2026-06-23 09:58:53.417
 cmqrdcbym000004jsbkqeam7g	cmpu7a31d0005l8t2bcdsydsr	SELLER_SHIPMENT_DELAYED	{"days": 22, "orderNumber": "CG-20260601-DIMMPF"}	\N	2026-06-24 01:02:27.974	2026-06-24 01:02:27.982
@@ -1212,6 +1215,9 @@ cmqwr75ko000004l1kky8sg6j	Oli	oli	ca	13	cmqjf6xyq000004jl4zdta7ss	2026-06-27 19:
 cmqytxv0m000004le7z6paeoc	Fruita	fruita	ca	6	\N	2026-06-29 06:21:29.542
 cmqyvq7z6000004jv9rx3h5dp	Fruita	fruita	ca	6	\N	2026-06-29 07:11:32.322
 cmqzcn0t6000004l4xr93vnck	Fruita	fruita	ca	6	\N	2026-06-29 15:04:56.538
+cmrejr9m4000004jmv5mxd6ku	comissions de venda	comissions de venda	ca	0	cmr0dyx6s000004let43gsqu6	2026-07-10 06:20:44.524
+cmrejregv000104jm4xpw5u0x	comission	comission	ca	0	cmr0dyx6s000004let43gsqu6	2026-07-10 06:20:50.815
+cmrejrht7000204jm0ajahg4l	comissions	comissions	ca	0	cmr0dyx6s000004let43gsqu6	2026-07-10 06:20:55.147
 \.
 
 
@@ -1479,6 +1485,6 @@ SELECT pg_catalog.setval('"auth"."refresh_tokens_id_seq"', 1, false);
 -- PostgreSQL database dump complete
 --
 
--- \unrestrict BR0HhKmMbO5e5RqqBXIVGvve65h11lKaJSTTY3QOnxt9mc2XQnnOZAbU9hnklwT
+-- \unrestrict iorrtSrcNYAUfzGh5Gos3oARthlmaXv59RmkZvL6Fd4tH0O8mYNxEgy72irjYYr
 
 RESET ALL;
