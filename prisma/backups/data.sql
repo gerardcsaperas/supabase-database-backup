@@ -4,7 +4,7 @@ SET session_replication_role = replica;
 -- PostgreSQL database dump
 --
 
--- \restrict SV60WRtukLKsPWOZajqemPVfPjqIv9Q3UJZzcPIZI9HgLNypAOBM14Ygm0BfHRJ
+-- \restrict eqPaCFAdmhk1roBQ6mg9CW6IKb49PtoNBtMh9BbQNDXhqFnPp3rxqGfnnyPS00z
 
 -- Dumped from database version 17.6
 -- Dumped by pg_dump version 17.6
@@ -706,6 +706,7 @@ cmqiu5fr7000004jupaanaz9x	cmpu7a31d0005l8t2bcdsydsr	SELLER_SHIPMENT_DELAYED	{"da
 cmr5nqvbr000004jxql0qarzc	cmpu7a31d0005l8t2bcdsydsr	SELLER_SHIPMENT_DELAYED	{"days": 32, "orderNumber": "CG-20260601-DIMMPF"}	\N	2026-07-04 01:02:28.879	2026-07-04 01:02:28.887
 cmramsdpq000405jr76iftzc8	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Eric arenas denia", "email": "erarde1921@gmail.com"}	\N	\N	2026-07-07 12:34:30.638
 cmre6loqu000004kzih5cvvua	cmr0dyx6s000004let43gsqu6	SELLER_STATUS_CHANGED	{"status": "APPROVED"}	\N	2026-07-10 00:12:29.186	2026-07-10 00:12:29.19
+cmrh52bvz000004l93m4gnw1h	cmpu7a31d0005l8t2bcdsydsr	SELLER_SHIPMENT_DELAYED	{"days": 40, "orderNumber": "CG-20260601-DIMMPF"}	\N	2026-07-12 01:52:44.967	2026-07-12 01:52:44.975
 cmqk97laa000004l152z7cvpr	cmpu7a31d0005l8t2bcdsydsr	SELLER_SHIPMENT_DELAYED	{"days": 17, "orderNumber": "CG-20260601-DIMMPF"}	\N	2026-06-19 01:32:25.071	2026-06-19 01:32:25.09
 cmqqy5alb000604l5tr8gisv8	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_PRODUCT	{"storeName": "Quota Vita", "productTitle": "Whey Protein gust orxata"}	\N	\N	2026-06-23 17:57:05.375
 cmqlonfpt000004i5zqh12m3a	cmpu7a31d0005l8t2bcdsydsr	SELLER_SHIPMENT_DELAYED	{"days": 18, "orderNumber": "CG-20260601-DIMMPF"}	\N	2026-06-20 01:32:24.778	2026-06-20 01:32:24.785
@@ -1486,6 +1487,6 @@ SELECT pg_catalog.setval('"auth"."refresh_tokens_id_seq"', 1, false);
 -- PostgreSQL database dump complete
 --
 
--- \unrestrict SV60WRtukLKsPWOZajqemPVfPjqIv9Q3UJZzcPIZI9HgLNypAOBM14Ygm0BfHRJ
+-- \unrestrict eqPaCFAdmhk1roBQ6mg9CW6IKb49PtoNBtMh9BbQNDXhqFnPp3rxqGfnnyPS00z
 
 RESET ALL;
