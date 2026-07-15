@@ -678,7 +678,9 @@ CREATE TABLE IF NOT EXISTS "public"."Order" (
     "shippingService" "text" DEFAULT 'standard'::"text" NOT NULL,
     "shippingVatBreakdown" "jsonb" DEFAULT '{}'::"jsonb" NOT NULL,
     "vatBreakdown" "jsonb" DEFAULT '[]'::"jsonb" NOT NULL,
-    "ebookConsentAt" timestamp(3) without time zone
+    "ebookConsentAt" timestamp(3) without time zone,
+    "confirmationEmailedAt" timestamp(3) without time zone,
+    "fulfillmentStartedAt" timestamp(3) without time zone
 );
 
 
@@ -756,7 +758,8 @@ CREATE TABLE IF NOT EXISTS "public"."PlatformInvoice" (
     "updatedAt" timestamp(3) without time zone NOT NULL,
     "sourceOrderId" "text",
     "orderKey" "text",
-    "pdfPublicId" "text"
+    "pdfPublicId" "text",
+    "buyerEmailedAt" timestamp(3) without time zone
 );
 
 
@@ -1052,7 +1055,9 @@ CREATE TABLE IF NOT EXISTS "public"."SellerSaleInvoice" (
     "lastError" "text",
     "createdAt" timestamp(3) without time zone DEFAULT CURRENT_TIMESTAMP NOT NULL,
     "updatedAt" timestamp(3) without time zone NOT NULL,
-    "saleIdempotencyKey" "text"
+    "saleIdempotencyKey" "text",
+    "buyerEmailedAt" timestamp(3) without time zone,
+    "deliveryClaimedAt" timestamp(3) without time zone
 );
 
 
