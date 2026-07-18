@@ -4,7 +4,7 @@ SET session_replication_role = replica;
 -- PostgreSQL database dump
 --
 
--- \restrict gfcYwteITaUHaf32ZUrKGYr9LrsdcW8wDdc9gNma4wmFbNN7huuWLWZnjCSUxJI
+-- \restrict gknh6SGAShZEfLY18gIg5NdHdfiEIgoEyaanpZlcrIr1QEJltVbKkP73BjlhPWo
 
 -- Dumped from database version 17.6
 -- Dumped by pg_dump version 17.6
@@ -299,6 +299,7 @@ cmr0dyx6s000004let43gsqu6	info@debosc.com	$2b$12$0a7V3qOgNKdGTKUJM0wzOOPIUi/SjX9
 cmqna76iv000004jxqktkxab5	mcarmegirart@gmail.com	$2b$12$mFUmFO6DM640nYkBSRgr0.TrOKs.VVm/UiTV.w56jhgr9udMEMNNG	M. Carme Girart	BUYER	ca	2026-06-21 04:24:32.988	\N	\N	\N	f	2026-06-21 04:23:24.103	2026-07-13 11:19:27.485	\N	1968-11-21 00:00:00	MCarmeG.	2026-07-13 11:19:27.465	1.0
 cmqnojisi000004l4vyamzrfz	isidre.sala@gmail.com	$2b$12$p4T6gz7o3lxlxxQkKz/y1eDK8lO/oluOu.6atF7WCmpLhc1XmvHEW	Isidre sala Elías	BUYER	ca	2026-06-22 08:28:54.159	\N	\N	\N	f	2026-06-21 11:04:54.498	2026-07-13 12:10:50.848	\N	1972-03-03 00:00:00	\N	2026-07-13 12:10:50.834	1.0
 cmrkfjhb3000004kvezlqzh6k	deleted-cmrkfjhb3000004kvezlqzh6k@cangerard.invalid	2671f8f0e24626d03f0304cf35f90699b0828d157a1369f5c863675511025c9f	Compte eliminat	SELLER	ca	2026-07-14 09:12:45.476	\N	\N	\N	f	2026-07-14 09:09:19.839	2026-07-14 10:37:45.322	2026-07-14 10:37:45.32	1993-07-10 00:00:00	\N	2026-07-14 09:09:19.808	1.0
+cmrouu7x9000004i6jw2h6icl	aperezberoy@gmail.com	$2b$12$rqGgCUM3CmhQSzGfwaXk6.ztgJwrMshKc2ZVht5TX5DPemPY4MuUO	Àngel Pérez Beroy	BUYER	ca	2026-07-17 11:30:09.175	\N	\N	\N	f	2026-07-17 11:28:39.837	2026-07-17 11:30:09.193	\N	1963-06-22 00:00:00	\N	2026-07-17 11:28:39.802	1.0
 \.
 
 
@@ -596,6 +597,8 @@ cmrj6l284000004jicewj4z8k	cmqnojisi000004l4vyamzrfz	BUYER_TERMS	t	Accepto les co
 cmrkfjhc6000204kvfts62nlp	cmrkfjhb3000004kvezlqzh6k	PRIVACY_NOTICE	t	Accepto les condicions de compra i he llegit la política de privadesa.	ca	222.149.48.30	2026-07-14 09:09:19.839
 cmrkfjhc7000304kvnvidtull	cmrkfjhb3000004kvezlqzh6k	BUYER_TERMS	t	Accepto les condicions de compra i he llegit la política de privadesa.	ca	222.149.48.30	2026-07-14 09:09:19.839
 cmrkfjhc7000404kvf5lei7bj	cmrkfjhb3000004kvezlqzh6k	SELLER_TERMS	t	Accepto les Condicions Generals de Venedors, l'Annex I (facturació), l'Annex II (dades), l'Annex III (categories i segells) i la política de productes prohibits.	ca	222.149.48.30	2026-07-14 09:09:19.839
+cmrouu7y2000204i6bdi1873u	cmrouu7x9000004i6jw2h6icl	PRIVACY_NOTICE	t	Accepto les condicions de compra i he llegit la política de privadesa.	ca	31.4.151.189	2026-07-17 11:28:39.837
+cmrouu7y2000304i6n7jbylm6	cmrouu7x9000004i6jw2h6icl	BUYER_TERMS	t	Accepto les condicions de compra i he llegit la política de privadesa.	ca	31.4.151.189	2026-07-17 11:28:39.837
 \.
 
 
@@ -625,8 +628,8 @@ COPY "public"."DsaNotice" ("id", "targetType", "targetId", "targetUrl", "reporte
 COPY "public"."Order" ("id", "orderNumber", "buyerId", "status", "subtotal", "shippingTotal", "grandTotal", "currency", "shippingAddress", "stripePaymentIntentId", "paidAt", "createdAt", "updatedAt", "shippingMarginDelta", "shippingRealCost", "shippingService", "shippingVatBreakdown", "vatBreakdown", "ebookConsentAt", "confirmationEmailedAt", "fulfillmentStartedAt") FROM stdin;
 cmpvcikjr0008yjt2tf4ihh33	CG-20260601-DIMMPF	cmpu7a2oe0000l8t232dsj2jq	PAID	129.00	0.00	129.00	EUR	{"city": "test", "phone": "667717567", "street": "test", "country": "ES", "province": "test", "recipient": "test", "postalCode": "08520"}	pi_3TdXUEGkg0BRtJUg1YCuUeRI	2026-06-01 15:10:56.011	2026-06-01 15:10:41.799	2026-06-01 15:10:56.065	0.00	0.00	custom	{}	[{"base": 117.27, "rate": 10, "cuota": 11.73}]	\N	\N	\N
 cmqb5ndd5000104lbu95woi7r	CG-20260612-NICKI4	cmpvaoc350000yjt2w4ur6be3	CANCELLED	12.90	3.95	16.85	EUR	{"city": "LES FRANQUESES DEL VALLES", "phone": "667717567", "street": "c/ Test cangerard.cat", "country": "ES", "province": "Barcelona", "recipient": "Test CanGerard", "postalCode": "08520"}	pi_3ThYAOGkg0BRtJUg1MIXePv0	2026-06-12 16:43:02.579	2026-06-12 16:42:47.273	2026-06-12 19:32:35.415	0.00	3.95	standard	{"base": 3.26, "rate": 21, "cuota": 0.69}	[{"base": 11.73, "rate": 10, "cuota": 1.17}]	\N	\N	\N
-cmrnajmvw000009jftv26ajwy	CG-20260716-Q1O4R2	cmpu7a2oe0000l8t232dsj2jq	PAID	6.50	3.95	10.45	EUR	{"city": "test", "phone": "667717567", "street": "test", "country": "ES", "province": "test", "recipient": "test", "postalCode": "08520"}	pi_3TtlLXGkg0BRtJUg1ihoTytl	2026-07-16 09:13:05.057	2026-07-16 09:12:47.516	2026-07-17 01:30:32.433	0.00	3.95	standard	{"base": 3.26, "rate": 21, "cuota": 0.69}	[{"base": 5.91, "rate": 10, "cuota": 0.59}]	\N	2026-07-16 09:13:10.722	2026-07-17 01:30:32.429
-cmrnabifk00010ajb1yv2zys6	CG-20260716-4TC8OA	cmpu7a2oe0000l8t232dsj2jq	PAID	5.90	3.95	9.85	EUR	{"city": "test", "phone": "667717567", "street": "test", "country": "ES", "province": "test", "recipient": "test", "postalCode": "08520"}	pi_3TtlFQGkg0BRtJUg1wWMOujc	2026-07-16 09:06:53.268	2026-07-16 09:06:28.496	2026-07-17 01:30:33.084	0.00	3.95	standard	{"base": 3.26, "rate": 21, "cuota": 0.69}	[{"base": 5.36, "rate": 10, "cuota": 0.54}]	\N	2026-07-16 09:06:59.073	2026-07-17 01:30:33.08
+cmrnajmvw000009jftv26ajwy	CG-20260716-Q1O4R2	cmpu7a2oe0000l8t232dsj2jq	PAID	6.50	3.95	10.45	EUR	{"city": "test", "phone": "667717567", "street": "test", "country": "ES", "province": "test", "recipient": "test", "postalCode": "08520"}	pi_3TtlLXGkg0BRtJUg1ihoTytl	2026-07-16 09:13:05.057	2026-07-16 09:12:47.516	2026-07-18 01:15:32.334	0.00	3.95	standard	{"base": 3.26, "rate": 21, "cuota": 0.69}	[{"base": 5.91, "rate": 10, "cuota": 0.59}]	\N	2026-07-16 09:13:10.722	2026-07-18 01:15:32.33
+cmrnabifk00010ajb1yv2zys6	CG-20260716-4TC8OA	cmpu7a2oe0000l8t232dsj2jq	PAID	5.90	3.95	9.85	EUR	{"city": "test", "phone": "667717567", "street": "test", "country": "ES", "province": "test", "recipient": "test", "postalCode": "08520"}	pi_3TtlFQGkg0BRtJUg1wWMOujc	2026-07-16 09:06:53.268	2026-07-16 09:06:28.496	2026-07-18 01:15:32.854	0.00	3.95	standard	{"base": 3.26, "rate": 21, "cuota": 0.69}	[{"base": 5.36, "rate": 10, "cuota": 0.54}]	\N	2026-07-16 09:06:59.073	2026-07-18 01:15:32.852
 \.
 
 
@@ -903,6 +906,8 @@ cmrnak0vl00020ai8l9oiqk5n	cmpu7a2oe0000l8t232dsj2jq	SELLER_NEW_ORDER	{"orderNumb
 cmrnak0wo00030ai83sldzn80	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_ORDER	{"total": 10.45, "orderNumber": "CG-20260716-Q1O4R2"}	\N	\N	2026-07-16 09:13:05.688
 cmrnak1fc00040ai809ha22zk	cmpu7a2oe0000l8t232dsj2jq	SELLER_LABEL_READY	{"orderNumber": "CG-20260716-Q1O4R2", "trackingNumber": "CGMOCKL8T2JOM93W15"}	\N	2026-07-16 09:13:06.358	2026-07-16 09:13:06.36
 cmro8fhsm000a04l17vkfgpeq	cmpu7a31d0005l8t2bcdsydsr	SELLER_SHIPMENT_DELAYED	{"days": 45, "orderNumber": "CG-20260601-DIMMPF"}	\N	2026-07-17 01:01:21.235	2026-07-17 01:01:21.238
+cmrouu7zj000404i6j60jon63	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Àngel Pérez Beroy", "email": "aperezberoy@gmail.com"}	\N	\N	2026-07-17 11:28:39.919
+cmrpnu7wf000404l1n375jzul	cmpu7a31d0005l8t2bcdsydsr	SELLER_SHIPMENT_DELAYED	{"days": 46, "orderNumber": "CG-20260601-DIMMPF"}	\N	2026-07-18 01:00:28.668	2026-07-18 01:00:28.671
 \.
 
 
@@ -935,8 +940,8 @@ cmqb5nqny000504lbovd9odq5	SHIPPING	ISSUED	\N	cmpvaoc350000yjt2w4ur6be3	cmqb5ndd5
 cmqbbptiu000304l2wih60isu	SHIPPING_RECTIFY	ISSUED	\N	cmpvaoc350000yjt2w4ur6be3	cmqb5ndd5000104lbu95woi7r	\N	3.26	21.00	0.69	3.95	6a2c5ed74134af7f730f50ab	CN260002	\N	\N	cmqb5nqny000504lbovd9odq5	\N	2026-06-12 19:32:40.041	2026-06-12 19:32:39.222	2026-06-12 19:32:40.043	\N	cmqb5ndd5000104lbu95woi7r:platform:SHIPPING_RECTIFY	\N	\N
 cmrnac2hg00090ajb2nun79u1	SHIPPING	ISSUED	\N	cmpu7a2oe0000l8t232dsj2jq	cmrnabifk00010ajb1yv2zys6	\N	3.26	21.00	0.69	3.95	6a589f2e10ab406c1802b325	F260044	\N	\N	\N	\N	2026-07-16 09:06:57.411	2026-07-16 09:06:54.484	2026-07-16 09:06:59.771	\N	cmrnabifk00010ajb1yv2zys6:platform:SHIPPING	cangerard/fiscal/invoices/platform-cmrnac2hg00090ajb2nun79u1.pdf	2026-07-16 09:06:59.767
 cmrnak1gp00050ai812bv10zh	SHIPPING	ISSUED	\N	cmpu7a2oe0000l8t232dsj2jq	cmrnajmvw000009jftv26ajwy	\N	3.26	21.00	0.69	3.95	6a58a0a21bf698845c04be1f	F260045	\N	\N	\N	\N	2026-07-16 09:13:08.898	2026-07-16 09:13:06.409	2026-07-16 09:13:11.334	\N	cmrnajmvw000009jftv26ajwy:platform:SHIPPING	cangerard/fiscal/invoices/platform-cmrnak1gp00050ai812bv10zh.pdf	2026-07-16 09:13:11.329
-cmrnak4rh00070ai8t3ib4q30	COMMISSION	FAILED	cmpu7a2qp0002l8t2jom93w15	\N	cmrnajmvw000009jftv26ajwy	\N	0.65	21.00	0.14	0.79	\N	\N	\N	\N	\N	MISSING_HOLDED_CONTACT	2026-07-17 01:30:33.051	2026-07-16 09:13:10.685	2026-07-17 01:30:33.051	\N	cmrnajmvw000009jftv26ajwy:cmpu7a2qp0002l8t2jom93w15:COMMISSION	\N	\N
-cmrnac5zz000b0ajbgk3a3c7p	COMMISSION	FAILED	cmpu7a2qp0002l8t2jom93w15	\N	cmrnabifk00010ajb1yv2zys6	\N	0.59	21.00	0.12	0.71	\N	\N	\N	\N	\N	MISSING_HOLDED_CONTACT	2026-07-17 01:30:33.563	2026-07-16 09:06:59.039	2026-07-17 01:30:33.563	\N	cmrnabifk00010ajb1yv2zys6:cmpu7a2qp0002l8t2jom93w15:COMMISSION	\N	\N
+cmrnac5zz000b0ajbgk3a3c7p	COMMISSION	FAILED	cmpu7a2qp0002l8t2jom93w15	\N	cmrnabifk00010ajb1yv2zys6	\N	0.59	21.00	0.12	0.71	\N	\N	\N	\N	\N	MISSING_HOLDED_CONTACT	2026-07-18 01:15:33.231	2026-07-16 09:06:59.039	2026-07-18 01:15:33.231	\N	cmrnabifk00010ajb1yv2zys6:cmpu7a2qp0002l8t2jom93w15:COMMISSION	\N	\N
+cmrnak4rh00070ai8t3ib4q30	COMMISSION	FAILED	cmpu7a2qp0002l8t2jom93w15	\N	cmrnajmvw000009jftv26ajwy	\N	0.65	21.00	0.14	0.79	\N	\N	\N	\N	\N	MISSING_HOLDED_CONTACT	2026-07-18 01:15:32.834	2026-07-16 09:13:10.685	2026-07-18 01:15:32.834	\N	cmrnajmvw000009jftv26ajwy:cmpu7a2qp0002l8t2jom93w15:COMMISSION	\N	\N
 \.
 
 
@@ -1463,6 +1468,7 @@ cmqwaq13y000104l83cq21nod	cmqwaq13n000004l8t83lg89h	2026-06-27 11:47:59.123
 cmr0beyhb000104jjtwb4q0fr	cmr0beygz000004jj1sog8v2m	2026-06-30 07:18:26.819
 cmr0dyx73000104letkt6z911	cmr0dyx6s000004let43gsqu6	2026-06-30 08:29:57.508
 cmramsdms000105jr45nsf5w4	cmramsdlv000005jrre991r6z	2026-07-07 12:34:30.499
+cmrouu7xo000104i689wglopc	cmrouu7x9000004i6jw2h6icl	2026-07-17 11:28:39.837
 \.
 
 
@@ -1583,6 +1589,6 @@ SELECT pg_catalog.setval('"auth"."refresh_tokens_id_seq"', 1, false);
 -- PostgreSQL database dump complete
 --
 
--- \unrestrict gfcYwteITaUHaf32ZUrKGYr9LrsdcW8wDdc9gNma4wmFbNN7huuWLWZnjCSUxJI
+-- \unrestrict gknh6SGAShZEfLY18gIg5NdHdfiEIgoEyaanpZlcrIr1QEJltVbKkP73BjlhPWo
 
 RESET ALL;
