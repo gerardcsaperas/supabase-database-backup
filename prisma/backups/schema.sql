@@ -1116,7 +1116,10 @@ CREATE TABLE IF NOT EXISTS "public"."Shipment" (
     "createdAt" timestamp(3) without time zone DEFAULT CURRENT_TIMESTAMP NOT NULL,
     "updatedAt" timestamp(3) without time zone NOT NULL,
     "methodName" "text",
-    "sellerShippingMethodId" "text"
+    "sellerShippingMethodId" "text",
+    "chargedAmount" numeric(10,2) DEFAULT 0 NOT NULL,
+    "vatBreakdown" "jsonb",
+    "stripeTransferId" "text"
 );
 
 
