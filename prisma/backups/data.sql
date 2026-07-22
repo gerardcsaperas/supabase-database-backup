@@ -4,7 +4,7 @@ SET session_replication_role = replica;
 -- PostgreSQL database dump
 --
 
--- \restrict UQoqGZJfk2cIEQpxVRegRPycJLban4QVchVtl4ficlLOaNfYlO1Nm6zKOGtgGUo
+-- \restrict f1wFeXGnfMohTRriOqyjy1PB0hPfbq9AIvrmj2XACoY4rkKYSgEWaiUfm97e28t
 
 -- Dumped from database version 17.6
 -- Dumped by pg_dump version 17.6
@@ -305,6 +305,8 @@ cmqna76iv000004jxqktkxab5	mcarmegirart@gmail.com	$2b$12$mFUmFO6DM640nYkBSRgr0.Tr
 cmqnojisi000004l4vyamzrfz	isidre.sala@gmail.com	$2b$12$p4T6gz7o3lxlxxQkKz/y1eDK8lO/oluOu.6atF7WCmpLhc1XmvHEW	Isidre sala Elías	BUYER	ca	2026-06-22 08:28:54.159	\N	\N	\N	f	2026-06-21 11:04:54.498	2026-07-13 12:10:50.848	\N	1972-03-03 00:00:00	\N	2026-07-13 12:10:50.834	1.0
 cmrkfjhb3000004kvezlqzh6k	deleted-cmrkfjhb3000004kvezlqzh6k@cangerard.invalid	2671f8f0e24626d03f0304cf35f90699b0828d157a1369f5c863675511025c9f	Compte eliminat	SELLER	ca	2026-07-14 09:12:45.476	\N	\N	\N	f	2026-07-14 09:09:19.839	2026-07-14 10:37:45.322	2026-07-14 10:37:45.32	1993-07-10 00:00:00	\N	2026-07-14 09:09:19.808	1.0
 cmrouu7x9000004i6jw2h6icl	aperezberoy@gmail.com	$2b$12$rqGgCUM3CmhQSzGfwaXk6.ztgJwrMshKc2ZVht5TX5DPemPY4MuUO	Àngel Pérez Beroy	BUYER	ca	2026-07-17 11:30:09.175	\N	\N	\N	f	2026-07-17 11:28:39.837	2026-07-17 11:30:09.193	\N	1963-06-22 00:00:00	\N	2026-07-17 11:28:39.802	1.0
+cmru7e92e000004l42gq30su7	colombarbeta@hotmail.com	$2b$12$OJfrONgGO1KWMSFOmUEPleF.uPhViVXOlcJK7sY6nobT7eaTDdkTi	Alba Colom Barbeta	BUYER	ca	\N	35134604b4c03eab803d7e2d8a262309c8d5685b77b370f045455cc31b091d39	\N	\N	f	2026-07-21 05:19:00.71	2026-07-21 05:19:00.71	\N	1985-04-12 00:00:00	\N	2026-07-21 05:19:00.674	1.0
+cmrv706ge000004l4za8gkvs3	cesca-torras@hotmail.com	$2b$12$hJ7oNUxWn6W/zg8zPAuXdefGp2SnXPhPxPMZTZqp.2eGDUczCnHzq	Francesca Torras i Garnacho	BUYER	ca	\N	b2981fbca77bb3e37492eeaf6f2655d17d8c250e3fc4f29e086bd91b04c254d9	\N	\N	f	2026-07-21 21:55:50.318	2026-07-21 21:55:50.318	\N	1963-09-21 00:00:00	\N	2026-07-21 21:55:50.292	1.0
 \.
 
 
@@ -624,6 +626,10 @@ cmrta0w80000204lbcxradaiy	cmrta0w7d000004lb31bbwzt9	PRIVACY_NOTICE	t	Accepto les
 cmrta0w81000304lbvg4y1xvz	cmrta0w7d000004lb31bbwzt9	BUYER_TERMS	t	Accepto les condicions de compra i he llegit la política de privadesa.	ca	93.176.134.152	2026-07-20 13:44:50.185
 cmrtww1lk000204jiawybhaty	cmrtww1kr000004jiveky4s35	PRIVACY_NOTICE	t	Accepto les condicions de compra i he llegit la política de privadesa.	ca	62.36.115.11	2026-07-21 00:24:55.036
 cmrtww1lk000304ji00r4pzcv	cmrtww1kr000004jiveky4s35	BUYER_TERMS	t	Accepto les condicions de compra i he llegit la política de privadesa.	ca	62.36.115.11	2026-07-21 00:24:55.036
+cmru7e93h000204l42mb7ad5v	cmru7e92e000004l42gq30su7	PRIVACY_NOTICE	t	Accepto les condicions de compra i he llegit la política de privadesa.	ca	188.77.162.70	2026-07-21 05:19:00.71
+cmru7e93h000304l41zg1rqqg	cmru7e92e000004l42gq30su7	BUYER_TERMS	t	Accepto les condicions de compra i he llegit la política de privadesa.	ca	188.77.162.70	2026-07-21 05:19:00.71
+cmrv706hj000204l4hdcgobjl	cmrv706ge000004l4za8gkvs3	PRIVACY_NOTICE	t	Accepto les condicions de compra i he llegit la política de privadesa.	ca	92.189.237.217	2026-07-21 21:55:50.318
+cmrv706hj000304l4tqa3739e	cmrv706ge000004l4za8gkvs3	BUYER_TERMS	t	Accepto les condicions de compra i he llegit la política de privadesa.	ca	92.189.237.217	2026-07-21 21:55:50.318
 \.
 
 
@@ -1011,6 +1017,9 @@ cmrtw3jfs000804l1nalnmimn	cmrshbbaq000004lfq71zc356	SELLER_LABEL_READY	{"orderNu
 cmrtw3q15000c04l18y3h9zms	cmrshbbaq000004lfq71zc356	SELLER_COMMISSION_INVOICE	{"total": 3.63, "orderNumber": "CG-20260721-OPCUZG", "invoiceNumber": "F260078"}	\N	2026-07-21 00:02:53.704	2026-07-21 00:02:53.705
 cmrtww1mp000404jic3pqewz4	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Aran Rosell Ferré", "email": "pantocrator1123@gmail.com"}	\N	\N	2026-07-21 00:24:55.105
 cmrty59ce000004kw85ejphja	cmpu7a31d0005l8t2bcdsydsr	SELLER_SHIPMENT_DELAYED	{"days": 49, "orderNumber": "CG-20260601-DIMMPF"}	\N	2026-07-21 01:00:04.615	2026-07-21 01:00:04.622
+cmru7e94q000404l4qz0isqwe	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Alba Colom Barbeta", "email": "colombarbeta@hotmail.com"}	\N	\N	2026-07-21 05:19:00.794
+cmrv706iy000404l41oocsbru	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Francesca Torras i Garnacho", "email": "cesca-torras@hotmail.com"}	\N	\N	2026-07-21 21:55:50.41
+cmrvdl4jz000004l04etfwx74	cmpu7a31d0005l8t2bcdsydsr	SELLER_SHIPMENT_DELAYED	{"days": 50, "orderNumber": "CG-20260601-DIMMPF"}	\N	2026-07-22 01:00:05.319	2026-07-22 01:00:05.329
 \.
 
 
@@ -1611,6 +1620,8 @@ cmrshbbay000104lfnlo7icdz	cmrshbbaq000004lfq71zc356	2026-07-20 00:21:07.442
 cmrt5whap000104kwebwkterc	cmrt5wha6000004kw2kh0yztp	2026-07-20 11:49:25.758
 cmrta0w7p000104lb00hlsxlh	cmrta0w7d000004lb31bbwzt9	2026-07-20 13:44:50.185
 cmrtww1l7000104jimtdvw2um	cmrtww1kr000004jiveky4s35	2026-07-21 00:24:55.036
+cmru7e931000104l4vtrub8ju	cmru7e92e000004l42gq30su7	2026-07-21 05:19:00.71
+cmrv706gy000104l4apzi6sxd	cmrv706ge000004l4za8gkvs3	2026-07-21 21:55:50.318
 \.
 
 
@@ -1732,6 +1743,6 @@ SELECT pg_catalog.setval('"auth"."refresh_tokens_id_seq"', 1, false);
 -- PostgreSQL database dump complete
 --
 
--- \unrestrict UQoqGZJfk2cIEQpxVRegRPycJLban4QVchVtl4ficlLOaNfYlO1Nm6zKOGtgGUo
+-- \unrestrict f1wFeXGnfMohTRriOqyjy1PB0hPfbq9AIvrmj2XACoY4rkKYSgEWaiUfm97e28t
 
 RESET ALL;
