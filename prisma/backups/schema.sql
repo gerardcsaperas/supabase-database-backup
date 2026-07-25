@@ -203,7 +203,8 @@ CREATE TYPE "public"."NotificationType" AS ENUM (
     'ADMIN_DSA_PRIORITY',
     'BUYER_EXPERIENCE_READY',
     'DSA_NOTICE_DECISION',
-    'SELLER_CUSTOM_SHIPMENT'
+    'SELLER_CUSTOM_SHIPMENT',
+    'BUYER_RETURN_REJECTED'
 );
 
 
@@ -709,7 +710,8 @@ CREATE TABLE IF NOT EXISTS "public"."OrderItem" (
     "variantLabel" "text",
     "baseAmount" numeric(10,2) DEFAULT 0 NOT NULL,
     "vatAmount" numeric(10,2) DEFAULT 0 NOT NULL,
-    "vatRate" numeric(5,2) DEFAULT 21 NOT NULL
+    "vatRate" numeric(5,2) DEFAULT 21 NOT NULL,
+    "refundedEarnings" numeric(10,2) DEFAULT 0 NOT NULL
 );
 
 
@@ -936,7 +938,9 @@ CREATE TABLE IF NOT EXISTS "public"."ReturnRequest" (
     "updatedAt" timestamp(3) without time zone NOT NULL,
     "refundExecutedBy" "public"."RefundExecutor",
     "shipmentProofAt" timestamp(3) without time zone,
-    "shipmentProofUrl" "text"
+    "shipmentProofUrl" "text",
+    "rejectedAt" timestamp(3) without time zone,
+    "rejectionReason" "text"
 );
 
 
@@ -1120,7 +1124,8 @@ CREATE TABLE IF NOT EXISTS "public"."Shipment" (
     "sellerShippingMethodId" "text",
     "chargedAmount" numeric(10,2) DEFAULT 0 NOT NULL,
     "vatBreakdown" "jsonb",
-    "stripeTransferId" "text"
+    "stripeTransferId" "text",
+    "shippingRefundedAt" timestamp(3) without time zone
 );
 
 
@@ -1165,7 +1170,8 @@ CREATE TABLE IF NOT EXISTS "public"."User" (
     "dateOfBirth" timestamp(3) without time zone,
     "displayAlias" "text",
     "legalTermsAcceptedAt" timestamp(3) without time zone,
-    "legalTermsVersion" "text"
+    "legalTermsVersion" "text",
+    "sessionEpoch" integer DEFAULT 0 NOT NULL
 );
 
 
@@ -1701,6 +1707,10 @@ CREATE INDEX "Refund_orderItemId_idx" ON "public"."Refund" USING "btree" ("order
 
 
 CREATE INDEX "Refund_paymentId_idx" ON "public"."Refund" USING "btree" ("paymentId");
+
+
+
+CREATE UNIQUE INDEX "Refund_stripeRefundId_key" ON "public"."Refund" USING "btree" ("stripeRefundId");
 
 
 
