@@ -307,6 +307,15 @@ CREATE TYPE "public"."ProductStatus" AS ENUM (
 ALTER TYPE "public"."ProductStatus" OWNER TO "postgres";
 
 
+CREATE TYPE "public"."RectificationMode" AS ENUM (
+    'SUBSTITUTION',
+    'CREDIT'
+);
+
+
+ALTER TYPE "public"."RectificationMode" OWNER TO "postgres";
+
+
 CREATE TYPE "public"."RectificationStatus" AS ENUM (
     'PENDING',
     'FULFILLED',
@@ -762,7 +771,9 @@ CREATE TABLE IF NOT EXISTS "public"."PlatformInvoice" (
     "sourceOrderId" "text",
     "orderKey" "text",
     "pdfPublicId" "text",
-    "buyerEmailedAt" timestamp(3) without time zone
+    "buyerEmailedAt" timestamp(3) without time zone,
+    "returnRequestId" "text",
+    "invoicedUnits" "jsonb"
 );
 
 
@@ -1062,7 +1073,10 @@ CREATE TABLE IF NOT EXISTS "public"."SellerSaleInvoice" (
     "updatedAt" timestamp(3) without time zone NOT NULL,
     "saleIdempotencyKey" "text",
     "buyerEmailedAt" timestamp(3) without time zone,
-    "deliveryClaimedAt" timestamp(3) without time zone
+    "deliveryClaimedAt" timestamp(3) without time zone,
+    "rectificationMode" "public"."RectificationMode",
+    "rectifyIdempotencyKey" "text",
+    "returnRequestId" "text"
 );
 
 
@@ -1626,7 +1640,11 @@ CREATE UNIQUE INDEX "PlatformInvoice_orderKey_key" ON "public"."PlatformInvoice"
 
 
 
-CREATE UNIQUE INDEX "PlatformInvoice_rectifiesId_key" ON "public"."PlatformInvoice" USING "btree" ("rectifiesId");
+CREATE INDEX "PlatformInvoice_rectifiesId_idx" ON "public"."PlatformInvoice" USING "btree" ("rectifiesId");
+
+
+
+CREATE INDEX "PlatformInvoice_returnRequestId_idx" ON "public"."PlatformInvoice" USING "btree" ("returnRequestId");
 
 
 
@@ -1798,7 +1816,15 @@ CREATE INDEX "SellerSaleInvoice_orderId_idx" ON "public"."SellerSaleInvoice" USI
 
 
 
-CREATE UNIQUE INDEX "SellerSaleInvoice_rectifiesId_key" ON "public"."SellerSaleInvoice" USING "btree" ("rectifiesId");
+CREATE INDEX "SellerSaleInvoice_rectifiesId_idx" ON "public"."SellerSaleInvoice" USING "btree" ("rectifiesId");
+
+
+
+CREATE UNIQUE INDEX "SellerSaleInvoice_rectifyIdempotencyKey_key" ON "public"."SellerSaleInvoice" USING "btree" ("rectifyIdempotencyKey");
+
+
+
+CREATE INDEX "SellerSaleInvoice_returnRequestId_idx" ON "public"."SellerSaleInvoice" USING "btree" ("returnRequestId");
 
 
 
@@ -2038,6 +2064,11 @@ ALTER TABLE ONLY "public"."PlatformInvoice"
 
 
 ALTER TABLE ONLY "public"."PlatformInvoice"
+    ADD CONSTRAINT "PlatformInvoice_returnRequestId_fkey" FOREIGN KEY ("returnRequestId") REFERENCES "public"."ReturnRequest"("id") ON UPDATE CASCADE ON DELETE SET NULL;
+
+
+
+ALTER TABLE ONLY "public"."PlatformInvoice"
     ADD CONSTRAINT "PlatformInvoice_sellerId_fkey" FOREIGN KEY ("sellerId") REFERENCES "public"."SellerProfile"("id") ON UPDATE CASCADE ON DELETE SET NULL;
 
 
@@ -2144,6 +2175,11 @@ ALTER TABLE ONLY "public"."SellerSaleInvoice"
 
 ALTER TABLE ONLY "public"."SellerSaleInvoice"
     ADD CONSTRAINT "SellerSaleInvoice_rectifiesId_fkey" FOREIGN KEY ("rectifiesId") REFERENCES "public"."SellerSaleInvoice"("id") ON UPDATE CASCADE ON DELETE SET NULL;
+
+
+
+ALTER TABLE ONLY "public"."SellerSaleInvoice"
+    ADD CONSTRAINT "SellerSaleInvoice_returnRequestId_fkey" FOREIGN KEY ("returnRequestId") REFERENCES "public"."ReturnRequest"("id") ON UPDATE CASCADE ON DELETE SET NULL;
 
 
 
