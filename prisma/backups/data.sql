@@ -4,7 +4,7 @@ SET session_replication_role = replica;
 -- PostgreSQL database dump
 --
 
--- \restrict Kv23vIP6uQh9HTlvxVtdAZrkRh3TJMrZaJJFUL5xfjRii98Q1pLckVeLQmE1sNu
+-- \restrict Zi1RTLKSJid76pYbnAcPzOvRDlGmRd3t2ygmnTQPfHFnJxN4DyslboC6L7xynb6
 
 -- Dumped from database version 17.6
 -- Dumped by pg_dump version 17.6
@@ -304,7 +304,6 @@ cmqna76iv000004jxqktkxab5	mcarmegirart@gmail.com	$2b$12$mFUmFO6DM640nYkBSRgr0.Tr
 cmqnojisi000004l4vyamzrfz	isidre.sala@gmail.com	$2b$12$p4T6gz7o3lxlxxQkKz/y1eDK8lO/oluOu.6atF7WCmpLhc1XmvHEW	Isidre sala Elías	BUYER	ca	2026-06-22 08:28:54.159	\N	\N	\N	f	2026-06-21 11:04:54.498	2026-07-13 12:10:50.848	\N	1972-03-03 00:00:00	\N	2026-07-13 12:10:50.834	1.0	0
 cmrkfjhb3000004kvezlqzh6k	deleted-cmrkfjhb3000004kvezlqzh6k@cangerard.invalid	2671f8f0e24626d03f0304cf35f90699b0828d157a1369f5c863675511025c9f	Compte eliminat	SELLER	ca	2026-07-14 09:12:45.476	\N	\N	\N	f	2026-07-14 09:09:19.839	2026-07-14 10:37:45.322	2026-07-14 10:37:45.32	1993-07-10 00:00:00	\N	2026-07-14 09:09:19.808	1.0	0
 cmrouu7x9000004i6jw2h6icl	aperezberoy@gmail.com	$2b$12$rqGgCUM3CmhQSzGfwaXk6.ztgJwrMshKc2ZVht5TX5DPemPY4MuUO	Àngel Pérez Beroy	BUYER	ca	2026-07-17 11:30:09.175	\N	\N	\N	f	2026-07-17 11:28:39.837	2026-07-17 11:30:09.193	\N	1963-06-22 00:00:00	\N	2026-07-17 11:28:39.802	1.0	0
-cmrv706ge000004l4za8gkvs3	cesca-torras@hotmail.com	$2b$12$hJ7oNUxWn6W/zg8zPAuXdefGp2SnXPhPxPMZTZqp.2eGDUczCnHzq	Francesca Torras i Garnacho	BUYER	ca	\N	b2981fbca77bb3e37492eeaf6f2655d17d8c250e3fc4f29e086bd91b04c254d9	\N	\N	f	2026-07-21 21:55:50.318	2026-07-21 21:55:50.318	\N	1963-09-21 00:00:00	\N	2026-07-21 21:55:50.292	1.0	0
 cmru7e92e000004l42gq30su7	colombarbeta@hotmail.com	$2b$12$OJfrONgGO1KWMSFOmUEPleF.uPhViVXOlcJK7sY6nobT7eaTDdkTi	Alba Colom Barbeta	BUYER	ca	2026-07-22 09:18:15.602	\N	\N	\N	f	2026-07-21 05:19:00.71	2026-07-22 09:18:15.61	\N	1985-04-12 00:00:00	\N	2026-07-21 05:19:00.674	1.0	0
 cmrw5vhvz000004l1dzhih7si	marccugat@gmail.com	$2b$12$DQEDCL7rSPlDRg54ajkt5.b5iB/h5RDtuvUcTlNPBzVTWYzNLeQDa	Marc Cugat i Fernàndez	BUYER	ca	2026-07-22 14:12:25.699	\N	\N	\N	f	2026-07-22 14:11:58.415	2026-07-22 14:13:09.617	\N	1973-02-20 00:00:00	Marc Cugat	2026-07-22 14:11:58.383	1.0	0
 cmry5mq0m000004jpl932voab	test1@cangerard.cat	$2b$12$kajyl1GYoWytNs7EIdZnPuYCfBtcuzakH.sulJP3UNJIAxoyf/eyy	NOM COGNOM TEST	SELLER	ca	2026-07-23 23:41:13.557	\N	\N	\N	f	2026-07-23 23:40:41.398	2026-07-23 23:41:13.583	\N	1993-07-10 00:00:00	\N	2026-07-23 23:40:41.361	1.0	0
@@ -312,6 +311,8 @@ cmry5ro4e000004la9k10alaa	test2@cangerard.cat	$2b$12$SEF2yQ5FvNqiaF3ALqHCFOgzZac
 cms1co4mh000004ijpv0oaelw	esthercat1966@gmail.com	$2b$12$0kvad5ofA1h9I6K0kbK5yu3JGHFDHBvXFUIwlP0hhWn3SGK6J/OsW	Esther Uria Grau	BUYER	ca	2026-07-26 05:52:16.036	\N	\N	\N	f	2026-07-26 05:21:02.825	2026-07-26 05:52:16.043	\N	1966-05-18 00:00:00	\N	2026-07-26 05:21:02.796	1.0	0
 cms1xsg7i000004l66um0cqe0	ventubegue@hotmail.com	$2b$12$F99PIlY/bTwg5JDQ1JDReeJk88ehFLf9HGn9FwW1H9K4R3GqaD97e	Buenaventura Begué González	BUYER	ca	2026-07-26 15:12:33.774	\N	\N	\N	f	2026-07-26 15:12:16.398	2026-07-26 15:12:33.781	\N	1973-12-19 00:00:00	\N	2026-07-26 15:12:16.356	1.0	0
 cmpvchf4w0004yjt2isrskbox	gcsaperas@gmail.com	$2b$12$f2/5ZyCiZ1bAgtxPEnGIa.MYTK6iou9Hm37BJCMJTjD2jyoZjkXYS	Gerard Castrelo Saperas	BUYER	ca	\N	f9bb1e8f40fbaef5456d3ea6b6f8210357c0840f3b880b67d3ccafd5b78c0591	\N	\N	f	2026-06-01 15:09:48.128	2026-07-27 09:46:40.819	\N	\N	\N	2026-07-09 07:52:20.476	1.0	5
+cms7rucme000004juq6k316uy	evavadecompras33@gmail.com	$2b$12$7Lr.5DZCXRXULriXQkfUcOlcboYqXwaBP/Q9HrQxB93Wz.KTS3/X2	Eva Cantalapiedra Fernández	BUYER	ca	\N	42c0832d2898dc194cf695a022d78896512b3da502d7c8638585993fddca18b4	\N	\N	f	2026-07-30 17:12:24.422	2026-07-30 17:12:24.422	\N	1975-01-09 00:00:00	\N	2026-07-30 17:12:24.395	1.0	0
+cmrv706ge000004l4za8gkvs3	cesca-torras@hotmail.com	$2b$12$hJ7oNUxWn6W/zg8zPAuXdefGp2SnXPhPxPMZTZqp.2eGDUczCnHzq	Francesca Torras i Garnacho	BUYER	ca	2026-07-30 17:35:08.729	\N	\N	\N	f	2026-07-21 21:55:50.318	2026-07-30 17:35:08.735	\N	1963-09-21 00:00:00	\N	2026-07-21 21:55:50.292	1.0	0
 \.
 
 
@@ -655,6 +656,8 @@ cms1co4nd000204ij3jppksxe	cms1co4mh000004ijpv0oaelw	PRIVACY_NOTICE	t	Accepto les
 cms1co4nd000304ijmigg9u6c	cms1co4mh000004ijpv0oaelw	BUYER_TERMS	t	Accepto les condicions de compra i he llegit la política de privadesa.	ca	213.179.118.168	2026-07-26 05:21:02.825
 cms1xsg7v000204l6yce3bu1z	cms1xsg7i000004l66um0cqe0	PRIVACY_NOTICE	t	Accepto les condicions de compra i he llegit la política de privadesa.	ca	79.116.235.137	2026-07-26 15:12:16.398
 cms1xsg7v000304l6qsmn9x9a	cms1xsg7i000004l66um0cqe0	BUYER_TERMS	t	Accepto les condicions de compra i he llegit la política de privadesa.	ca	79.116.235.137	2026-07-26 15:12:16.398
+cms7rucnk000204juka6cdh10	cms7rucme000004juq6k316uy	PRIVACY_NOTICE	t	Accepto les condicions de compra i he llegit la política de privadesa.	ca	79.117.182.82	2026-07-30 17:12:24.422
+cms7rucnk000304jusp2eme65	cms7rucme000004juq6k316uy	BUYER_TERMS	t	Accepto les condicions de compra i he llegit la política de privadesa.	ca	79.117.182.82	2026-07-30 17:12:24.422
 \.
 
 
@@ -1554,6 +1557,16 @@ cms6t7i1400000akukjrw6yrn	cmpu7a2oe0000l8t232dsj2jq	ADMIN_RETURN_RECEIVED	{"stor
 cms6t7zek000l04jvevpxfm8w	cmry5mq0m000004jpl932voab	SELLER_COMMISSION_CREDIT_NOTE	{"total": 12.1, "orderNumber": "CG-20260730-1YT5ZB", "invoiceNumber": "CN260022"}	\N	2026-07-30 01:03:13.916	2026-07-30 01:03:13.916
 cms6t7zj2000m04jvep74ewyv	cmpu7a2oe0000l8t232dsj2jq	ORDER_REFUNDED	{"orderNumber": "CG-20260730-1YT5ZB"}	\N	2026-07-30 01:03:14.078	2026-07-30 01:03:14.078
 cms6t7znu000n04jv4hdmvd68	cmry5mq0m000004jpl932voab	SELLER_ORDER_REFUNDED	{"orderNumber": "CG-20260730-1YT5ZB"}	\N	2026-07-30 01:03:14.249	2026-07-30 01:03:14.25
+cms7rucoz000404juxv0tu7pn	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Eva Cantalapiedra Fernández", "email": "evavadecompras33@gmail.com"}	\N	\N	2026-07-30 17:12:24.515
+cms88lxfg000004jpvvm1pn9w	cmpu7a31d0005l8t2bcdsydsr	SELLER_SHIPMENT_DELAYED	{"days": 59, "orderNumber": "CG-20260601-DIMMPF"}	\N	2026-07-31 01:01:44.948	2026-07-31 01:01:44.956
+cms88lxl1000104jp82uzksok	cmpu7a2oe0000l8t232dsj2jq	SELLER_SHIPMENT_DELAYED	{"days": 14, "orderNumber": "CG-20260716-4TC8OA"}	\N	2026-07-31 01:01:45.156	2026-07-31 01:01:45.157
+cms88lxpr000204jpktmx9rhf	cmpu7a2oe0000l8t232dsj2jq	SELLER_SHIPMENT_DELAYED	{"days": 14, "orderNumber": "CG-20260716-Q1O4R2"}	\N	2026-07-31 01:01:45.327	2026-07-31 01:01:45.327
+cms88lxwc000304jpnyu7edh7	cmpu7a2oe0000l8t232dsj2jq	SELLER_SHIPMENT_DELAYED	{"days": 12, "orderNumber": "CG-20260718-G7PR9T"}	\N	2026-07-31 01:01:45.564	2026-07-31 01:01:45.564
+cms88ly6t000404jpqlx08skq	cmpu7a2oe0000l8t232dsj2jq	SELLER_SHIPMENT_DELAYED	{"days": 12, "orderNumber": "CG-20260718-X1SV78"}	\N	2026-07-31 01:01:45.941	2026-07-31 01:01:45.942
+cms88lyc6000504jpxcyjz1em	cmpvaoc350000yjt2w4ur6be3	SELLER_SHIPMENT_DELAYED	{"days": 12, "orderNumber": "CG-20260718-XWD7AZ"}	\N	2026-07-31 01:01:46.134	2026-07-31 01:01:46.134
+cms88lyhj000604jpnoitbigj	cmpu7a2oe0000l8t232dsj2jq	SELLER_SHIPMENT_DELAYED	{"days": 12, "orderNumber": "CG-20260718-XWD7AZ"}	\N	2026-07-31 01:01:46.327	2026-07-31 01:01:46.327
+cms88lynq000704jpiiav2aes	cmpu7a2oe0000l8t232dsj2jq	SELLER_SHIPMENT_DELAYED	{"days": 11, "orderNumber": "CG-20260719-RQJM3W"}	\N	2026-07-31 01:01:46.55	2026-07-31 01:01:46.55
+cms88lyxe000804jpbi1agg7y	cmpvaoc350000yjt2w4ur6be3	SELLER_SHIPMENT_DELAYED	{"days": 11, "orderNumber": "CG-20260719-RQJM3W"}	\N	2026-07-31 01:01:46.897	2026-07-31 01:01:46.898
 \.
 
 
@@ -2446,6 +2459,7 @@ cmry5mq19000104jpyguyuuj3	cmry5mq0m000004jpl932voab	2026-07-23 23:40:41.398
 cmry5ro4h000104laqhgijk4w	cmry5ro4e000004la9k10alaa	2026-07-23 23:44:32.222
 cms1co4mw000104ij8o2jntqg	cms1co4mh000004ijpv0oaelw	2026-07-26 05:21:02.825
 cms1xsg7p000104l6q9g7gdiw	cms1xsg7i000004l66um0cqe0	2026-07-26 15:12:16.398
+cms7rucn2000104jurbc1aq3w	cms7rucme000004juq6k316uy	2026-07-30 17:12:24.422
 \.
 
 
@@ -2577,6 +2591,6 @@ SELECT pg_catalog.setval('"auth"."refresh_tokens_id_seq"', 1, false);
 -- PostgreSQL database dump complete
 --
 
--- \unrestrict Kv23vIP6uQh9HTlvxVtdAZrkRh3TJMrZaJJFUL5xfjRii98Q1pLckVeLQmE1sNu
+-- \unrestrict Zi1RTLKSJid76pYbnAcPzOvRDlGmRd3t2ygmnTQPfHFnJxN4DyslboC6L7xynb6
 
 RESET ALL;
