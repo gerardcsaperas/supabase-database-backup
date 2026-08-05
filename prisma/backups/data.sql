@@ -4,7 +4,7 @@ SET session_replication_role = replica;
 -- PostgreSQL database dump
 --
 
--- \restrict og8aiO9mTMNlidkNlNkSvtRimxK1JjjuW6FA2Gl8QJDObUay6R0e6AZCr7rfKVd
+-- \restrict vJvZYZ8xidyQwevEvX05erAWSmJhMueYYphddncBYWecbdPinu5rkUZ11pc5Ne3
 
 -- Dumped from database version 17.6
 -- Dumped by pg_dump version 17.6
@@ -315,6 +315,12 @@ cms1xsg7i000004l66um0cqe0	ventubegue@hotmail.com	$2b$12$F99PIlY/bTwg5JDQ1JDReeJk
 cmpvchf4w0004yjt2isrskbox	gcsaperas@gmail.com	$2b$12$f2/5ZyCiZ1bAgtxPEnGIa.MYTK6iou9Hm37BJCMJTjD2jyoZjkXYS	Gerard Castrelo Saperas	BUYER	ca	\N	f9bb1e8f40fbaef5456d3ea6b6f8210357c0840f3b880b67d3ccafd5b78c0591	\N	\N	f	2026-06-01 15:09:48.128	2026-07-27 09:46:40.819	\N	\N	\N	2026-07-09 07:52:20.476	1.0	5
 cms7rucme000004juq6k316uy	evavadecompras33@gmail.com	$2b$12$7Lr.5DZCXRXULriXQkfUcOlcboYqXwaBP/Q9HrQxB93Wz.KTS3/X2	Eva Cantalapiedra Fernández	BUYER	ca	\N	42c0832d2898dc194cf695a022d78896512b3da502d7c8638585993fddca18b4	\N	\N	f	2026-07-30 17:12:24.422	2026-07-30 17:12:24.422	\N	1975-01-09 00:00:00	\N	2026-07-30 17:12:24.395	1.0	0
 cmrv706ge000004l4za8gkvs3	cesca-torras@hotmail.com	$2b$12$hJ7oNUxWn6W/zg8zPAuXdefGp2SnXPhPxPMZTZqp.2eGDUczCnHzq	Francesca Torras i Garnacho	BUYER	ca	2026-07-30 17:35:08.729	\N	\N	\N	f	2026-07-21 21:55:50.318	2026-07-30 17:35:08.735	\N	1963-09-21 00:00:00	\N	2026-07-21 21:55:50.292	1.0	0
+cmser5tye000004lbk3yl25h9	patriciavilla88@hotmail.com	$2b$12$.CJl.nlxIH62r8Qeycklv.5cZ2COCKFyo4ILPKLIwEWYscD4oLR12	Patricia Villa Muñoz	BUYER	ca	\N	e770850099be3c7cdc376b244409c58132821e8ecb106ece6af8a39fb3f5b0e3	\N	\N	f	2026-08-04 14:27:43.718	2026-08-04 14:27:43.718	\N	1988-03-25 00:00:00	\N	2026-08-04 14:27:43.682	1.0	0
+cmsf3l94c000004k0fd6958sp	adriaromi1@gmail.com	$2b$12$RPUOiBTERM08dnTJbNrcw.Fjiga3tb/a4YNyh2UhMkxEJp3RHmxem	Adrià Rod	BUYER	ca	\N	64a0dee9769bf7c9c8b9068b60736c512d69adb79e60090ef872b0de33824a37	\N	\N	f	2026-08-04 20:15:38.604	2026-08-04 20:15:38.604	\N	1986-08-04 00:00:00	\N	2026-08-04 20:15:38.569	1.0	0
+cmsf6owkb000004ji8bghr5ag	jmillastre@hotmail.com	$2b$12$PDu8mBfvm5ov1bM6cXR5DOCjy6m1.xPGkxVCWmj8Ox5zzM04evTT6	Jordi Millastre	BUYER	ca	2026-08-04 21:43:03.6	\N	\N	\N	f	2026-08-04 21:42:27.803	2026-08-04 21:43:03.61	\N	1987-12-17 00:00:00	\N	2026-08-04 21:42:27.778	1.0	0
+cmsevmhnf000004juxs39ww7f	info@iamassa.com	$2b$12$ucw8JH.GjYDD5elMHQOQP.TR5ujtNo598D4okH4Hr6PKQBFdhG4mO	Sonia Sanchez Marti	SELLER	ca	2026-08-04 21:42:33.488	\N	\N	\N	f	2026-08-04 16:32:39.387	2026-08-04 21:43:59.349	\N	1995-10-04 00:00:00	\N	2026-08-04 16:32:39.346	1.0	0
+cmsf7vrb2000004l75s8p0osz	cparesc@gmail.com	$2b$12$a4awGgexBNPBJj8Db9ykw.D0fyDFbe/d.5s4GHNjxJ4zBy7ugZNhy	Carlos Parés Congost	BUYER	ca	\N	658e7d63ce476eeac8e824a4a8155bd5aec883895d236024bfcbdb348660ba69	\N	\N	f	2026-08-04 22:15:47.198	2026-08-04 22:15:47.198	\N	1989-08-19 00:00:00	\N	2026-08-04 22:15:47.171	1.0	0
+cmsf9y5sf000004l8weo9v0ny	mesetas-fibra.3x@icloud.com	$2b$12$NCYNhAeSQ9Ipu.GUYFlNKOOppFBqloho.OrjJjxIkQQuDUAwTVwpG	Jordi Mateo Sànchez	BUYER	ca	2026-08-04 23:14:23.384	\N	\N	\N	f	2026-08-04 23:13:38.511	2026-08-04 23:24:06.985	\N	1971-08-09 00:00:00	\N	2026-08-04 23:13:38.488	1.0	1
 \.
 
 
@@ -351,6 +357,7 @@ cmrkfjhcj000504kvdqzmy2bp	cmrkfjhb3000004kvezlqzh6k	Test 14072026	test-14072026	
 cmry5mq22000504jpvagvlz2y	cmry5mq0m000004jpl932voab	TEST2 CANGERARD	test2-cangerard	TEST2 CANGERARD TEST2 CANGERARD TEST2 CANGERARD TEST2 CANGERARD	TEST2 CANGERARD TEST2 CANGERARD TEST2 CANGERARD TEST2 CANGERARD	TEST2 CANGERARD TEST2 CANGERARD TEST2 CANGERARD TEST2 CANGERARD	\N	LA GARRIGA	SUSPENDED	\N	10.00	\N	f	f	f	f	2026-07-25 00:08:51.296	2026-07-23 23:40:41.398	2026-08-01 01:34:53.107	Granollers	ES	08401	Barcelona	Carrer Test 2 Cangerard	Carrer Test Adreça Fiscal, 1	\N	Granollers	ES	08401	Barcelona	ES	6a62a6d9d3a4c782b7048d24	TEST1 CANGERARD, SL	\N	47920372X	\N	GENERAL	666777888	test1@cangerard.cat	49	CG-47920372X	47920372X	2026-07-23 23:40:41.368	1.0
 cmry5ro4l000504laf82nn1sr	cmry5ro4e000004la9k10alaa	TEST3 CANGERARD	test3-cangerard	TEST3 CANGERARD TEST3 CANGERARD TEST3 CANGERARD TEST3 CANGERARD TEST3 CANGERARD	TEST3 CANGERARD TEST3 CANGERARD TEST3 CANGERARD TEST3 CANGERARD TEST3 CANGERARD	TEST3 CANGERARD TEST3 CANGERARD TEST3 CANGERARD TEST3 CANGERARD TEST3 CANGERARD	\N	LLIÇA D'AMUNT	SUSPENDED	\N	10.00	\N	f	f	f	f	2026-07-25 00:08:52.169	2026-07-23 23:44:32.222	2026-08-01 01:34:57.551	GRANOLLERS	ES	08401	BARCELONA	CARRER TEST CANGERARD, 1	Carrer Test Fiscal, 1	\N	Granollers	ES	08401	Barcelona	ES	6a62a79f53bb104df00abca5	TEST2 CANGERARD, SL	\N	47920372X	\N	GENERAL	666777888	test2@cangerard.cat	1	CG-47920372X	47920372X	2026-07-23 23:44:32.192	1.0
 cmschno2s000504i9u18et026	cmschno1p000004i9bggg2mhw	Clos de Basella	clos-de-basella	A Clos de Basella treballem la terra amb respecte i passió, convençuts que la vinya forma part d’un ecosistema viu i equilibrat. Som un celler ecològic certificat des del 2007 i seguim principis biodinàmics per crear vins que neixen en harmonia amb la natura. \r\n \r\nLa sostenibilitat és el nostre compromís de futur: elaborar vins d’alta qualitat cuidant els recursos que donaran vida a les generacions que vindran.	A Clos de Basella treballem la terra amb respecte i passió, convençuts que la vinya forma part d’un ecosistema viu i equilibrat. Som un celler ecològic certificat des del 2007 i seguim principis biodinàmics per crear vins que neixen en harmonia amb la natura. \r\n \r\nLa sostenibilitat és el nostre compromís de futur: elaborar vins d’alta qualitat cuidant els recursos que donaran vida a les generacions que vindran.	A Clos de Basella treballem la terra amb respecte i passió, convençuts que la vinya forma part d’un ecosistema viu i equilibrat. Som un celler ecològic certificat des del 2007 i seguim principis biodinàmics per crear vins que neixen en harmonia amb la natura. \r\n \r\nLa sostenibilitat és el nostre compromís de futur: elaborar vins d’alta qualitat cuidant els recursos que donaran vida a les generacions que vindran.	\N	Siurana	PENDING	\N	10.00	\N	f	f	f	f	\N	2026-08-03 00:26:07.357	2026-08-03 00:26:07.357	Siurana	ES	17469	Girona	Camí de Sant Miquel amb Ctra San Tomàs de Fluvià | d	\N	\N	\N	ES	\N	\N	ES	\N	\N	\N	\N	\N	GENERAL	680717134	\N	1	\N	\N	2026-08-03 00:26:07.319	1.0
+cmsf6qv7e00000akk4khdsled	cmsevmhnf000004juxs39ww7f	iamassa	iamassa	\N	\N	\N	\N	Barcelona	PENDING	\N	10.00	\N	f	f	f	f	\N	2026-08-04 21:43:59.354	2026-08-04 21:43:59.354	Barcelona	ES	08009	Barcelona	Carrer de Girona 120	\N	\N	\N	ES	\N	\N	ES	\N	\N	\N	\N	\N	GENERAL	+34692614446	\N	1	\N	\N	2026-08-04 21:43:59.316	1.0
 cmrshbbb9000504lfsk2yopmd	cmrshbbaq000004lfq71zc356	BOTIGA DEMO CANGERARD	botiga-demo-cangerard	Botiga Demo CanGerard	Botiga Demo CanGerard	Botiga Demo CanGerard	\N	GRANOLLERS	SUSPENDED	\N	10.00	acct_1Tvt3r2c5AKYSy0n	t	t	t	t	2026-07-20 23:54:52.754	2026-07-20 00:21:07.442	2026-08-01 01:34:39.764	La Garriga	ES	08401	Barcelona	Carrer Demo, 1, 1-3	CARRER DEMO, 1	\N	GRANOLLERS	ES	08401	BARCELONA	ES	6a5d752ee7f686bcf0061375	DEMO CANGERARD, SL	ES · STRIPE TEST BANK ··7890	B88966775	\N	GENERAL	666777123	demo@cangerard.cat	20	CG-47920372X	\N	2026-07-20 00:21:07.411	1.0
 \.
 
@@ -383,7 +390,6 @@ cmpu7a5ww0016l8t25emkzqx4	cmpu7a5vj0015l8t2pvwyxect	Caves	Cavas	Cava	caves	\N	\N
 cmpu7a5y60017l8t2fwpd1gm0	cmpu7a5vj0015l8t2pvwyxect	Vins DO Catalunya	Vinos DO Cataluña	Wines DO Catalonia	vins-do-catalunya	\N	\N	1	2026-05-31 19:56:25.374	2026-05-31 19:56:25.374	t	f	f	f
 cmpu7a5zg0018l8t2bbcpif6c	cmpu7a5vj0015l8t2pvwyxect	Oli d'oliva	Aceite de oliva	Olive oil	oli-doliva	\N	\N	2	2026-05-31 19:56:25.42	2026-05-31 19:56:25.42	t	f	f	f
 cmpu7a60o0019l8t23h4fmyrn	cmpu7a5vj0015l8t2pvwyxect	Embotits i fuet	Embutidos y fuet	Cured meats & fuet	embotits-i-fuet	\N	\N	3	2026-05-31 19:56:25.464	2026-05-31 19:56:25.464	t	f	f	f
-cmpu7a61w001al8t218acf7c1	cmpu7a5vj0015l8t2pvwyxect	Formatges	Quesos	Cheeses	formatges	\N	\N	4	2026-05-31 19:56:25.508	2026-05-31 19:56:25.508	t	f	f	f
 cmpu7a636001bl8t2qsqskc8s	cmpu7a5vj0015l8t2pvwyxect	Torrons i dolços	Turrones y dulces	Nougat & sweets	torrons-i-dolcos	\N	\N	5	2026-05-31 19:56:25.554	2026-05-31 19:56:25.554	t	f	f	f
 cmpu7a64c001cl8t2eom88xbr	cmpu7a5vj0015l8t2pvwyxect	Conserves	Conservas	Preserves	conserves	\N	\N	6	2026-05-31 19:56:25.596	2026-05-31 19:56:25.596	t	f	f	f
 cmpu7a65k001dl8t2l97zcsft	\N	Llar i Artesania	Hogar y Artesanía	Home & Crafts	llar-i-artesania	Armchair	\N	1	2026-05-31 19:56:25.64	2026-05-31 19:56:25.64	t	f	f	f
@@ -411,6 +417,8 @@ cmqmurtvk000004jxffsff7vd	cmqmuiu61000004l815xi85s8	Experiències	Experiencias	E
 cmqmuiu61000004l815xi85s8	\N	Experiències	Experiencias	Experiences	experiences	\N	\N	7	2026-06-20 21:04:34.105	2026-06-23 10:04:23.324	t	f	f	t
 cmrmqerr100000ahrolpwtgrb	cmpu7a5vj0015l8t2pvwyxect	Nutrició Esportiva	Nutrición Deportiva	Sports Nutrition	sports-nutrition	\N	\N	8	2026-07-15 23:49:08.221	2026-07-15 23:49:08.221	t	f	f	f
 cmrmqrcgp00000ajg5qqhky57	cmpu7a5vj0015l8t2pvwyxect	Licors i destil·lats	Licores y destilados	Spirits & Liqueurs	spirits-liqueurs	\N	\N	9	2026-07-15 23:58:54.938	2026-07-15 23:58:54.938	t	f	f	f
+cmsfeiu4b000004l7tfob6cwn	cmpu7a5vj0015l8t2pvwyxect	Làctics	Lácteos	Dairy	dairy	\N	\N	10	2026-08-05 01:21:41.627	2026-08-05 01:21:44.895	f	f	f	f
+cmpu7a61w001al8t218acf7c1	cmpu7a5vj0015l8t2pvwyxect	Formatges	Quesos	Cheeses	formatges	\N	\N	4	2026-05-31 19:56:25.508	2026-08-05 01:23:10.457	f	f	f	f
 \.
 
 
@@ -668,6 +676,19 @@ cms8zj6cl000304ld01971m1o	cms8zj6bc000004ld3tpkaa6u	BUYER_TERMS	t	Accepto les co
 cmschno2i000204i9a3yp1wzi	cmschno1p000004i9bggg2mhw	PRIVACY_NOTICE	t	Accepto les condicions de compra i he llegit la política de privadesa.	ca	222.149.48.30	2026-08-03 00:26:07.357
 cmschno2i000304i9ale4004c	cmschno1p000004i9bggg2mhw	BUYER_TERMS	t	Accepto les condicions de compra i he llegit la política de privadesa.	ca	222.149.48.30	2026-08-03 00:26:07.357
 cmschno2i000404i9o8rlqet2	cmschno1p000004i9bggg2mhw	SELLER_TERMS	t	Accepto les Condicions Generals de Venedors, l'Annex I (facturació), l'Annex II (dades), l'Annex III (categories i segells) i la política de productes prohibits.	ca	222.149.48.30	2026-08-03 00:26:07.357
+cmser5tzb000204lbszc8qhmm	cmser5tye000004lbk3yl25h9	PRIVACY_NOTICE	t	Accepto les condicions de compra i he llegit la política de privadesa.	ca	83.43.218.163	2026-08-04 14:27:43.718
+cmser5tzb000304lbopaprko7	cmser5tye000004lbk3yl25h9	BUYER_TERMS	t	Accepto les condicions de compra i he llegit la política de privadesa.	ca	83.43.218.163	2026-08-04 14:27:43.718
+cmsevmhoe000204jugxoz3i3p	cmsevmhnf000004juxs39ww7f	PRIVACY_NOTICE	t	Accepto les condicions de compra i he llegit la política de privadesa.	ca	81.60.171.119	2026-08-04 16:32:39.387
+cmsevmhoe000304ju1uw2lrnk	cmsevmhnf000004juxs39ww7f	BUYER_TERMS	t	Accepto les condicions de compra i he llegit la política de privadesa.	ca	81.60.171.119	2026-08-04 16:32:39.387
+cmsf3l957000204k0dtleyz9f	cmsf3l94c000004k0fd6958sp	PRIVACY_NOTICE	t	Accepto les condicions de compra i he llegit la política de privadesa.	ca	46.136.232.213	2026-08-04 20:15:38.604
+cmsf3l957000304k0gfdkuent	cmsf3l94c000004k0fd6958sp	BUYER_TERMS	t	Accepto les condicions de compra i he llegit la política de privadesa.	ca	46.136.232.213	2026-08-04 20:15:38.604
+cmsf6owl8000204jid960uz17	cmsf6owkb000004ji8bghr5ag	PRIVACY_NOTICE	t	Accepto les condicions de compra i he llegit la política de privadesa.	ca	83.41.15.56	2026-08-04 21:42:27.803
+cmsf6owl8000304jir8wpbze8	cmsf6owkb000004ji8bghr5ag	BUYER_TERMS	t	Accepto les condicions de compra i he llegit la política de privadesa.	ca	83.41.15.56	2026-08-04 21:42:27.803
+cmsf6qv7t00010akkwusi4f64	cmsevmhnf000004juxs39ww7f	SELLER_TERMS	t	Accepto les Condicions Generals de Venedors, l'Annex I (facturació), l'Annex II (dades), l'Annex III (categories i segells) i la política de productes prohibits.	ca	81.60.171.119	2026-08-04 21:43:59.369
+cmsf7vrbk000204l75qqtkmzk	cmsf7vrb2000004l75s8p0osz	PRIVACY_NOTICE	t	Accepto les condicions de compra i he llegit la política de privadesa.	ca	79.154.84.172	2026-08-04 22:15:47.198
+cmsf7vrbk000304l7dly4b8ew	cmsf7vrb2000004l75s8p0osz	BUYER_TERMS	t	Accepto les condicions de compra i he llegit la política de privadesa.	ca	79.154.84.172	2026-08-04 22:15:47.198
+cmsf9y5t8000204l8asq6th3b	cmsf9y5sf000004l8weo9v0ny	PRIVACY_NOTICE	t	Accepto les condicions de compra i he llegit la política de privadesa.	ca	146.75.182.19	2026-08-04 23:13:38.511
+cmsf9y5t8000304l87c1fv7dt	cmsf9y5sf000004l8weo9v0ny	BUYER_TERMS	t	Accepto les condicions de compra i he llegit la política de privadesa.	ca	146.75.182.19	2026-08-04 23:13:38.511
 \.
 
 
@@ -681,6 +702,7 @@ cmqaywyme000004jug2luj40d	OTHER	Hola	magikpat@protonmail.com	Teniu això obert j
 cmqf08cyn000005gn27kjg8u8	OTHER	JUDITH CONTRERAS	judith.contreras@impackta.com	Can Gerard & GLS	Hola, \r\n\r\nSóc la Judith, de GLS 📦🚀.\r\n\r\nM'agradaria entendre com gestioneu actualment la paqueteria a  i veure si hi ha punts clars on puguem simplificar la vostra operativa o millorar costos 💯.\r\n\r\n¿Què us sembla si en parlem en una trucada ràpida?\r\n\r\nSalutacions, 👉	ca	\N	f	\N	2026-06-15 09:22:13.535
 cms1xrj5n00000ajpgaybp116	LOGISTICS	Asif	asif@rocketdigitaltech.com	Let’s Boost Your Website Traffic	Hello http://cangerard.com,\r\n\r\nIf you’re looking to boost your website’s visibility, I can help you achieve top Google rankings.\r\n\r\nI’ll prepare a complete SEO plan with actionable steps and potential growth insights for your products or services.\r\n\r\nOnce you share your target keywords and target market, I’ll send a full proposal.\r\n\r\nBest Regards,\r\nAsif	ca	\N	f	\N	2026-07-26 15:11:33.563
 cms9k649u000004kvui750gqe	RETURNS	Wilson	wilson.mikex@gmail.com	Free SEO Audit for cangerard.com – Opportunities to Increase Rankings & Traffic	Hello cangerard.com,\r\n\r\nI was reviewing your website and noticed a few SEO and website performance issues that may be affecting your Google rankings, organic traffic, and lead generation.\r\n\r\nI'd be happy to send you a FREE SEO Audit Report with screenshots and recommendations covering:\r\n\r\n• SEO errors and technical issues\r\n• On-page optimization opportunities\r\n• Website performance and user experience improvements\r\n• Keyword ranking opportunities\r\n• Competitor insights and growth recommendations\r\n• Pricing and implementation options\r\n\r\nThe report is easy to understand and outlines practical steps that could help improve your search engine rankings, increase website traffic, and generate more inquiries.\r\n\r\nIf you're interested, simply reply with "Send the report", and I'll prepare it for you.\r\n\r\nAlternatively, we can schedule a quick 10-minute Google Meet call to discuss the opportunities for cangerard.com.\r\n\r\nBest regards,	ca	\N	f	\N	2026-07-31 23:13:08.898
+cmsf2zgkr000004kv5ofm1rb0	SELLER_SUPPORT	Joan Jordà Grau	colchoneriajorda@gmail.com	Ser venedor	Tenim un comerç, una Matalasseria, podem vendré a travès de Can Gerard? Tenim coixins i complements de la llar. \r\nEns podriem unir?	ca	\N	f	\N	2026-08-04 19:58:41.835
 \.
 
 
@@ -909,9 +931,9 @@ COPY "public"."ModerationAction" ("id", "measure", "sellerId", "productId", "rev
 --
 
 COPY "public"."Notification" ("id", "userId", "type", "payload", "readAt", "emailedAt", "createdAt") FROM stdin;
-cmschno3u000604i9jmn1s0d7	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_SELLER	{"storeName": "Clos de Basella"}	\N	\N	2026-08-03 00:26:07.434
-cmschx8z4000104jz9oe0lbf0	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_PRODUCT	{"storeName": "Clos de Basella", "productTitle": "Passejada guiada amb tast de vins a l’Empordà"}	\N	\N	2026-08-03 00:33:34.384
+cmschno3u000604i9jmn1s0d7	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_SELLER	{"storeName": "Clos de Basella"}	2026-08-04 10:16:08.781	\N	2026-08-03 00:26:07.434
 cmqx33rd7000004jv402638ix	cmpu7a31d0005l8t2bcdsydsr	SELLER_SHIPMENT_DELAYED	{"days": 26, "orderNumber": "CG-20260601-DIMMPF"}	\N	2026-06-28 01:02:28.931	2026-06-28 01:02:28.939
+cmschx8z4000104jz9oe0lbf0	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_PRODUCT	{"storeName": "Clos de Basella", "productTitle": "Passejada guiada amb tast de vins a l’Empordà"}	2026-08-04 10:16:08.781	\N	2026-08-03 00:33:34.384
 cmqiu5fr7000004jupaanaz9x	cmpu7a31d0005l8t2bcdsydsr	SELLER_SHIPMENT_DELAYED	{"days": 16, "orderNumber": "CG-20260601-DIMMPF"}	\N	2026-06-18 01:43:04.188	2026-06-18 01:43:04.195
 cmr5nqvbr000004jxql0qarzc	cmpu7a31d0005l8t2bcdsydsr	SELLER_SHIPMENT_DELAYED	{"days": 32, "orderNumber": "CG-20260601-DIMMPF"}	\N	2026-07-04 01:02:28.879	2026-07-04 01:02:28.887
 cmre6loqu000004kzih5cvvua	cmr0dyx6s000004let43gsqu6	SELLER_STATUS_CHANGED	{"status": "APPROVED"}	\N	2026-07-10 00:12:29.186	2026-07-10 00:12:29.19
@@ -955,6 +977,7 @@ cmrmqcjtw00070ahxfzyvimh5	cmpu7a3er000al8t2r270jifo	SELLER_PRODUCT_MODERATED	{"a
 cmrmqckc300080ahxbs0031w5	cmpu7a45l000kl8t250r3mgr9	SELLER_PRODUCT_MODERATED	{"action": "REMOVED", "productTitle": "Bastons de senderisme dels Pirineus"}	\N	2026-07-15 23:47:25.299	2026-07-15 23:47:25.299
 cmrmqckwh00090ahxp9vazkgo	cmpu7a45l000kl8t250r3mgr9	SELLER_PRODUCT_MODERATED	{"action": "REMOVED", "productTitle": "Samarreta tècnica de muntanya"}	\N	2026-07-15 23:47:26.032	2026-07-15 23:47:26.033
 cmqlonfpt000004i5zqh12m3a	cmpu7a31d0005l8t2bcdsydsr	SELLER_SHIPMENT_DELAYED	{"days": 18, "orderNumber": "CG-20260601-DIMMPF"}	\N	2026-06-20 01:32:24.778	2026-06-20 01:32:24.785
+cmser5u0o000404lbksqo9gty	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Patricia Villa Muñoz", "email": "patriciavilla88@hotmail.com"}	2026-08-05 00:37:54.322	\N	2026-08-04 14:27:43.8
 cmqyijm2v000004l11cwy0xkz	cmpu7a31d0005l8t2bcdsydsr	SELLER_SHIPMENT_DELAYED	{"days": 27, "orderNumber": "CG-20260601-DIMMPF"}	\N	2026-06-29 01:02:28.99	2026-06-29 01:02:28.999
 cmqn3ztk9000004l1ja1vm4cl	cmpu7a31d0005l8t2bcdsydsr	SELLER_SHIPMENT_DELAYED	{"days": 19, "orderNumber": "CG-20260601-DIMMPF"}	\N	2026-06-21 01:29:43.01	2026-06-21 01:29:43.017
 cmr1dfaj1000004l1cs7lmge2	cmpu7a31d0005l8t2bcdsydsr	SELLER_SHIPMENT_DELAYED	{"days": 29, "orderNumber": "CG-20260601-DIMMPF"}	\N	2026-07-01 01:02:27.846	2026-07-01 01:02:27.853
@@ -1097,6 +1120,7 @@ cmrmszcrg000004kw6zyidi3t	cmpu7a31d0005l8t2bcdsydsr	SELLER_SHIPMENT_DELAYED	{"da
 cmrna7oms000009j6pgelae8j	cmpu7a2oe0000l8t232dsj2jq	SELLER_PRODUCT_MODERATED	{"action": "DRAFT", "productTitle": "Mel artesana de romaní"}	\N	2026-07-16 09:03:29.896	2026-07-16 09:03:29.908
 cmrna7r90000109j61gd76voh	cmpu7a2oe0000l8t232dsj2jq	SELLER_PRODUCT_MODERATED	{"action": "DRAFT", "productTitle": "Oli d'oliva verge extra Arbequina"}	\N	2026-07-16 09:03:33.3	2026-07-16 09:03:33.3
 cmrna7s0l000209j60oyper85	cmpu7a2oe0000l8t232dsj2jq	SELLER_PRODUCT_MODERATED	{"action": "DRAFT", "productTitle": "Cafè Aràbica 100% en gra"}	\N	2026-07-16 09:03:34.293	2026-07-16 09:03:34.293
+cmsf2zgvs000104kvj47o3y8m	cmpu7a2oe0000l8t232dsj2jq	ADMIN_CONTACT_MESSAGE	{"body": "Tenim un comerç, una Matalasseria, podem vendré a travès de Can Gerard? Tenim coixins i complements de la llar. \\r\\nEns podriem unir?", "name": "Joan Jordà Grau", "excerpt": "Tenim un comerç, una Matalasseria, podem vendré a travès de Can Gerard? Tenim coixins i complements de la llar. \\r\\nEns podriem unir?", "subject": "Ser venedor", "fromEmail": "colchoneriajorda@gmail.com"}	\N	2026-08-04 19:58:42.23	2026-08-04 19:58:42.232
 cmrnac1xf00060ajb4eranawy	cmpu7a2oe0000l8t232dsj2jq	SELLER_NEW_ORDER	{"orderNumber": "CG-20260716-4TC8OA"}	\N	2026-07-16 09:06:53.756	2026-07-16 09:06:53.763
 cmrnac2gd00080ajba4p6dd77	cmpu7a2oe0000l8t232dsj2jq	SELLER_LABEL_READY	{"orderNumber": "CG-20260716-4TC8OA", "trackingNumber": "CGMOCKL8T2JOM93W15"}	\N	2026-07-16 09:06:54.444	2026-07-16 09:06:54.445
 cmrnak0vl00020ai8l9oiqk5n	cmpu7a2oe0000l8t232dsj2jq	SELLER_NEW_ORDER	{"orderNumber": "CG-20260716-Q1O4R2"}	\N	2026-07-16 09:13:05.648	2026-07-16 09:13:05.649
@@ -1131,6 +1155,7 @@ cmrrrayjw000004lhkocv90rh	cmpvaoc350000yjt2w4ur6be3	SELLER_LABEL_READY	{"orderNu
 cmrrraypi000104lhnqcrbcl4	cmpu7a2oe0000l8t232dsj2jq	SELLER_LABEL_READY	{"orderNumber": "CG-20260719-RQJM3W", "trackingNumber": "—"}	\N	2026-07-19 12:13:01.11	2026-07-19 12:13:01.11
 cmrrrb52n000604lhj25ns1uq	cmpvaoc350000yjt2w4ur6be3	SELLER_COMMISSION_INVOICE	{"total": 1.21, "orderNumber": "CG-20260719-RQJM3W", "invoiceNumber": "F260075"}	\N	2026-07-19 12:13:09.358	2026-07-19 12:13:09.359
 cmrrrb7ey000804lh4i3b4uxa	cmpu7a2oe0000l8t232dsj2jq	SELLER_COMMISSION_INVOICE	{"total": 0.91, "orderNumber": "CG-20260719-RQJM3W", "invoiceNumber": "F260076"}	\N	2026-07-19 12:13:12.394	2026-07-19 12:13:12.394
+cmsf3l968000404k05fh34loy	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Adrià Rod", "email": "adriaromi1@gmail.com"}	2026-08-05 00:37:57.247	\N	2026-08-04 20:15:38.672
 cmrsiq9c2000004jpiyyu4s3k	cmpu7a31d0005l8t2bcdsydsr	SELLER_SHIPMENT_DELAYED	{"days": 48, "orderNumber": "CG-20260601-DIMMPF"}	\N	2026-07-20 01:00:44.337	2026-07-20 01:00:44.354
 cmrtvtf5m00000aj9vil6135c	cmrshbbaq000004lfq71zc356	SELLER_STATUS_CHANGED	{"status": "APPROVED"}	2026-07-20 23:57:21.608	2026-07-20 23:54:53.04	2026-07-20 23:54:53.05
 cmrtw3itb000104k09p9u0ml3	cmrshbbaq000004lfq71zc356	SELLER_NEW_ORDER	{"orderNumber": "CG-20260721-OPCUZG"}	\N	2026-07-21 00:02:44.35	2026-07-21 00:02:44.352
@@ -1148,6 +1173,7 @@ cmrtvj8rv000104l1iuruadoa	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_PRODUCT	{"storeNam
 cmrtw3itr000204k0qc4d3dq7	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_ORDER	{"total": 35.31, "orderNumber": "CG-20260721-OPCUZG"}	2026-08-01 01:37:25.704	\N	2026-07-21 00:02:44.367
 cmrtw3q15000c04l18y3h9zms	cmrshbbaq000004lfq71zc356	SELLER_COMMISSION_INVOICE	{"total": 3.63, "orderNumber": "CG-20260721-OPCUZG", "invoiceNumber": "F260078"}	\N	2026-07-21 00:02:53.704	2026-07-21 00:02:53.705
 cmrty59ce000004kw85ejphja	cmpu7a31d0005l8t2bcdsydsr	SELLER_SHIPMENT_DELAYED	{"days": 49, "orderNumber": "CG-20260601-DIMMPF"}	\N	2026-07-21 01:00:04.615	2026-07-21 01:00:04.622
+cmsf6owmm000404jillwgymxo	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Jordi Millastre", "email": "jmillastre@hotmail.com"}	2026-08-05 00:38:18.956	\N	2026-08-04 21:42:27.887
 cmrvdl4jz000004l04etfwx74	cmpu7a31d0005l8t2bcdsydsr	SELLER_SHIPMENT_DELAYED	{"days": 50, "orderNumber": "CG-20260601-DIMMPF"}	\N	2026-07-22 01:00:05.319	2026-07-22 01:00:05.329
 cmrvnairj000004jpw07cykpn	cmrshbbaq000004lfq71zc356	ORDER_CONFIRMED	{"orderNumber": "CG-20260722-QQOB3J"}	\N	\N	2026-07-22 05:31:46.687
 cmrvnaiyc000104jph2s8id6h	cmrshbbaq000004lfq71zc356	SELLER_NEW_ORDER	{"orderNumber": "CG-20260722-QQOB3J"}	\N	2026-07-22 05:31:46.931	2026-07-22 05:31:46.932
@@ -1186,6 +1212,7 @@ cmrzmeof3000004lfu0bwqv2c	cmpu7a2oe0000l8t232dsj2jq	ORDER_CONFIRMED	{"orderNumbe
 cmrzmfpnc00040bi3hjym7wun	cmpu7a2oe0000l8t232dsj2jq	BUYER_RETURN_REQUESTED	{"orderNumber": "CG-20260725-97QOGS", "returnAddress": "TEST2 CANGERARD, Carrer Test 2 Cangerard, 08401 Granollers, Barcelona, ES"}	2026-07-27 06:49:59.311	2026-07-25 00:18:53.975	2026-07-25 00:18:53.976
 cmrzmmmns000304l7mdomj0ud	cmpu7a2oe0000l8t232dsj2jq	ORDER_REFUNDED	{"orderNumber": "CG-20260725-97QOGS"}	2026-07-27 06:49:59.311	2026-07-25 00:24:16.695	2026-07-25 00:24:16.697
 cms2jnxhq00030ajg1fvyhbt3	cmpu7a2oe0000l8t232dsj2jq	BUYER_RETURN_REQUESTED	{"orderNumber": "CG-20260721-OPCUZG", "returnAddress": "BOTIGA DEMO CANGERARD, Carrer Demo, 1, 1-3, 08401 La Garriga, Barcelona, ES"}	2026-07-27 06:49:59.311	2026-07-27 01:24:37.069	2026-07-27 01:24:37.07
+cmsf6qv8x00020akklr8aif01	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_SELLER	{"storeName": "iamassa"}	\N	\N	2026-08-04 21:43:59.409
 cms2vov2400040ag7yugmfb79	cmrshbbaq000004lfq71zc356	SELLER_ORDER_REFUNDED	{"orderNumber": "CG-20260721-OPCUZG"}	\N	2026-07-27 07:01:15.962	2026-07-27 07:01:15.964
 cms31wfcl000104joit3d8dki	cmrshbbaq000004lfq71zc356	SELLER_NEW_ORDER	{"orderNumber": "CG-20260727-H85ZUF"}	\N	2026-07-27 09:55:06.548	2026-07-27 09:55:06.549
 cms31wfhe000204jo0vzf3lfg	cmry5mq0m000004jpl932voab	SELLER_NEW_ORDER	{"orderNumber": "CG-20260727-H85ZUF"}	\N	2026-07-27 09:55:06.722	2026-07-27 09:55:06.722
@@ -1217,6 +1244,7 @@ cms36ggbo000004l5nmey0kdw	cmpu7a2oe0000l8t232dsj2jq	ADMIN_RETURN_RECEIVED	{"stor
 cms36qrnn000d04jqxvldxtc2	cmry5mq0m000004jpl932voab	SELLER_LABEL_READY	{"orderNumber": "CG-20260727-Z33ROE", "trackingNumber": "SCCWF3P2KKY3"}	\N	2026-07-27 12:10:40.642	2026-07-27 12:10:40.643
 cms36qxrt000h04jq1g08myyh	cmry5mq0m000004jpl932voab	SELLER_COMMISSION_INVOICE	{"total": 12.1, "orderNumber": "CG-20260727-Z33ROE", "invoiceNumber": "F260085"}	\N	2026-07-27 12:10:48.568	2026-07-27 12:10:48.569
 cms36ssaf00020bktimmjyan7	cmry5mq0m000004jpl932voab	SELLER_RETURN_REQUESTED	{"orderNumber": "CG-20260727-Z33ROE"}	\N	2026-07-27 12:12:14.773	2026-07-27 12:12:14.775
+cmsf7vrcg000404l7msqph1az	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Carlos Parés Congost", "email": "cparesc@gmail.com"}	2026-08-05 00:37:59.43	\N	2026-08-04 22:15:47.248
 cms36uad4000404l7sn8h11q6	cmry5mq0m000004jpl932voab	SELLER_ORDER_REFUNDED	{"orderNumber": "CG-20260727-Z33ROE"}	\N	2026-07-27 12:13:24.855	2026-07-27 12:13:24.857
 cms3w5sc2000104ied8uqcq0k	cmry5mq0m000004jpl932voab	SELLER_NEW_ORDER	{"orderNumber": "CG-20260728-TXWUJC"}	\N	2026-07-28 00:02:11.761	2026-07-28 00:02:11.762
 cms3w5tbz000304ielyjjhmuy	cmry5mq0m000004jpl932voab	SELLER_LABEL_READY	{"orderNumber": "CG-20260728-TXWUJC", "trackingNumber": "SCCWF3P2TMHR"}	\N	2026-07-28 00:02:13.054	2026-07-28 00:02:13.055
@@ -1254,10 +1282,12 @@ cms405pds000104l5e4xiw3ym	cmrshbbaq000004lfq71zc356	SELLER_NEW_ORDER	{"orderNumb
 cms405rcj00000ajc2dndcbkf	cmry5mq0m000004jpl932voab	SELLER_LABEL_READY	{"orderNumber": "CG-20260728-09VOVV", "trackingNumber": "SCCWF3P2TMJH"}	\N	2026-07-28 01:54:08.942	2026-07-28 01:54:08.947
 cms405rid00010ajcrhc9p714	cmrshbbaq000004lfq71zc356	SELLER_CUSTOM_SHIPMENT	{"methodName": "Enviament Demo", "orderNumber": "CG-20260728-09VOVV"}	\N	2026-07-28 01:54:09.155	2026-07-28 01:54:09.157
 cms409sko00020aky118vb4rn	cmry5mq0m000004jpl932voab	SELLER_RETURN_REQUESTED	{"orderNumber": "CG-20260728-09VOVV"}	\N	2026-07-28 01:57:17.153	2026-07-28 01:57:17.16
+cmsf9y5u2000404l86pc7c07j	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Jordi Mateo Sànchez", "email": "mesetas-fibra.3x@icloud.com"}	2026-08-05 00:38:13.426	\N	2026-08-04 23:13:38.57
 cms405p47000004l59u7kwmez	cmpu7a2oe0000l8t232dsj2jq	ORDER_CONFIRMED	{"orderNumber": "CG-20260728-09VOVV"}	2026-08-01 01:35:58.833	\N	2026-07-28 01:54:06.056
 cms409sq300030akygupprynw	cmpu7a2oe0000l8t232dsj2jq	BUYER_RETURN_REQUESTED	{"orderNumber": "CG-20260728-09VOVV", "returnAddress": "TEST2 CANGERARD, Carrer Test 2 Cangerard, 08401 Granollers, Barcelona, ES"}	2026-08-01 01:35:58.833	2026-07-28 01:57:17.353	2026-07-28 01:57:17.355
 cms409sqr00040akyh6d23gbo	cmpu7a2oe0000l8t232dsj2jq	ADMIN_RETURN_REQUESTED	{"storeName": "TEST2 CANGERARD", "orderNumber": "CG-20260728-09VOVV"}	2026-08-01 01:37:25.704	\N	2026-07-28 01:57:17.379
 cms405pin000204l5hkwjg7eg	cmry5mq0m000004jpl932voab	SELLER_NEW_ORDER	{"orderNumber": "CG-20260728-09VOVV"}	\N	2026-07-28 01:54:06.574	2026-07-28 01:54:06.575
+cmsevmhps000404ju575viilx	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Sonia Sanchez Marti", "email": "info@iamassa.com"}	2026-08-05 00:38:21.814	\N	2026-08-04 16:32:39.472
 cms405yir00060ajc7yqmn3r1	cmrshbbaq000004lfq71zc356	SELLER_COMMISSION_INVOICE	{"total": 3.63, "orderNumber": "CG-20260728-09VOVV", "invoiceNumber": "F260092"}	\N	2026-07-28 01:54:18.242	2026-07-28 01:54:18.243
 cms4060y700080ajc4vd4p9q9	cmry5mq0m000004jpl932voab	SELLER_COMMISSION_INVOICE	{"total": 12.1, "orderNumber": "CG-20260728-09VOVV", "invoiceNumber": "F260093"}	\N	2026-07-28 01:54:21.391	2026-07-28 01:54:21.391
 cms405pj4000304l5osw899uz	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_ORDER	{"total": 137.31, "orderNumber": "CG-20260728-09VOVV"}	2026-08-01 01:37:25.704	\N	2026-07-28 01:54:06.592
@@ -2251,6 +2281,9 @@ cms3zwjap00010ahrvayy1ugm	espar	espar	ca	1	cmpu7a2oe0000l8t232dsj2jq	2026-07-28 
 cms3zwk7800020ahr9osvdi25	esparda	esparda	ca	0	cmpu7a2oe0000l8t232dsj2jq	2026-07-28 01:46:59.78
 cms3zwmdk00030ahrbxy2e3pr	espardeny	espardeny	ca	1	cmpu7a2oe0000l8t232dsj2jq	2026-07-28 01:47:02.6
 cms404wks00000bj021dumeng	espardenyes	espardenyes	ca	1	cmpu7a2oe0000l8t232dsj2jq	2026-07-28 01:53:29.068
+cmseru95w000004lahqcposrx	Sobrasada	sobrasada	ca	0	\N	2026-08-04 14:46:43.172
+cmseruhrf00000bjlf0j68xtw	Pera	pera	ca	19	\N	2026-08-04 14:46:54.315
+cmseruoyz00000bhs35bmizg6	Fuet	fuet	ca	0	\N	2026-08-04 14:47:03.659
 \.
 
 
@@ -2491,6 +2524,12 @@ cms1xsg7p000104l6q9g7gdiw	cms1xsg7i000004l66um0cqe0	2026-07-26 15:12:16.398
 cms7rucn2000104jurbc1aq3w	cms7rucme000004juq6k316uy	2026-07-30 17:12:24.422
 cms8zj6bx000104ld3qr0c8xn	cms8zj6bc000004ld3tpkaa6u	2026-07-31 13:35:26.136
 cmschno27000104i9mwkkrfcz	cmschno1p000004i9bggg2mhw	2026-08-03 00:26:07.357
+cmser5tyw000104lb3lniz8bk	cmser5tye000004lbk3yl25h9	2026-08-04 14:27:43.718
+cmsevmhnx000104ju1mq6sl9n	cmsevmhnf000004juxs39ww7f	2026-08-04 16:32:39.387
+cmsf3l94t000104k001z4ihw0	cmsf3l94c000004k0fd6958sp	2026-08-04 20:15:38.604
+cmsf6owks000104ji51stq7au	cmsf6owkb000004ji8bghr5ag	2026-08-04 21:42:27.803
+cmsf7vrbd000104l7auyakspd	cmsf7vrb2000004l75s8p0osz	2026-08-04 22:15:47.198
+cmsf9y5su000104l8797gc1a9	cmsf9y5sf000004l8weo9v0ny	2026-08-04 23:13:38.511
 \.
 
 
@@ -2622,6 +2661,6 @@ SELECT pg_catalog.setval('"auth"."refresh_tokens_id_seq"', 1, false);
 -- PostgreSQL database dump complete
 --
 
--- \unrestrict og8aiO9mTMNlidkNlNkSvtRimxK1JjjuW6FA2Gl8QJDObUay6R0e6AZCr7rfKVd
+-- \unrestrict vJvZYZ8xidyQwevEvX05erAWSmJhMueYYphddncBYWecbdPinu5rkUZ11pc5Ne3
 
 RESET ALL;
