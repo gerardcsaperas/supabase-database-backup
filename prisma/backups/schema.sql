@@ -1167,6 +1167,18 @@ CREATE TABLE IF NOT EXISTS "public"."TaxProfile" (
 ALTER TABLE "public"."TaxProfile" OWNER TO "postgres";
 
 
+CREATE TABLE IF NOT EXISTS "public"."TwoFactorBackupCode" (
+    "id" "text" NOT NULL,
+    "userId" "text" NOT NULL,
+    "codeHash" "text" NOT NULL,
+    "usedAt" timestamp(3) without time zone,
+    "createdAt" timestamp(3) without time zone DEFAULT CURRENT_TIMESTAMP NOT NULL
+);
+
+
+ALTER TABLE "public"."TwoFactorBackupCode" OWNER TO "postgres";
+
+
 CREATE TABLE IF NOT EXISTS "public"."User" (
     "id" "text" NOT NULL,
     "email" "text" NOT NULL,
@@ -1186,7 +1198,12 @@ CREATE TABLE IF NOT EXISTS "public"."User" (
     "displayAlias" "text",
     "legalTermsAcceptedAt" timestamp(3) without time zone,
     "legalTermsVersion" "text",
-    "sessionEpoch" integer DEFAULT 0 NOT NULL
+    "sessionEpoch" integer DEFAULT 0 NOT NULL,
+    "twoFactorEnabled" boolean DEFAULT false NOT NULL,
+    "twoFactorSecret" "text",
+    "twoFactorPendingSecret" "text",
+    "twoFactorEnabledAt" timestamp(3) without time zone,
+    "twoFactorLastUsedStep" integer
 );
 
 
@@ -1424,6 +1441,11 @@ ALTER TABLE ONLY "public"."Shipment"
 
 ALTER TABLE ONLY "public"."TaxProfile"
     ADD CONSTRAINT "TaxProfile_pkey" PRIMARY KEY ("id");
+
+
+
+ALTER TABLE ONLY "public"."TwoFactorBackupCode"
+    ADD CONSTRAINT "TwoFactorBackupCode_pkey" PRIMARY KEY ("id");
 
 
 
@@ -1869,6 +1891,10 @@ CREATE UNIQUE INDEX "TaxProfile_userId_key" ON "public"."TaxProfile" USING "btre
 
 
 
+CREATE INDEX "TwoFactorBackupCode_userId_codeHash_idx" ON "public"."TwoFactorBackupCode" USING "btree" ("userId", "codeHash");
+
+
+
 CREATE UNIQUE INDEX "User_emailVerifyToken_key" ON "public"."User" USING "btree" ("emailVerifyToken");
 
 
@@ -2211,6 +2237,11 @@ ALTER TABLE ONLY "public"."Shipment"
 
 ALTER TABLE ONLY "public"."TaxProfile"
     ADD CONSTRAINT "TaxProfile_userId_fkey" FOREIGN KEY ("userId") REFERENCES "public"."User"("id") ON UPDATE CASCADE ON DELETE CASCADE;
+
+
+
+ALTER TABLE ONLY "public"."TwoFactorBackupCode"
+    ADD CONSTRAINT "TwoFactorBackupCode_userId_fkey" FOREIGN KEY ("userId") REFERENCES "public"."User"("id") ON UPDATE CASCADE ON DELETE CASCADE;
 
 
 
