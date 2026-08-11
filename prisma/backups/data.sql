@@ -4,7 +4,7 @@ SET session_replication_role = replica;
 -- PostgreSQL database dump
 --
 
--- \restrict O8N662BhrAX35mXbe9AIqwFvmBWFRsxyqHOwor9JXeVf6BgmIN2IMytCtNDBnEa
+-- \restrict G94KvKhhdQtHZa6NhOtzIB2Yz8yobEMdnaaDaKgoy0a77hZfoZQ8HoHywXPGHal
 
 -- Dumped from database version 17.6
 -- Dumped by pg_dump version 17.6
@@ -335,7 +335,11 @@ cmschno1p000004i9bggg2mhw	info@closdebasella.com	$2b$12$TiWLQn7v3nSNee0wwpaaMO2t
 cmshu9c88000004l5wtt3lbgf	tontisoc@hotmail.com	$2b$12$0FxORT9AtQCWG0VtOL06WOryciSiI.UiYn9xPNMOyeX7btgwk1ut2	Antoni Fabre Rossell	BUYER	ca	2026-08-07 15:31:20.388	\N	\N	\N	f	2026-08-06 18:17:44.744	2026-08-07 15:31:20.395	\N	1971-04-13 00:00:00	\N	2026-08-06 18:17:44.719	1.0	0	f	\N	\N	\N	\N
 cmsjcf8ve00000aj4a3g7euub	jordi.carrera67@gmail.com	$2b$12$9WeWLtwTiU6zc.JZ92brTuz15Z4loNPjcADxN9B1Jng6Y1aYqRBl.	ROSA MARIA CODONY I FERRÉ	BUYER	ca	2026-08-07 19:34:14.804	\N	\N	\N	f	2026-08-07 19:33:59.594	2026-08-07 19:34:14.813	\N	1969-06-16 00:00:00	\N	2026-08-07 19:33:59.563	1.0	0	f	\N	\N	\N	\N
 cmsjhakg8000004lca4y2lv2i	dany@occident.com	$2b$12$7HGI6wGkzBluUneqV2BLOedBhL0/M1NF1eLNYRwYmOZW7DYA6t2Ji	Dany Hernandez	SELLER	ca	2026-08-07 21:52:28.327	\N	\N	\N	f	2026-08-07 21:50:19.4	2026-08-07 21:52:28.334	\N	1972-09-15 00:00:00	\N	2026-08-07 21:50:19.372	1.0	0	f	\N	\N	\N	\N
-cmslq8hsp000004jrxi4af35x	albertperezarrabado@gmail.com	$2b$12$Sep9R20DbNTXGFcO1lCGqeccVCVSBvcegNmHJe3P.ZZLND.lmeVzm	Albert Pérez Arrabado	BUYER	ca	\N	c3e8e1921ba39220b7313b7bf0ffbdc39574c95e23b7c52b492f4468694a95e1	\N	\N	f	2026-08-09 11:36:11.546	2026-08-09 11:36:11.546	\N	1980-07-18 00:00:00	\N	2026-08-09 11:36:11.52	1.0	0	f	\N	\N	\N	\N
+cmsmqz1xv000004kygloip9bw	annamportell@gmail.com	$2b$12$6P9e1dNoMHLMOi6hJSxIrull9zn5U6NZ6UFclk3yyXA/IfA2dL3We	Anna Maria Portell Hielo	BUYER	ca	2026-08-10 05:44:26.203	\N	\N	\N	f	2026-08-10 04:44:36.883	2026-08-10 05:44:26.209	\N	1960-11-03 00:00:00	\N	2026-08-10 04:44:36.855	1.0	0	f	\N	\N	\N	\N
+cmsmzqfzr000004jt4954nvn3	monicaalal@hotmail.com	$2b$12$lrQLSOHYoS3EVXDhOTNQw.sVzBYflBv5ielQJo6kETdTHDAYHQIPi	Mònica Alcaraz ALBALAT	BUYER	ca	\N	d952bf15263526e53c470b146fb7f376c246953ff6390ea29df9f98351085f7d	\N	\N	f	2026-08-10 08:49:51.735	2026-08-10 08:49:51.735	\N	1972-08-12 00:00:00	\N	2026-08-10 08:49:51.709	1.0	0	f	\N	\N	\N	\N
+cmsn5jlo2000004l10kqb6ich	gsantafeporta@gmail.com	$2b$12$nPaWmKbfUnIEpjv0w9Mo3uq9xructNsfZyM2NuB.V6Nl8AwahPq5.	Gerard Santafe Porta	BUYER	ca	2026-08-10 11:33:00.5	\N	\N	\N	f	2026-08-10 11:32:30.194	2026-08-10 11:33:00.507	\N	1995-01-26 00:00:00	\N	2026-08-10 11:32:30.149	1.0	0	f	\N	\N	\N	\N
+cmslq8hsp000004jrxi4af35x	albertperezarrabado@gmail.com	$2b$12$Sep9R20DbNTXGFcO1lCGqeccVCVSBvcegNmHJe3P.ZZLND.lmeVzm	Albert Pérez Arrabado	BUYER	ca	2026-08-10 11:42:14.95	\N	\N	\N	f	2026-08-09 11:36:11.546	2026-08-10 11:42:14.953	\N	1980-07-18 00:00:00	\N	2026-08-09 11:36:11.52	1.0	0	f	\N	\N	\N	\N
+cmsn4kiwp000004l7tf848mpg	gabinscat@gmail.com	$2b$12$HofiPJl4daOnwuFlI5xE/eU6BW4TYadqm23jjQAr.Nh.nUlyqcOc2	Judith Camps Vilaseca	BUYER	ca	2026-08-10 19:05:10.656	\N	\N	\N	f	2026-08-10 11:05:13.657	2026-08-10 19:05:10.672	\N	1962-08-15 00:00:00	\N	2026-08-10 11:05:13.625	1.0	0	f	\N	\N	\N	\N
 \.
 
 
@@ -780,6 +784,14 @@ cmsl93zty000004l8z6r6v8jc	cmpu7a31d0005l8t2bcdsydsr	BUYER_TERMS	t	Accepto les co
 cmsl93zuk000104l82hp1prin	cmpu7a31d0005l8t2bcdsydsr	SELLER_TERMS	t	Com a venedor, accepto les Condicions Generals de Venedors, l'Annex I (facturació), l'Annex II (dades), l'Annex III (categories i segells) i la política de productes prohibits.	ca	222.149.48.30	2026-08-09 03:36:48.188
 cmslq8htq000204jrhflkdkhx	cmslq8hsp000004jrxi4af35x	PRIVACY_NOTICE	t	Accepto les condicions de compra i he llegit la política de privadesa.	ca	193.36.147.185	2026-08-09 11:36:11.546
 cmslq8htq000304jru87llir2	cmslq8hsp000004jrxi4af35x	BUYER_TERMS	t	Accepto les condicions de compra i he llegit la política de privadesa.	ca	193.36.147.185	2026-08-09 11:36:11.546
+cmsmqz1yq000204kyotebw78l	cmsmqz1xv000004kygloip9bw	PRIVACY_NOTICE	t	Accepto les condicions de compra i he llegit la política de privadesa.	ca	92.59.14.56	2026-08-10 04:44:36.883
+cmsmqz1yq000304ky0mh4ggjf	cmsmqz1xv000004kygloip9bw	BUYER_TERMS	t	Accepto les condicions de compra i he llegit la política de privadesa.	ca	92.59.14.56	2026-08-10 04:44:36.883
+cmsmzqg0s000204jtkqqwqwun	cmsmzqfzr000004jt4954nvn3	PRIVACY_NOTICE	t	Accepto les condicions de compra i he llegit la política de privadesa.	ca	31.221.169.162	2026-08-10 08:49:51.735
+cmsmzqg0s000304jt51ikyo6e	cmsmzqfzr000004jt4954nvn3	BUYER_TERMS	t	Accepto les condicions de compra i he llegit la política de privadesa.	ca	31.221.169.162	2026-08-10 08:49:51.735
+cmsn4kixr000204l7xntp1d15	cmsn4kiwp000004l7tf848mpg	PRIVACY_NOTICE	t	Accepto les condicions de compra i he llegit la política de privadesa.	ca	46.253.37.173	2026-08-10 11:05:13.657
+cmsn4kixr000304l7vfugxo72	cmsn4kiwp000004l7tf848mpg	BUYER_TERMS	t	Accepto les condicions de compra i he llegit la política de privadesa.	ca	46.253.37.173	2026-08-10 11:05:13.657
+cmsn5jlop000204l1gmpetbm9	cmsn5jlo2000004l10kqb6ich	PRIVACY_NOTICE	t	Accepto les condicions de compra i he llegit la política de privadesa.	ca	176.84.232.105	2026-08-10 11:32:30.194
+cmsn5jlop000304l13jl2gjju	cmsn5jlo2000004l10kqb6ich	BUYER_TERMS	t	Accepto les condicions de compra i he llegit la política de privadesa.	ca	176.84.232.105	2026-08-10 11:32:30.194
 \.
 
 
@@ -1524,6 +1536,7 @@ cmsfp7lt5000404l19zrtn832	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Pil
 cmslq8hv1000404jrkjl4y6s4	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Albert Pérez Arrabado", "email": "albertperezarrabado@gmail.com"}	\N	\N	2026-08-09 11:36:11.629
 cms5n11fk00020aksesj64vju	cmry5mq0m000004jpl932voab	SELLER_RETURN_REQUESTED	{"orderNumber": "CG-20260729-1B8BSF"}	\N	2026-07-29 05:22:06.078	2026-07-29 05:22:06.08
 cmsfp9jre000b04laxv08d61s	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_SELLER	{"storeName": "Hericamps"}	2026-08-05 08:41:29.794	\N	2026-08-05 06:22:24.074
+cmsmqz1zr000404kyvjoeyr6f	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Anna Maria Portell Hielo", "email": "annamportell@gmail.com"}	\N	\N	2026-08-10 04:44:36.952
 cms5n2bhr000204l7am6msgdx	cmry5mq0m000004jpl932voab	SELLER_COMMISSION_CREDIT_NOTE	{"total": 12.1, "orderNumber": "CG-20260729-1B8BSF", "invoiceNumber": "CN260016"}	\N	2026-07-29 05:23:05.771	2026-07-29 05:23:05.775
 cms5n2bry000404l70zmngh7m	cmry5mq0m000004jpl932voab	SELLER_ORDER_REFUNDED	{"orderNumber": "CG-20260729-1B8BSF"}	\N	2026-07-29 05:23:06.141	2026-07-29 05:23:06.142
 cms5neaj800060aj8lj9b8b1a	cmry5mq0m000004jpl932voab	SELLER_RETURN_REQUESTED	{"orderNumber": "CG-20260729-NSSY6M"}	\N	2026-07-29 05:32:24.402	2026-07-29 05:32:24.404
@@ -1556,6 +1569,7 @@ cms5poucz00090ai1ey8nblps	cmpu7a2oe0000l8t232dsj2jq	ADMIN_RETURN_REQUESTED	{"sto
 cms5ppf7p000a0ai13avksk22	cmpu7a2oe0000l8t232dsj2jq	ADMIN_RETURN_RECEIVED	{"storeName": "BOTIGA DEMO CANGERARD", "orderNumber": "CG-20260729-KVZW4J"}	2026-08-01 01:37:25.704	2026-07-29 06:37:02.916	2026-07-29 06:37:02.917
 cmsfqkffk000004ibegcuzy6s	cmsfp9jpr000504la2pkuvnqf	SELLER_STATUS_CHANGED	{"status": "APPROVED"}	\N	2026-08-05 06:58:51.291	2026-08-05 06:58:51.296
 cms5prmp200020ai2b51dompd	cmry5mq0m000004jpl932voab	SELLER_RETURN_REQUESTED	{"orderNumber": "CG-20260729-KVZW4J"}	\N	2026-07-29 06:38:45.924	2026-07-29 06:38:45.926
+cmsmzqg24000404jtbkh5911b	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Mònica Alcaraz ALBALAT", "email": "monicaalal@hotmail.com"}	\N	\N	2026-08-10 08:49:51.82
 cms5prn2400070ai21dchnm2s	cmrshbbaq000004lfq71zc356	SELLER_RETURN_REQUESTED	{"orderNumber": "CG-20260729-KVZW4J"}	\N	2026-07-29 06:38:46.396	2026-07-29 06:38:46.396
 cms5psxfj000h04jw7apnx82d	cmrshbbaq000004lfq71zc356	SELLER_COMMISSION_CREDIT_NOTE	{"total": 3.63, "orderNumber": "CG-20260729-KVZW4J", "invoiceNumber": "CN260016"}	\N	2026-07-29 06:39:46.495	2026-07-29 06:39:46.495
 cms5psxp9000j04jwmji9chmd	cmrshbbaq000004lfq71zc356	SELLER_ORDER_REFUNDED	{"orderNumber": "CG-20260729-KVZW4J"}	\N	2026-07-29 06:39:46.845	2026-07-29 06:39:46.845
@@ -1574,6 +1588,7 @@ cms5pqcqr000e04jwo9141wcp	cmry5mq0m000004jpl932voab	SELLER_ORDER_REFUNDED	{"orde
 cmsfuvgqu000a04l1s63xa7ms	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_PRODUCT	{"storeName": "Clos de Basella", "productTitle": "Pícnic gourmet i tast de vins entre vinyes"}	2026-08-05 09:54:40.086	\N	2026-08-05 08:59:24.678
 cmsfv7val000404jyadp7yas8	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Josep maria Rius Esteve", "email": "jmrius.cat@gmail.com"}	2026-08-05 09:54:40.086	\N	2026-08-05 09:09:03.405
 cms5pt6l5000o04jwatc5kc1d	cmry5mq0m000004jpl932voab	SELLER_COMMISSION_CREDIT_NOTE	{"total": 12.1, "orderNumber": "CG-20260729-KVZW4J", "invoiceNumber": "CN260018"}	\N	2026-07-29 06:39:58.361	2026-07-29 06:39:58.361
+cmsn4kizb000404l7r31l3k0k	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Judith Camps Vilaseca", "email": "gabinscat@gmail.com"}	\N	\N	2026-08-10 11:05:13.751
 cms5pt6v4000q04jw434nr3c7	cmry5mq0m000004jpl932voab	SELLER_ORDER_REFUNDED	{"orderNumber": "CG-20260729-KVZW4J"}	\N	2026-07-29 06:39:58.72	2026-07-29 06:39:58.72
 cms5pvfb3000u04l7pc8anjrp	cmry5mq0m000004jpl932voab	SELLER_NEW_ORDER	{"orderNumber": "CG-20260729-82UDRL"}	\N	2026-07-29 06:41:42.975	2026-07-29 06:41:42.975
 cms5pvfh3000v04l72mmbzm4v	cmrshbbaq000004lfq71zc356	SELLER_NEW_ORDER	{"orderNumber": "CG-20260729-82UDRL"}	\N	2026-07-29 06:41:43.191	2026-07-29 06:41:43.191
@@ -1603,6 +1618,7 @@ cms6syvna000b04jjymuwfh09	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_ORDER	{"total": 26
 cms6t29o800040akoi2ph78r9	cmpu7a2oe0000l8t232dsj2jq	ADMIN_RETURN_REQUESTED	{"storeName": "TEST2 CANGERARD", "orderNumber": "CG-20260730-1YT5ZB"}	2026-08-01 01:37:25.704	\N	2026-07-30 00:58:47.288
 cms6t29uf00070akorm6slkgm	cmrshbbaq000004lfq71zc356	SELLER_RETURN_REQUESTED	{"orderNumber": "CG-20260730-1YT5ZB"}	\N	2026-07-30 00:58:47.511	2026-07-30 00:58:47.511
 cmsfwccft000g04jnrq3xo9je	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_PRODUCT	{"storeName": "Clos de Basella", "productTitle": "Escapada eno-gastronòmica a l'Empordà"}	2026-08-05 09:54:40.086	\N	2026-08-05 09:40:31.865
+cmsn5jlpv000404l1up2vystt	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Gerard Santafe Porta", "email": "gsantafeporta@gmail.com"}	\N	\N	2026-08-10 11:32:30.259
 cms6t9fx9000q04jvmiy79f6u	cmrshbbaq000004lfq71zc356	SELLER_COMMISSION_CREDIT_NOTE	{"total": 3.63, "orderNumber": "CG-20260730-1YT5ZB", "invoiceNumber": "CN260023"}	\N	2026-07-30 01:04:21.981	2026-07-30 01:04:21.982
 cms6t9g72000s04jvt34r2t7x	cmrshbbaq000004lfq71zc356	SELLER_ORDER_REFUNDED	{"orderNumber": "CG-20260730-1YT5ZB"}	\N	2026-07-30 01:04:22.334	2026-07-30 01:04:22.334
 cms6t29zf00080akoieo8iand	cmpu7a2oe0000l8t232dsj2jq	BUYER_RETURN_REQUESTED	{"orderNumber": "CG-20260730-1YT5ZB", "returnAddress": "BOTIGA DEMO CANGERARD, Carrer Demo, 1, 1-3, 08401 La Garriga, Barcelona, ES"}	2026-08-01 01:35:58.833	2026-07-30 00:58:47.691	2026-07-30 00:58:47.691
@@ -2727,6 +2743,10 @@ cmsiutxhw000104joo6u6ngba	cmsiutxhk000004jodggt83b3	2026-08-07 11:21:31.592
 cmsjcf8vz00010aj40nwzx3pq	cmsjcf8ve00000aj4a3g7euub	2026-08-07 19:33:59.594
 cmsjhakgp000104lcauc3dsqx	cmsjhakg8000004lca4y2lv2i	2026-08-07 21:50:19.4
 cmslq8htc000104jr4iltfriw	cmslq8hsp000004jrxi4af35x	2026-08-09 11:36:11.546
+cmsmqz1yc000104kycqwx6r44	cmsmqz1xv000004kygloip9bw	2026-08-10 04:44:36.883
+cmsmzqg0f000104jt3c651l3g	cmsmzqfzr000004jt4954nvn3	2026-08-10 08:49:51.735
+cmsn4kixa000104l7vbrmft9z	cmsn4kiwp000004l7tf848mpg	2026-08-10 11:05:13.657
+cmsn5jloh000104l1rwulfsdk	cmsn5jlo2000004l10kqb6ich	2026-08-10 11:32:30.194
 \.
 
 
@@ -2859,6 +2879,6 @@ SELECT pg_catalog.setval('"auth"."refresh_tokens_id_seq"', 1, false);
 -- PostgreSQL database dump complete
 --
 
--- \unrestrict O8N662BhrAX35mXbe9AIqwFvmBWFRsxyqHOwor9JXeVf6BgmIN2IMytCtNDBnEa
+-- \unrestrict G94KvKhhdQtHZa6NhOtzIB2Yz8yobEMdnaaDaKgoy0a77hZfoZQ8HoHywXPGHal
 
 RESET ALL;
