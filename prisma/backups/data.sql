@@ -4,7 +4,7 @@ SET session_replication_role = replica;
 -- PostgreSQL database dump
 --
 
--- \restrict Sh7dqGY0seoEvanNeJeQ2fvvO3SFpshg0fqLkHFXIaxuZDnXT5tlV2HdH1erE7R
+-- \restrict 1RZz2TW2G1XEIyjOdWv5IijvScXwhLSpnMme6Qjib1MehgOoskuAc3YaZyjMWJr
 
 -- Dumped from database version 17.6
 -- Dumped by pg_dump version 17.6
@@ -355,6 +355,7 @@ cmsrwk8ot000004l0pbd21e3y	ramon.royt@gmail.com	$2b$12$fKxVLSPGzMum9X4jDV3aW.ya73
 cmss2c4la000004l66h82c0l2	cesaryustegil@gmail.com	$2b$12$cYkPv3q9UZ4deeBn/jpH6e9UdBIQPTSVSkQA1KTr2eKY7DduhkRrq	cesar Yuste Gil	BUYER	ca	\N	0e6dce729e9b2b719d37b7d8d7dd757cb43d5981eb6045276e6a22c22539d40a	\N	\N	f	2026-08-13 22:01:33.502	2026-08-13 22:01:33.502	\N	1970-01-05 00:00:00	\N	2026-08-13 22:01:33.457	1.0	0	f	\N	\N	\N	\N
 cmssm8wse000004jq70hkfvom	melelremei@gmail.com	$2b$12$A5txIKChYMb/5r1h0a99pOPaANTJOjB62M06yKTnKHSVwUMhhPShS	Gemma Llorens Moix	SELLER	ca	2026-08-14 07:19:31.928	\N	\N	\N	f	2026-08-14 07:18:55.742	2026-08-14 07:19:31.934	\N	1998-03-16 00:00:00	\N	2026-08-14 07:18:55.717	1.0	0	f	\N	\N	\N	\N
 cmssvk1se000004jn337zkax3	eloibatea@gmail.com	$2b$12$VRffNTeUU1KraefxL6oylu5l.9lkxovMz8D2u8hDZCwJzeAn/HEmi	Eloi Gabalda Ferre	BUYER	ca	\N	bd8d55de890814ef33a1d0e4f12443de99374fcaa8c2588a1aedadac6cd98a84	\N	\N	f	2026-08-14 11:39:31.982	2026-08-14 11:39:31.982	\N	1989-03-10 00:00:00	\N	2026-08-14 11:39:31.941	1.0	0	f	\N	\N	\N	\N
+cmsuvpr0w000004k72vdzzoc4	llamas.montse@gmail.com	$2b$12$p/uUZOgD.ke62kcpIV3epeVD6c2A5uxIekaaEI.TiB5VPFcbSWjda	Montserrat Llamas Palacio	BUYER	ca	\N	1b692964d5efdee45c8bd6eebc897f32d0b5307cbfb91064f616e44ae7af06e8	\N	\N	f	2026-08-15 21:19:30.32	2026-08-15 21:19:30.32	\N	1966-04-25 00:00:00	\N	2026-08-15 21:19:30.276	1.0	0	f	\N	\N	\N	\N
 \.
 
 
@@ -398,7 +399,7 @@ cmsjhakh9000504lcfpa38wei	cmsjhakg8000004lca4y2lv2i	OPTIMIZARTE 3.0 S.L.U.	optim
 cmsq2qfh9000504jor63lbyxz	cmsq2qfg1000004jo7010ocrx	Aplom sl	aplom-sl	No som una botiga fisica, de fet tenim una empresa de construcció, però fem plats de dutxa i lavabos de porcelanic, volia fer una tenda on line, pero al veure el teu video per tik tok vaig pensar que em seria mes facil. Ja em dius si ho veus viable.\r\nGràcias!	No som una botiga fisica, de fet tenim una empresa de construcció, però fem plats de dutxa i lavabos de porcelanic, volia fer una tenda on line, pero al veure el teu video per tik tok vaig pensar que em seria mes facil. Ja em dius si ho veus viable.\r\nGràcias!	No som una botiga fisica, de fet tenim una empresa de construcció, però fem plats de dutxa i lavabos de porcelanic, volia fer una tenda on line, pero al veure el teu video per tik tok vaig pensar que em seria mes facil. Ja em dius si ho veus viable.\r\nGràcias!	\N	Manlleu	PENDING	\N	10.00	\N	f	f	f	f	\N	2026-08-12 12:37:08.401	2026-08-12 12:37:08.401	Manlleu	ES	08560	Barcelona	Mas can purat s/n	\N	\N	\N	ES	\N	\N	ES	\N	\N	\N	\N	\N	GENERAL	644616434	\N	1	\N	\N	2026-08-12 12:37:08.377	1.1
 cmsq9vcg3000504ii72boaqr9	cmsq9vcen000004ii6z56qxvd	Nonna Margot	nonna-margot	Artesania en cera, espelmes i derivats fets amb ceres naturals.	Artesania en cera, espelmes i derivats fets amb ceres naturals.	Artesania en cera, espelmes i derivats fets amb ceres naturals.	\N	Vilobí d'Onyar	PENDING	\N	10.00	\N	f	f	f	f	\N	2026-08-12 15:56:55.055	2026-08-12 15:56:55.055	Vilobí d'Onyar	ES	17185	Girona	Carrer Tramuntana, 21, Urbanització Can Terrer	\N	\N	\N	ES	\N	\N	ES	\N	\N	\N	\N	\N	GENERAL	618124586	\N	1	\N	\N	2026-08-12 15:56:55.009	1.1
 cmsr9aow7000504jrk0h2yf4z	cmsr9aovn000004jr4rpgo9mb	DEMO CAN GERARD	demo-can-gerard	Botiga Demo Can GerardBotiga Demo Can GerardBotiga Demo Can GerardBotiga Demo Can GerardBotiga Demo Can GerardBotiga Demo Can GerardBotiga Demo Can Gerard	Botiga Demo Can GerardBotiga Demo Can GerardBotiga Demo Can GerardBotiga Demo Can GerardBotiga Demo Can GerardBotiga Demo Can GerardBotiga Demo Can Gerard	Botiga Demo Can GerardBotiga Demo Can GerardBotiga Demo Can GerardBotiga Demo Can GerardBotiga Demo Can GerardBotiga Demo Can GerardBotiga Demo Can Gerard	\N	Comarca Demo	PENDING	\N	10.00	\N	f	f	f	f	\N	2026-08-13 08:28:37.619	2026-08-13 08:28:37.619	Barcelona	ES	08001	Barcelona	Carrer Demo Can Gerard, 1	Carrrer Demo Can Gerard, 1	\N	Barcelona	ES	08001	Barcelona	ES	\N	CAN GERARD SL	\N	47920372X	\N	GENERAL	667717567	demo@cangerard.cat	1	CG-47920372X	\N	2026-08-13 08:28:37.581	1.1
-cmssm8wtj000504jqj714t0qy	cmssm8wse000004jq70hkfvom	Mel el Remei	mel-el-remei	Cuarta generació d'apicultura familiar d'Alcover, dedicada a la producció i comercialització de mel i productes apícoles. Oferim diferents varietats de mel, productes derivats de l'apicultura i experiències per descobrir el fascinant món de les abelles.	Cuarta generació d'apicultura familiar d'Alcover, dedicada a la producció i comercialització de mel i productes apícoles. Oferim diferents varietats de mel, productes derivats de l'apicultura i experiències per descobrir el fascinant món de les abelles.	Cuarta generació d'apicultura familiar d'Alcover, dedicada a la producció i comercialització de mel i productes apícoles. Oferim diferents varietats de mel, productes derivats de l'apicultura i experiències per descobrir el fascinant món de les abelles.	\N	Alcover	PENDING	\N	10.00	\N	f	f	f	f	\N	2026-08-14 07:18:55.742	2026-08-14 07:18:55.742	Alcover	ES	43460	Tarragona	C/ Bisbe Barberà, 3	C/ Pla del Bosc, 14	\N	Alcover	ES	43460	Tarragona	ES	\N	Gemma Llorens Moix	\N	39954547M	\N	GENERAL	691176434	melelremei@gmail.com	1	CG-39954547M	23-04234/CAT	2026-08-14 07:18:55.719	1.1
+cmssm8wtj000504jqj714t0qy	cmssm8wse000004jq70hkfvom	Mel el Remei	mel-el-remei	Cuarta generació d'apicultura familiar d'Alcover, dedicada a la producció i comercialització de mel i productes apícoles. Oferim diferents varietats de mel, productes derivats de l'apicultura i experiències per descobrir el fascinant món de les abelles.	Cuarta generació d'apicultura familiar d'Alcover, dedicada a la producció i comercialització de mel i productes apícoles. Oferim diferents varietats de mel, productes derivats de l'apicultura i experiències per descobrir el fascinant món de les abelles.	Cuarta generació d'apicultura familiar d'Alcover, dedicada a la producció i comercialització de mel i productes apícoles. Oferim diferents varietats de mel, productes derivats de l'apicultura i experiències per descobrir el fascinant món de les abelles.	\N	Alcover	APPROVED	\N	10.00	\N	f	f	f	f	2026-08-15 23:34:38.388	2026-08-14 07:18:55.742	2026-08-15 23:34:38.395	Alcover	ES	43460	Tarragona	C/ Bisbe Barberà, 3	C/ Pla del Bosc, 14	\N	Alcover	ES	43460	Tarragona	ES	\N	Gemma Llorens Moix	\N	39954547M	\N	GENERAL	691176434	melelremei@gmail.com	1	CG-39954547M	23-04234/CAT	2026-08-14 07:18:55.719	1.1
 \.
 
 
@@ -861,6 +862,8 @@ cmssm8wta000304jquds7ceg9	cmssm8wse000004jq70hkfvom	BUYER_TERMS	t	Accepto les co
 cmssm8wta000404jq5fiqmbsq	cmssm8wse000004jq70hkfvom	SELLER_TERMS	t	Accepto les Condicions Generals de Venedors, l'Annex I (facturació), l'Annex II (dades), l'Annex III (categories i segells) i la política de productes prohibits.	ca	139.47.124.118	2026-08-14 07:18:55.742
 cmssvk1t8000204jnre7udzhu	cmssvk1se000004jn337zkax3	PRIVACY_NOTICE	t	Accepto les condicions de compra i he llegit la política de privadesa.	ca	31.221.169.200	2026-08-14 11:39:31.982
 cmssvk1t8000304jnk0n1f261	cmssvk1se000004jn337zkax3	BUYER_TERMS	t	Accepto les condicions de compra i he llegit la política de privadesa.	ca	31.221.169.200	2026-08-14 11:39:31.982
+cmsuvpr1s000204k7bfevk2x8	cmsuvpr0w000004k72vdzzoc4	PRIVACY_NOTICE	t	Accepto les condicions de compra i he llegit la política de privadesa.	ca	81.184.186.12	2026-08-15 21:19:30.32
+cmsuvpr1s000304k78eldyuh4	cmsuvpr0w000004k72vdzzoc4	BUYER_TERMS	t	Accepto les condicions de compra i he llegit la política de privadesa.	ca	81.184.186.12	2026-08-15 21:19:30.32
 \.
 
 
@@ -1659,6 +1662,7 @@ cms6t29zf00080akoieo8iand	cmpu7a2oe0000l8t232dsj2jq	BUYER_RETURN_REQUESTED	{"ord
 cms6t9g1x000r04jvlo132b38	cmpu7a2oe0000l8t232dsj2jq	ORDER_REFUNDED	{"orderNumber": "CG-20260730-1YT5ZB"}	2026-08-01 01:35:58.833	2026-07-30 01:04:22.149	2026-07-30 01:04:22.149
 cms6t29zt00090ako8y6tco6s	cmpu7a2oe0000l8t232dsj2jq	ADMIN_RETURN_REQUESTED	{"storeName": "BOTIGA DEMO CANGERARD", "orderNumber": "CG-20260730-1YT5ZB"}	2026-08-01 01:37:25.704	\N	2026-07-30 00:58:47.705
 cms6t8u2v00050aku0y456h8a	cmpu7a2oe0000l8t232dsj2jq	ADMIN_RETURN_RECEIVED	{"storeName": "BOTIGA DEMO CANGERARD", "orderNumber": "CG-20260730-1YT5ZB"}	2026-08-01 01:37:25.704	2026-07-30 01:03:53.67	2026-07-30 01:03:53.671
+cmsuvpr32000404k7kiayd9n4	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Montserrat Llamas Palacio", "email": "llamas.montse@gmail.com"}	\N	\N	2026-08-15 21:19:30.398
 cmsfwt2hi000c04l3e16ta3e9	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_PRODUCT	{"storeName": "Clos de Basella", "productTitle": "La vinya verda de l'Empordà a cavall"}	2026-08-05 09:54:40.086	\N	2026-08-05 09:53:32.118
 cms6t30br000e04jv1dvs5qua	cmry5mq0m000004jpl932voab	SELLER_COMMISSION_CREDIT_NOTE	{"total": 12.1, "orderNumber": "CG-20260730-1YT5ZB", "invoiceNumber": "CN260020"}	\N	2026-07-30 00:59:21.831	2026-07-30 00:59:21.831
 cmspbwr4p000204lf7koob3sq	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_PRODUCT	{"storeName": "Hericamps", "productTitle": "Vi Negre \\"A tort i a dret\\" - Garnatxa Negra"}	2026-08-12 23:26:49.003	\N	2026-08-12 00:06:13.849
@@ -1673,6 +1677,7 @@ cms6t607z000r04jj2s3rh7tm	cmpu7a2oe0000l8t232dsj2jq	SELLER_SHIPMENT_DELAYED	{"da
 cms6t60cs000s04jjzetj4203	cmpu7a2oe0000l8t232dsj2jq	SELLER_SHIPMENT_DELAYED	{"days": 10, "orderNumber": "CG-20260719-RQJM3W"}	\N	2026-07-30 01:01:41.836	2026-07-30 01:01:41.836
 cms6t60hm000t04jj4bxwz3de	cmpvaoc350000yjt2w4ur6be3	SELLER_SHIPMENT_DELAYED	{"days": 10, "orderNumber": "CG-20260719-RQJM3W"}	\N	2026-07-30 01:01:42.009	2026-07-30 01:01:42.01
 cms6t7c5t00020ahsygygkzvf	cmry5mq0m000004jpl932voab	SELLER_RETURN_REQUESTED	{"orderNumber": "CG-20260730-1YT5ZB"}	\N	2026-07-30 01:02:43.786	2026-07-30 01:02:43.793
+cmsv0jjg800000akojcvr9a8x	cmssm8wse000004jq70hkfvom	SELLER_STATUS_CHANGED	{"status": "APPROVED"}	\N	2026-08-15 23:34:38.634	2026-08-15 23:34:38.648
 cms6t2vzb000a04jvp8k2hs8w	cmpu7a2oe0000l8t232dsj2jq	ORDER_REFUNDED	{"orderNumber": "CG-20260730-1YT5ZB"}	2026-08-01 01:35:58.833	2026-07-30 00:59:16.198	2026-07-30 00:59:16.199
 cms6t30is000f04jvufkoluo4	cmpu7a2oe0000l8t232dsj2jq	ORDER_REFUNDED	{"orderNumber": "CG-20260730-1YT5ZB"}	2026-08-01 01:35:58.833	2026-07-30 00:59:22.083	2026-07-30 00:59:22.084
 cms6t7cb100030ahsjkwah6e7	cmpu7a2oe0000l8t232dsj2jq	BUYER_RETURN_REQUESTED	{"orderNumber": "CG-20260730-1YT5ZB", "returnAddress": "TEST2 CANGERARD, Carrer Test 2 Cangerard, 08401 Granollers, Barcelona, ES"}	2026-08-01 01:35:58.833	2026-07-30 01:02:43.979	2026-07-30 01:02:43.981
@@ -2821,6 +2826,7 @@ cmsrwk8pd000104l0ifxakq3z	cmsrwk8ot000004l0pbd21e3y	2026-08-13 19:19:54.366
 cmss2c4lt000104l6bqpk5r20	cmss2c4la000004l66h82c0l2	2026-08-13 22:01:33.502
 cmssm8wsy000104jqtlnjgcyx	cmssm8wse000004jq70hkfvom	2026-08-14 07:18:55.742
 cmssvk1sv000104jnd6n92jf6	cmssvk1se000004jn337zkax3	2026-08-14 11:39:31.982
+cmsuvpr1b000104k716ddn14u	cmsuvpr0w000004k72vdzzoc4	2026-08-15 21:19:30.32
 \.
 
 
@@ -2953,6 +2959,6 @@ SELECT pg_catalog.setval('"auth"."refresh_tokens_id_seq"', 1, false);
 -- PostgreSQL database dump complete
 --
 
--- \unrestrict Sh7dqGY0seoEvanNeJeQ2fvvO3SFpshg0fqLkHFXIaxuZDnXT5tlV2HdH1erE7R
+-- \unrestrict 1RZz2TW2G1XEIyjOdWv5IijvScXwhLSpnMme6Qjib1MehgOoskuAc3YaZyjMWJr
 
 RESET ALL;
