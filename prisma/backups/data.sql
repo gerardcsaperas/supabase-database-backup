@@ -4,7 +4,7 @@ SET session_replication_role = replica;
 -- PostgreSQL database dump
 --
 
--- \restrict ySZDkTB84Vt9Fcdlnn1KmzXWAUJnJqzqm6mi2uT6FaSqdetNFzEbEs7df2tdHAh
+-- \restrict f5Nkfifkg7UHjDODkYIMLeG1JW4C3TeZKSxU9Kk61ddJTp5CAwcntePSSmFDTfp
 
 -- Dumped from database version 17.6
 -- Dumped by pg_dump version 17.6
@@ -358,6 +358,8 @@ cmsq2qfg1000004jo7010ocrx	aplom@aplom.es	$2b$12$jzKrR5EmQ7I8EdLEwnlRGe53izjK0FY6
 cmsvg5u2m00000ajitkq5h2zm	didac.alvarez@yahoo.com	$2b$12$AUVG1rb1e3vddg6PiAt6hOJN/RuVSwKaQZU1jXDXKocbTuwXzTYgi	Didac Alvarez Martin	BUYER	ca	2026-08-16 06:57:21.181	\N	\N	\N	f	2026-08-16 06:51:53.086	2026-08-16 06:57:21.188	\N	1969-02-17 00:00:00	\N	2026-08-16 06:51:53.054	1.0	0	f	\N	\N	\N	\N
 cmsuvpr0w000004k72vdzzoc4	llamas.montse@gmail.com	$2b$12$wsP1kWeP1HDL.WrT/b.54ObupeWiCQCQGxSdz6J4hUdVXgEe5otHq	Montserrat Llamas Palacio	BUYER	ca	2026-08-16 10:33:51.762	\N	\N	\N	f	2026-08-15 21:19:30.32	2026-08-16 10:35:25.085	\N	1966-04-25 00:00:00	\N	2026-08-15 21:19:30.276	1.0	1	f	\N	\N	\N	\N
 cmsw2a6rj000004jikemtlf5t	climahonsl@gmail.com	$2b$12$2.JkdMeG5B6nHrgF4qGHTesEro8ANehebL1.QAP24.rq4h8xBnCNG	José Luis Muñiz	BUYER	ca	\N	fdaaf49dc512834dfa7760b954aceaf34fae6a83e43d5a6c80cd804a7d6f5baf	\N	\N	f	2026-08-16 17:11:07.711	2026-08-16 17:11:07.711	\N	1979-06-26 00:00:00	\N	2026-08-16 17:11:07.678	1.0	0	f	\N	\N	\N	\N
+cmsxems80000004ihllrk03y1	robertpibernat@yahoo.es	$2b$12$ujiLc5VAPvkGStos/NNfIe4noM/ekwU/55CBDxHY9aGBYKL7p57tm	Robert Pibernat i Busquets	BUYER	ca	\N	83748e2241df2b0fade2b2d3c6d7adcdeada536b2b899962cc52dc1a2b382572	\N	\N	f	2026-08-17 15:44:36.961	2026-08-17 15:44:36.961	\N	1964-07-15 00:00:00	\N	2026-08-17 15:44:36.935	1.0	0	f	\N	\N	\N	\N
+cmsxfhvt7000004li104hhnrx	martospascual@gmail.com	$2b$12$/.Z6zRTBCDXSGO4cPZxG7uDshmYN3hNbPiWywyONf2zOWIs9sc6dG	EDUARD MARTOS PASCUAL	BUYER	ca	\N	0d7158d014bff8a948a4b59d44bf6e515b9ba7d8e15b413d09e2cb283d5cb09e	\N	\N	f	2026-08-17 16:08:47.947	2026-08-17 16:08:47.947	\N	1966-09-30 00:00:00	\N	2026-08-17 16:08:47.918	1.0	0	f	\N	\N	\N	\N
 \.
 
 
@@ -870,6 +872,10 @@ cmsvg5u3h00020ajih1tjcdli	cmsvg5u2m00000ajitkq5h2zm	PRIVACY_NOTICE	t	Accepto les
 cmsvg5u3h00030aji3lzllnek	cmsvg5u2m00000ajitkq5h2zm	BUYER_TERMS	t	Accepto les condicions de compra i he llegit la política de privadesa.	ca	31.4.186.87	2026-08-16 06:51:53.086
 cmsw2a6sv000204jiqtiev2cb	cmsw2a6rj000004jikemtlf5t	PRIVACY_NOTICE	t	Accepto les condicions de compra i he llegit la política de privadesa.	ca	88.22.143.222	2026-08-16 17:11:07.711
 cmsw2a6sv000304jin1c2s05d	cmsw2a6rj000004jikemtlf5t	BUYER_TERMS	t	Accepto les condicions de compra i he llegit la política de privadesa.	ca	88.22.143.222	2026-08-16 17:11:07.711
+cmsxems90000204ihbpp2vv52	cmsxems80000004ihllrk03y1	PRIVACY_NOTICE	t	Accepto les condicions de compra i he llegit la política de privadesa.	ca	90.170.127.45	2026-08-17 15:44:36.961
+cmsxems90000304ih3o1lgmxf	cmsxems80000004ihllrk03y1	BUYER_TERMS	t	Accepto les condicions de compra i he llegit la política de privadesa.	ca	90.170.127.45	2026-08-17 15:44:36.961
+cmsxfhvtq000204li7nj2gi5i	cmsxfhvt7000004li104hhnrx	PRIVACY_NOTICE	t	Accepto les condicions de compra i he llegit la política de privadesa.	ca	79.154.87.120	2026-08-17 16:08:47.947
+cmsxfhvtq000304licnh6qzi3	cmsxfhvt7000004li104hhnrx	BUYER_TERMS	t	Accepto les condicions de compra i he llegit la política de privadesa.	ca	79.154.87.120	2026-08-17 16:08:47.947
 \.
 
 
@@ -885,6 +891,7 @@ cms1xrj5n00000ajpgaybp116	LOGISTICS	Asif	asif@rocketdigitaltech.com	Let’s Boos
 cms9k649u000004kvui750gqe	RETURNS	Wilson	wilson.mikex@gmail.com	Free SEO Audit for cangerard.com – Opportunities to Increase Rankings & Traffic	Hello cangerard.com,\r\n\r\nI was reviewing your website and noticed a few SEO and website performance issues that may be affecting your Google rankings, organic traffic, and lead generation.\r\n\r\nI'd be happy to send you a FREE SEO Audit Report with screenshots and recommendations covering:\r\n\r\n• SEO errors and technical issues\r\n• On-page optimization opportunities\r\n• Website performance and user experience improvements\r\n• Keyword ranking opportunities\r\n• Competitor insights and growth recommendations\r\n• Pricing and implementation options\r\n\r\nThe report is easy to understand and outlines practical steps that could help improve your search engine rankings, increase website traffic, and generate more inquiries.\r\n\r\nIf you're interested, simply reply with "Send the report", and I'll prepare it for you.\r\n\r\nAlternatively, we can schedule a quick 10-minute Google Meet call to discuss the opportunities for cangerard.com.\r\n\r\nBest regards,	ca	\N	f	\N	2026-07-31 23:13:08.898
 cmsf2zgkr000004kv5ofm1rb0	SELLER_SUPPORT	Joan Jordà Grau	colchoneriajorda@gmail.com	Ser venedor	Tenim un comerç, una Matalasseria, podem vendré a travès de Can Gerard? Tenim coixins i complements de la llar. \r\nEns podriem unir?	ca	\N	f	\N	2026-08-04 19:58:41.835
 cmshfd60p000004jpmkm1xz1k	CAREERS	Carol Adell Ribas	carol2921@gmail.com	Gestió comercial, administració i compres	Bon dia Gerard.\r\nPrimer de tot felicitar-te per la teva iniciativa. \r\nEl Cert es que m'encantaria formari part, tot i que et diré que si no encaixa el meu perfil segur que seré una futura clienta.\r\n\r\nBe, jo actualment fa 10 anys que treballo en el departament comercial d'automoció i provinc d'empresa catalana i familiar ,per tant entenc força tant l'empresari com el treballador.\r\nVull fer un canvi laboral amb un nou projecte conciènt ,on pugui aportar tota la meva experiència ,aptiuds i actitut.\r\nEt deixo el meu perfil de linkedin.\r\nhttps://www.linkedin.com/in/carol-a-53a9094b\r\n\r\nQualsevol dubte serà un plaer contactar.\r\n\r\nGràcies i fins aviat.\r\nCarol	ca	\N	f	\N	2026-08-06 11:20:49.081
+cmswr2sil000004kvkloxjch6	CAREERS	Albert	albert.wetoriya@gmail.com	Google SEO Report Request cangerard.com	Hello cangerard.com,\r\n\r\nI know you probably get a lot of marketing emails, so I’ll keep this short.\r\n\r\nWith your permission, I’d like to send you a brief SEO report (with pricing) showing a few specific improvements that can help your website rank higher on Google.\r\n\r\nThe report is clear and actionable—it will show exactly what can be done to increase your visibility and attract more visitors.\r\n\r\nIf it sounds useful, may I send it over for your review?\r\nOr would you prefer a quick 10-minute Google Meet call to go through it together?\r\n\r\nBest regards,	ca	\N	f	\N	2026-08-17 04:45:13.053
 \.
 
 
@@ -1346,6 +1353,7 @@ cmsf3l968000404k05fh34loy	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Adr
 cmshfd6bo000104jp3l6hib5c	cmpu7a2oe0000l8t232dsj2jq	ADMIN_CONTACT_MESSAGE	{"body": "Bon dia Gerard.\\r\\nPrimer de tot felicitar-te per la teva iniciativa. \\r\\nEl Cert es que m'encantaria formari part, tot i que et diré que si no encaixa el meu perfil segur que seré una futura clienta.\\r\\n\\r\\nBe, jo actualment fa 10 anys que treballo en el departament comercial d'automoció i provinc d'empresa catalana i familiar ,per tant entenc força tant l'empresari com el treballador.\\r\\nVull fer un canvi laboral amb un nou projecte conciènt ,on pugui aportar tota la meva experiència ,aptiuds i actitut.\\r\\nEt deixo el meu perfil de linkedin.\\r\\nhttps://www.linkedin.com/in/carol-a-53a9094b\\r\\n\\r\\nQualsevol dubte serà un plaer contactar.\\r\\n\\r\\nGràcies i fins aviat.\\r\\nCarol", "name": "Carol Adell Ribas", "excerpt": "Bon dia Gerard.\\r\\nPrimer de tot felicitar-te per la teva iniciativa. \\r\\nEl Cert es que m'encantaria formari part, tot i que et diré que si no encaixa el meu perfil segur que seré una futura clienta.\\r\\n\\r\\nBe, jo actualment fa 10 anys que treballo en el departament comercial d'automoc…", "subject": "Gestió comercial, administració i compres", "fromEmail": "carol2921@gmail.com"}	2026-08-07 01:59:01.057	2026-08-06 11:20:49.458	2026-08-06 11:20:49.476
 cmrsiq9c2000004jpiyyu4s3k	cmpu7a31d0005l8t2bcdsydsr	SELLER_SHIPMENT_DELAYED	{"days": 48, "orderNumber": "CG-20260601-DIMMPF"}	\N	2026-07-20 01:00:44.337	2026-07-20 01:00:44.354
 cmsptenwh000404k2l4m5h3yg	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Marti Pages", "email": "mapapla@yahoo.es"}	2026-08-12 23:26:49.003	\N	2026-08-12 08:16:02.945
+cmswr2spy000104kvqfcmjhoy	cmpu7a2oe0000l8t232dsj2jq	ADMIN_CONTACT_MESSAGE	{"body": "Hello cangerard.com,\\r\\n\\r\\nI know you probably get a lot of marketing emails, so I’ll keep this short.\\r\\n\\r\\nWith your permission, I’d like to send you a brief SEO report (with pricing) showing a few specific improvements that can help your website rank higher on Google.\\r\\n\\r\\nThe report is clear and actionable—it will show exactly what can be done to increase your visibility and attract more visitors.\\r\\n\\r\\nIf it sounds useful, may I send it over for your review?\\r\\nOr would you prefer a quick 10-minute Google Meet call to go through it together?\\r\\n\\r\\nBest regards,", "name": "Albert", "excerpt": "Hello cangerard.com,\\r\\n\\r\\nI know you probably get a lot of marketing emails, so I’ll keep this short.\\r\\n\\r\\nWith your permission, I’d like to send you a brief SEO report (with pricing) showing a few specific improvements that can help your website rank higher on Google.\\r\\n\\r\\nThe report…", "subject": "Google SEO Report Request cangerard.com", "fromEmail": "albert.wetoriya@gmail.com"}	\N	2026-08-17 04:45:13.315	2026-08-17 04:45:13.318
 cmrtw3if9000004k0t37ae0d4	cmpu7a2oe0000l8t232dsj2jq	ORDER_CONFIRMED	{"orderNumber": "CG-20260721-OPCUZG"}	2026-07-27 06:49:59.311	\N	2026-07-21 00:02:43.845
 cmrrryzlb000404l2thmmovg7	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Jordi Salvadó Porqueras", "email": "jordi.salvadop@gmail.com"}	2026-08-01 01:37:25.704	\N	2026-07-19 12:31:41.999
 cmrsgccnd00000ai4d3uhnwbp	cmpu7a2oe0000l8t232dsj2jq	ADMIN_SELLER_DELETION_REQUESTED	{"email": "test@cangerard.cat", "blocked": true, "storeName": "Test"}	2026-08-01 01:37:25.704	2026-07-19 23:53:56.219	2026-07-19 23:53:56.233
@@ -1362,6 +1370,7 @@ cmsf6owmm000404jillwgymxo	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Jor
 cmrvdl4jz000004l04etfwx74	cmpu7a31d0005l8t2bcdsydsr	SELLER_SHIPMENT_DELAYED	{"days": 50, "orderNumber": "CG-20260601-DIMMPF"}	\N	2026-07-22 01:00:05.319	2026-07-22 01:00:05.329
 cmshgiqdk000404jrys9u2le8	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Lourdes Junqué Pérez", "email": "lojupe.27@gmail.com"}	2026-08-06 15:15:20.344	\N	2026-08-06 11:53:08.36
 cmspwk7dj000404k321q1jqi2	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Jesús del Rio Mateu", "email": "saltdelseco@gmail.com"}	2026-08-12 23:26:49.003	\N	2026-08-12 09:44:20.311
+cmsxemsa5000404ihxsfjf8lm	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Robert Pibernat i Busquets", "email": "robertpibernat@yahoo.es"}	\N	\N	2026-08-17 15:44:37.037
 cmrwt0zj3000004jwdw2k0ddd	cmpu7a31d0005l8t2bcdsydsr	SELLER_SHIPMENT_DELAYED	{"days": 51, "orderNumber": "CG-20260601-DIMMPF"}	\N	2026-07-23 01:00:05.72	2026-07-23 01:00:05.727
 cmry8guft000004jv7stgkuu2	cmpu7a31d0005l8t2bcdsydsr	SELLER_SHIPMENT_DELAYED	{"days": 52, "orderNumber": "CG-20260601-DIMMPF"}	\N	2026-07-24 01:00:06.034	2026-07-24 01:00:06.041
 cmrzmeom1000104lfuj31za3r	cmry5mq0m000004jpl932voab	SELLER_NEW_ORDER	{"orderNumber": "CG-20260725-97QOGS"}	\N	2026-07-25 00:18:05.976	2026-07-25 00:18:05.977
@@ -1401,6 +1410,7 @@ cms31whr300070ckx6xzcllf5	cmry5mq0m000004jpl932voab	SELLER_LABEL_READY	{"orderNu
 cms31wr7w000e0ckx86pa8geu	cmry5mq0m000004jpl932voab	SELLER_COMMISSION_INVOICE	{"total": 12.1, "orderNumber": "CG-20260727-H85ZUF", "invoiceNumber": "F260084"}	\N	2026-07-27 09:55:21.931	2026-07-27 09:55:21.932
 cms32aadm000204lat65gudt4	cmry5mq0m000004jpl932voab	SELLER_RETURN_REQUESTED	{"orderNumber": "CG-20260727-H85ZUF"}	\N	2026-07-27 10:05:53.288	2026-07-27 10:05:53.29
 cmsq2qfj3000704jobx6czdk2	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_SELLER	{"storeName": "Aplom sl"}	2026-08-12 23:26:49.003	\N	2026-08-12 12:37:08.511
+cmsxfhvuo000404li6gkrahqb	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "EDUARD MARTOS PASCUAL", "email": "martospascual@gmail.com"}	\N	\N	2026-08-17 16:08:48
 cms32cb4b00030akfmln8gaqk	cmry5mq0m000004jpl932voab	SELLER_ORDER_REFUNDED	{"orderNumber": "CG-20260727-H85ZUF"}	\N	2026-07-27 10:07:27.561	2026-07-27 10:07:27.564
 cms36cic1000104jq8ohdezr8	cmry5mq0m000004jpl932voab	SELLER_NEW_ORDER	{"orderNumber": "CG-20260727-VETEH0"}	\N	2026-07-27 11:59:35.376	2026-07-27 11:59:35.377
 cms36cj6q000304jqn0vqcye3	cmry5mq0m000004jpl932voab	SELLER_LABEL_READY	{"orderNumber": "CG-20260727-VETEH0", "trackingNumber": "SCCWF3P2KJ8B"}	\N	2026-07-27 11:59:36.481	2026-07-27 11:59:36.482
@@ -2838,6 +2848,8 @@ cmssvk1sv000104jnd6n92jf6	cmssvk1se000004jn337zkax3	2026-08-14 11:39:31.982
 cmsuvpr1b000104k716ddn14u	cmsuvpr0w000004k72vdzzoc4	2026-08-15 21:19:30.32
 cmsvg5u3200010ajitunnqn7i	cmsvg5u2m00000ajitkq5h2zm	2026-08-16 06:51:53.086
 cmsw2a6se000104jieje4t6zn	cmsw2a6rj000004jikemtlf5t	2026-08-16 17:11:07.711
+cmsxems8o000104ih7awghhb5	cmsxems80000004ihllrk03y1	2026-08-17 15:44:36.961
+cmsxfhvtk000104lilshmvkzv	cmsxfhvt7000004li104hhnrx	2026-08-17 16:08:47.947
 \.
 
 
@@ -2970,6 +2982,6 @@ SELECT pg_catalog.setval('"auth"."refresh_tokens_id_seq"', 1, false);
 -- PostgreSQL database dump complete
 --
 
--- \unrestrict ySZDkTB84Vt9Fcdlnn1KmzXWAUJnJqzqm6mi2uT6FaSqdetNFzEbEs7df2tdHAh
+-- \unrestrict f5Nkfifkg7UHjDODkYIMLeG1JW4C3TeZKSxU9Kk61ddJTp5CAwcntePSSmFDTfp
 
 RESET ALL;
