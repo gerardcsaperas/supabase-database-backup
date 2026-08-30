@@ -4,7 +4,7 @@ SET session_replication_role = replica;
 -- PostgreSQL database dump
 --
 
--- \restrict d6GIBThJUtmkaeWuVOdGgSGba1EThPGr817IbTMeKaBfHPEw0m5TuTycs2te0Ks
+-- \restrict lQrNfEegxfVskey1TzV6cZtkbjWIimQ9ttjeHBe3JS78jaeWfn7b8QfQifBhtbV
 
 -- Dumped from database version 17.6
 -- Dumped by pg_dump version 17.6
@@ -1062,6 +1062,7 @@ cmswr2sil000004kvkloxjch6	CAREERS	Albert	albert.wetoriya@gmail.com	Google SEO Re
 cmsyw93ge000004joznsvkyoa	SELLER_SUPPORT	Montserrat Many	mysistercandles@gmail.com	Ens agradaria poder vendre productes artesanals	Hola ,som dues germanes que fem artesanalment ,espelmes vegetals amb recipients fets amb pols cerámica i gots de vidre,amb tapa de fuste de bambú...\r\nEl nostre objectiu és cuidar el medi ambient amb productes naturals.\r\nEns diem Mysistercandles.	ca	cmsyw4ybz000004jmum7b9cce	f	\N	2026-08-18 16:45:37.598
 cmt2odqz600000aiafud18lzm	GENERAL	Eric Lopez Camprubi	magenta@magenta-terapies.cat	Productes per treballar part energètica i vibracional	Bon dia, escric per fer varies consultes. Som una empresa catalana i els nostres productes han estat formulats per nosaltres desde fa bastants anys. Ara mateix ens els estan fabricant una empresa catalana amb laboratori i sala blanca, tots els productes estan registrats al portal europeu. Tenim Esprays, Gels de bany, Xampus i Crema base hidratant.\r\nL'altre cosa que no em queda clar és el tema d'etiquetat ja que les nostres etiquetes son en castellà.\r\nJa ens direu si aquests tipus de productes es podrien incloure a la vostra pàgina.\r\nDeixo la nostra web per si voleu donar un cop d'ull. www.vibracioicolor.cat\r\nSalutacions.	ca	\N	f	\N	2026-08-21 08:16:22.482
 cmt5e3quk000004jlmeqr5met	OTHER	Joanna	joriggsvideo3@gmail.com	Video Promotion for your website	Hi,\r\n\r\nI was looking over cangerard.cat and wanted to reach out.\r\n\r\nWe help brands and businesses quickly tell their story through short promotional videos for websites and social media.\r\n\r\nWe keep things pretty lean — projects start from one hundred and ninety-five dollars USD, which includes the script, voice-over, and full production.\r\n\r\nHappy to send over a couple of samples if you're open to taking a look.\r\n\r\nBest,\r\nJo Riggs	ca	\N	f	\N	2026-08-23 05:51:58.124
+cmte6uek0000004jqiendn41d	CAREERS	Jake	k2za.unsworn423@passmail.com	ngerard.com	Hi do you want to acquire the domain name ngerard.com?	ca	\N	f	\N	2026-08-29 09:38:40.56
 \.
 
 
@@ -1669,6 +1670,7 @@ cmsisu9oa000404lgdmwftl7s	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Jud
 cmsqmh75t000404jw9q41s496	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Fernando Zambón", "email": "ferzambon@gmail.com"}	2026-08-12 23:26:49.003	\N	2026-08-12 21:49:50.081
 cmsyujcn2000704l6i0x1wd6g	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_SELLER	{"storeName": "Carla Andreu estètica"}	\N	\N	2026-08-18 15:57:36.83
 cmt76tzwa000704jwth4vkv8w	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_SELLER	{"storeName": "VIBRA by MAGENTA"}	\N	\N	2026-08-24 12:03:58.33
+cmte6ueqk000104jq1lt1qxqt	cmpu7a2oe0000l8t232dsj2jq	ADMIN_CONTACT_MESSAGE	{"body": "Hi do you want to acquire the domain name ngerard.com?", "name": "Jake", "excerpt": "Hi do you want to acquire the domain name ngerard.com?", "subject": "ngerard.com", "fromEmail": "k2za.unsworn423@passmail.com"}	\N	2026-08-29 09:38:40.794	2026-08-29 09:38:40.796
 cms40ahcn00080aky2wlpp07c	cmry5mq0m000004jpl932voab	SELLER_COMMISSION_CREDIT_NOTE	{"total": 12.1, "orderNumber": "CG-20260728-09VOVV", "invoiceNumber": "CN260013"}	\N	2026-07-28 01:57:49.269	2026-07-28 01:57:49.271
 cms40ahoz000a0aky7pewlgm3	cmry5mq0m000004jpl932voab	SELLER_ORDER_REFUNDED	{"orderNumber": "CG-20260728-09VOVV"}	\N	2026-07-28 01:57:49.713	2026-07-28 01:57:49.715
 cmsfhvsfc000404jrg3s1pj7d	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "guillem duran enrique", "email": "guillemduran6@gmail.com"}	2026-08-05 04:55:31.636	\N	2026-08-05 02:55:44.808
@@ -2921,6 +2923,7 @@ cmt3s569z000004l6fsiulhv9	Oli	oli	ca	14	\N	2026-08-22 02:49:27.047
 cmt90puzh000004lfsr46kztk	Secallona	secallona	ca	0	\N	2026-08-25 18:48:19.997
 cmt90q604000104lffvwspsvc	Cal forner	cal forner	ca	0	\N	2026-08-25 18:48:34.276
 cmt90q7ix000204lfy7vjzhja	Cal forner	cal forner	ca	0	\N	2026-08-25 18:48:36.249
+cmtev8tq600000ajfx4nav1yg	Ous	ous	ca	18	\N	2026-08-29 21:01:44.19
 \.
 
 
@@ -3365,6 +3368,6 @@ SELECT pg_catalog.setval('"auth"."refresh_tokens_id_seq"', 1, false);
 -- PostgreSQL database dump complete
 --
 
--- \unrestrict d6GIBThJUtmkaeWuVOdGgSGba1EThPGr817IbTMeKaBfHPEw0m5TuTycs2te0Ks
+-- \unrestrict lQrNfEegxfVskey1TzV6cZtkbjWIimQ9ttjeHBe3JS78jaeWfn7b8QfQifBhtbV
 
 RESET ALL;
