@@ -4,7 +4,7 @@ SET session_replication_role = replica;
 -- PostgreSQL database dump
 --
 
--- \restrict mxYF0BRYp4Q2MueE7RoOqZ5LbtP8gD1u8dsZMib4m3AzoJ70qWydxa8VSjNkB9F
+-- \restrict yvTUHSNx62BAOTx62E0ocNupf1zhaiKgLSr5n5d1Yjk4G4IUZvYSzKhkED9E8BV
 
 -- Dumped from database version 17.6
 -- Dumped by pg_dump version 17.6
@@ -384,6 +384,8 @@ cmtfnjzwj000004l2k1x0bhg9	vela.sheila@gmail.com	$2b$12$4ETr30Y4NFSlKtq32HTlDOKZ9
 cmtgxb6zj000004l1ijon0dg1	quitoxx@gmail.com	$2b$12$b8E0zFKmO//tdgkeiVsuce4g3g74c0McPDnb1RvXMnKaOns4OaXwm	Marc Vidal Bertossi	BUYER	ca	2026-08-31 07:35:24.257	\N	\N	\N	f	2026-08-31 07:35:06.271	2026-08-31 07:35:24.271	\N	1971-09-10 00:00:00	\N	2026-08-31 07:35:06.235	1.0	0	f	\N	\N	\N	\N
 cmtgzzwuw000004l4dnp28vpb	fauchs@hotmail.com	$2b$12$gjNnkckNt812OFb1LSWq0eL3n1J/kfPKZP5uBc1z8AmVTzSeutXmG	Juan Fauchs Fernandez	BUYER	ca	2026-08-31 08:51:04.222	\N	\N	\N	f	2026-08-31 08:50:18.776	2026-08-31 08:51:04.229	\N	1984-04-12 00:00:00	\N	2026-08-31 08:50:18.747	1.0	0	f	\N	\N	\N	\N
 cmth0zam4000004jloiqbyyln	moubpu19@gmail.com	$2b$12$O0r2hv1/DVKYAE/DpMk/RelvwpqI3KPBsvyN3H5hRc9m5DbHqos8.	Montse Ubanell	BUYER	ca	2026-08-31 13:53:40.075	\N	\N	\N	f	2026-08-31 09:17:49.564	2026-08-31 13:53:40.082	\N	1956-11-19 00:00:00	\N	2026-08-31 09:17:49.538	1.0	0	f	\N	\N	\N	\N
+cmti9qcqy000004l4cxftgtul	estany1900@gmail.com	$2b$12$Attz5nlQYiOEasUpF24AxO2Wfk4LYeFjj8vxqWy8.3UUJk69V0aPS	Neus Estany Clos	BUYER	ca	\N	6321147fe8fc82f77bc9057020ae386d4b32a8cd3326fd31626b51922b5a8785	\N	\N	f	2026-09-01 06:10:35.146	2026-09-01 06:10:35.146	\N	2000-11-09 00:00:00	\N	2026-09-01 06:10:35.112	1.0	0	f	\N	\N	\N	\N
+cmtj93us4000004ldebq4lzp8	peter.swinkels@me.com	$2b$12$evVcr.XG35iKIY7CCAqFc.9KCsCf/nNKzykN7GVyfbpbUARBKOElu	Peter Swinkels	BUYER	en	\N	a97190a5562cc0dfc8ab3595d3e7520fd2fa4174202431b786056816ec390c8c	\N	\N	f	2026-09-01 22:40:51.604	2026-09-01 22:40:51.604	\N	1956-12-28 00:00:00	\N	2026-09-01 22:40:51.577	1.0	0	f	\N	\N	\N	\N
 \.
 
 
@@ -1055,6 +1057,10 @@ cmtgzzwvx000204l43dpfhqff	cmtgzzwuw000004l4dnp28vpb	PRIVACY_NOTICE	t	Accepto les
 cmtgzzwvx000304l4a8bbog9m	cmtgzzwuw000004l4dnp28vpb	BUYER_TERMS	t	Accepto les condicions de compra i he llegit la política de privadesa.	ca	139.47.124.109	2026-08-31 08:50:18.776
 cmth0zamj000204jluhd0wz0y	cmth0zam4000004jloiqbyyln	PRIVACY_NOTICE	t	Accepto les condicions de compra i he llegit la política de privadesa.	ca	92.185.137.84	2026-08-31 09:17:49.564
 cmth0zamj000304jlcsxsagmt	cmth0zam4000004jloiqbyyln	BUYER_TERMS	t	Accepto les condicions de compra i he llegit la política de privadesa.	ca	92.185.137.84	2026-08-31 09:17:49.564
+cmti9qcsc000204l43777tsuq	cmti9qcqy000004l4cxftgtul	PRIVACY_NOTICE	t	Accepto les condicions de compra i he llegit la política de privadesa.	ca	93.176.132.235	2026-09-01 06:10:35.146
+cmti9qcsc000304l4r5kcfwiu	cmti9qcqy000004l4cxftgtul	BUYER_TERMS	t	Accepto les condicions de compra i he llegit la política de privadesa.	ca	93.176.132.235	2026-09-01 06:10:35.146
+cmtj93utd000204ldu8g3kliq	cmtj93us4000004ldebq4lzp8	PRIVACY_NOTICE	t	I accept the terms of sale and have read the privacy policy.	en	77.160.14.154	2026-09-01 22:40:51.604
+cmtj93utd000304ld56elm25b	cmtj93us4000004ldebq4lzp8	BUYER_TERMS	t	I accept the terms of sale and have read the privacy policy.	en	77.160.14.154	2026-09-01 22:40:51.604
 \.
 
 
@@ -1831,6 +1837,7 @@ cmsr9aoxi000704jrxx7il747	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_SELLER	{"storeName
 cmt1kquy0000704jrc11gla4m	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_PRODUCT	{"storeName": "ÀCre, d'Àrea Creativa", "productTitle": "TOTE bag Lona ratlles marró/blau marí/vermell"}	2026-08-31 06:10:41.643	\N	2026-08-20 13:46:49.512
 cmt7iahzg000b04l22ww5y9wt	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_PRODUCT	{"storeName": "ÀCre, d'Àrea Creativa", "productTitle": "FUNDA estoreta de ioga+ goma"}	2026-08-31 06:10:41.643	\N	2026-08-24 17:24:44.044
 cmt7iose3000d04l27x4h5u6q	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_PRODUCT	{"storeName": "ÀCre, d'Àrea Creativa", "productTitle": "Bossa UNI"}	2026-08-31 06:10:41.643	\N	2026-08-24 17:35:50.715
+cmti9qcug000404l4tluiykzd	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Neus Estany Clos", "email": "estany1900@gmail.com"}	\N	\N	2026-09-01 06:10:35.272
 cms5n0tfu000f05l7igjgf9pz	cmry5mq0m000004jpl932voab	SELLER_COMMISSION_INVOICE	{"total": 12.1, "orderNumber": "CG-20260729-1B8BSF", "invoiceNumber": "F260093"}	\N	2026-07-29 05:21:55.722	2026-07-29 05:21:55.722
 cms5ndznc000304l7baiaw98n	cmry5mq0m000004jpl932voab	SELLER_NEW_ORDER	{"orderNumber": "CG-20260729-NSSY6M"}	\N	2026-07-29 05:32:10.295	2026-07-29 05:32:10.297
 cms5ne3d0000704l7yu5isdff	cmry5mq0m000004jpl932voab	SELLER_COMMISSION_INVOICE	{"total": 12.1, "orderNumber": "CG-20260729-NSSY6M", "invoiceNumber": "F260090"}	\N	2026-07-29 05:32:15.107	2026-07-29 05:32:15.108
@@ -1840,6 +1847,7 @@ cmsrwk8r7000404l0ngng37cw	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Ram
 cmt1llsy1000604lbcg4uvyt2	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_PRODUCT	{"storeName": "ÀCre, d'Àrea Creativa", "productTitle": "TOTE bag llana bouclé"}	2026-08-31 06:10:41.643	\N	2026-08-20 14:10:53.257
 cmt7jca1e000704l26zh60t8d	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_PRODUCT	{"storeName": "ÀCre, d'Àrea Creativa", "productTitle": "Bolset MIA, pana"}	2026-08-31 06:10:41.643	\N	2026-08-24 17:54:06.674
 cmt7jp3ak000704l7oq7o26jc	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_PRODUCT	{"storeName": "ÀCre, d'Àrea Creativa", "productTitle": "Bolset MIA, llana bouclé"}	2026-08-31 06:10:41.643	\N	2026-08-24 18:04:04.46
+cmtj93uul000404ldk338pxqu	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Peter Swinkels", "email": "peter.swinkels@me.com"}	\N	\N	2026-09-01 22:40:51.693
 cms5n11fk00020aksesj64vju	cmry5mq0m000004jpl932voab	SELLER_RETURN_REQUESTED	{"orderNumber": "CG-20260729-1B8BSF"}	\N	2026-07-29 05:22:06.078	2026-07-29 05:22:06.08
 cmsfp9jre000b04laxv08d61s	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_SELLER	{"storeName": "Hericamps"}	2026-08-05 08:41:29.794	\N	2026-08-05 06:22:24.074
 cms5n2bhr000204l7am6msgdx	cmry5mq0m000004jpl932voab	SELLER_COMMISSION_CREDIT_NOTE	{"total": 12.1, "orderNumber": "CG-20260729-1B8BSF", "invoiceNumber": "CN260016"}	\N	2026-07-29 05:23:05.771	2026-07-29 05:23:05.775
@@ -3261,6 +3269,8 @@ cmtfnjzx5000104l2qhelar6v	cmtfnjzwj000004l2k1x0bhg9	2026-08-30 10:14:14.659
 cmtgxb6zz000104l1a5g0zast	cmtgxb6zj000004l1ijon0dg1	2026-08-31 07:35:06.271
 cmtgzzwvi000104l4f51gv5fy	cmtgzzwuw000004l4dnp28vpb	2026-08-31 08:50:18.776
 cmth0zame000104jltdpmc468	cmth0zam4000004jloiqbyyln	2026-08-31 09:17:49.564
+cmti9qcrs000104l42bu7b1bb	cmti9qcqy000004l4cxftgtul	2026-09-01 06:10:35.146
+cmtj93usr000104ld00y99oxh	cmtj93us4000004ldebq4lzp8	2026-09-01 22:40:51.604
 \.
 
 
@@ -3393,6 +3403,6 @@ SELECT pg_catalog.setval('"auth"."refresh_tokens_id_seq"', 1, false);
 -- PostgreSQL database dump complete
 --
 
--- \unrestrict mxYF0BRYp4Q2MueE7RoOqZ5LbtP8gD1u8dsZMib4m3AzoJ70qWydxa8VSjNkB9F
+-- \unrestrict yvTUHSNx62BAOTx62E0ocNupf1zhaiKgLSr5n5d1Yjk4G4IUZvYSzKhkED9E8BV
 
 RESET ALL;
