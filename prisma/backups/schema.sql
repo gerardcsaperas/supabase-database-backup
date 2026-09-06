@@ -53,11 +53,21 @@ CREATE EXTENSION IF NOT EXISTS "uuid-ossp" WITH SCHEMA "extensions";
 
 
 
+CREATE TYPE "public"."CancellationCause" AS ENUM (
+    'BUYER',
+    'UNSERVED'
+);
+
+
+ALTER TYPE "public"."CancellationCause" OWNER TO "postgres";
+
+
 CREATE TYPE "public"."ConsentType" AS ENUM (
     'PRIVACY_NOTICE',
     'EBOOK_IMMEDIATE_EXECUTION',
     'BUYER_TERMS',
-    'SELLER_TERMS'
+    'SELLER_TERMS',
+    'HANDOVER_RECEIVED'
 );
 
 
@@ -205,7 +215,11 @@ CREATE TYPE "public"."NotificationType" AS ENUM (
     'DSA_NOTICE_DECISION',
     'SELLER_CUSTOM_SHIPMENT',
     'BUYER_RETURN_REJECTED',
-    'SELLER_COMMISSION_CREDIT_NOTE'
+    'SELLER_COMMISSION_CREDIT_NOTE',
+    'SELLER_UNSERVED_WARNING',
+    'SELLER_SLICE_CANCELLED',
+    'SELLER_UNSERVED_FEE_INVOICE',
+    'ORDER_PREPARED'
 );
 
 
@@ -260,7 +274,8 @@ CREATE TYPE "public"."PlatformInvoiceConcept" AS ENUM (
     'COMMISSION',
     'SHIPPING',
     'COMMISSION_RECTIFY',
-    'SHIPPING_RECTIFY'
+    'SHIPPING_RECTIFY',
+    'UNSERVED_FEE'
 );
 
 
@@ -329,7 +344,9 @@ ALTER TYPE "public"."RectificationStatus" OWNER TO "postgres";
 
 CREATE TYPE "public"."RefundExecutor" AS ENUM (
     'SELLER',
-    'PLATFORM_SUBSIDIARY'
+    'PLATFORM_SUBSIDIARY',
+    'BUYER_CANCEL',
+    'UNSERVED_AUTO'
 );
 
 
@@ -403,6 +420,14 @@ CREATE TYPE "public"."SaleInvoiceType" AS ENUM (
 
 
 ALTER TYPE "public"."SaleInvoiceType" OWNER TO "postgres";
+
+
+CREATE TYPE "public"."SellerDebtKind" AS ENUM (
+    'UNSERVED_STRIPE_FEE'
+);
+
+
+ALTER TYPE "public"."SellerDebtKind" OWNER TO "postgres";
 
 
 CREATE TYPE "public"."SellerStatus" AS ENUM (
@@ -748,6 +773,27 @@ CREATE TABLE IF NOT EXISTS "public"."Payment" (
 ALTER TABLE "public"."Payment" OWNER TO "postgres";
 
 
+CREATE TABLE IF NOT EXISTS "public"."PayoutRelease" (
+    "id" "text" NOT NULL,
+    "unitKey" "text" NOT NULL,
+    "orderId" "text" NOT NULL,
+    "sellerId" "text" NOT NULL,
+    "shipmentId" "text",
+    "grossAmount" numeric(10,2) NOT NULL,
+    "debtDeducted" numeric(10,2) DEFAULT 0 NOT NULL,
+    "netAmount" numeric(10,2) NOT NULL,
+    "debtBreakdown" "jsonb",
+    "stripeTransferId" "text",
+    "releasedAt" timestamp(3) without time zone,
+    "source" "text" NOT NULL,
+    "createdAt" timestamp(3) without time zone DEFAULT CURRENT_TIMESTAMP NOT NULL,
+    "updatedAt" timestamp(3) without time zone NOT NULL
+);
+
+
+ALTER TABLE "public"."PayoutRelease" OWNER TO "postgres";
+
+
 CREATE TABLE IF NOT EXISTS "public"."PlatformInvoice" (
     "id" "text" NOT NULL,
     "concept" "public"."PlatformInvoiceConcept" NOT NULL,
@@ -952,7 +998,8 @@ CREATE TABLE IF NOT EXISTS "public"."ReturnRequest" (
     "shipmentProofAt" timestamp(3) without time zone,
     "shipmentProofUrl" "text",
     "rejectedAt" timestamp(3) without time zone,
-    "rejectionReason" "text"
+    "rejectionReason" "text",
+    "cancellationCause" "public"."CancellationCause"
 );
 
 
@@ -992,6 +1039,25 @@ CREATE TABLE IF NOT EXISTS "public"."SearchQuery" (
 
 
 ALTER TABLE "public"."SearchQuery" OWNER TO "postgres";
+
+
+CREATE TABLE IF NOT EXISTS "public"."SellerDebt" (
+    "id" "text" NOT NULL,
+    "sellerId" "text" NOT NULL,
+    "kind" "public"."SellerDebtKind" NOT NULL,
+    "amount" numeric(10,2) NOT NULL,
+    "settledAmount" numeric(10,2) DEFAULT 0 NOT NULL,
+    "settledAt" timestamp(3) without time zone,
+    "orderId" "text",
+    "shipmentId" "text",
+    "platformInvoiceId" "text",
+    "note" "text",
+    "createdAt" timestamp(3) without time zone DEFAULT CURRENT_TIMESTAMP NOT NULL,
+    "updatedAt" timestamp(3) without time zone NOT NULL
+);
+
+
+ALTER TABLE "public"."SellerDebt" OWNER TO "postgres";
 
 
 CREATE TABLE IF NOT EXISTS "public"."SellerProfile" (
@@ -1039,7 +1105,9 @@ CREATE TABLE IF NOT EXISTS "public"."SellerProfile" (
     "saleInvoiceSeriesPrefix" "text",
     "rgseaa" "text",
     "sellerTermsAcceptedAt" timestamp(3) without time zone,
-    "sellerTermsVersion" "text"
+    "sellerTermsVersion" "text",
+    "vacationFrom" timestamp(3) without time zone,
+    "vacationUntil" timestamp(3) without time zone
 );
 
 
@@ -1140,7 +1208,15 @@ CREATE TABLE IF NOT EXISTS "public"."Shipment" (
     "chargedAmount" numeric(10,2) DEFAULT 0 NOT NULL,
     "vatBreakdown" "jsonb",
     "stripeTransferId" "text",
-    "shippingRefundedAt" timestamp(3) without time zone
+    "shippingRefundedAt" timestamp(3) without time zone,
+    "shippedAt" timestamp(3) without time zone,
+    "deliveredAt" timestamp(3) without time zone,
+    "unservedWarnedAt" timestamp(3) without time zone,
+    "preparedAt" timestamp(3) without time zone,
+    "trackingUrl" "text",
+    "handoverRecipientName" "text",
+    "handoverRecipientDni" "text",
+    "handoverSignedAt" timestamp(3) without time zone
 );
 
 
@@ -1359,6 +1435,11 @@ ALTER TABLE ONLY "public"."Payment"
 
 
 
+ALTER TABLE ONLY "public"."PayoutRelease"
+    ADD CONSTRAINT "PayoutRelease_pkey" PRIMARY KEY ("id");
+
+
+
 ALTER TABLE ONLY "public"."PlatformInvoice"
     ADD CONSTRAINT "PlatformInvoice_pkey" PRIMARY KEY ("id");
 
@@ -1411,6 +1492,11 @@ ALTER TABLE ONLY "public"."Review"
 
 ALTER TABLE ONLY "public"."SearchQuery"
     ADD CONSTRAINT "SearchQuery_pkey" PRIMARY KEY ("id");
+
+
+
+ALTER TABLE ONLY "public"."SellerDebt"
+    ADD CONSTRAINT "SellerDebt_pkey" PRIMARY KEY ("id");
 
 
 
@@ -1647,6 +1733,22 @@ CREATE INDEX "Payment_status_idx" ON "public"."Payment" USING "btree" ("status")
 
 
 
+CREATE INDEX "PayoutRelease_orderId_idx" ON "public"."PayoutRelease" USING "btree" ("orderId");
+
+
+
+CREATE INDEX "PayoutRelease_releasedAt_idx" ON "public"."PayoutRelease" USING "btree" ("releasedAt");
+
+
+
+CREATE INDEX "PayoutRelease_sellerId_idx" ON "public"."PayoutRelease" USING "btree" ("sellerId");
+
+
+
+CREATE UNIQUE INDEX "PayoutRelease_unitKey_key" ON "public"."PayoutRelease" USING "btree" ("unitKey");
+
+
+
 CREATE INDEX "PlatformInvoice_concept_period_idx" ON "public"."PlatformInvoice" USING "btree" ("concept", "period");
 
 
@@ -1808,6 +1910,14 @@ CREATE INDEX "SearchQuery_queryNormalized_idx" ON "public"."SearchQuery" USING "
 
 
 CREATE INDEX "SearchQuery_resultCount_createdAt_idx" ON "public"."SearchQuery" USING "btree" ("resultCount", "createdAt");
+
+
+
+CREATE INDEX "SellerDebt_sellerId_settledAt_idx" ON "public"."SellerDebt" USING "btree" ("sellerId", "settledAt");
+
+
+
+CREATE UNIQUE INDEX "SellerDebt_shipmentId_kind_key" ON "public"."SellerDebt" USING "btree" ("shipmentId", "kind");
 
 
 
@@ -2075,6 +2185,16 @@ ALTER TABLE ONLY "public"."Payment"
 
 
 
+ALTER TABLE ONLY "public"."PayoutRelease"
+    ADD CONSTRAINT "PayoutRelease_orderId_fkey" FOREIGN KEY ("orderId") REFERENCES "public"."Order"("id") ON UPDATE CASCADE ON DELETE CASCADE;
+
+
+
+ALTER TABLE ONLY "public"."PayoutRelease"
+    ADD CONSTRAINT "PayoutRelease_sellerId_fkey" FOREIGN KEY ("sellerId") REFERENCES "public"."SellerProfile"("id") ON UPDATE CASCADE ON DELETE CASCADE;
+
+
+
 ALTER TABLE ONLY "public"."PlatformInvoice"
     ADD CONSTRAINT "PlatformInvoice_buyerId_fkey" FOREIGN KEY ("buyerId") REFERENCES "public"."User"("id") ON UPDATE CASCADE ON DELETE SET NULL;
 
@@ -2182,6 +2302,11 @@ ALTER TABLE ONLY "public"."Review"
 
 ALTER TABLE ONLY "public"."SearchQuery"
     ADD CONSTRAINT "SearchQuery_userId_fkey" FOREIGN KEY ("userId") REFERENCES "public"."User"("id") ON UPDATE CASCADE ON DELETE SET NULL;
+
+
+
+ALTER TABLE ONLY "public"."SellerDebt"
+    ADD CONSTRAINT "SellerDebt_sellerId_fkey" FOREIGN KEY ("sellerId") REFERENCES "public"."SellerProfile"("id") ON UPDATE CASCADE ON DELETE CASCADE;
 
 
 
