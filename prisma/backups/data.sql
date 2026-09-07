@@ -4,7 +4,7 @@ SET session_replication_role = replica;
 -- PostgreSQL database dump
 --
 
--- \restrict IqCbA8SyV9umhBzoB1Xjwi4BSccAVeERCKdGPU6YPsIoapqlHNRRp09k2qr7fKu
+-- \restrict nofbDIGoAF3rk2dr7Yx3ViamNjUEu087WUzSVk1MJrWJZsFRei8Kz1LVxeMw4DM
 
 -- Dumped from database version 17.6
 -- Dumped by pg_dump version 17.6
@@ -399,6 +399,9 @@ cmtmtvvbf000004l2sry7757s	coopginestar@gmail.com	$2b$12$.MVVHcWHwWRzdKfUm6jkLumq
 cmtn7rbws000004l4vr27z7jf	lfranco@tinet.cat	$2b$12$H5jaEHTqjtKqiXEg3ljwe.GMn6mNCJ9UPRBcmBYaHlkICz4QNt9Gm	leopolodo	BUYER	ca	2026-09-05 05:44:43.722	\N	\N	\N	f	2026-09-04 17:14:12.364	2026-09-05 05:44:43.729	\N	1962-02-16 00:00:00	\N	2026-09-04 17:14:12.336	1.0	0	f	\N	\N	\N	\N
 cmtnaysbo000004jtqante5gh	teresauro@hotmail.com	$2b$12$eI/AiYqUuCqxf9smzdFE1.7LitrAuIcdqsbBIlCdt1Bp/9MHpbETa	Teresa Uró Torras	BUYER	ca	2026-09-04 18:58:34.353	\N	\N	\N	f	2026-09-04 18:43:59.076	2026-09-04 18:58:34.36	\N	1961-07-14 00:00:00	\N	2026-09-04 18:43:59.05	1.0	0	f	\N	\N	\N	\N
 cmto8tc4y000004kvwtnjevd9	albertestarriola@gmail.com	$2b$12$PMnwIB1I5ityh/gRr5AT..UeeR/qwEYERJ.FqlXtustQ//JmdEw/i	Albert Estarriola Solà	BUYER	ca	2026-09-05 10:32:01.413	\N	\N	\N	f	2026-09-05 10:31:31.762	2026-09-05 10:32:01.42	\N	1987-11-26 00:00:00	\N	2026-09-05 10:31:31.736	1.0	0	f	\N	\N	\N	\N
+cmtq07ye2000004jsmg4xw77e	sanchezjuancamilo0@gmail.com	$2b$12$n/Y7ldKSsg3m6IZwAvXPFuMbDPZ8IitBW5ZKjDL3MT79TYFqfi0WO	Juan camilo sanchez murillo	BUYER	ca	2026-09-06 16:06:38.672	\N	\N	\N	f	2026-09-06 16:06:29.594	2026-09-06 16:06:38.678	\N	1993-05-24 00:00:00	\N	2026-09-06 16:06:29.568	1.0	0	f	\N	\N	\N	\N
+cmtpskp76000004i826i2hqua	jordimata@hotmail.com	$2b$12$oXxN/8NAIqLiZMFCwkTH5OIXlNZpAlqjTmInn17hm0cgYQeVD8zoK	Jörg	BUYER	ca	2026-09-06 18:26:23.273	\N	\N	\N	f	2026-09-06 12:32:27.282	2026-09-06 18:26:23.28	\N	1971-03-09 00:00:00	\N	2026-09-06 12:32:27.257	1.0	0	f	\N	\N	\N	\N
+cmtpx7wq0000004js6zx8ywvl	moreno.didac@gmail.com	$2b$12$FrxLnDu.Zftho72wxCJvI.Ni.cbh.Y6NHGUYAQMP8RaaSrArGTo4y	Didac Moreno lopez	BUYER	ca	2026-09-06 19:03:38.924	\N	\N	\N	f	2026-09-06 14:42:28.584	2026-09-06 19:03:38.931	\N	1972-10-11 00:00:00	\N	2026-09-06 14:42:28.556	1.0	0	f	\N	\N	\N	\N
 \.
 
 
@@ -1130,6 +1133,12 @@ cmtnayscp000204jte58bmha8	cmtnaysbo000004jtqante5gh	PRIVACY_NOTICE	t	Accepto les
 cmtnayscp000304jt5t4klk0z	cmtnaysbo000004jtqante5gh	BUYER_TERMS	t	Accepto les condicions de compra i he llegit la política de privadesa.	ca	45.15.139.48	2026-09-04 18:43:59.076
 cmto8tc5j000204kvqnz7puxp	cmto8tc4y000004kvwtnjevd9	PRIVACY_NOTICE	t	Accepto les condicions de compra i he llegit la política de privadesa.	ca	83.173.162.220	2026-09-05 10:31:31.762
 cmto8tc5j000304kvpcwwrr6z	cmto8tc4y000004kvwtnjevd9	BUYER_TERMS	t	Accepto les condicions de compra i he llegit la política de privadesa.	ca	83.173.162.220	2026-09-05 10:31:31.762
+cmtpskp83000204i8nx7f0el3	cmtpskp76000004i826i2hqua	PRIVACY_NOTICE	t	Accepto les condicions de compra i he llegit la política de privadesa.	ca	79.155.98.184	2026-09-06 12:32:27.282
+cmtpskp83000304i8ena7sy1w	cmtpskp76000004i826i2hqua	BUYER_TERMS	t	Accepto les condicions de compra i he llegit la política de privadesa.	ca	79.155.98.184	2026-09-06 12:32:27.282
+cmtpx7wr4000204js7o67ewoo	cmtpx7wq0000004js6zx8ywvl	PRIVACY_NOTICE	t	Accepto les condicions de compra i he llegit la política de privadesa.	ca	83.43.158.26	2026-09-06 14:42:28.584
+cmtpx7wr4000304jsi9tgcwku	cmtpx7wq0000004js6zx8ywvl	BUYER_TERMS	t	Accepto les condicions de compra i he llegit la política de privadesa.	ca	83.43.158.26	2026-09-06 14:42:28.584
+cmtq07yeu000204js482qup8z	cmtq07ye2000004jsmg4xw77e	PRIVACY_NOTICE	t	Accepto les condicions de compra i he llegit la política de privadesa.	ca	91.126.250.206	2026-09-06 16:06:29.594
+cmtq07yeu000304jst7b3bp2p	cmtq07ye2000004jsmg4xw77e	BUYER_TERMS	t	Accepto les condicions de compra i he llegit la política de privadesa.	ca	91.126.250.206	2026-09-06 16:06:29.594
 \.
 
 
@@ -2032,6 +2041,7 @@ cmt88bicb00000aj6r2ewvn8w	cmt76tztq000004jw5yct5po2	SELLER_STATUS_CHANGED	{"stat
 cmsuvpr32000404k7kiayd9n4	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Montserrat Llamas Palacio", "email": "llamas.montse@gmail.com"}	2026-08-31 06:10:41.643	\N	2026-08-15 21:19:30.398
 cmt1pjy9j000504lanjkkl8q4	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_PRODUCT	{"storeName": "ÀCre, d'Àrea Creativa", "productTitle": "TOTE bag lona cru ratlla granate"}	2026-08-31 06:10:41.643	\N	2026-08-20 16:01:25.303
 cmtkabpis000704jxik9v2hqk	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_SELLER	{"storeName": "Flamaire"}	\N	\N	2026-09-02 16:02:43.828
+cmtpskp96000404i8k1tq5th4	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Jörg", "email": "jordimata@hotmail.com"}	\N	\N	2026-09-06 12:32:27.354
 cmsfwt2hi000c04l3e16ta3e9	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_PRODUCT	{"storeName": "Clos de Basella", "productTitle": "La vinya verda de l'Empordà a cavall"}	2026-08-05 09:54:40.086	\N	2026-08-05 09:53:32.118
 cms6t30br000e04jv1dvs5qua	cmry5mq0m000004jpl932voab	SELLER_COMMISSION_CREDIT_NOTE	{"total": 12.1, "orderNumber": "CG-20260730-1YT5ZB", "invoiceNumber": "CN260020"}	\N	2026-07-30 00:59:21.831	2026-07-30 00:59:21.831
 cmspbwr4p000204lf7koob3sq	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_PRODUCT	{"storeName": "Hericamps", "productTitle": "Vi Negre \\"A tort i a dret\\" - Garnatxa Negra"}	2026-08-12 23:26:49.003	\N	2026-08-12 00:06:13.849
@@ -2059,6 +2069,7 @@ cms6t8n2w00040akurvev6oua	cmpu7a2oe0000l8t232dsj2jq	ADMIN_RETURN_REQUESTED	{"sto
 cmt8d2wr4000104jskznkw3o4	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_PRODUCT	{"storeName": "ÀCre, d'Àrea Creativa", "productTitle": "Bolset MIA, BCN"}	2026-08-31 06:10:41.643	\N	2026-08-25 07:46:38.032
 cmt8dd0jz00010ajic1bnrlg8	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_PRODUCT	{"storeName": "ÀCre, d'Àrea Creativa", "productTitle": "Bolset MIA, lona gruixuda ratlles colors"}	2026-08-31 06:10:41.643	\N	2026-08-25 07:54:29.519
 cmtkb63q2000404l54u4t6baf	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Noelia Nieto Martinez", "email": "neli00@hotmail.com"}	\N	\N	2026-09-02 16:26:21.914
+cmtpx7wsn000404jsm9hkzw3s	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Didac Moreno lopez", "email": "moreno.didac@gmail.com"}	\N	\N	2026-09-06 14:42:28.679
 cms6t7zek000l04jvevpxfm8w	cmry5mq0m000004jpl932voab	SELLER_COMMISSION_CREDIT_NOTE	{"total": 12.1, "orderNumber": "CG-20260730-1YT5ZB", "invoiceNumber": "CN260022"}	\N	2026-07-30 01:03:13.916	2026-07-30 01:03:13.916
 cmsg20wdb000404lanjcdozfv	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Pau Serra", "email": "pauserra@gmail.com"}	2026-08-05 13:09:13.804	\N	2026-08-05 12:19:35.519
 cms6t7znu000n04jv4hdmvd68	cmry5mq0m000004jpl932voab	SELLER_ORDER_REFUNDED	{"orderNumber": "CG-20260730-1YT5ZB"}	\N	2026-07-30 01:03:14.249	2026-07-30 01:03:14.25
@@ -2096,6 +2107,7 @@ cmsvg5u4q00040aji3q8hh9nq	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Did
 cmt8d6pt5000304jsxb9f7tnd	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_PRODUCT	{"storeName": "ÀCre, d'Àrea Creativa", "productTitle": "Bolset MIA, Lona Rodones colors"}	2026-08-31 06:10:41.643	\N	2026-08-25 07:49:35.657
 cmt8da51r000104jvtlen60ar	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_PRODUCT	{"storeName": "ÀCre, d'Àrea Creativa", "productTitle": "Bolset MIA, lona cru ratlla granate"}	2026-08-31 06:10:41.643	\N	2026-08-25 07:52:15.375
 cmtkbit69000404l732t1nz2z	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Ingrid Mas", "email": "ingridxybonn@gmail.com"}	\N	\N	2026-09-02 16:36:14.769
+cmtq07yg3000404jscmzr7159	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Juan camilo sanchez murillo", "email": "sanchezjuancamilo0@gmail.com"}	\N	\N	2026-09-06 16:06:29.667
 cms9p8eca00030bkhgc36rirp	cmry5mq0m000004jpl932voab	SELLER_STATUS_CHANGED	{"status": "SUSPENDED"}	\N	2026-08-01 01:34:53.338	2026-08-01 01:34:53.338
 cms9p8hqt00040bkhpq3cw470	cmry5ro4e000004la9k10alaa	SELLER_STATUS_CHANGED	{"status": "SUSPENDED"}	\N	2026-08-01 01:34:57.749	2026-08-01 01:34:57.749
 cms2vounj00030ag71pyznlqx	cmpu7a2oe0000l8t232dsj2jq	ORDER_REFUNDED	{"orderNumber": "CG-20260721-OPCUZG"}	2026-08-01 01:35:58.833	2026-07-27 07:01:15.434	2026-07-27 07:01:15.439
@@ -3074,6 +3086,7 @@ cmtgdvr42000004iip8oka9gy	Bandera	bandera	ca	0	\N	2026-08-30 22:31:13.155
 cmtlscjbz000009je18gi2jex	CAFÉ PALAU (Speciality coffee)	cafe palau (speciality coffee)	ca	0	cmta0ytv5000004jo4lot3rgr	2026-09-03 17:15:01.727
 cmtlscr4p000109jebemcl5yj	tairongo	tairongo	ca	1	cmta0ytv5000004jo4lot3rgr	2026-09-03 17:15:11.833
 cmtlscxsi000209jel5vqb2ko	tairongo	tairongo	ca	1	cmta0ytv5000004jo4lot3rgr	2026-09-03 17:15:20.466
+cmtpw7fzf000004jrtsn84rjx	Llegum	llegum	ca	0	\N	2026-09-06 14:14:07.275
 \.
 
 
@@ -3413,6 +3426,9 @@ cmtmtvvbs000104l25rb4q8en	cmtmtvvbf000004l2sry7757s	2026-09-04 10:45:49.515
 cmtn7rbxn000104l46vhntvlw	cmtn7rbws000004l4vr27z7jf	2026-09-04 17:14:12.364
 cmtnayscc000104jt77i3dlvo	cmtnaysbo000004jtqante5gh	2026-09-04 18:43:59.076
 cmto8tc59000104kvy4w6x0cl	cmto8tc4y000004kvwtnjevd9	2026-09-05 10:31:31.762
+cmtpskp7p000104i8fvh6ncip	cmtpskp76000004i826i2hqua	2026-09-06 12:32:27.282
+cmtpx7wql000104jsx2fsc8tz	cmtpx7wq0000004js6zx8ywvl	2026-09-06 14:42:28.584
+cmtq07yei000104jsqpwaloer	cmtq07ye2000004jsmg4xw77e	2026-09-06 16:06:29.594
 \.
 
 
@@ -3550,6 +3566,6 @@ SELECT pg_catalog.setval('"auth"."refresh_tokens_id_seq"', 1, false);
 -- PostgreSQL database dump complete
 --
 
--- \unrestrict IqCbA8SyV9umhBzoB1Xjwi4BSccAVeERCKdGPU6YPsIoapqlHNRRp09k2qr7fKu
+-- \unrestrict nofbDIGoAF3rk2dr7Yx3ViamNjUEu087WUzSVk1MJrWJZsFRei8Kz1LVxeMw4DM
 
 RESET ALL;
