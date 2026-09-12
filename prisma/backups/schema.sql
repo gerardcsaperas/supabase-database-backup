@@ -219,7 +219,8 @@ CREATE TYPE "public"."NotificationType" AS ENUM (
     'SELLER_UNSERVED_WARNING',
     'SELLER_SLICE_CANCELLED',
     'SELLER_UNSERVED_FEE_INVOICE',
-    'ORDER_PREPARED'
+    'ORDER_PREPARED',
+    'SELLER_STRIPE_SETUP_REQUIRED'
 );
 
 
@@ -852,10 +853,10 @@ CREATE TABLE IF NOT EXISTS "public"."Product" (
     "ratingCount" integer DEFAULT 0 NOT NULL,
     "createdAt" timestamp(3) without time zone DEFAULT CURRENT_TIMESTAMP NOT NULL,
     "updatedAt" timestamp(3) without time zone NOT NULL,
-    "heightCm" integer DEFAULT 10 NOT NULL,
-    "lengthCm" integer DEFAULT 20 NOT NULL,
+    "heightCm" double precision DEFAULT 10 NOT NULL,
+    "lengthCm" double precision DEFAULT 20 NOT NULL,
     "weightGrams" integer DEFAULT 500 NOT NULL,
-    "widthCm" integer DEFAULT 15 NOT NULL,
+    "widthCm" double precision DEFAULT 15 NOT NULL,
     "origin" "public"."ProductOrigin",
     "originVerifiedAt" timestamp(3) without time zone,
     "unlimitedStock" boolean DEFAULT false NOT NULL,
@@ -918,9 +919,9 @@ CREATE TABLE IF NOT EXISTS "public"."ProductVariant" (
     "originalPrice" numeric(10,2),
     "stock" integer DEFAULT 0 NOT NULL,
     "weightGrams" integer DEFAULT 500 NOT NULL,
-    "lengthCm" integer DEFAULT 20 NOT NULL,
-    "widthCm" integer DEFAULT 15 NOT NULL,
-    "heightCm" integer DEFAULT 10 NOT NULL,
+    "lengthCm" double precision DEFAULT 20 NOT NULL,
+    "widthCm" double precision DEFAULT 15 NOT NULL,
+    "heightCm" double precision DEFAULT 10 NOT NULL,
     "imageUrl" "text",
     "sortOrder" integer DEFAULT 0 NOT NULL,
     "createdAt" timestamp(3) without time zone DEFAULT CURRENT_TIMESTAMP NOT NULL,
@@ -1107,7 +1108,8 @@ CREATE TABLE IF NOT EXISTS "public"."SellerProfile" (
     "sellerTermsAcceptedAt" timestamp(3) without time zone,
     "sellerTermsVersion" "text",
     "vacationFrom" timestamp(3) without time zone,
-    "vacationUntil" timestamp(3) without time zone
+    "vacationUntil" timestamp(3) without time zone,
+    "ownShippingOnly" boolean DEFAULT false NOT NULL
 );
 
 
@@ -1216,7 +1218,9 @@ CREATE TABLE IF NOT EXISTS "public"."Shipment" (
     "trackingUrl" "text",
     "handoverRecipientName" "text",
     "handoverRecipientDni" "text",
-    "handoverSignedAt" timestamp(3) without time zone
+    "handoverSignedAt" timestamp(3) without time zone,
+    "servicePointId" "text",
+    "servicePointSnapshot" "jsonb"
 );
 
 
