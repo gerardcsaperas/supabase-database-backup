@@ -4,7 +4,7 @@ SET session_replication_role = replica;
 -- PostgreSQL database dump
 --
 
--- \restrict qx9Z35EGH8Y4isx7tAUCx9g5J1apxTeGDdsLCKturXaeLGdEd9Sjun3h73C4ZKn
+-- \restrict wIrPJPDev1SZaJcfF7PCeAwoJQ0JXkV111S8WEJB1bnLYDFphN7imOqCyFLHFZT
 
 -- Dumped from database version 17.6
 -- Dumped by pg_dump version 17.6
@@ -408,6 +408,7 @@ cmtttwq06000004jobkoxhya1	info@aromik.cat	$2b$12$I5eeeMVOzzJggUduJmbN7.fxhFWQjCJ
 cmtuipd7j000004iha92xkfut	tplancina@gmail.com	$2b$12$LdiWBgZggOBhydGEx6Khqej16hGOBs/zGeiKP2pbC.QtbsmNWIhvW	Toni Puig	SELLER	ca	2026-09-09 20:02:15.801	\N	\N	\N	f	2026-09-09 19:54:59.743	2026-09-09 20:02:15.805	\N	1999-09-13 00:00:00	\N	2026-09-09 19:54:59.711	1.0	0	f	\N	\N	\N	\N
 cmtu01l6f000004k0z1e0omvm	itobella@gmail.com	$2b$12$wVv.UjrqZGGVTVm/68bNJOUzUzO9i3ochNCIfezsg6qAD8WbgCB8e	isidre Tobella	BUYER	ca	2026-09-10 07:51:31.468	\N	\N	\N	f	2026-09-09 11:12:37.24	2026-09-10 07:51:31.48	\N	1969-01-09 00:00:00	\N	2026-09-09 11:12:37.207	1.0	0	f	\N	\N	\N	\N
 cmtwud4ok000004jxm9gkupi7	cdigiorgio2008@gmail.com	$2b$12$3.jPh2ztr6Tx.Pqoddmy5OBawhloWzMUSPy3qygdFOCUAF9HeKgSW	Cristiano Di Giorgio	BUYER	ca	2026-09-11 10:58:07.152	\N	\N	\N	f	2026-09-11 10:56:56.564	2026-09-11 10:58:07.159	\N	1969-04-16 00:00:00	\N	2026-09-11 10:56:56.539	1.0	0	f	\N	\N	\N	\N
+cmtxyh372000004l75jom041f	cristinamurciaroig@hotmail.com	$2b$12$XIANkJefD7qW9sgCu3En9eTmSKHL0zy85jUv0mBQcTSz8HxRpF/ZW	Cristina Murcia Roig	BUYER	ca	2026-09-12 05:42:24.043	\N	\N	\N	f	2026-09-12 05:39:45.902	2026-09-12 05:42:24.045	\N	1976-08-06 00:00:00	\N	2026-09-12 05:39:45.871	1.0	0	f	\N	\N	\N	\N
 \.
 
 
@@ -1203,6 +1204,8 @@ cmtuipd8t000304ihairsg7so	cmtuipd7j000004iha92xkfut	BUYER_TERMS	t	Accepto les co
 cmtuipd8t000404ihxnpjz8ts	cmtuipd7j000004iha92xkfut	SELLER_TERMS	t	Accepto les Condicions Generals de Venedors, l'Annex I (facturació), l'Annex II (dades), l'Annex III (categories i segells) i la política de productes prohibits.	ca	83.42.52.66	2026-09-09 19:54:59.743
 cmtwud4pa000204jxckocicdp	cmtwud4ok000004jxm9gkupi7	PRIVACY_NOTICE	t	Accepto les condicions de compra i he llegit la política de privadesa.	ca	185.246.70.233	2026-09-11 10:56:56.564
 cmtwud4pa000304jxfkixn00g	cmtwud4ok000004jxm9gkupi7	BUYER_TERMS	t	Accepto les condicions de compra i he llegit la política de privadesa.	ca	185.246.70.233	2026-09-11 10:56:56.564
+cmtxyh37t000204l7yga61tgd	cmtxyh372000004l75jom041f	PRIVACY_NOTICE	t	Accepto les condicions de compra i he llegit la política de privadesa.	ca	139.47.36.251	2026-09-12 05:39:45.902
+cmtxyh37t000304l7gwn74y94	cmtxyh372000004l75jom041f	BUYER_TERMS	t	Accepto les condicions de compra i he llegit la política de privadesa.	ca	139.47.36.251	2026-09-12 05:39:45.902
 \.
 
 
@@ -1305,14 +1308,14 @@ cmpvcikr2000byjt2xzc2tvlw	cmpvcikjr0008yjt2tf4ihh33	cmpu7a33m0007l8t2zwqbkwf7	cu
 cmqb5ndrm000404lbwq9r2ozd	cmqb5ndd5000104lbu95woi7r	cmpu7a33m0007l8t2zwqbkwf7	standard	3.95	MOCK-L8T2ZWQBKWF7	/uploads/labels/mock-cmqb5ndrm000404lbwq9r2ozd.pdf	CGMOCKL8T2ZWQBKWF7	label_created	mock-carrier	cmqb5ndd5000104lbu95woi7r-cmpu7a33m0007l8t2zwqbkwf7	2026-06-12 16:43:04.317	2026-06-12 16:42:47.794	2026-06-12 16:43:04.318	\N	\N	0.00	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N
 cmrnabigx00040ajbq65jvp4j	cmrnabifk00010ajb1yv2zys6	cmpu7a2qp0002l8t2jom93w15	standard	3.95	MOCK-L8T2JOM93W15	/uploads/labels/mock-cmrnabigx00040ajbq65jvp4j.pdf	CGMOCKL8T2JOM93W15	label_created	mock-carrier	cmrnabifk00010ajb1yv2zys6-cmpu7a2qp0002l8t2jom93w15	2026-07-16 09:06:54.452	2026-07-16 09:06:28.545	2026-07-16 09:06:54.453	\N	\N	0.00	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N
 cmrnajmx1000309jfw33wvku8	cmrnajmvw000009jftv26ajwy	cmpu7a2qp0002l8t2jom93w15	standard	3.95	MOCK-L8T2JOM93W15	/uploads/labels/mock-cmrnajmx1000309jfw33wvku8.pdf	CGMOCKL8T2JOM93W15	label_created	mock-carrier	cmrnajmvw000009jftv26ajwy-cmpu7a2qp0002l8t2jom93w15	2026-07-16 09:13:06.369	2026-07-16 09:12:47.557	2026-07-16 09:13:06.371	\N	\N	0.00	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N
-cmrq54zmv00040aknfno72txj	cmrq54zlp00000akn8bbqrrxb	cmpu7a2qp0002l8t2jom93w15	custom	0.00	\N	\N	\N	seller_fulfilled	\N	cmrq54zlp00000akn8bbqrrxb-cmpu7a2qp0002l8t2jom93w15	2026-07-18 09:05:03.994	2026-07-18 09:04:44.647	2026-07-18 09:05:03.995	Enviament Propi Test	cmrq37l5000000aki4jt0kdru	1.00	[{"base": 0.91, "rate": 10, "cuota": 0.09}]	tr_3TuUAqGkg0BRtJUg1req0ljl	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N
-cmrq54znt00050aknhu6w6qvh	cmrq54zlp00000akn8bbqrrxb	cmpvaoc650002yjt2cim935ix	standard	3.95	MOCK-YJT2CIM935IX	/uploads/labels/mock-cmrq54znt00050aknhu6w6qvh.pdf	CGMOCKYJT2CIM935IX	label_created	mock-carrier	cmrq54zlp00000akn8bbqrrxb-cmpvaoc650002yjt2cim935ix	2026-07-18 09:05:04.217	2026-07-18 09:04:44.681	2026-07-18 09:05:04.217	\N	\N	3.95	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N
+cmrq54zmv00040aknfno72txj	cmrq54zlp00000akn8bbqrrxb	cmpu7a2qp0002l8t2jom93w15	custom	0.00	\N	\N	\N	seller_fulfilled	\N	cmrq54zlp00000akn8bbqrrxb-cmpu7a2qp0002l8t2jom93w15	2026-07-18 09:05:03.994	2026-07-18 09:04:44.647	2026-09-12 03:30:30.862	Enviament Propi Test	cmrq37l5000000aki4jt0kdru	1.00	[{"base": 0.91, "rate": 10, "cuota": 0.09}]	tr_3TuUAqGkg0BRtJUg1req0ljl	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N
+cmrq54znt00050aknhu6w6qvh	cmrq54zlp00000akn8bbqrrxb	cmpvaoc650002yjt2cim935ix	standard	3.95	MOCK-YJT2CIM935IX	/uploads/labels/mock-cmrq54znt00050aknhu6w6qvh.pdf	CGMOCKYJT2CIM935IX	label_created	mock-carrier	cmrq54zlp00000akn8bbqrrxb-cmpvaoc650002yjt2cim935ix	2026-07-18 09:05:04.217	2026-07-18 09:04:44.681	2026-09-12 03:30:31.51	\N	\N	3.95	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N
 cmrrra3e600040aj8o4yxjf9c	cmrrra3cz00000aj883kqaleo	cmpvaoc650002yjt2cim935ix	standard	5.31	\N	\N	\N	pending	\N	cmrrra3cz00000aj883kqaleo-cmpvaoc650002yjt2cim935ix	\N	2026-07-19 12:12:20.527	2026-07-19 12:12:20.527	\N	\N	5.31	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N
 cmrrra3ey00050aj8jquyr8ue	cmrrra3cz00000aj883kqaleo	cmpu7a2qp0002l8t2jom93w15	standard	5.31	\N	\N	\N	pending	\N	cmrrra3cz00000aj883kqaleo-cmpu7a2qp0002l8t2jom93w15	\N	2026-07-19 12:12:20.554	2026-07-19 12:12:20.554	\N	\N	5.31	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N
 cmrq3dsyn000504jvxwk2oped	cmrq3dsxh000204jvhtmgckkq	cmpu7a2qp0002l8t2jom93w15	custom	0.00	\N	\N	\N	seller_fulfilled	\N	cmrq3dsxh000204jvhtmgckkq-cmpu7a2qp0002l8t2jom93w15	2026-07-18 08:45:52.292	2026-07-18 08:15:36.671	2026-07-18 08:45:52.293	Enviament Propi Test	cmrq37l5000000aki4jt0kdru	0.00	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N
-cmrq4jwnc00030aj4bui16ik4	cmrq4jwmm00000aj4c016o2ht	cmpu7a2qp0002l8t2jom93w15	custom	0.00	\N	\N	\N	seller_fulfilled	\N	cmrq4jwmm00000aj4c016o2ht-cmpu7a2qp0002l8t2jom93w15	2026-07-18 08:49:19.649	2026-07-18 08:48:21	2026-07-18 08:49:19.65	Enviament Propi Test	cmrq37l5000000aki4jt0kdru	1.00	[{"base": 0.91, "rate": 10, "cuota": 0.09}]	tr_3TuTuzGkg0BRtJUg1yVPKF5z	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N
-cmrrra9rn000a0aj8icll9mb1	cmrrra9qy00060aj8g5ixx863	cmpvaoc650002yjt2cim935ix	standard	5.31	687688284	https://panel.sendcloud.sc/api/v3/parcels/687688284/documents/label	SCCWF3PYG77T	label_created	sendcloud	cmrrra9qy00060aj8g5ixx863-cmpvaoc650002yjt2cim935ix	2026-07-19 12:13:00.917	2026-07-19 12:12:28.787	2026-07-19 12:13:00.918	\N	\N	5.31	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N
-cmrrra9sa000b0aj83pvtqqth	cmrrra9qy00060aj8g5ixx863	cmpu7a2qp0002l8t2jom93w15	custom	0.00	\N	\N	\N	seller_fulfilled	\N	cmrrra9qy00060aj8g5ixx863-cmpu7a2qp0002l8t2jom93w15	2026-07-19 12:13:01.116	2026-07-19 12:12:28.81	2026-07-19 12:13:01.116	Enviament Propi Test	cmrq37l5000000aki4jt0kdru	1.00	[{"base": 0.91, "rate": 10, "cuota": 0.09}]	tr_3Tuta4Gkg0BRtJUg08ETBE04	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N
+cmrq4jwnc00030aj4bui16ik4	cmrq4jwmm00000aj4c016o2ht	cmpu7a2qp0002l8t2jom93w15	custom	0.00	\N	\N	\N	seller_fulfilled	\N	cmrq4jwmm00000aj4c016o2ht-cmpu7a2qp0002l8t2jom93w15	2026-07-18 08:49:19.649	2026-07-18 08:48:21	2026-09-12 03:30:30.203	Enviament Propi Test	cmrq37l5000000aki4jt0kdru	1.00	[{"base": 0.91, "rate": 10, "cuota": 0.09}]	tr_3TuTuzGkg0BRtJUg1yVPKF5z	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N
+cmrrra9rn000a0aj8icll9mb1	cmrrra9qy00060aj8g5ixx863	cmpvaoc650002yjt2cim935ix	standard	5.31	687688284	https://panel.sendcloud.sc/api/v3/parcels/687688284/documents/label	SCCWF3PYG77T	label_created	sendcloud	cmrrra9qy00060aj8g5ixx863-cmpvaoc650002yjt2cim935ix	2026-07-19 12:13:00.917	2026-07-19 12:12:28.787	2026-09-12 03:30:32.165	\N	\N	5.31	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N
+cmrrra9sa000b0aj83pvtqqth	cmrrra9qy00060aj8g5ixx863	cmpu7a2qp0002l8t2jom93w15	custom	0.00	\N	\N	\N	seller_fulfilled	\N	cmrrra9qy00060aj8g5ixx863-cmpu7a2qp0002l8t2jom93w15	2026-07-19 12:13:01.116	2026-07-19 12:12:28.81	2026-09-12 03:30:32.823	Enviament Propi Test	cmrq37l5000000aki4jt0kdru	1.00	[{"base": 0.91, "rate": 10, "cuota": 0.09}]	tr_3Tuta4Gkg0BRtJUg08ETBE04	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N
 cmrtw2ebq000704l1lxi8f53c	cmrtw2eaq000404l1q3cqz11b	cmrshbbb9000504lfsk2yopmd	standard	5.31	688555801	https://panel.sendcloud.sc/api/v3/parcels/688555801/documents/label	SCCWF3PYM79M	label_created	sendcloud	cmrtw2eaq000404l1q3cqz11b-cmrshbbb9000504lfsk2yopmd	2026-07-21 00:02:45.177	2026-07-21 00:01:51.878	2026-07-21 00:02:45.178	\N	\N	5.31	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N
 cmrzmedtq00030ajkoe8eunz9	cmrzmedsl00000ajku6zaeo97	cmry5mq22000504jpvagvlz2y	standard	5.31	690540714	https://panel.sendcloud.sc/api/v3/parcels/690540714/documents/label	SCCWF3P2BBCF	label_created	sendcloud	cmrzmedsl00000ajku6zaeo97-cmry5mq22000504jpvagvlz2y	2026-07-25 00:18:07.204	2026-07-25 00:17:51.998	2026-07-25 00:18:07.206	\N	\N	5.31	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N
 cms31vxpx00050ckxaib3vso4	cms31vxnr00000ckxr3vi9j7h	cmry5mq22000504jpvagvlz2y	standard	5.31	691256316	https://panel.sendcloud.sc/api/v3/parcels/691256316/documents/label	SCCWF3P2DVQB	label_created	sendcloud	cms31vxnr00000ckxr3vi9j7h-cmry5mq22000504jpvagvlz2y	2026-07-27 09:55:09.676	2026-07-27 09:54:43.701	2026-07-27 09:55:09.676	\N	\N	5.31	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N
@@ -2156,6 +2159,7 @@ cmt8d2wr4000104jskznkw3o4	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_PRODUCT	{"storeNam
 cmt8dd0jz00010ajic1bnrlg8	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_PRODUCT	{"storeName": "ÀCre, d'Àrea Creativa", "productTitle": "Bolset MIA, lona gruixuda ratlles colors"}	2026-08-31 06:10:41.643	\N	2026-08-25 07:54:29.519
 cmtkb63q2000404l54u4t6baf	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Noelia Nieto Martinez", "email": "neli00@hotmail.com"}	\N	\N	2026-09-02 16:26:21.914
 cmtpx7wsn000404jsm9hkzw3s	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Didac Moreno lopez", "email": "moreno.didac@gmail.com"}	\N	\N	2026-09-06 14:42:28.679
+cmtxyh39b000404l778ndyr1a	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Cristina Murcia Roig", "email": "cristinamurciaroig@hotmail.com"}	\N	\N	2026-09-12 05:39:45.983
 cms6t7zek000l04jvevpxfm8w	cmry5mq0m000004jpl932voab	SELLER_COMMISSION_CREDIT_NOTE	{"total": 12.1, "orderNumber": "CG-20260730-1YT5ZB", "invoiceNumber": "CN260022"}	\N	2026-07-30 01:03:13.916	2026-07-30 01:03:13.916
 cmsg20wdb000404lanjcdozfv	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Pau Serra", "email": "pauserra@gmail.com"}	2026-08-05 13:09:13.804	\N	2026-08-05 12:19:35.519
 cms6t7znu000n04jv4hdmvd68	cmry5mq0m000004jpl932voab	SELLER_ORDER_REFUNDED	{"orderNumber": "CG-20260730-1YT5ZB"}	\N	2026-07-30 01:03:14.249	2026-07-30 01:03:14.25
@@ -2382,9 +2386,17 @@ cms6t7bx700000ahsjjlbbjjy	cms6syc2500020aklsu9lkjtn	cmry5mq22000504jpvagvlz2y	cm
 cms36g0ux000004jolpb3g9qv	cms36c4s000010bkrrok0bg55	cmry5mq22000504jpvagvlz2y	cmpu7a2oe0000l8t232dsj2jq	REFUNDED	\N	100.00	2026-07-27 12:02:19.353	2026-07-27 12:02:39.163	2026-07-27 12:02:57.375	2026-07-27 12:02:57.383	SELLER	\N	\N	\N	\N	\N
 cms6t8mpa00000aku30tn8k2l	cms6syc2500020aklsu9lkjtn	cmrshbbb9000504lfsk2yopmd	cmpu7a2oe0000l8t232dsj2jq	REFUNDED	\N	30.00	2026-07-30 01:03:44.111	2026-07-30 01:03:53.473	2026-07-30 01:04:17.649	2026-07-30 01:04:17.649	SELLER	\N	\N	\N	\N	\N
 cms36ss2k00000bktub2k4b8j	cms36qclh00010ajhjjm4nlxa	cmry5mq22000504jpvagvlz2y	cmpu7a2oe0000l8t232dsj2jq	REFUNDED	\N	100.00	2026-07-27 12:12:14.492	2026-07-27 12:13:09.068	2026-07-27 12:13:20.725	2026-07-27 12:13:20.736	SELLER	\N	\N	\N	\N	\N
+cmtxtut7a000004l6q1k2zbum	cmpvcikjr0008yjt2tf4ihh33	cmpu7a33m0007l8t2zwqbkwf7	cmpu7a2oe0000l8t232dsj2jq	RECEIVED	Pre-shipment cancellation: shipping deadline missed	\N	2026-09-12 03:30:28.054	2026-09-12 03:30:27.64	\N	2026-09-12 03:30:28.054	\N	\N	\N	\N	\N	UNSERVED
+cmtxtutlj000204l6lsp2oxeo	cmrnabifk00010ajb1yv2zys6	cmpu7a2qp0002l8t2jom93w15	cmpu7a2oe0000l8t232dsj2jq	RECEIVED	Pre-shipment cancellation: shipping deadline missed	\N	2026-09-12 03:30:28.567	2026-09-12 03:30:27.64	\N	2026-09-12 03:30:28.567	\N	\N	\N	\N	\N	UNSERVED
 cms3w8qss000004l29gik7vur	cms3w54ul00000aj3tok8rds4	cmry5mq22000504jpvagvlz2y	cmpu7a2oe0000l8t232dsj2jq	REFUNDED	\N	100.00	2026-07-28 00:04:29.74	2026-07-28 00:04:59.952	2026-07-28 00:05:25.732	2026-07-28 00:05:25.745	SELLER	\N	\N	\N	\N	\N
+cmtxtutyl000404l69fqlmoyh	cmrnajmvw000009jftv26ajwy	cmpu7a2qp0002l8t2jom93w15	cmpu7a2oe0000l8t232dsj2jq	RECEIVED	Pre-shipment cancellation: shipping deadline missed	\N	2026-09-12 03:30:29.038	2026-09-12 03:30:27.64	\N	2026-09-12 03:30:29.038	\N	\N	\N	\N	\N	UNSERVED
+cmtxtuuba000604l6dep7foys	cmrq3dsxh000204jvhtmgckkq	cmpu7a2qp0002l8t2jom93w15	cmpu7a2oe0000l8t232dsj2jq	RECEIVED	Pre-shipment cancellation: shipping deadline missed	\N	2026-09-12 03:30:29.494	2026-09-12 03:30:27.64	\N	2026-09-12 03:30:29.494	\N	\N	\N	\N	\N	UNSERVED
 cms3wkt6q00000akapfsa2mjx	cms3wivp300010akqf834stm9	cmry5mq22000504jpvagvlz2y	cmpu7a2oe0000l8t232dsj2jq	REFUNDED	\N	100.00	2026-07-28 00:13:52.706	2026-07-28 00:13:58.527	2026-07-28 00:14:15.907	2026-07-28 00:14:15.914	SELLER	\N	\N	\N	\N	\N
+cmtxtuuoj000804l6vktyu8le	cmrq4jwmm00000aj4c016o2ht	cmpu7a2qp0002l8t2jom93w15	cmpu7a2oe0000l8t232dsj2jq	RECEIVED	Pre-shipment cancellation: shipping deadline missed	\N	2026-09-12 03:30:29.971	2026-09-12 03:30:27.64	\N	2026-09-12 03:30:29.971	\N	\N	\N	\N	\N	UNSERVED
+cmtxtuv73000a04l651x5ssp1	cmrq54zlp00000akn8bbqrrxb	cmpu7a2qp0002l8t2jom93w15	cmpu7a2oe0000l8t232dsj2jq	RECEIVED	Pre-shipment cancellation: shipping deadline missed	\N	2026-09-12 03:30:30.639	2026-09-12 03:30:27.64	\N	2026-09-12 03:30:30.639	\N	\N	\N	\N	\N	UNSERVED
 cms400b8o000004jvmr66tqbo	cms3zx1e600040ahrj6chg20i	cmrshbbb9000504lfsk2yopmd	cmpu7a2oe0000l8t232dsj2jq	REFUNDED	\N	30.00	2026-07-28 01:49:54.792	2026-07-28 01:50:37.134	2026-07-28 01:50:53.901	2026-07-28 01:50:53.904	SELLER	\N	\N	\N	\N	\N
+cmtxtuvp7000c04l6x0uegj44	cmrq54zlp00000akn8bbqrrxb	cmpvaoc650002yjt2cim935ix	cmpu7a2oe0000l8t232dsj2jq	RECEIVED	Pre-shipment cancellation: shipping deadline missed	\N	2026-09-12 03:30:31.291	2026-09-12 03:30:27.64	\N	2026-09-12 03:30:31.291	\N	\N	\N	\N	\N	UNSERVED
+cmtxtuw7a000e04l68yfhegdf	cmrrra9qy00060aj8g5ixx863	cmpvaoc650002yjt2cim935ix	cmpu7a2oe0000l8t232dsj2jq	RECEIVED	Pre-shipment cancellation: shipping deadline missed	\N	2026-09-12 03:30:31.942	2026-09-12 03:30:27.64	\N	2026-09-12 03:30:31.942	\N	\N	\N	\N	\N	UNSERVED
 cms409scp00000akykt5d8erd	cms405f1y00010aknfupcrs6d	cmry5mq22000504jpvagvlz2y	cmpu7a2oe0000l8t232dsj2jq	REFUNDED	\N	100.00	2026-07-28 01:57:16.873	2026-07-28 01:57:32.819	2026-07-28 01:57:45.135	2026-07-28 01:57:45.137	SELLER	\N	\N	\N	\N	\N
 cms41oea7000004l4lkvx1aj4	cms41m2c300010ahyw717d3mk	cmry5mq22000504jpvagvlz2y	cmpu7a2oe0000l8t232dsj2jq	REFUNDED	\N	100.00	2026-07-28 02:36:38.095	2026-07-28 02:36:45.682	2026-07-28 02:37:00.586	2026-07-28 02:37:00.597	SELLER	\N	\N	\N	\N	\N
 cms42ifrz00070ahsy9e6gp1e	cms42harr00000ahsahdt3v4y	cmry5mq22000504jpvagvlz2y	cmpu7a2oe0000l8t232dsj2jq	REFUNDED	\N	100.00	2026-07-28 02:59:59.711	2026-07-28 03:00:10.701	2026-07-28 03:00:31.939	2026-07-28 03:00:31.943	SELLER	\N	\N	\N	\N	\N
@@ -2403,6 +2415,7 @@ cms5potm200000ai1bmqc5gq6	cms5pgrz5000a0ageq8dp9oue	cmry5mq22000504jpvagvlz2y	cm
 cms5prmw500050ai2mcq0v7cb	cms5pgrz5000a0ageq8dp9oue	cmrshbbb9000504lfsk2yopmd	cmpu7a2oe0000l8t232dsj2jq	REFUNDED	\N	30.00	2026-07-29 06:38:46.181	2026-07-29 06:39:01.367	2026-07-29 06:39:42.443	2026-07-29 06:39:42.444	SELLER	\N	\N	\N	\N	\N
 cms5prmhq00000ai2b4mpky48	cms5pgrz5000a0ageq8dp9oue	cmry5mq22000504jpvagvlz2y	cmpu7a2oe0000l8t232dsj2jq	REFUNDED	\N	100.00	2026-07-29 06:38:45.662	2026-07-29 06:38:57.243	2026-07-29 06:39:50.917	2026-07-29 06:39:50.917	SELLER	\N	\N	\N	\N	\N
 cms6svdey000004ladjimdsrh	cms6streu000004kyvb9ivpzj	cmry5mq22000504jpvagvlz2y	cmpu7a2oe0000l8t232dsj2jq	REFUNDED	\N	100.00	2026-07-30 00:53:25.546	2026-07-30 00:53:35.825	2026-07-30 00:53:54.579	2026-07-30 00:53:54.59	SELLER	\N	\N	\N	\N	\N
+cmtxtuwph000g04l6xtmoa5q4	cmrrra9qy00060aj8g5ixx863	cmpu7a2qp0002l8t2jom93w15	cmpu7a2oe0000l8t232dsj2jq	RECEIVED	Pre-shipment cancellation: shipping deadline missed	\N	2026-09-12 03:30:32.597	2026-09-12 03:30:27.64	\N	2026-09-12 03:30:32.597	\N	\N	\N	\N	\N	UNSERVED
 \.
 
 
@@ -2960,6 +2973,15 @@ cms6t29b500010ako321ca6kp	cms6t29b100000ako0sae0qpg	cms6syc2900050akl6257d8dq	1
 cms6t29on00060akol8v57e4y	cms6t29oj00050akod7s1zfdc	cms6syc2900030aklp99b6h1p	1
 cms6t7bxd00010ahsg7ess6y0	cms6t7bx700000ahsjjlbbjjy	cms6syc2900050akl6257d8dq	1
 cms6t8mpf00010akugb3bkvof	cms6t8mpa00000aku30tn8k2l	cms6syc2900040aklug52hb60	1
+cmtxtut83000104l6a9v9gohj	cmtxtut7a000004l6q1k2zbum	cmpvcikl40009yjt2au1qm4v5	10
+cmtxtutlp000304l6151gtetk	cmtxtutlj000204l6lsp2oxeo	cmrnabifr00020ajbwi3f8ir7	1
+cmtxtutyr000504l6lbi1ib5b	cmtxtutyl000404l69fqlmoyh	cmrnajmw5000109jf0qm8xjso	1
+cmtxtuube000704l62msi5v93	cmtxtuuba000604l6dep7foys	cmrq3dsxt000304jvdn144p41	1
+cmtxtuuom000904l6qarazeqq	cmtxtuuoj000804l6vktyu8le	cmrq4jwmr00010aj4r7vdub3p	1
+cmtxtuv77000b04l6fbmw8qrf	cmtxtuv73000a04l651x5ssp1	cmrq54zlx00010aknmidd1j6c	1
+cmtxtuvpb000d04l6nuash6a3	cmtxtuvp7000c04l6x0uegj44	cmrq54zlx00020akn70wq9vob	1
+cmtxtuw7e000f04l647ruqk7h	cmtxtuw7a000e04l68yfhegdf	cmrrra9r300070aj8d5l1pig8	1
+cmtxtuwpn000h04l6wdc6sx8z	cmtxtuwph000g04l6xtmoa5q4	cmrrra9r300080aj8xwaro8eb	1
 \.
 
 
@@ -3204,6 +3226,8 @@ cmtuur5dt000004jr0mrcpvqd	Roba	roba	ca	0	\N	2026-09-10 01:32:18.305
 cmtv72nvn00000agm256987t2	snacks	snacks	ca	0	cmtuipd7j000004iha92xkfut	2026-09-10 07:17:10.883
 cmtw02mvo000004kzcwz9t3z4	Espelmes	espelmes	ca	1	\N	2026-09-10 20:48:58.452
 cmtw03oft000004k0ou1k1nmi	Espelmes	espelmes	ca	1	\N	2026-09-10 20:49:47.129
+cmty8ges7000004l7vfn92s05	Motor	motor	ca	0	\N	2026-09-12 10:19:10.423
+cmty8ie32000004l4o4f8zxrj	Verdu	verdu	ca	0	\N	2026-09-12 10:20:42.83
 \.
 
 
@@ -3552,6 +3576,7 @@ cmtttwq0n000104jowvr2xj7a	cmtttwq06000004jobkoxhya1	2026-09-09 08:20:52.518
 cmtu01l6w000104k0xny3fha2	cmtu01l6f000004k0z1e0omvm	2026-09-09 11:12:37.24
 cmtuipd8d000104ih7jqlx2zy	cmtuipd7j000004iha92xkfut	2026-09-09 19:54:59.743
 cmtwud4oz000104jxl4v6tt2c	cmtwud4ok000004jxm9gkupi7	2026-09-11 10:56:56.564
+cmtxyh37i000104l7syxqnz6g	cmtxyh372000004l75jom041f	2026-09-12 05:39:45.902
 \.
 
 
@@ -3693,6 +3718,6 @@ SELECT pg_catalog.setval('"auth"."refresh_tokens_id_seq"', 1, false);
 -- PostgreSQL database dump complete
 --
 
--- \unrestrict qx9Z35EGH8Y4isx7tAUCx9g5J1apxTeGDdsLCKturXaeLGdEd9Sjun3h73C4ZKn
+-- \unrestrict wIrPJPDev1SZaJcfF7PCeAwoJQ0JXkV111S8WEJB1bnLYDFphN7imOqCyFLHFZT
 
 RESET ALL;
