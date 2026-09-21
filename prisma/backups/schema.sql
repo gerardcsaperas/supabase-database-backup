@@ -130,6 +130,15 @@ CREATE TYPE "public"."ExperienceRedemptionStatus" AS ENUM (
 ALTER TYPE "public"."ExperienceRedemptionStatus" OWNER TO "postgres";
 
 
+CREATE TYPE "public"."FreeShippingHandler" AS ENUM (
+    'SELLER',
+    'PLATFORM'
+);
+
+
+ALTER TYPE "public"."FreeShippingHandler" OWNER TO "postgres";
+
+
 CREATE TYPE "public"."FulfillmentStatus" AS ENUM (
     'UNFULFILLED',
     'SHIPPED',
@@ -220,7 +229,9 @@ CREATE TYPE "public"."NotificationType" AS ENUM (
     'SELLER_SLICE_CANCELLED',
     'SELLER_UNSERVED_FEE_INVOICE',
     'ORDER_PREPARED',
-    'SELLER_STRIPE_SETUP_REQUIRED'
+    'SELLER_STRIPE_SETUP_REQUIRED',
+    'ADMIN_SHIPMENT_PREPARED',
+    'SELLER_SHIPPING_COST_INVOICE'
 );
 
 
@@ -276,7 +287,8 @@ CREATE TYPE "public"."PlatformInvoiceConcept" AS ENUM (
     'SHIPPING',
     'COMMISSION_RECTIFY',
     'SHIPPING_RECTIFY',
-    'UNSERVED_FEE'
+    'UNSERVED_FEE',
+    'SHIPPING_RECHARGE'
 );
 
 
@@ -424,11 +436,22 @@ ALTER TYPE "public"."SaleInvoiceType" OWNER TO "postgres";
 
 
 CREATE TYPE "public"."SellerDebtKind" AS ENUM (
-    'UNSERVED_STRIPE_FEE'
+    'UNSERVED_STRIPE_FEE',
+    'FREE_SHIPPING_COST'
 );
 
 
 ALTER TYPE "public"."SellerDebtKind" OWNER TO "postgres";
+
+
+CREATE TYPE "public"."SellerShippingMethodKind" AS ENUM (
+    'OWN',
+    'COLD',
+    'FREE'
+);
+
+
+ALTER TYPE "public"."SellerShippingMethodKind" OWNER TO "postgres";
 
 
 CREATE TYPE "public"."SellerStatus" AS ENUM (
@@ -878,7 +901,9 @@ CREATE TABLE IF NOT EXISTS "public"."Product" (
     "experienceMessageEn" "text",
     "experienceMessageEs" "text",
     "experienceVoucherUrl" "text",
-    "isExperience" boolean DEFAULT false NOT NULL
+    "isExperience" boolean DEFAULT false NOT NULL,
+    "variantsShareShipping" boolean DEFAULT true NOT NULL,
+    "variantsShareNetContent" boolean DEFAULT true NOT NULL
 );
 
 
@@ -927,7 +952,8 @@ CREATE TABLE IF NOT EXISTS "public"."ProductVariant" (
     "createdAt" timestamp(3) without time zone DEFAULT CURRENT_TIMESTAMP NOT NULL,
     "updatedAt" timestamp(3) without time zone NOT NULL,
     "netContentUnit" "text",
-    "netContentValue" numeric(10,3)
+    "netContentValue" numeric(10,3),
+    "unlimitedStock" boolean DEFAULT false NOT NULL
 );
 
 
@@ -1109,7 +1135,11 @@ CREATE TABLE IF NOT EXISTS "public"."SellerProfile" (
     "sellerTermsVersion" "text",
     "vacationFrom" timestamp(3) without time zone,
     "vacationUntil" timestamp(3) without time zone,
-    "ownShippingOnly" boolean DEFAULT false NOT NULL
+    "ownShippingOnly" boolean DEFAULT false NOT NULL,
+    "shipStandardEnabled" boolean DEFAULT true NOT NULL,
+    "shipInpostEnabled" boolean DEFAULT false NOT NULL,
+    "shipCorreosEnabled" boolean DEFAULT false NOT NULL,
+    "shippingConfiguredAt" timestamp(3) without time zone
 );
 
 
@@ -1154,6 +1184,19 @@ CREATE TABLE IF NOT EXISTS "public"."SellerSaleInvoice" (
 ALTER TABLE "public"."SellerSaleInvoice" OWNER TO "postgres";
 
 
+CREATE TABLE IF NOT EXISTS "public"."SellerShippingComment" (
+    "id" "text" NOT NULL,
+    "sellerId" "text" NOT NULL,
+    "authorId" "text",
+    "authorRole" "public"."Role" NOT NULL,
+    "body" "text" NOT NULL,
+    "createdAt" timestamp(3) without time zone DEFAULT CURRENT_TIMESTAMP NOT NULL
+);
+
+
+ALTER TABLE "public"."SellerShippingComment" OWNER TO "postgres";
+
+
 CREATE TABLE IF NOT EXISTS "public"."SellerShippingMethod" (
     "id" "text" NOT NULL,
     "sellerId" "text" NOT NULL,
@@ -1173,7 +1216,9 @@ CREATE TABLE IF NOT EXISTS "public"."SellerShippingMethod" (
     "maxWidthCm" integer,
     "maxHeightCm" integer,
     "createdAt" timestamp(3) without time zone DEFAULT CURRENT_TIMESTAMP NOT NULL,
-    "updatedAt" timestamp(3) without time zone NOT NULL
+    "updatedAt" timestamp(3) without time zone NOT NULL,
+    "kind" "public"."SellerShippingMethodKind" DEFAULT 'OWN'::"public"."SellerShippingMethodKind" NOT NULL,
+    "freeHandledBy" "public"."FreeShippingHandler"
 );
 
 
@@ -1220,7 +1265,10 @@ CREATE TABLE IF NOT EXISTS "public"."Shipment" (
     "handoverRecipientDni" "text",
     "handoverSignedAt" timestamp(3) without time zone,
     "servicePointId" "text",
-    "servicePointSnapshot" "jsonb"
+    "servicePointSnapshot" "jsonb",
+    "labelPublicId" "text",
+    "handlingNote" "text",
+    "costChargedToSeller" boolean DEFAULT false NOT NULL
 );
 
 
@@ -1511,6 +1559,11 @@ ALTER TABLE ONLY "public"."SellerProfile"
 
 ALTER TABLE ONLY "public"."SellerSaleInvoice"
     ADD CONSTRAINT "SellerSaleInvoice_pkey" PRIMARY KEY ("id");
+
+
+
+ALTER TABLE ONLY "public"."SellerShippingComment"
+    ADD CONSTRAINT "SellerShippingComment_pkey" PRIMARY KEY ("id");
 
 
 
@@ -1977,6 +2030,10 @@ CREATE INDEX "SellerSaleInvoice_sellerId_status_idx" ON "public"."SellerSaleInvo
 
 
 
+CREATE INDEX "SellerShippingComment_sellerId_createdAt_idx" ON "public"."SellerShippingComment" USING "btree" ("sellerId", "createdAt");
+
+
+
 CREATE INDEX "SellerShippingMethod_sellerId_idx" ON "public"."SellerShippingMethod" USING "btree" ("sellerId");
 
 
@@ -2341,6 +2398,16 @@ ALTER TABLE ONLY "public"."SellerSaleInvoice"
 
 ALTER TABLE ONLY "public"."SellerSaleInvoice"
     ADD CONSTRAINT "SellerSaleInvoice_sellerId_fkey" FOREIGN KEY ("sellerId") REFERENCES "public"."SellerProfile"("id") ON UPDATE CASCADE ON DELETE RESTRICT;
+
+
+
+ALTER TABLE ONLY "public"."SellerShippingComment"
+    ADD CONSTRAINT "SellerShippingComment_authorId_fkey" FOREIGN KEY ("authorId") REFERENCES "public"."User"("id") ON UPDATE CASCADE ON DELETE SET NULL;
+
+
+
+ALTER TABLE ONLY "public"."SellerShippingComment"
+    ADD CONSTRAINT "SellerShippingComment_sellerId_fkey" FOREIGN KEY ("sellerId") REFERENCES "public"."SellerProfile"("id") ON UPDATE CASCADE ON DELETE CASCADE;
 
 
 
