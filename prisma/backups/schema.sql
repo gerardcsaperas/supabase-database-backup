@@ -1268,7 +1268,16 @@ CREATE TABLE IF NOT EXISTS "public"."Shipment" (
     "servicePointSnapshot" "jsonb",
     "labelPublicId" "text",
     "handlingNote" "text",
-    "costChargedToSeller" boolean DEFAULT false NOT NULL
+    "costChargedToSeller" boolean DEFAULT false NOT NULL,
+    "packlinkReference" "text",
+    "packlinkRequestedAt" timestamp(3) without time zone,
+    "packlinkServiceId" "text",
+    "packlinkQuotedPrice" numeric(10,2),
+    "packlinkLastError" "text",
+    "packlinkNotice" "text",
+    "packlinkState" "text",
+    "packlinkSyncedAt" timestamp(3) without time zone,
+    "packlinkPaidAt" timestamp(3) without time zone
 );
 
 
