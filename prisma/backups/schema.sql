@@ -172,6 +172,38 @@ CREATE TYPE "public"."InvoiceRequestStatus" AS ENUM (
 ALTER TYPE "public"."InvoiceRequestStatus" OWNER TO "postgres";
 
 
+CREATE TYPE "public"."LifetimeFreeSource" AS ENUM (
+    'LAUNCH',
+    'ADMIN'
+);
+
+
+ALTER TYPE "public"."LifetimeFreeSource" OWNER TO "postgres";
+
+
+CREATE TYPE "public"."MessageCampaignStatus" AS ENUM (
+    'DRAFT',
+    'SCHEDULED',
+    'SENDING',
+    'SENT',
+    'CANCELED',
+    'FAILED'
+);
+
+
+ALTER TYPE "public"."MessageCampaignStatus" OWNER TO "postgres";
+
+
+CREATE TYPE "public"."MessageRecipientStatus" AS ENUM (
+    'PENDING',
+    'SENT',
+    'FAILED'
+);
+
+
+ALTER TYPE "public"."MessageRecipientStatus" OWNER TO "postgres";
+
+
 CREATE TYPE "public"."ModerationMeasure" AS ENUM (
     'REMOVE_LISTING',
     'RESTRICT',
@@ -231,7 +263,14 @@ CREATE TYPE "public"."NotificationType" AS ENUM (
     'ORDER_PREPARED',
     'SELLER_STRIPE_SETUP_REQUIRED',
     'ADMIN_SHIPMENT_PREPARED',
-    'SELLER_SHIPPING_COST_INVOICE'
+    'SELLER_SHIPPING_COST_INVOICE',
+    'SELLER_SUBSCRIPTION_STARTED',
+    'SELLER_SUBSCRIPTION_TRIAL_ENDING',
+    'SELLER_SUBSCRIPTION_PAYMENT_FAILED',
+    'SELLER_SUBSCRIPTION_ENDED',
+    'SELLER_SUBSCRIPTION_INVOICE',
+    'SELLER_LIFETIME_FREE_GRANTED',
+    'SELLER_SUBSCRIPTION_REQUIRED'
 );
 
 
@@ -288,7 +327,8 @@ CREATE TYPE "public"."PlatformInvoiceConcept" AS ENUM (
     'COMMISSION_RECTIFY',
     'SHIPPING_RECTIFY',
     'UNSERVED_FEE',
-    'SHIPPING_RECHARGE'
+    'SHIPPING_RECHARGE',
+    'SUBSCRIPTION'
 );
 
 
@@ -463,6 +503,38 @@ CREATE TYPE "public"."SellerStatus" AS ENUM (
 
 
 ALTER TYPE "public"."SellerStatus" OWNER TO "postgres";
+
+
+CREATE TYPE "public"."SellerSubscriptionPlan" AS ENUM (
+    'MONTHLY',
+    'YEARLY'
+);
+
+
+ALTER TYPE "public"."SellerSubscriptionPlan" OWNER TO "postgres";
+
+
+CREATE TYPE "public"."SellerSubscriptionStatus" AS ENUM (
+    'NONE',
+    'TRIALING',
+    'ACTIVE',
+    'PAST_DUE',
+    'CANCELED',
+    'UNPAID',
+    'INCOMPLETE'
+);
+
+
+ALTER TYPE "public"."SellerSubscriptionStatus" OWNER TO "postgres";
+
+
+CREATE TYPE "public"."SubscriptionPaymentStatus" AS ENUM (
+    'PAID',
+    'FAILED'
+);
+
+
+ALTER TYPE "public"."SubscriptionPaymentStatus" OWNER TO "postgres";
 
 
 CREATE TYPE "public"."VatRegime" AS ENUM (
@@ -674,6 +746,43 @@ CREATE TABLE IF NOT EXISTS "public"."InvoiceRequest" (
 
 
 ALTER TABLE "public"."InvoiceRequest" OWNER TO "postgres";
+
+
+CREATE TABLE IF NOT EXISTS "public"."MessageCampaign" (
+    "id" "text" NOT NULL,
+    "subject" "text" NOT NULL,
+    "body" "text" NOT NULL,
+    "audience" "jsonb" NOT NULL,
+    "status" "public"."MessageCampaignStatus" DEFAULT 'DRAFT'::"public"."MessageCampaignStatus" NOT NULL,
+    "scheduledAt" timestamp(3) without time zone,
+    "startedAt" timestamp(3) without time zone,
+    "sentAt" timestamp(3) without time zone,
+    "estimatedCount" integer DEFAULT 0 NOT NULL,
+    "sentCount" integer DEFAULT 0 NOT NULL,
+    "failedCount" integer DEFAULT 0 NOT NULL,
+    "lastError" "text",
+    "createdById" "text",
+    "createdAt" timestamp(3) without time zone DEFAULT CURRENT_TIMESTAMP NOT NULL,
+    "updatedAt" timestamp(3) without time zone NOT NULL
+);
+
+
+ALTER TABLE "public"."MessageCampaign" OWNER TO "postgres";
+
+
+CREATE TABLE IF NOT EXISTS "public"."MessageCampaignRecipient" (
+    "id" "text" NOT NULL,
+    "campaignId" "text" NOT NULL,
+    "userId" "text" NOT NULL,
+    "email" "text" NOT NULL,
+    "locale" "text" DEFAULT 'ca'::"text" NOT NULL,
+    "status" "public"."MessageRecipientStatus" DEFAULT 'PENDING'::"public"."MessageRecipientStatus" NOT NULL,
+    "sentAt" timestamp(3) without time zone,
+    "error" "text"
+);
+
+
+ALTER TABLE "public"."MessageCampaignRecipient" OWNER TO "postgres";
 
 
 CREATE TABLE IF NOT EXISTS "public"."ModerationAction" (
@@ -1139,7 +1248,21 @@ CREATE TABLE IF NOT EXISTS "public"."SellerProfile" (
     "shipStandardEnabled" boolean DEFAULT true NOT NULL,
     "shipInpostEnabled" boolean DEFAULT false NOT NULL,
     "shipCorreosEnabled" boolean DEFAULT false NOT NULL,
-    "shippingConfiguredAt" timestamp(3) without time zone
+    "shippingConfiguredAt" timestamp(3) without time zone,
+    "stripeCustomerId" "text",
+    "lifetimeFree" boolean DEFAULT false NOT NULL,
+    "lifetimeFreeAt" timestamp(3) without time zone,
+    "lifetimeFreeSource" "public"."LifetimeFreeSource",
+    "subscriptionStatus" "public"."SellerSubscriptionStatus" DEFAULT 'NONE'::"public"."SellerSubscriptionStatus" NOT NULL,
+    "subscriptionPlan" "public"."SellerSubscriptionPlan",
+    "stripeSubscriptionId" "text",
+    "subscriptionPriceNet" numeric(10,2),
+    "subscriptionTrialEndsAt" timestamp(3) without time zone,
+    "subscriptionCurrentPeriodEnd" timestamp(3) without time zone,
+    "subscriptionCancelAtPeriodEnd" boolean DEFAULT false NOT NULL,
+    "subscriptionCanceledAt" timestamp(3) without time zone,
+    "subscriptionEndedAt" timestamp(3) without time zone,
+    "subscriptionTrialUsedAt" timestamp(3) without time zone
 );
 
 
@@ -1225,6 +1348,32 @@ CREATE TABLE IF NOT EXISTS "public"."SellerShippingMethod" (
 ALTER TABLE "public"."SellerShippingMethod" OWNER TO "postgres";
 
 
+CREATE TABLE IF NOT EXISTS "public"."SellerSubscriptionPayment" (
+    "id" "text" NOT NULL,
+    "sellerId" "text" NOT NULL,
+    "stripeInvoiceId" "text" NOT NULL,
+    "stripeSubscriptionId" "text",
+    "plan" "public"."SellerSubscriptionPlan",
+    "status" "public"."SubscriptionPaymentStatus" NOT NULL,
+    "amountNet" numeric(10,2) NOT NULL,
+    "amountVat" numeric(10,2) NOT NULL,
+    "amountTotal" numeric(10,2) NOT NULL,
+    "currency" "text" DEFAULT 'EUR'::"text" NOT NULL,
+    "periodStart" timestamp(3) without time zone,
+    "periodEnd" timestamp(3) without time zone,
+    "paidAt" timestamp(3) without time zone,
+    "hostedInvoiceUrl" "text",
+    "invoicePdfUrl" "text",
+    "platformInvoiceId" "text",
+    "lastError" "text",
+    "createdAt" timestamp(3) without time zone DEFAULT CURRENT_TIMESTAMP NOT NULL,
+    "updatedAt" timestamp(3) without time zone NOT NULL
+);
+
+
+ALTER TABLE "public"."SellerSubscriptionPayment" OWNER TO "postgres";
+
+
 CREATE TABLE IF NOT EXISTS "public"."Setting" (
     "key" "text" NOT NULL,
     "value" "text" NOT NULL,
@@ -1277,7 +1426,8 @@ CREATE TABLE IF NOT EXISTS "public"."Shipment" (
     "packlinkNotice" "text",
     "packlinkState" "text",
     "packlinkSyncedAt" timestamp(3) without time zone,
-    "packlinkPaidAt" timestamp(3) without time zone
+    "packlinkPaidAt" timestamp(3) without time zone,
+    "sellerCoveredAmount" numeric(10,2) DEFAULT 0 NOT NULL
 );
 
 
@@ -1466,6 +1616,16 @@ ALTER TABLE ONLY "public"."InvoiceRequest"
 
 
 
+ALTER TABLE ONLY "public"."MessageCampaignRecipient"
+    ADD CONSTRAINT "MessageCampaignRecipient_pkey" PRIMARY KEY ("id");
+
+
+
+ALTER TABLE ONLY "public"."MessageCampaign"
+    ADD CONSTRAINT "MessageCampaign_pkey" PRIMARY KEY ("id");
+
+
+
 ALTER TABLE ONLY "public"."ModerationAction"
     ADD CONSTRAINT "ModerationAction_pkey" PRIMARY KEY ("id");
 
@@ -1578,6 +1738,11 @@ ALTER TABLE ONLY "public"."SellerShippingComment"
 
 ALTER TABLE ONLY "public"."SellerShippingMethod"
     ADD CONSTRAINT "SellerShippingMethod_pkey" PRIMARY KEY ("id");
+
+
+
+ALTER TABLE ONLY "public"."SellerSubscriptionPayment"
+    ADD CONSTRAINT "SellerSubscriptionPayment_pkey" PRIMARY KEY ("id");
 
 
 
@@ -1728,6 +1893,18 @@ CREATE UNIQUE INDEX "InvoiceRequest_orderId_buyerId_key" ON "public"."InvoiceReq
 
 
 CREATE INDEX "InvoiceRequest_status_idx" ON "public"."InvoiceRequest" USING "btree" ("status");
+
+
+
+CREATE INDEX "MessageCampaignRecipient_campaignId_status_idx" ON "public"."MessageCampaignRecipient" USING "btree" ("campaignId", "status");
+
+
+
+CREATE UNIQUE INDEX "MessageCampaignRecipient_campaignId_userId_key" ON "public"."MessageCampaignRecipient" USING "btree" ("campaignId", "userId");
+
+
+
+CREATE INDEX "MessageCampaign_status_scheduledAt_idx" ON "public"."MessageCampaign" USING "btree" ("status", "scheduledAt");
 
 
 
@@ -2003,6 +2180,14 @@ CREATE UNIQUE INDEX "SellerProfile_stripeAccountId_key" ON "public"."SellerProfi
 
 
 
+CREATE UNIQUE INDEX "SellerProfile_stripeCustomerId_key" ON "public"."SellerProfile" USING "btree" ("stripeCustomerId");
+
+
+
+CREATE UNIQUE INDEX "SellerProfile_stripeSubscriptionId_key" ON "public"."SellerProfile" USING "btree" ("stripeSubscriptionId");
+
+
+
 CREATE UNIQUE INDEX "SellerProfile_userId_key" ON "public"."SellerProfile" USING "btree" ("userId");
 
 
@@ -2044,6 +2229,18 @@ CREATE INDEX "SellerShippingComment_sellerId_createdAt_idx" ON "public"."SellerS
 
 
 CREATE INDEX "SellerShippingMethod_sellerId_idx" ON "public"."SellerShippingMethod" USING "btree" ("sellerId");
+
+
+
+CREATE INDEX "SellerSubscriptionPayment_sellerId_createdAt_idx" ON "public"."SellerSubscriptionPayment" USING "btree" ("sellerId", "createdAt");
+
+
+
+CREATE INDEX "SellerSubscriptionPayment_status_idx" ON "public"."SellerSubscriptionPayment" USING "btree" ("status");
+
+
+
+CREATE UNIQUE INDEX "SellerSubscriptionPayment_stripeInvoiceId_key" ON "public"."SellerSubscriptionPayment" USING "btree" ("stripeInvoiceId");
 
 
 
@@ -2197,6 +2394,21 @@ ALTER TABLE ONLY "public"."InvoiceRequest"
 
 ALTER TABLE ONLY "public"."InvoiceRequest"
     ADD CONSTRAINT "InvoiceRequest_orderId_fkey" FOREIGN KEY ("orderId") REFERENCES "public"."Order"("id") ON UPDATE CASCADE ON DELETE CASCADE;
+
+
+
+ALTER TABLE ONLY "public"."MessageCampaignRecipient"
+    ADD CONSTRAINT "MessageCampaignRecipient_campaignId_fkey" FOREIGN KEY ("campaignId") REFERENCES "public"."MessageCampaign"("id") ON UPDATE CASCADE ON DELETE CASCADE;
+
+
+
+ALTER TABLE ONLY "public"."MessageCampaignRecipient"
+    ADD CONSTRAINT "MessageCampaignRecipient_userId_fkey" FOREIGN KEY ("userId") REFERENCES "public"."User"("id") ON UPDATE CASCADE ON DELETE CASCADE;
+
+
+
+ALTER TABLE ONLY "public"."MessageCampaign"
+    ADD CONSTRAINT "MessageCampaign_createdById_fkey" FOREIGN KEY ("createdById") REFERENCES "public"."User"("id") ON UPDATE CASCADE ON DELETE SET NULL;
 
 
 
@@ -2422,6 +2634,11 @@ ALTER TABLE ONLY "public"."SellerShippingComment"
 
 ALTER TABLE ONLY "public"."SellerShippingMethod"
     ADD CONSTRAINT "SellerShippingMethod_sellerId_fkey" FOREIGN KEY ("sellerId") REFERENCES "public"."SellerProfile"("id") ON UPDATE CASCADE ON DELETE CASCADE;
+
+
+
+ALTER TABLE ONLY "public"."SellerSubscriptionPayment"
+    ADD CONSTRAINT "SellerSubscriptionPayment_sellerId_fkey" FOREIGN KEY ("sellerId") REFERENCES "public"."SellerProfile"("id") ON UPDATE CASCADE ON DELETE CASCADE;
 
 
 
