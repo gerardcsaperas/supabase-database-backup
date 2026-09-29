@@ -1427,7 +1427,11 @@ CREATE TABLE IF NOT EXISTS "public"."Shipment" (
     "packlinkState" "text",
     "packlinkSyncedAt" timestamp(3) without time zone,
     "packlinkPaidAt" timestamp(3) without time zone,
-    "sellerCoveredAmount" numeric(10,2) DEFAULT 0 NOT NULL
+    "sellerCoveredAmount" numeric(10,2) DEFAULT 0 NOT NULL,
+    "parcelWeightGrams" integer,
+    "parcelLengthCm" double precision,
+    "parcelWidthCm" double precision,
+    "parcelHeightCm" double precision
 );
 
 
