@@ -67,7 +67,8 @@ CREATE TYPE "public"."ConsentType" AS ENUM (
     'EBOOK_IMMEDIATE_EXECUTION',
     'BUYER_TERMS',
     'SELLER_TERMS',
-    'HANDOVER_RECEIVED'
+    'HANDOVER_RECEIVED',
+    'TRADER_SELF_CERTIFICATION'
 );
 
 
@@ -270,7 +271,14 @@ CREATE TYPE "public"."NotificationType" AS ENUM (
     'SELLER_SUBSCRIPTION_ENDED',
     'SELLER_SUBSCRIPTION_INVOICE',
     'SELLER_LIFETIME_FREE_GRANTED',
-    'SELLER_SUBSCRIPTION_REQUIRED'
+    'SELLER_SUBSCRIPTION_REQUIRED',
+    'SELLER_PENDING_SHIPMENTS',
+    'SELLER_OUT_OF_STOCK_REMINDER',
+    'ADMIN_SHIPPING_COMMENT',
+    'ADMIN_PAYMENT_DISPUTE',
+    'ADMIN_FRAUD_WARNING',
+    'SELLER_PAYMENT_DISPUTE',
+    'ADMIN_PAYOUT_RELEASE_FAILED'
 );
 
 
@@ -287,6 +295,15 @@ CREATE TYPE "public"."OrderStatus" AS ENUM (
 
 
 ALTER TYPE "public"."OrderStatus" OWNER TO "postgres";
+
+
+CREATE TYPE "public"."PaymentDisputeKind" AS ENUM (
+    'DISPUTE',
+    'FRAUD_WARNING'
+);
+
+
+ALTER TYPE "public"."PaymentDisputeKind" OWNER TO "postgres";
 
 
 CREATE TYPE "public"."PaymentMethodType" AS ENUM (
@@ -477,7 +494,8 @@ ALTER TYPE "public"."SaleInvoiceType" OWNER TO "postgres";
 
 CREATE TYPE "public"."SellerDebtKind" AS ENUM (
     'UNSERVED_STRIPE_FEE',
-    'FREE_SHIPPING_COST'
+    'FREE_SHIPPING_COST',
+    'CHARGEBACK'
 );
 
 
@@ -906,6 +924,29 @@ CREATE TABLE IF NOT EXISTS "public"."Payment" (
 ALTER TABLE "public"."Payment" OWNER TO "postgres";
 
 
+CREATE TABLE IF NOT EXISTS "public"."PaymentDispute" (
+    "id" "text" NOT NULL,
+    "kind" "public"."PaymentDisputeKind" NOT NULL,
+    "stripeObjectId" "text" NOT NULL,
+    "orderId" "text",
+    "stripeChargeId" "text",
+    "stripePaymentIntentId" "text",
+    "amount" numeric(10,2) NOT NULL,
+    "currency" "text" DEFAULT 'EUR'::"text" NOT NULL,
+    "reason" "text" NOT NULL,
+    "status" "text" NOT NULL,
+    "evidenceDueBy" timestamp(3) without time zone,
+    "closedAt" timestamp(3) without time zone,
+    "closedByUserId" "text",
+    "lossBooked" numeric(10,2),
+    "createdAt" timestamp(3) without time zone DEFAULT CURRENT_TIMESTAMP NOT NULL,
+    "updatedAt" timestamp(3) without time zone NOT NULL
+);
+
+
+ALTER TABLE "public"."PaymentDispute" OWNER TO "postgres";
+
+
 CREATE TABLE IF NOT EXISTS "public"."PayoutRelease" (
     "id" "text" NOT NULL,
     "unitKey" "text" NOT NULL,
@@ -1262,7 +1303,9 @@ CREATE TABLE IF NOT EXISTS "public"."SellerProfile" (
     "subscriptionCancelAtPeriodEnd" boolean DEFAULT false NOT NULL,
     "subscriptionCanceledAt" timestamp(3) without time zone,
     "subscriptionEndedAt" timestamp(3) without time zone,
-    "subscriptionTrialUsedAt" timestamp(3) without time zone
+    "subscriptionTrialUsedAt" timestamp(3) without time zone,
+    "traderCertificationVersion" "text",
+    "traderCertifiedAt" timestamp(3) without time zone
 );
 
 
@@ -1655,6 +1698,11 @@ ALTER TABLE ONLY "public"."Order"
 
 
 
+ALTER TABLE ONLY "public"."PaymentDispute"
+    ADD CONSTRAINT "PaymentDispute_pkey" PRIMARY KEY ("id");
+
+
+
 ALTER TABLE ONLY "public"."Payment"
     ADD CONSTRAINT "Payment_pkey" PRIMARY KEY ("id");
 
@@ -1969,6 +2017,22 @@ CREATE UNIQUE INDEX "Order_orderNumber_key" ON "public"."Order" USING "btree" ("
 
 
 CREATE INDEX "Order_status_idx" ON "public"."Order" USING "btree" ("status");
+
+
+
+CREATE INDEX "PaymentDispute_closedAt_idx" ON "public"."PaymentDispute" USING "btree" ("closedAt");
+
+
+
+CREATE INDEX "PaymentDispute_orderId_closedAt_idx" ON "public"."PaymentDispute" USING "btree" ("orderId", "closedAt");
+
+
+
+CREATE INDEX "PaymentDispute_stripeChargeId_idx" ON "public"."PaymentDispute" USING "btree" ("stripeChargeId");
+
+
+
+CREATE UNIQUE INDEX "PaymentDispute_stripeObjectId_key" ON "public"."PaymentDispute" USING "btree" ("stripeObjectId");
 
 
 
@@ -2463,6 +2527,11 @@ ALTER TABLE ONLY "public"."OrderItem"
 
 ALTER TABLE ONLY "public"."Order"
     ADD CONSTRAINT "Order_buyerId_fkey" FOREIGN KEY ("buyerId") REFERENCES "public"."User"("id") ON UPDATE CASCADE ON DELETE RESTRICT;
+
+
+
+ALTER TABLE ONLY "public"."PaymentDispute"
+    ADD CONSTRAINT "PaymentDispute_orderId_fkey" FOREIGN KEY ("orderId") REFERENCES "public"."Order"("id") ON UPDATE CASCADE ON DELETE SET NULL;
 
 
 
