@@ -278,7 +278,8 @@ CREATE TYPE "public"."NotificationType" AS ENUM (
     'ADMIN_PAYMENT_DISPUTE',
     'ADMIN_FRAUD_WARNING',
     'SELLER_PAYMENT_DISPUTE',
-    'ADMIN_PAYOUT_RELEASE_FAILED'
+    'ADMIN_PAYOUT_RELEASE_FAILED',
+    'BUYER_REVIEW_REQUEST'
 );
 
 
@@ -640,11 +641,31 @@ CREATE TABLE IF NOT EXISTS "public"."Category" (
     "sendcloudEnabled" boolean DEFAULT true NOT NULL,
     "ageRestricted" boolean DEFAULT false NOT NULL,
     "withdrawalExcludedDefault" boolean DEFAULT false NOT NULL,
-    "isExperience" boolean DEFAULT false NOT NULL
+    "isExperience" boolean DEFAULT false NOT NULL,
+    "introCa" "text",
+    "introEn" "text",
+    "introEs" "text",
+    "metaDescriptionCa" "text",
+    "metaDescriptionEn" "text",
+    "metaDescriptionEs" "text",
+    "metaTitleCa" "text",
+    "metaTitleEn" "text",
+    "metaTitleEs" "text"
 );
 
 
 ALTER TABLE "public"."Category" OWNER TO "postgres";
+
+
+CREATE TABLE IF NOT EXISTS "public"."CategorySlugHistory" (
+    "id" "text" NOT NULL,
+    "slug" "text" NOT NULL,
+    "categoryId" "text" NOT NULL,
+    "createdAt" timestamp(3) without time zone DEFAULT CURRENT_TIMESTAMP NOT NULL
+);
+
+
+ALTER TABLE "public"."CategorySlugHistory" OWNER TO "postgres";
 
 
 CREATE TABLE IF NOT EXISTS "public"."ConsentRecord" (
@@ -897,7 +918,8 @@ CREATE TABLE IF NOT EXISTS "public"."OrderItem" (
     "baseAmount" numeric(10,2) DEFAULT 0 NOT NULL,
     "vatAmount" numeric(10,2) DEFAULT 0 NOT NULL,
     "vatRate" numeric(5,2) DEFAULT 21 NOT NULL,
-    "refundedEarnings" numeric(10,2) DEFAULT 0 NOT NULL
+    "refundedEarnings" numeric(10,2) DEFAULT 0 NOT NULL,
+    "reviewRequestedAt" timestamp(3) without time zone
 );
 
 
@@ -1623,6 +1645,11 @@ ALTER TABLE ONLY "public"."CartItem"
 
 
 
+ALTER TABLE ONLY "public"."CategorySlugHistory"
+    ADD CONSTRAINT "CategorySlugHistory_pkey" PRIMARY KEY ("id");
+
+
+
 ALTER TABLE ONLY "public"."Category"
     ADD CONSTRAINT "Category_pkey" PRIMARY KEY ("id");
 
@@ -1865,6 +1892,14 @@ CREATE INDEX "CartItem_userId_idx" ON "public"."CartItem" USING "btree" ("userId
 
 
 CREATE INDEX "CartItem_variantId_idx" ON "public"."CartItem" USING "btree" ("variantId");
+
+
+
+CREATE INDEX "CategorySlugHistory_categoryId_idx" ON "public"."CategorySlugHistory" USING "btree" ("categoryId");
+
+
+
+CREATE UNIQUE INDEX "CategorySlugHistory_slug_key" ON "public"."CategorySlugHistory" USING "btree" ("slug");
 
 
 
@@ -2402,6 +2437,11 @@ ALTER TABLE ONLY "public"."CartItem"
 
 ALTER TABLE ONLY "public"."CartItem"
     ADD CONSTRAINT "CartItem_variantId_fkey" FOREIGN KEY ("variantId") REFERENCES "public"."ProductVariant"("id") ON UPDATE CASCADE ON DELETE CASCADE;
+
+
+
+ALTER TABLE ONLY "public"."CategorySlugHistory"
+    ADD CONSTRAINT "CategorySlugHistory_categoryId_fkey" FOREIGN KEY ("categoryId") REFERENCES "public"."Category"("id") ON UPDATE CASCADE ON DELETE CASCADE;
 
 
 
