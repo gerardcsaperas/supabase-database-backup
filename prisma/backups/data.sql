@@ -4,7 +4,7 @@ SET session_replication_role = replica;
 -- PostgreSQL database dump
 --
 
--- \restrict nP5ZEshhzfYTw32ovNkERmgiFX8lQlJuGjU4EoJGb68fHBwzoeHL54DJBgbkXVt
+-- \restrict VEr5B1sTiXIdEd9mCkH3Wa3lt7cG73aslOc805uTddWEr07ri2hUbigLZFIosBS
 
 -- Dumped from database version 17.6
 -- Dumped by pg_dump version 17.11
@@ -470,6 +470,7 @@ cmutnkcgo000004l3j9e55tuy	tobarra11@gmail.com	$2b$12$HHk.EqFHxF70UlrS.JSr3uqGAaU
 cmuvt6oz6000004jspbo831sj	luciendounasonrisa@gmail.com	$2b$12$kbpDHSGqxh9/zaXH5Mw5VuGyb4IsAJlNgJoNWbZFBY5A5uIkMbqrO	Elizabeth Varon Chacon	BUYER	es	2026-10-05 22:17:08.445	\N	\N	\N	f	2026-10-05 22:15:52.818	2026-10-05 22:17:08.453	\N	1971-06-04 00:00:00	\N	2026-10-05 22:15:52.78	1.0	0	f	\N	\N	\N	\N
 cmv14u3nt000004ju5lfepd6b	jordi@thebigbox.cat	$2b$12$4PLBY02pYYzG4f8kAlb6RuEu6oznHgQQf6RhwOchomzM3p5Y4K8cK	Jordi Mamé Alert	SELLER	ca	2026-10-09 15:42:13.779	\N	\N	\N	f	2026-10-09 15:40:51.593	2026-10-09 15:42:13.78	\N	1964-06-17 00:00:00	\N	2026-10-09 15:40:51.552	1.0	0	f	\N	\N	\N	\N
 cmunz9pv300000bgm6wfqaldi	deleted-cmunz9pv300000bgm6wfqaldi@cangerard.invalid	5c8ed91bf9fd8a7f01a26b10b6c8717652aefedd478dec7ce59e8d508d66038d	Compte eliminat	SELLER	ca	2026-09-30 10:55:12.153	\N	\N	\N	f	2026-09-30 10:44:02.224	2026-10-09 16:10:35.133	2026-10-09 16:10:35.131	\N	\N	2026-09-30 10:44:02.18	1.0	1	f	\N	\N	\N	\N
+cmv50q2x8000004jwq6zq1905	samaterra@samaterra.cat	$2b$12$.fo89XucS8aiIGwAoXfJRuvif3ZRqKJ6DSn4wWimYCh7IkxVM9NX6	Adrià	BUYER	ca	\N	35c77963b2fe33f1e85062842fd0b86bdebff16eafa5d88d7735c481e06912bf	\N	\N	f	2026-10-12 08:56:50.252	2026-10-12 08:56:50.252	\N	1964-02-27 00:00:00	\N	2026-10-12 08:56:50.226	1.0	0	f	\N	\N	\N	\N
 \.
 
 
@@ -2975,6 +2976,8 @@ cmunz9pw800020bgmeqszyqlm	cmunz9pv300000bgm6wfqaldi	PRIVACY_NOTICE	t	Accepto les
 cmunz9pw800030bgmfkmmz4qx	cmunz9pv300000bgm6wfqaldi	BUYER_TERMS	t	Accepto les condicions de compra i he llegit la política de privadesa.	ca	\N	2026-09-30 10:44:02.224
 cmunz9pw800040bgm8xru257h	cmunz9pv300000bgm6wfqaldi	SELLER_TERMS	t	Accepto les Condicions Generals de Venedors, l'Annex I (facturació), l'Annex II (dades), l'Annex III (categories i segells) i la política de productes prohibits.	ca	\N	2026-09-30 10:44:02.224
 cmuob5are000009gm2m7jx6on	cmunz9pv300000bgm6wfqaldi	TRADER_SELF_CERTIFICATION	t	Declaro sota la meva responsabilitat que soc empresari o professional (autònom donat d’alta o societat), que venc a CanGerard en l’exercici de la meva activitat i no com a particular, que les dades que facilito són veraces i que només oferiré productes que compleixin la normativa aplicable.\n\nDECLARACIÓN RESPONSABLE DE CONDICIÓN DE COMERCIANTE\n(versión 1.0 · 30/09/2026)\n\nMarina Garcia i  Bacà, NIF 37264201S, titular de la tienda «Somnis Brodats» (el «Vendedor») declara bajo su responsabilidad ante NEGOCIS DIGITALS CANGERARD, S.L., NIF B88966775 (la «Plataforma»), titular del mercado en línea accesible en cangerard.cat, cangerard.es y cangerard.com (el «Sitio»):\n\n1. CONDICIÓN DE COMERCIANTE. Que es empresario o profesional: persona física dada de alta como tal en el Censo de Empresarios, Profesionales y Retenedores de la Agencia Tributaria y en el régimen de la Seguridad Social que le corresponda, o persona jurídica válidamente constituida, con establecimiento en España; y que vende a través del Sitio con fines relacionados con su actividad comercial, empresarial, oficio o profesión, y no como particular.\n\n2. VERACIDAD DE LOS DATOS. Que los datos identificativos, de contacto y fiscales facilitados a la Plataforma son veraces, completos y actuales, y que comunicará sin demora cualquier cambio, en particular el cese de la actividad o la pérdida de la condición de empresario o profesional.\n\n3. CUMPLIMIENTO NORMATIVO. Que se compromete a ofrecer en el Sitio únicamente productos y servicios que cumplan las normas aplicables del Derecho de la Unión Europea y del Derecho español, incluidas las de seguridad de los productos, etiquetado, protección de los consumidores y fiscalidad, en los términos del artículo 30.1.e) del Reglamento (UE) 2022/2065 de Servicios Digitales.\n\n4. ACREDITACIÓN. Que aportará a requerimiento de la Plataforma la documentación que acredite lo anterior, entre otros el certificado de situación censal de la Agencia Tributaria o, en el caso de sociedades, los datos de su inscripción en el Registro Mercantil.\n\n5. CONSECUENCIAS. Que conoce que la falsedad o inexactitud de esta declaración faculta a la Plataforma para suspender o dar de baja su cuenta y retirar sus productos conforme a las Condiciones Generales de Contratación para Vendedores, y que responderá frente a la Plataforma de los perjuicios que se deriven de ella, incluidas las reclamaciones de compradores o de terceros y las sanciones administrativas.	ca	\N	2026-09-30 16:16:31.418
+cmv50q2z6000204jw1nyzux3x	cmv50q2x8000004jwq6zq1905	PRIVACY_NOTICE	t	Accepto les condicions de compra i he llegit la política de privadesa.	ca	47.61.129.184	2026-10-12 08:56:50.252
+cmv50q2z6000304jw7cbpnmga	cmv50q2x8000004jwq6zq1905	BUYER_TERMS	t	Accepto les condicions de compra i he llegit la política de privadesa.	ca	47.61.129.184	2026-10-12 08:56:50.252
 \.
 
 
@@ -3092,7 +3095,7 @@ cmuo3e6ql000409gmo45iykw0	cmuo3e6p5000109gmheeymr13	cmszywj3r000504k3hsrpz7a0	st
 cmuogishd000304kzk5d0o0mp	cmuogisfw000004kzj9byk8cd	cmqmvftzu000504jxy963ldl9	custom	0.00	\N	\N	\N	pending	\N	cmuogisfw000004kzj9byk8cd-cmqmvftzu000504jxy963ldl9	\N	2026-09-30 18:46:58.993	2026-09-30 18:46:58.993	Enviament propi del venedor	cmuo2k98e000004jlw32hriuz	9.00	[{"base": 7.44, "rate": 21, "cuota": 1.56}]	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	f	\N	\N	\N	\N	\N	\N	\N	\N	\N	0.00	\N	\N	\N	\N
 cmupaptro000506rt0gwmz43r	cmupaptqj000106rtce46vxzi	cmumzn74i000504l6rajo6gsl	correos	3.59	\N	\N	PS6C8N980330349S	delivered	Correos	cmupaptqj000106rtce46vxzi-cmumzn74i000504l6rajo6gsl	2026-10-01 14:57:11.139	2026-10-01 08:52:15.732	2026-10-07 10:35:06.936	\N	\N	3.59	\N	\N	\N	2026-10-01 18:20:06.675	2026-10-07 10:35:06.591	\N	2026-10-01 14:44:01.659	\N	\N	\N	\N	10570822	{"city": "NUCLI ANTIC", "kind": "post_office", "name": "PREMIA DE DALT", "street": "CAR. DE LES TEIXIDORES 1", "carrier": "correos", "postalCode": "08338", "carrierPointId": "0833801"}	cangerard/shipping/labels/cmupaptro000506rt0gwmz43r.pdf	\N	f	ES2026PRO0002843861	2026-10-01 14:55:36.5	23811	3.40	\N	ADDRESS_CITY:to|08338|NUCLI ANTIC|Premià de Mar	DELIVERED	2026-10-07 10:35:06.591	2026-10-01 14:57:08.65	0.00	250	10	10	10
 cmulivdqe000304jzwy1up3kx	cmulivdo7000004jz5af9omc7	cmtuipd97000504ih65dt77q5	standard	6.66	\N	\N	\N	pending	\N	cmulivdo7000004jz5af9omc7-cmtuipd97000504ih65dt77q5	\N	2026-09-28 17:29:27.11	2026-09-28 17:29:27.11	\N	\N	6.66	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	f	\N	\N	\N	\N	\N	\N	\N	\N	\N	0.00	\N	\N	\N	\N
-cmuo5vllf000404l6q5dqgv7z	cmuo5vljm000104l6go6suaf2	cmsfp9jqk000a04lam2x5k8c6	inpost	4.76	\N	\N	72456782	in_transit	Mondial Relay	cmuo5vljm000104l6go6suaf2-cmsfp9jqk000a04lam2x5k8c6	2026-10-01 07:05:04.802	2026-09-30 13:49:00.819	2026-10-12 03:05:06.281	\N	\N	4.76	\N	\N	\N	2026-10-01 15:07:16.012	\N	\N	2026-10-01 07:02:07.032	https://www.inpost.es/seguimiento-del-envio/	\N	\N	\N	13141531	{"city": "GRANOLLERS", "kind": "servicepoint", "name": "TRADYS", "street": "CARRER DE SANT JAUME", "carrier": "inpost_es", "postalCode": "08401", "houseNumber": "112", "carrierPointId": "ES58455"}	cangerard/shipping/labels/cmuo5vllf000404l6q5dqgv7z.pdf	\N	f	ES2026PRO0002838285	2026-10-01 07:02:56.292	22655	4.76	\N	\N	IN_TRANSIT	2026-10-12 03:05:06.28	2026-10-01 07:05:02.271	0.00	2200	33	17	24
+cmuo5vllf000404l6q5dqgv7z	cmuo5vljm000104l6go6suaf2	cmsfp9jqk000a04lam2x5k8c6	inpost	4.76	\N	\N	72456782	in_transit	Mondial Relay	cmuo5vljm000104l6go6suaf2-cmsfp9jqk000a04lam2x5k8c6	2026-10-01 07:05:04.802	2026-09-30 13:49:00.819	2026-10-13 04:20:06.363	\N	\N	4.76	\N	\N	\N	2026-10-01 15:07:16.012	\N	\N	2026-10-01 07:02:07.032	https://www.inpost.es/seguimiento-del-envio/	\N	\N	\N	13141531	{"city": "GRANOLLERS", "kind": "servicepoint", "name": "TRADYS", "street": "CARRER DE SANT JAUME", "carrier": "inpost_es", "postalCode": "08401", "houseNumber": "112", "carrierPointId": "ES58455"}	cangerard/shipping/labels/cmuo5vllf000404l6q5dqgv7z.pdf	\N	f	ES2026PRO0002838285	2026-10-01 07:02:56.292	22655	4.76	\N	\N	IN_TRANSIT	2026-10-13 04:20:06.362	2026-10-01 07:05:02.271	0.00	2200	33	17	24
 cmuogix3o000804kz4nd04xec	cmuogix2b000504kz1gi683xv	cmqmvftzu000504jxy963ldl9	standard	5.27	\N	\N	PQ4GEC980101771N	label_created	Correos	cmuogix2b000504kz1gi683xv-cmqmvftzu000504jxy963ldl9	2026-10-01 08:09:53.483	2026-09-30 18:47:04.98	2026-10-01 09:24:59.556	\N	\N	5.27	\N	\N	2026-10-01 09:24:59.552	\N	\N	\N	2026-10-01 07:53:18.362	\N	\N	\N	\N	\N	\N	cangerard/shipping/labels/cmuogix3o000804kz4nd04xec.pdf	\N	f	ES2026PRO0002839164	2026-10-01 08:08:52.056	20679	4.92	\N	ADDRESS_CITY:to|08520|LES FRANQUESES DEL VALLES|Granollers	CANCEL_REQUESTED	2026-10-01 09:20:07.273	2026-10-01 08:09:50.948	0.00	500	35	15	18
 \.
 
@@ -4336,6 +4339,7 @@ cmtpx7wsn000404jsm9hkzw3s	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Did
 cmtxyh39b000404l778ndyr1a	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Cristina Murcia Roig", "email": "cristinamurciaroig@hotmail.com"}	2026-09-30 12:16:44.305	\N	2026-09-12 05:39:45.983
 cmurd9yvd000805p5l72wb2mt	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_SELLER	{"storeName": "MyGreen Cosmetics"}	2026-10-03 07:45:43.727	2026-10-02 19:39:27.047	2026-10-02 19:39:27.049
 cmuu2xxci000404l8orxiop4o	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_PRODUCT	{"storeName": "Dido cosmètica natural", "productTitle": "Sabó sòlid de Romaní"}	2026-10-05 06:07:19.079	2026-10-04 17:13:27.569	2026-10-04 17:13:27.571
+cmv50q30z000404jwj2jum5mm	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Adrià", "email": "samaterra@samaterra.cat"}	\N	\N	2026-10-12 08:56:50.387
 cmup3ik6v002w05lclei4b10c	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_PRODUCT	{"storeName": "Aplom sl", "productTitle": "Plats de Dutxa, Grup 4"}	2026-10-01 05:45:53.789	2026-10-01 05:30:39.414	2026-10-01 05:30:39.415
 cmsg20wdb000404lanjcdozfv	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Pau Serra", "email": "pauserra@gmail.com"}	2026-08-05 13:09:13.804	\N	2026-08-05 12:19:35.519
 cmupzmfyb000204jnez9tm5uo	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_PRODUCT	{"storeName": "Alas de Mariposa", "productTitle": "Abella Honey Amigurumi"}	2026-10-02 06:00:12.411	2026-10-01 20:29:28.257	2026-10-01 20:29:28.259
@@ -4531,6 +4535,7 @@ cmv2n3xyq000104kzx8l38g53	cmszywj2d000004k34uij63g2	BUYER_REVIEW_REQUEST	{"count
 cmv3g22jp000004lbhqox71ns	cmtt5e5m4000004jp9o3k38sj	SELLER_OUT_OF_STOCK_REMINDER	{"count": 2, "variantCount": 0, "productTitles": "Ajolotes Amigurumi Sol i Lluna, Elefanta Amigurumi Cloe"}	\N	2026-10-11 06:30:31.52	2026-10-11 06:30:31.526
 cmv3g22p6000104lbpsp5gcen	cmtuipd7j000004iha92xkfut	SELLER_OUT_OF_STOCK_REMINDER	{"count": 5, "variantCount": 0, "productTitles": "Caramels de cérvol per a gossos 100% cérvol, Colls de gall dindi deshidratats per a gossos, mastegable natural 100% gall dindi, Colls de pollastre deshidratats per a gossos, snack natural 100% pollastre, Costelles de cérvol deshidratades per a gossos, mastegable natural 100% cérvol, Puntes d'ala de pollastre deshidratades per a gossos, snack natural 100% pollastre"}	\N	2026-10-11 06:30:31.722	2026-10-11 06:30:31.722
 cmv42jrin000004l29x7ohfyt	cmuo8uos8000004jny7tdpgz0	BUYER_REVIEW_REQUEST	{"count": 1, "orderNumber": "CG-20261001-OXTB7O", "productTitles": "LA GINESTA Llauna Oli d’Oliva Verge Extra (2,5 litres)"}	\N	2026-10-11 17:00:08.586	2026-10-11 17:00:08.591
+cmv4vhx5n000004iglrf6teig	cmtuipd7j000004iha92xkfut	SELLER_OUT_OF_STOCK_REMINDER	{"count": 5, "variantCount": 0, "productTitles": "Caramels de cérvol per a gossos 100% cérvol, Colls de gall dindi deshidratats per a gossos, mastegable natural 100% gall dindi, Colls de pollastre deshidratats per a gossos, snack natural 100% pollastre, Costelles de cérvol deshidratades per a gossos, mastegable natural 100% cérvol, Puntes d'ala de pollastre deshidratades per a gossos, snack natural 100% pollastre"}	\N	2026-10-12 06:30:31.446	2026-10-12 06:30:31.451
 \.
 
 
@@ -5787,6 +5792,10 @@ cmv3o7bct000104jyhn4w4zl5	Arte	arte	es	51	\N	2026-10-11 10:18:33.149
 cmv3tywe0000004jvfnz657j9	Acre	acre	ca	48	\N	2026-10-11 12:59:58.2
 cmv3u0011000104jvs6x0lgne	Acre	acre	ca	48	\N	2026-10-11 13:00:49.573
 cmv40vlo3000004lcc7guntfl	INFUSIONES	infusiones	es	19	\N	2026-10-11 16:13:21.651
+cmv543vi5000004jq8awmw6g3	Collar	collar	ca	1	\N	2026-10-12 10:31:32.669
+cmv54433z000104jq5einii36	Penjoll	penjoll	ca	2	\N	2026-10-12 10:31:42.527
+cmv5fw8lg000004l5dbp13bp0	Vins	vins	ca	20	\N	2026-10-12 16:01:31.78
+cmv5fx6yf000104l5x5i4douj	Productes aloe vera	productes aloe vera	ca	0	\N	2026-10-12 16:02:16.311
 \.
 
 
@@ -6131,6 +6140,7 @@ cmutnkchd000104l3mhqy337d	cmutnkcgo000004l3j9e55tuy	2026-10-04 10:02:59.736
 cmutrxyob000504jpfwsmyrt7	cmutrxynv000404jpecmq8cof	2026-10-04 12:05:33.5
 cmuvt6ozu000104jsxfqwm71b	cmuvt6oz6000004jspbo831sj	2026-10-05 22:15:52.818
 cmv14u3ok000104juc3wl5bs2	cmv14u3nt000004ju5lfepd6b	2026-10-09 15:40:51.593
+cmv50q2y0000104jwahh7pmhv	cmv50q2x8000004jwq6zq1905	2026-10-12 08:56:50.252
 \.
 
 
@@ -6291,6 +6301,6 @@ SELECT pg_catalog.setval('"auth"."refresh_tokens_id_seq"', 1, false);
 -- PostgreSQL database dump complete
 --
 
--- \unrestrict nP5ZEshhzfYTw32ovNkERmgiFX8lQlJuGjU4EoJGb68fHBwzoeHL54DJBgbkXVt
+-- \unrestrict VEr5B1sTiXIdEd9mCkH3Wa3lt7cG73aslOc805uTddWEr07ri2hUbigLZFIosBS
 
 RESET ALL;
