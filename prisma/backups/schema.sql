@@ -53,6 +53,16 @@ CREATE EXTENSION IF NOT EXISTS "uuid-ossp" WITH SCHEMA "extensions";
 
 
 
+CREATE TYPE "public"."BookFormat" AS ENUM (
+    'PAPERBACK',
+    'HARDCOVER',
+    'EBOOK'
+);
+
+
+ALTER TYPE "public"."BookFormat" OWNER TO "postgres";
+
+
 CREATE TYPE "public"."CancellationCause" AS ENUM (
     'BUYER',
     'UNSERVED'
@@ -279,7 +289,8 @@ CREATE TYPE "public"."NotificationType" AS ENUM (
     'ADMIN_FRAUD_WARNING',
     'SELLER_PAYMENT_DISPUTE',
     'ADMIN_PAYOUT_RELEASE_FAILED',
-    'BUYER_REVIEW_REQUEST'
+    'BUYER_REVIEW_REQUEST',
+    'BUYER_DIGITAL_READY'
 );
 
 
@@ -701,6 +712,20 @@ CREATE TABLE IF NOT EXISTS "public"."ContactMessage" (
 ALTER TABLE "public"."ContactMessage" OWNER TO "postgres";
 
 
+CREATE TABLE IF NOT EXISTS "public"."DigitalDownload" (
+    "id" "text" NOT NULL,
+    "orderItemId" "text" NOT NULL,
+    "userId" "text",
+    "publicId" "text" NOT NULL,
+    "fileName" "text" NOT NULL,
+    "ip" "text",
+    "createdAt" timestamp(3) without time zone DEFAULT CURRENT_TIMESTAMP NOT NULL
+);
+
+
+ALTER TABLE "public"."DigitalDownload" OWNER TO "postgres";
+
+
 CREATE TABLE IF NOT EXISTS "public"."DsaNotice" (
     "id" "text" NOT NULL,
     "targetType" "public"."DsaTargetType" NOT NULL,
@@ -919,7 +944,9 @@ CREATE TABLE IF NOT EXISTS "public"."OrderItem" (
     "vatAmount" numeric(10,2) DEFAULT 0 NOT NULL,
     "vatRate" numeric(5,2) DEFAULT 21 NOT NULL,
     "refundedEarnings" numeric(10,2) DEFAULT 0 NOT NULL,
-    "reviewRequestedAt" timestamp(3) without time zone
+    "reviewRequestedAt" timestamp(3) without time zone,
+    "digitalFiles" "jsonb",
+    "isDigital" boolean DEFAULT false NOT NULL
 );
 
 
@@ -1075,7 +1102,16 @@ CREATE TABLE IF NOT EXISTS "public"."Product" (
     "experienceVoucherUrl" "text",
     "isExperience" boolean DEFAULT false NOT NULL,
     "variantsShareShipping" boolean DEFAULT true NOT NULL,
-    "variantsShareNetContent" boolean DEFAULT true NOT NULL
+    "variantsShareNetContent" boolean DEFAULT true NOT NULL,
+    "bookAuthors" "text",
+    "bookFormat" "public"."BookFormat",
+    "bookLanguage" "text",
+    "bookPages" integer,
+    "bookPublishedOn" "date",
+    "bookPublisher" "text",
+    "digitalFiles" "jsonb" DEFAULT '[]'::"jsonb" NOT NULL,
+    "isbn" "text",
+    "leadTimeDays" integer
 );
 
 
@@ -1125,7 +1161,13 @@ CREATE TABLE IF NOT EXISTS "public"."ProductVariant" (
     "updatedAt" timestamp(3) without time zone NOT NULL,
     "netContentUnit" "text",
     "netContentValue" numeric(10,3),
-    "unlimitedStock" boolean DEFAULT false NOT NULL
+    "unlimitedStock" boolean DEFAULT false NOT NULL,
+    "bookFixedPrice" numeric(10,2),
+    "bookFormat" "public"."BookFormat",
+    "digitalFiles" "jsonb" DEFAULT '[]'::"jsonb" NOT NULL,
+    "isDigital" boolean DEFAULT false NOT NULL,
+    "isbn" "text",
+    "leadTimeDays" integer
 );
 
 
@@ -1496,7 +1538,8 @@ CREATE TABLE IF NOT EXISTS "public"."Shipment" (
     "parcelWeightGrams" integer,
     "parcelLengthCm" double precision,
     "parcelWidthCm" double precision,
-    "parcelHeightCm" double precision
+    "parcelHeightCm" double precision,
+    "leadTimeDays" integer DEFAULT 0 NOT NULL
 );
 
 
@@ -1662,6 +1705,11 @@ ALTER TABLE ONLY "public"."ConsentRecord"
 
 ALTER TABLE ONLY "public"."ContactMessage"
     ADD CONSTRAINT "ContactMessage_pkey" PRIMARY KEY ("id");
+
+
+
+ALTER TABLE ONLY "public"."DigitalDownload"
+    ADD CONSTRAINT "DigitalDownload_pkey" PRIMARY KEY ("id");
 
 
 
@@ -1927,6 +1975,14 @@ CREATE INDEX "ContactMessage_reason_idx" ON "public"."ContactMessage" USING "btr
 
 
 
+CREATE INDEX "DigitalDownload_orderItemId_idx" ON "public"."DigitalDownload" USING "btree" ("orderItemId");
+
+
+
+CREATE INDEX "DigitalDownload_userId_idx" ON "public"."DigitalDownload" USING "btree" ("userId");
+
+
+
 CREATE INDEX "DsaNotice_createdAt_idx" ON "public"."DsaNotice" USING "btree" ("createdAt");
 
 
@@ -2143,6 +2199,10 @@ CREATE UNIQUE INDEX "ProductSlugHistory_slug_key" ON "public"."ProductSlugHistor
 
 
 
+CREATE INDEX "ProductVariant_isbn_idx" ON "public"."ProductVariant" USING "btree" ("isbn");
+
+
+
 CREATE INDEX "ProductVariant_productId_idx" ON "public"."ProductVariant" USING "btree" ("productId");
 
 
@@ -2152,6 +2212,10 @@ CREATE INDEX "Product_categoryId_idx" ON "public"."Product" USING "btree" ("cate
 
 
 CREATE INDEX "Product_createdAt_idx" ON "public"."Product" USING "btree" ("createdAt");
+
+
+
+CREATE INDEX "Product_isbn_idx" ON "public"."Product" USING "btree" ("isbn");
 
 
 
@@ -2452,6 +2516,16 @@ ALTER TABLE ONLY "public"."Category"
 
 ALTER TABLE ONLY "public"."ConsentRecord"
     ADD CONSTRAINT "ConsentRecord_userId_fkey" FOREIGN KEY ("userId") REFERENCES "public"."User"("id") ON UPDATE CASCADE ON DELETE CASCADE;
+
+
+
+ALTER TABLE ONLY "public"."DigitalDownload"
+    ADD CONSTRAINT "DigitalDownload_orderItemId_fkey" FOREIGN KEY ("orderItemId") REFERENCES "public"."OrderItem"("id") ON UPDATE CASCADE ON DELETE CASCADE;
+
+
+
+ALTER TABLE ONLY "public"."DigitalDownload"
+    ADD CONSTRAINT "DigitalDownload_userId_fkey" FOREIGN KEY ("userId") REFERENCES "public"."User"("id") ON UPDATE CASCADE ON DELETE SET NULL;
 
 
 
