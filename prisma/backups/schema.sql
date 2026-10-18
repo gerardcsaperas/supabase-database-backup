@@ -53,6 +53,37 @@ CREATE EXTENSION IF NOT EXISTS "uuid-ossp" WITH SCHEMA "extensions";
 
 
 
+CREATE TYPE "public"."AccountingEventKind" AS ENUM (
+    'ORDER_CHARGE',
+    'SUBSCRIPTION_CHARGE',
+    'REFUND',
+    'SELLER_TRANSFER',
+    'TRANSFER_REVERSAL',
+    'PAYOUT',
+    'FEES',
+    'DISPUTE',
+    'OTHER'
+);
+
+
+ALTER TYPE "public"."AccountingEventKind" OWNER TO "postgres";
+
+
+CREATE TYPE "public"."AccountingEventStatus" AS ENUM (
+    'PENDING',
+    'PLANNED',
+    'WAITING',
+    'POSTED',
+    'RECONCILED',
+    'SKIPPED',
+    'NEEDS_REVIEW',
+    'FAILED'
+);
+
+
+ALTER TYPE "public"."AccountingEventStatus" OWNER TO "postgres";
+
+
 CREATE TYPE "public"."BookFormat" AS ENUM (
     'PAPERBACK',
     'HARDCOVER',
@@ -581,6 +612,41 @@ ALTER TYPE "public"."VatRegime" OWNER TO "postgres";
 SET default_tablespace = '';
 
 SET default_table_access_method = "heap";
+
+
+CREATE TABLE IF NOT EXISTS "public"."AccountingEvent" (
+    "id" "text" NOT NULL,
+    "key" "text" NOT NULL,
+    "kind" "public"."AccountingEventKind" NOT NULL,
+    "status" "public"."AccountingEventStatus" DEFAULT 'PENDING'::"public"."AccountingEventStatus" NOT NULL,
+    "stripeBalanceTxId" "text",
+    "stripeType" "text",
+    "stripeSourceId" "text",
+    "amount" numeric(12,2) NOT NULL,
+    "fee" numeric(12,2) DEFAULT 0 NOT NULL,
+    "occurredAt" timestamp(3) without time zone NOT NULL,
+    "orderId" "text",
+    "sellerId" "text",
+    "payoutReleaseId" "text",
+    "refundId" "text",
+    "subscriptionPaymentId" "text",
+    "disputeId" "text",
+    "plan" "jsonb",
+    "holdedMovementId" "text",
+    "movementBalance" numeric(12,2),
+    "holdedEntries" "jsonb",
+    "reason" "text",
+    "lastError" "text",
+    "attempts" integer DEFAULT 0 NOT NULL,
+    "claimedAt" timestamp(3) without time zone,
+    "postedAt" timestamp(3) without time zone,
+    "reconciledAt" timestamp(3) without time zone,
+    "createdAt" timestamp(3) without time zone DEFAULT CURRENT_TIMESTAMP NOT NULL,
+    "updatedAt" timestamp(3) without time zone NOT NULL
+);
+
+
+ALTER TABLE "public"."AccountingEvent" OWNER TO "postgres";
 
 
 CREATE TABLE IF NOT EXISTS "public"."Address" (
@@ -1369,7 +1435,8 @@ CREATE TABLE IF NOT EXISTS "public"."SellerProfile" (
     "subscriptionEndedAt" timestamp(3) without time zone,
     "subscriptionTrialUsedAt" timestamp(3) without time zone,
     "traderCertificationVersion" "text",
-    "traderCertifiedAt" timestamp(3) without time zone
+    "traderCertifiedAt" timestamp(3) without time zone,
+    "holdedCreditorAccount" integer
 );
 
 
@@ -1673,6 +1740,11 @@ CREATE TABLE IF NOT EXISTS "public"."_prisma_migrations" (
 ALTER TABLE "public"."_prisma_migrations" OWNER TO "postgres";
 
 
+ALTER TABLE ONLY "public"."AccountingEvent"
+    ADD CONSTRAINT "AccountingEvent_pkey" PRIMARY KEY ("id");
+
+
+
 ALTER TABLE ONLY "public"."Address"
     ADD CONSTRAINT "Address_pkey" PRIMARY KEY ("id");
 
@@ -1920,6 +1992,22 @@ ALTER TABLE ONLY "public"."Wishlist"
 
 ALTER TABLE ONLY "public"."_prisma_migrations"
     ADD CONSTRAINT "_prisma_migrations_pkey" PRIMARY KEY ("id");
+
+
+
+CREATE UNIQUE INDEX "AccountingEvent_key_key" ON "public"."AccountingEvent" USING "btree" ("key");
+
+
+
+CREATE INDEX "AccountingEvent_orderId_idx" ON "public"."AccountingEvent" USING "btree" ("orderId");
+
+
+
+CREATE INDEX "AccountingEvent_status_occurredAt_idx" ON "public"."AccountingEvent" USING "btree" ("status", "occurredAt");
+
+
+
+CREATE UNIQUE INDEX "AccountingEvent_stripeBalanceTxId_key" ON "public"."AccountingEvent" USING "btree" ("stripeBalanceTxId");
 
 
 
