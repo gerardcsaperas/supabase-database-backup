@@ -62,7 +62,10 @@ CREATE TYPE "public"."AccountingEventKind" AS ENUM (
     'PAYOUT',
     'FEES',
     'DISPUTE',
-    'OTHER'
+    'OTHER',
+    'DEBT_SETOFF',
+    'DISPUTE_LOSS',
+    'PAYOUT_FAILURE'
 );
 
 
@@ -466,6 +469,16 @@ CREATE TYPE "public"."RefundExecutor" AS ENUM (
 ALTER TYPE "public"."RefundExecutor" OWNER TO "postgres";
 
 
+CREATE TYPE "public"."RefundKind" AS ENUM (
+    'PRODUCTS',
+    'SHIPMENT',
+    'ORDER_SHIPPING'
+);
+
+
+ALTER TYPE "public"."RefundKind" OWNER TO "postgres";
+
+
 CREATE TYPE "public"."RefundStatus" AS ENUM (
     'PENDING',
     'SUCCEEDED',
@@ -696,7 +709,9 @@ CREATE TABLE IF NOT EXISTS "public"."CartItem" (
     "createdAt" timestamp(3) without time zone DEFAULT CURRENT_TIMESTAMP NOT NULL,
     "updatedAt" timestamp(3) without time zone NOT NULL,
     "savedForLater" boolean DEFAULT false NOT NULL,
-    "variantId" "text"
+    "variantId" "text",
+    "personalization" "text",
+    "personalizationImages" "jsonb" DEFAULT '[]'::"jsonb" NOT NULL
 );
 
 
@@ -727,7 +742,8 @@ CREATE TABLE IF NOT EXISTS "public"."Category" (
     "metaDescriptionEs" "text",
     "metaTitleCa" "text",
     "metaTitleEn" "text",
-    "metaTitleEs" "text"
+    "metaTitleEs" "text",
+    "isApparel" boolean DEFAULT false NOT NULL
 );
 
 
@@ -1012,7 +1028,9 @@ CREATE TABLE IF NOT EXISTS "public"."OrderItem" (
     "refundedEarnings" numeric(10,2) DEFAULT 0 NOT NULL,
     "reviewRequestedAt" timestamp(3) without time zone,
     "digitalFiles" "jsonb",
-    "isDigital" boolean DEFAULT false NOT NULL
+    "isDigital" boolean DEFAULT false NOT NULL,
+    "personalization" "text",
+    "personalizationImages" "jsonb" DEFAULT '[]'::"jsonb" NOT NULL
 );
 
 
@@ -1177,7 +1195,16 @@ CREATE TABLE IF NOT EXISTS "public"."Product" (
     "bookPublisher" "text",
     "digitalFiles" "jsonb" DEFAULT '[]'::"jsonb" NOT NULL,
     "isbn" "text",
-    "leadTimeDays" integer
+    "leadTimeDays" integer,
+    "personalizable" boolean DEFAULT false NOT NULL,
+    "personalizationRequired" boolean DEFAULT true NOT NULL,
+    "personalizationPromptCa" "text",
+    "personalizationPromptEs" "text",
+    "personalizationPromptEn" "text",
+    "personalizationMaxLength" integer DEFAULT 200 NOT NULL,
+    "personalizationNoteEnabled" boolean DEFAULT true NOT NULL,
+    "personalizationImageMax" integer DEFAULT 0 NOT NULL,
+    "personalizationImageRequired" boolean DEFAULT false NOT NULL
 );
 
 
@@ -1233,7 +1260,14 @@ CREATE TABLE IF NOT EXISTS "public"."ProductVariant" (
     "digitalFiles" "jsonb" DEFAULT '[]'::"jsonb" NOT NULL,
     "isDigital" boolean DEFAULT false NOT NULL,
     "isbn" "text",
-    "leadTimeDays" integer
+    "leadTimeDays" integer,
+    "colorCa" "text",
+    "colorEs" "text",
+    "colorEn" "text",
+    "colorHex" "text",
+    "sizeCa" "text",
+    "sizeEs" "text",
+    "sizeEn" "text"
 );
 
 
@@ -1271,7 +1305,12 @@ CREATE TABLE IF NOT EXISTS "public"."Refund" (
     "stripeRefundId" "text",
     "stripeTransferReversalId" "text",
     "createdAt" timestamp(3) without time zone DEFAULT CURRENT_TIMESTAMP NOT NULL,
-    "updatedAt" timestamp(3) without time zone NOT NULL
+    "updatedAt" timestamp(3) without time zone NOT NULL,
+    "kind" "public"."RefundKind",
+    "returnRequestId" "text",
+    "sellerAmount" numeric(10,2),
+    "sellerId" "text",
+    "shipmentId" "text"
 );
 
 
