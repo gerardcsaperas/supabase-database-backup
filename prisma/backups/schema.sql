@@ -996,7 +996,8 @@ CREATE TABLE IF NOT EXISTS "public"."Order" (
     "vatBreakdown" "jsonb" DEFAULT '[]'::"jsonb" NOT NULL,
     "ebookConsentAt" timestamp(3) without time zone,
     "confirmationEmailedAt" timestamp(3) without time zone,
-    "fulfillmentStartedAt" timestamp(3) without time zone
+    "fulfillmentStartedAt" timestamp(3) without time zone,
+    "deliveryNote" "text"
 );
 
 
@@ -1554,7 +1555,8 @@ CREATE TABLE IF NOT EXISTS "public"."SellerShippingMethod" (
     "createdAt" timestamp(3) without time zone DEFAULT CURRENT_TIMESTAMP NOT NULL,
     "updatedAt" timestamp(3) without time zone NOT NULL,
     "kind" "public"."SellerShippingMethodKind" DEFAULT 'OWN'::"public"."SellerShippingMethodKind" NOT NULL,
-    "freeHandledBy" "public"."FreeShippingHandler"
+    "freeHandledBy" "public"."FreeShippingHandler",
+    "deliveryComarques" "text"[] DEFAULT ARRAY[]::"text"[]
 );
 
 
