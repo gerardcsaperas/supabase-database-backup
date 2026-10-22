@@ -602,6 +602,42 @@ CREATE TYPE "public"."SellerSubscriptionStatus" AS ENUM (
 ALTER TYPE "public"."SellerSubscriptionStatus" OWNER TO "postgres";
 
 
+CREATE TYPE "public"."StoreEventType" AS ENUM (
+    'VIEW',
+    'LINK_CLICK'
+);
+
+
+ALTER TYPE "public"."StoreEventType" OWNER TO "postgres";
+
+
+CREATE TYPE "public"."StoreLinkKind" AS ENUM (
+    'WEBSITE',
+    'INSTAGRAM',
+    'FACEBOOK',
+    'TIKTOK',
+    'YOUTUBE',
+    'PINTEREST',
+    'X',
+    'LINKEDIN'
+);
+
+
+ALTER TYPE "public"."StoreLinkKind" OWNER TO "postgres";
+
+
+CREATE TYPE "public"."StoreTrafficSource" AS ENUM (
+    'INTERNAL',
+    'SEARCH',
+    'SOCIAL',
+    'OTHER',
+    'DIRECT'
+);
+
+
+ALTER TYPE "public"."StoreTrafficSource" OWNER TO "postgres";
+
+
 CREATE TYPE "public"."SubscriptionPaymentStatus" AS ENUM (
     'PAID',
     'FAILED'
@@ -1476,7 +1512,8 @@ CREATE TABLE IF NOT EXISTS "public"."SellerProfile" (
     "subscriptionTrialUsedAt" timestamp(3) without time zone,
     "traderCertificationVersion" "text",
     "traderCertifiedAt" timestamp(3) without time zone,
-    "holdedCreditorAccount" integer
+    "holdedCreditorAccount" integer,
+    "bannerUrl" "text"
 );
 
 
@@ -1561,6 +1598,33 @@ CREATE TABLE IF NOT EXISTS "public"."SellerShippingMethod" (
 
 
 ALTER TABLE "public"."SellerShippingMethod" OWNER TO "postgres";
+
+
+CREATE TABLE IF NOT EXISTS "public"."SellerStoreEvent" (
+    "id" "text" NOT NULL,
+    "sellerId" "text" NOT NULL,
+    "type" "public"."StoreEventType" NOT NULL,
+    "linkKind" "public"."StoreLinkKind",
+    "source" "public"."StoreTrafficSource" NOT NULL,
+    "locale" "text" NOT NULL,
+    "createdAt" timestamp(3) without time zone DEFAULT CURRENT_TIMESTAMP NOT NULL
+);
+
+
+ALTER TABLE "public"."SellerStoreEvent" OWNER TO "postgres";
+
+
+CREATE TABLE IF NOT EXISTS "public"."SellerStoreLink" (
+    "id" "text" NOT NULL,
+    "sellerId" "text" NOT NULL,
+    "kind" "public"."StoreLinkKind" NOT NULL,
+    "url" "text" NOT NULL,
+    "createdAt" timestamp(3) without time zone DEFAULT CURRENT_TIMESTAMP NOT NULL,
+    "updatedAt" timestamp(3) without time zone NOT NULL
+);
+
+
+ALTER TABLE "public"."SellerStoreLink" OWNER TO "postgres";
 
 
 CREATE TABLE IF NOT EXISTS "public"."SellerSubscriptionPayment" (
@@ -1978,6 +2042,16 @@ ALTER TABLE ONLY "public"."SellerShippingComment"
 
 ALTER TABLE ONLY "public"."SellerShippingMethod"
     ADD CONSTRAINT "SellerShippingMethod_pkey" PRIMARY KEY ("id");
+
+
+
+ALTER TABLE ONLY "public"."SellerStoreEvent"
+    ADD CONSTRAINT "SellerStoreEvent_pkey" PRIMARY KEY ("id");
+
+
+
+ALTER TABLE ONLY "public"."SellerStoreLink"
+    ADD CONSTRAINT "SellerStoreLink_pkey" PRIMARY KEY ("id");
 
 
 
@@ -2528,6 +2602,18 @@ CREATE INDEX "SellerShippingMethod_sellerId_idx" ON "public"."SellerShippingMeth
 
 
 
+CREATE INDEX "SellerStoreEvent_createdAt_idx" ON "public"."SellerStoreEvent" USING "btree" ("createdAt");
+
+
+
+CREATE INDEX "SellerStoreEvent_sellerId_createdAt_idx" ON "public"."SellerStoreEvent" USING "btree" ("sellerId", "createdAt");
+
+
+
+CREATE UNIQUE INDEX "SellerStoreLink_sellerId_kind_key" ON "public"."SellerStoreLink" USING "btree" ("sellerId", "kind");
+
+
+
 CREATE INDEX "SellerSubscriptionPayment_sellerId_createdAt_idx" ON "public"."SellerSubscriptionPayment" USING "btree" ("sellerId", "createdAt");
 
 
@@ -2950,6 +3036,16 @@ ALTER TABLE ONLY "public"."SellerShippingComment"
 
 ALTER TABLE ONLY "public"."SellerShippingMethod"
     ADD CONSTRAINT "SellerShippingMethod_sellerId_fkey" FOREIGN KEY ("sellerId") REFERENCES "public"."SellerProfile"("id") ON UPDATE CASCADE ON DELETE CASCADE;
+
+
+
+ALTER TABLE ONLY "public"."SellerStoreEvent"
+    ADD CONSTRAINT "SellerStoreEvent_sellerId_fkey" FOREIGN KEY ("sellerId") REFERENCES "public"."SellerProfile"("id") ON UPDATE CASCADE ON DELETE CASCADE;
+
+
+
+ALTER TABLE ONLY "public"."SellerStoreLink"
+    ADD CONSTRAINT "SellerStoreLink_sellerId_fkey" FOREIGN KEY ("sellerId") REFERENCES "public"."SellerProfile"("id") ON UPDATE CASCADE ON DELETE CASCADE;
 
 
 
