@@ -325,7 +325,9 @@ CREATE TYPE "public"."NotificationType" AS ENUM (
     'ADMIN_PAYOUT_RELEASE_FAILED',
     'BUYER_REVIEW_REQUEST',
     'BUYER_DIGITAL_READY',
-    'SELLER_DRAFT_PRODUCTS_REMINDER'
+    'SELLER_DRAFT_PRODUCTS_REMINDER',
+    'SELLER_DELIVERY_PROOF_REJECTED',
+    'ORDER_READY_FOR_PICKUP'
 );
 
 
@@ -562,7 +564,8 @@ ALTER TYPE "public"."SellerDebtKind" OWNER TO "postgres";
 CREATE TYPE "public"."SellerShippingMethodKind" AS ENUM (
     'OWN',
     'COLD',
-    'FREE'
+    'FREE',
+    'PICKUP'
 );
 
 
@@ -601,6 +604,16 @@ CREATE TYPE "public"."SellerSubscriptionStatus" AS ENUM (
 
 
 ALTER TYPE "public"."SellerSubscriptionStatus" OWNER TO "postgres";
+
+
+CREATE TYPE "public"."ShippingRateBasis" AS ENUM (
+    'FLAT',
+    'WEIGHT',
+    'ORDER_AMOUNT'
+);
+
+
+ALTER TYPE "public"."ShippingRateBasis" OWNER TO "postgres";
 
 
 CREATE TYPE "public"."StoreEventType" AS ENUM (
@@ -1197,10 +1210,10 @@ CREATE TABLE IF NOT EXISTS "public"."Product" (
     "ratingCount" integer DEFAULT 0 NOT NULL,
     "createdAt" timestamp(3) without time zone DEFAULT CURRENT_TIMESTAMP NOT NULL,
     "updatedAt" timestamp(3) without time zone NOT NULL,
-    "heightCm" double precision DEFAULT 10 NOT NULL,
-    "lengthCm" double precision DEFAULT 20 NOT NULL,
-    "weightGrams" integer DEFAULT 500 NOT NULL,
-    "widthCm" double precision DEFAULT 15 NOT NULL,
+    "heightCm" double precision DEFAULT 10,
+    "lengthCm" double precision DEFAULT 20,
+    "weightGrams" integer DEFAULT 500,
+    "widthCm" double precision DEFAULT 15,
     "origin" "public"."ProductOrigin",
     "originVerifiedAt" timestamp(3) without time zone,
     "unlimitedStock" boolean DEFAULT false NOT NULL,
@@ -1242,7 +1255,8 @@ CREATE TABLE IF NOT EXISTS "public"."Product" (
     "personalizationMaxLength" integer DEFAULT 200 NOT NULL,
     "personalizationNoteEnabled" boolean DEFAULT true NOT NULL,
     "personalizationImageMax" integer DEFAULT 0 NOT NULL,
-    "personalizationImageRequired" boolean DEFAULT false NOT NULL
+    "personalizationImageRequired" boolean DEFAULT false NOT NULL,
+    "shippingGroupId" "text"
 );
 
 
@@ -1282,10 +1296,10 @@ CREATE TABLE IF NOT EXISTS "public"."ProductVariant" (
     "totalPrice" numeric(10,2) NOT NULL,
     "originalPrice" numeric(10,2),
     "stock" integer DEFAULT 0 NOT NULL,
-    "weightGrams" integer DEFAULT 500 NOT NULL,
-    "lengthCm" double precision DEFAULT 20 NOT NULL,
-    "widthCm" double precision DEFAULT 15 NOT NULL,
-    "heightCm" double precision DEFAULT 10 NOT NULL,
+    "weightGrams" integer DEFAULT 500,
+    "lengthCm" double precision DEFAULT 20,
+    "widthCm" double precision DEFAULT 15,
+    "heightCm" double precision DEFAULT 10,
     "imageUrl" "text",
     "sortOrder" integer DEFAULT 0 NOT NULL,
     "createdAt" timestamp(3) without time zone DEFAULT CURRENT_TIMESTAMP NOT NULL,
@@ -1572,6 +1586,18 @@ CREATE TABLE IF NOT EXISTS "public"."SellerShippingComment" (
 ALTER TABLE "public"."SellerShippingComment" OWNER TO "postgres";
 
 
+CREATE TABLE IF NOT EXISTS "public"."SellerShippingGroup" (
+    "id" "text" NOT NULL,
+    "sellerId" "text" NOT NULL,
+    "name" "text" NOT NULL,
+    "createdAt" timestamp(3) without time zone DEFAULT CURRENT_TIMESTAMP NOT NULL,
+    "updatedAt" timestamp(3) without time zone NOT NULL
+);
+
+
+ALTER TABLE "public"."SellerShippingGroup" OWNER TO "postgres";
+
+
 CREATE TABLE IF NOT EXISTS "public"."SellerShippingMethod" (
     "id" "text" NOT NULL,
     "sellerId" "text" NOT NULL,
@@ -1594,11 +1620,30 @@ CREATE TABLE IF NOT EXISTS "public"."SellerShippingMethod" (
     "updatedAt" timestamp(3) without time zone NOT NULL,
     "kind" "public"."SellerShippingMethodKind" DEFAULT 'OWN'::"public"."SellerShippingMethodKind" NOT NULL,
     "freeHandledBy" "public"."FreeShippingHandler",
-    "deliveryComarques" "text"[] DEFAULT ARRAY[]::"text"[]
+    "deliveryComarques" "text"[] DEFAULT ARRAY[]::"text"[],
+    "freeExcludedGroupIds" "text"[] DEFAULT ARRAY[]::"text"[],
+    "rateBasis" "public"."ShippingRateBasis" DEFAULT 'FLAT'::"public"."ShippingRateBasis" NOT NULL,
+    "pickupCity" "text",
+    "pickupHours" "text",
+    "pickupPostalCode" "text",
+    "pickupStreet" "text"
 );
 
 
 ALTER TABLE "public"."SellerShippingMethod" OWNER TO "postgres";
+
+
+CREATE TABLE IF NOT EXISTS "public"."SellerShippingRate" (
+    "id" "text" NOT NULL,
+    "methodId" "text" NOT NULL,
+    "groupId" "text",
+    "upToGrams" integer,
+    "upToAmount" numeric(10,2),
+    "price" numeric(10,2) NOT NULL
+);
+
+
+ALTER TABLE "public"."SellerShippingRate" OWNER TO "postgres";
 
 
 CREATE TABLE IF NOT EXISTS "public"."SellerStoreEvent" (
@@ -1712,7 +1757,10 @@ CREATE TABLE IF NOT EXISTS "public"."Shipment" (
     "parcelLengthCm" double precision,
     "parcelWidthCm" double precision,
     "parcelHeightCm" double precision,
-    "leadTimeDays" integer DEFAULT 0 NOT NULL
+    "leadTimeDays" integer DEFAULT 0 NOT NULL,
+    "deliveryProofPublicId" "text",
+    "deliveryProofUploadedAt" timestamp(3) without time zone,
+    "pickupSnapshot" "jsonb"
 );
 
 
@@ -2041,8 +2089,18 @@ ALTER TABLE ONLY "public"."SellerShippingComment"
 
 
 
+ALTER TABLE ONLY "public"."SellerShippingGroup"
+    ADD CONSTRAINT "SellerShippingGroup_pkey" PRIMARY KEY ("id");
+
+
+
 ALTER TABLE ONLY "public"."SellerShippingMethod"
     ADD CONSTRAINT "SellerShippingMethod_pkey" PRIMARY KEY ("id");
+
+
+
+ALTER TABLE ONLY "public"."SellerShippingRate"
+    ADD CONSTRAINT "SellerShippingRate_pkey" PRIMARY KEY ("id");
 
 
 
@@ -2431,6 +2489,10 @@ CREATE INDEX "Product_sellerId_idx" ON "public"."Product" USING "btree" ("seller
 
 
 
+CREATE INDEX "Product_shippingGroupId_idx" ON "public"."Product" USING "btree" ("shippingGroupId");
+
+
+
 CREATE UNIQUE INDEX "Product_slug_key" ON "public"."Product" USING "btree" ("slug");
 
 
@@ -2599,7 +2661,19 @@ CREATE INDEX "SellerShippingComment_sellerId_createdAt_idx" ON "public"."SellerS
 
 
 
+CREATE INDEX "SellerShippingGroup_sellerId_idx" ON "public"."SellerShippingGroup" USING "btree" ("sellerId");
+
+
+
 CREATE INDEX "SellerShippingMethod_sellerId_idx" ON "public"."SellerShippingMethod" USING "btree" ("sellerId");
+
+
+
+CREATE INDEX "SellerShippingRate_groupId_idx" ON "public"."SellerShippingRate" USING "btree" ("groupId");
+
+
+
+CREATE INDEX "SellerShippingRate_methodId_idx" ON "public"."SellerShippingRate" USING "btree" ("methodId");
 
 
 
@@ -2930,6 +3004,11 @@ ALTER TABLE ONLY "public"."Product"
 
 
 
+ALTER TABLE ONLY "public"."Product"
+    ADD CONSTRAINT "Product_shippingGroupId_fkey" FOREIGN KEY ("shippingGroupId") REFERENCES "public"."SellerShippingGroup"("id") ON UPDATE CASCADE ON DELETE SET NULL;
+
+
+
 ALTER TABLE ONLY "public"."RectificationRequest"
     ADD CONSTRAINT "RectificationRequest_invoiceRecipientId_fkey" FOREIGN KEY ("invoiceRecipientId") REFERENCES "public"."InvoiceRecipient"("id") ON UPDATE CASCADE ON DELETE CASCADE;
 
@@ -3035,8 +3114,23 @@ ALTER TABLE ONLY "public"."SellerShippingComment"
 
 
 
+ALTER TABLE ONLY "public"."SellerShippingGroup"
+    ADD CONSTRAINT "SellerShippingGroup_sellerId_fkey" FOREIGN KEY ("sellerId") REFERENCES "public"."SellerProfile"("id") ON UPDATE CASCADE ON DELETE CASCADE;
+
+
+
 ALTER TABLE ONLY "public"."SellerShippingMethod"
     ADD CONSTRAINT "SellerShippingMethod_sellerId_fkey" FOREIGN KEY ("sellerId") REFERENCES "public"."SellerProfile"("id") ON UPDATE CASCADE ON DELETE CASCADE;
+
+
+
+ALTER TABLE ONLY "public"."SellerShippingRate"
+    ADD CONSTRAINT "SellerShippingRate_groupId_fkey" FOREIGN KEY ("groupId") REFERENCES "public"."SellerShippingGroup"("id") ON UPDATE CASCADE ON DELETE CASCADE;
+
+
+
+ALTER TABLE ONLY "public"."SellerShippingRate"
+    ADD CONSTRAINT "SellerShippingRate_methodId_fkey" FOREIGN KEY ("methodId") REFERENCES "public"."SellerShippingMethod"("id") ON UPDATE CASCADE ON DELETE CASCADE;
 
 
 
