@@ -65,7 +65,8 @@ CREATE TYPE "public"."AccountingEventKind" AS ENUM (
     'OTHER',
     'DEBT_SETOFF',
     'DISPUTE_LOSS',
-    'PAYOUT_FAILURE'
+    'PAYOUT_FAILURE',
+    'SUBSCRIPTION_REFUND'
 );
 
 
@@ -327,7 +328,8 @@ CREATE TYPE "public"."NotificationType" AS ENUM (
     'BUYER_DIGITAL_READY',
     'SELLER_DRAFT_PRODUCTS_REMINDER',
     'SELLER_DELIVERY_PROOF_REJECTED',
-    'ORDER_READY_FOR_PICKUP'
+    'ORDER_READY_FOR_PICKUP',
+    'SELLER_SUBSCRIPTION_CREDIT_NOTE'
 );
 
 
@@ -394,7 +396,8 @@ CREATE TYPE "public"."PlatformInvoiceConcept" AS ENUM (
     'SHIPPING_RECTIFY',
     'UNSERVED_FEE',
     'SHIPPING_RECHARGE',
-    'SUBSCRIPTION'
+    'SUBSCRIPTION',
+    'SUBSCRIPTION_RECTIFY'
 );
 
 
@@ -1692,7 +1695,8 @@ CREATE TABLE IF NOT EXISTS "public"."SellerSubscriptionPayment" (
     "platformInvoiceId" "text",
     "lastError" "text",
     "createdAt" timestamp(3) without time zone DEFAULT CURRENT_TIMESTAMP NOT NULL,
-    "updatedAt" timestamp(3) without time zone NOT NULL
+    "updatedAt" timestamp(3) without time zone NOT NULL,
+    "refundedAt" timestamp(3) without time zone
 );
 
 
