@@ -329,7 +329,8 @@ CREATE TYPE "public"."NotificationType" AS ENUM (
     'SELLER_DRAFT_PRODUCTS_REMINDER',
     'SELLER_DELIVERY_PROOF_REJECTED',
     'ORDER_READY_FOR_PICKUP',
-    'SELLER_SUBSCRIPTION_CREDIT_NOTE'
+    'SELLER_SUBSCRIPTION_CREDIT_NOTE',
+    'SELLER_BROKEN_LINK'
 );
 
 
@@ -621,7 +622,9 @@ ALTER TYPE "public"."ShippingRateBasis" OWNER TO "postgres";
 
 CREATE TYPE "public"."StoreEventType" AS ENUM (
     'VIEW',
-    'LINK_CLICK'
+    'LINK_CLICK',
+    'PRODUCT_VIEW',
+    'PURCHASE_CLICK'
 );
 
 
@@ -636,7 +639,10 @@ CREATE TYPE "public"."StoreLinkKind" AS ENUM (
     'YOUTUBE',
     'PINTEREST',
     'X',
-    'LINKEDIN'
+    'LINKEDIN',
+    'WHATSAPP',
+    'EMAIL',
+    'PHONE'
 );
 
 
@@ -1259,7 +1265,12 @@ CREATE TABLE IF NOT EXISTS "public"."Product" (
     "personalizationNoteEnabled" boolean DEFAULT true NOT NULL,
     "personalizationImageMax" integer DEFAULT 0 NOT NULL,
     "personalizationImageRequired" boolean DEFAULT false NOT NULL,
-    "shippingGroupId" "text"
+    "shippingGroupId" "text",
+    "externalUrl" "text",
+    "priceFrom" boolean DEFAULT false NOT NULL,
+    "externalUrlBrokenAt" timestamp(3) without time zone,
+    "externalUrlCheckedAt" timestamp(3) without time zone,
+    "externalUrlFailures" integer DEFAULT 0 NOT NULL
 );
 
 
@@ -1531,7 +1542,8 @@ CREATE TABLE IF NOT EXISTS "public"."SellerProfile" (
     "traderCertificationVersion" "text",
     "traderCertifiedAt" timestamp(3) without time zone,
     "holdedCreditorAccount" integer,
-    "bannerUrl" "text"
+    "bannerUrl" "text",
+    "primaryPurchaseLink" "public"."StoreLinkKind"
 );
 
 
@@ -1656,7 +1668,8 @@ CREATE TABLE IF NOT EXISTS "public"."SellerStoreEvent" (
     "linkKind" "public"."StoreLinkKind",
     "source" "public"."StoreTrafficSource" NOT NULL,
     "locale" "text" NOT NULL,
-    "createdAt" timestamp(3) without time zone DEFAULT CURRENT_TIMESTAMP NOT NULL
+    "createdAt" timestamp(3) without time zone DEFAULT CURRENT_TIMESTAMP NOT NULL,
+    "productId" "text"
 );
 
 
@@ -1669,7 +1682,10 @@ CREATE TABLE IF NOT EXISTS "public"."SellerStoreLink" (
     "kind" "public"."StoreLinkKind" NOT NULL,
     "url" "text" NOT NULL,
     "createdAt" timestamp(3) without time zone DEFAULT CURRENT_TIMESTAMP NOT NULL,
-    "updatedAt" timestamp(3) without time zone NOT NULL
+    "updatedAt" timestamp(3) without time zone NOT NULL,
+    "brokenAt" timestamp(3) without time zone,
+    "checkedAt" timestamp(3) without time zone,
+    "failures" integer DEFAULT 0 NOT NULL
 );
 
 
@@ -2685,6 +2701,10 @@ CREATE INDEX "SellerStoreEvent_createdAt_idx" ON "public"."SellerStoreEvent" USI
 
 
 
+CREATE INDEX "SellerStoreEvent_productId_createdAt_idx" ON "public"."SellerStoreEvent" USING "btree" ("productId", "createdAt");
+
+
+
 CREATE INDEX "SellerStoreEvent_sellerId_createdAt_idx" ON "public"."SellerStoreEvent" USING "btree" ("sellerId", "createdAt");
 
 
@@ -3135,6 +3155,11 @@ ALTER TABLE ONLY "public"."SellerShippingRate"
 
 ALTER TABLE ONLY "public"."SellerShippingRate"
     ADD CONSTRAINT "SellerShippingRate_methodId_fkey" FOREIGN KEY ("methodId") REFERENCES "public"."SellerShippingMethod"("id") ON UPDATE CASCADE ON DELETE CASCADE;
+
+
+
+ALTER TABLE ONLY "public"."SellerStoreEvent"
+    ADD CONSTRAINT "SellerStoreEvent_productId_fkey" FOREIGN KEY ("productId") REFERENCES "public"."Product"("id") ON UPDATE CASCADE ON DELETE SET NULL;
 
 
 
