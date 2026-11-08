@@ -4,7 +4,7 @@ SET session_replication_role = replica;
 -- PostgreSQL database dump
 --
 
--- \restrict UJBgq5N7g09vxBVwf9eTLazMjXH4dRfvdcVAFPGkectYPH3bQsFltyJsaRPdjrR
+-- \restrict kqgsxPNFLA7TwomKIH7NLPSgZpxKvbjBNTeIK3P5PpxgD4Th3vdo1dbrk9cjODL
 
 -- Dumped from database version 17.6
 -- Dumped by pg_dump version 17.11
@@ -255,7 +255,7 @@ cmvx82lez000008icyj3uqci2	bt:txn_1UWoT9GrwsKLqRAQfN19I55s	FEES	SKIPPED	txn_1UWoT
 cmvxf1cmp000108jsu8t22o8k	bt:txn_1UWreSGrwsKLqRAQz7adHCBP	FEES	SKIPPED	txn_1UWreSGrwsKLqRAQz7adHCBP	stripe_fee	\N	-6.00	0.00	2026-11-01 05:49:56	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	FEE_IN_MONTH {"month":"2026-10"}	\N	0	\N	\N	\N	2026-11-01 05:55:03.601	2026-11-01 05:55:03.601
 cmvxf1cmp000208jsg0ckelxa	bt:txn_1UWreSGrwsKLqRAQWtal0CKd	FEES	SKIPPED	txn_1UWreSGrwsKLqRAQWtal0CKd	stripe_fee	\N	-0.40	0.00	2026-11-01 05:49:55	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	FEE_IN_MONTH {"month":"2026-10"}	\N	0	\N	\N	\N	2026-11-01 05:55:03.601	2026-11-01 05:55:03.601
 cmvxf1cmp000308jsqp57jjg9	bt:txn_1UWrdAGrwsKLqRAQBVS7oMVt	FEES	SKIPPED	txn_1UWrdAGrwsKLqRAQBVS7oMVt	stripe_fee	\N	-0.15	0.00	2026-11-01 05:48:36	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	FEE_IN_MONTH {"month":"2026-10"}	\N	0	\N	\N	\N	2026-11-01 05:55:03.601	2026-11-01 05:55:03.601
-cmw1aw2o2000l08l201c9ajst	fees:2026-10	FEES	WAITING	\N	\N	\N	-14.12	0.00	2026-10-31 22:59:59.999	\N	\N	\N	\N	\N	\N	{"reason": "FEES_INVOICE_MISSING {\\"month\\":\\"2026-10\\",\\"amount\\":14.12}", "entries": [], "outcome": "waiting", "movement": {"date": "2026-10-31", "amount": -14.12, "description": "Comisiones de Stripe de 2026-10 [fees:2026-10]"}, "documents": []}	6aea69cc146dcb5e6e0d41b1	234.85	\N	FEES_INVOICE_MISSING {"month":"2026-10","amount":14.12}	\N	1	\N	\N	\N	2026-11-03 23:10:03.65	2026-11-07 01:55:03.849
+cmw1aw2o2000l08l201c9ajst	fees:2026-10	FEES	WAITING	\N	\N	\N	-14.12	0.00	2026-10-31 22:59:59.999	\N	\N	\N	\N	\N	\N	{"reason": "FEES_INVOICE_MISSING {\\"month\\":\\"2026-10\\",\\"amount\\":14.12}", "entries": [], "outcome": "waiting", "movement": {"date": "2026-10-31", "amount": -14.12, "description": "Comisiones de Stripe de 2026-10 [fees:2026-10]"}, "documents": []}	6aea69cc146dcb5e6e0d41b1	234.85	\N	FEES_INVOICE_MISSING {"month":"2026-10","amount":14.12}	\N	1	\N	\N	\N	2026-11-03 23:10:03.65	2026-11-08 00:25:03.977
 cmvycsnes000008l55fzjvt3p	bt:txn_3UX6TDGrwsKLqRAQ1zBUxDAD	SUBSCRIPTION_CHARGE	RECONCILED	txn_3UX6TDGrwsKLqRAQ1zBUxDAD	charge	ch_3UX6TDGrwsKLqRAQ1CeM5yHE	72.60	1.34	2026-11-01 21:39:20	\N	cmveacks3000808jwogg6z0kj	\N	\N	cmvycrrzo000007l2hanl2bca	\N	{"reason": null, "entries": [], "outcome": "ready", "movement": {"date": "2026-11-01", "amount": 72.6, "description": "Stripe ch_3UX6TDGrwsKLqRAQ1CeM5yHE · suscripción de Komorebi artesanal [bt:txn_3UX6TDGrwsKLqRAQ1zBUxDAD]"}, "documents": [{"type": "invoice", "label": "Factura de suscripción", "amount": 72.6, "holdedId": "6ae7b18cde1a9b61820a3f17"}]}	6ae7b1b59f13c584870496f2	248.97	\N	\N	\N	1	\N	2026-11-01 21:40:03.63	2026-11-01 21:40:03.63	2026-11-01 21:40:04.612	2026-11-01 21:40:06.456
 cmvyp4auc000a08kz5bffr3v8	bt:txn_1UXBjGGrwsKLqRAQW8fL6TpP	FEES	SKIPPED	txn_1UXBjGGrwsKLqRAQW8fL6TpP	stripe_fee	\N	-0.51	0.00	2026-11-02 03:16:13	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	FEE_IN_MONTH {"month":"2026-11"}	\N	0	\N	\N	\N	2026-11-02 03:25:03.588	2026-11-02 03:25:03.588
 cmvysvcop000008jkwx3pb0yb	bt:txn_1UXDQOGrwsKLqRAQgKxkLzQR	FEES	SKIPPED	txn_1UXDQOGrwsKLqRAQgKxkLzQR	stripe_fee	\N	-0.10	0.00	2026-11-02 05:04:52	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	FEE_IN_MONTH {"month":"2026-11"}	\N	0	\N	\N	\N	2026-11-02 05:10:04.537	2026-11-02 05:10:04.537
@@ -533,6 +533,11 @@ cmw569wr0000108ic7whh47my	665454963.jc@gmail.com	$2b$12$lHG/o9AlLx9rwR7wTgoHneyL
 cmw57ltnx000608icokjo63df	maitebortbcn@gmail.com	$2b$12$z3CQD7q6txcTYZuXVUE8fuvQS4OnA/KcrB9vB51WKemjFNzuM2k8u	Maite Bort Perez	BUYER	ca	\N	7abd63ccbeeefcbf388ae5482d625e75b20195873a5b546272c1382e8ba6ee1e	\N	\N	f	2026-11-06 16:49:11.277	2026-11-06 16:49:11.277	\N	1956-10-29 00:00:00	\N	2026-11-06 16:49:11.27	1.0	0	f	\N	\N	\N	\N
 cmw5ca6oy000208lcebwin3ih	faketest@faketest.com	$2b$12$nkXsY3M0/iLBgrkVEThf2u051mht/WMFdenENFrpCUQAu0E4fJ8Xy	Test Novembre Novembre	SELLER	ca	\N	ea68175d9c876dd50541c96f017fe8c0dd481ff93433ba4609f17e195aba4038	\N	\N	f	2026-11-06 19:00:06.37	2026-11-06 19:00:06.37	\N	1993-07-10 00:00:00	\N	2026-11-06 19:00:06.339	1.0	0	f	\N	\N	\N	\N
 cmw5fzbv0000008l5eu1e87kb	doctoraolgamas@gmail.com	$2b$12$Jz6UtCMFEgtEcJEyzIQ2yOHBnw5lTBcLQUhXHf0G8U758jm/mGi3.	Olga Mas Sariola	BUYER	ca	2026-11-06 20:43:56.894	\N	\N	\N	f	2026-11-06 20:43:38.317	2026-11-06 20:43:56.898	\N	1959-06-21 00:00:00	\N	2026-11-06 20:43:38.284	1.0	0	f	\N	\N	\N	\N
+cmw619yvs000208jnsqbvasci	damiaclotacolom@gmail.com	$2b$12$snl860.h.hG/WomWUmI/iud2Pm1E6nge4hyaGm9IAi2p.3f5z73Lu	Damia Clota	BUYER	ca	2026-11-07 06:40:07.17	\N	\N	\N	f	2026-11-07 06:39:46.648	2026-11-07 06:40:07.172	\N	1965-09-29 00:00:00	\N	2026-11-07 06:39:46.611	1.0	0	f	\N	\N	\N	\N
+cmw6fube7000708jjufq7gbdv	aguilar@mediterrani.club	$2b$12$wY1bhztS/jmUKqvmw7JUTetlEqWScTBGXbzllrhEnZLiyjlRrnQje	Oscar Aguilar	BUYER	ca	2026-11-07 13:28:07.008	\N	\N	\N	f	2026-11-07 13:27:30.607	2026-11-07 13:28:07.01	\N	1972-03-25 00:00:00	\N	2026-11-07 13:27:30.58	1.0	0	f	\N	\N	\N	\N
+cmw6j5x4f000308jqhi0yn2ml	nievesnaval@yahoo.es	$2b$12$.HKNnQLzp6pXHbkhwRFxT.mr2I6h0stf7fjKuwpg9.jdyU2yN6Zyi	Neus Escamez	BUYER	ca	2026-11-07 15:00:46.394	\N	\N	\N	f	2026-11-07 15:00:30.831	2026-11-07 15:00:46.398	\N	1955-07-24 00:00:00	\N	2026-11-07 15:00:30.804	1.0	0	f	\N	\N	\N	\N
+cmw6kl3wp000b08jqz9weyx14	ferratorplub@gmail.com	$2b$12$RfbmaCpvgGooR3aAjewjCOv0SG.NGSBKAwaPa387ERsdoY/EgH/oi	Ferran A. Torrents Perez	BUYER	ca	\N	fab6cb35214ba73fba9b8ec28e5e8eb59d8a3e87d59489f79b43cd3bbafa9b75	\N	\N	f	2026-11-07 15:40:19.081	2026-11-07 15:40:19.081	\N	1952-02-18 00:00:00	\N	2026-11-07 15:40:19.073	1.0	0	f	\N	\N	\N	\N
+cmw6zxcub000407jtztsh6ivz	mosomir3@gmail.com	$2b$12$o4wWLA2DAaBuTIoYxI8H8eOCSYSS648zpkypmBs3gQroMcCSjEmpO	MIREIA Montolio	BUYER	ca	2026-11-07 22:51:12.504	\N	\N	\N	f	2026-11-07 22:49:44.771	2026-11-07 22:51:12.508	\N	1976-01-20 00:00:00	\N	2026-11-07 22:49:44.734	1.0	0	f	\N	\N	\N	\N
 \.
 
 
@@ -566,8 +571,8 @@ cmvf45woi000608i3j2edq9ve	cmvf45wn0000008i3arq49tr0	Mel La Caseta	pau-torner-cap
 cmun1w1c8000304jyitxai684	cmu0w8aj600000bgm658h1sni	Irregular stone	irregular-stone	Botiga taller de manualitats, cursos per grans i petits, casals per infants, extraescolars, regals artesanals	Botiga taller de manualitats, cursos per grans i petits, casals per infants, extraescolars, regals artesanals	Botiga taller de manualitats, cursos per grans i petits, casals per infants, extraescolars, regals artesanals	\N	Sant Fruitós de Bages	APPROVED	\N	10.00	\N	f	f	f	f	2026-09-30 06:13:24.207	2026-09-29 19:09:36.584	2026-10-01 04:07:08.532	Sant Fruitós de Bages	ES	08272	Barcelona	Carrer de la pesca, 1	Arquitecte Gaudí, 7 3-1	\N	Sant Fruitós de Bages	ES	08272	Barcelona	ES	\N	Maria Lluïsa Jorba velasco	\N	39355403B	\N	GENERAL	656983481	irregularstone@gmail.com	1	CG-39355403B	\N	2026-09-29 19:09:36.556	1.3	\N	\N	f	f	f	t	2026-09-29 19:13:17.264	\N	t	2026-10-01 04:07:08.525	ADMIN	NONE	\N	\N	\N	\N	\N	f	\N	\N	\N	1.0	2026-09-30 17:00:35.839	\N	\N	\N
 cmpu7a2qp0002l8t2jom93w15	cmpu7a2oe0000l8t232dsj2jq	Demo CanGerard	demo-cangerard	Botiga de demostració del personal de CanGerard. Productes amb variants per provar el flux de compra.	Tienda de demostración del personal de CanGerard. Productos con variantes para probar el flujo de compra.	A demo storefront run by the CanGerard team. Products carry variants so the buying flow can be exercised end-to-end.	\N	Barcelonès	APPROVED	\N	10.00	acct_1TuTE5KHMnTrRsOK	t	t	t	t	2026-05-31 19:56:21.074	2026-05-31 19:56:21.134	2026-10-01 04:21:07.681	Barcelona	ES	08036	Barcelonès	Carrer de Mallorca, 100	Carrer de Mallorca, 100	\N	Barcelona	ES	08036	Barcelonès	ES	6a5b3d40923e3f80f707805b	CanGerard Demo SL	ES · STRIPE TEST BANK ··7890	A12345674	\N	GENERAL	+34 932 000 100	admin@cangerard.cat	7	CG-A12345674	\N	\N	\N	\N	\N	f	t	f	f	2026-10-01 04:21:07.667	\N	t	2026-09-27 21:27:39.818	ADMIN	NONE	\N	\N	\N	\N	\N	f	\N	\N	\N	\N	\N	\N	\N	\N
 cmpy87w4o000204l1twrbo7ye	cmpy87vzd000004l1nekjm03g	Quota Vita	quota-vita	Whey protein amb gustos locals de crema catalana i orxata	Whey protein amb gustos locals de crema catalana i orxata	Whey protein amb gustos locals de crema catalana i orxata	\N	Premià de Mar	PENDING	\N	10.00	\N	f	f	f	f	\N	2026-06-03 15:33:43.465	2026-06-03 15:33:43.465	\N	ES	\N	\N	\N	\N	\N	\N	ES	\N	\N	ES	\N	\N	\N	\N	\N	GENERAL	683338038	\N	1	\N	\N	\N	\N	\N	\N	f	t	f	f	\N	\N	f	\N	\N	NONE	\N	\N	\N	\N	\N	f	\N	\N	\N	\N	\N	\N	\N	\N
+cmumzn74i000504l6rajo6gsl	cmumzn73d000004l6npsfmulq	Moodscandles	moodscandles	Espelmes aromatiques,waxmels fets amb sera de soja i coco	Aromas artesanales, wax melts elaborados con cera de soja y coco. También hacemos creamers de cera.	Aromatic spelts, waxmels fets with soy and coconut,	\N	El vendrell	APPROVED	\N	10.00	acct_1UM3RVGWt6Kg2XM9	f	f	f	f	2026-09-29 18:39:27.088	2026-09-29 18:06:44.905	2026-11-08 02:30:02.613	El vendrell	ES	43700	Baix penedes	Carrer de Cèsar Martinell i Brunet	Cesar martinell i brunet 26 2-1	\N	El vendrell	ES	43700	Tarragona	ES	6abe20a6ca53b128ca08124d	Edgar saperas cuadros	\N	46410564Z	\N	GENERAL	662581506	info@moodscandles.es	2	CG-46410564Z	\N	2026-11-06 12:21:24.007	1.5	\N	\N	f	f	t	t	2026-09-29 18:11:25.283	cus_VLn2G8UANr6S8b	t	2026-09-29 18:50:04.657	ADMIN	CANCELED	MONTHLY	sub_1UL5TmGrwsKLqRAQ2iDMmLE7	10.00	2026-10-13 18:09:34	2026-10-13 18:09:34	f	2026-09-29 18:50:04	2026-09-29 18:50:44	2026-09-29 18:09:34	1.0	2026-09-30 19:31:30.446	41000004	\N	\N
 cmu400wnd000804l46nzu9ujl	cmu3zvuoo000404jmp0tk5c9h	Cafès Bofarull	cafes-bofarull	Torradores de café des del 1925	Torradores de café des del 1925	Torradores de café des del 1925	\N	Badalona	APPROVED	\N	10.00	\N	f	f	f	f	2026-09-16 11:31:05.978	2026-09-16 11:09:47.209	2026-10-05 08:05:39.97	Badalona	ES	08912	Barcelona	Alfons XII, 27	Alfons XII, 27	\N	Badalona	ES	08912	Barcelona	ES	\N	CAFES BOFARULL S.L.	\N	B08981938	\N	GENERAL	933993757	info@cafesbofarull.com	1	CG-B08981938	25.00842/B	2026-10-05 08:05:39.9	1.3	\N	\N	f	t	f	f	\N	\N	t	2026-09-27 21:25:50.859	ADMIN	NONE	\N	\N	\N	\N	\N	f	\N	\N	\N	1.0	2026-10-05 08:05:39.9	\N	\N	\N
-cmumzn74i000504l6rajo6gsl	cmumzn73d000004l6npsfmulq	Moodscandles	moodscandles	Espelmes aromatiques,waxmels fets amb sera de soja i coco	Aromas artesanales, wax melts elaborados con cera de soja y coco. También hacemos creamers de cera.	Aromatic spelts, waxmels fets with soy and coconut,	\N	El vendrell	APPROVED	\N	10.00	acct_1UM3RVGWt6Kg2XM9	f	f	f	f	2026-09-29 18:39:27.088	2026-09-29 18:06:44.905	2026-11-07 03:30:01.365	El vendrell	ES	43700	Baix penedes	Carrer de Cèsar Martinell i Brunet	Cesar martinell i brunet 26 2-1	\N	El vendrell	ES	43700	Tarragona	ES	6abe20a6ca53b128ca08124d	Edgar saperas cuadros	\N	46410564Z	\N	GENERAL	662581506	info@moodscandles.es	2	CG-46410564Z	\N	2026-11-06 12:21:24.007	1.5	\N	\N	f	f	t	t	2026-09-29 18:11:25.283	cus_VLn2G8UANr6S8b	t	2026-09-29 18:50:04.657	ADMIN	CANCELED	MONTHLY	sub_1UL5TmGrwsKLqRAQ2iDMmLE7	10.00	2026-10-13 18:09:34	2026-10-13 18:09:34	f	2026-09-29 18:50:04	2026-09-29 18:50:44	2026-09-29 18:09:34	1.0	2026-09-30 19:31:30.446	41000004	\N	\N
 cmtmtvvcf000504l2a133x04p	cmtmtvvbf000004l2sry7757s	Agrícola i SC La Ginesta SCCL	agricola-i-sc-la-ginesta-sccl	Cooperativa centenaria de la Ribera d'Ebre amb productes de qualitat a preu molt competitiu!	Cooperativa centenaria de la Ribera d'Ebre con productos de calidad a precio competitivo.	A century-old cooperative in the Ribera d’Ebre region, offering high-quality products at very competitive prices!	\N	Ginestar	APPROVED	\N	10.00	acct_1UCGa9GShPWkHvXY	t	t	t	t	2026-09-04 10:57:10.27	2026-09-04 10:45:49.515	2026-10-18 19:29:36.019	GINESTAR	ES	43748	Tarragona	PLAÇA CATALUNYA 3-5	PLAÇA CATALUNYA 3-5	\N	GINESTAR	ES	43748	Tarragona	ES	6abcf4091a015b7f650df2d5	Agrícola i Secció de Crèdit La Ginesta SCCL	ES · CAIXABANK, S.A. ··6812	F43011832	\N	GENERAL	684416705	coopginestar@gmail.com	3	CG-F43011832	16.01928/T	2026-09-26 10:41:17.141	1.3	\N	\N	f	t	t	t	2026-10-01 06:31:18.384	\N	t	2026-09-27 20:12:53.682	ADMIN	NONE	\N	\N	\N	\N	\N	f	\N	\N	\N	1.0	2026-10-01 06:24:18.42	41000002	\N	\N
 cmu3ryyjw000504l5hlnyg2n6	cmu3ryyim000004l52dgivdic	Halcyon Home	halcyon-home	Productes per animals, plantes i persones	Productos para animales, plantas y personas	Productes for animals, plants and people	\N	Taradell	APPROVED	\N	10.00	\N	f	f	f	f	2026-09-16 07:38:15.514	2026-09-16 07:24:19.39	2026-09-27 20:13:32.595	Taradell	ES	08552	Barcelona	Carrer Treball, 19 - Polígon Industrial "El Vivet"	Carrer Treball, 19	Polígon Industrial El Vivet	Taradell	ES	08552	Barcelona	ES	\N	Juno Manufacturing S.L.	\N	B44728319	\N	GENERAL	938126964	info@halcyon-home.com	1	CG-B44728319	\N	2026-09-16 07:24:19.364	1.2	\N	\N	f	t	f	f	\N	\N	t	2026-09-27 20:13:32.589	ADMIN	NONE	\N	\N	\N	\N	\N	f	\N	\N	\N	\N	\N	\N	\N	\N
 cmtkbs20n000504l5iyl6fo32	cmtkbit56000004l7wf1d6fqr	Siris	siris	Creo a partir de cera d’abella verge procedent d’epicultors ecològics locals	Creo a partir de cera de abeja virgen procedente de epicultores ecologicos locales	I create using virgin beeswax from local organic beekeepers.	\N	Manlleu	APPROVED	\N	10.00	\N	f	f	f	f	2026-09-04 07:41:36.349	2026-09-02 16:43:26.135	2026-09-27 20:13:48.17	Manlleu	ES	08560	Osona	Carrer Alta Cortada, 24	Carrer Alta Cortada, 24	\N	Manlleu	ES	08560	Barcelona	ES	\N	Ingrid Mas	\N	33958682X	\N	GENERAL	606308900	ingridxybonn@gmail.com	1	CG-33958682X	\N	2026-09-25 09:56:50.407	1.3	\N	\N	f	t	f	t	2026-09-25 09:57:36.967	\N	t	2026-09-27 20:13:48.166	ADMIN	NONE	\N	\N	\N	\N	\N	f	\N	\N	\N	\N	\N	\N	\N	\N
@@ -3950,17 +3955,57 @@ cmw52hty5000007ileiyzx48u	\N	5e4983ce-102e-4577-8196-5cba811c5b7a	cmuuzbt4200020
 cmw595dq3000008lfscfv4y0z	\N	03ceca5b-430c-41cc-8f79-8e875c4af802	cmur4m878000004kxd1u64qfx	1	2026-11-06 17:32:23.355	2026-11-06 17:32:23.355	f	cmur4m88l000204kxieyoa1ux	\N	[]
 cmw5df4su000208lbbtg5da3g	\N	c2b256a0-5391-45f5-ba17-1d6aacddc16b	cmto3x3pp000104l0x1i5m9sm	1	2026-11-06 19:31:56.815	2026-11-06 19:31:56.815	f	\N	\N	[]
 cmw5ivj4l000008jvyn3kdbt6	\N	0966239d-5782-45a4-8e69-9ce698164465	cmvgci5fz5t9523nxvau258zj	1	2026-11-06 22:04:39.957	2026-11-06 22:04:39.957	f	\N	\N	[]
+cmw60jcij000207jvvmop4ucg	\N	39bb8f18-e4d7-4c23-bf4a-b2da685ff44c	cmuvfvo9t000004le2v4m7me7	2	2026-11-07 06:19:04.603	2026-11-07 06:19:09.445	f	\N	\N	[]
+cmw61r0o4000608kw5erkvkcv	\N	43cce416-cdd2-4045-9e3c-d5f180b6dea0	cmtzmn2bq000204l7z4lguvy8	1	2026-11-07 06:53:02.116	2026-11-07 06:53:02.116	f	\N	\N	[]
+cmw669lcw000108jksa5a09an	\N	ccffe566-5a62-452f-9160-6e3dc61fd2f9	cmvm3k0dpavpw2cjnvcthxvak	2	2026-11-07 08:59:27.2	2026-11-07 08:59:38.544	f	cmvm3k0i3avpy0v0xcn0e6x4h	\N	[]
+cmw695ajv000e08jk1iuyofjv	\N	cc4fd766-dbc0-4103-82f8-836ed14cc4f4	cmu2w6dsn000004i891n56zb9	1	2026-11-07 10:20:05.419	2026-11-07 10:20:05.419	f	cmu2w6dtg000204i8uyllc026	\N	[]
+cmw697s28000g08jkz5p14ri7	\N	4bd78c3d-7af4-453d-adff-ed8f0e657c2e	cmt1kquvz000004jrcsdsmouh	1	2026-11-07 10:22:01.424	2026-11-07 10:22:01.424	f	cmt2jepy2000c04kzz164jfyt	\N	[]
+cmw69cktr000h08jk1kc4l3np	\N	86f90e6d-08c6-4d28-85dc-be3631fb53ad	cmvm3k1gbavqa46t10osu8iq4	1	2026-11-07 10:25:45.327	2026-11-07 10:25:45.327	f	\N	\N	[]
+cmw6c51u9000008l2lmheaa1p	\N	60b304ef-a99d-4815-9a63-9341cf67ff67	cmtr1fuic000704jyas750pfv	1	2026-11-07 11:43:52.978	2026-11-07 11:43:52.978	f	cmtr1fuit000c04jy7fxg30tw	\N	[]
+cmw6ebcj4000008jjjuck1xrp	\N	f3c47792-c975-4806-9df1-45dfdf70259e	cmutlbg93000404k2m6doasub	1	2026-11-07 12:44:46.001	2026-11-07 12:44:46.001	f	\N	\N	[]
+cmw6eeznw000108l8pexmlxdr	\N	f3c47792-c975-4806-9df1-45dfdf70259e	cmvedoarz43a82utw6t7bh9rv	1	2026-11-07 12:47:35.948	2026-11-07 12:47:35.948	f	\N	\N	[]
+cmw6epiam000108jv0p1zeoky	\N	3b4e9176-f13b-4a62-8fc8-6fc5e156a62d	cmt7iosd7000c04l211qrolwb	1	2026-11-07 12:55:46.654	2026-11-07 12:55:46.654	f	\N	\N	[]
+cmw6f0w72000308jj2jya3vl5	\N	7f1fe404-738f-4cef-b3d7-68dd33dd5aee	cmvgci31m5t7o0awsg82t0738	1	2026-11-07 13:04:37.886	2026-11-07 13:04:37.886	f	cmvgci3915t7t3o3z2nso7c1p	\N	[]
+cmw6frw5o000408l891xpdd6w	cmw6fube7000708jjufq7gbdv	\N	cmvgci2hn5t7c1kvab120x1ey	1	2026-11-07 13:25:37.549	2026-11-07 13:27:45.826	f	cmvgci2ov5t7g4e8nuvyh622v	\N	[]
+cmw6i2v1q000308l0zzyoo64g	\N	835e856c-8767-481d-8bcb-28f42dde4405	cmvgci5wo5t9b50nrjhpwbgym	1	2026-11-07 14:30:08.558	2026-11-07 14:30:08.558	f	\N	\N	[]
+cmw6iah9e000608l5593jxin4	\N	80c8d692-0bc3-473e-9c45-feae5f9470a1	cmvedo941439f36ro1z9kg0hf	1	2026-11-07 14:36:03.938	2026-11-07 14:36:03.938	f	\N	\N	[]
+cmw6ipzjs000008kz2ncnsllz	\N	075b12a1-247e-4ddc-a062-440452e76952	cmuu8eebn000004jk58kq2qhc	1	2026-11-07 14:48:07.48	2026-11-07 14:48:07.48	f	\N	\N	[]
+cmw6lrxwt000308l8agjne2sd	\N	4f78cdc8-609c-4b44-b04b-6c38b499e757	cmucnq44o000904jtj2mbfjtx	1	2026-11-07 16:13:37.517	2026-11-07 16:13:37.517	f	cmucnq45e000e04jt8vjkh8wd	\N	[]
+cmw6rsj6e000008jmvwv4o9hc	\N	3af03936-3946-4f83-bc69-4c807d65c612	cmvf74hg6sc4o0ai301uxe3u2	1	2026-11-07 19:02:02.774	2026-11-07 19:02:02.774	f	\N	\N	[]
+cmw6s2jf0000108jtlfdz3xzr	\N	3af03936-3946-4f83-bc69-4c807d65c612	cmvf74dg3sc364hnaa10tkoq4	1	2026-11-07 19:09:49.644	2026-11-07 19:09:49.644	f	\N	\N	[]
+cmw6yt95z000007kz2d1yivze	cmw6zxcub000407jtztsh6ivz	\N	cmuvhumnr000004jjiphcgc38	1	2026-11-07 22:18:33.768	2026-11-07 22:50:02.608	f	cmuvhump0000304jjwela83kj	\N	[]
+cmw6z01ak000608jyjcpuutws	cmw6zxcub000407jtztsh6ivz	\N	cmvgci5fz5t9523nxvau258zj	1	2026-11-07 22:23:50.156	2026-11-07 22:50:02.627	f	\N	\N	[]
+cmw6z084n000108l8o3zndjkr	cmw6zxcub000407jtztsh6ivz	\N	cmuu8eebn000004jk58kq2qhc	1	2026-11-07 22:23:59.015	2026-11-07 22:50:02.638	f	\N	\N	[]
+cmw6zj3xm000108kz3ej7da53	cmw6zxcub000407jtztsh6ivz	\N	cmvm3k1gbavqa46t10osu8iq4	1	2026-11-07 22:38:40.042	2026-11-07 22:50:02.649	f	\N	\N	[]
+cmw6zjkm2000208l8csgmz5zo	cmw6zxcub000407jtztsh6ivz	\N	cmuvfvo9t000004le2v4m7me7	1	2026-11-07 22:39:01.658	2026-11-07 22:50:02.66	f	\N	\N	[]
+cmw6zmda9000207jtvku99ebj	cmw6zxcub000407jtztsh6ivz	\N	cmvgci6le5t9j00ca0n59ipze	1	2026-11-07 22:41:12.129	2026-11-07 22:50:02.671	f	\N	\N	[]
+cmw6zr0kg000207kzvk7ivvcx	cmw6zxcub000407jtztsh6ivz	\N	cmu6wll60000004jo9tymzd6o	1	2026-11-07 22:44:48.928	2026-11-07 22:50:02.683	f	cmu6wll6w000404jo31dge9om	\N	[]
+cmw74w3xz000008l4upkgt67y	\N	b435128b-a9cc-42ea-8954-7590782e0ccf	cmtzud6ij000004jqxuonkia2	1	2026-11-08 01:08:44.663	2026-11-08 01:08:44.663	f	\N	\N	[]
+cmw74xacl000108l4s04c1l2h	\N	b435128b-a9cc-42ea-8954-7590782e0ccf	cmtzu4yjk000004jiztcreer7	1	2026-11-08 01:09:39.621	2026-11-08 01:09:39.621	f	\N	\N	[]
 cmvrlzyw0000708jmkw91tved	\N	a56d1afe-9ce9-4b12-871b-b619f524824d	cmur5n9cf002k04l6kl7sks43	1	2026-10-28 04:23:19.392	2026-10-28 04:24:58.142	f	cmur5n9co002n04l6zd9dm7dr	\N	[]
 cmw4z0owo000208jvsgieh9xm	\N	01c5edd6-6fc3-4dac-a28a-f1e9afa8e237	cmtqzkuis000504l4yv6v570h	1	2026-11-06 12:48:48.408	2026-11-06 12:48:48.408	f	cmtqzkuju000804l469eyx7p2	\N	[]
 cmw4z0x81000308jv2potlex2	\N	01c5edd6-6fc3-4dac-a28a-f1e9afa8e237	cmtqzkuis000504l4yv6v570h	1	2026-11-06 12:48:59.185	2026-11-06 12:48:59.185	f	cmtqzkuju000704l4rjeaqrk0	\N	[]
 cmw52tfpd000308kx4yo3seaa	\N	5e4983ce-102e-4577-8196-5cba811c5b7a	cmvedo0oa435f3a28vq8btsul	1	2026-11-06 14:35:08.353	2026-11-06 14:35:08.353	f	\N	\N	[]
 cmw5davb7000107icu0ftcdxp	\N	c2b256a0-5391-45f5-ba17-1d6aacddc16b	cmvgci79a5t9t33jcjp2kdfgk	1	2026-11-06 19:28:37.892	2026-11-06 19:28:37.892	f	cmvgci7do5t9v3may5egfh7tt	\N	[]
 cmw5ehoid000708jstz8zypqh	\N	a750f375-eaff-40a5-aa4a-e3ef7a1ac2b7	cmtqzkuis000504l4yv6v570h	1	2026-11-06 20:01:55.285	2026-11-06 20:01:55.285	f	cmtqzkuju000804l469eyx7p2	\N	[]
+cmw612uqt000608lcoio3s30j	\N	38ef9fb2-4add-4c0c-947b-50a0ea58687a	cmtse0qeo000004lfrztwaka3	2	2026-11-07 06:34:14.693	2026-11-07 06:36:12.261	f	cmtse0qg2000204lfs193up0b	\N	[]
+cmw64t2f6000607k1i6pdxx7f	\N	bb34549c-598c-43b9-9e86-249de95fdf19	cmtse0qeo000004lfrztwaka3	1	2026-11-07 08:18:36.546	2026-11-07 08:18:36.546	f	cmtse0qg2000204lfs193up0b	\N	[]
+cmw692nq3000d08jkbali5tao	\N	86f90e6d-08c6-4d28-85dc-be3631fb53ad	cmt1ocv0x000004jssmllkc86	1	2026-11-07 10:18:02.523	2026-11-07 10:18:02.523	f	\N	\N	[]
+cmw696suh000f08jkl0bz3biy	\N	cc4fd766-dbc0-4103-82f8-836ed14cc4f4	cmvm3k0lkavq018pcf7b5bse6	1	2026-11-07 10:21:15.785	2026-11-07 10:21:15.785	f	\N	\N	[]
+cmw6aficx000208jv791mytru	\N	c98ec40f-0c87-48ed-adaa-a30754e0e5e2	cmuofgvcq000004l2kwxsjpsh	1	2026-11-07 10:56:01.713	2026-11-07 10:56:01.713	f	\N	\N	[]
+cmw6e8v74000008jvri25epy5	\N	f3c47792-c975-4806-9df1-45dfdf70259e	cmvednsip431a2qx0mujtvp6z	1	2026-11-07 12:42:50.224	2026-11-07 12:42:50.224	f	cmvednsqm431e4b3u56ag24cq	\N	[]
+cmw6ehxue000608jti47oimgh	\N	f3c47792-c975-4806-9df1-45dfdf70259e	cmvedo0u4435h06877e8xhujy	1	2026-11-07 12:49:53.558	2026-11-07 12:49:53.558	f	\N	\N	[]
+cmw6f3bv3000008l5yrkte779	\N	7f1fe404-738f-4cef-b3d7-68dd33dd5aee	cmvgci4395t8e15t7v9beess8	1	2026-11-07 13:06:31.503	2026-11-07 13:06:31.503	f	cmvgci48l5t8h38lumgk4wtty	\N	[]
 cmvsjc83m000008jvi1js4ipg	\N	4ef2dd51-2268-4556-9ce9-0a2a1853dbb0	cmveuez8fqomq4hwmo55jp2vq	1	2026-10-28 19:56:38.53	2026-10-28 19:56:38.53	f	\N	\N	[]
 cmvu4sx5z000008jqc1s4nxne	\N	58455f92-645e-43e1-a27b-27dc27756821	cmtqzkuis000504l4yv6v570h	1	2026-10-29 22:45:15.624	2026-10-29 22:45:15.624	f	cmtqzkuju000704l4rjeaqrk0	\N	[]
 cmvu50x6r000108jqs3rlp4ib	\N	58455f92-645e-43e1-a27b-27dc27756821	cmvgci21m5t723oicmbl6o70w	1	2026-10-29 22:51:28.9	2026-10-29 22:51:28.9	f	cmvgci2dk5t7a09r7abg33145	\N	[]
+cmw6i7j0f000508l5zzzugtgi	\N	835e856c-8767-481d-8bcb-28f42dde4405	cmtqzkuis000504l4yv6v570h	1	2026-11-07 14:33:46.239	2026-11-07 14:33:46.239	f	cmtqzkuju000804l469eyx7p2	\N	[]
 cmvw8wgkp000008lb6dxns87q	\N	b0e5ce12-b15c-421a-bc27-310c59d892e8	cmur5n9cf002k04l6kl7sks43	1	2026-10-31 10:15:31.562	2026-10-31 10:15:34.402	f	cmur5n9co002m04l6u4vii5jh	\N	[]
 cmvwlmtoj000508la55psgjvx	cmvwlhext000008lanikbo3ks	\N	cmuvhumnr000004jjiphcgc38	1	2026-10-31 16:11:56.995	2026-10-31 16:11:56.995	f	cmuvhump0000304jjwela83kj	\N	[]
+cmw6jql7c000507lcvaxdf9sn	\N	6b7155ef-7238-4b03-a777-3e252b5d6b2a	cmtqzkuis000504l4yv6v570h	1	2026-11-07 15:16:35.16	2026-11-07 15:16:35.16	f	cmtqzkuju000704l4rjeaqrk0	\N	[]
+cmw6n575e000708l87ecde2ec	cmpu7a2oe0000l8t232dsj2jq	\N	cmspbwr37000004lf4tfuu756	1	2026-11-07 16:51:55.635	2026-11-07 16:52:10.767	f	\N	\N	[]
+cmw6rvcdu000008jtys3yf9iy	\N	3af03936-3946-4f83-bc69-4c807d65c612	cmtqzkuis000504l4yv6v570h	1	2026-11-07 19:04:13.938	2026-11-07 19:04:13.938	f	cmtqzkuju000704l4rjeaqrk0	\N	[]
+cmw6v9nxa000007jko9ifrok5	\N	6a54333f-7348-42c2-9f1b-5fb93cc1384f	cmtse67f7000004jrtd38luus	1	2026-11-07 20:39:20.927	2026-11-07 20:39:20.927	f	cmtse67fw000204jr70dbqtn5	\N	[]
 cmw21g4lp000008kyvvdcjkad	\N	018c0481-d219-4e6c-99e6-5ceb439a21dc	cmsqr576w000004l7o0r87tr5	1	2026-11-04 11:33:29.293	2026-11-04 11:33:29.293	f	\N	\N	[]
 cmw29xrbn000008jki712tc4l	\N	4af76b3d-99a2-408a-9453-3ec43f800ae7	cmu2wfgs2000704l21zxt0qd3	1	2026-11-04 15:31:08.819	2026-11-04 15:31:08.819	f	cmu2wfgsg000904l2oxz7d56j	\N	[]
 cmw2a0cfp000108jkakw8tngd	\N	4af76b3d-99a2-408a-9453-3ec43f800ae7	cmu6uvgq6000004l9883zwa17	1	2026-11-04 15:33:09.493	2026-11-04 15:33:09.493	f	cmu6uvgr8000204l9wlk1amrr	\N	[]
@@ -4559,6 +4604,16 @@ cmw5ca6pr000608lcekga2k6q	cmw5ca6oy000208lcebwin3ih	SELLER_TERMS	t	Accepto les C
 cmw5ca6pr000708lcgt2qim4b	cmw5ca6oy000208lcebwin3ih	TRADER_SELF_CERTIFICATION	t	Declaro sota la meva responsabilitat que soc empresari o professional (autònom donat d’alta o societat), que venc a CanGerard en l’exercici de la meva activitat i no com a particular, que les dades que facilito són veraces i que només oferiré productes que compleixin la normativa aplicable.\n\nDECLARACIÓN RESPONSABLE DE CONDICIÓN DE COMERCIANTE\n(versión 1.0 · 30/09/2026)\n\nNovembre Test SL, NIF 47920372X, titular de la tienda «Test 06/11» (el «Vendedor») declara bajo su responsabilidad ante NEGOCIS DIGITALS CANGERARD, S.L., NIF B88966775 (la «Plataforma»), titular del mercado en línea accesible en cangerard.cat, cangerard.es y cangerard.com (el «Sitio»):\n\n1. CONDICIÓN DE COMERCIANTE. Que es empresario o profesional: persona física dada de alta como tal en el Censo de Empresarios, Profesionales y Retenedores de la Agencia Tributaria y en el régimen de la Seguridad Social que le corresponda, o persona jurídica válidamente constituida, con establecimiento en España; y que vende a través del Sitio con fines relacionados con su actividad comercial, empresarial, oficio o profesión, y no como particular.\n\n2. VERACIDAD DE LOS DATOS. Que los datos identificativos, de contacto y fiscales facilitados a la Plataforma son veraces, completos y actuales, y que comunicará sin demora cualquier cambio, en particular el cese de la actividad o la pérdida de la condición de empresario o profesional.\n\n3. CUMPLIMIENTO NORMATIVO. Que se compromete a ofrecer en el Sitio únicamente productos y servicios que cumplan las normas aplicables del Derecho de la Unión Europea y del Derecho español, incluidas las de seguridad de los productos, etiquetado, protección de los consumidores y fiscalidad, en los términos del artículo 30.1.e) del Reglamento (UE) 2022/2065 de Servicios Digitales.\n\n4. ACREDITACIÓN. Que aportará a requerimiento de la Plataforma la documentación que acredite lo anterior, entre otros el certificado de situación censal de la Agencia Tributaria o, en el caso de sociedades, los datos de su inscripción en el Registro Mercantil.\n\n5. CONSECUENCIAS. Que conoce que la falsedad o inexactitud de esta declaración faculta a la Plataforma para suspender o dar de baja su cuenta y retirar sus productos conforme a las Condiciones Generales de Contratación para Vendedores, y que responderá frente a la Plataforma de los perjuicios que se deriven de ella, incluidas las reclamaciones de compradores o de terceros y las sanciones administrativas.	ca	79.159.7.225	2026-11-06 19:00:06.37
 cmw5fzbw7000208l520snrtbc	cmw5fzbv0000008l5eu1e87kb	PRIVACY_NOTICE	t	Accepto les condicions de compra i he llegit la política de privadesa.	ca	188.92.252.12	2026-11-06 20:43:38.317
 cmw5fzbw7000308l5preheyod	cmw5fzbv0000008l5eu1e87kb	BUYER_TERMS	t	Accepto les condicions de compra i he llegit la política de privadesa.	ca	188.92.252.12	2026-11-06 20:43:38.317
+cmw619ywp000408jneqhpfxq7	cmw619yvs000208jnsqbvasci	PRIVACY_NOTICE	t	Accepto les condicions de compra i he llegit la política de privadesa.	ca	185.58.173.173	2026-11-07 06:39:46.648
+cmw619ywp000508jntfscf1u8	cmw619yvs000208jnsqbvasci	BUYER_TERMS	t	Accepto les condicions de compra i he llegit la política de privadesa.	ca	185.58.173.173	2026-11-07 06:39:46.648
+cmw6fubf0000908jjc7z6u3ko	cmw6fube7000708jjufq7gbdv	PRIVACY_NOTICE	t	Accepto les condicions de compra i he llegit la política de privadesa.	ca	172.56.164.31	2026-11-07 13:27:30.607
+cmw6fubf0000a08jjyfehy7sq	cmw6fube7000708jjufq7gbdv	BUYER_TERMS	t	Accepto les condicions de compra i he llegit la política de privadesa.	ca	172.56.164.31	2026-11-07 13:27:30.607
+cmw6j5x5s000508jq3nlg7lrm	cmw6j5x4f000308jqhi0yn2ml	PRIVACY_NOTICE	t	Accepto les condicions de compra i he llegit la política de privadesa.	ca	104.28.34.163	2026-11-07 15:00:30.831
+cmw6j5x5s000608jqfy9rbo86	cmw6j5x4f000308jqhi0yn2ml	BUYER_TERMS	t	Accepto les condicions de compra i he llegit la política de privadesa.	ca	104.28.34.163	2026-11-07 15:00:30.831
+cmw6kl3xw000d08jqntqdsant	cmw6kl3wp000b08jqz9weyx14	PRIVACY_NOTICE	t	Accepto les condicions de compra i he llegit la política de privadesa.	ca	188.26.220.231	2026-11-07 15:40:19.081
+cmw6kl3xw000e08jq9yv9jo3d	cmw6kl3wp000b08jqz9weyx14	BUYER_TERMS	t	Accepto les condicions de compra i he llegit la política de privadesa.	ca	188.26.220.231	2026-11-07 15:40:19.081
+cmw6zxcva000607jt7h1q9z0x	cmw6zxcub000407jtztsh6ivz	PRIVACY_NOTICE	t	Accepto les condicions de compra i he llegit la política de privadesa.	ca	147.161.110.87	2026-11-07 22:49:44.771
+cmw6zxcva000707jt37zrpb54	cmw6zxcub000407jtztsh6ivz	BUYER_TERMS	t	Accepto les condicions de compra i he llegit la política de privadesa.	ca	147.161.110.87	2026-11-07 22:49:44.771
 \.
 
 
@@ -4611,6 +4666,7 @@ cmvr6vyf8000108jp2hvbzi2l	CAREERS	Derrick	sales@trumble.bangeshop.com	Derrick Tr
 cmw1wwmfx000108l2o08zjo68	CAREERS	Jacob	johanfourievdbp@gmail.com	A free way to find new B2B clients	Hi,\r\n\r\nI'll keep this short since you didn't ask for it.\r\n\r\nI built a desktop tool called CompanyScout that finds businesses by trade and location, then pulls their email addresses and contact pages. You can search something like "marketing companies in Gauteng", get a list with names, phones, addresses and websites, and export it to CSV. Searching and exporting are free, and there's no account needed to try it.\r\n\r\nYou only pay if you want the app to send the emails or submit contact forms for you — that part is $27 a month.\r\n\r\nIt runs on your own PC, so the data stays with you rather than sitting on someone else's server. If it's not useful, the free part costs you nothing but the download.\r\n\r\nfreeb2bdata.org\r\n\r\nIf you'd rather not hear from me, reply with "no" and I won't follow up.\r\n\r\nThanks for your time, The team at FreeB2BData	ca	\N	f	\N	2026-11-04 09:26:20.829
 cmw2t9yjd000007jk77xsbv9d	SELLER_SUPPORT	Patrick	patrick@cangerard.cat	Contacta amb CanGerard · CanGerard	Hey there \r\n\r\nI wanted to reach out and let you know about our new dog harness. It's really easy to put on and take off - in just 2 seconds - and it's personalized for each dog. \r\nPlus, we offer a lifetime warranty so you can be sure your pet is always safe and stylish.\r\n\r\nWe've had a lot of success with it so far and I think your dog would love it. \r\n\r\nGet yours today with 50% OFF: https://caredogbest.com\r\n\r\nFREE Shipping - TODAY ONLY! \r\n\r\nEnjoy, \r\n\r\nPatrick	ca	\N	f	\N	2026-11-05 00:32:30.745
 cmw5n8nq0000008jpyscag33f	SELLER_SUPPORT	Albert Grau Mata	Graumata1984@gmail.com	Venda de llenya	Per vendre sacs de llenya en bosses de 10kg, de roure i olivera	ca	\N	f	\N	2026-11-07 00:06:50.905
+cmw64tvg7000707k1zc176y9f	CAREERS	Marta Miquel Grau	martamiquelg@gmail.com	Técnica en gestió	Bon dia! \r\nDes de fa un temps estic buscant una feina complementaria unes hores a la setmana (entre 5 i 10). Actualment treballo com a técnica en gestió académica a l’Institut Universitari de Salut Mental Vidal i Barraquer (IUSM-FVB-URL).\r\nM’agrada tot el tema de l’assistencia virtual, gestió carpeta de clients online, actualización de contingut web WordPress, etc… \r\nM’encanta aquest projecte i visc a Taradell tot i que treballo a Barna (faig teletreball dos dies a la setmana). \r\nSi em necessiteu i acordem condiciona aquí en teniu. Gracies!!!\r\nhttps://www.linkedin.com/in/martamiquel?utm_source=share_via&utm_content=profile&utm_medium=member_ios	ca	\N	f	\N	2026-11-07 08:19:14.167
 \.
 
 
@@ -4620,6 +4676,7 @@ cmw5n8nq0000008jpyscag33f	SELLER_SUPPORT	Albert Grau Mata	Graumata1984@gmail.com
 
 COPY "public"."Order" ("id", "orderNumber", "buyerId", "status", "subtotal", "shippingTotal", "grandTotal", "currency", "shippingAddress", "stripePaymentIntentId", "paidAt", "createdAt", "updatedAt", "shippingMarginDelta", "shippingRealCost", "shippingService", "shippingVatBreakdown", "vatBreakdown", "ebookConsentAt", "confirmationEmailedAt", "fulfillmentStartedAt", "deliveryNote") FROM stdin;
 cmupac0nz000206lrgx2hghu9	CG-20261001-OXTB7O	cmuo8uos8000004jny7tdpgz0	DELIVERED	24.50	4.25	28.75	EUR	{"city": "Lliçà de Vall", "phone": "629482510", "street": "Carrer Cerdanya 33", "country": "ES", "province": "Barcelona", "recipient": "Jordi Gaya Torras", "postalCode": "08185"}	pi_3ULfYVGrwsKLqRAQ1cq9lbfa	2026-10-01 08:42:57.351	2026-10-01 08:41:31.487	2026-10-08 08:35:06.804	0.00	4.25	correos	{"base": 3.51, "rate": 21, "cuota": 0.74}	[{"base": 23.56, "rate": 4, "cuota": 0.94}]	\N	2026-10-01 08:43:04.808	2026-10-01 08:42:57.45	\N
+cmw6n5ob6000808l8g9gju8sm	CG-20261107-Y30EHF	cmpu7a2oe0000l8t232dsj2jq	CANCELLED	24.95	4.35	29.30	EUR	{"city": "LES FRANQUESES DEL VALLES", "phone": "667717567", "street": "CARRER DE LA SERRA 46, 1-3", "country": "ES", "province": "BARCELONA", "recipient": "GERARD CASTRELO SAPERAS", "postalCode": "08520"}	pi_3UZCqkGrwsKLqRAQ0aaUt6dt	\N	2026-11-07 16:52:17.874	2026-11-07 16:52:27.599	0.00	4.35	inpost	{"base": 3.6, "rate": 21, "cuota": 0.75}	[{"base": 20.62, "rate": 21, "cuota": 4.33}]	\N	\N	\N	\N
 cmuat9ac2000104js876jcewn	CG-20260921-PB8DHG	cmpu7a2oe0000l8t232dsj2jq	DELIVERED	6.00	4.00	10.00	EUR	{"city": "LES FRANQUESES DEL VALLES", "phone": "667717567", "street": "CARRER DE LA SERRA 46, 1-3", "country": "ES", "province": "BARCELONA", "recipient": "GERARD CASTRELO SAPERAS", "postalCode": "08520"}	pi_3UHzsGGrwsKLqRAQ0cGTpCin	2026-09-21 05:39:18.39	2026-09-21 05:34:44.114	2026-09-25 05:03:48.494	0.00	4.00	inpost	{"base": 3.31, "rate": 21, "cuota": 0.69}	[{"base": 5.45, "rate": 10, "cuota": 0.55}]	\N	2026-09-21 05:39:24.455	2026-09-21 06:45:50.829	\N
 cmuo9rw2700000agmstuqfc56	CG-20260930-2VSNZ9	cmpu7a2oe0000l8t232dsj2jq	DELIVERED	10.00	5.74	15.74	EUR	{"city": "LES FRANQUESES DEL VALLES", "phone": "667717567", "street": "CARRER DE LA SERRA 46, 1-3", "country": "ES", "province": "BARCELONA", "recipient": "GERARD CASTRELO SAPERAS", "postalCode": "08520"}	pi_3ULPa6GrwsKLqRAQ0LEaCWSV	2026-09-30 15:38:45.636	2026-09-30 15:38:06.223	2026-10-02 11:20:06.684	0.00	5.74	standard	{"base": 4.74, "rate": 21, "cuota": 1}	[{"base": 8.26, "rate": 21, "cuota": 1.74}]	\N	2026-09-30 15:38:53.377	2026-09-30 15:38:45.795	\N
 cmuo13iw4000704l6mcv19w5a	CG-20260930-0EL9F0	cmuo0xl9k000104l6exl0kwcj	DELIVERED	7.00	5.74	12.74	EUR	{"city": "Granollers", "phone": "671705340", "street": "Carrer de Roger de Flor, 82, 6e3ª", "country": "ES", "province": "Barcelona", "recipient": "Pau Castrelo Saperas", "postalCode": "08401"}	pi_3ULLn2GrwsKLqRAQ1Z1IhfcN	2026-09-30 11:35:32.812	2026-09-30 11:35:12.484	2026-10-03 11:20:06.792	0.00	5.74	standard	{"base": 4.74, "rate": 21, "cuota": 1}	[{"base": 5.79, "rate": 21, "cuota": 1.21}]	\N	2026-09-30 11:35:41.211	2026-09-30 11:35:33.08	\N
@@ -4676,6 +4733,7 @@ cmupac0ox000506lrw9s2tu87	cmupac0nz000206lrgx2hghu9	cmtmtvvcf000504l2a133x04p	co
 cmuat9adf000404jsmuuancx2	cmuat9ac2000104js876jcewn	cmtttwq1d000504joleuz8k9q	inpost	4.00	\N	\N	72069654	delivered	InPost	cmuat9ac2000104js876jcewn-cmtttwq1d000504joleuz8k9q	2026-09-21 15:13:54.808	2026-09-21 05:34:44.163	2026-09-25 05:03:48.519	\N	\N	4.00	\N	\N	\N	2026-09-22 11:44:39.151	2026-09-25 05:03:48.061	\N	2026-09-21 07:12:28.418	https://pro.packlink.es/app/public/tracking/4zwXryB9k3Mdrk4pSESzc	\N	\N	\N	13763811	{"city": "CORRO D''AVALL", "kind": "locker", "name": "LOCKER LAVANDERIA EL SAFAREIG", "street": "CARRETERA DE RIBES", "carrier": "inpost_es", "postalCode": "08520", "houseNumber": "88", "carrierPointId": "ES64147"}	cangerard/shipping/labels/cmuat9adf000404jsmuuancx2.pdf	\N	f	\N	\N	\N	\N	\N	\N	\N	\N	\N	0.00	\N	\N	\N	\N	0	\N	\N	\N
 cmuo13ix7000a04l6o7rv9i9f	cmuo13iw4000704l6mcv19w5a	cmtmtvvcf000504l2a133x04p	standard	5.74	\N	\N	PQ4GEC980101719Z	delivered	Correos	cmuo13iw4000704l6mcv19w5a-cmtmtvvcf000504l2a133x04p	2026-10-01 06:34:57.452	2026-09-30 11:35:12.523	2026-10-03 11:20:06.807	\N	\N	5.74	\N	\N	\N	2026-10-01 11:05:06.474	2026-10-03 11:20:06.327	\N	2026-10-01 06:26:51.735	\N	\N	\N	\N	\N	\N	cangerard/shipping/labels/cmuo13ix7000a04l6o7rv9i9f.pdf	\N	f	ES2026PRO0002838096	2026-10-01 06:32:32.834	20679	4.92	\N	\N	DELIVERED	2026-10-03 11:20:06.327	2026-10-01 06:34:54.91	0.00	2000	17	10	50	0	\N	\N	\N
 cmvs1mwkd000507jsdemav8ow	cmvs1mwg3000007js1sfu7xj7	cmqmvftzu000504jxy963ldl9	custom	0.00	\N	\N	\N	seller_fulfilled	\N	cmvs1mwg3000007js1sfu7xj7-cmqmvftzu000504jxy963ldl9	2026-10-28 11:44:42.084	2026-10-28 11:41:03.709	2026-11-04 03:30:28.544	Enviament propi del venedor	cmuo2k98e000004jlw32hriuz	9.00	[{"base": 7.44, "rate": 21, "cuota": 1.56}]	\N	2026-11-04 03:30:28.54	\N	\N	2026-10-31 03:30:27.727	\N	\N	\N	\N	\N	\N	\N	\N	\N	f	\N	\N	\N	\N	\N	\N	\N	\N	\N	0.00	\N	\N	\N	\N	0	\N	\N	\N
+cmw6n5ocn000b08l8xufdkqdi	cmw6n5ob6000808l8g9gju8sm	cmsfp9jqk000a04lam2x5k8c6	inpost	4.35	\N	\N	\N	pending	\N	cmw6n5ob6000808l8g9gju8sm-cmsfp9jqk000a04lam2x5k8c6	\N	2026-11-07 16:52:17.927	2026-11-07 16:52:17.927	\N	\N	4.35	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	12546645	{"city": "GRANOLLERS", "kind": "servicepoint", "name": "CHUCHES Y OBJETOS DE REGALO", "street": "PLAZA CAN MONIC", "carrier": "inpost_es", "postalCode": "08402", "houseNumber": "4", "carrierPointId": "ES35763"}	\N	\N	f	\N	\N	\N	\N	\N	\N	\N	\N	\N	0.00	\N	\N	\N	\N	0	\N	\N	\N
 cmubjf7se00040agmyzl05sop	cmubjf7r800010agmu4mbz6ak	cmtttwq1d000504joleuz8k9q	correos	3.50	\N	\N	PS6C8N980298635A	delivered	Correos (punt entrega)	cmubjf7r800010agmu4mbz6ak-cmtttwq1d000504joleuz8k9q	2026-09-22 06:03:14.196	2026-09-21 17:47:10.766	2026-09-25 05:04:13.528	\N	\N	3.50	\N	\N	\N	2026-09-22 11:44:47.581	2026-09-25 05:04:13.175	\N	2026-09-22 05:46:01.701	https://www.correos.es/es/es/herramientas/localizador/envios	\N	\N	\N	10570968	{"city": "CORRÓ D'AVALL", "kind": "post_office", "name": "LES FRANQUESES DEL VALLES", "street": "CR. DE RIBES 150", "carrier": "correos", "postalCode": "08520", "carrierPointId": "0852004"}	cangerard/shipping/labels/cmubjf7se00040agmyzl05sop.pdf	\N	f	\N	\N	\N	\N	\N	\N	\N	\N	\N	0.00	\N	\N	\N	\N	0	\N	\N	\N
 cmuo3e6ql000409gmo45iykw0	cmuo3e6p5000109gmheeymr13	cmszywj3r000504k3hsrpz7a0	standard	5.74	\N	\N	\N	pending	\N	cmuo3e6p5000109gmheeymr13-cmszywj3r000504k3hsrpz7a0	\N	2026-09-30 12:39:29.182	2026-09-30 12:39:29.182	\N	\N	5.74	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	f	\N	\N	\N	\N	\N	\N	\N	\N	\N	0.00	\N	\N	\N	\N	0	\N	\N	\N
 cmuogishd000304kzk5d0o0mp	cmuogisfw000004kzj9byk8cd	cmqmvftzu000504jxy963ldl9	custom	0.00	\N	\N	\N	pending	\N	cmuogisfw000004kzj9byk8cd-cmqmvftzu000504jxy963ldl9	\N	2026-09-30 18:46:58.993	2026-09-30 18:46:58.993	Enviament propi del venedor	cmuo2k98e000004jlw32hriuz	9.00	[{"base": 7.44, "rate": 21, "cuota": 1.56}]	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	\N	f	\N	\N	\N	\N	\N	\N	\N	\N	\N	0.00	\N	\N	\N	\N	0	\N	\N	\N
@@ -4707,6 +4765,7 @@ cmuogix2r000604kz1pg0lxdd	cmuogix2b000504kz1gi683xv	cmqqamqjx000004jsgfyds5w1	cm
 cmvs1mwgi000107jsyof19nsz	cmvs1mwg3000007js1sfu7xj7	cmqqamqjx000004jsgfyds5w1	cmqmvftzu000504jxy963ldl9	Cervesa Gazoleum – Brandy Barrel Aged	https://res.cloudinary.com/gerardcsaperas/image/upload/v1782197925/cangerard/products/zqdgskn0dujyvbqeiskl.jpg	4.45	1	4.45	0.45	3.91	\N	CANCELLED	2026-10-28 11:41:03.556	2026-11-04 03:30:30.469	cmvs1mwkd000507jsdemav8ow	\N	\N	3.68	0.77	21.00	3.91	\N	\N	f	\N	[]
 cmvs1mwgi000207jsnj1jv29i	cmvs1mwg3000007js1sfu7xj7	cmqqcix3a000004lfbfbopwey	cmqmvftzu000504jxy963ldl9	Cervesa Porca Misèria	https://res.cloudinary.com/gerardcsaperas/image/upload/v1782200247/cangerard/products/wzkmbas8hpuilirkl7vy.jpg	6.00	1	6.00	0.60	5.27	\N	CANCELLED	2026-10-28 11:41:03.556	2026-11-04 03:30:30.478	cmvs1mwkd000507jsdemav8ow	\N	\N	4.96	1.04	21.00	5.27	\N	\N	f	\N	[]
 cmvs1mwgi000307jshw5fqewz	cmvs1mwg3000007js1sfu7xj7	cmqqb9q4u000204la4ly4j8g3	cmqmvftzu000504jxy963ldl9	Cervesa Jo Ray Eco (Ecològica)	https://res.cloudinary.com/gerardcsaperas/image/upload/v1782198941/cangerard/products/dseizftkpkn094jxatal.jpg	3.25	1	3.25	0.33	2.85	\N	CANCELLED	2026-10-28 11:41:03.556	2026-11-04 03:30:30.483	cmvs1mwkd000507jsdemav8ow	\N	\N	2.69	0.56	21.00	2.85	\N	\N	f	\N	[]
+cmw6n5obg000908l8pqxb56s4	cmw6n5ob6000808l8g9gju8sm	cmspbwr37000004lf4tfuu756	cmsfp9jqk000a04lam2x5k8c6	Vi Negre "A tort i a dret" - Garnatxa Negra	https://res.cloudinary.com/gerardcsaperas/image/upload/v1786493165/cangerard/products/eflbmn8baygsjqaaxok9.webp	24.95	1	24.95	2.50	21.92	\N	UNFULFILLED	2026-11-07 16:52:17.874	2026-11-07 16:52:17.95	cmw6n5ocn000b08l8xufdkqdi	\N	\N	20.62	4.33	21.00	0.00	\N	\N	f	\N	[]
 cmubjf7rh00020agmiaf5q9x9	cmubjf7r800010agmu4mbz6ak	cmtztz096000004kzbnibyvc9	cmtttwq1d000504joleuz8k9q	Infusió Ecològica ACTIVA - romaní, menta, sàlvia i sajolida (sense teïna)	https://res.cloudinary.com/gerardcsaperas/image/upload/v1789304946/cangerard/products/cmagml6oocupxtezkwdn.webp	6.90	1	6.90	0.69	6.07	tr_3UIBJ4GrwsKLqRAQ0yaCIcgu	DELIVERED	2026-09-21 17:47:10.724	2026-10-05 17:00:08.783	cmubjf7se00040agmyzl05sop	\N	\N	6.27	0.63	10.00	0.00	2026-10-05 17:00:08.24	\N	f	\N	[]
 cmuo9rw2p00010agmg4ivier1	cmuo9rw2700000agmstuqfc56	cmta3d47v000404ju3cdhn2ui	cmszywj3r000504k3hsrpz7a0	Moneder/targeter lona ratlles	https://res.cloudinary.com/gerardcsaperas/image/upload/v1789977553/cangerard/products/o8jn5btfbrerhoy9xudz.webp	10.00	1	10.00	1.00	8.79	tr_3ULPa6GrwsKLqRAQ0v9XHaTo	DELIVERED	2026-09-30 15:38:06.223	2026-10-19 16:30:02.243	cmuo9rw3x00030agmmiyon5uk	cmta3d48b000704juj3enmzk0	Moneder lona ratlles vermelles	8.26	1.74	21.00	0.00	2026-10-05 17:00:08.24	\N	f	\N	[]
 cmupac0o6000306lr6bro1o4h	cmupac0nz000206lrgx2hghu9	cmtse67f7000004jrtd38luus	cmtmtvvcf000504l2a133x04p	LA GINESTA Llauna Oli d’Oliva Verge Extra (2,5 litres)	https://res.cloudinary.com/gerardcsaperas/image/upload/v1788855118/cangerard/products/ezhkuv0hheuyfwrtymih.png	24.50	1	24.50	2.45	21.54	tr_3ULfYVGrwsKLqRAQ1mffR94O	DELIVERED	2026-10-01 08:41:31.487	2026-10-22 09:30:02.081	cmupac0ox000506lrw9s2tu87	cmtse67fw000304jrzyum8015	ARBEQUÍ	23.56	0.94	4.00	0.00	2026-10-11 17:00:08.189	\N	f	\N	[]
@@ -5090,7 +5149,6 @@ COPY "public"."ModerationAction" ("id", "measure", "sellerId", "productId", "rev
 --
 
 COPY "public"."Notification" ("id", "userId", "type", "payload", "readAt", "emailedAt", "createdAt") FROM stdin;
-cmuo3i94v000004jnm4t8cf51	cmtkd7opt000004lek7q4ch6b	ORDER_CANCELLED	{"orderNumber": "CG-20260930-MG72SS"}	\N	\N	2026-09-30 12:42:38.911
 cmvh02ny1000008jskw0zh59f	cmsfp9jpr000504la2pkuvnqf	SELLER_STRIPE_SETUP_REQUIRED	{"orderNumber": "CG-20260930-6S51YF"}	\N	2026-10-20 18:11:51.859	2026-10-20 18:11:51.866
 cmschno3u000604i9jmn1s0d7	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_SELLER	{"storeName": "Clos de Basella"}	2026-08-04 10:16:08.781	\N	2026-08-03 00:26:07.434
 cmup5iult000104lb8qwios0d	cmuo0xl9k000104l6exl0kwcj	ORDER_PREPARED	{"storeName": "Agrícola i SC La Ginesta SCCL", "orderNumber": "CG-20260930-0EL9F0", "itemsSummary": "1× 10 Origens - Vi blanc Macabeu"}	\N	2026-10-01 06:26:52.144	2026-10-01 06:26:52.146
@@ -5098,6 +5156,7 @@ cmschx8z4000104jz9oe0lbf0	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_PRODUCT	{"storeNam
 cmup5iuh7000004lb6k79d3jc	cmpu7a2oe0000l8t232dsj2jq	ADMIN_SHIPMENT_PREPARED	{"orderId": "cmuo13iw4000704l6mcv19w5a", "service": "standard", "storeName": "Agrícola i SC La Ginesta SCCL", "orderNumber": "CG-20260930-0EL9F0"}	2026-10-01 06:37:26.159	2026-10-01 06:26:51.974	2026-10-01 06:26:51.979
 cmup614eu000304lb68cnk7f0	cmpu7a2oe0000l8t232dsj2jq	ADMIN_SHIPPING_COMMENT	{"excerpt": "Horaris d'oficina:\\n- De dilluns a divendres, matins de 8h a 14h\\n- Dimarts i dijous, a més, tardes de 15:30 a 18h\\n- Dissabtes de 8h a 13h", "sellerId": "cmtmtvvcf000504l2a133x04p", "storeName": "Agrícola i SC La Ginesta SCCL"}	2026-10-01 06:50:18.228	2026-10-01 06:41:04.661	2026-10-01 06:41:04.662
 cmre6loqu000004kzih5cvvua	cmr0dyx6s000004let43gsqu6	SELLER_STATUS_CHANGED	{"status": "APPROVED"}	\N	2026-07-10 00:12:29.186	2026-07-10 00:12:29.19
+cmuo3i94v000004jnm4t8cf51	cmtkd7opt000004lek7q4ch6b	ORDER_CANCELLED	{"orderNumber": "CG-20260930-MG72SS"}	2026-11-07 18:27:17.781	\N	2026-09-30 12:42:38.911
 cmr0dyx8y000404le5aoc0ehm	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_SELLER	{"storeName": "Debosc"}	2026-07-13 13:01:36.839	\N	2026-06-30 08:29:57.586
 cmqqwxlq9000804jo7iz4s1bl	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_PRODUCT	{"storeName": "Quota Vita", "productTitle": "Proteína Whey gust Crema Catalana"}	2026-07-13 13:01:40.014	\N	2026-06-23 17:23:06.945
 cmqs1v7ct000304l7nqlqzou2	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Núria Verdaguer i Carbó", "email": "nuveca@gmail.com"}	2026-07-13 13:01:40.014	\N	2026-06-24 12:28:59.261
@@ -6208,6 +6267,7 @@ cmw2eiq09000708l6s9xaetqs	cmszywj2d000004k34uij63g2	SELLER_COMMISSION_INVOICE	{"
 cmw2eikj6000008l6xvlpvyz0	cmw2e05b5000008lb31o10dr0	ORDER_CONFIRMED	{"orderNumber": "CG-20261104-Z03O3K"}	2026-11-04 17:41:35.308	\N	2026-11-04 17:39:18.258
 cmw39nb3q000007lhjgw44p99	cmw2e05b5000008lb31o10dr0	ORDER_SHIPPED	{"carrier": "Correos", "storeName": "ÀCre, d'Àrea Creativa", "orderNumber": "CG-20261104-Z03O3K", "trackingNumber": "PQ4GEC980112104G"}	\N	2026-11-05 08:10:47.409	2026-11-05 08:10:47.414
 cmw569ww0000508ic97nar6l6	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Julià Casado", "email": "665454963.jc@gmail.com"}	\N	\N	2026-11-06 16:11:55.968
+cmw6fubga000b08jj3tphr9u3	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Oscar Aguilar", "email": "aguilar@mediterrani.club"}	\N	\N	2026-11-07 13:27:30.682
 cmvj5wg0r000107jz7e6w5bx4	cmtt5e5m4000004jp9o3k38sj	SELLER_OUT_OF_STOCK_REMINDER	{"count": 1, "variantCount": 0, "productTitles": "Ajolotes Amigurumi Sol i Lluna"}	\N	2026-10-22 06:30:31.706	2026-10-22 06:30:31.707
 cmutptgzr000304jp5zp22vdv	cmpu7a2oe0000l8t232dsj2jq	ADMIN_CONTACT_MESSAGE	{"body": "Hola, buenos días, soy Julia.\\r\\n\\r\\nTe escribo porque nos interesa publicar una noticia sobre CanGerard en nuestra red de periódicos digitales, más de 50.\\r\\n\\r\\nTe cuento cómo funciona: nuestros periodistas redactan la noticia, tú solo das el visto bueno, y en 3 días está publicada. Y va garantizado.\\r\\n\\r\\nAdemás hay algo nuevo: cuando alguien le pregunta a la inteligencia artificial por empresas de un sector, responde según la prensa. Y los buscadores, igual. Si los periódicos hablan de CanGerard, apareces tú. Si no, aparece la competencia. Con los clientes lo mismo: ven prensa y confían.\\r\\n\\r\\nPásame un teléfono y te lo explico en 5 minutos, sin compromiso.\\r\\n\\r\\nSaludos,\\r\\nJulia\\r\\n\\r\\nPD: si no es para vosotros, con que me lo digas no insisto.", "name": "Julia", "excerpt": "Hola, buenos días, soy Julia.\\r\\n\\r\\nTe escribo porque nos interesa publicar una noticia sobre CanGerard en nuestra red de periódicos digitales, más de 50.\\r\\n\\r\\nTe cuento cómo funciona: nuestros periodistas redactan la noticia, tú solo das el visto bueno, y en 3 días está publicada. Y…", "subject": "CanGerard en la prensa digital", "fromEmail": "julia.pacheco@seoyprensa.com"}	2026-10-04 12:57:34.445	2026-10-04 11:06:04.741	2026-10-04 11:06:04.743
 cmutlbgg0000604k2ayqdr60c	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_PRODUCT	{"storeName": "Moodscandles", "productTitle": "Wax melt Taronja i Canyella"}	2026-10-04 12:57:34.445	2026-10-04 09:00:05.76	2026-10-04 09:00:05.76
@@ -6246,6 +6306,7 @@ cmw1whuo9000108jppgalwnmd	cmvdeurfu000008jw80l5kir4	SELLER_LIFETIME_FREE_GRANTED
 cmw2gbd9q000h08l4gxkw87mb	cmszywj2d000004k34uij63g2	SELLER_LABEL_READY	{"carrier": "Correos", "firstMile": "standard", "orderNumber": "CG-20261104-Z03O3K", "trackingNumber": "PQ4GEC980112104G"}	\N	2026-11-04 18:29:41.484	2026-11-04 18:29:41.486
 cmw3sk299000008kugmm75quk	cmpu7a2oe0000l8t232dsj2jq	BUYER_REVIEW_REQUEST	{"count": 1, "orderNumber": "CG-20261020-XK0ZRU", "productTitles": "Vi Negre \\"A tort i a dret\\" - Garnatxa Negra"}	\N	2026-11-05 17:00:08.681	2026-11-05 17:00:08.686
 cmw5ca6xt000a08lc85vzaii8	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_SELLER	{"storeName": "Test 06/11"}	\N	2026-11-06 19:00:06.687	2026-11-06 19:00:06.689
+cmw6j5x80000708jqx97ttlik	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Neus Escamez", "email": "nievesnaval@yahoo.es"}	\N	\N	2026-11-07 15:00:30.96
 cmuxqao4d000104l02yvqxqgt	cmtuipd7j000004iha92xkfut	SELLER_OUT_OF_STOCK_REMINDER	{"count": 7, "variantCount": 0, "productTitles": "Caramels de cérvol per a gossos 100% cérvol, Colls de gall dindi deshidratats per a gossos, mastegable natural 100% gall dindi, Colls de pollastre deshidratats per a gossos, snack natural 100% pollastre, Costelles de cérvol deshidratades per a gossos, mastegable natural 100% cérvol, Potes de pollastre deshidratades per a gossos, snack natural 100% pollastre, Puntes d'ala de pollastre deshidratades per a gossos, snack natural 100% pollastre, Tendons de cérvol deshidratats per a gossos, snack natural 100% cérvol"}	\N	2026-10-07 06:30:31.837	2026-10-07 06:30:31.837
 cmuvhwnnr000004lf2ownr4j2	cmpu7a2oe0000l8t232dsj2jq	BUYER_REVIEW_REQUEST	{"count": 1, "orderNumber": "CG-20260921-PB8DHG", "productTitles": "Orenga Ecològica per a infusió i cuina"}	2026-10-07 09:26:45.045	2026-10-05 17:00:08.77	2026-10-05 17:00:08.775
 cmuvhwnt2000104lfqfshpul3	cmpu7a2oe0000l8t232dsj2jq	BUYER_REVIEW_REQUEST	{"count": 1, "orderNumber": "CG-20260921-S7OS5Y", "productTitles": "Infusió Ecològica ACTIVA - romaní, menta, sàlvia i sajolida (sense teïna)"}	2026-10-07 09:26:45.045	2026-10-05 17:00:08.965	2026-10-05 17:00:08.966
@@ -6270,6 +6331,7 @@ cmv20m7wt000004l83crzaejk	cmtt5e5m4000004jp9o3k38sj	SELLER_OUT_OF_STOCK_REMINDER
 cmw2gc3el000i08l4lnlzktcx	cmw2eb3gl000208l4g8hoxdwe	SELLER_STATUS_CHANGED	{"status": "APPROVED"}	\N	2026-11-04 18:30:15.356	2026-11-04 18:30:15.357
 cmw3x22sy000508jkg1heaxvp	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Emili Pérez", "email": "emili.pe.ub@gmail.com"}	2026-11-06 10:00:39.02	\N	2026-11-05 19:06:07.666
 cmw5fzbxm000408l5b28iho1a	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Olga Mas Sariola", "email": "doctoraolgamas@gmail.com"}	\N	\N	2026-11-06 20:43:38.41
+cmw6kl3zt000f08jqfer44z1o	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Ferran A. Torrents Perez", "email": "ferratorplub@gmail.com"}	\N	\N	2026-11-07 15:40:19.193
 cmv9eh7k1000006lgkeqlvlqh	cmutnkcgo000004l3j9e55tuy	SELLER_SUBSCRIPTION_TRIAL_ENDING	{"priceNet": 60, "trialEndsAt": "2026-10-18T10:31:58.000Z"}	2026-11-03 17:00:36.759	2026-10-15 10:32:55.676	2026-10-15 10:32:55.681
 cmw1x5jz0000908l2p0iz2pet	cmsfp9jpr000504la2pkuvnqf	SELLER_COMMISSION_CREDIT_NOTE	{"total": 3.03, "orderNumber": "CG-20260930-6S51YF", "invoiceNumber": "6aeafbdb791623f8bb0e7d3e"}	\N	2026-11-04 09:33:17.531	2026-11-04 09:33:17.533
 cmv2n3xyq000104kzx8l38g53	cmszywj2d000004k34uij63g2	BUYER_REVIEW_REQUEST	{"count": 2, "orderNumber": "CG-20261001-2VYESP", "productTitles": "Wax Melt Gerd i Caramel, Wax Melt de Mango"}	2026-10-10 17:45:45.248	2026-10-10 17:00:10.033	2026-10-10 17:00:10.034
@@ -6306,6 +6368,7 @@ cmw1x5kdl000c08l2xlrawpvo	cmpu7a2oe0000l8t232dsj2jq	ADMIN_REFUND	{"orderNumber":
 cmw2gmdeo000a08ku7tgybhj0	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Neus Casademont Mencio", "email": "neus.casademont@gmail.com"}	2026-11-06 10:00:39.02	\N	2026-11-04 18:38:14.88
 cmw41ha3u000907l67ay9yqf9	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_PRODUCT	{"storeName": "NUR · atelier de velas", "productTitle": "Bol escultòric ORBE"}	2026-11-06 10:00:39.02	2026-11-05 21:09:55.432	2026-11-05 21:09:55.434
 cmw5n8nwe000108jpb3b479bi	cmpu7a2oe0000l8t232dsj2jq	ADMIN_CONTACT_MESSAGE	{"body": "Per vendre sacs de llenya en bosses de 10kg, de roure i olivera", "name": "Albert Grau Mata", "excerpt": "Per vendre sacs de llenya en bosses de 10kg, de roure i olivera", "subject": "Venda de llenya", "fromEmail": "Graumata1984@gmail.com"}	\N	2026-11-07 00:06:51.131	2026-11-07 00:06:51.134
+cmw6n5vug000c08l8csjyulbj	cmpu7a2oe0000l8t232dsj2jq	ORDER_CANCELLED	{"orderNumber": "CG-20261107-Y30EHF"}	\N	\N	2026-11-07 16:52:27.64
 cmvjkt01l000008jwn4131cfs	cmsfp9jpr000504la2pkuvnqf	SELLER_LABEL_READY	{"carrier": "Correos", "firstMile": "correos", "orderNumber": "CG-20261020-XK0ZRU", "trackingNumber": "PS6C8N980397413C"}	\N	2026-10-22 13:27:45.268	2026-10-22 13:27:45.273
 cmvovnv8y000008k2seph12k2	cmtuipd7j000004iha92xkfut	SELLER_OUT_OF_STOCK_REMINDER	{"count": 5, "variantCount": 0, "productTitles": "Caramels de cérvol per a gossos 100% cérvol, Colls de gall dindi deshidratats per a gossos, mastegable natural 100% gall dindi, Colls de pollastre deshidratats per a gossos, snack natural 100% pollastre, Costelles de cérvol deshidratades per a gossos, mastegable natural 100% cérvol, Puntes d'ala de pollastre deshidratades per a gossos, snack natural 100% pollastre"}	\N	2026-10-26 06:30:32.397	2026-10-26 06:30:32.434
 cmvovnvei000108k2da7t5vph	cmvdeurfu000008jw80l5kir4	SELLER_OUT_OF_STOCK_REMINDER	{"count": 0, "variantCount": 4, "productTitles": "Bombons aromàtics de cera Botanical Collection (Etiqueta en castellà), Daus aromàtics per a calaixos Roba Estesa (Etiqueta en castellà), Espelma aromàtica El Cafè de l'Àvia (Etiqueta en català), Pack de regal d'espelmes aromàtiques · El Primer Refugi (Etiqueta en català · Sense cremador)"}	\N	2026-10-26 06:30:32.633	2026-10-26 06:30:32.634
@@ -6328,6 +6391,10 @@ cmw25m01h000007kxfapxfwr4	cmumzn73d000004l6npsfmulq	SELLER_STRIPE_SETUP_REQUIRED
 cmw2h8xwu000008l6p5yitiby	cmw2eb3gl000208l4g8hoxdwe	SELLER_LIFETIME_FREE_GRANTED	{"storeName": "Cervesa LAVA"}	\N	2026-11-04 18:55:47.881	2026-11-04 18:55:47.886
 cmw4li9ga000008jqef10cpau	cmtuipd7j000004iha92xkfut	SELLER_OUT_OF_STOCK_REMINDER	{"count": 5, "variantCount": 0, "productTitles": "Caramels de cérvol per a gossos 100% cérvol, Colls de gall dindi deshidratats per a gossos, mastegable natural 100% gall dindi, Colls de pollastre deshidratats per a gossos, snack natural 100% pollastre, Costelles de cérvol deshidratades per a gossos, mastegable natural 100% cérvol, Puntes d'ala de pollastre deshidratades per a gossos, snack natural 100% pollastre"}	\N	2026-11-06 06:30:33.549	2026-11-06 06:30:33.562
 cmw4li9ll000108jqbd6wb1yu	cmvdeurfu000008jw80l5kir4	SELLER_OUT_OF_STOCK_REMINDER	{"count": 0, "variantCount": 4, "productTitles": "Bombons aromàtics de cera Botanical Collection (Etiqueta en castellà), Daus aromàtics per a calaixos Roba Estesa (Etiqueta en castellà), Espelma aromàtica El Cafè de l'Àvia (Etiqueta en català), Pack de regal d'espelmes aromàtiques · El Primer Refugi (Etiqueta en català · Sense cremador)"}	\N	2026-11-06 06:30:33.752	2026-11-06 06:30:33.753
+cmw60y2kd000007jogc6c7idj	cmtuipd7j000004iha92xkfut	SELLER_OUT_OF_STOCK_REMINDER	{"count": 5, "variantCount": 0, "productTitles": "Caramels de cérvol per a gossos 100% cérvol, Colls de gall dindi deshidratats per a gossos, mastegable natural 100% gall dindi, Colls de pollastre deshidratats per a gossos, snack natural 100% pollastre, Costelles de cérvol deshidratades per a gossos, mastegable natural 100% cérvol, Puntes d'ala de pollastre deshidratades per a gossos, snack natural 100% pollastre"}	\N	2026-11-07 06:30:31.534	2026-11-07 06:30:31.549
+cmw60y2pm000107jobjepuvk6	cmvdeurfu000008jw80l5kir4	SELLER_OUT_OF_STOCK_REMINDER	{"count": 0, "variantCount": 4, "productTitles": "Bombons aromàtics de cera Botanical Collection (Etiqueta en castellà), Daus aromàtics per a calaixos Roba Estesa (Etiqueta en castellà), Espelma aromàtica El Cafè de l'Àvia (Etiqueta en català), Pack de regal d'espelmes aromàtiques · El Primer Refugi (Etiqueta en català · Sense cremador)"}	\N	2026-11-07 06:30:31.737	2026-11-07 06:30:31.738
+cmw619yy9000608jnq99jdcfr	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Damia Clota", "email": "damiaclotacolom@gmail.com"}	\N	\N	2026-11-07 06:39:46.737
+cmw6zxcwu000807jto66yu70q	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "MIREIA Montolio", "email": "mosomir3@gmail.com"}	\N	\N	2026-11-07 22:49:44.862
 cmvkk9e5l000007l5zguwid3v	cmsfp9jpr000504la2pkuvnqf	SELLER_PENDING_SHIPMENTS	{"count": 1, "overdue": 0, "toPrepare": 0, "oldestDays": 2, "toDispatch": 0, "toHandOver": 1, "orderNumbers": "CG-20261020-XK0ZRU", "toConfirmDelivery": 0}	\N	2026-10-23 06:00:16.611	2026-10-23 06:00:16.617
 cmvqa0sqc000008l09tp0y1bm	cmsfp9jpr000504la2pkuvnqf	SELLER_PENDING_SHIPMENTS	{"count": 1, "overdue": 0, "toPrepare": 0, "oldestDays": 6, "toDispatch": 0, "toHandOver": 1, "orderNumbers": "CG-20261020-XK0ZRU", "toConfirmDelivery": 0}	\N	2026-10-27 06:00:16.495	2026-10-27 06:00:16.5
 cmvevkvv3000008kxrr9dgqk8	cmtt5e5m4000004jp9o3k38sj	SELLER_OUT_OF_STOCK_REMINDER	{"count": 1, "variantCount": 0, "productTitles": "Ajolotes Amigurumi Sol i Lluna"}	\N	2026-10-19 06:30:31.498	2026-10-19 06:30:31.503
@@ -6396,6 +6463,7 @@ cmw362d82000007l8onywywsr	cmtuipd7j000004iha92xkfut	SELLER_OUT_OF_STOCK_REMINDER
 cmw362dd7000107l85pei5wpj	cmvdeurfu000008jw80l5kir4	SELLER_OUT_OF_STOCK_REMINDER	{"count": 0, "variantCount": 4, "productTitles": "Bombons aromàtics de cera Botanical Collection (Etiqueta en castellà), Daus aromàtics per a calaixos Roba Estesa (Etiqueta en castellà), Espelma aromàtica El Cafè de l'Àvia (Etiqueta en català), Pack de regal d'espelmes aromàtiques · El Primer Refugi (Etiqueta en català · Sense cremador)"}	\N	2026-11-05 06:30:31.722	2026-11-05 06:30:31.723
 cmw35j9s8000308l8x8on0zit	cmveackqg000208jw5rq9abbv	SELLER_SUBSCRIPTION_CREDIT_NOTE	{"total": 72.6, "invoiceNumber": "CN260007", "originalNumber": "F260021"}	2026-11-05 18:22:09.678	2026-11-05 06:15:40.616	2026-11-05 06:15:40.616
 cmw4vbc94000208jj05jfnes5	cmw2e05b5000008lb31o10dr0	ORDER_DELIVERED	{"storeName": "ÀCre, d'Àrea Creativa", "orderNumber": "CG-20261104-Z03O3K"}	\N	2026-11-06 11:05:06.759	2026-11-06 11:05:06.76
+cmw64tvn2000807k137omxnrp	cmpu7a2oe0000l8t232dsj2jq	ADMIN_CONTACT_MESSAGE	{"body": "Bon dia! \\r\\nDes de fa un temps estic buscant una feina complementaria unes hores a la setmana (entre 5 i 10). Actualment treballo com a técnica en gestió académica a l’Institut Universitari de Salut Mental Vidal i Barraquer (IUSM-FVB-URL).\\r\\nM’agrada tot el tema de l’assistencia virtual, gestió carpeta de clients online, actualización de contingut web WordPress, etc… \\r\\nM’encanta aquest projecte i visc a Taradell tot i que treballo a Barna (faig teletreball dos dies a la setmana). \\r\\nSi em necessiteu i acordem condiciona aquí en teniu. Gracies!!!\\r\\nhttps://www.linkedin.com/in/martamiquel?utm_source=share_via&utm_content=profile&utm_medium=member_ios", "name": "Marta Miquel Grau", "excerpt": "Bon dia! \\r\\nDes de fa un temps estic buscant una feina complementaria unes hores a la setmana (entre 5 i 10). Actualment treballo com a técnica en gestió académica a l’Institut Universitari de Salut Mental Vidal i Barraquer (IUSM-FVB-URL).\\r\\nM’agrada tot el tema de l’assistencia v…", "subject": "Técnica en gestió", "fromEmail": "martamiquelg@gmail.com"}	\N	2026-11-07 08:19:14.412	2026-11-07 08:19:14.414
 \.
 
 
@@ -6444,6 +6512,7 @@ cmvs1mwgx000407jsw868l8rm	cmvs1mwg3000007js1sfu7xj7	STRIPE	CARD	REFUNDED	22.70	E
 cmuo5vlkm000304l652rk2jf0	cmuo5vljm000104l6go6suaf2	STRIPE	CARD	REFUNDED	29.71	EUR	pi_3ULNsXGrwsKLqRAQ1nRyxOrA	ch_3ULNsXGrwsKLqRAQ1V5ZnyX6	2026-09-30 13:49:00.754	2026-11-04 09:33:09.757	\N	\N
 cmuo3e6pw000309gm1kntuh0f	cmuo3e6p5000109gmheeymr13	STRIPE	\N	FAILED	15.74	EUR	pi_3ULMnFGrwsKLqRAQ0KsITj7S	\N	2026-09-30 12:39:29.129	2026-09-30 12:42:38.886	\N	\N
 cmw2eg6fw000f08l4kuea57cr	cmw2eg6eu000d08l48fnpd53r	STRIPE	CARD	SUCCEEDED	15.74	EUR	pi_3UY87mGrwsKLqRAQ1qppk307	ch_3UY87mGrwsKLqRAQ1Owy5pvn	2026-11-04 17:37:26.646	2026-11-04 17:39:18.078	\N	\N
+cmw6n5oc2000a08l8vcbv8uef	cmw6n5ob6000808l8g9gju8sm	STRIPE	\N	FAILED	29.30	EUR	pi_3UZCqkGrwsKLqRAQ0aaUt6dt	\N	2026-11-07 16:52:17.874	2026-11-07 16:52:27.613	\N	\N
 cmuo9rw3300020agmkjmi4vyx	cmuo9rw2700000agmstuqfc56	STRIPE	CARD	SUCCEEDED	15.74	EUR	pi_3ULPa6GrwsKLqRAQ0LEaCWSV	ch_3ULPa6GrwsKLqRAQ0ZJOjfhg	2026-09-30 15:38:06.223	2026-09-30 15:38:45.652	\N	\N
 \.
 
@@ -9584,6 +9653,200 @@ cmw5kal6h000308jz175svlvs	Vins	vins	ca	20	\N	2026-11-06 22:44:22.074
 cmw5n6h2f000008l55hy3z5bs	Llenya	llenya	ca	0	\N	2026-11-07 00:05:08.967
 cmw5n6nla000008l5edgen137	Llenya	llenya	ca	0	\N	2026-11-07 00:05:17.422
 cmw5oq0es000108l58hia1z4l	Formatge	formatge	ca	11	\N	2026-11-07 00:48:20.117
+cmw5xnf5g000008k07e045lq3	Oli	oli	ca	44	\N	2026-11-07 04:58:15.796
+cmw60c9vk000007jvfiq4k4yz	Pollastre	pollastre	ca	14	\N	2026-11-07 06:13:34.592
+cmw60foxf000107jvmy2l7dqd	Iogurt	iogurt	ca	5	\N	2026-11-07 06:16:14.067
+cmw60ksln000008jnv6o97oye	Carnes	carnes	ca	16	\N	2026-11-07 06:20:12.107
+cmw60n4et000108kw9roquuc8	Joies	joies	ca	11	\N	2026-11-07 06:22:00.725
+cmw60nglk000208kwujeg84yd	Joies	joies	ca	11	\N	2026-11-07 06:22:16.52
+cmw60ni8c000308kwa7v4iype	Joies	joies	ca	11	\N	2026-11-07 06:22:18.636
+cmw60njaj000307jvjdvi64ab	Joies	joies	ca	11	\N	2026-11-07 06:22:20.011
+cmw60njdt000408kwqhk024y3	Joies	joies	ca	11	\N	2026-11-07 06:22:20.129
+cmw60nk28000407jvfw6wln95	Joies	joies	ca	11	\N	2026-11-07 06:22:21.008
+cmw60nlmx000507jvvyhb57fo	Roba	roba	ca	20	\N	2026-11-07 06:22:23.049
+cmw60nwh8000508kwowpjag2m	Moda	moda	ca	1	\N	2026-11-07 06:22:37.1
+cmw60ur0v000008lck1bvuba0	Joies	joies	ca	11	\N	2026-11-07 06:27:56.623
+cmw60usny000108lc1awkk9ek	Joies	joies	ca	11	\N	2026-11-07 06:27:58.75
+cmw60ussm000208lcu334n9ia	Joies	joies	ca	11	\N	2026-11-07 06:27:58.918
+cmw60usvj000308lcidjv3jug	Joies	joies	ca	11	\N	2026-11-07 06:27:59.023
+cmw60utfz000408lcy02ld2wq	Joies	joies	ca	11	\N	2026-11-07 06:27:59.759
+cmw60uu4o000508lcqccrcqww	Joies	joies	ca	11	\N	2026-11-07 06:28:00.648
+cmw612oie000108jn31bw13jk	Giblhi	giblhi	ca	0	\N	2026-11-07 06:34:06.614
+cmw613091000708lcjiue6fwp	Bebè	bebe	ca	9	\N	2026-11-07 06:34:21.829
+cmw613hfl000808lcj0b6kykd	Nadó	nado	ca	18	\N	2026-11-07 06:34:44.097
+cmw61ppk9000007jhjjizhfyf	Roba	roba	ca	20	\N	2026-11-07 06:52:01.066
+cmw61q7jy000107jhtkqtw1vy	Menjar	menjar	ca	4	\N	2026-11-07 06:52:24.382
+cmw61qgpd000207jhcx8cw0sy	Menjar	menjar	ca	4	\N	2026-11-07 06:52:36.241
+cmw6236qb000607jvwb669td6	Samarreta	samarreta	ca	2	\N	2026-11-07 07:02:29.844
+cmw623reo000307jhzgf7h40v	Roba	roba	ca	20	\N	2026-11-07 07:02:56.64
+cmw62aag4000708kw4p98a8li	Aceite	aceite	es	44	\N	2026-11-07 07:08:01.252
+cmw62yu08000007k1b2gsnql6	Mitjons	mitjons	ca	2	\N	2026-11-07 07:27:06.344
+cmw638efe000407jhjou4gzo1	Embotits	embotits	ca	4	\N	2026-11-07 07:34:32.714
+cmw63cnh8000507jh72qsr4x9	xocolat	xocolat	ca	12	\N	2026-11-07 07:37:51.068
+cmw63gqvl000107k1ohem35bl	Roba	roba	ca	20	\N	2026-11-07 07:41:02.097
+cmw63i5i9000007jztz7sqom4	Pollastre	pollastre	ca	14	\N	2026-11-07 07:42:07.713
+cmw63iohg000008iigeigc4w4	Jersei llana	jersei llana	ca	0	\N	2026-11-07 07:42:32.308
+cmw63iumj000607jh26j0tl36	Roba	roba	ca	20	\N	2026-11-07 07:42:40.267
+cmw63l3nr000207k107pgb458	Enganxines	enganxines	ca	0	\N	2026-11-07 07:44:25.287
+cmw63tg7q000108iiyqiv6jy4	Mel	mel	ca	80	\N	2026-11-07 07:50:54.806
+cmw63zzu9000307k1gpbgcfku	Samarreta	samarreta	ca	2	\N	2026-11-07 07:56:00.177
+cmw640c5y000407k1jbmr43k7	Jaqueta	jaqueta	ca	0	\N	2026-11-07 07:56:16.15
+cmw640ujp000507k1oyai3kyc	Butifarra de calaf	butifarra de calaf	ca	0	\N	2026-11-07 07:56:39.973
+cmw645k4t000707jhwri3kd3u	Flores Llado	flores llado	ca	0	\N	2026-11-07 08:00:19.757
+cmw64rdie000807jh05udeltd	Frutas	frutas	es	95	\N	2026-11-07 08:17:17.606
+cmw65biv2000907k1s1m8t74f	Vela	vela	es	106	\N	2026-11-07 08:32:57.662
+cmw65bw08000208iiqapt47ey	Vela	vela	es	106	\N	2026-11-07 08:33:14.696
+cmw65dysw000907jh350qh1ud	Vela	vela	es	106	\N	2026-11-07 08:34:51.633
+cmw65egj6000008jkcb38jb4u	Vela	vela	es	106	\N	2026-11-07 08:35:14.61
+cmw65g9km000a07k19dbcl919	Exfoliant cara	exfoliant cara	ca	0	\N	2026-11-07 08:36:38.902
+cmw65olsy000008l0tf9s9s66	Queso de cabra	queso de cabra	es	0	\N	2026-11-07 08:43:08.003
+cmw65oro7000b07k1evrnq15g	Queso	queso	es	11	\N	2026-11-07 08:43:15.608
+cmw660w5q000008jsza0c1dj1	Oli oliva	oli oliva	ca	0	\N	2026-11-07 08:52:41.294
+cmw6612lx000c07k154txh252	Oli	oli	ca	44	\N	2026-11-07 08:52:49.653
+cmw66205r000d07k1tmcak5tj	Oli	oli	ca	44	\N	2026-11-07 08:53:33.135
+cmw6625wn000108l0tdefd8ej	Oli	oli	ca	44	\N	2026-11-07 08:53:40.583
+cmw663mh8000e07k13qck6dwm	Mel crua	mel crua	ca	0	\N	2026-11-07 08:54:48.716
+cmw663qh7000f07k1kd5lzm14	Mel	mel	ca	80	\N	2026-11-07 08:54:53.899
+cmw66rxx6000208l0bfwq1ksc	Poca soltes	poca soltes	ca	0	\N	2026-11-07 09:13:43.29
+cmw67bzo3000208jkojsqwt1y	Vi	vi	es	22	\N	2026-11-07 09:29:18.675
+cmw67cav3000308jktvqs20md	Sabates	sabates	ca	7	\N	2026-11-07 09:29:33.183
+cmw67cl9w000408jkvce6yzyb	Calçat	calcat	ca	2	\N	2026-11-07 09:29:46.676
+cmw688ehc000608jktpsdkiz9	Arbeca	arbeca	ca	0	\N	2026-11-07 09:54:30.864
+cmw67rz0k000508jkaqjkbc9g	Oli antara	oli antara	ca	0	\N	2026-11-07 09:41:44.324
+cmw688pbb000708jkk8uc8pqk	Oli d'Arbeca	oli d'arbeca	ca	0	\N	2026-11-07 09:54:44.903
+cmw6899se000808jkf2kbs6em	Lots	lots	ca	18	\N	2026-11-07 09:55:11.438
+cmw68qrf1000908jk2mrh1vby	Sabates	sabates	ca	7	\N	2026-11-07 10:08:47.437
+cmw68tkab000308l0kyxkoy9m	Clementines	clementines	ca	0	\N	2026-11-07 10:10:58.163
+cmw68ytoq000a08jkxodvrz2r	Roba	roba	ca	20	\N	2026-11-07 10:15:03.626
+cmw6abx6h000108jvng4v9b4y	Olives	olives	ca	31	\N	2026-11-07 10:53:14.297
+cmw68yyuu000408l0d2se42dm	Roba	roba	ca	20	\N	2026-11-07 10:15:10.326
+cmw68yzrg000b08jkdc212m54	Roba	roba	ca	20	\N	2026-11-07 10:15:11.501
+cmw68z1co000508l0vd22w0jf	Roba	roba	ca	20	\N	2026-11-07 10:15:13.561
+cmw68z81q000c08jkjjzl4nkg	Roba de home	roba de home	ca	0	\N	2026-11-07 10:15:22.238
+cmw6a6wus000008jvzf2xp3qa	Oli arbequina	oli arbequina	ca	0	\N	2026-11-07 10:49:20.596
+cmw6csb8j000008kxnp1jwukk	Jaquetes	jaquetes	ca	2	\N	2026-11-07 12:01:58.243
+cmw6edpjo000008l84phxj19f	Roba	roba	ca	20	\N	2026-11-07 12:46:36.18
+cmw6ee3dc000008jt4q0geaf3	Anorac	anorac	ca	0	\N	2026-11-07 12:46:54.096
+cmw6eecy1000108jtflnt644l	Jaqueta	jaqueta	ca	0	\N	2026-11-07 12:47:06.505
+cmw6eefy0000208jt005o8dn8	Jaqueta	jaqueta	ca	0	\N	2026-11-07 12:47:10.392
+cmw6eehdw000308jtxn4f42z0	Jaqueta	jaqueta	ca	0	\N	2026-11-07 12:47:12.26
+cmw6eei6d000408jty613ek4c	Jaqueta	jaqueta	ca	0	\N	2026-11-07 12:47:13.285
+cmw6eflr6000208l8wt0jkv3a	Torrons	torrons	ca	0	\N	2026-11-07 12:48:04.578
+cmw6efw3s000508jtibkx29zc	Joguines	joguines	ca	2	\N	2026-11-07 12:48:17.992
+cmw6etz44000108jje3gkqn6g	Vi	vi	es	22	\N	2026-11-07 12:59:15.076
+cmw6ews1q000208jjetnqen7x	Vi	vi	ca	22	\N	2026-11-07 13:01:25.886
+cmw6eyagv000208jvrfzeuijk	Rapitwnc	rapitwnc	ca	0	\N	2026-11-07 13:02:36.415
+cmw6eyget000708jtwsqcauic	Rapitenc	rapitenc	ca	0	\N	2026-11-07 13:02:44.117
+cmw6eyoeq000808jtp4ypatce	Vermouth	vermouth	ca	1	\N	2026-11-07 13:02:54.482
+cmw6eyzgu000908jticth5rua	Mel	mel	ca	80	\N	2026-11-07 13:03:08.814
+cmw6f0zyo000408jjmnarzz7n	Mel	mel	ca	80	\N	2026-11-07 13:04:42.768
+cmw6f1mka000508jjro6gkgyi	Mel	mel	ca	80	\N	2026-11-07 13:05:12.058
+cmw6f2ioz000308jv15jbynnr	Mel	mel	ca	80	\N	2026-11-07 13:05:53.699
+cmw6f3ick000308l8op2vla8y	Tazas	tazas	ca	7	\N	2026-11-07 13:06:39.908
+cmw6f4e0q000408jvjdfcjnap	Tazas	tazas	ca	7	\N	2026-11-07 13:07:20.954
+cmw6f5ead000108l5kmq4lh86	Infusiones	infusiones	ca	24	\N	2026-11-07 13:08:07.957
+cmw6f5zoz000208l5b2peyujy	Ropa	ropa	ca	38	\N	2026-11-07 13:08:35.699
+cmw6fjpoc000608jjn9za8yrp	Spray	spray	ca	35	\N	2026-11-07 13:19:15.9
+cmw6fkrnc000308l5zrqfc77c	Spray	spray	ca	35	\N	2026-11-07 13:20:05.112
+cmw6fmt0d000408l5rc4mknip	Comida	comida	es	12	\N	2026-11-07 13:21:40.189
+cmw6fzuzh000008leccerfqac	Cervesa la lava	cervesa la lava	ca	0	\N	2026-11-07 13:31:49.277
+cmw6glcju000108lewgpmkmo9	Carn	carn	ca	16	\N	2026-11-07 13:48:31.818
+cmw6glriv000208lewbhaxq7v	Olot	olot	ca	0	\N	2026-11-07 13:48:51.223
+cmw6gpgvr000308le6sfgcsx3	Bossa	bossa	ca	40	\N	2026-11-07 13:51:44.055
+cmw6gpl46000408le9lnyrk8i	Bossa	bossa	ca	40	\N	2026-11-07 13:51:49.542
+cmw6gr948000008jymlgbdvxo	Pa	pa	ca	19	\N	2026-11-07 13:53:07.305
+cmw6gwmg6000008jqd47vcmd5	fum líquid	fum liquid	ca	0	\N	2026-11-07 13:57:17.862
+cmw6gwnfh000108jqxb4wlwpm	fum líquid	fum liquid	ca	0	\N	2026-11-07 13:57:19.133
+cmw6h4cc4000208jqzphnipil	Fruita	fruita	ca	45	\N	2026-11-07 14:03:18.004
+cmw6hcq4l000508le58cuje0c	Samarretes basiques	samarretes basiques	ca	0	\N	2026-11-07 14:09:49.126
+cmw6henea000008l0obhg63sg	Oli	oli	ca	44	\N	2026-11-07 14:11:18.898
+cmw6hppiy000108l0ctvwoct3	Jersei	jersei	ca	0	\N	2026-11-07 14:19:54.874
+cmw6hq4by000208l00e6rpik3	Safata	safata	ca	0	\N	2026-11-07 14:20:14.062
+cmw6i3qhr000007lbt39097lt	Peix	peix	ca	3	\N	2026-11-07 14:30:49.312
+cmw6ilt26000408l07312ykd6	xampu	xampu	ca	7	\N	2026-11-07 14:44:52.446
+cmw6iqbod000708l5oo677yjx	sabo cos	sabo cos	ca	1	\N	2026-11-07 14:48:23.197
+cmw6iz2c4000508l0f2ncwn9b	Bambes	bambes	ca	0	\N	2026-11-07 14:55:10.996
+cmw6iz2sf000608l09i6wtbo5	Aromik	aromik	ca	14	\N	2026-11-07 14:55:11.583
+cmw6iz847000708l0bdo0015u	Samarreta	samarreta	ca	2	\N	2026-11-07 14:55:18.487
+cmw6izgnd000808l5a7jgfpnq	Cakiswta	cakiswta	ca	0	\N	2026-11-07 14:55:29.545
+cmw6izjut000908l5ue574fhe	Aromik orenga	aromik orenga	ca	0	\N	2026-11-07 14:55:33.701
+cmw6izlqr000a08l5vhy12hr4	castanya	castanya	ca	1	\N	2026-11-07 14:55:36.147
+cmw6iznu1000b08l5v2nki7uv	Aromik	aromik	ca	14	\N	2026-11-07 14:55:38.857
+cmw6jf99n000007lcgjwl3rxz	Llar	llar	ca	31	\N	2026-11-07 15:07:46.475
+cmw6jfyrj000107lcgd1dc137	Llar	llar	ca	31	\N	2026-11-07 15:08:19.519
+cmw6jgind000207lcsvsxrqni	Decoració	decoracio	ca	6	\N	2026-11-07 15:08:45.289
+cmw6jgjou000307lcrcvrzsbe	Decoració	decoracio	ca	6	\N	2026-11-07 15:08:46.638
+cmw6ji4l8000808jqz4oey3ms	Rellotges	rellotges	ca	0	\N	2026-11-07 15:10:00.38
+cmw6jibqk000908jqd2ty1om5	Bolígraf	boligraf	ca	0	\N	2026-11-07 15:10:09.644
+cmw6jkx2f000a08l06jyl9yhk	Flors	flors	es	40	\N	2026-11-07 15:12:10.599
+cmw6jt5i2000b08l0r7ewabid	Cafe	cafe	ca	15	\N	2026-11-07 15:18:34.779
+cmw6ki46m000a08jq3n6erttl	Decoracio	decoracio	ca	6	\N	2026-11-07 15:37:59.47
+cmw6kzxif000208l81tji1hv5	Espelmes	espelmes	ca	111	\N	2026-11-07 15:51:50.632
+cmw6l2blf000008lhjqj8avt1	Pitaia	pitaia	ca	0	\N	2026-11-07 15:53:42.195
+cmw6l2j05000007l955lg494y	Pitaies	pitaies	ca	0	\N	2026-11-07 15:53:51.797
+cmw6l49ke000107l9lvnjvmc2	Fruita	fruita	ca	45	\N	2026-11-07 15:55:12.878
+cmw6m0f93000008k1cez92t1q	Llet	llet	ca	7	\N	2026-11-07 16:20:13.239
+cmw6m0xi5000108k1enjazneh	Llet	llet	ca	7	\N	2026-11-07 16:20:36.893
+cmw6m11k0000208k1enemboj6	Galetes	galetes	ca	0	\N	2026-11-07 16:20:42.144
+cmw6m8xkq000408l844ma6irc	Mel	mel	ca	80	\N	2026-11-07 16:26:50.234
+cmw6m8y39000508l8hzb8udow	Mel	mel	ca	80	\N	2026-11-07 16:26:50.901
+cmw6mzs2i000207l9g07fnjrw	Pomes	pomes	ca	3	\N	2026-11-07 16:47:42.81
+cmw6n2mn9000608l8ghwoswx3	Llonganissa	llonganissa	ca	0	\N	2026-11-07 16:49:55.749
+cmw6n30hp000308k1ym093hnl	Fuet	fuet	ca	0	\N	2026-11-07 16:50:13.693
+cmw6ovdiq000008l0bvbxbyxq	Embutits	embutits	ca	0	\N	2026-11-07 17:40:16.562
+cmw6p0bgs000108l0h2j5z3zr	Neteja	neteja	ca	61	\N	2026-11-07 17:44:07.18
+cmw6pxcde000008l73wztlv0y	Llet	llet	ca	7	\N	2026-11-07 18:09:48.002
+cmw6pzg8q000108l7vc6na3re	Cervesa	cervesa	ca	19	\N	2026-11-07 18:11:26.33
+cmw6q1zvg000007l8bm35nkcs	Carquinyolis	carquinyolis	ca	0	\N	2026-11-07 18:13:25.085
+cmw6qcoe2000008l3ct9zwr0k	Formatge	formatge	ca	11	\N	2026-11-07 18:21:43.418
+cmw6qd6mz000108l31rl0tbqk	carn	carn	ca	16	\N	2026-11-07 18:22:07.067
+cmw6qmh8r000107l8eqdabprf	Roba	roba	ca	20	\N	2026-11-07 18:29:20.715
+cmw6qmqpc000207l8cqlg9pzk	Vestits	vestits	ca	7	\N	2026-11-07 18:29:32.976
+cmw6qmv3b000307l81o4bn03w	Vestits	vestits	ca	7	\N	2026-11-07 18:29:38.663
+cmw6qnc4c000407l83z8vulct	Gegants	gegants	ca	1	\N	2026-11-07 18:30:00.732
+cmw6rf2gv000008iiucv0oznm	Oli	oli	ca	44	\N	2026-11-07 18:51:34.591
+cmw6rghsv000108iirg35iq1v	Oli	oli	ca	44	\N	2026-11-07 18:52:41.119
+cmw6roy0l000208iiee3554tn	Oli	oli	ca	44	\N	2026-11-07 18:59:15.381
+cmw6rskip000108jmklalky9c	Oli	oli	ca	44	\N	2026-11-07 19:02:04.513
+cmw6s3jcs000208jt6msugaym	Oli	oli	ca	44	\N	2026-11-07 19:10:36.22
+cmw6skdzn000308jt0r757qim	Iogurt	iogurt	ca	5	\N	2026-11-07 19:23:42.419
+cmw6skruu000408jtonjmtqax	Jersei	jersei	ca	0	\N	2026-11-07 19:24:00.39
+cmw6sl2uw000208l3etfr1x6b	Gerros	gerros	ca	1	\N	2026-11-07 19:24:14.648
+cmw6ssikc000508jtn414o74g	ceramica	ceramica	ca	1	\N	2026-11-07 19:30:01.597
+cmw6ssox0000608jt504c1s4m	ceramica	ceramica	ca	1	\N	2026-11-07 19:30:09.828
+cmw6u8pz9000308iiwxv69zil	Fuet	fuet	ca	0	\N	2026-11-07 20:10:37.317
+cmw6umqth000208jmjkkwhc00	Pollastre	pollastre	ca	14	\N	2026-11-07 20:21:31.589
+cmw6v8dq2000008jyem0ogzsh	Fruita	fruita	ca	45	\N	2026-11-07 20:38:21.05
+cmw6ve52k000108jya037zb4f	Carn	carn	ca	16	\N	2026-11-07 20:42:49.772
+cmw6vf9io000008l0hzop265t	Formatge	formatge	ca	11	\N	2026-11-07 20:43:42.192
+cmw6vnwwk000008k2a13ffbc2	Embutits	embutits	ca	0	\N	2026-11-07 20:50:25.748
+cmw6vosps000008lc6vr3gbbl	Regals nadal	regals nadal	ca	0	\N	2026-11-07 20:51:06.976
+cmw6wf5lm000208jyq6jgghce	Fruta	fruta	es	95	\N	2026-11-07 21:11:36.73
+cmw6wqebb000108l05xkykn8o	Clauer	clauer	ca	4	\N	2026-11-07 21:20:21.239
+cmw6wra0z000208l0ooshx8ut	Llum	llum	ca	41	\N	2026-11-07 21:21:02.339
+cmw6wrris000308l06fppzgbn	Llum	llum	ca	41	\N	2026-11-07 21:21:25.012
+cmw6wx6g2000408l0sfaxqts9	Tacho	tacho	es	1	\N	2026-11-07 21:25:37.634
+cmw6wy449000508l0anae51sb	Pistacho	pistacho	es	1	\N	2026-11-07 21:26:21.273
+cmw6xq5ai000608l0lwk9x5lf	Bolets	bolets	ca	0	\N	2026-11-07 21:48:09.162
+cmw6xqgks000708l0a3uz2gsn	Castanyes	castanyes	ca	1	\N	2026-11-07 21:48:23.788
+cmw6xwq96000808l0is16eo0p	Jersey	jersey	ca	0	\N	2026-11-07 21:53:16.266
+cmw6xx5zr000108lcod5t50iu	Bufanda	bufanda	ca	1	\N	2026-11-07 21:53:36.663
+cmw6y0j6g000308jygz7db7b3	Clauer	clauer	ca	4	\N	2026-11-07 21:56:13.72
+cmw6y0j8z000408jyeoalm8xe	Clauer	clauer	ca	4	\N	2026-11-07 21:56:13.811
+cmw6zk9ap000107jtdo2wiyxo	Bolso	bolso	es	45	\N	2026-11-07 22:39:33.649
+cmw6zlh6b000208kzzbmpg8pj	Bolso	bolso	es	45	\N	2026-11-07 22:40:30.515
+cmw703izy000008lc72cm3ju0	G	g	ca	84	\N	2026-11-07 22:54:32.686
+cmw703opg000108lcuaulqvl5	Fuet	fuet	ca	0	\N	2026-11-07 22:54:40.084
+cmw70uowq000008i72f6n2yfp	Mel acàcia	mel acacia	ca	0	\N	2026-11-07 23:15:40.058
+cmw71d5d9000308l89ywzwtdz	Santapaciencia	santapaciencia	ca	0	\N	2026-11-07 23:30:01.197
+cmw729vro000408l85r4l2ced	Olis	olis	ca	44	\N	2026-11-07 23:55:28.405
+cmw73dvje000007lcz3in0waz	Corpinat	corpinat	ca	0	\N	2026-11-08 00:26:34.346
+cmw73eaji000107lcvnsifi00	Cava	cava	ca	0	\N	2026-11-08 00:26:53.79
+cmw73ecg1000207lcqqo9bsk2	Cava	cava	ca	0	\N	2026-11-08 00:26:56.257
+cmw73edpu000307lcp4nib9oj	Cava	cava	ca	0	\N	2026-11-08 00:26:57.906
+cmw73eevo000407lcf31yw5ue	Cava	cava	ca	0	\N	2026-11-08 00:26:59.412
+cmw772hj7000008jmnovbpc0j	Sal marina	sal marina	ca	3	\N	2026-11-08 02:09:41.443
+cmw773lx4000008jpmvcyqsc5	Sal	sal	ca	9	\N	2026-11-08 02:10:33.784
 \.
 
 
@@ -9728,6 +9991,25 @@ cmw5fa6h5000007i762pdf600	cmqmvftzu000504jxy963ldl9	VIEW	\N	INTERNAL	ca	2026-11-
 cmw5fale4000107i7sz6lrw88	cmqmvftzu000504jxy963ldl9	LINK_CLICK	WEBSITE	INTERNAL	ca	2026-11-06 20:24:24.268	\N
 cmw5jnock000007jndvrzp40s	cmumzn74i000504l6rajo6gsl	VIEW	\N	SEARCH	ca	2026-11-06 22:26:33.093	\N
 cmw5o0wq4000008k26xtbvcoa	cmschno2s000504i9u18et026	VIEW	\N	INTERNAL	ca	2026-11-07 00:28:48.94	\N
+cmw6493mv000008l61glkulxi	cmumzn74i000504l6rajo6gsl	VIEW	\N	SEARCH	ca	2026-11-07 08:03:04.999	\N
+cmw66k4pq000008l6xc309144	cmssm8wtj000504jqj714t0qy	VIEW	\N	INTERNAL	ca	2026-11-07 09:07:38.846	\N
+cmw66muzm000108l6fg5epim1	cmssm8wtj000504jqj714t0qy	LINK_CLICK	WEBSITE	INTERNAL	ca	2026-11-07 09:09:46.21	\N
+cmw6d5rzd000007l5zpngdza2	cmumzn74i000504l6rajo6gsl	VIEW	\N	SEARCH	ca	2026-11-07 12:12:26.473	\N
+cmw6f70a2000107l50bqof9yv	cmszywj3r000504k3hsrpz7a0	VIEW	\N	SEARCH	es	2026-11-07 13:09:23.114	\N
+cmw6f7n9d000207l59izgb1i3	cmszywj3r000504k3hsrpz7a0	VIEW	\N	INTERNAL	es	2026-11-07 13:09:52.897	\N
+cmw6iupl1000008l2mmcqf5gd	cmumzn74i000504l6rajo6gsl	VIEW	\N	SEARCH	ca	2026-11-07 14:51:47.847	\N
+cmw6j0qv3000108l22efwwxdp	cmumzn74i000504l6rajo6gsl	VIEW	\N	SEARCH	ca	2026-11-07 14:56:29.439	\N
+cmw6joja4000208l2eoet3yca	cmumzn74i000504l6rajo6gsl	VIEW	\N	SEARCH	ca	2026-11-07 15:14:59.356	\N
+cmw6lo6bp000007jub7n52vyt	cmumzn74i000504l6rajo6gsl	VIEW	\N	SEARCH	ca	2026-11-07 16:10:41.797	\N
+cmw6nxhwz000008l9xsvjh8a0	cmumzn74i000504l6rajo6gsl	VIEW	\N	SEARCH	ca	2026-11-07 17:13:55.955	\N
+cmw6p9288000108l9m2t1glc8	cmumzn74i000504l6rajo6gsl	VIEW	\N	SEARCH	ca	2026-11-07 17:50:55.112	\N
+cmw6pb5ln000208l96lsyccyo	cmszywj3r000504k3hsrpz7a0	VIEW	\N	INTERNAL	ca	2026-11-07 17:52:32.795	\N
+cmw6pbkg3000308l9fcch2ees	cmszywj3r000504k3hsrpz7a0	VIEW	\N	INTERNAL	ca	2026-11-07 17:52:52.035	\N
+cmw6pcjqf000408l96c4swnvo	cmszywj3r000504k3hsrpz7a0	VIEW	\N	INTERNAL	ca	2026-11-07 17:53:37.767	\N
+cmw6pe72m000508l9uvcla4gr	cmtt5e5ni000504jpg4lzgr78	VIEW	\N	INTERNAL	ca	2026-11-07 17:54:54.67	\N
+cmw6plzxf000608l9i69de0yj	cmumzn74i000504l6rajo6gsl	VIEW	\N	SEARCH	ca	2026-11-07 18:00:58.659	\N
+cmw6qyzp3000708l9ckfbentl	cmtmtvvcf000504l2a133x04p	VIEW	\N	INTERNAL	ca	2026-11-07 18:39:04.503	\N
+cmw6z9upj000008jyv14sz0ud	cmumzn74i000504l6rajo6gsl	VIEW	\N	SEARCH	ca	2026-11-07 22:31:28.183	\N
 \.
 
 
@@ -9799,9 +10081,9 @@ accounting.stripeAccount	44100001	2026-10-18 19:29:38.66
 accounting.bankTreasuryId	6ab1942314b50de95e026a4a	2026-10-18 19:29:38.744
 accounting.bankAccount	57200002	2026-10-18 19:29:38.786
 accounting.stripeSupplierContactId	6ac48f2eb8d645b6ef0ef115	2026-10-18 19:29:38.828
-accounting.lockedAt		2026-11-07 03:40:03.694
 platform.mode	marketplace	2026-11-05 06:09:45.454
 accounting.treasuryBalance	52.98	2026-11-04 17:40:04.447
+accounting.lockedAt		2026-11-08 03:10:04.527
 \.
 
 
@@ -10101,6 +10383,11 @@ cmw569ws7000208ici980t02r	cmw569wr0000108ic7whh47my	2026-11-06 16:11:55.788
 cmw57ltol000708ict8tam24l	cmw57ltnx000608icokjo63df	2026-11-06 16:49:11.277
 cmw5ca6pf000308lces48ungt	cmw5ca6oy000208lcebwin3ih	2026-11-06 19:00:06.37
 cmw5fzbvi000108l5h33gzngr	cmw5fzbv0000008l5eu1e87kb	2026-11-06 20:43:38.317
+cmw619yw9000308jnmoxl7enx	cmw619yvs000208jnsqbvasci	2026-11-07 06:39:46.648
+cmw6fubem000808jjlztg6r07	cmw6fube7000708jjufq7gbdv	2026-11-07 13:27:30.607
+cmw6j5x4y000408jqt94e8c15	cmw6j5x4f000308jqhi0yn2ml	2026-11-07 15:00:30.831
+cmw6kl3xb000c08jq9t9f6dli	cmw6kl3wp000b08jqz9weyx14	2026-11-07 15:40:19.081
+cmw6zxcuu000507jtmilcc19d	cmw6zxcub000407jtztsh6ivz	2026-11-07 22:49:44.771
 \.
 
 
@@ -10119,6 +10406,11 @@ cmw2e5ykl000008ku7fwmitsn	cmw2e05c0000108lb0xmpovgx	cmta3mu9t000a04junc7n36cj	20
 cmw2e7mye000108kuumr3mu5j	cmw2e05c0000108lb0xmpovgx	cmta3d47v000404ju3cdhn2ui	2026-11-04 17:30:48.182
 cmw2e8p6l000208ku6cckj44e	cmw2e05c0000108lb0xmpovgx	cmta3w1j2000404l7w2tjwphk	2026-11-04 17:31:37.725
 cmw57mgff000008jjcdvvt9fw	cmw57ltol000708ict8tam24l	cmt8dd0in00000ajin57os79w	2026-11-06 16:49:40.779
+cmw6j7eek000808l04yypg20c	cmw6j5x4y000408jqt94e8c15	cmqq8jor8000104jo0b7b7m15	2026-11-07 15:01:39.884
+cmw6j9puw000008l8ibrrpq0j	cmw6j5x4y000408jqt94e8c15	cmu1d50qb000004i9isn51bd2	2026-11-07 15:03:28.04
+cmw6jd5xt000108l8wto985tq	cmw6j5x4y000408jqt94e8c15	cmulfmcln000004l3ax5clg73	2026-11-07 15:06:08.849
+cmw6jfbo8000908l04z6cd19p	cmw6j5x4y000408jqt94e8c15	cmqqh7hnb000104l2tvx0dvcx	2026-11-07 15:07:49.592
+cmw6ji0lp000407lca6qf1qp8	cmw6j5x4y000408jqt94e8c15	cmu3wqtjn000304k29e3nuxgd	2026-11-07 15:09:55.213
 \.
 
 
@@ -10226,6 +10518,14 @@ COPY "storage"."buckets" ("id", "name", "owner", "created_at", "updated_at", "pu
 
 
 --
+-- Data for Name: bucket_lifecycle_states; Type: TABLE DATA; Schema: storage; Owner: supabase_storage_admin
+--
+
+COPY "storage"."bucket_lifecycle_states" ("bucket_id", "generation", "next_run_at", "claim_id", "claim_until", "continuation", "last_started_at", "last_completed_at", "last_success_at", "last_result", "failure_count", "last_error", "updated_at") FROM stdin;
+\.
+
+
+--
 -- Data for Name: buckets_analytics; Type: TABLE DATA; Schema: storage; Owner: supabase_storage_admin
 --
 
@@ -10238,6 +10538,14 @@ COPY "storage"."buckets_analytics" ("name", "type", "format", "created_at", "upd
 --
 
 COPY "storage"."buckets_vectors" ("id", "type", "created_at", "updated_at") FROM stdin;
+\.
+
+
+--
+-- Data for Name: lifecycle_abandoned_artifacts; Type: TABLE DATA; Schema: storage; Owner: supabase_storage_admin
+--
+
+COPY "storage"."lifecycle_abandoned_artifacts" ("bucket_id", "key", "name", "version", "attempted_at") FROM stdin;
 \.
 
 
@@ -10284,6 +10592,6 @@ SELECT pg_catalog.setval('"auth"."refresh_tokens_id_seq"', 1, false);
 -- PostgreSQL database dump complete
 --
 
--- \unrestrict UJBgq5N7g09vxBVwf9eTLazMjXH4dRfvdcVAFPGkectYPH3bQsFltyJsaRPdjrR
+-- \unrestrict kqgsxPNFLA7TwomKIH7NLPSgZpxKvbjBNTeIK3P5PpxgD4Th3vdo1dbrk9cjODL
 
 RESET ALL;
