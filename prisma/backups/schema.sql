@@ -113,7 +113,8 @@ CREATE TYPE "public"."ConsentType" AS ENUM (
     'BUYER_TERMS',
     'SELLER_TERMS',
     'HANDOVER_RECEIVED',
-    'TRADER_SELF_CERTIFICATION'
+    'TRADER_SELF_CERTIFICATION',
+    'MARKETING_EMAIL'
 );
 
 
@@ -563,6 +564,26 @@ CREATE TYPE "public"."SellerDebtKind" AS ENUM (
 
 
 ALTER TYPE "public"."SellerDebtKind" OWNER TO "postgres";
+
+
+CREATE TYPE "public"."SellerDeliveryScope" AS ENUM (
+    'EVERYWHERE',
+    'COMARQUES',
+    'NONE'
+);
+
+
+ALTER TYPE "public"."SellerDeliveryScope" OWNER TO "postgres";
+
+
+CREATE TYPE "public"."SellerInternationalScope" AS ENUM (
+    'NONE',
+    'WORLDWIDE',
+    'COUNTRIES'
+);
+
+
+ALTER TYPE "public"."SellerInternationalScope" OWNER TO "postgres";
 
 
 CREATE TYPE "public"."SellerShippingMethodKind" AS ENUM (
@@ -1270,7 +1291,8 @@ CREATE TABLE IF NOT EXISTS "public"."Product" (
     "priceFrom" boolean DEFAULT false NOT NULL,
     "externalUrlBrokenAt" timestamp(3) without time zone,
     "externalUrlCheckedAt" timestamp(3) without time zone,
-    "externalUrlFailures" integer DEFAULT 0 NOT NULL
+    "externalUrlFailures" integer DEFAULT 0 NOT NULL,
+    "tags" "text"[] DEFAULT ARRAY[]::"text"[]
 );
 
 
@@ -1543,7 +1565,11 @@ CREATE TABLE IF NOT EXISTS "public"."SellerProfile" (
     "traderCertifiedAt" timestamp(3) without time zone,
     "holdedCreditorAccount" integer,
     "bannerUrl" "text",
-    "primaryPurchaseLink" "public"."StoreLinkKind"
+    "primaryPurchaseLink" "public"."StoreLinkKind",
+    "deliveryComarques" "text"[] DEFAULT ARRAY[]::"text"[],
+    "deliveryScope" "public"."SellerDeliveryScope",
+    "internationalCountries" "text"[] DEFAULT ARRAY[]::"text"[],
+    "internationalScope" "public"."SellerInternationalScope"
 );
 
 
@@ -1843,7 +1869,8 @@ CREATE TABLE IF NOT EXISTS "public"."User" (
     "twoFactorSecret" "text",
     "twoFactorPendingSecret" "text",
     "twoFactorEnabledAt" timestamp(3) without time zone,
-    "twoFactorLastUsedStep" integer
+    "twoFactorLastUsedStep" integer,
+    "newsletterOptInAt" timestamp(3) without time zone
 );
 
 
