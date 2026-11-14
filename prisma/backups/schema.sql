@@ -586,6 +586,15 @@ CREATE TYPE "public"."SellerInternationalScope" AS ENUM (
 ALTER TYPE "public"."SellerInternationalScope" OWNER TO "postgres";
 
 
+CREATE TYPE "public"."SellerSaleMode" AS ENUM (
+    'MARKETPLACE',
+    'SHOWCASE'
+);
+
+
+ALTER TYPE "public"."SellerSaleMode" OWNER TO "postgres";
+
+
 CREATE TYPE "public"."SellerShippingMethodKind" AS ENUM (
     'OWN',
     'COLD',
@@ -1569,7 +1578,8 @@ CREATE TABLE IF NOT EXISTS "public"."SellerProfile" (
     "deliveryComarques" "text"[] DEFAULT ARRAY[]::"text"[],
     "deliveryScope" "public"."SellerDeliveryScope",
     "internationalCountries" "text"[] DEFAULT ARRAY[]::"text"[],
-    "internationalScope" "public"."SellerInternationalScope"
+    "internationalScope" "public"."SellerInternationalScope",
+    "saleMode" "public"."SellerSaleMode" DEFAULT 'SHOWCASE'::"public"."SellerSaleMode" NOT NULL
 );
 
 
