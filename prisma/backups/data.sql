@@ -4,7 +4,7 @@ SET session_replication_role = replica;
 -- PostgreSQL database dump
 --
 
--- \restrict xeeimygYT5QI2j4lc8p5Xm0ItNhS2gxvCwsgoNd1YRqheCI8p7ZDpas98VORHCL
+-- \restrict 7voZl4RijPeOUF7Ax0IX3CDdncaN2GLxkZeyMzGpsgMweYXj9xHWepweFh7NQeQ
 
 -- Dumped from database version 17.6
 -- Dumped by pg_dump version 17.11
@@ -594,7 +594,7 @@ cmun1w1c8000304jyitxai684	cmu0w8aj600000bgm658h1sni	Irregular stone	irregular-st
 cmpu7a2qp0002l8t2jom93w15	cmpu7a2oe0000l8t232dsj2jq	Demo CanGerard	demo-cangerard	Botiga de demostració del personal de CanGerard. Productes amb variants per provar el flux de compra.	Tienda de demostración del personal de CanGerard. Productos con variantes para probar el flujo de compra.	A demo storefront run by the CanGerard team. Products carry variants so the buying flow can be exercised end-to-end.	\N	Barcelonès	APPROVED	\N	10.00	acct_1TuTE5KHMnTrRsOK	t	t	t	t	2026-05-31 19:56:21.074	2026-05-31 19:56:21.134	2026-10-01 04:21:07.681	Barcelona	ES	08036	Barcelonès	Carrer de Mallorca, 100	Carrer de Mallorca, 100	\N	Barcelona	ES	08036	Barcelonès	ES	6a5b3d40923e3f80f707805b	CanGerard Demo SL	ES · STRIPE TEST BANK ··7890	A12345674	\N	GENERAL	+34 932 000 100	admin@cangerard.cat	7	CG-A12345674	\N	\N	\N	\N	\N	f	t	f	f	2026-10-01 04:21:07.667	\N	t	2026-09-27 21:27:39.818	ADMIN	NONE	\N	\N	\N	\N	\N	f	\N	\N	\N	\N	\N	\N	\N	\N	{}	\N	{}	\N	MARKETPLACE
 cmpy87w4o000204l1twrbo7ye	cmpy87vzd000004l1nekjm03g	Quota Vita	quota-vita	Whey protein amb gustos locals de crema catalana i orxata	Whey protein amb gustos locals de crema catalana i orxata	Whey protein amb gustos locals de crema catalana i orxata	\N	Premià de Mar	PENDING	\N	10.00	\N	f	f	f	f	\N	2026-06-03 15:33:43.465	2026-06-03 15:33:43.465	\N	ES	\N	\N	\N	\N	\N	\N	ES	\N	\N	ES	\N	\N	\N	\N	\N	GENERAL	683338038	\N	1	\N	\N	\N	\N	\N	\N	f	t	f	f	\N	\N	f	\N	\N	NONE	\N	\N	\N	\N	\N	f	\N	\N	\N	\N	\N	\N	\N	\N	{}	\N	{}	\N	MARKETPLACE
 cmu400wnd000804l46nzu9ujl	cmu3zvuoo000404jmp0tk5c9h	Cafès Bofarull	cafes-bofarull	Torradores de café des del 1925	Torradores de café des del 1925	Torradores de café des del 1925	\N	Badalona	APPROVED	\N	10.00	\N	f	f	f	f	2026-09-16 11:31:05.978	2026-09-16 11:09:47.209	2026-10-05 08:05:39.97	Badalona	ES	08912	Barcelona	Alfons XII, 27	Alfons XII, 27	\N	Badalona	ES	08912	Barcelona	ES	\N	CAFES BOFARULL S.L.	\N	B08981938	\N	GENERAL	933993757	info@cafesbofarull.com	1	CG-B08981938	25.00842/B	2026-10-05 08:05:39.9	1.3	\N	\N	f	t	f	f	\N	\N	t	2026-09-27 21:25:50.859	ADMIN	NONE	\N	\N	\N	\N	\N	f	\N	\N	\N	1.0	2026-10-05 08:05:39.9	\N	\N	\N	{}	\N	{}	\N	MARKETPLACE
-cmumzn74i000504l6rajo6gsl	cmumzn73d000004l6npsfmulq	Moodscandles	moodscandles	Espelmes aromatiques,waxmels fets amb sera de soja i coco	Aromas artesanales, wax melts elaborados con cera de soja y coco. También hacemos creamers de cera.	Aromatic spelts, waxmels fets with soy and coconut,	\N	El vendrell	APPROVED	\N	10.00	acct_1UM3RVGWt6Kg2XM9	f	f	f	f	2026-09-29 18:39:27.088	2026-09-29 18:06:44.905	2026-11-14 03:30:01.263	El vendrell	ES	43700	Baix penedes	Carrer de Cèsar Martinell i Brunet	Cesar martinell i brunet 26 2-1	\N	El vendrell	ES	43700	Tarragona	ES	6abe20a6ca53b128ca08124d	Edgar saperas cuadros	\N	46410564Z	\N	GENERAL	662581506	info@moodscandles.es	2	CG-46410564Z	\N	2026-11-06 12:21:24.007	1.5	\N	\N	f	f	t	t	2026-09-29 18:11:25.283	cus_VLn2G8UANr6S8b	t	2026-09-29 18:50:04.657	ADMIN	CANCELED	MONTHLY	sub_1UL5TmGrwsKLqRAQ2iDMmLE7	10.00	2026-10-13 18:09:34	2026-10-13 18:09:34	f	2026-09-29 18:50:04	2026-09-29 18:50:44	2026-09-29 18:09:34	1.0	2026-09-30 19:31:30.446	41000004	\N	\N	{}	\N	{}	\N	MARKETPLACE
+cmumzn74i000504l6rajo6gsl	cmumzn73d000004l6npsfmulq	Moodscandles	moodscandles	Espelmes aromatiques,waxmels fets amb sera de soja i coco	Aromas artesanales, wax melts elaborados con cera de soja y coco. También hacemos creamers de cera.	Aromatic spelts, waxmels fets with soy and coconut,	\N	El vendrell	APPROVED	\N	10.00	acct_1UM3RVGWt6Kg2XM9	f	f	f	f	2026-09-29 18:39:27.088	2026-09-29 18:06:44.905	2026-11-15 03:30:01.862	El vendrell	ES	43700	Baix penedes	Carrer de Cèsar Martinell i Brunet	Cesar martinell i brunet 26 2-1	\N	El vendrell	ES	43700	Tarragona	ES	6abe20a6ca53b128ca08124d	Edgar saperas cuadros	\N	46410564Z	\N	GENERAL	662581506	info@moodscandles.es	2	CG-46410564Z	\N	2026-11-06 12:21:24.007	1.5	\N	\N	f	f	t	t	2026-09-29 18:11:25.283	cus_VLn2G8UANr6S8b	t	2026-09-29 18:50:04.657	ADMIN	CANCELED	MONTHLY	sub_1UL5TmGrwsKLqRAQ2iDMmLE7	10.00	2026-10-13 18:09:34	2026-10-13 18:09:34	f	2026-09-29 18:50:04	2026-09-29 18:50:44	2026-09-29 18:09:34	1.0	2026-09-30 19:31:30.446	41000004	\N	\N	{}	\N	{}	\N	MARKETPLACE
 cmtmtvvcf000504l2a133x04p	cmtmtvvbf000004l2sry7757s	Agrícola i SC La Ginesta SCCL	agricola-i-sc-la-ginesta-sccl	Cooperativa centenaria de la Ribera d'Ebre amb productes de qualitat a preu molt competitiu!	Cooperativa centenaria de la Ribera d'Ebre con productos de calidad a precio competitivo.	A century-old cooperative in the Ribera d’Ebre region, offering high-quality products at very competitive prices!	\N	Ginestar	APPROVED	\N	10.00	acct_1UCGa9GShPWkHvXY	t	t	t	t	2026-09-04 10:57:10.27	2026-09-04 10:45:49.515	2026-10-18 19:29:36.019	GINESTAR	ES	43748	Tarragona	PLAÇA CATALUNYA 3-5	PLAÇA CATALUNYA 3-5	\N	GINESTAR	ES	43748	Tarragona	ES	6abcf4091a015b7f650df2d5	Agrícola i Secció de Crèdit La Ginesta SCCL	ES · CAIXABANK, S.A. ··6812	F43011832	\N	GENERAL	684416705	coopginestar@gmail.com	3	CG-F43011832	16.01928/T	2026-09-26 10:41:17.141	1.3	\N	\N	f	t	t	t	2026-10-01 06:31:18.384	\N	t	2026-09-27 20:12:53.682	ADMIN	NONE	\N	\N	\N	\N	\N	f	\N	\N	\N	1.0	2026-10-01 06:24:18.42	41000002	\N	\N	{}	\N	{}	\N	MARKETPLACE
 cmu3ryyjw000504l5hlnyg2n6	cmu3ryyim000004l52dgivdic	Halcyon Home	halcyon-home	Productes per animals, plantes i persones	Productos para animales, plantas y personas	Productes for animals, plants and people	\N	Taradell	APPROVED	\N	10.00	\N	f	f	f	f	2026-09-16 07:38:15.514	2026-09-16 07:24:19.39	2026-09-27 20:13:32.595	Taradell	ES	08552	Barcelona	Carrer Treball, 19 - Polígon Industrial "El Vivet"	Carrer Treball, 19	Polígon Industrial El Vivet	Taradell	ES	08552	Barcelona	ES	\N	Juno Manufacturing S.L.	\N	B44728319	\N	GENERAL	938126964	info@halcyon-home.com	1	CG-B44728319	\N	2026-09-16 07:24:19.364	1.2	\N	\N	f	t	f	f	\N	\N	t	2026-09-27 20:13:32.589	ADMIN	NONE	\N	\N	\N	\N	\N	f	\N	\N	\N	\N	\N	\N	\N	\N	{}	\N	{}	\N	MARKETPLACE
 cmtkbs20n000504l5iyl6fo32	cmtkbit56000004l7wf1d6fqr	Siris	siris	Creo a partir de cera d’abella verge procedent d’epicultors ecològics locals	Creo a partir de cera de abeja virgen procedente de epicultores ecologicos locales	I create using virgin beeswax from local organic beekeepers.	\N	Manlleu	APPROVED	\N	10.00	\N	f	f	f	f	2026-09-04 07:41:36.349	2026-09-02 16:43:26.135	2026-09-27 20:13:48.17	Manlleu	ES	08560	Osona	Carrer Alta Cortada, 24	Carrer Alta Cortada, 24	\N	Manlleu	ES	08560	Barcelona	ES	\N	Ingrid Mas	\N	33958682X	\N	GENERAL	606308900	ingridxybonn@gmail.com	1	CG-33958682X	\N	2026-09-25 09:56:50.407	1.3	\N	\N	f	t	f	t	2026-09-25 09:57:36.967	\N	t	2026-09-27 20:13:48.166	ADMIN	NONE	\N	\N	\N	\N	\N	f	\N	\N	\N	\N	\N	\N	\N	\N	{}	\N	{}	\N	MARKETPLACE
@@ -2424,7 +2424,7 @@ cmvghtot6000007kz1kwwuxws	cmvb37nm5000606k04r27atac	cmpu7a64c001cl8t2eom88xbr	Br
 cmwbpp69i6yrk0peibxssyrev	cmwabumzb000c08l5qg9pp7e4	cmwbcgfwyf14r0t3zmm7i55yn	Junta del portafiltre per a Ascaso Steel Prof i Ascaso Bar	Junta de portafiltro para Ascaso Steel Prof y Ascaso Bar	Group gasket for Ascaso Steel Prof and Ascaso Bar	junta-del-portafiltre-per-a-ascaso-steel-prof-i-ascaso-bar	Junta del portafiltre per al grup professional de les cafeteres Ascaso Steel Uno, Duo i Trio Prof i Ascaso Bar, en les versions que s'indiquen a sota.\n\n- Ascaso Bar (gamma anterior al 2019), grup de caldera professional: versions des del 04/2012 i des del 06/2015\n- Ascaso Steel Uno Prof (fins al 2016)\n- Ascaso Steel Duo Prof (fins al 2016)\n- Ascaso Steel Trio Prof (des del 12/2016, gamma anterior al 2019)\n\nComprova l'any de fabricació a l'etiqueta de característiques de la cafetera abans de triar la junta.	Junta de portafiltro para el grupo profesional de las cafeteras Ascaso Steel Uno, Duo y Trio Prof y Ascaso Bar, en las versiones que se indican abajo.\n\n- Ascaso Bar (gama anterior a 2019), grupo de caldera profesional: versiones desde 04/2012 y desde 06/2015\n- Ascaso Steel Uno Prof (hasta 2016)\n- Ascaso Steel Duo Prof (hasta 2016)\n- Ascaso Steel Trio Prof (desde 12/2016, gama anterior a 2019)\n\nComprueba el año de fabricación en la etiqueta de características de la cafetera antes de elegir la junta.	Group gasket for the professional group of Ascaso Steel Uno, Duo and Trio Prof and Ascaso Bar espresso machines, in the versions listed below.\n\n- Ascaso Bar (range before 2019), professional boiler group: versions from 04/2012 and from 06/2015\n- Ascaso Steel Uno Prof (up to 2016)\n- Ascaso Steel Duo Prof (up to 2016)\n- Ascaso Steel Trio Prof (from 12/2016, range before 2019)\n\nCheck the year of manufacture on your machine's rating label before choosing the gasket.	\N	3.50	\N	21.00	4.24	EUR	218	NEW	DRAFT	[]	0	0	2026-11-11 07:02:17.775	2026-11-11 08:02:29.904	10	20	500	15	DISTRIBUIT	2026-11-11 06:22:26.17	f	\N	\N	0	t	f	\N	\N	\N	\N	\N	\N	\N	\N	f	\N	\N	\N	\N	f	t	t	\N	\N	\N	\N	\N	\N	[]	\N	\N	f	t	\N	\N	\N	200	t	0	f	\N	https://www.cafessole.com/recambios-domesticos/320-junta-portafiltro-steel.html	f	\N	\N	0	{}
 cmvggldmg000707l2nlab18v8	cmvb37nm5000606k04r27atac	cmpu7a64c001cl8t2eom88xbr	Salsa de tòfona	Salsa de trufa	Truffle sauce	salsa-de-tofona	Preparat a base de tòfona d'estiu i xampinyons per a tofonar qualsevol plat. Afegir un parell de cullerades(o les desitjades) a una crema de llet, a una mayonesa,a una pizza, a un biquini,a unes patates fregides..un munt de possibilitats amb la nostra salsa de tòfona.	Preparado a base de trufa de verano y xampiñones para trufar cualquier plato.\nAñade un par de cucharadas(o las deseadas) a una crema de leche, a una mahonesa, a una pizza, a un biquini, a unas patats fritas.. mucha versatilidad con nuestra salsa de trufa.	A preparation based on summer truffles and button mushroom, perfect for adding a truffle touch to any meal.\nAdd a cuple of spoonfuls(or as much as you like) to cream, mayonnaise, pizza, a mixt sandwich, or even french fries..our truffle sauce offers great versatility.	Trufats	8.18	\N	10.00	9.00	EUR	50	NEW	ACTIVE	[]	0	0	2026-10-20 09:06:32.632	2026-11-13 13:50:32.776	21	13.5	286	13.5	FET_A_CATALUNYA	2026-10-23 09:48:26.736	f	g	177.000	0	f	f	\N	\N	\N	{"storageEs": "En un lugar fresco y seco. Solo refrigerar una vez abierto si no se consume todo el contenido.", "allergensEs": "Puede contener trazas de soja,huevo,cacahuetes,leche,frutos de cáscara,granos de sésamo,apio,mostaza y sulfitos.a", "businessName": "Trufats", "ingredientsEs": "Trufa de verano(tuberaestivum)36%,aceite de girasol,aceite de oliva, aceitunas negras, ajo,sal,pimienta y aroma."}	Camí de Sant Jordi,91 (Sant Jordi de Cercs) 08698	Trufats	\N	\N	f	\N	\N	\N	\N	f	t	t	\N	\N	\N	\N	\N	\N	[]	\N	\N	f	t	\N	\N	\N	200	t	0	f	\N	\N	f	\N	\N	0	{}
 cmvgg5wwd000308lg9ziq1h84	cmvb37nm5000606k04r27atac	cmpu7a64c001cl8t2eom88xbr	Preparat de patata i tòfona	Preparado de patata y trufa	A potato and truffle mixture	preparat-de-patata-i-tofona	Preparat de patata i tòfona per a fer una truita de patata solsament afegint el ous.	Preparado de patata y trufa para hacer una tortilla de patata solamente añadiendo los huevos.	A potato and truffle mixture for making a potato omelette just add the eggs.	Trufats	7.73	\N	10.00	8.50	EUR	30	NEW	ACTIVE	[]	0	0	2026-10-20 08:54:31.117	2026-11-13 13:50:47.658	21	13.5	750	13.5	FET_A_CATALUNYA	2026-10-23 09:48:26.736	f	g	640.000	0	f	f	\N	\N	\N	{"storageEs": "En un lugar fresco y seco. Solo refrigerar una vez abierto si no se consume todo el contenido.", "allergensEs": "Puede contener trazas de soja,huevo,cacahuetes,leche,frutos de cáscara,granos de sésamo,apio,mostaza y sulfitos.a", "businessName": "Trufats", "ingredientsEs": "Patata 77%,aceite de oliva,trufa negra(tubermelanosporum)1,3%,sal i aroma."}	Camí de Sant Jordi,91 (Sant Jordi de Cercs)08698	Trufats	\N	\N	f	\N	\N	\N	\N	f	t	t	\N	\N	\N	\N	\N	\N	[]	\N	\N	f	t	\N	\N	\N	200	t	0	f	\N	\N	f	\N	\N	0	{}
-cmvkzzw8c000008l0lb9bshbj	cmvb37nm5000606k04r27atac	cmsfeiu4b000004l7tfob6cwn	Espelma de mantega noisette amb tòfona negra 60gr	Vela de mantequilla noisette con trufa negra 60gr	Brown butter candle with black truffle 60gr	espelma-de-mantega-noisette-amb-tofona-negra-60gr	Espelma de mantega ideal per a sorprendre. Ja sigui amb família, amics o en parella.\nTreure la mantega mínim 30min.abans d'encendre-la. Posar.la al centre de la taula, damunt d.un plat, encendre la metxa,esperar i...a sucar pa! Un aperitiu ben diferent.	Vela de mantequilla ideal para sorprender. Ya sea con familia, amigos o en pareja. Sacar la mantequilla minimo 30 minutos antes de encenderla. Ponerla en el centro de la mesa,sobre un plato,encender la mecha, esperar y...a mojar pan! Un aperitivo bien diferente.	A butter candle perfect for a surprise whether you are with family, friends or your partner. Take the candle out 30min before lighting it.Place it in the center of the table on a plate,ligjt the wick,wait and....dip your bread! A truly unique appetizer.	Trufats	7.27	\N	10.00	8.00	EUR	20	NEW	ACTIVE	[]	0	0	2026-10-23 13:20:47.34	2026-11-13 14:10:10.623	21	13.5	260	13.5	FET_A_CATALUNYA	2026-10-23 13:43:26.659	f	g	60.000	0	f	f	\N	\N	\N	{"storageEs": "En nevera de 0a6°C", "allergensEs": "Nata,fermentos lácteos.", "businessName": "Trufats", "ingredientsEs": "Nata pasteurizada,fermentos lácteos,sal,Vitamina A(Betacaroteno)96,25%,trufa negra(tubermelanosporum)3,75%"}	Cami de Sant Jordi,91	Trufats	\N	\N	f	\N	\N	\N	\N	f	f	f	\N	\N	\N	\N	\N	\N	[]	\N	2	f	t	\N	\N	\N	200	t	0	f	cmwf1yqti000q08jvg7m0atzc	\N	f	\N	\N	0	{}
+cmvkzzw8c000008l0lb9bshbj	cmvb37nm5000606k04r27atac	cmsfeiu4b000004l7tfob6cwn	Espelma de mantega noisette amb tòfona negra 60gr	Vela de mantequilla noisette con trufa negra 60gr	Brown butter candle with black truffle 60gr	espelma-de-mantega-noisette-amb-tofona-negra-60gr	Espelma de mantega ideal per a sorprendre. Ja sigui amb família, amics o en parella.\nTreure la mantega mínim 30min.abans d'encendre-la. Posar.la al centre de la taula, damunt d.un plat, encendre la metxa,esperar i...a sucar pa! Un aperitiu ben diferent.	Vela de mantequilla ideal para sorprender. Ya sea con familia, amigos o en pareja. Sacar la mantequilla minimo 30 minutos antes de encenderla. Ponerla en el centro de la mesa,sobre un plato,encender la mecha, esperar y...a mojar pan! Un aperitivo bien diferente.	A butter candle perfect for a surprise whether you are with family, friends or your partner. Take the candle out 30min before lighting it.Place it in the center of the table on a plate,ligjt the wick,wait and....dip your bread! A truly unique appetizer.	Trufats	7.27	\N	10.00	8.00	EUR	20	NEW	ACTIVE	[]	0	0	2026-10-23 13:20:47.34	2026-11-14 09:22:09.635	21	13.5	260	13.5	FET_A_CATALUNYA	2026-10-23 13:43:26.659	f	g	60.000	0	f	f	\N	\N	\N	{"storageEs": "En nevera de 0a6°C", "allergensEs": "Nata,fermentos lácteos.", "businessName": "Trufats", "ingredientsEs": "Nata pasteurizada,fermentos lácteos,sal,Vitamina A(Betacaroteno)96,25%,trufa negra(tubermelanosporum)3,75%"}	Cami de Sant Jordi,91	Trufats	\N	\N	f	\N	\N	\N	\N	f	f	f	\N	\N	\N	\N	\N	\N	[]	\N	2	f	t	\N	\N	\N	200	t	0	f	cmwf1yqti000q08jvg7m0atzc	\N	f	\N	\N	0	{}
 cmwbpp6q96yrs091qf9d76v2n	cmwabumzb000c08l5qg9pp7e4	cmwbcgfwyf14r0t3zmm7i55yn	Calaix de l'aigua per a cafetera Ascaso Steel Uno i Steel Duo	Cajón de agua para cafetera Ascaso Steel Uno y Steel Duo	Water drawer for Ascaso Steel Uno and Steel Duo espresso machines	calaix-de-l-aigua-per-a-cafetera-ascaso-steel-uno-i-steel-du	Calaix de l'aigua de recanvi compatible amb les cafeteres espresso Ascaso Steel Uno i Steel Duo, per substituir l'original si s'ha trencat o esquerdat.\n\n- **Compatible amb:** Ascaso Steel Uno i Ascaso Steel Duo.	Cajón de agua de recambio compatible con las cafeteras espresso Ascaso Steel Uno y Steel Duo, para sustituir el original si se ha roto o agrietado.\n\n- **Compatible con:** Ascaso Steel Uno y Ascaso Steel Duo.	Replacement water drawer compatible with the Ascaso Steel Uno and Steel Duo espresso machines, to replace the original if it is broken or cracked.\n\n- **Fits:** Ascaso Steel Uno and Ascaso Steel Duo.	\N	19.38	\N	21.00	23.45	EUR	319	NEW	DRAFT	[]	0	0	2026-11-11 07:02:18.363	2026-11-11 08:02:30.317	10	20	500	15	DISTRIBUIT	2026-11-11 06:22:26.17	f	\N	\N	0	t	f	\N	\N	\N	\N	\N	\N	\N	\N	f	\N	\N	\N	\N	f	t	t	\N	\N	\N	\N	\N	\N	[]	\N	\N	f	t	\N	\N	\N	200	t	0	f	\N	https://www.cafessole.com/recambios-domesticos/322-cajon-agua-steel.html	f	\N	\N	0	{}
 cmwbprjhg6zyl4t90gr82utdg	cmwabumzb000c08l5qg9pp7e4	cmwbcgfr4f14q1wf9m6ttyacp	Cafetera espresso Ascaso Baby T Plus amb PID i bomba rotativa	Cafetera espresso Ascaso Baby T Plus con PID y bomba rotativa	Ascaso Baby T Plus espresso machine with PID and rotary pump	cafetera-espresso-ascaso-baby-t-plus-amb-pid-i-bomba-rotativ	Cafetera espresso Ascaso Baby T Plus amb Tecnologia T: grup independent amb control PID, caldera de vapor de 2,5 litres i bomba rotativa.\n\nLa Tecnologia T és el sistema multigrup desenvolupat per l'equip d'enginyeria d'Ascaso Factory per reduir el consum: segons el fabricant, estalvia de mitjana un 50 % respecte a una màquina tradicional i un 25 % respecte a altres multigrup. Cada extracció es fa amb aigua nova, sense aigua estancada ni rescalfada, i l'acer inoxidable minimitza la migració de metalls a la infusió (norma UE EN 16889).\n\n**Especificacions**\n\n- Mides (amplada / alçada / fons): 350 / 450 / 430 mm; pes: 40 kg\n- Potència: caldera 1200 W (230 V, 50-60 Hz) i grups de cafè 1000 W\n- Caldera de vapor de 2,5 l amb aïllant tèrmic i resistència d'acer inoxidable\n- Bomba rotativa d'acer inoxidable (200 l)\n- Dipòsit d'aigua de 2 l i connexió a la xarxa\n- 1 sortida de vapor tipus joystick i 1 sortida d'aigua amb electrovàlvula\n- Manòmetre doble (bomba i caldera)\n- Control PID de la temperatura del cafè (precisió de 0,1 °C) i del vapor (1 °C); estabilitat tèrmica de ±0,5 °C\n- Preinfusió ajustable al 100 %, amb precisió de 0,1 s\n- Dosificació volumètrica i pantalla digital multifunció\n- Autonivell electrònic, aixeta de buidatge de la caldera i vàlvules de buit i de seguretat\n- Llum a la zona de treball, escalfatasses actiu i barana per a tasses\n- Accessoris de fusta i potes cromades de gran gruix\n\n**Dotació**\n\n- 2 portafiltres amb mànec de fusta (sortida d'1 cafè i de 2 cafès)\n- Filtres d'1 cafè (7 g) i de 2 cafès (14 g), normals i Super crema\n- Filtre cec\n- Premsador d'alumini	Cafetera espresso Ascaso Baby T Plus con Tecnología T: grupo independiente con control PID, caldera de vapor de 2,5 litros y bomba rotativa.\n\nLa Tecnología T es el sistema multigrupo desarrollado por el equipo de ingeniería de Ascaso Factory para reducir el consumo: según el fabricante, ahorra de media un 50 % frente a una máquina tradicional y un 25 % frente a otras multigrupo. Cada extracción se hace con agua nueva, sin agua estancada ni recalentada, y el acero inoxidable minimiza la migración de metales a la infusión (norma UE EN 16889).\n\n**Especificaciones**\n\n- Medidas (ancho / alto / fondo): 350 / 450 / 430 mm; peso: 40 kg\n- Potencia: caldera 1200 W (230 V, 50-60 Hz) y grupos de café 1000 W\n- Caldera de vapor de 2,5 l con aislante térmico y resistencia de acero inoxidable\n- Bomba rotativa de acero inoxidable (200 l)\n- Depósito de agua de 2 l y conexión a red\n- 1 salida de vapor tipo joystick y 1 salida de agua con electroválvula\n- Doble manómetro (bomba y caldera)\n- Control PID de la temperatura del café (precisión de 0,1 °C) y del vapor (1 °C); estabilidad térmica de ±0,5 °C\n- Preinfusión ajustable al 100 %, con precisión de 0,1 s\n- Dosificación volumétrica y pantalla digital multifunción\n- Autonivel electrónico, grifo de vaciado de caldera y válvulas de vacío y seguridad\n- Luz en la zona de trabajo, calientatazas activo y barandilla para tazas\n- Accesorios de madera y patas cromadas de gran grosor\n\n**Dotación**\n\n- 2 portafiltros con mango de madera (salida de 1 café y de 2 cafés)\n- Cacillos de 1 café (7 g) y de 2 cafés (14 g), normales y Super crema\n- Cacillo ciego\n- Prensador de aluminio	Ascaso Baby T Plus espresso machine with T Technology: independent PID-controlled group, 2.5 litre steam boiler and stainless steel rotary pump.\n\nT Technology is the multi-group system developed by the Ascaso Factory engineering team to cut energy use: according to the maker, it saves 50% on average against a traditional machine and 25% against other multi-group machines. Every shot uses fresh water, never water left standing and reheated, and stainless steel minimises metal migration into the coffee (EU standard EN 16889).\n\n**Specifications**\n\n- Dimensions (W / H / D): 350 / 450 / 430 mm; weight: 40 kg\n- Power: boiler 1200 W (230 V, 50-60 Hz), coffee groups 1000 W\n- 2.5 l steam boiler with thermal insulation and stainless steel heating element\n- Stainless steel rotary pump (200 l)\n- 2 l water tank and mains water connection\n- 1 joystick steam outlet and 1 water outlet with solenoid valve\n- Dual pressure gauge (pump and boiler)\n- PID control of coffee temperature (0.1 °C precision) and steam (1 °C); thermal stability of ±0.5 °C\n- Fully adjustable pre-infusion with 0.1 s precision\n- Volumetric dosing and multifunction digital display\n- Electronic auto-fill, boiler drain tap, vacuum and safety valves\n- Work area light, active cup warmer and cup rail\n- Wooden accessories and extra-thick chrome feet\n\n**Supplied with**\n\n- 2 wooden-handled portafilters (single spout and double spout)\n- Single (7 g) and double (14 g) baskets, standard and Super crema\n- Blind basket\n- Aluminium tamper	Ascaso	3719.01	\N	21.00	4500.00	EUR	100	NEW	DRAFT	[]	0	0	2026-11-11 07:04:08.218	2026-11-11 08:03:45.297	10	20	500	15	FET_A_CATALUNYA	2026-11-11 06:22:26.17	f	\N	\N	0	t	f	\N	\N	\N	\N	\N	Ascaso Factory, S.L.U.	\N	\N	f	\N	\N	\N	\N	f	t	t	\N	\N	\N	\N	\N	\N	[]	\N	\N	f	t	\N	\N	\N	200	t	0	f	\N	https://www.cafessole.com/cafeteras/792-baby-t-plus.html	f	\N	\N	0	{}
 cmvgb53st000008iaw299hl61	cmvb37nm5000606k04r27atac	cmpu7a64c001cl8t2eom88xbr	Preparat de patata,ceba i tòfona	Preparado de patata,cebolla y trufa	Mixture of potato,onion and truffle	preparat-de-patata-ceba-i-tofona	Preparat de patata,ceba i tòfona per a fer una truita de patata solsament afegint el ous.	Preparado de patata,cebolla y trufa para hacer una tortilla de patata solamente añadiendo los huevos.	A potato,onion and truffle mixture for making a potato omelette just add the eggs.	Trufats	7.91	\N	10.00	8.70	EUR	30	NEW	ACTIVE	[]	0	0	2026-10-20 06:33:55.325	2026-11-13 13:51:13.685	21	13.5	750	13.5	FET_A_CATALUNYA	2026-10-23 09:48:26.736	f	g	640.000	0	f	f	\N	\N	\N	{"storageEs": "En un lugar fresco y seco. Solo refrigerar una vez abierto si no se consume todo el contenido.", "allergensEs": "Puede contener trazas de soja,huevo,cacahuetes,leche,frutos de cáscara,granos de sésamo,apio,mostaza y sulfitos.a", "businessName": "Trufats", "ingredientsEs": "Patata 77%,aceite de oliva,cebolla caramelizada 7,5%,trufa negra(tubermelanosporum)1,3%,sal i aroma."}	Camí de Sant Jordi,91 (Sant Jordi de Cercs)08698	Trufats	\N	\N	f	\N	\N	\N	\N	f	t	t	\N	\N	\N	\N	\N	\N	[]	\N	\N	f	t	\N	\N	\N	200	t	0	f	\N	\N	f	\N	\N	0	{}
@@ -6140,8 +6140,8 @@ cmwbq0e5u74mm4xotrgkj1yng	cmwbq0dxt74mh03geki0uozil	2 cafès	2 cafés	2 cups (do
 cmwb8gniu2df646rrt86rmf5x	cmwb8gncr2df31p56cf9fd8rq	Caixa de 16 ampolles	Caja de 16 botellas	Box of 16 bottles	31.40	37.99	\N	50	9700	28	28	26	https://res.cloudinary.com/gerardcsaperas/image/upload/v1794347446/cangerard/products/imports/lavabeer/lava-golden-9adb083dbd.png	1	2026-11-10 22:59:46.546	2026-11-12 18:53:50.811	l	5.280	f	\N	\N	[]	f	\N	\N	\N	\N	\N	\N	\N	\N	\N
 cmwb8gmu92des3oiiydatlzpa	cmwb8gmps2deq1xoxkn7lbu9h	Pack de 6 ampolles	Pack de 6 botellas	Pack of 6 bottles	14.83	17.95	\N	0	3800	21	14	26	https://res.cloudinary.com/gerardcsaperas/image/upload/v1794347437/cangerard/products/imports/lavabeer/grape-ale-9afed7ff2a.png	0	2026-11-10 22:59:45.705	2026-11-12 18:55:24.031	l	1.980	f	\N	\N	[]	f	\N	\N	\N	\N	\N	\N	\N	\N	\N
 cmwb8gmvf2det013domyybfqc	cmwb8gmps2deq1xoxkn7lbu9h	Caixa de 12 ampolles	Caja de 12 botellas	Box of 12 bottles	23.13	27.99	\N	0	7300	28	21	26	https://res.cloudinary.com/gerardcsaperas/image/upload/v1794347437/cangerard/products/imports/lavabeer/grape-ale-9afed7ff2a.png	1	2026-11-10 22:59:45.705	2026-11-12 18:55:24.037	l	3.960	f	\N	\N	[]	f	\N	\N	\N	\N	\N	\N	\N	\N	\N
-cmvl0ikg4000407l0ra6hlhjp	cmvkzzw8c000008l0lb9bshbj	60gr	60gr	60gr	7.27	8.00	\N	10	140	13.5	13.5	21	https://res.cloudinary.com/gerardcsaperas/image/upload/v1794578745/cangerard/products/f7z4wy6q52nctsjpnl0i.jpg	0	2026-10-23 13:35:18.532	2026-11-13 14:10:10.644	g	60.000	f	\N	\N	[]	f	\N	\N	\N	\N	\N	\N	\N	\N	\N
-cmwf1v8gc001007jtf4ecugk3	cmvkzzw8c000008l0lb9bshbj	120gr	120gr	120gr	14.09	15.50	\N	10	260	13.5	13.5	21	https://res.cloudinary.com/gerardcsaperas/image/upload/v1794578767/cangerard/products/jeiep1w7pompgdjmdfp0.webp	1	2026-11-13 14:06:14.412	2026-11-13 14:10:10.649	g	120.000	f	\N	\N	[]	f	\N	\N	\N	\N	\N	\N	\N	\N	\N
+cmvl0ikg4000407l0ra6hlhjp	cmvkzzw8c000008l0lb9bshbj	60gr	60gr	60gr	7.27	8.00	\N	10	140	13.5	13.5	21	https://res.cloudinary.com/gerardcsaperas/image/upload/v1794578745/cangerard/products/f7z4wy6q52nctsjpnl0i.jpg	0	2026-10-23 13:35:18.532	2026-11-14 09:22:09.693	g	60.000	f	\N	\N	[]	f	\N	\N	\N	\N	\N	\N	\N	\N	\N
+cmwf1v8gc001007jtf4ecugk3	cmvkzzw8c000008l0lb9bshbj	120gr	120gr	120gr	14.09	15.50	\N	10	260	13.5	13.5	21	https://res.cloudinary.com/gerardcsaperas/image/upload/v1794578767/cangerard/products/jeiep1w7pompgdjmdfp0.webp	1	2026-11-13 14:06:14.412	2026-11-14 09:22:09.728	g	120.000	f	\N	\N	[]	f	\N	\N	\N	\N	\N	\N	\N	\N	\N
 \.
 
 
@@ -6364,13 +6364,14 @@ cmwcgchj9000108jris3x4nid	cmwcgbbdu000308jwd9bh8is7	\N	cmvm3k1gbavqa46t10osu8iq4
 cmwcgec46000908jwy1y9ac9l	cmwcgbbdu000308jwd9bh8is7	\N	cmvgci31m5t7o0awsg82t0738	5	2026-11-11 18:29:41.718	2026-11-11 18:29:41.718	f	cmvgci3b75t7v0tut9o4irjom	\N	[]
 cmwcjrrxz000408joztjqk60i	\N	5ecfaaff-a86a-4886-9aff-a48f090d126b	cmsqrjcpj000c04l7mh8v4m1e	1	2026-11-11 20:04:07.607	2026-11-11 20:04:07.607	f	\N	\N	[]
 cmwcmvbpg000008kz6pdofqqb	\N	e9afdd8d-6e1f-44c5-a3d9-4682a3cf6348	cmtzn9azs000004jpimbyyg5x	8	2026-11-11 21:30:52.037	2026-11-11 21:30:52.037	f	\N	\N	[]
-cmwf4i38n000107jytdekhkzl	cmwf1ju2p000a08kzl5beuugl	\N	cmvkx3rvn000007l6ebd2bcp6	1	2026-11-13 15:19:59.975	2026-11-13 15:19:59.975	f	\N	\N	[]
 cmwffb5fs000008kzljaiof8r	cmwf1ju2p000a08kzl5beuugl	\N	cmvkxse2u000008l25rx1kqto	1	2026-11-13 20:22:32.008	2026-11-13 20:22:32.008	f	\N	\N	[]
-cmwffbyil000108kzz4zn4r09	cmwf1ju2p000a08kzl5beuugl	\N	cmvgb53st000008iaw299hl61	1	2026-11-13 20:23:09.693	2026-11-13 20:23:09.693	f	\N	\N	[]
 cmwfj2ns1000108jv3gtomv98	\N	01d097a9-826c-4bcc-b758-fc6ad85f2b1e	cmtzuv46y000004l8lyliewwb	1	2026-11-13 22:07:54.337	2026-11-13 22:07:54.337	f	\N	\N	[]
 cmwfj61pl000208jvpmwxp08u	\N	01d097a9-826c-4bcc-b758-fc6ad85f2b1e	cmtzn9azs000004jpimbyyg5x	1	2026-11-13 22:10:32.361	2026-11-13 22:10:32.361	f	\N	\N	[]
 cmwfj7pb5000308jvh77bz4fb	\N	01d097a9-826c-4bcc-b758-fc6ad85f2b1e	cmttv4dci000304lgpdjczsyv	1	2026-11-13 22:11:49.601	2026-11-13 22:11:49.601	f	\N	\N	[]
 cmwfj1s5i000008jvmgouv7eq	\N	01d097a9-826c-4bcc-b758-fc6ad85f2b1e	cmtzmn2bq000204l7z4lguvy8	2	2026-11-13 22:07:13.351	2026-11-13 22:14:16.747	f	\N	\N	[]
+cmwg6qnru000208l74zu7fj68	cmwf1ju2p000a08kzl5beuugl	\N	cmvkwfimb000008jmnpw6eo1y	1	2026-11-14 09:10:25.242	2026-11-14 09:10:38.768	f	\N	\N	[]
+cmwffbyil000108kzz4zn4r09	cmwf1ju2p000a08kzl5beuugl	\N	cmvgb53st000008iaw299hl61	1	2026-11-13 20:23:09.693	2026-11-14 09:10:58.844	f	\N	\N	[]
+cmwgmlinx000007l541lcgoqj	\N	a088559d-8695-40f5-9b90-cd3df117c013	cmvkzzw8c000008l0lb9bshbj	1	2026-11-14 16:34:19.197	2026-11-14 16:34:19.197	f	cmwf1v8gc001007jtf4ecugk3	\N	[]
 \.
 
 
@@ -7058,6 +7059,7 @@ cmwb1gt7d000008ilrguadni8	GENERAL	Gemma	hola@kurukuru.es	Consulta sobre la incor
 cmwbm61x0000008l91ltddr5e	OTHER	Roel	senx.roel@gmail.com	Design & Performance Review for cangerard.cat	Hello cangerard.cat,\r\n\r\nI noticed a few design-related issues on your website  cangerard.cat that could impact its performance and user experience.\r\n\r\nWould you like me to send a screenshot highlighting these errors? I can also prepare a detailed audit report, along with a proposal and pricing to improve your website’s design and optimize its ranking.\r\n\r\nLooking forward to your response.\r\n\r\nKind regard	ca	\N	f	\N	2026-11-11 04:23:26.772
 cmwc7ua4e000508jv01vrj43s	PRESS	Arnau	comunicacio@tenimllengua.cat	tenimllengua.cat	Bon dia, ens hem assabentat de la teva iniciativa. Felicitats. Volem proposar-te que t'adhereixis a tenimllengua.cat com a botiga en línia. Només us costaria 20€/any. Com que nosaltres també estem començant i necessitem suports, a canvi faríem una ressenya a xarxes (tenim 1000 seguidors a IG) anunciant la vostra adhesió. \r\nQuè et sembla?\r\nPer qualsevol dubte, truca'm o escriu-me! \r\n609967507\r\nBona sort!	ca	\N	f	\N	2026-11-11 14:30:09.086
 cmwekuvsk000008le9r5tl4ld	CAREERS	Monte	monte@cangerard.cat	Contacta amb CanGerard · CanGerard	Great-Value Bags at Wholesale Prices!\r\n\r\nUp to 50% OFF + Fast, Free Shipping!\r\n\r\nShop Now → https://clarimart.com	ca	\N	f	\N	2026-11-13 06:10:04.532
+cmwh1n0qe000008k1dmptp7gj	RETURNS	Venus	domains@search-cangerard.cat	Results for cangerard.cat	Hello\r\n\r\nList cangerard.cat in Google's Search Index so it can be displayed in online search results!\r\n\r\nFeature cangerard.cat today: indexhelper.pro	ca	\N	f	\N	2026-11-14 23:35:23.51
 \.
 
 
@@ -7114,12 +7116,11 @@ cmuogz991000004jm5m9wmh6j	cmuoevn7h000604l6tvjg76ky	Enviament gratuït a partir 
 cmuq1d7b0000004jyjkzdb7xc	cmuq144rt000606qnv6v49w8s	Enviament gratuït a partir de 60 €	Envío gratis a partir de 60 €	Free shipping over 60 €	0.00	EUR	\N	t	0	\N	\N	60.00	\N	\N	\N	\N	2026-10-01 21:18:16.38	2026-10-01 21:18:16.38	FREE	PLATFORM	{}	{}	FLAT	\N	\N	\N	\N
 cmup12kh6000006nmlrown7go	cmsq2qfh9000504jor63lbyxz	Enviament propi del venedor	Envío propio del vendedor	Seller's own shipping	120.00	EUR	1-15	t	0	\N	\N	\N	\N	\N	\N	\N	2026-10-01 04:22:14.058	2026-10-02 16:37:32.138	OWN	\N	{}	{}	FLAT	\N	\N	\N	\N
 cmut0uoi2000204jqq6h9gswf	cmtt5e5ni000504jpg4lzgr78	Enviament propi del venedor	Envío propio del vendedor	Seller's own shipping	7.00	EUR	2-3	t	0	\N	\N	\N	\N	\N	\N	\N	2026-10-03 23:27:10.73	2026-10-03 23:27:51.131	OWN	\N	{}	{}	FLAT	\N	\N	\N	\N
-cmwf19gtf000408kz1tq81pfk	cmvb37nm5000606k04r27atac	Enviament gratuït a partir de 50 €	Envío gratis a partir de 50 €	Free shipping over 50 €	0.00	EUR	2-4 dies	t	0	\N	\N	50.00	\N	\N	\N	\N	2026-11-13 13:49:18.819	2026-11-13 14:07:40.731	FREE	SELLER	{}	{}	FLAT	\N	\N	\N	\N
 cmuo2k98e000004jlw32hriuz	cmqmvftzu000504jxy963ldl9	Enviament propi del venedor	Envío propio del vendedor	Seller's own shipping	9.00	EUR	3-4	t	0	\N	\N	\N	\N	\N	\N	\N	2026-09-30 12:16:12.734	2026-11-04 09:13:27.216	OWN	\N	{}	{}	FLAT	\N	\N	\N	\N
 cmw9e0fso000507l799ceciye	cmw977xhr000608jptto1aobr	Correos	Correos	Correos	3.50	EUR	24 - 72 hores	t	0	\N	\N	\N	\N	\N	\N	\N	2026-11-09 14:59:35.544	2026-11-09 14:59:35.544	OWN	\N	{}	{}	FLAT	\N	\N	\N	\N
 cmw9e1ngj000108kxgzn466fd	cmw977xhr000608jptto1aobr	Enviament gratuït a partir de 44 €	Envío gratis a partir de 44 €	Free shipping over 44 €	0.00	EUR	24 - 72 hores	t	0	\N	\N	44.00	\N	\N	\N	\N	2026-11-09 15:00:32.131	2026-11-09 15:00:41.425	FREE	SELLER	{}	{}	FLAT	\N	\N	\N	\N
-cmwf2s7ui000408l5v40c7x7e	cmvb37nm5000606k04r27atac	Normal	Normal	Normal	0.00	EUR	2-4	t	0	\N	\N	\N	\N	\N	\N	\N	2026-11-13 14:31:53.274	2026-11-13 14:48:22.285	OWN	\N	{}	{}	ORDER_AMOUNT	\N	\N	\N	\N
-cmwf3c3q5001908jvmklvyulo	cmvb37nm5000606k04r27atac	En Frío	En Frío	En Frío	0.00	EUR	2	t	0	\N	\N	\N	\N	\N	\N	\N	2026-11-13 14:47:21.053	2026-11-13 14:48:25.178	OWN	\N	{}	{}	ORDER_AMOUNT	\N	\N	\N	\N
+cmwf3c3q5001908jvmklvyulo	cmvb37nm5000606k04r27atac	En Frío	En Frío	En Frío	0.00	EUR	2	t	0	\N	\N	\N	\N	\N	\N	\N	2026-11-13 14:47:21.053	2026-11-14 09:17:27.852	OWN	\N	{}	{}	ORDER_AMOUNT	\N	\N	\N	\N
+cmwf19gtf000408kz1tq81pfk	cmvb37nm5000606k04r27atac	Enviament gratuït a partir de 60 €	Envío gratis a partir de 60 €	Free shipping over 60 €	0.00	EUR	2-4 dies	t	0	\N	\N	60.00	\N	\N	\N	\N	2026-11-13 13:49:18.819	2026-11-14 09:28:05.848	FREE	SELLER	{}	{}	FLAT	\N	\N	\N	\N
 \.
 
 
@@ -8917,6 +8918,8 @@ cmwbwdx0o000108jphoushofj	cmvs1c26o000007l5f81bu617	ORDER_CONFIRMED	{"orderNumbe
 cmwbwdx5j000208jphmoonr7c	cmqmvftz6000304jxm441kpeg	SELLER_NEW_ORDER	{"orderNumber": "CG-20261111-HBR1BI"}	\N	2026-11-11 09:09:30.006	2026-11-11 09:09:30.007
 cmwbwdxhp000408jp64skwleh	cmqmvftz6000304jxm441kpeg	SELLER_CUSTOM_SHIPMENT	{"methodName": "Enviament propi del venedor", "orderNumber": "CG-20261111-HBR1BI"}	\N	2026-11-11 09:09:30.444	2026-11-11 09:09:30.445
 cmwb4vhav000808jyue1ju9b3	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Alícia Casanovas Orce", "email": "aliscosturetes@gmail.com"}	2026-11-13 06:58:03.833	\N	2026-11-10 20:19:20.023
+cmwg111fq000107jsqjovmvkd	cmw2eb3gl000208l4g8hoxdwe	SELLER_OUT_OF_STOCK_REMINDER	{"count": 2, "variantCount": 0, "productTitles": "Caixa degustació de cerveses LAVA, Cervesa LAVA Rosé 33 cl"}	\N	2026-11-14 06:30:31.814	2026-11-14 06:30:31.814
+cmwg111k7000207js00hawlgz	cmwabumwr000608l5dckc42h3	SELLER_OUT_OF_STOCK_REMINDER	{"count": 37, "variantCount": 4, "productTitles": "Adaptador de junta del dipòsit per a Solac CE4450, CE4495 i CE4500, Anella de suport del grup d'alumini per a Minimoka M363 i M365, Cafetera espresso Minimoka CM-1622 negra, bomba de 15 bar, Cafetera espresso Minimoka CM-1821 amb frontal d'acer inoxidable, Cafetera espresso Minimoka M-270 plata, 18 bar i dipòsit de 2 l, Cafetera espresso Minimoka M-364 plata per a cafè mòlt i monodosis, Cafetera espresso Minimoka M-367 negra amb caldera d'acer inoxidable, Cafetera espresso Minimoka M-372 plata, 15 bar i dipòsit d'1,5 l, +33"}	\N	2026-11-14 06:30:31.975	2026-11-14 06:30:31.975
 cmwc7u4c1000008jq7tlbp3bn	cmumzn73d000004l6npsfmulq	SELLER_STRIPE_SETUP_REQUIRED	{"orderNumber": "CG-20261001-2VYESP"}	\N	2026-11-11 14:30:01.579	2026-11-11 14:30:01.585
 cmwd65c2l000007l0yb5eaaxl	cmtuipd7j000004iha92xkfut	SELLER_OUT_OF_STOCK_REMINDER	{"count": 5, "variantCount": 0, "productTitles": "Caramels de cérvol per a gossos 100% cérvol, Colls de gall dindi deshidratats per a gossos, mastegable natural 100% gall dindi, Colls de pollastre deshidratats per a gossos, snack natural 100% pollastre, Costelles de cérvol deshidratades per a gossos, mastegable natural 100% cérvol, Puntes d'ala de pollastre deshidratades per a gossos, snack natural 100% pollastre"}	\N	2026-11-12 06:30:31.762	2026-11-12 06:30:31.774
 cmwd65c6t000107l0exq73xl0	cmw2eb3gl000208l4g8hoxdwe	SELLER_OUT_OF_STOCK_REMINDER	{"count": 5, "variantCount": 0, "productTitles": "Caixa degustació de cerveses LAVA, Cervesa LAVA Golden 33 cl, Cervesa LAVA Grape Ale amb Riesling del Montsacopa, Cervesa LAVA Rosé 33 cl, Pack de cerveses LAVA edició especial Festes del Tura"}	\N	2026-11-12 06:30:31.925	2026-11-12 06:30:31.925
@@ -8928,6 +8931,8 @@ cmwell7ww000207l97o3177ss	cmwabumwr000608l5dckc42h3	SELLER_OUT_OF_STOCK_REMINDER
 cmwell80u000307l9e5k5uf31	cmvdeurfu000008jw80l5kir4	SELLER_OUT_OF_STOCK_REMINDER	{"count": 0, "variantCount": 4, "productTitles": "Bombons aromàtics de cera Botanical Collection (Etiqueta en castellà), Daus aromàtics per a calaixos Roba Estesa (Etiqueta en castellà), Espelma aromàtica El Cafè de l'Àvia (Etiqueta en català), Pack de regal d'espelmes aromàtiques · El Primer Refugi (Etiqueta en català · Sense cremador)"}	\N	2026-11-13 06:30:33.438	2026-11-13 06:30:33.438
 cmwbxonzi000008l89c8k88do	cmpu7a2oe0000l8t232dsj2jq	ADMIN_INVOICE_FAILED	{"kind": "commission-invoice", "error": "400: NUMBERING_SERIES_UNRESOLVED 2 \\"invoice\\" series in Holded, set HOLDED_INVOICE_SERIES_ID", "reference": "CG-20261111-HBR1BI"}	2026-11-13 06:58:03.833	2026-11-11 09:45:50.954	2026-11-11 09:45:50.958
 cmwby7zmp000108l81g1e6i7b	cmpu7a2oe0000l8t232dsj2jq	ADMIN_INVOICE_FAILED	{"kind": "commission-invoice", "error": "400: NUMBERING_SERIES_UNRESOLVED 2 \\"invoice\\" series in Holded, set HOLDED_INVOICE_SERIES_ID", "reference": "CG-20261111-HBR1BI"}	2026-11-13 06:58:03.833	2026-11-11 10:00:52.513	2026-11-11 10:00:52.513
+cmwg111o7000307jsrhywc04s	cmvdeurfu000008jw80l5kir4	SELLER_OUT_OF_STOCK_REMINDER	{"count": 0, "variantCount": 4, "productTitles": "Bombons aromàtics de cera Botanical Collection (Etiqueta en castellà), Daus aromàtics per a calaixos Roba Estesa (Etiqueta en castellà), Espelma aromàtica El Cafè de l'Àvia (Etiqueta en català), Pack de regal d'espelmes aromàtiques · El Primer Refugi (Etiqueta en català · Sense cremador)"}	\N	2026-11-14 06:30:32.118	2026-11-14 06:30:32.119
+cmwh1n0xo000108k1x30ktprb	cmpu7a2oe0000l8t232dsj2jq	ADMIN_CONTACT_MESSAGE	{"body": "Hello\\r\\n\\r\\nList cangerard.cat in Google's Search Index so it can be displayed in online search results!\\r\\n\\r\\nFeature cangerard.cat today: indexhelper.pro", "name": "Venus", "excerpt": "Hello\\r\\n\\r\\nList cangerard.cat in Google's Search Index so it can be displayed in online search results!\\r\\n\\r\\nFeature cangerard.cat today: indexhelper.pro", "subject": "Results for cangerard.cat", "fromEmail": "domains@search-cangerard.cat"}	\N	2026-11-14 23:35:23.77	2026-11-14 23:35:23.772
 cmwb1gtev000108il8452a6lp	cmpu7a2oe0000l8t232dsj2jq	ADMIN_CONTACT_MESSAGE	{"body": "Hola,\\r\\n\\r\\nSoc la Gemma de küru-küru Cosmètica, una marca de cosmètica natural amb seu a Catalunya, on també fabriquem els nostres productes i els etiquetem en català.\\r\\n\\r\\nHe conegut CanGerard a través d'una recomanació i m'interessa la vostra proposta d'aparador digital a partir del 30 de novembre.\\r\\n\\r\\nAbans de valorar la incorporació, m'agradaria aclarir algunes qüestions:\\r\\n\\r\\n- Quantes visites mensuals rep actualment CanGerard, aproximadament?\\r\\n- Teniu dades de les visites o de l'interès que genera la categoria de cosmètica i cura personal?\\r\\n- Quines accions feu, o teniu previstes, per atraure visitants?\\r\\n- Amb el nou format, podrem consultar quants clics arriben a la nostra web des de CanGerard?\\r\\n- Em podeu confirmar que les tarifes seran de 10 € mensuals o 84 € anuals, més IVA, sense comissions per venda?\\r\\n\\r\\nMoltes gràcies per la vostra atenció.\\r\\n\\r\\nSalutacions", "name": "Gemma", "excerpt": "Hola,\\r\\n\\r\\nSoc la Gemma de küru-küru Cosmètica, una marca de cosmètica natural amb seu a Catalunya, on també fabriquem els nostres productes i els etiquetem en català.\\r\\n\\r\\nHe conegut CanGerard a través d'una recomanació i m'interessa la vostra proposta d'aparador digital a partir d…", "subject": "Consulta sobre la incorporació a CanGerard com a venedor", "fromEmail": "hola@kurukuru.es"}	2026-11-13 06:58:03.833	2026-11-10 18:43:57.028	2026-11-10 18:43:57.031
 cmwbc3wf9000a08l5otz3j2fx	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Esther García Segura", "email": "es.ga2@hotmail.com"}	2026-11-13 06:58:03.833	\N	2026-11-10 23:41:50.181
 cmwbm6234000108l95hvpza3n	cmpu7a2oe0000l8t232dsj2jq	ADMIN_CONTACT_MESSAGE	{"body": "Hello cangerard.cat,\\r\\n\\r\\nI noticed a few design-related issues on your website  cangerard.cat that could impact its performance and user experience.\\r\\n\\r\\nWould you like me to send a screenshot highlighting these errors? I can also prepare a detailed audit report, along with a proposal and pricing to improve your website’s design and optimize its ranking.\\r\\n\\r\\nLooking forward to your response.\\r\\n\\r\\nKind regard", "name": "Roel", "excerpt": "Hello cangerard.cat,\\r\\n\\r\\nI noticed a few design-related issues on your website  cangerard.cat that could impact its performance and user experience.\\r\\n\\r\\nWould you like me to send a screenshot highlighting these errors? I can also prepare a detailed audit report, along with a propo…", "subject": "Design & Performance Review for cangerard.cat", "fromEmail": "senx.roel@gmail.com"}	2026-11-13 06:58:03.833	2026-11-11 04:23:26.989	2026-11-11 04:23:26.992
@@ -8948,6 +8953,7 @@ cmwf19gul000508kz4obq8cfv	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_SHIPPING_METHOD	{"
 cmwf1ju4i000e08kzpopheqtf	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "jordi rota", "email": "jordirota@hotmail.com"}	\N	\N	2026-11-13 13:57:22.626
 cmwf2s7x9000908l51jjzdy23	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_SHIPPING_METHOD	{"storeName": "Trufats", "methodName": "Normal"}	\N	\N	2026-11-13 14:31:53.373
 cmwf3c3ri001e08jvqiwmeb8j	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_SHIPPING_METHOD	{"storeName": "Trufats", "methodName": "En Frío"}	\N	\N	2026-11-13 14:47:21.102
+cmwg111b1000007jsniun8ggc	cmtuipd7j000004iha92xkfut	SELLER_OUT_OF_STOCK_REMINDER	{"count": 5, "variantCount": 0, "productTitles": "Caramels de cérvol per a gossos 100% cérvol, Colls de gall dindi deshidratats per a gossos, mastegable natural 100% gall dindi, Colls de pollastre deshidratats per a gossos, snack natural 100% pollastre, Costelles de cérvol deshidratades per a gossos, mastegable natural 100% cérvol, Puntes d'ala de pollastre deshidratades per a gossos, snack natural 100% pollastre"}	\N	2026-11-14 06:30:31.639	2026-11-14 06:30:31.646
 \.
 
 
@@ -17386,10 +17392,6 @@ cmwbq0itm74os50br7i417pn5	cmwbq0inw74op3z4dfomb2nra	https://res.cloudinary.com/g
 cmwbq0izk74ou2sn3onn08esb	cmwbq0iw374ot0pswyvjf7tmb	https://res.cloudinary.com/gerardcsaperas/image/upload/v1794354058/cangerard/products/imports/cafes-sole/2150-compak-ir8-e157ca6faa.jpg	Molinet de cafè per a botiga Compak iR8, moles planes de 83 mm	0
 cmwbq0j0o74ov4y2bcdhitsng	cmwbq0iw374ot0pswyvjf7tmb	https://res.cloudinary.com/gerardcsaperas/image/upload/v1794354058/cangerard/products/imports/cafes-sole/2150-compak-ir8-4478bee801.jpg	Molinet de cafè per a botiga Compak iR8, moles planes de 83 mm	1
 cmwdwr8tt000108ic8fg7z9hu	cmwb8gmps2deq1xoxkn7lbu9h	https://res.cloudinary.com/gerardcsaperas/image/upload/v1794347437/cangerard/products/imports/lavabeer/grape-ale-9afed7ff2a.png	Cervesa LAVA Grape Ale amb Riesling del Montsacopa	0
-cmwf20aq3000r08jvlpjanuqe	cmvkzzw8c000008l0lb9bshbj	https://res.cloudinary.com/gerardcsaperas/image/upload/v1792762371/cangerard/products/jkman4hatwwudrkeqsh8.jpg	Espelma de mantega noisette amb tòfona negra 60gr	0
-cmwf20aq3000s08jvzjg8sdxe	cmvkzzw8c000008l0lb9bshbj	https://res.cloudinary.com/gerardcsaperas/image/upload/v1792761437/cangerard/products/wudn56dvgtvksl2xjqvs.webp	Espelma de mantega noisette amb tòfona negra 60gr	1
-cmwf20aq3000t08jvfnt7csqf	cmvkzzw8c000008l0lb9bshbj	https://res.cloudinary.com/gerardcsaperas/image/upload/v1792761441/cangerard/products/spbj39jsbv0c7u7hhfcx.webp	Espelma de mantega noisette amb tòfona negra 60gr	2
-cmwf20aq3000u08jvth64pcab	cmvkzzw8c000008l0lb9bshbj	https://res.cloudinary.com/gerardcsaperas/image/upload/v1792761445/cangerard/products/dv2j9s2fcjqies8aqkhe.webp	Espelma de mantega noisette amb tòfona negra 60gr	3
 cmwf210fi000h08kzz5kglgio	cmvkxse2u000008l25rx1kqto	https://res.cloudinary.com/gerardcsaperas/image/upload/v1792757674/cangerard/products/bm4gjyzkjuhbmhe5wz7f.webp	Mantega fumada amb tòfona negra	0
 cmwf210fi000i08kza77jq16d	cmvkxse2u000008l25rx1kqto	https://res.cloudinary.com/gerardcsaperas/image/upload/v1792757677/cangerard/products/bshsa9xturcxtjv8fqpr.webp	Mantega fumada amb tòfona negra	1
 cmwf210fi000j08kz5cfzk0ea	cmvkxse2u000008l25rx1kqto	https://res.cloudinary.com/gerardcsaperas/image/upload/v1792757680/cangerard/products/tk9iu578ejphrmmewfpu.webp	Mantega fumada amb tòfona negra	2
@@ -17400,6 +17402,10 @@ cmwf2egz2000108js5rxxhnyt	cmvkwfimb000008jmnpw6eo1y	https://res.cloudinary.com/g
 cmwf2egz2000208js5dqghica	cmvkwfimb000008jmnpw6eo1y	https://res.cloudinary.com/gerardcsaperas/image/upload/v1792754851/cangerard/products/g40oe9jlexmvsfzzuiwq.jpg	Mantega Noisette amb Tòfona negra	1
 cmwf2egz2000308jszfrdhw6f	cmvkwfimb000008jmnpw6eo1y	https://res.cloudinary.com/gerardcsaperas/image/upload/v1792754853/cangerard/products/r9l8cyb2an7mgxpn5pvt.jpg	Mantega Noisette amb Tòfona negra	2
 cmwf2egz2000408jsb0v06rh0	cmvkwfimb000008jmnpw6eo1y	https://res.cloudinary.com/gerardcsaperas/image/upload/v1792754860/cangerard/products/blkvwwxlqvb7cmcv4dat.webp	Mantega Noisette amb Tòfona negra	3
+cmwg75rar000c07jttm1dtc13	cmvkzzw8c000008l0lb9bshbj	https://res.cloudinary.com/gerardcsaperas/image/upload/v1792762371/cangerard/products/jkman4hatwwudrkeqsh8.jpg	Espelma de mantega noisette amb tòfona negra 60gr	0
+cmwg75rar000d07jt6qu3dyxx	cmvkzzw8c000008l0lb9bshbj	https://res.cloudinary.com/gerardcsaperas/image/upload/v1792761437/cangerard/products/wudn56dvgtvksl2xjqvs.webp	Espelma de mantega noisette amb tòfona negra 60gr	1
+cmwg75rar000e07jt8louect5	cmvkzzw8c000008l0lb9bshbj	https://res.cloudinary.com/gerardcsaperas/image/upload/v1792761441/cangerard/products/spbj39jsbv0c7u7hhfcx.webp	Espelma de mantega noisette amb tòfona negra 60gr	2
+cmwg75rar000f07jtfbjo488c	cmvkzzw8c000008l0lb9bshbj	https://res.cloudinary.com/gerardcsaperas/image/upload/v1792761445/cangerard/products/dv2j9s2fcjqies8aqkhe.webp	Espelma de mantega noisette amb tòfona negra 60gr	3
 \.
 
 
@@ -17879,6 +17885,8 @@ cmwc9jozz000008l6d883ranq	Comida	comida	es	12	\N	2026-11-11 15:17:54.383
 cmwdadcmb000007l1vtjr48c7	Il·lustració	illustracio	ca	0	\N	2026-11-12 08:28:44.195
 cmwe4bvrp000008jurz7b1fnf	Crema facial	crema facial	ca	6	\N	2026-11-12 22:27:24.181
 cmwf5jz9o000008jvdy8sh89e	Jerseis	jerseis	ca	0	\N	2026-11-13 15:49:27.756
+cmwgdvrl1000008jse16epvu9	rura powrotna grupy Iberital IB7	rura powrotna grupy iberital ib7	es	0	\N	2026-11-14 12:30:20.773
+cmwgt6enf000108jme3ixw1gp	Regals	regals	es	71	\N	2026-11-14 19:38:31.467
 cmuwzwdk7000504jwqr6rfolv	jabon	jabon	ca	60	\N	2026-10-06 18:11:34.951
 cmuwzwjqs000604jws47ubuk9	xampu	xampu	ca	6	\N	2026-10-06 18:11:42.964
 cmuwzxm20000004l6yyspit15	sabons	sabons	ca	60	cmpu7a2oe0000l8t232dsj2jq	2026-10-06 18:12:32.616
@@ -17999,6 +18007,8 @@ cmwek7jyq000008icfrrw6mk5	Joguines	joguines	ca	2	\N	2026-11-13 05:51:56.114
 cmwemh4g0000008l3vx9ldxfu	iberital	iberital	ca	88	\N	2026-11-13 06:55:21.792
 cmweo04x8000008l6iuuyn748	vi	vi	ca	29	\N	2026-11-13 07:38:08.492
 cmwf5k99i000307jyqm2w512g	Fruita	fruita	ca	12	\N	2026-11-13 15:49:40.711
+cmwgdw7zw000108jsbn959vaz	Tubo de retorno izquierdo del grupo para Iberital IB7	tubo de retorno izquierdo del grupo para iberital ib7	es	2	\N	2026-11-14 12:30:42.044
+cmwgts9cx000008i91oaoifpx	Formatges	formatges	ca	13	\N	2026-11-14 19:55:31.041
 cmveukb0n000q08i9t2elerku	vela	vela	es	26	cmvdeurfu000008jw80l5kir4	2026-10-19 06:02:04.871
 cmvev0kw6001608i9x2b94prd	vela	vela	es	41	cmvdeurfu000008jw80l5kir4	2026-10-19 06:14:44.166
 cmvev0vj7000d08labgrxtjcj	vela	vela	es	41	cmvdeurfu000008jw80l5kir4	2026-10-19 06:14:57.955
@@ -18213,6 +18223,8 @@ cmwemhdtz000008lfo3z57195	iberital	iberital	ca	88	\N	2026-11-13 06:55:33.959
 cmwemk2w5000008l6dqgbdcac	cafe	cafe	ca	681	\N	2026-11-13 06:57:39.749
 cmwf7vbyj000007l2o4azrcv0	Roig	roig	es	0	\N	2026-11-13 16:54:16.651
 cmwf7vyhv000107l2qgtmovm3	Turro	turro	es	0	\N	2026-11-13 16:54:45.859
+cmwgewm5g000008i9fp2raqim	Formatge	formatge	ca	13	\N	2026-11-14 12:59:00.004
+cmwgxvt84000008jtpkkik17v	Cafe	cafe	ca	681	\N	2026-11-14 21:50:15.22
 cmw4lz6kf000107l34ftw9dn9	Bolso	bolso	ca	45	\N	2026-11-06 06:43:42.975
 cmw4n8qsj000008jucpmlmzht	Cargols	cargols	es	6	\N	2026-11-06 07:19:08.708
 cmw4n95jx000108ju2lub0x25	Cargols menjar	cargols menjar	es	0	\N	2026-11-06 07:19:27.837
@@ -18426,6 +18438,7 @@ cmwdo6a15000107l11cei4m8b	Fuet	fuet	ca	0	\N	2026-11-12 14:55:08.873
 cmwdo6nk2000407l11x5t5agd	Petadó	petado	ca	0	\N	2026-11-12 14:55:26.402
 cmwemhn7v000108lf45rmbowx	iberital	iberital	ca	88	\N	2026-11-13 06:55:46.123
 cmwfa0z8j000008jqacmt915s	Llums led rodons	llums led rodons	ca	0	\N	2026-11-13 17:54:39.331
+cmwgga83s000008jr3s2w9rd6	Aceite aromático	aceite aromatico	es	0	\N	2026-11-14 13:37:34.6
 cmw5epyhn000808js8gpbpqn5	Bosses	bosses	ca	59	\N	2026-11-06 20:08:21.467
 cmw5f3vya000008jpcdq1wpnc	Fuet	fuet	ca	0	\N	2026-11-06 20:19:11.362
 cmw5f51zh000007l69llno1sp	Embotits	embotits	ca	4	\N	2026-11-06 20:20:05.837
@@ -18558,6 +18571,7 @@ cmwetw8n3000007ib618m7mt4	Valvula de tres vies	valvula de tres vies	ca	0	\N	2026
 cmwetwoo2000107ib6thk3mot	Vàlvula de tres vies	valvula de tres vies	ca	0	\N	2026-11-13 10:23:25.154
 cmwetxauj000307iby1mhtb9e	Oli d'oliva	oli d'oliva	ca	29	\N	2026-11-13 10:23:53.899
 cmwfbs80d000008jpu5ci68rm	Melmelades	melmelades	ca	0	\N	2026-11-13 18:43:50.029
+cmwggqpoe000008l5nm003qjl	Aceite aromático	aceite aromatico	es	0	\N	2026-11-14 13:50:23.87
 cmw67rz0k000508jkaqjkbc9g	Oli antara	oli antara	ca	0	\N	2026-11-07 09:41:44.324
 cmw688pbb000708jkk8uc8pqk	Oli d'Arbeca	oli d'arbeca	ca	0	\N	2026-11-07 09:54:44.903
 cmw6899se000808jkf2kbs6em	Lots	lots	ca	18	\N	2026-11-07 09:55:11.438
@@ -18588,6 +18602,9 @@ cmwcdypbr000008l2pqj628rc	Mel de farigola	mel de farigola	ca	1	\N	2026-11-11 17:
 cmwdo70nx000007lb8gw9c7of	Embotits	embotits	ca	5	\N	2026-11-12 14:55:43.389
 cmwetx95g000207ibwqqukayb	Oli d'oliva	oli d'oliva	ca	29	\N	2026-11-13 10:23:51.7
 cmwfjnyw3000008l3b70jmswg	Oli essencial	oli essencial	ca	24	\N	2026-11-13 22:24:28.515
+cmwghced8000008kzalfj87sa	Llibres	llibres	ca	12	\N	2026-11-14 14:07:15.645
+cmwghcxd2000008jsj6hd2h7s	Llibres	llibres	ca	12	\N	2026-11-14 14:07:40.262
+cmwghdqtv000208js3qllapju	Llibres	llibres	ca	12	\N	2026-11-14 14:08:18.451
 cmw68yyuu000408l0d2se42dm	Roba	roba	ca	20	\N	2026-11-07 10:15:10.326
 cmw68yzrg000b08jkdc212m54	Roba	roba	ca	20	\N	2026-11-07 10:15:11.501
 cmw68z1co000508l0vd22w0jf	Roba	roba	ca	20	\N	2026-11-07 10:15:13.561
@@ -18716,6 +18733,8 @@ cmwds1a5m000208l0wnts4erd	propolis	propolis	ca	17	cmpu7a2oe0000l8t232dsj2jq	2026
 cmwf0r5l9000308jv16x6ls68	Trufats	trufats	ca	0	\N	2026-11-13 13:35:04.461
 cmwf0rdv1000008kzkm70f2ip	Oli trufat	oli trufat	ca	0	\N	2026-11-13 13:35:15.182
 cmwfjpc8g000108l3jc6e4o8q	Oli	oli	ca	51	\N	2026-11-13 22:25:32.464
+cmwghdqkf000108jsb6guefjq	Llibres	llibres	ca	12	\N	2026-11-14 14:08:18.111
+cmwghdqs2000108kzcf6zclok	Llibres	llibres	ca	12	\N	2026-11-14 14:08:18.386
 cmw6ssox0000608jt504c1s4m	ceramica	ceramica	ca	1	\N	2026-11-07 19:30:09.828
 cmw8zxke0000b07l5rh8dj6nd	regals	regals	ca	68	\N	2026-11-09 08:25:26.904
 cmw8zyqsd000c07l5c87qao6t	regals	regals	ca	68	\N	2026-11-09 08:26:21.853
@@ -18736,6 +18755,7 @@ cmwcgm241000008kx10hu7g2l	Natural	natural	es	145	\N	2026-11-11 18:35:42.001
 cmwds1g7w000308l01yzhdcq9	propolis	propolis	ca	17	cmpu7a2oe0000l8t232dsj2jq	2026-11-12 16:43:22.076
 cmwf0rgi9000108kz3w3ji79s	Oli trufat	oli trufat	ca	0	\N	2026-11-13 13:35:18.609
 cmwfm278k000007ktzho0wab5	Ambientador	ambientador	ca	14	\N	2026-11-13 23:31:31.748
+cmwghdt1g000208kzzo9pfj3a	Llibres	llibres	ca	12	\N	2026-11-14 14:08:21.316
 cmw6u8pz9000308iiwxv69zil	Fuet	fuet	ca	0	\N	2026-11-07 20:10:37.317
 cmw6umqth000208jmjkkwhc00	Pollastre	pollastre	ca	14	\N	2026-11-07 20:21:31.589
 cmw6v8dq2000008jyem0ogzsh	Fruita	fruita	ca	45	\N	2026-11-07 20:38:21.05
@@ -18855,6 +18875,8 @@ cmwf1f7gu000j08jvdujr6k8y	Lescairador	lescairador	ca	0	\N	2026-11-13 13:53:46.63
 cmwf1ff1x000l08jvx4twdi61	L'escairador	l'escairador	ca	0	\N	2026-11-13 13:53:56.469
 cmwf1fgn1000m08jvysbig9tz	L'escairador	l'escairador	ca	0	\N	2026-11-13 13:53:58.525
 cmwf1gfur000p08jvgdhgo9bj	La caseta	la caseta	ca	33	\N	2026-11-13 13:54:44.163
+cmwg24f5g000008jsi91md77c	Oli	oli	ca	51	\N	2026-11-14 07:01:09.172
+cmwgnhe1t000107l51h3uy0g1	Cafe	cafe	ca	681	\N	2026-11-14 16:59:06.21
 cmw7qidyj000308jm3gt9b9s9	Pernil dolç	pernil dolc	ca	0	\N	2026-11-08 11:13:56.011
 cmw7satn3000108l50fw4l5ol	Embotit	embotit	ca	4	\N	2026-11-08 12:04:02.319
 cmw919w45000307k6n5y77su4	Oli oliva	oli oliva	ca	0	\N	2026-11-09 09:03:01.589
@@ -18886,6 +18908,8 @@ cmwf1e8ci000i08jvmrcw5ro0	Salsa amb tofona	salsa amb tofona	ca	2	\N	2026-11-13 1
 cmwf1fe8v000k08jv5zqw3adf	L'escairador	l'escairador	ca	0	\N	2026-11-13 13:53:55.423
 cmwf1fi3g000n08jv92rckqz9	L'escairador	l'escairador	ca	0	\N	2026-11-13 13:54:00.412
 cmwf1r5kx000f08kz36kukmas	Trufats	trufats	ca	9	cmwf1ju2p000a08kzl5beuugl	2026-11-13 14:03:04.065
+cmwg6pndc000407jt8h4wxdck	Preparat	preparat	es	10	\N	2026-11-14 09:09:38.064
+cmwgnirpy000207l5vdqoh78s	Capsules de cafe	capsules de cafe	ca	9	\N	2026-11-14 17:00:10.582
 cmw7r1pih000508l6ukmy064u	Vermut	vermut	ca	1	\N	2026-11-08 11:28:57.449
 cmw7r1yfk000608l65f1wt30r	Vermut negre	vermut negre	ca	0	\N	2026-11-08 11:29:09.008
 cmw7rtcx0000408jml3nod1lp	Sanarretes	sanarretes	ca	0	\N	2026-11-08 11:50:27.492
@@ -19007,6 +19031,8 @@ cmwf1ejhg000807jtiupxmigl	Tofona	tofona	ca	5	\N	2026-11-13 13:53:15.556
 cmwf1f0eq000907jtb7n0xaj9	Casavella	casavella	ca	0	\N	2026-11-13 13:53:37.49
 cmwf1fp6s000o08jvlqx5i8pg	La caseta	la caseta	ca	33	\N	2026-11-13 13:54:09.604
 cmwf1gsqr000h07jt9yputq6u	Trufats	trufats	ca	7	\N	2026-11-13 13:55:00.867
+cmwg6qk73000108l7vycprpf4	Manteq	manteq	es	8	\N	2026-11-14 09:10:20.607
+cmwgogh8o000008jo9kww0a13	Bolso	bolso	es	45	\N	2026-11-14 17:26:23.304
 cmw808i4a000008lhp8sw81zh	mel	mel	ca	80	\N	2026-11-08 15:46:11.003
 cmw808qik000108l3l7l5tgsm	mel	mel	ca	80	\N	2026-11-08 15:46:21.884
 cmw80ihtb000208l261c7w5tf	Cervesa sense alcohol	cervesa sense alcohol	ca	1	\N	2026-11-08 15:53:57.167
@@ -19060,6 +19086,9 @@ cmwc7ks0i000408kz19xqul1b	Embutidos	embutidos	es	5	\N	2026-11-11 14:22:45.714
 cmwcjqi1x000007jpi9wylju8	Activitats	activitats	ca	7	\N	2026-11-11 20:03:08.133
 cmwdx20te000007i8khe375gb	Camisa	camisa	ca	0	\N	2026-11-12 19:03:46.85
 cmwf1k3ed000q07jt7zg7cnvc	Trufats	trufats	ca	9	cmwf1ju2p000a08kzl5beuugl	2026-11-13 13:57:34.645
+cmwg6tvi8000607jt1ruggvg2	Manteq	manteq	es	8	cmwf1ju2p000a08kzl5beuugl	2026-11-14 09:12:55.232
+cmwgt3wcp000008kwb22vmu1l	Regals	regals	es	71	\N	2026-11-14 19:36:34.442
+cmwgtrcjn000208kwckatfmgs	Alimentacio	alimentacio	ca	17	\N	2026-11-14 19:54:48.515
 cmw808x1j000208l3sj7tkvig	mel	mel	ca	80	\N	2026-11-08 15:46:30.343
 cmw80klu6000108lh5jexovbm	Formatge	formatge	ca	11	\N	2026-11-08 15:55:35.694
 cmw80ltrx000608lh2y9ea3r9	Samarretes	samarretes	ca	2	\N	2026-11-08 15:56:32.637
@@ -19139,6 +19168,10 @@ cmwc7k4az000308kz99jdpapd	Queso	queso	es	14	\N	2026-11-11 14:22:14.987
 cmwcjsend000508jok76vmki6	Llibre infantil	llibre infantil	ca	0	\N	2026-11-11 20:04:37.033
 cmwe3v98v000008laitszmjz8	espelma	espelma	ca	102	\N	2026-11-12 22:14:28.495
 cmwf4huq6000007jyzbbfd9g8	Trufats	trufats	ca	9	cmwf1ju2p000a08kzl5beuugl	2026-11-13 15:19:48.942
+cmwg6tw7b000707jtr5ta15b6	Preparat	preparat	es	10	cmwf1ju2p000a08kzl5beuugl	2026-11-14 09:12:56.135
+cmwgt5pn5000008jmscd4fdkt	Regals	regals	es	71	\N	2026-11-14 19:37:59.057
+cmwgt6swu000208jmpe7ztwut	Jaqueta	jaqueta	ca	0	\N	2026-11-14 19:38:49.95
+cmwgt72ly000108kw1jibj4se	Abrig	abrig	ca	3	\N	2026-11-14 19:39:02.518
 \.
 
 
@@ -19202,14 +19235,10 @@ cmuy7jgab000004jtlf389fqh	cmutnkcio000604l30ke9ahad	cmutnkcgo000004l3j9e55tuy	SE
 --
 
 COPY "public"."SellerShippingRate" ("id", "methodId", "groupId", "upToGrams", "upToAmount", "price") FROM stdin;
-cmwf3deze001f08jv887v2wpq	cmwf2s7ui000408l5v40c7x7e	\N	\N	49.99	7.50
-cmwf3dezf001g08jvc1p11wtu	cmwf2s7ui000408l5v40c7x7e	cmwf1yqti000q08jvg7m0atzc	\N	49.99	0.00
-cmwf3dezf001h08jvcczmx0le	cmwf2s7ui000408l5v40c7x7e	\N	\N	\N	0.00
-cmwf3dezf001i08jvtr3fik6g	cmwf2s7ui000408l5v40c7x7e	cmwf1yqti000q08jvg7m0atzc	\N	\N	0.00
-cmwf3dh7l001j08jvut3z849c	cmwf3c3q5001908jvmklvyulo	\N	\N	59.99	0.00
-cmwf3dh7l001k08jvbxwft4kk	cmwf3c3q5001908jvmklvyulo	cmwf1yqti000q08jvg7m0atzc	\N	59.99	15.50
-cmwf3dh7l001l08jvnsp6uh7x	cmwf3c3q5001908jvmklvyulo	\N	\N	\N	0.00
-cmwf3dh7l001m08jvn80m6vyl	cmwf3c3q5001908jvmklvyulo	cmwf1yqti000q08jvg7m0atzc	\N	\N	0.00
+cmwg6zpvo000807jt908r9gzv	cmwf3c3q5001908jvmklvyulo	\N	\N	59.99	0.00
+cmwg6zpvo000907jtq3542vmo	cmwf3c3q5001908jvmklvyulo	cmwf1yqti000q08jvg7m0atzc	\N	59.99	15.50
+cmwg6zpvo000a07jt3o6nlowv	cmwf3c3q5001908jvmklvyulo	\N	\N	\N	0.00
+cmwg6zpvo000b07jtofd300ji	cmwf3c3q5001908jvmklvyulo	cmwf1yqti000q08jvg7m0atzc	\N	\N	0.00
 \.
 
 
@@ -19418,12 +19447,12 @@ accounting.stripeAccount	44100001	2026-10-18 19:29:38.66
 accounting.bankTreasuryId	6ab1942314b50de95e026a4a	2026-10-18 19:29:38.744
 accounting.bankAccount	57200002	2026-10-18 19:29:38.786
 accounting.stripeSupplierContactId	6ac48f2eb8d645b6ef0ef115	2026-10-18 19:29:38.828
-accounting.lockedAt		2026-11-14 03:55:03.669
 accounting.treasuryBalance	53.76	2026-11-13 15:10:04.35
 platform.mode	marketplace	2026-11-05 06:09:45.454
 accounting.clearingTreasuryId	6af4b13727323916c001779a	2026-11-11 18:17:27.292
 accounting.clearingAccount	55500001	2026-11-11 18:17:28.191
 accounting.clearingBalance	0	2026-11-11 18:17:30.265
+accounting.lockedAt		2026-11-15 03:40:03.68
 \.
 
 
@@ -19981,6 +20010,6 @@ SELECT pg_catalog.setval('"auth"."refresh_tokens_id_seq"', 1, false);
 -- PostgreSQL database dump complete
 --
 
--- \unrestrict xeeimygYT5QI2j4lc8p5Xm0ItNhS2gxvCwsgoNd1YRqheCI8p7ZDpas98VORHCL
+-- \unrestrict 7voZl4RijPeOUF7Ax0IX3CDdncaN2GLxkZeyMzGpsgMweYXj9xHWepweFh7NQeQ
 
 RESET ALL;
