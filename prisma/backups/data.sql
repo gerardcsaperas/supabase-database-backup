@@ -4,7 +4,7 @@ SET session_replication_role = replica;
 -- PostgreSQL database dump
 --
 
--- \restrict A5pLkV6xb0STiRwDL7wNvGeW1A4ji8eiLKnPB42DyUMUsHsHGOgLH6WiSwqfJhA
+-- \restrict UTn7wscRDDA7oUxwBE7lytQTQMMyhjKXFCRvR6ar2tWfwEqdzcMVt1PArQUY59y
 
 -- Dumped from database version 17.6
 -- Dumped by pg_dump version 17.12
@@ -625,7 +625,7 @@ cmsz4btib000504jo28yu4wx0	cmsz4btgb000004joiaegtpw4	Bendhora Marxa Nòrdica	bend
 cmtkewiz9000504jz1exe4wtw	cmtkewixl000004jz2e7qwpti	Jo-Joia	jo-joia	Joieria artesanal	Joieria artesanal	Joieria artesanal	\N	L'Ametlla de Mar	APPROVED	\N	10.00	\N	f	f	f	f	2026-09-04 07:41:50.764	2026-09-02 18:10:53.529	2026-09-20 17:00:07.114	L'Ametlla de Mar	ES	43860	Tarragona	Carrer Sant Joan 25	Carrer Candela 9	\N	L'Ametlla de Mar	ES	43860	Tarragona	ES	\N	Gisela Fernández Daude	\N	47907321T	\N	GENERAL	+34648925843	gfdaude@gmail.com	1	CG-47907321T	\N	2026-09-20 16:51:36.486	1.3	2026-10-23 00:00:00	2026-11-08 00:00:00	f	t	t	t	2026-09-20 16:52:37.54	\N	f	\N	\N	NONE	\N	\N	\N	\N	\N	f	\N	\N	\N	\N	\N	\N	\N	\N	{}	\N	{}	\N	MARKETPLACE
 cmt1njyp3000h04jpqkd5o1h0	cmt1njyo0000c04jptu9m63fp	MySisterCandles	mysistercandles	Bons tarda, nosaltres fem espelmes de cera vegetal amb esencias fets amb recipients de pols cerámica.\r\nTambé fem brumes tèxtils i ambientador armari,tot producte natural.	Bons tarda, nosaltres fem espelmes de cera vegetal amb esencias fets amb recipients de pols cerámica.\r\nTambé fem brumes tèxtils i ambientador armari,tot producte natural.	Bons tarda, nosaltres fem espelmes de cera vegetal amb esencias fets amb recipients de pols cerámica.\r\nTambé fem brumes tèxtils i ambientador armari,tot producte natural.	\N	Granollers / Gironella	APPROVED	\N	10.00	\N	f	f	f	f	2026-08-21 06:02:12	2026-08-20 15:05:26.592	2026-08-21 06:02:12.02	Gironella	ES	08680	Berguedà	Avda Catalunya 28 1a2a	Avda Catalunya 28 1a2a	\N	Gironella	ES	08680	Barcelona	ES	\N	Montserrat Many Roig	\N	52146773T	\N	GENERAL	693661021-640032001	info@mysistercandles.com	1	CG-52146773T	\N	2026-08-20 15:05:26.587	1.1	\N	\N	f	t	f	f	\N	\N	f	\N	\N	NONE	\N	\N	\N	\N	\N	f	\N	\N	\N	\N	\N	\N	\N	\N	{}	\N	{}	\N	MARKETPLACE
 cmsyujcl4000504l69d8d3lva	cmsyujck1000004l6s097kgc6	Carla Andreu estètica	carla-andreu-estetica	Centre d’estètica amb el que tenim el propi producte, donant valor al parlar del territori. Cada producte Porta el nom d’alguna paraula de l’Empordà i que tingui relació me’n el producte de cosmètica.	Centre d’estètica amb el que tenim el propi producte, donant valor al parlar del territori. Cada producte Porta el nom d’alguna paraula de l’Empordà i que tingui relació me’n el producte de cosmètica.	Centre d’estètica amb el que tenim el propi producte, donant valor al parlar del territori. Cada producte Porta el nom d’alguna paraula de l’Empordà i que tingui relació me’n el producte de cosmètica.	\N	Figueres	APPROVED	\N	10.00	\N	f	f	f	f	2026-08-21 06:02:27.232	2026-08-18 15:57:36.722	2026-08-21 06:02:27.242	Figueres	ES	17600	Girona	Sant Llàtzer 13	Marinada 15	Sant pere pescador	Sant pere pescador	ES	17470	Girona	ES	\N	Carla Andreu Pujadas	\N	41558431F	\N	GENERAL	+34608521861	andreucarla96@hotmail.com	1	CG-41558431F	\N	2026-08-18 15:57:36.67	1.1	\N	\N	f	t	f	f	\N	\N	f	\N	\N	NONE	\N	\N	\N	\N	\N	f	\N	\N	\N	\N	\N	\N	\N	\N	{}	\N	{}	\N	MARKETPLACE
-cmw2eb3h2000808l4gduephaq	cmw2eb3gl000208l4g8hoxdwe	Cervesa LAVA	cervesa-lava	Cervesa artesana de la Zona Volcànica de la Garrotxa	Cervesa artesana de la Zona Volcànica de la Garrotxa	Cervesa artesana de la Zona Volcànica de la Garrotxa	\N	La Garrotxa	APPROVED	\N	10.00	\N	f	f	f	f	2026-11-04 18:30:15.153	2026-11-04 17:33:29.541	2026-11-15 17:37:00.127	Olot	ES	17800	Girona	Avinguda València 2	Avinguda València 2	\N	Olot	ES	17800	Girona	ES	\N	Marc Serra Colomer	\N	43636360R	\N	GENERAL	690691401	mserraco@gmail.com	1	CG-43636360R	RGSEAA 30.013870/GI	2026-11-04 17:33:29.518	1.5	\N	\N	t	t	f	f	\N	cus_VZGc3a5fHpV3Z0	t	2026-11-04 18:55:47.042	ADMIN	TRIALING	MONTHLY	sub_1UY87RGrwsKLqRAQ2Pu7D0jd	10.00	2026-11-18 17:36:38	2026-11-18 17:36:38	t	2026-11-04 18:55:47	\N	2026-11-04 17:36:38	1.0	2026-11-04 17:33:29.518	\N	\N	WEBSITE	{}	\N	{}	\N	MARKETPLACE
+cmw2eb3h2000808l4gduephaq	cmw2eb3gl000208l4g8hoxdwe	Cervesa LAVA	cervesa-lava	Cervesa artesana de la Zona Volcànica de la Garrotxa	Cervesa artesana de la Zona Volcànica de la Garrotxa	Cervesa artesana de la Zona Volcànica de la Garrotxa	\N	La Garrotxa	APPROVED	\N	10.00	\N	f	f	f	f	2026-11-04 18:30:15.153	2026-11-04 17:33:29.541	2026-11-18 17:37:07.6	Olot	ES	17800	Girona	Avinguda València 2	Avinguda València 2	\N	Olot	ES	17800	Girona	ES	\N	Marc Serra Colomer	\N	43636360R	\N	GENERAL	690691401	mserraco@gmail.com	1	CG-43636360R	RGSEAA 30.013870/GI	2026-11-04 17:33:29.518	1.5	\N	\N	t	t	f	f	\N	cus_VZGc3a5fHpV3Z0	t	2026-11-04 18:55:47.042	ADMIN	CANCELED	MONTHLY	sub_1UY87RGrwsKLqRAQ2Pu7D0jd	10.00	2026-11-18 17:36:38	2026-11-18 17:36:38	t	2026-11-04 18:55:47	2026-11-18 17:36:38	2026-11-04 17:36:38	1.0	2026-11-04 17:33:29.518	\N	\N	WEBSITE	{}	\N	{}	\N	MARKETPLACE
 cmurd9yox000605p5oxvp9x16	cmurd9yo6000005p55lihgqy6	MyGreen Cosmetics	mygreen-cosmetics	Fitocosmética Nicho 100% Natural de Autor.	Fitocosmética Nicho 100% Natural de Autor.	Fitocosmética Nicho 100% Natural de Autor.	\N	Barcelona	APPROVED	\N	10.00	acct_1UN8YBK0gC61k3B2	t	t	t	t	2026-10-03 07:41:35.429	2026-10-02 19:39:26.79	2026-10-05 09:59:40.192	BARCELONA	ES	08015	Province	Floridablanca 85, 2-1ª	Floridablanca 85, 2º-1ª	\N	Barcelona	ES	08015	Barcelona	ES	\N	Miguel Lopez Ceron Hoyos	ES · CAIXABANK, S.A. ··9206	16046550W	\N	GENERAL	659945283	miguel.galeon@hotmail.com	1	CG-16046550W	\N	2026-10-02 19:39:26.771	1.3	\N	\N	f	t	f	f	\N	cus_VMwCVnUdCqZH5D	t	2026-10-03 07:42:16.877	ADMIN	NONE	\N	\N	\N	\N	\N	f	\N	\N	\N	1.0	2026-10-02 19:39:26.771	\N	\N	\N	{}	\N	{}	\N	MARKETPLACE
 cmunz9pwn00050bgmvlesejsj	cmunz9pv300000bgm6wfqaldi	Somnis Brodats	somnis-brodats	\N	\N	\N	\N	Olot - Garrotxa	SUSPENDED	\N	10.00	\N	f	f	f	f	2026-09-30 12:03:01.927	2026-09-30 10:44:02.224	2026-10-14 10:52:24.118	Olot	ES	17800	Garrotxa	Mestre Turina, 68 3B	Mestre Turina, 68 3B	\N	Olot	ES	17800	Girona	ES	\N	Marina Garcia i  Bacà	\N	37264201S	\N	GENERAL	625770407	somnisbrodats@gmail.com	1	CG-37264201S	\N	2026-09-30 10:44:02.183	1.3	\N	\N	f	t	t	f	2026-09-30 10:45:27.973	cus_VM39ioqPD1sGiC	f	\N	\N	CANCELED	MONTHLY	sub_1ULL8MGrwsKLqRAQYSdyVJMV	10.00	2026-10-14 10:51:56	2026-10-14 10:51:56	t	2026-10-09 16:05:24	2026-10-14 10:51:56	2026-09-30 10:51:56	1.0	2026-09-30 16:16:31.374	\N	\N	\N	{}	\N	{}	\N	MARKETPLACE
 cmu5df56z000504jsvxlxuzav	cmu5df55n000004jss16v4a68	Afuera	afuera	Afuera és un projecte inspirat en la naturalesa a través de prints / postales i llibretes fetes a mà!	Afuera és un projecte inspirat en la naturalesa a través de prints / postales i llibretes fetes a mà!	Afuera és un projecte inspirat en la naturalesa a través de prints / postales i llibretes fetes a mà!	\N	Corbera de Llobregat	APPROVED	\N	10.00	\N	f	f	f	f	2026-09-18 12:57:40.295	2026-09-17 10:12:32.603	2026-10-19 15:19:42.056	Corbera de Llobregat	ES	08757	Barcelona	Carrer Esglèsia	Carrer Esglèsia 7B	\N	Corbera de Llobregat	ES	08757	Barcelona	ES	6ab270100c7b7cf4ce03aa65	Maria Paola Ciani	\N	Y5379760M	\N	GENERAL	677210694	pao.ciani@gmail.com	1	CG-Y5379760M	\N	2026-09-22 11:30:46.406	1.3	\N	\N	f	f	f	t	2026-09-22 11:32:14.251	\N	t	2026-09-27 20:12:51.2	ADMIN	NONE	\N	\N	\N	\N	\N	f	\N	\N	\N	1.0	2026-10-19 15:19:42.046	\N	\N	\N	{}	\N	{}	\N	MARKETPLACE
@@ -6397,6 +6397,7 @@ cmwjtinz8000708l3b2vnwfnh	cmwjt7t1f000008l39v43tsrn	\N	cmvedo3ln436y1q4nkx7m04qg
 cmwkap52t000008jn6zq9aa8q	\N	292b7fe3-240e-4335-8504-b34bc5eb0b60	cmwbpo7146ya54lupx5we6lws	1	2026-11-17 06:12:17.525	2026-11-17 06:12:17.525	f	cmwbpo79y6yaa1c910xnuolsy	\N	[]
 cmwkes0ee000008jnkq04cbbu	\N	97ddb998-1b95-41dd-b41a-31ab48dde09f	cmvednsyv431h1z85pjihwsfb	1	2026-11-17 08:06:29.894	2026-11-17 08:06:29.894	f	cmvednt8a431n2ful8tol8n8q	\N	[]
 cmwkzhdjs000208kz50vpfufb	cmwf1ju2p000a08kzl5beuugl	\N	cmvgg5wwd000308lg9ziq1h84	1	2026-11-17 17:46:05.656	2026-11-17 17:46:18.429	f	\N	\N	[]
+cmwmjv1hn000008l3v563aqdx	\N	dfe20e07-e44d-41b4-a4d9-4a9047c36315	cmqndbk71000004jvsb6gjiyq	1	2026-11-18 20:04:21.707	2026-11-18 20:04:21.707	f	\N	\N	[]
 \.
 
 
@@ -7098,6 +7099,7 @@ cmwekuvsk000008le9r5tl4ld	CAREERS	Monte	monte@cangerard.cat	Contacta amb CanGera
 cmwh1n0qe000008k1dmptp7gj	RETURNS	Venus	domains@search-cangerard.cat	Results for cangerard.cat	Hello\r\n\r\nList cangerard.cat in Google's Search Index so it can be displayed in online search results!\r\n\r\nFeature cangerard.cat today: indexhelper.pro	ca	\N	f	\N	2026-11-14 23:35:23.51
 cmwjnvje9000008kzujtx7hx2	CAREERS	Josep Grau	jgraupallares@gmail.com	Batea	Soc de la terra alta i voldria saber quin treball podria fer desde la meva zona .	ca	\N	f	\N	2026-11-16 19:33:24.849
 cmwka2za3000007lbu1zr6s16	SELLER_SUPPORT	Winona	winona@cangerard.cat	Contacta amb CanGerard · CanGerard	Hello there, \r\n\r\nI hope this email finds you well. I wanted to let you know about our new BANGE backpacks and sling bags that just released.\r\n\r\nBange is perfect for students, professionals and travelers. The backpacks and sling bags feature a built-in USB charging port, making it easy to charge your devices on the go.  Also they are waterproof and anti-theft design, making it ideal for carrying your valuables.\r\n\r\nBoth bags are made of durable and high-quality materials, and are perfect for everyday use or travel.\r\n\r\nOrder yours now at 50% OFF with FREE Shipping: http://bangeshop.com\r\n\r\nBest regards,\r\n\r\nWinona	ca	\N	f	\N	2026-11-17 05:55:03.579
+cmwlsn8ri000008kzp72xk4mq	CAREERS	Angeles Lopez	malrsbd76@gmail.com	Administrativa	Hola! Me encanta la pagina y que vendáis productos catalanes, me gustaría colaborar de alguna manera para promocionar.\r\n\r\nSaludos	es	\N	f	\N	2026-11-18 07:22:28.254
 \.
 
 
@@ -9011,20 +9013,25 @@ cmwiy2163000d08ky9njy01ve	cmvdeurfu000008jw80l5kir4	SELLER_DRAFT_PRODUCTS_REMIND
 cmwiy21dm000f08kykhlqo2t6	cmw2eb3gl000208l4g8hoxdwe	SELLER_DRAFT_PRODUCTS_REMINDER	{"count": 1, "productTitles": "Cervesa LAVA Grape Ale amb Riesling del Montsacopa"}	\N	2026-11-16 07:30:38.074	2026-11-16 07:30:38.074
 cmwivwr0i000208kylf92r1d0	cmwabumwr000608l5dckc42h3	SELLER_OUT_OF_STOCK_REMINDER	{"count": 37, "variantCount": 4, "productTitles": "Adaptador de junta del dipòsit per a Solac CE4450, CE4495 i CE4500, Anella de suport del grup d'alumini per a Minimoka M363 i M365, Cafetera espresso Minimoka CM-1622 negra, bomba de 15 bar, Cafetera espresso Minimoka CM-1821 amb frontal d'acer inoxidable, Cafetera espresso Minimoka M-270 plata, 18 bar i dipòsit de 2 l, Cafetera espresso Minimoka M-364 plata per a cafè mòlt i monodosis, Cafetera espresso Minimoka M-367 negra amb caldera d'acer inoxidable, Cafetera espresso Minimoka M-372 plata, 15 bar i dipòsit d'1,5 l, +33"}	2026-11-16 23:18:47.263	2026-11-16 06:30:32.13	2026-11-16 06:30:32.13
 cmwiy219r000e08kyfzbv962s	cmveackqg000208jw5rq9abbv	SELLER_DRAFT_PRODUCTS_REMINDER	{"count": 62, "productTitles": "Espelma aromàtica de soja \\"El jardín de Mulan\\", Wax melt El sombrero seleccionador, Wax melt Grimhilde, Espelma aromàtica de soja Grimhilde, Cremador de wax melts Carbassa blanca, Cremador de wax melts Gatet ratpenat, Cremador de wax melts Fantasmet, Cremador de wax melts Carbassa taronja, +54"}	2026-11-16 14:47:57.774	2026-11-16 07:30:37.935	2026-11-16 07:30:37.935
-cmwjnvjk9000108kzph63ibv7	cmpu7a2oe0000l8t232dsj2jq	ADMIN_CONTACT_MESSAGE	{"body": "Soc de la terra alta i voldria saber quin treball podria fer desde la meva zona .", "name": "Josep Grau", "excerpt": "Soc de la terra alta i voldria saber quin treball podria fer desde la meva zona .", "subject": "Batea", "fromEmail": "jgraupallares@gmail.com"}	\N	2026-11-16 19:33:25.062	2026-11-16 19:33:25.065
-cmwjpoac7000408l5pdb7ah1q	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Beatriz Fernández González", "email": "beafergo0508@gmail.com"}	\N	\N	2026-11-16 20:23:45.751
-cmwjt7t4p000408l3wr9sm87e	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "David Homs Pla", "email": "david_homs11@hotmail.com"}	\N	\N	2026-11-16 22:02:55.418
 cmwagy3ko000108jtlqdtdqfi	cmwabumwr000608l5dckc42h3	SELLER_STATUS_CHANGED	{"status": "APPROVED"}	2026-11-16 23:18:47.263	2026-11-10 09:09:31.413	2026-11-10 09:09:31.416
 cmwd65cal000207l02h4rhfqz	cmwabumwr000608l5dckc42h3	SELLER_OUT_OF_STOCK_REMINDER	{"count": 37, "variantCount": 4, "productTitles": "Adaptador de junta del dipòsit per a Solac CE4450, CE4495 i CE4500, Anella de suport del grup d'alumini per a Minimoka M363 i M365, Cafetera espresso Minimoka CM-1622 negra, bomba de 15 bar, Cafetera espresso Minimoka CM-1821 amb frontal d'acer inoxidable, Cafetera espresso Minimoka M-270 plata, 18 bar i dipòsit de 2 l, Cafetera espresso Minimoka M-364 plata per a cafè mòlt i monodosis, Cafetera espresso Minimoka M-367 negra amb caldera d'acer inoxidable, Cafetera espresso Minimoka M-372 plata, 15 bar i dipòsit d'1,5 l, +33"}	2026-11-16 23:18:47.263	2026-11-12 06:30:32.061	2026-11-12 06:30:32.061
 cmwell7ww000207l97o3177ss	cmwabumwr000608l5dckc42h3	SELLER_OUT_OF_STOCK_REMINDER	{"count": 37, "variantCount": 4, "productTitles": "Adaptador de junta del dipòsit per a Solac CE4450, CE4495 i CE4500, Anella de suport del grup d'alumini per a Minimoka M363 i M365, Cafetera espresso Minimoka CM-1622 negra, bomba de 15 bar, Cafetera espresso Minimoka CM-1821 amb frontal d'acer inoxidable, Cafetera espresso Minimoka M-270 plata, 18 bar i dipòsit de 2 l, Cafetera espresso Minimoka M-364 plata per a cafè mòlt i monodosis, Cafetera espresso Minimoka M-367 negra amb caldera d'acer inoxidable, Cafetera espresso Minimoka M-372 plata, 15 bar i dipòsit d'1,5 l, +33"}	2026-11-16 23:18:47.263	2026-11-13 06:30:33.295	2026-11-13 06:30:33.296
 cmwhggw47000208l2sbhhk1v3	cmwabumwr000608l5dckc42h3	SELLER_OUT_OF_STOCK_REMINDER	{"count": 37, "variantCount": 4, "productTitles": "Adaptador de junta del dipòsit per a Solac CE4450, CE4495 i CE4500, Anella de suport del grup d'alumini per a Minimoka M363 i M365, Cafetera espresso Minimoka CM-1622 negra, bomba de 15 bar, Cafetera espresso Minimoka CM-1821 amb frontal d'acer inoxidable, Cafetera espresso Minimoka M-270 plata, 18 bar i dipòsit de 2 l, Cafetera espresso Minimoka M-364 plata per a cafè mòlt i monodosis, Cafetera espresso Minimoka M-367 negra amb caldera d'acer inoxidable, Cafetera espresso Minimoka M-372 plata, 15 bar i dipòsit d'1,5 l, +33"}	2026-11-16 23:18:47.263	2026-11-15 06:30:31.831	2026-11-15 06:30:31.831
 cmwiy21hg000g08kyskxc7rn7	cmwabumwr000608l5dckc42h3	SELLER_DRAFT_PRODUCTS_REMINDER	{"count": 1037, "productTitles": "Molinet de cafè per a botiga Compak iR8, moles planes de 83 mm, Molinet de cafè Compak PK100 Shop, moles planes de 98 mm, Molinet de cafè de dosi única Compak PK100 Single Dose, 98 mm, Premsador automàtic Compak Cube Tamp, pressió de 10 a 30 kg, Molinet de cafè Compak F8 OD, moles planes de 83 mm i sistema LLS, Molinet de cafè Compak E8 OD, moles planes de 83 mm i 630 W, Molinet de cafè Compak Bolt 83, moles planes de 83 mm i 630 W, Molinet de cafè professional Compak Bolt 64, moles planes de 64 mm, +1029"}	2026-11-16 23:18:47.263	2026-11-16 07:30:38.212	2026-11-16 07:30:38.212
-cmwka2zhn000107lbft73a2mb	cmpu7a2oe0000l8t232dsj2jq	ADMIN_CONTACT_MESSAGE	{"body": "Hello there, \\r\\n\\r\\nI hope this email finds you well. I wanted to let you know about our new BANGE backpacks and sling bags that just released.\\r\\n\\r\\nBange is perfect for students, professionals and travelers. The backpacks and sling bags feature a built-in USB charging port, making it easy to charge your devices on the go.  Also they are waterproof and anti-theft design, making it ideal for carrying your valuables.\\r\\n\\r\\nBoth bags are made of durable and high-quality materials, and are perfect for everyday use or travel.\\r\\n\\r\\nOrder yours now at 50% OFF with FREE Shipping: http://bangeshop.com\\r\\n\\r\\nBest regards,\\r\\n\\r\\nWinona", "name": "Winona", "excerpt": "Hello there, \\r\\n\\r\\nI hope this email finds you well. I wanted to let you know about our new BANGE backpacks and sling bags that just released.\\r\\n\\r\\nBange is perfect for students, professionals and travelers. The backpacks and sling bags feature a built-in USB charging port, making i…", "subject": "Contacta amb CanGerard · CanGerard", "fromEmail": "winona@cangerard.cat"}	\N	2026-11-17 05:55:03.848	2026-11-17 05:55:03.851
 cmwkbcl8t000007l6kd2xe7bd	cmtuipd7j000004iha92xkfut	SELLER_OUT_OF_STOCK_REMINDER	{"count": 5, "variantCount": 0, "productTitles": "Caramels de cérvol per a gossos 100% cérvol, Colls de gall dindi deshidratats per a gossos, mastegable natural 100% gall dindi, Colls de pollastre deshidratats per a gossos, snack natural 100% pollastre, Costelles de cérvol deshidratades per a gossos, mastegable natural 100% cérvol, Puntes d'ala de pollastre deshidratades per a gossos, snack natural 100% pollastre"}	\N	2026-11-17 06:30:31.557	2026-11-17 06:30:31.565
 cmwkbclaq000107l64w3epml2	cmw2eb3gl000208l4g8hoxdwe	SELLER_OUT_OF_STOCK_REMINDER	{"count": 1, "variantCount": 0, "productTitles": "Caixa degustació de cerveses LAVA"}	\N	\N	2026-11-17 06:30:31.634
 cmwkbclen000207l6pe7c5xn3	cmwabumwr000608l5dckc42h3	SELLER_OUT_OF_STOCK_REMINDER	{"count": 37, "variantCount": 4, "productTitles": "Adaptador de junta del dipòsit per a Solac CE4450, CE4495 i CE4500, Anella de suport del grup d'alumini per a Minimoka M363 i M365, Cafetera espresso Minimoka CM-1622 negra, bomba de 15 bar, Cafetera espresso Minimoka CM-1821 amb frontal d'acer inoxidable, Cafetera espresso Minimoka M-270 plata, 18 bar i dipòsit de 2 l, Cafetera espresso Minimoka M-364 plata per a cafè mòlt i monodosis, Cafetera espresso Minimoka M-367 negra amb caldera d'acer inoxidable, Cafetera espresso Minimoka M-372 plata, 15 bar i dipòsit d'1,5 l, +33"}	\N	2026-11-17 06:30:31.774	2026-11-17 06:30:31.775
 cmwkbclig000307l6lyy0zcnb	cmvdeurfu000008jw80l5kir4	SELLER_OUT_OF_STOCK_REMINDER	{"count": 0, "variantCount": 4, "productTitles": "Bombons aromàtics de cera Botanical Collection (Etiqueta en castellà), Daus aromàtics per a calaixos Roba Estesa (Etiqueta en castellà), Espelma aromàtica El Cafè de l'Àvia (Etiqueta en català), Pack de regal d'espelmes aromàtiques · El Primer Refugi (Etiqueta en català · Sense cremador)"}	\N	2026-11-17 06:30:31.911	2026-11-17 06:30:31.912
-cmwkwysg0000408jnj4x4antc	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Isa Fisas", "email": "isabanera@gmail.com"}	\N	\N	2026-11-17 16:35:39.264
+cmwjnvjk9000108kzph63ibv7	cmpu7a2oe0000l8t232dsj2jq	ADMIN_CONTACT_MESSAGE	{"body": "Soc de la terra alta i voldria saber quin treball podria fer desde la meva zona .", "name": "Josep Grau", "excerpt": "Soc de la terra alta i voldria saber quin treball podria fer desde la meva zona .", "subject": "Batea", "fromEmail": "jgraupallares@gmail.com"}	2026-11-18 05:04:15.961	2026-11-16 19:33:25.062	2026-11-16 19:33:25.065
+cmwjpoac7000408l5pdb7ah1q	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Beatriz Fernández González", "email": "beafergo0508@gmail.com"}	2026-11-18 05:04:15.961	\N	2026-11-16 20:23:45.751
+cmwjt7t4p000408l3wr9sm87e	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "David Homs Pla", "email": "david_homs11@hotmail.com"}	2026-11-18 05:04:15.961	\N	2026-11-16 22:02:55.418
+cmwka2zhn000107lbft73a2mb	cmpu7a2oe0000l8t232dsj2jq	ADMIN_CONTACT_MESSAGE	{"body": "Hello there, \\r\\n\\r\\nI hope this email finds you well. I wanted to let you know about our new BANGE backpacks and sling bags that just released.\\r\\n\\r\\nBange is perfect for students, professionals and travelers. The backpacks and sling bags feature a built-in USB charging port, making it easy to charge your devices on the go.  Also they are waterproof and anti-theft design, making it ideal for carrying your valuables.\\r\\n\\r\\nBoth bags are made of durable and high-quality materials, and are perfect for everyday use or travel.\\r\\n\\r\\nOrder yours now at 50% OFF with FREE Shipping: http://bangeshop.com\\r\\n\\r\\nBest regards,\\r\\n\\r\\nWinona", "name": "Winona", "excerpt": "Hello there, \\r\\n\\r\\nI hope this email finds you well. I wanted to let you know about our new BANGE backpacks and sling bags that just released.\\r\\n\\r\\nBange is perfect for students, professionals and travelers. The backpacks and sling bags feature a built-in USB charging port, making i…", "subject": "Contacta amb CanGerard · CanGerard", "fromEmail": "winona@cangerard.cat"}	2026-11-18 05:04:15.961	2026-11-17 05:55:03.848	2026-11-17 05:55:03.851
+cmwkwysg0000408jnj4x4antc	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_USER	{"name": "Isa Fisas", "email": "isabanera@gmail.com"}	2026-11-18 05:04:15.961	\N	2026-11-17 16:35:39.264
+cmwlqsfvp000008l3xefi1z8s	cmtuipd7j000004iha92xkfut	SELLER_OUT_OF_STOCK_REMINDER	{"count": 5, "variantCount": 0, "productTitles": "Caramels de cérvol per a gossos 100% cérvol, Colls de gall dindi deshidratats per a gossos, mastegable natural 100% gall dindi, Colls de pollastre deshidratats per a gossos, snack natural 100% pollastre, Costelles de cérvol deshidratades per a gossos, mastegable natural 100% cérvol, Puntes d'ala de pollastre deshidratades per a gossos, snack natural 100% pollastre"}	\N	2026-11-18 06:30:31.517	2026-11-18 06:30:31.525
+cmwlqsfwz000108l3ecx8cpby	cmw2eb3gl000208l4g8hoxdwe	SELLER_OUT_OF_STOCK_REMINDER	{"count": 1, "variantCount": 0, "productTitles": "Caixa degustació de cerveses LAVA"}	\N	\N	2026-11-18 06:30:31.571
+cmwlqsg11000208l3oshts61p	cmwabumwr000608l5dckc42h3	SELLER_OUT_OF_STOCK_REMINDER	{"count": 37, "variantCount": 4, "productTitles": "Adaptador de junta del dipòsit per a Solac CE4450, CE4495 i CE4500, Anella de suport del grup d'alumini per a Minimoka M363 i M365, Cafetera espresso Minimoka CM-1622 negra, bomba de 15 bar, Cafetera espresso Minimoka CM-1821 amb frontal d'acer inoxidable, Cafetera espresso Minimoka M-270 plata, 18 bar i dipòsit de 2 l, Cafetera espresso Minimoka M-364 plata per a cafè mòlt i monodosis, Cafetera espresso Minimoka M-367 negra amb caldera d'acer inoxidable, Cafetera espresso Minimoka M-372 plata, 15 bar i dipòsit d'1,5 l, +33"}	\N	2026-11-18 06:30:31.716	2026-11-18 06:30:31.717
+cmwlqsg52000308l36fpsk14p	cmvdeurfu000008jw80l5kir4	SELLER_OUT_OF_STOCK_REMINDER	{"count": 0, "variantCount": 4, "productTitles": "Bombons aromàtics de cera Botanical Collection (Etiqueta en castellà), Daus aromàtics per a calaixos Roba Estesa (Etiqueta en castellà), Espelma aromàtica El Cafè de l'Àvia (Etiqueta en català), Pack de regal d'espelmes aromàtiques · El Primer Refugi (Etiqueta en català · Sense cremador)"}	\N	2026-11-18 06:30:31.862	2026-11-18 06:30:31.862
+cmwlsn8zd000108kz9x2zcjvu	cmpu7a2oe0000l8t232dsj2jq	ADMIN_CONTACT_MESSAGE	{"body": "Hola! Me encanta la pagina y que vendáis productos catalanes, me gustaría colaborar de alguna manera para promocionar.\\r\\n\\r\\nSaludos", "name": "Angeles Lopez", "excerpt": "Hola! Me encanta la pagina y que vendáis productos catalanes, me gustaría colaborar de alguna manera para promocionar.\\r\\n\\r\\nSaludos", "subject": "Administrativa", "fromEmail": "malrsbd76@gmail.com"}	\N	2026-11-18 07:22:28.534	2026-11-18 07:22:28.537
 \.
 
 
@@ -17978,6 +17985,7 @@ cmwjthz3w000508l3x3tlr6ya	àvia	avia	ca	0	cmwjt7t1f000008l39v43tsrn	2026-11-16 2
 cmwknoja8000007l52m2nw2va	Tamper cafe	tamper cafe	ca	15	\N	2026-11-17 12:15:44.288
 cmwknphk1000207l5npflis1l	Hibrew h10 plus	hibrew h10 plus	ca	2	\N	2026-11-17 12:16:28.705
 cmwllh57h000008l83vf54mt0	Ratafia	ratafia	ca	0	\N	2026-11-18 04:01:46.397
+cmwmtn8vm000008l36a5db2sf	Cava	cava	ca	4	\N	2026-11-19 00:38:14.195
 cmuwzwdk7000504jwqr6rfolv	jabon	jabon	ca	60	\N	2026-10-06 18:11:34.951
 cmuwzwjqs000604jws47ubuk9	xampu	xampu	ca	6	\N	2026-10-06 18:11:42.964
 cmuwzxm20000004l6yyspit15	sabons	sabons	ca	60	cmpu7a2oe0000l8t232dsj2jq	2026-10-06 18:12:32.616
@@ -18110,6 +18118,7 @@ cmwj7yasr000907k1y3pkd0ip	Oli cosmetica	oli cosmetica	ca	9	\N	2026-11-16 12:07:3
 cmwjlwebe000108l022utshcs	Formatges	formatges	ca	13	\N	2026-11-16 18:38:05.69
 cmwjti1as000608l33mvzn687	àvia	avia	ca	8	cmwjt7t1f000008l39v43tsrn	2026-11-16 22:10:52.564
 cmwknp3qz000107l5bx1mcqid	Accesori cafe	accesori cafe	ca	2	\N	2026-11-17 12:16:10.811
+cmwlryjfk000007kzpem7h358	Aloe vera 100%	aloe vera 100%	es	0	\N	2026-11-18 07:03:15.681
 cmveukb0n000q08i9t2elerku	vela	vela	es	26	cmvdeurfu000008jw80l5kir4	2026-10-19 06:02:04.871
 cmvev0kw6001608i9x2b94prd	vela	vela	es	41	cmvdeurfu000008jw80l5kir4	2026-10-19 06:14:44.166
 cmvev0vj7000d08labgrxtjcj	vela	vela	es	41	cmvdeurfu000008jw80l5kir4	2026-10-19 06:14:57.955
@@ -18332,6 +18341,7 @@ cmwj7yafl000208jiiv2coutl	Oli cosmetica	oli cosmetica	ca	9	\N	2026-11-16 12:07:3
 cmwjm9wdf000008icvgffl27z	Vi	vi	ca	29	\N	2026-11-16 18:48:35.619
 cmwjv9k3x000008l7k3tib5eg	arròs	arros	ca	4	\N	2026-11-16 23:00:16.27
 cmwkpt3x0000307l5dwcp30ip	Oli	oli	es	51	\N	2026-11-17 13:15:16.884
+cmwlubsii000008jm1s17fjvg	Aixetes	aixetes	es	42	\N	2026-11-18 08:09:33.21
 cmw4lz6kf000107l34ftw9dn9	Bolso	bolso	ca	45	\N	2026-11-06 06:43:42.975
 cmw4n8qsj000008jucpmlmzht	Cargols	cargols	es	6	\N	2026-11-06 07:19:08.708
 cmw4n95jx000108ju2lub0x25	Cargols menjar	cargols menjar	es	0	\N	2026-11-06 07:19:27.837
@@ -18559,6 +18569,7 @@ cmwjmnu05000208icenod8mt0	Vi	vi	ca	29	\N	2026-11-16 18:59:25.733
 cmwjmxbbk000308icrl66syo0	Decoració	decoracio	ca	7	\N	2026-11-16 19:06:48.08
 cmwjv9rho000108l7bq608zhp	pasta	pasta	ca	4	\N	2026-11-16 23:00:25.836
 cmwksyfvh000007l0j93zesd5	Oli cosmetica	oli cosmetica	ca	9	\N	2026-11-17 14:43:24.509
+cmwlucm2o000007l836j9xlo7	Aixetes lavabo	aixetes lavabo	es	21	\N	2026-11-18 08:10:11.52
 cmw5epyhn000808js8gpbpqn5	Bosses	bosses	ca	59	\N	2026-11-06 20:08:21.467
 cmw5f3vya000008jpcdq1wpnc	Fuet	fuet	ca	0	\N	2026-11-06 20:19:11.362
 cmw5f51zh000007l69llno1sp	Embotits	embotits	ca	4	\N	2026-11-06 20:20:05.837
@@ -18701,6 +18712,7 @@ cmwjmhtea000308l0q569etox	Vi	vi	ca	29	\N	2026-11-16 18:54:45.011
 cmwk5okft000007igvjjix62k	Bull blanc	bull blanc	es	0	\N	2026-11-17 03:51:52.697
 cmwkzfz3f000008kzinohyf6y	Trufats	trufats	ca	9	\N	2026-11-17 17:45:00.267
 cmwkzghp4000108kz75tvyz5s	Trufats	trufats	ca	9	\N	2026-11-17 17:45:24.376
+cmwlx12bh000008ic5jhisif9	Productos	productos	es	141	\N	2026-11-18 09:25:11.55
 cmw67rz0k000508jkaqjkbc9g	Oli antara	oli antara	ca	0	\N	2026-11-07 09:41:44.324
 cmw688pbb000708jkk8uc8pqk	Oli d'Arbeca	oli d'arbeca	ca	0	\N	2026-11-07 09:54:44.903
 cmw6899se000808jkf2kbs6em	Lots	lots	ca	18	\N	2026-11-07 09:55:11.438
@@ -18746,6 +18758,7 @@ cmwjoi38z000208kzuwd83l0r	Regals	regals	es	72	\N	2026-11-16 19:50:57.011
 cmwjoo5qv000008l65wqi8cyi	llibres	llibres	ca	13	\N	2026-11-16 19:55:40.183
 cmwk5oozs000107igu0pccug5	Fuet	fuet	es	0	\N	2026-11-17 03:51:58.6
 cmwl7a5qq000008l4zcb7ch5p	Xocolata	xocolata	es	12	\N	2026-11-17 21:24:25.875
+cmwm21hm4000008jmnwzeappm	Vibrational aura	vibrational aura	en	12	\N	2026-11-18 11:45:29.452
 cmw68yyuu000408l0d2se42dm	Roba	roba	ca	20	\N	2026-11-07 10:15:10.326
 cmw68yzrg000b08jkdc212m54	Roba	roba	ca	20	\N	2026-11-07 10:15:11.501
 cmw68z1co000508l0vd22w0jf	Roba	roba	ca	20	\N	2026-11-07 10:15:13.561
@@ -18886,6 +18899,7 @@ cmwjprrqj000408kza03ktx6g	Embotit	embotit	ca	5	\N	2026-11-16 20:26:28.267
 cmwk8erpn000008l4fm1fsr0a	Bateries	bateries	ca	0	\N	2026-11-17 05:08:14.411
 cmwl9dogs000007js93vnhaqn	Avellana	avellana	ca	5	\N	2026-11-17 22:23:09.34
 cmwl9edci000107jss6v6lii2	Atmella	atmella	ca	0	\N	2026-11-17 22:23:41.586
+cmwm21obd000108jmm151j6q9	Vibrational aura carta	vibrational aura carta	en	0	\N	2026-11-18 11:45:38.137
 cmw6ssox0000608jt504c1s4m	ceramica	ceramica	ca	1	\N	2026-11-07 19:30:09.828
 cmw8zxke0000b07l5rh8dj6nd	regals	regals	ca	68	\N	2026-11-09 08:25:26.904
 cmw8zyqsd000c07l5c87qao6t	regals	regals	ca	68	\N	2026-11-09 08:26:21.853
@@ -18925,6 +18939,8 @@ cmwl9f136000307js6a3fls9t	Taronja	taronja	ca	0	\N	2026-11-17 22:24:12.355
 cmwl9f3sw000407jsfg13qgsp	Taronja	taronja	ca	0	\N	2026-11-17 22:24:15.872
 cmwl9fqnk000507js0qhm1928	Mandarina	mandarina	ca	0	\N	2026-11-17 22:24:45.488
 cmwl9fzyh000607jscb3sveou	Tomata	tomata	ca	0	\N	2026-11-17 22:24:57.545
+cmwm68gfx000007l962w669v0	Roba	roba	ca	21	\N	2026-11-18 13:42:52.989
+cmwm68yce000107l9h34tiaqi	Sabates	sabates	ca	7	\N	2026-11-18 13:43:16.19
 cmw6u8pz9000308iiwxv69zil	Fuet	fuet	ca	0	\N	2026-11-07 20:10:37.317
 cmw6umqth000208jmjkkwhc00	Pollastre	pollastre	ca	14	\N	2026-11-07 20:21:31.589
 cmw6v8dq2000008jyem0ogzsh	Fruita	fruita	ca	45	\N	2026-11-07 20:38:21.05
@@ -19059,6 +19075,7 @@ cmwjpso05000508kzlemyj72c	Past	past	ca	26	\N	2026-11-16 20:27:10.085
 cmwjpso3v000608kztyw5va0t	Past	past	ca	26	\N	2026-11-16 20:27:10.219
 cmwkf6i2n000108jiuno2tiqx	pendrive	pendrive	ca	0	\N	2026-11-17 08:17:45.983
 cmwl9io2e000008l5247nta7t	Propoleo	propoleo	ca	17	\N	2026-11-17 22:27:02.102
+cmwmf374c000008jp753bfk0c	Fruita i verdura	fruita i verdura	ca	0	\N	2026-11-18 17:50:44.173
 cmw7qidyj000308jm3gt9b9s9	Pernil dolç	pernil dolc	ca	0	\N	2026-11-08 11:13:56.011
 cmw7satn3000108l50fw4l5ol	Embotit	embotit	ca	4	\N	2026-11-08 12:04:02.319
 cmw919w45000307k6n5y77su4	Oli oliva	oli oliva	ca	0	\N	2026-11-09 09:03:01.589
@@ -19104,6 +19121,7 @@ cmwkf77ti000308ji61dwf4pw	informatica	informatica	ca	0	\N	2026-11-17 08:18:19.35
 cmwkfaqs4000008ldhq6aocb0	TATAY Banqueta de Baño Lombok	tatay banqueta de bano lombok	ca	0	\N	2026-11-17 08:21:03.892
 cmwle9g6m000008l2bubvbybr	Toma Queta	toma queta	es	0	\N	2026-11-18 00:39:50.062
 cmwleazlr000408l225yixuhl	Productos	productos	es	141	\N	2026-11-18 00:41:01.887
+cmwmijubg000008jmse3mvi3l	Fruites	fruites	ca	57	\N	2026-11-18 19:27:39.58
 cmw7r1pih000508l6ukmy064u	Vermut	vermut	ca	1	\N	2026-11-08 11:28:57.449
 cmw7r1yfk000608l65f1wt30r	Vermut negre	vermut negre	ca	0	\N	2026-11-08 11:29:09.008
 cmw7rtcx0000408jml3nod1lp	Sanarretes	sanarretes	ca	0	\N	2026-11-08 11:50:27.492
@@ -19238,6 +19256,7 @@ cmwknn26z000007jg62mnw139	Cafè	cafe	ca	681	\N	2026-11-17 12:14:35.483
 cmwknoht7000407jgwtlnx0u7	Tamper cafe	tamper cafe	ca	15	\N	2026-11-17 12:15:42.379
 cmwle9nnn000108l2mcrv37rw	Tomaquets	tomaquets	es	7	\N	2026-11-18 00:39:59.747
 cmwleakdg000208l2gpt3ueo0	caToma Queta	catoma queta	es	0	\N	2026-11-18 00:40:42.148
+cmwmjshr8000007jprd2d75wp	Cafetera	cafetera	ca	600	\N	2026-11-18 20:02:22.821
 cmw808i4a000008lhp8sw81zh	mel	mel	ca	80	\N	2026-11-08 15:46:11.003
 cmw808qik000108l3l7l5tgsm	mel	mel	ca	80	\N	2026-11-08 15:46:21.884
 cmw80ihtb000208l261c7w5tf	Cervesa sense alcohol	cervesa sense alcohol	ca	1	\N	2026-11-08 15:53:57.167
@@ -19308,6 +19327,7 @@ cmwknnoww000207jg3lb7ptt2	Cafè molinet	cafe molinet	ca	41	\N	2026-11-17 12:15:0
 cmwknnqn4000307jgjg35rvtg	Cafè molinet	cafe molinet	ca	41	\N	2026-11-17 12:15:07.169
 cmwlearfu000308l2ulsx5lts	Productos	productos	es	141	\N	2026-11-18 00:40:51.306
 cmwlepz3a000008jvkd0io3l9	Menjar	menjar	ca	4	\N	2026-11-18 00:52:41.062
+cmwmnqavl000008kzoohtvs3k	àvia	avia	ca	8	\N	2026-11-18 21:52:39.057
 cmw808x1j000208l3sj7tkvig	mel	mel	ca	80	\N	2026-11-08 15:46:30.343
 cmw80klu6000108lh5jexovbm	Formatge	formatge	ca	11	\N	2026-11-08 15:55:35.694
 cmw80ltrx000608lh2y9ea3r9	Samarretes	samarretes	ca	2	\N	2026-11-08 15:56:32.637
@@ -19607,6 +19627,11 @@ cmwksa7h0000207jweiszcmpe	cmvdeurhk000608jw49r1an3u	LINK_CLICK	WEBSITE	SEARCH	ca
 cmwky3995000008jyyihrohb8	cmvdeurhk000608jw49r1an3u	VIEW	\N	SEARCH	ca	2026-11-17 17:07:07.289	\N
 cmwl6f8rs000008il1xi8900v	cmumzn74i000504l6rajo6gsl	VIEW	\N	SEARCH	ca	2026-11-17 21:00:23.464	\N
 cmwl6fs4t000108ilqm2ejjdd	cmvdeurhk000608jw49r1an3u	VIEW	\N	SEARCH	ca	2026-11-17 21:00:48.557	\N
+cmwlzzx9l000008jyd0r7f9ll	cmufpbpez000504jvim1xuoet	VIEW	\N	SEARCH	en	2026-11-18 10:48:17.193	\N
+cmwm017tu000108jyr2jyr62q	cmufpbpez000504jvim1xuoet	VIEW	\N	INTERNAL	en	2026-11-18 10:49:17.538	\N
+cmwm71jrj000008jtgsoyo4fm	cmufpbpez000504jvim1xuoet	VIEW	\N	SEARCH	en	2026-11-18 14:05:30.319	\N
+cmwmnr3ko000008i94ccibdrt	cmvdeurhk000608jw49r1an3u	VIEW	\N	INTERNAL	ca	2026-11-18 21:53:16.248	\N
+cmwmnr42e000108i9ifk77bd5	cmvdeurhk000608jw49r1an3u	LINK_CLICK	WEBSITE	INTERNAL	ca	2026-11-18 21:53:16.886	\N
 \.
 
 
@@ -19697,12 +19722,12 @@ accounting.stripeAccount	44100001	2026-10-18 19:29:38.66
 accounting.bankTreasuryId	6ab1942314b50de95e026a4a	2026-10-18 19:29:38.744
 accounting.bankAccount	57200002	2026-10-18 19:29:38.786
 accounting.stripeSupplierContactId	6ac48f2eb8d645b6ef0ef115	2026-10-18 19:29:38.828
-subscriptions.plans	{"monthly":{"enabled":true,"priceNet":10},"yearly":{"enabled":true,"priceNet":84},"trialDays":14}	2026-11-16 16:31:26.372
-accounting.lockedAt		2026-11-18 04:55:03.608
+subscriptions.plans	{"monthly":{"enabled":false,"priceNet":10},"yearly":{"enabled":true,"priceNet":34},"trialDays":0}	2026-11-18 05:04:49.908
 platform.mode	marketplace	2026-11-05 06:09:45.454
 accounting.clearingTreasuryId	6af4b13727323916c001779a	2026-11-11 18:17:27.292
 accounting.clearingAccount	55500001	2026-11-11 18:17:28.191
 accounting.clearingBalance	0	2026-11-11 18:17:30.265
+accounting.lockedAt		2026-11-19 04:55:03.607
 accounting.treasuryBalance	38.82	2026-11-15 18:40:04.176
 \.
 
@@ -20265,6 +20290,6 @@ SELECT pg_catalog.setval('"auth"."refresh_tokens_id_seq"', 1, false);
 -- PostgreSQL database dump complete
 --
 
--- \unrestrict A5pLkV6xb0STiRwDL7wNvGeW1A4ji8eiLKnPB42DyUMUsHsHGOgLH6WiSwqfJhA
+-- \unrestrict UTn7wscRDDA7oUxwBE7lytQTQMMyhjKXFCRvR6ar2tWfwEqdzcMVt1PArQUY59y
 
 RESET ALL;
