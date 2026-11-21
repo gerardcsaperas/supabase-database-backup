@@ -1008,12 +1008,14 @@ ALTER TABLE "public"."MessageCampaign" OWNER TO "postgres";
 CREATE TABLE IF NOT EXISTS "public"."MessageCampaignRecipient" (
     "id" "text" NOT NULL,
     "campaignId" "text" NOT NULL,
-    "userId" "text" NOT NULL,
+    "userId" "text",
     "email" "text" NOT NULL,
     "locale" "text" DEFAULT 'ca'::"text" NOT NULL,
     "status" "public"."MessageRecipientStatus" DEFAULT 'PENDING'::"public"."MessageRecipientStatus" NOT NULL,
     "sentAt" timestamp(3) without time zone,
-    "error" "text"
+    "error" "text",
+    "subscriberId" "text",
+    "unsubscribeToken" "text"
 );
 
 
@@ -1034,6 +1036,24 @@ CREATE TABLE IF NOT EXISTS "public"."ModerationAction" (
 
 
 ALTER TABLE "public"."ModerationAction" OWNER TO "postgres";
+
+
+CREATE TABLE IF NOT EXISTS "public"."NewsletterSubscriber" (
+    "id" "text" NOT NULL,
+    "email" "text" NOT NULL,
+    "locale" "text" DEFAULT 'ca'::"text" NOT NULL,
+    "source" "text" DEFAULT 'FOOTER'::"text" NOT NULL,
+    "token" "text" NOT NULL,
+    "textShown" "text" NOT NULL,
+    "ip" "text",
+    "confirmedAt" timestamp(3) without time zone,
+    "unsubscribedAt" timestamp(3) without time zone,
+    "confirmationSentAt" timestamp(3) without time zone,
+    "createdAt" timestamp(3) without time zone DEFAULT CURRENT_TIMESTAMP NOT NULL
+);
+
+
+ALTER TABLE "public"."NewsletterSubscriber" OWNER TO "postgres";
 
 
 CREATE TABLE IF NOT EXISTS "public"."Notification" (
@@ -1579,7 +1599,8 @@ CREATE TABLE IF NOT EXISTS "public"."SellerProfile" (
     "deliveryScope" "public"."SellerDeliveryScope",
     "internationalCountries" "text"[] DEFAULT ARRAY[]::"text"[],
     "internationalScope" "public"."SellerInternationalScope",
-    "saleMode" "public"."SellerSaleMode" DEFAULT 'SHOWCASE'::"public"."SellerSaleMode" NOT NULL
+    "saleMode" "public"."SellerSaleMode" DEFAULT 'SHOWCASE'::"public"."SellerSaleMode" NOT NULL,
+    "verifiedAt" timestamp(3) without time zone
 );
 
 
@@ -1880,7 +1901,8 @@ CREATE TABLE IF NOT EXISTS "public"."User" (
     "twoFactorPendingSecret" "text",
     "twoFactorEnabledAt" timestamp(3) without time zone,
     "twoFactorLastUsedStep" integer,
-    "newsletterOptInAt" timestamp(3) without time zone
+    "newsletterOptInAt" timestamp(3) without time zone,
+    "newsletterPromptDismissedAt" timestamp(3) without time zone
 );
 
 
@@ -2033,6 +2055,11 @@ ALTER TABLE ONLY "public"."MessageCampaign"
 
 ALTER TABLE ONLY "public"."ModerationAction"
     ADD CONSTRAINT "ModerationAction_pkey" PRIMARY KEY ("id");
+
+
+
+ALTER TABLE ONLY "public"."NewsletterSubscriber"
+    ADD CONSTRAINT "NewsletterSubscriber_pkey" PRIMARY KEY ("id");
 
 
 
@@ -2362,7 +2389,15 @@ CREATE INDEX "MessageCampaignRecipient_campaignId_status_idx" ON "public"."Messa
 
 
 
+CREATE UNIQUE INDEX "MessageCampaignRecipient_campaignId_subscriberId_key" ON "public"."MessageCampaignRecipient" USING "btree" ("campaignId", "subscriberId");
+
+
+
 CREATE UNIQUE INDEX "MessageCampaignRecipient_campaignId_userId_key" ON "public"."MessageCampaignRecipient" USING "btree" ("campaignId", "userId");
+
+
+
+CREATE UNIQUE INDEX "MessageCampaignRecipient_unsubscribeToken_key" ON "public"."MessageCampaignRecipient" USING "btree" ("unsubscribeToken");
 
 
 
@@ -2379,6 +2414,18 @@ CREATE INDEX "ModerationAction_reviewId_idx" ON "public"."ModerationAction" USIN
 
 
 CREATE INDEX "ModerationAction_sellerId_idx" ON "public"."ModerationAction" USING "btree" ("sellerId");
+
+
+
+CREATE INDEX "NewsletterSubscriber_confirmedAt_unsubscribedAt_idx" ON "public"."NewsletterSubscriber" USING "btree" ("confirmedAt", "unsubscribedAt");
+
+
+
+CREATE UNIQUE INDEX "NewsletterSubscriber_email_key" ON "public"."NewsletterSubscriber" USING "btree" ("email");
+
+
+
+CREATE UNIQUE INDEX "NewsletterSubscriber_token_key" ON "public"."NewsletterSubscriber" USING "btree" ("token");
 
 
 
@@ -2932,6 +2979,11 @@ ALTER TABLE ONLY "public"."InvoiceRequest"
 
 ALTER TABLE ONLY "public"."MessageCampaignRecipient"
     ADD CONSTRAINT "MessageCampaignRecipient_campaignId_fkey" FOREIGN KEY ("campaignId") REFERENCES "public"."MessageCampaign"("id") ON UPDATE CASCADE ON DELETE CASCADE;
+
+
+
+ALTER TABLE ONLY "public"."MessageCampaignRecipient"
+    ADD CONSTRAINT "MessageCampaignRecipient_subscriberId_fkey" FOREIGN KEY ("subscriberId") REFERENCES "public"."NewsletterSubscriber"("id") ON UPDATE CASCADE ON DELETE CASCADE;
 
 
 
