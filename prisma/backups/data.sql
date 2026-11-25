@@ -4,7 +4,7 @@ SET session_replication_role = replica;
 -- PostgreSQL database dump
 --
 
--- \restrict zLe9e1Jz6bpp8lstwmrLj7WzTGvNfiocikvdSttbQYVb9cT2fThb4wV03mHihIZ
+-- \restrict UaultAEdFTZyk7UhcGzlyGaMkjuXmV2PzEtkQBmY7VmA7Xrs9TXPh3JaeuFQMOx
 
 -- Dumped from database version 17.6
 -- Dumped by pg_dump version 17.12
@@ -391,6 +391,7 @@ cmqnojisi000004l4vyamzrfz	isidre.sala@gmail.com	$2b$12$p4T6gz7o3lxlxxQkKz/y1eDK8
 cmrouu7x9000004i6jw2h6icl	aperezberoy@gmail.com	$2b$12$rqGgCUM3CmhQSzGfwaXk6.ztgJwrMshKc2ZVht5TX5DPemPY4MuUO	Àngel Pérez Beroy	BUYER	ca	2026-07-17 11:30:09.175	\N	\N	\N	f	2026-07-17 11:28:39.837	2026-07-17 11:30:09.193	\N	1963-06-22 00:00:00	\N	2026-07-17 11:28:39.802	1.0	0	f	\N	\N	\N	\N	\N	\N
 cmwjt7t1f000008l39v43tsrn	david_homs11@hotmail.com	$2b$12$d.cHTepdAzJgDlCTaca2uu0tk/XmKx0GGeBQ/Gz8K3glPMwCVdSHy	David Homs Pla	BUYER	ca	2026-11-16 22:05:32.064	\N	\N	\N	f	2026-11-16 22:02:55.299	2026-11-16 22:05:32.068	\N	1992-03-22 00:00:00	\N	2026-11-16 22:02:55.267	1.0	0	f	\N	\N	\N	\N	\N	\N
 cmru7e92e000004l42gq30su7	colombarbeta@hotmail.com	$2b$12$OJfrONgGO1KWMSFOmUEPleF.uPhViVXOlcJK7sY6nobT7eaTDdkTi	Alba Colom Barbeta	BUYER	ca	2026-07-22 09:18:15.602	\N	\N	\N	f	2026-07-21 05:19:00.71	2026-07-22 09:18:15.61	\N	1985-04-12 00:00:00	\N	2026-07-21 05:19:00.674	1.0	0	f	\N	\N	\N	\N	\N	\N
+cmsiutxhk000004jodggt83b3	aymaboard@gmail.com	$2b$12$o32Tp1TtHHHsC9osq4i2f.N9G7MiUCLrke5PbAPKU.8VS25Y9Iwuu	Esteve Aymà Tintó	SELLER	ca	2026-08-07 11:23:05.865	\N	da434dc8b06321a5fc12d4ebc286144f23a3f0ea740391edd4c6aaeaad78b68e	2026-11-24 19:27:30.608	f	2026-08-07 11:21:31.592	2026-11-24 18:27:30.624	\N	1992-03-20 00:00:00	\N	2026-08-07 11:21:31.549	1.0	0	f	\N	\N	\N	\N	\N	\N
 cmrw5vhvz000004l1dzhih7si	marccugat@gmail.com	$2b$12$DQEDCL7rSPlDRg54ajkt5.b5iB/h5RDtuvUcTlNPBzVTWYzNLeQDa	Marc Cugat i Fernàndez	BUYER	ca	2026-07-22 14:12:25.699	\N	\N	\N	f	2026-07-22 14:11:58.415	2026-07-22 14:13:09.617	\N	1973-02-20 00:00:00	Marc Cugat	2026-07-22 14:11:58.383	1.0	0	f	\N	\N	\N	\N	\N	\N
 cmt7baslu000004lalt3ci30a	axelpt86@gmail.com	$2b$12$mh/bThxFmY25tQDY6aKe6edGttkjnf52k3cIL/Zc37eZPcUEO58VS	ÀXEL TERRÉS PÉREZ	BUYER	en	\N	5d8956bb8412b448b71bb2b88a757e1de921673c36ff762eb82dfe2b3012f1da	\N	\N	f	2026-08-24 14:09:00.498	2026-08-24 14:09:00.498	\N	1986-06-11 00:00:00	\N	2026-08-24 14:09:00.471	1.0	0	f	\N	\N	\N	\N	\N	\N
 cmschno1p000004i9bggg2mhw	info@closdebasella.com	$2b$12$ZkqeQFiEh5WgkiT0woZFkOp2go6R9501sFt14nBgylnvHKIHbxbzi	Alejandra Sampson	SELLER	ca	2026-08-06 09:08:17.733	\N	\N	\N	f	2026-08-03 00:26:07.357	2026-10-16 12:50:53.849	\N	2002-01-01 00:00:00	\N	2026-08-03 00:26:07.316	1.0	1	f	\N	\N	\N	\N	\N	\N
@@ -416,7 +417,6 @@ cmsg2r0aa000004jtr9zwwwct	nuria.moncu@yahoo.es	$2b$12$HP/qnl/RwocP6MpkjsTYMu1Bcs
 cmshgiqbq000004jr3zjk8fs0	lojupe.27@gmail.com	$2b$12$eU9Bjua71MI4RjH80mSbX.jkPnjNUYrFF0I5SnTijZOokImdV1r32	Lourdes Junqué Pérez	BUYER	ca	\N	1f57f002979b3134e23f42d02cb2f95cbb7b9e5b0e5fd36eb9157357fba9f1b4	\N	\N	f	2026-08-06 11:53:08.294	2026-08-06 11:53:08.294	\N	2007-11-27 00:00:00	\N	2026-08-06 11:53:08.267	1.0	0	f	\N	\N	\N	\N	\N	\N
 cmshq0ae4000004i2bbg11f95	soniamanbo@gmail.com	$2b$12$mSjxwDwnPY7bzUw2L2uBHO0rtNr0WTrRYtJ7Zb9y0rj/kKlCPF8B.	Sonia Manzanares Bosch	BUYER	ca	2026-08-06 16:19:40.75	\N	\N	\N	f	2026-08-06 16:18:43.996	2026-08-06 16:19:40.757	\N	1973-03-01 00:00:00	\N	2026-08-06 16:18:43.951	1.0	0	f	\N	\N	\N	\N	\N	\N
 cmsisu9mi000004lg3o362s4k	aryaju360@gmail.com	$2b$12$gBvT/bxJs/TPStVi5Pu6l.3e/4f6BzKgOkob/9utw4mcdADvNYOhu	Judith Moya Paz	BUYER	ca	2026-08-07 11:11:56.685	\N	\N	\N	f	2026-08-07 10:25:48.09	2026-08-07 11:11:56.692	\N	1988-05-06 00:00:00	\N	2026-08-07 10:25:48.061	1.0	0	f	\N	\N	\N	\N	\N	\N
-cmsiutxhk000004jodggt83b3	aymaboard@gmail.com	$2b$12$o32Tp1TtHHHsC9osq4i2f.N9G7MiUCLrke5PbAPKU.8VS25Y9Iwuu	Esteve Aymà Tintó	SELLER	ca	2026-08-07 11:23:05.865	\N	\N	\N	f	2026-08-07 11:21:31.592	2026-08-07 11:23:05.867	\N	1992-03-20 00:00:00	\N	2026-08-07 11:21:31.549	1.0	0	f	\N	\N	\N	\N	\N	\N
 cmshu9c88000004l5wtt3lbgf	tontisoc@hotmail.com	$2b$12$0FxORT9AtQCWG0VtOL06WOryciSiI.UiYn9xPNMOyeX7btgwk1ut2	Antoni Fabre Rossell	BUYER	ca	2026-08-07 15:31:20.388	\N	\N	\N	f	2026-08-06 18:17:44.744	2026-08-07 15:31:20.395	\N	1971-04-13 00:00:00	\N	2026-08-06 18:17:44.719	1.0	0	f	\N	\N	\N	\N	\N	\N
 cmsjcf8ve00000aj4a3g7euub	jordi.carrera67@gmail.com	$2b$12$9WeWLtwTiU6zc.JZ92brTuz15Z4loNPjcADxN9B1Jng6Y1aYqRBl.	ROSA MARIA CODONY I FERRÉ	BUYER	ca	2026-08-07 19:34:14.804	\N	\N	\N	f	2026-08-07 19:33:59.594	2026-08-07 19:34:14.813	\N	1969-06-16 00:00:00	\N	2026-08-07 19:33:59.563	1.0	0	f	\N	\N	\N	\N	\N	\N
 cmsjhakg8000004lca4y2lv2i	dany@occident.com	$2b$12$7HGI6wGkzBluUneqV2BLOedBhL0/M1NF1eLNYRwYmOZW7DYA6t2Ji	Dany Hernandez	SELLER	ca	2026-08-07 21:52:28.327	\N	\N	\N	f	2026-08-07 21:50:19.4	2026-08-07 21:52:28.334	\N	1972-09-15 00:00:00	\N	2026-08-07 21:50:19.372	1.0	0	f	\N	\N	\N	\N	\N	\N
@@ -452,11 +452,11 @@ cmsyujck1000004l6s097kgc6	andreucarla96@hormail.com	$2b$12$.Cpz6QJRKitw6QAEJwDe8
 cmsyw4ybz000004jmum7b9cce	mysistercandles@gmail.com	$2b$12$E5vr32pNCIOz8zjVAK3oiuzXU1iL.XcdEiuI1DvQxIuYZt.W5VVE6	Montserrat Many Roig	BUYER	ca	2026-08-18 16:46:54.244	\N	\N	\N	f	2026-08-18 16:42:24.335	2026-08-18 16:46:54.251	\N	1972-04-14 00:00:00	\N	2026-08-18 16:42:24.304	1.0	0	f	\N	\N	\N	\N	\N	\N
 cmun4wamd000004jtvnc4pcun	gestio@xarodist.com	$2b$12$L88gvi6AY8BT13JHnK4VCePCHCFENFXvde5sETQLXM2Yz7UauGw76	VINAIXA SIURO	SELLER	ca	2026-09-29 20:44:09.381	\N	\N	\N	f	2026-09-29 20:33:47.461	2026-09-29 20:44:09.382	\N	1975-12-11 00:00:00	\N	2026-09-29 20:33:47.428	1.0	0	f	\N	\N	\N	\N	\N	\N
 cmsz4btgb000004joiaegtpw4	info@bendhora.com	$2b$12$V3Q2Vv42D1cncLaW3OPhreEefgAhv6m2Ren.CGQYlCxmSd4d10/zi	Bendhora	SELLER	ca	2026-08-18 20:32:06.454	\N	\N	\N	f	2026-08-18 20:31:41.531	2026-08-18 20:32:55.549	\N	1986-05-26 00:00:00	Bendhora	2026-08-18 20:31:41.491	1.0	0	f	\N	\N	\N	\N	\N	\N
-cmt1njyo0000c04jptu9m63fp	info@mysistercandles.com	$2b$12$9dNTnq9ZdnjsywxEVdjKiuY6HGRWiqM8WzPpFsGR.Qk2pQ2ti77o6	Montserrat Many	SELLER	ca	2026-08-21 06:02:30.2	\N	\N	\N	f	2026-08-20 15:05:26.592	2026-08-21 06:02:30.203	\N	1972-04-14 00:00:00	\N	2026-08-20 15:05:26.585	1.0	0	f	\N	\N	\N	\N	\N	\N
 cmsz4mdso000004jlo1h1l8i6	evahillrovira@gmail.com	$2b$12$qe/lzSi0plKPEG5.cU/5B.yigwpZRkDtm8nUmsGBte4pVeyN.f3Dq	Ramon	BUYER	ca	2026-08-18 20:40:26.021	\N	\N	\N	f	2026-08-18 20:39:54.456	2026-08-18 20:40:26.028	\N	2008-08-13 00:00:00	\N	2026-08-18 20:39:54.379	1.0	0	f	\N	\N	\N	\N	\N	\N
 cmwkwyscp000008jnilm977kd	isabanera@gmail.com	$2b$12$rt7YfZAKNKUah18IQKS3Q.YsA16yGnkaEe3ExrRzMmzRX2nEFJwam	Isa Fisas	BUYER	es	2026-11-17 16:54:20.376	\N	\N	\N	f	2026-11-17 16:35:39.145	2026-11-17 16:54:20.383	\N	1955-01-16 00:00:00	\N	2026-11-17 16:35:39.104	1.0	0	f	\N	\N	\N	\N	\N	\N
 cmt6sk2un000004iisfyxbhqx	elenaborge17@gmail.com	$2b$12$Y.BYMGU9N9fMqgXCnSUaFet8JnnXaGm46eAOGK/Uq6072NWOSgq/.	Elena Borge Martinez	BUYER	ca	2026-08-24 06:08:07.388	\N	\N	\N	f	2026-08-24 05:24:20.975	2026-08-24 06:08:07.395	\N	1978-07-24 00:00:00	\N	2026-08-24 05:24:20.949	1.0	0	f	\N	\N	\N	\N	\N	\N
 cmsq2qfg1000004jo7010ocrx	aplom@aplom.es	$2b$12$B1YWmYLaHusOPV8EUKTgFOpGp.vC..okbys9BSjfgqKa82RUQyigS	Jordi Fabregó Basagaña	SELLER	ca	2026-08-13 13:41:21.673	\N	\N	\N	f	2026-08-12 12:37:08.401	2026-08-24 11:01:37.823	\N	1977-03-05 00:00:00	\N	2026-08-12 12:37:08.375	1.0	2	f	\N	\N	\N	\N	\N	\N
+cmt1njyo0000c04jptu9m63fp	info@mysistercandles.com	$2b$12$TMXotnHJ0mTrBINEr8AhXuUf7dc/2PtySCDOKDoGFN/A..DFcfuLW	Montserrat Many	SELLER	ca	2026-08-21 06:02:30.2	\N	\N	\N	f	2026-08-20 15:05:26.592	2026-11-24 07:48:59.006	\N	1972-04-14 00:00:00	\N	2026-08-20 15:05:26.585	1.0	1	f	\N	\N	\N	\N	2026-11-24 07:48:58.997	\N
 cmt79tfek000004jsg63dg5j9	orevisus81@gmail.com	$2b$12$6EzB4glv2wF/rpqcX4B5bOxbJCBLvMd50k3w1MxG7epUyMv9aYmi6	Veronica lopez rubio	BUYER	ca	2026-08-24 13:27:56.878	\N	\N	\N	f	2026-08-24 13:27:30.62	2026-08-24 13:27:56.886	\N	1981-08-24 00:00:00	\N	2026-08-24 13:27:30.594	1.0	0	f	\N	\N	\N	\N	\N	\N
 cmtjw77cw000004lhs9ec5r0g	aartearual@gmail.com	$2b$12$3sIVoQ1R8hdhgyPdL4re9e1IKDH7EomCHq/YSCsx69GDfqQTGtX8e	Laura López Soriano	SELLER	ca	2026-09-02 10:26:27.421	\N	\N	\N	f	2026-09-02 09:27:19.04	2026-11-05 12:44:20.58	\N	1970-01-28 00:00:00	\N	2026-09-02 09:27:19.014	1.0	1	f	\N	\N	\N	\N	\N	\N
 cmt76tztq000004jw5yct5po2	magenta@magenta-terapies.cat	$2b$12$G3BhjNcnY3He2c7G8C5cju4vaLEE8ai6oar7tDbzYbIfQMs4GvQLu	Eric Lopez Camprubi	SELLER	ca	2026-08-25 08:06:04.59	\N	\N	\N	f	2026-08-24 12:03:58.238	2026-08-25 08:06:04.592	\N	1977-03-28 00:00:00	\N	2026-08-24 12:03:58.2	1.0	0	f	\N	\N	\N	\N	\N	\N
@@ -633,7 +633,6 @@ cmsq9vcg3000504ii72boaqr9	cmsq9vcen000004ii6z56qxvd	Nonna Margot	nonna-margot	Ar
 cmtkabph9000504jxfa1efp93	cmtkabpft000004jxcbxpq407	Flamaire	flamaire	\N	\N	\N	\N	L'Ametlla de Mar	PENDING	\N	10.00	\N	f	f	f	f	\N	2026-09-02 16:02:43.721	2026-09-02 16:02:43.721	L'Ametlla de Mar	ES	43860	Tarragona	Carrer Jacint Verdaguer, 37	Carrer Jacint Verdaguer, 37	\N	L'Ametlla de Mar	ES	43860	Tarragona	ES	\N	Joan Martínez Obispo	\N	41016198E	\N	GENERAL	653554178	flamaire.nj@gmail.com	1	CG-41016198E	\N	2026-09-02 16:02:43.696	1.1	\N	\N	f	t	f	f	\N	\N	f	\N	\N	NONE	\N	\N	\N	\N	\N	f	\N	\N	\N	\N	\N	\N	\N	\N	{}	\N	{}	\N	MARKETPLACE	\N
 cmw977xhr000608jptto1aobr	cmw977xg3000008jprr41r1ae	Calmacrem	calmacrem	Calmacrem és una crema cosmètica de recuperació muscular i articular 100% natural (98% si incloem l'aigua) i un 45% d'ingredients d'orígen ecològic.  Què fa diferent a Calmacrem?: Actua en 3 minuts. Efecte durador. Absorció en menys de 10 segons. No necessita massatge.  No deixa sensació greixosa ni taca la roba.  Aplicació il.limitada, a diferència d'altres cremes, Calmacrem, es pot aplicar tantes vegades com la persona ho necessiti, ja no s'ha de patir ni un minut de dolor.  Lliure de tòxics, al·lergens i disruptors endocrins.	Calmacrem es una crema cosmética de recuperación muscular y articular 100% natural (98% si incluimos el agua) y un 45% de ingredientes de origen ecológico. ¿Qué hace diferente a Calmacrem?: Actúa en 3 minutos. Efecto duradero. Absorción en menos de 10 segundos. No necesita masaje. No deja sensación grasa ni mancha la ropa. Aplicación ilimitada, a diferencia de otras cremas, Calmacrem se puede aplicar tantas veces como la persona lo necesite, ya no hay que sufrir ni un minuto de dolor. Libre de tóxicos, alérgenos y disruptores endocrinos.	Calmacrem is a 100% natural cosmetic cream for muscle and joint recovery (98% if water is included), with 45% of its ingredients sourced from organic farming. What makes Calmacrem different? It works in just 3 minutes. Long-lasting effect. Absorbs in less than 10 seconds. No massage required. Leaves no greasy residue and does not stain clothes. Unlimited use: unlike other creams, Calmacrem can be applied as often as needed, so there's no need to put up with pain for even a minute. Free from toxins, allergens and endocrine disruptors.	https://res.cloudinary.com/gerardcsaperas/image/upload/v1794233891/cangerard/stores/dj3ayy10jsteoajcsmag.webp	Caldes de Montbui	APPROVED	\N	10.00	\N	f	f	f	f	2026-11-09 12:14:39.903	2026-11-09 11:49:27.699	2026-11-23 18:37:00.201	Caldes de Montbui	ES	08140	Vallès Oriental (Barcelona)	c/ d'Homs, 33A	Camí Lloberes, 31	\N	Sant Feliu de Codines	ES	08182	Barcelona	ES	6b043832c8365c3d42013407	Brugascon, s.l.	\N	B67608471	\N	GENERAL	623032593	isabel.gascon@calmacrem.com	1	CG-B67608471	\N	2026-11-09 11:49:27.63	1.5	\N	\N	t	t	f	f	2026-11-09 14:59:35.581	cus_Vb3CGf6vbGvOit	f	\N	\N	ACTIVE	YEARLY	sub_1UZrEGGrwsKLqRAQWnF8fvlW	12.00	2026-11-23 11:56:36	2027-11-23 11:56:36	f	\N	\N	2026-11-09 11:56:36	1.0	2026-11-09 11:49:27.63	\N	https://res.cloudinary.com/gerardcsaperas/image/upload/v1794236921/cangerard/stores/mdwwpcimwscahknrqjze.webp	WEBSITE	{}	\N	{}	\N	SHOWCASE	2026-11-21 16:16:11.086
 cmtkewiz9000504jz1exe4wtw	cmtkewixl000004jz2e7qwpti	Jo-Joia	jo-joia	Joieria artesanal	Joieria artesanal	Joieria artesanal	\N	L'Ametlla de Mar	APPROVED	\N	10.00	\N	f	f	f	f	2026-09-04 07:41:50.764	2026-09-02 18:10:53.529	2026-09-20 17:00:07.114	L'Ametlla de Mar	ES	43860	Tarragona	Carrer Sant Joan 25	Carrer Candela 9	\N	L'Ametlla de Mar	ES	43860	Tarragona	ES	\N	Gisela Fernández Daude	\N	47907321T	\N	GENERAL	+34648925843	gfdaude@gmail.com	1	CG-47907321T	\N	2026-09-20 16:51:36.486	1.3	2026-10-23 00:00:00	2026-11-08 00:00:00	f	t	t	t	2026-09-20 16:52:37.54	\N	f	\N	\N	NONE	\N	\N	\N	\N	\N	f	\N	\N	\N	\N	\N	\N	\N	\N	{}	\N	{}	\N	MARKETPLACE	\N
-cmt1njyp3000h04jpqkd5o1h0	cmt1njyo0000c04jptu9m63fp	MySisterCandles	mysistercandles	Bons tarda, nosaltres fem espelmes de cera vegetal amb esencias fets amb recipients de pols cerámica.\r\nTambé fem brumes tèxtils i ambientador armari,tot producte natural.	Bons tarda, nosaltres fem espelmes de cera vegetal amb esencias fets amb recipients de pols cerámica.\r\nTambé fem brumes tèxtils i ambientador armari,tot producte natural.	Bons tarda, nosaltres fem espelmes de cera vegetal amb esencias fets amb recipients de pols cerámica.\r\nTambé fem brumes tèxtils i ambientador armari,tot producte natural.	\N	Granollers / Gironella	APPROVED	\N	10.00	\N	f	f	f	f	2026-08-21 06:02:12	2026-08-20 15:05:26.592	2026-08-21 06:02:12.02	Gironella	ES	08680	Berguedà	Avda Catalunya 28 1a2a	Avda Catalunya 28 1a2a	\N	Gironella	ES	08680	Barcelona	ES	\N	Montserrat Many Roig	\N	52146773T	\N	GENERAL	693661021-640032001	info@mysistercandles.com	1	CG-52146773T	\N	2026-08-20 15:05:26.587	1.1	\N	\N	f	t	f	f	\N	\N	f	\N	\N	NONE	\N	\N	\N	\N	\N	f	\N	\N	\N	\N	\N	\N	\N	\N	{}	\N	{}	\N	MARKETPLACE	\N
 cmsyujcl4000504l69d8d3lva	cmsyujck1000004l6s097kgc6	Carla Andreu estètica	carla-andreu-estetica	Centre d’estètica amb el que tenim el propi producte, donant valor al parlar del territori. Cada producte Porta el nom d’alguna paraula de l’Empordà i que tingui relació me’n el producte de cosmètica.	Centre d’estètica amb el que tenim el propi producte, donant valor al parlar del territori. Cada producte Porta el nom d’alguna paraula de l’Empordà i que tingui relació me’n el producte de cosmètica.	Centre d’estètica amb el que tenim el propi producte, donant valor al parlar del territori. Cada producte Porta el nom d’alguna paraula de l’Empordà i que tingui relació me’n el producte de cosmètica.	\N	Figueres	APPROVED	\N	10.00	\N	f	f	f	f	2026-08-21 06:02:27.232	2026-08-18 15:57:36.722	2026-08-21 06:02:27.242	Figueres	ES	17600	Girona	Sant Llàtzer 13	Marinada 15	Sant pere pescador	Sant pere pescador	ES	17470	Girona	ES	\N	Carla Andreu Pujadas	\N	41558431F	\N	GENERAL	+34608521861	andreucarla96@hotmail.com	1	CG-41558431F	\N	2026-08-18 15:57:36.67	1.1	\N	\N	f	t	f	f	\N	\N	f	\N	\N	NONE	\N	\N	\N	\N	\N	f	\N	\N	\N	\N	\N	\N	\N	\N	{}	\N	{}	\N	MARKETPLACE	\N
 cmsz4btib000504jo28yu4wx0	cmsz4btgb000004joiaegtpw4	Bendhora Marxa Nòrdica	bendhora-marxa-nordica	Especialistes en marxa nòrdica	Especialistes en marxa nòrdica	Especialistes en marxa nòrdica	https://res.cloudinary.com/gerardcsaperas/image/upload/v1795207460/cangerard/stores/member-logo-bendhora-marxa-nordica.png	Barcelona	APPROVED	\N	10.00	\N	f	f	f	f	2026-08-22 01:32:11.977	2026-08-18 20:31:41.531	2026-11-21 16:15:37.312	Barcelona	ES	08024	Barcelona	Polònia 27, 2n	Polònia 27, 2n	\N	Barcelona	ES	08024	Barcelona	ES	\N	Bendhora Bcn SL	\N	B67965582	\N	GENERAL	+34674110478	info@bendhora.com	1	BDH	\N	2026-08-18 20:31:41.494	1.1	\N	\N	f	t	f	f	\N	\N	t	2026-09-27 20:13:20.187	ADMIN	NONE	\N	\N	\N	\N	\N	f	\N	\N	\N	\N	\N	\N	\N	\N	{}	\N	{}	\N	SHOWCASE	2026-11-21 16:15:37.311
 cmw2eb3h2000808l4gduephaq	cmw2eb3gl000208l4g8hoxdwe	Cervesa LAVA	cervesa-lava	Cervesa artesana de la Zona Volcànica de la Garrotxa	Cervesa artesana de la Zona Volcànica de la Garrotxa	Cervesa artesana de la Zona Volcànica de la Garrotxa	https://res.cloudinary.com/gerardcsaperas/image/upload/v1795207463/cangerard/stores/member-logo-cervesa-lava.png	La Garrotxa	APPROVED	\N	10.00	\N	f	f	f	f	2026-11-04 18:30:15.153	2026-11-04 17:33:29.541	2026-11-21 16:16:12.544	Olot	ES	17800	Girona	Avinguda València 2	Avinguda València 2	\N	Olot	ES	17800	Girona	ES	\N	Marc Serra Colomer	\N	43636360R	\N	GENERAL	690691401	mserraco@gmail.com	1	CG-43636360R	RGSEAA 30.013870/GI	2026-11-04 17:33:29.518	1.5	\N	\N	t	t	f	f	\N	cus_VZGc3a5fHpV3Z0	t	2026-11-04 18:55:47.042	ADMIN	CANCELED	MONTHLY	sub_1UY87RGrwsKLqRAQ2Pu7D0jd	10.00	2026-11-18 17:36:38	2026-11-18 17:36:38	t	2026-11-04 18:55:47	2026-11-18 17:36:38	2026-11-04 17:36:38	1.0	2026-11-04 17:33:29.518	\N	\N	WEBSITE	{}	\N	{}	\N	SHOWCASE	2026-11-21 16:16:12.543
@@ -669,6 +668,7 @@ cmufpbpez000504jvim1xuoet	cmufpbpdm000004jvs1hd5r8y	Espelmes Suni	espelmes-suni	
 cmvdeurhk000608jw49r1an3u	cmvdeurfu000008jw80l5kir4	Talabot Studio	talabot-studio	Talabot Studio va néixer buscant una resposta.\r\nUn arbre genealògic, un test d'ADN i un secret familiar guardat durant més de setanta anys van iniciar un viatge cap al passat, cap a les meves arrels i cap a aquells que van venir abans.\r\nD'aquesta recerca neix Talabot Studio, una marca creada a Barcelona on els records, els llocs i les petites històries es transformen en fragàncies per a la llar.\r\nCreem artesanalment espelmes aromàtiques, wax melts i altres peces que combinen disseny, emoció i sensibilitat olfactiva.	Talabot Studio nació buscando una respuesta.\r\nUn árbol genealógico, un test de ADN y un secreto familiar guardado durante más de setenta años dieron comienzo a un viaje hacia el pasado, hacia mis raíces y hacia quienes vinieron antes.\r\nDe esa búsqueda nace Talabot Studio, una marca creada en Barcelona donde los recuerdos, los lugares y las pequeñas historias se transforman en fragancias para el hogar.\r\nCreamos artesanalmente velas aromáticas, wax melts y otras piezas que combinan diseño, emoción y sensibilidad olfativa.	Talabot Studio was born from the search for an answer.\r\nA family tree, a DNA test and a family secret kept for over seventy years marked the beginning of a journey into the past, towards my roots and those who came before me.\r\nFrom this search, Talabot Studio was born — a brand created in Barcelona, where memories, places and little stories are transformed into home fragrances.\r\nWe handcraft scented candles, wax melts and other creations that bring together design, emotion and a thoughtful approach to scent.	https://res.cloudinary.com/gerardcsaperas/image/upload/v1795207472/cangerard/stores/member-logo-talabot-studio.png	Barcelona	APPROVED	\N	10.00	acct_1URnIWGacY0e1a8E	t	t	t	t	2026-10-18 06:47:48.475	2026-10-18 05:54:32.682	2026-11-21 16:17:23.84	Barcelona	ES	08011	Barcelona	carrer valencia 190 4o 3a	carrer valencia 190 4o 3a	carrer valencia 190 4o 3a	Barcelona	ES	08011	Barcelona	ES	\N	Agnès Pérez Pardo	ES · BANCO BILBAO VIZCAYA ARGENTARIA S.A. ··5042	46827603V	\N	GENERAL	626765487	info@talabotstudio.com	1	CG-46827603V	\N	2026-11-04 09:50:27.744	1.5	\N	\N	f	t	t	t	2026-10-18 05:59:02.257	cus_VSiWNa84j8Mhlz	t	2026-11-04 09:14:50.868	ADMIN	CANCELED	YEARLY	sub_1URn6HGrwsKLqRAQMizOqK35	60.00	2026-11-01 05:57:19	2027-11-01 05:57:19	f	2026-11-04 09:14:51	2026-11-04 14:00:20	2026-10-18 05:57:19	1.0	2026-10-18 05:54:32.655	\N	\N	\N	{}	\N	{}	\N	SHOWCASE	2026-11-21 16:17:23.831
 cmu3ryyjw000504l5hlnyg2n6	cmu3ryyim000004l52dgivdic	Halcyon Home	halcyon-home	Productes per animals, plantes i persones	Productos para animales, plantas y personas	Productes for animals, plants and people	https://res.cloudinary.com/gerardcsaperas/image/upload/v1795207466/cangerard/stores/member-logo-halcyon-home.png	Taradell	APPROVED	\N	10.00	\N	f	f	f	f	2026-09-16 07:38:15.514	2026-09-16 07:24:19.39	2026-11-20 20:59:34.686	Taradell	ES	08552	Barcelona	Carrer Treball, 19 - Polígon Industrial "El Vivet"	Carrer Treball, 19	Polígon Industrial El Vivet	Taradell	ES	08552	Barcelona	ES	\N	Juno Manufacturing S.L.	\N	B44728319	\N	GENERAL	938126964	info@halcyon-home.com	1	CG-B44728319	\N	2026-09-16 07:24:19.364	1.2	\N	\N	f	t	f	f	\N	\N	t	2026-09-27 20:13:32.589	ADMIN	NONE	\N	\N	\N	\N	\N	f	\N	\N	\N	\N	\N	\N	\N	\N	{}	\N	{}	\N	SHOWCASE	\N
 cmu400wnd000804l46nzu9ujl	cmu3zvuoo000404jmp0tk5c9h	Cafès Bofarull	cafes-bofarull	Torradores de café des del 1925	Torradores de café des del 1925	Torradores de café des del 1925	https://res.cloudinary.com/gerardcsaperas/image/upload/v1795207462/cangerard/stores/member-logo-cafes-bofarull.png	Badalona	APPROVED	\N	10.00	\N	f	f	f	f	2026-09-16 11:31:05.978	2026-09-16 11:09:47.209	2026-11-21 16:15:54.22	Badalona	ES	08912	Barcelona	Alfons XII, 27	Alfons XII, 27	\N	Badalona	ES	08912	Barcelona	ES	\N	CAFES BOFARULL S.L.	\N	B08981938	\N	GENERAL	933993757	info@cafesbofarull.com	1	CG-B08981938	25.00842/B	2026-10-05 08:05:39.9	1.3	\N	\N	f	t	f	f	\N	\N	t	2026-09-27 21:25:50.859	ADMIN	NONE	\N	\N	\N	\N	\N	f	\N	\N	\N	1.0	2026-10-05 08:05:39.9	\N	\N	\N	{}	\N	{}	\N	SHOWCASE	2026-11-21 16:15:54.22
+cmt1njyp3000h04jpqkd5o1h0	cmt1njyo0000c04jptu9m63fp	MySisterCandles	mysistercandles	Bons tarda, nosaltres fem espelmes de cera vegetal amb esencias fets amb recipients de pols cerámica.\r\nTambé fem brumes tèxtils i ambientador armari,tot producte natural.	Bons tarda, nosaltres fem espelmes de cera vegetal amb esencias fets amb recipients de pols cerámica.\r\nTambé fem brumes tèxtils i ambientador armari,tot producte natural.	Bons tarda, nosaltres fem espelmes de cera vegetal amb esencias fets amb recipients de pols cerámica.\r\nTambé fem brumes tèxtils i ambientador armari,tot producte natural.	\N	Granollers / Gironella	APPROVED	\N	10.00	\N	f	f	f	f	2026-08-21 06:02:12	2026-08-20 15:05:26.592	2026-11-24 07:49:55.178	Gironella	ES	08680	Berguedà	Avda Catalunya 28 1a2a	Avda Catalunya 28 1a2a	\N	Gironella	ES	08680	Barcelona	ES	\N	Montserrat Many Roig	\N	52146773T	\N	GENERAL	693661021-640032001	info@mysistercandles.com	1	CG-52146773T	\N	2026-11-24 07:48:46.902	1.5	\N	\N	f	t	f	f	\N	cus_VgbhX2HfcJPMmh	f	\N	\N	NONE	\N	\N	\N	\N	\N	f	\N	\N	\N	1.0	2026-11-24 07:48:46.902	\N	\N	\N	{}	\N	{}	\N	MARKETPLACE	\N
 cmssm8wtj000504jqj714t0qy	cmssm8wse000004jq70hkfvom	Mel el Remei	mel-el-remei	Cuarta generació d'apicultura familiar d'Alcover, dedicada a la producció i comercialització de mel i productes apícoles. Oferim diferents varietats de mel, productes derivats de l'apicultura i experiències per descobrir el fascinant món de les abelles.	Cuarta generació d'apicultura familiar d'Alcover, dedicada a la producció i comercialització de mel i productes apícoles. Oferim diferents varietats de mel, productes derivats de l'apicultura i experiències per descobrir el fascinant món de les abelles.	Cuarta generació d'apicultura familiar d'Alcover, dedicada a la producció i comercialització de mel i productes apícoles. Oferim diferents varietats de mel, productes derivats de l'apicultura i experiències per descobrir el fascinant món de les abelles.	https://res.cloudinary.com/gerardcsaperas/image/upload/v1795207468/cangerard/stores/member-logo-mel-el-remei.png	Alcover	APPROVED	\N	10.00	\N	f	f	f	f	2026-08-15 23:34:38.388	2026-08-14 07:18:55.742	2026-11-21 16:17:12.982	Alcover	ES	43460	Tarragona	C/ Bisbe Barberà, 3	C/ Pla del Bosc, 14	\N	Alcover	ES	43460	Tarragona	ES	\N	Gemma Llorens Moix	\N	39954547M	\N	GENERAL	691176434	melelremei@gmail.com	1	CG-39954547M	23-04234/CAT	2026-11-03 11:27:07.279	1.5	\N	\N	f	t	f	f	\N	\N	t	2026-10-20 07:16:49.302	ADMIN	NONE	\N	\N	\N	\N	\N	f	\N	\N	\N	1.0	2026-10-23 08:57:33	\N	\N	\N	{}	\N	{}	\N	SHOWCASE	2026-11-21 16:17:12.981
 cmwabumzb000c08l5qg9pp7e4	cmwabumwr000608l5dckc42h3	CAFES SOLE S.L	cafes-sole-s-l	\N	\N	\N	https://res.cloudinary.com/gerardcsaperas/image/upload/v1795207463/cangerard/stores/member-logo-cafes-sole-s-l.png	MATARO	APPROVED	\N	10.00	\N	f	f	f	f	2026-11-10 09:09:31.201	2026-11-10 06:46:51.771	2026-11-21 16:15:55.898	MATARO	ES	08301	Barcelona	C/ SANT JOAN, 45	C/ SANT JOAN, 45	C/ SANT JOAN, 45	MATARO	ES	08301	Barcelona	ES	\N	CAFES SOLE S.L	\N	B62935184	\N	GENERAL	937907602	comercial@cafessole.com	1	CG-B62935184	25333	2026-11-10 06:46:51.737	1.5	\N	\N	t	t	f	f	2026-11-10 06:49:06.371	\N	t	2026-11-10 09:09:41.546	ADMIN	NONE	\N	\N	\N	\N	\N	f	\N	\N	\N	1.0	2026-11-10 06:46:51.737	\N	\N	WEBSITE	{}	\N	{}	\N	SHOWCASE	2026-11-21 16:15:55.897
 cmvf45woi000608i3j2edq9ve	cmvf45wn0000008i3arq49tr0	Mel La Caseta	pau-torner-capellas	\N	\N	\N	https://res.cloudinary.com/gerardcsaperas/image/upload/v1795207469/cangerard/stores/member-logo-pau-torner-capellas.png	Avià	APPROVED	\N	10.00	\N	f	f	f	f	2026-10-19 10:46:27.315	2026-10-19 10:30:49.212	2026-11-21 16:17:14.252	Avià	ES	08610	Berguedà	Av. Pau casals 65	Av. Pau Casals 65	\N	Avià	ES	08610	Barcelona	ES	6ad5f71df7ff944c750c27a0	Pau Torner Capellas	\N	77748690L	Jo estic a un iva del 10.5%	GENERAL	638072694	ptornerc@gmail.com	1	CG-77748690L	\N	2026-10-19 10:30:49.187	1.3	\N	\N	f	t	f	f	\N	\N	t	2026-10-19 10:46:28.936	ADMIN	NONE	\N	\N	\N	\N	\N	f	\N	\N	\N	1.0	2026-10-19 10:30:49.187	\N	\N	\N	{}	\N	{}	\N	SHOWCASE	2026-11-21 16:17:14.251
@@ -10030,6 +10030,9 @@ cmws0odut000108k2kfrgb0k1	cmu0w8aj600000bgm658h1sni	SELLER_TERMS	t	Accepto les c
 cmws0oip3000008jm4lwoz1js	cmu0w8aj600000bgm658h1sni	MARKETING_EMAIL	t	Vols rebre les novetats de la setmana? Un correu cada setmana amb productes catalans que val la pena conèixer. Te’n pots donar de baixa quan vulguis.	ca	185.139.62.155	2026-11-22 15:54:01.767
 cmwtjno5w000307jks5bhzakx	cmwtjno57000207jks99qdzkv	PRIVACY_NOTICE	t	He llegit la política de privacitat.	ca	176.83.20.125	2026-11-23 17:33:01.051
 cmwtjno5w000407jkq861rmzw	cmwtjno57000207jks99qdzkv	SELLER_TERMS	t	Accepto les condicions de venedor i la política de productes prohibits, i declaro que soc un professional donat d'alta i que els meus productes compleixen algun dels criteris de vinculació amb Catalunya. [v2.0]	ca	176.83.20.125	2026-11-23 17:33:01.051
+cmwue86vw000007l5apuici3i	cmt1njyo0000c04jptu9m63fp	SELLER_TERMS	t	Com a venedor, accepto les Condicions Generals de Venedors, l'Annex I (facturació), l'Annex II (dades), l'Annex III (categories i segells) i la política de productes prohibits.	ca	89.6.98.226	2026-11-24 07:48:46.94
+cmwue86wj000107l5logdz2x1	cmt1njyo0000c04jptu9m63fp	TRADER_SELF_CERTIFICATION	t	Declaro sota la meva responsabilitat que soc empresari o professional (autònom donat d’alta o societat), que venc a CATMercat en l’exercici de la meva activitat i no com a particular, que les dades que facilito són veraces i que només oferiré productes que compleixin la normativa aplicable.\n\nDECLARACIÓN RESPONSABLE DE CONDICIÓN DE COMERCIANTE\n(versión 1.0 · 30/09/2026)\n\nMontserrat Many Roig, NIF 52146773T, titular de la tienda «MySisterCandles» (el «Vendedor») declara bajo su responsabilidad ante NEGOCIS DIGITALS CANGERARD, S.L., NIF B88966775 (la «Plataforma»), titular del mercado en línea accesible en catmercat.cat (el «Sitio»):\n\n1. CONDICIÓN DE COMERCIANTE. Que es empresario o profesional: persona física dada de alta como tal en el Censo de Empresarios, Profesionales y Retenedores de la Agencia Tributaria y en el régimen de la Seguridad Social que le corresponda, o persona jurídica válidamente constituida, con establecimiento en España; y que vende a través del Sitio con fines relacionados con su actividad comercial, empresarial, oficio o profesión, y no como particular.\n\n2. VERACIDAD DE LOS DATOS. Que los datos identificativos, de contacto y fiscales facilitados a la Plataforma son veraces, completos y actuales, y que comunicará sin demora cualquier cambio, en particular el cese de la actividad o la pérdida de la condición de empresario o profesional.\n\n3. CUMPLIMIENTO NORMATIVO. Que se compromete a ofrecer en el Sitio únicamente productos y servicios que cumplan las normas aplicables del Derecho de la Unión Europea y del Derecho español, incluidas las de seguridad de los productos, etiquetado, protección de los consumidores y fiscalidad, en los términos del artículo 30.1.e) del Reglamento (UE) 2022/2065 de Servicios Digitales.\n\n4. ACREDITACIÓN. Que aportará a requerimiento de la Plataforma la documentación que acredite lo anterior, entre otros el certificado de situación censal de la Agencia Tributaria o, en el caso de sociedades, los datos de su inscripción en el Registro Mercantil.\n\n5. CONSECUENCIAS. Que conoce que la falsedad o inexactitud de esta declaración faculta a la Plataforma para suspender o dar de baja su cuenta y retirar sus productos conforme a las Condiciones Generales de Contratación para Vendedores, y que responderá frente a la Plataforma de los perjuicios que se deriven de ella, incluidas las reclamaciones de compradores o de terceros y las sanciones administrativas.	ca	89.6.98.226	2026-11-24 07:48:46.963
+cmwue8g7e000207l5htfzmg13	cmt1njyo0000c04jptu9m63fp	MARKETING_EMAIL	t	Vols rebre les novetats de la setmana? Un correu cada setmana amb productes catalans que val la pena conèixer. Te’n pots donar de baixa quan vulguis.	ca	89.6.98.226	2026-11-24 07:48:59.018
 \.
 
 
@@ -12496,6 +12499,7 @@ cmwrnkb3d000008jp4mwu3iwh	cmtkbit56000004l7wf1d6fqr	SELLER_ORDER_REFUNDED	f	f	f	
 cmwrnkrtp000u07l2mke6lyia	cmtkbit56000004l7wf1d6fqr	SELLER_LABEL_READY	t	f	f	2026-11-22 09:47:11.966
 cmua26d6m000104l2ts3l6b3o	cmtkewixl000004jz2e7qwpti	SELLER_CUSTOM_SHIPMENT	f	f	f	2026-09-20 16:57:51.717
 cmwrnksdv000v07l29ni8bm61	cmtkbit56000004l7wf1d6fqr	SELLER_RETURN_REQUESTED	t	f	f	2026-11-22 09:47:13.905
+cmwue923c000008kxbrmwq2vv	cmt1njyo0000c04jptu9m63fp	SELLER_NEW_REVIEW	t	t	f	2026-11-24 07:49:27.384
 cmtsllgvf00010agmoee8wlkv	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_ORDER	t	t	f	2026-09-08 11:40:40.856
 cmtslm3fr002m0agmay014fkg	cmpu7a2oe0000l8t232dsj2jq	ADMIN_NEW_PRODUCT	t	t	f	2026-09-08 11:40:53.607
 cmttrsnue000004lckgjrt7am	cmtt5e5m4000004jp9o3k38sj	SELLER_NEW_REVIEW	t	t	f	2026-09-09 07:21:43.863
@@ -22461,6 +22465,8 @@ cmwtm5rh2000b07jk7n3hdbw1	de finca	de finca	ca	1	cmpu7a2oe0000l8t232dsj2jq	2026-
 cmwto6aku000207jslbbzs96h	vermut	vermut	ca	1	\N	2026-11-23 19:39:28.398
 cmwto6jch000308l3avn1rqw8	espelma	espelma	ca	164	\N	2026-11-23 19:39:39.761
 cmwto7zp0000507js4xr6h3gp	anell	anell	ca	183	\N	2026-11-23 19:40:47.604
+cmwugu0oc000307l5j55fzlhb	espelmes	espelmes	ca	168	\N	2026-11-24 09:01:44.556
+cmwujd5y8000008l8q6h59buh	Oli d oliva verge extra	oli d oliva verge extra	ca	21	\N	2026-11-24 10:12:37.088
 cmveukb0n000q08i9t2elerku	vela	vela	es	26	cmvdeurfu000008jw80l5kir4	2026-10-19 06:02:04.871
 cmvev0kw6001608i9x2b94prd	vela	vela	es	41	cmvdeurfu000008jw80l5kir4	2026-10-19 06:14:44.166
 cmvev0vj7000d08labgrxtjcj	vela	vela	es	41	cmvdeurfu000008jw80l5kir4	2026-10-19 06:14:57.955
@@ -22704,6 +22710,7 @@ cmwt0dt56000008id5xw7laua	cafè	cafe	ca	1	\N	2026-11-23 08:33:28.266
 cmwtm5t91000c07jkk2rvhpuv	de finca	de finca	ca	1	cmpu7a2oe0000l8t232dsj2jq	2026-11-23 18:43:06.709
 cmwto5acq000007jsmcj45dik	mel	mel	ca	80	\N	2026-11-23 19:38:41.45
 cmwto8kng000607jsww0hzrvk	espelma	espelma	ca	164	\N	2026-11-23 19:41:14.764
+cmwugutht000507l5o8b14m3x	espelma nadal	espelma nadal	ca	20	\N	2026-11-24 09:02:21.905
 cmw4lz6kf000107l34ftw9dn9	Bolso	bolso	ca	45	\N	2026-11-06 06:43:42.975
 cmw4n8qsj000008jucpmlmzht	Cargols	cargols	es	6	\N	2026-11-06 07:19:08.708
 cmw4n95jx000108ju2lub0x25	Cargols menjar	cargols menjar	es	0	\N	2026-11-06 07:19:27.837
@@ -22943,6 +22950,7 @@ cmws4ilks001e07l5tek9kuzp	pellet	pellet	ca	0	\N	2026-11-22 17:41:24.028
 cmwt4qd2g000108l65m5qu925	Oli d oliva verge extra	oli d oliva verge extra	ca	21	\N	2026-11-23 10:35:12.424
 cmwto5de8000107jscj6b92o9	mel	mel	ca	80	\N	2026-11-23 19:38:45.392
 cmwto6ctv000307jsh4b09xen	ceramica	ceramica	ca	7	\N	2026-11-23 19:39:31.315
+cmwugvjs1000607l5dssymnw1	Espelma Nadal	espelma nadal	ca	20	\N	2026-11-24 09:02:55.969
 cmw5epyhn000808js8gpbpqn5	Bosses	bosses	ca	59	\N	2026-11-06 20:08:21.467
 cmw5f3vya000008jpcdq1wpnc	Fuet	fuet	ca	0	\N	2026-11-06 20:19:11.362
 cmw5f51zh000007l69llno1sp	Embotits	embotits	ca	4	\N	2026-11-06 20:20:05.837
@@ -23104,6 +23112,7 @@ cmwto66gz000208l3f0luwoab	formatge	formatge	ca	14	\N	2026-11-23 19:39:23.075
 cmwto6ewp000107l93s8ompos	llana	llana	ca	15	\N	2026-11-23 19:39:34.01
 cmwto6gxb000407jsvvz54pwj	xocolata	xocolata	ca	15	\N	2026-11-23 19:39:36.623
 cmwto91an000207l9dz0pisot	anell	anell	ca	183	\N	2026-11-23 19:41:36.335
+cmwulymxj000008l280jqr212	Oli d oliva verge extra	oli d oliva verge extra	ca	21	\N	2026-11-24 11:25:18.104
 cmw67rz0k000508jkaqjkbc9g	Oli antara	oli antara	ca	0	\N	2026-11-07 09:41:44.324
 cmw688pbb000708jkk8uc8pqk	Oli d'Arbeca	oli d'arbeca	ca	0	\N	2026-11-07 09:54:44.903
 cmw6899se000808jkf2kbs6em	Lots	lots	ca	18	\N	2026-11-07 09:55:11.438
@@ -23164,6 +23173,7 @@ cmws95y0b000007l2vzaqxxpb	Botifarra	botifarra	ca	0	\N	2026-11-22 19:51:31.691
 cmwt9koah000307ijb78umm5e	Pantalons	pantalons	es	0	\N	2026-11-23 12:50:45.113
 cmwto9p7x000707jskwuhkthz	anell	anell	ca	183	\N	2026-11-23 19:42:07.341
 cmwts5u45000007la2a6lvp5p	Coixí foradat	coixi foradat	ca	0	\N	2026-11-23 21:31:05.526
+cmwum1s8f000007ld81wamf8y	Carn	carn	ca	28	\N	2026-11-24 11:27:44.943
 cmw68yyuu000408l0d2se42dm	Roba	roba	ca	20	\N	2026-11-07 10:15:10.326
 cmw68yzrg000b08jkdc212m54	Roba	roba	ca	20	\N	2026-11-07 10:15:11.501
 cmw68z1co000508l0vd22w0jf	Roba	roba	ca	20	\N	2026-11-07 10:15:13.561
@@ -23320,6 +23330,7 @@ cmws96bjm000008icr95gao6v	Botifarra	botifarra	ca	0	\N	2026-11-22 19:51:49.234
 cmwtayfvr000507ije8fb0ahm	Ninos	ninos	ca	23	\N	2026-11-23 13:29:27.016
 cmwts4yyp000007l7srwypxon	Coixí morenes	coixi morenes	ca	0	\N	2026-11-23 21:30:25.153
 cmwts5gzy000108leremvlxbb	Coixí per morenes	coixi per morenes	ca	0	\N	2026-11-23 21:30:48.526
+cmwusdmoy000008l9s7yp4i3p	Pastís	pastis	ca	36	\N	2026-11-24 14:24:55.33
 cmw6ssox0000608jt504c1s4m	ceramica	ceramica	ca	1	\N	2026-11-07 19:30:09.828
 cmw8zxke0000b07l5rh8dj6nd	regals	regals	ca	68	\N	2026-11-09 08:25:26.904
 cmw8zyqsd000c07l5c87qao6t	regals	regals	ca	68	\N	2026-11-09 08:26:21.853
@@ -23381,6 +23392,8 @@ cmwtdkmc8000008jrt8d7qx6v	formatge	formatge	ca	14	\N	2026-11-23 14:42:41.048
 cmwteu71x000007l5b60euiim	maresme	maresme	ca	0	\N	2026-11-23 15:18:07.413
 cmwts5edv000008leg0uneukx	Coixí per morenes	coixi per morenes	ca	0	\N	2026-11-23 21:30:45.139
 cmwts6129000208le2b74mtc4	Coixí	coixi	ca	18	\N	2026-11-23 21:31:14.529
+cmwutq4n7000108l9wxfhmkrx	Nadal	nadal	ca	26	\N	2026-11-24 15:02:38.083
+cmwuts1ih000208l9w9z7s8sm	Infusiones	infusiones	ca	82	\N	2026-11-24 15:04:07.337
 cmw6u8pz9000308iiwxv69zil	Fuet	fuet	ca	0	\N	2026-11-07 20:10:37.317
 cmw6umqth000208jmjkkwhc00	Pollastre	pollastre	ca	14	\N	2026-11-07 20:21:31.589
 cmw6v8dq2000008jyem0ogzsh	Fruita	fruita	ca	45	\N	2026-11-07 20:38:21.05
@@ -23529,6 +23542,8 @@ cmwrrpdpa000807jmiq4da8jr	arracades or	arracades or	ca	0	cmt7oks2a000004k1k3279v
 cmwsbt4ef000307l2j69fm9nk	Nadal	nadal	ca	26	cmu0w8aj600000bgm658h1sni	2026-11-22 21:05:32.295
 cmwteu2vh000008l8ielmmn21	maresme	maresme	ca	0	\N	2026-11-23 15:18:01.997
 cmwttjve2000408jnst4o21ma	Cafe	cafe	ca	1752	\N	2026-11-23 22:09:59.978
+cmwuttxg8000308l9umynobtw	Nadal	nadal	ca	26	\N	2026-11-24 15:05:35.384
+cmwutu3uv000408l9ay48fdy2	Nadal	nadal	ca	26	\N	2026-11-24 15:05:43.687
 cmw7qidyj000308jm3gt9b9s9	Pernil dolç	pernil dolc	ca	0	\N	2026-11-08 11:13:56.011
 cmw7satn3000108l50fw4l5ol	Embotit	embotit	ca	4	\N	2026-11-08 12:04:02.319
 cmw919w45000307k6n5y77su4	Oli oliva	oli oliva	ca	0	\N	2026-11-09 09:03:01.589
@@ -23588,6 +23603,7 @@ cmwsbupjj000407l29vzufdm0	Nadal	nadal	ca	26	cmu0w8aj600000bgm658h1sni	2026-11-22
 cmwsbuxna000507l229gaswqa	Nadal	nadal	ca	26	cmu0w8aj600000bgm658h1sni	2026-11-22 21:06:56.854
 cmwteuf9c000108l8te5aod9d	maresme	maresme	ca	0	\N	2026-11-23 15:18:18.048
 cmwttk9ex000508jn6nfjvgd8	Montes del quindío	montes del quindio	ca	1	\N	2026-11-23 22:10:18.153
+cmwv0izsd000008k1d0wyi4z6	montes del Quindío	montes del quindio	ca	4	\N	2026-11-24 18:13:02.509
 cmw7r1pih000508l6ukmy064u	Vermut	vermut	ca	1	\N	2026-11-08 11:28:57.449
 cmw7r1yfk000608l65f1wt30r	Vermut negre	vermut negre	ca	0	\N	2026-11-08 11:29:09.008
 cmw7rtcx0000408jml3nod1lp	Sanarretes	sanarretes	ca	0	\N	2026-11-08 11:50:27.492
@@ -23737,6 +23753,7 @@ cmwrulsow000007l4rdvpsfz7	Fruta	fruta	es	26	\N	2026-11-22 13:03:57.057
 cmwsk1ajw000008jyccglc0yg	Cervesa artesanal	cervesa artesanal	ca	28	\N	2026-11-23 00:55:50.445
 cmwtjbyqc000007jkw5l10rl2	Roba dona	roba dona	es	3	\N	2026-11-23 17:23:54.901
 cmwu7p6bn000007l5b7uv42ny	Nadal	nadal	ca	26	\N	2026-11-24 04:46:02.051
+cmwv88r03000007l9381djt0r	Pebre negra en gra	pebre negra en gra	ca	0	\N	2026-11-24 21:49:01.491
 cmw808i4a000008lhp8sw81zh	mel	mel	ca	80	\N	2026-11-08 15:46:11.003
 cmw808qik000108l3l7l5tgsm	mel	mel	ca	80	\N	2026-11-08 15:46:21.884
 cmw80ihtb000208l261c7w5tf	Cervesa sense alcohol	cervesa sense alcohol	ca	1	\N	2026-11-08 15:53:57.167
@@ -23821,6 +23838,7 @@ cmwsz6wc4000008lbb9t82gv9	Mitjons	mitjons	ca	61	\N	2026-11-23 08:00:06.196
 cmwtjhs66000107jkdsa0a6ho	Cafe	cafe	ca	1751	\N	2026-11-23 17:28:26.334
 cmwtjv6wr000008jywc6408v9	Café	cafe	ca	1751	\N	2026-11-23 17:38:51.963
 cmwud1fau000007lbzqo6atkq	Calmandshine	calmandshine	ca	0	\N	2026-11-24 07:15:31.638
+cmwugu33f000407l5uem8vuia	Espelmes	espelmes	ca	168	\N	2026-11-24 09:01:47.691
 cmw808x1j000208l3sj7tkvig	mel	mel	ca	80	\N	2026-11-08 15:46:30.343
 cmw80klu6000108lh5jexovbm	Formatge	formatge	ca	11	\N	2026-11-08 15:55:35.694
 cmw80ltrx000608lh2y9ea3r9	Samarretes	samarretes	ca	2	\N	2026-11-08 15:56:32.637
@@ -24697,6 +24715,146 @@ cmwuarkab000407jxxdprh2ku	cmveacks3000808jwogg6z0kj	PRODUCT_VIEW	\N	DIRECT	ca	20
 cmwuc4z7c000507jxwsf5is4d	cmwabumzb000c08l5qg9pp7e4	PRODUCT_VIEW	\N	INTERNAL	ca	2026-11-24 06:50:17.784	cmwbq0fko74na53c8urxf982p
 cmwuc6gsq000607jxzw3f89b7	cmtt5e5ni000504jpg4lzgr78	PRODUCT_VIEW	\N	INTERNAL	ca	2026-11-24 06:51:27.242	cmvetap7afwci0gyhz2do0dyr
 cmwucredw000707jxl4w1i9s0	cmvdeurhk000608jw49r1an3u	PRODUCT_VIEW	\N	INTERNAL	ca	2026-11-24 07:07:43.892	cmvedo71a438l2rrocbu4jxgi
+cmwudu627000007lapot9ysbm	cmsq2qfh9000504jor63lbyxz	PRODUCT_VIEW	\N	SEARCH	en	2026-11-24 07:37:52.687	cmur586rd000004l6i5qum304
+cmwue28zb000107la7cicszv2	cmwabumzb000c08l5qg9pp7e4	PRODUCT_VIEW	\N	SEARCH	es	2026-11-24 07:44:09.719	cmwbps97g70bc1a22zvtuocxr
+cmwuedggj000007l7bfoftb0e	cmwabumzb000c08l5qg9pp7e4	PRODUCT_VIEW	\N	SEARCH	es	2026-11-24 07:52:52.627	cmwbpq7476z9w04s2ehbzll68
+cmwufzvw3000107l7dtwbuhgm	cmwabumzb000c08l5qg9pp7e4	PRODUCT_VIEW	\N	SEARCH	es	2026-11-24 08:38:18.675	cmwbpplny6yzd1lo26pt8e1p3
+cmwugujjg000207l7sqqrnl8k	cmvdeurhk000608jw49r1an3u	PRODUCT_VIEW	\N	INTERNAL	ca	2026-11-24 09:02:09.004	cmwpka4m1c5h93fv3gsvd81kl
+cmwugzo5s000307l76e67f39k	cmvdeurhk000608jw49r1an3u	PRODUCT_VIEW	\N	INTERNAL	ca	2026-11-24 09:06:08.272	cmwpka7ygc5jc29z6c3zb2f2b
+cmwugzrpg000407l7a27oh3xl	cmvdeurhk000608jw49r1an3u	PURCHASE_CLICK	WEBSITE	INTERNAL	ca	2026-11-24 09:06:12.868	cmwpka7ygc5jc29z6c3zb2f2b
+cmwuhmo22000007jpawdn0kn4	cmvdeurhk000608jw49r1an3u	PRODUCT_VIEW	\N	INTERNAL	ca	2026-11-24 09:24:01.226	cmvedo71a438l2rrocbu4jxgi
+cmwuhntt8000107jpeco7mbpl	cmtmtvvcf000504l2a133x04p	PRODUCT_VIEW	\N	INTERNAL	ca	2026-11-24 09:24:55.34	cmtr11len000004jyajo1979x
+cmwuhpixb000207jp7qlqnref	cmtmtvvcf000504l2a133x04p	VIEW	\N	INTERNAL	ca	2026-11-24 09:26:14.543	\N
+cmwuhr2wk000307jpj3icoj00	cmtmtvvcf000504l2a133x04p	PRODUCT_VIEW	\N	INTERNAL	ca	2026-11-24 09:27:27.092	cmtr1fuic000704jyas750pfv
+cmwuhr90l000407jp59j12nsj	cmtmtvvcf000504l2a133x04p	VIEW	\N	INTERNAL	ca	2026-11-24 09:27:35.013	\N
+cmwuhrduq000507jptw3jziuw	cmtmtvvcf000504l2a133x04p	PRODUCT_VIEW	\N	INTERNAL	ca	2026-11-24 09:27:41.282	cmtr23i1n000f04jys2ep2xaw
+cmwuhs66i000607jpoy18t6ky	cmtmtvvcf000504l2a133x04p	VIEW	\N	INTERNAL	ca	2026-11-24 09:28:17.994	\N
+cmwuhsc84000707jpuwu4buno	cmtmtvvcf000504l2a133x04p	PRODUCT_VIEW	\N	INTERNAL	ca	2026-11-24 09:28:25.828	cmtr11len000004jyajo1979x
+cmwuhsimp000807jp8dzlb7gx	cmutnkcio000604l30ke9ahad	PRODUCT_VIEW	\N	INTERNAL	ca	2026-11-24 09:28:34.129	cmuu59ui5000804lenxijshfo
+cmwui16mz000907jpvay0yzsj	cmwabumzb000c08l5qg9pp7e4	PRODUCT_VIEW	\N	DIRECT	ca	2026-11-24 09:35:18.491	cmwbpv4qs71th5ahqoest0ifl
+cmwui2774000a07jpzmkiq5jw	cmwabumzb000c08l5qg9pp7e4	PRODUCT_VIEW	\N	DIRECT	ca	2026-11-24 09:36:05.872	cmwbpod9e6ydg3qku178ywrjk
+cmwuibgvb000b07jp78eonqly	cmtt5e5ni000504jpg4lzgr78	PRODUCT_VIEW	\N	DIRECT	ca	2026-11-24 09:43:18.311	cmveta6gyfw3u2gxkbvmube2r
+cmwuifjme000c07jpnlksvxye	cmwabumzb000c08l5qg9pp7e4	PRODUCT_VIEW	\N	DIRECT	ca	2026-11-24 09:46:28.502	cmwbpozyf6yom518dndpul89p
+cmwuiyhdj000d07jpu13sm6b8	cmwabumzb000c08l5qg9pp7e4	PRODUCT_VIEW	\N	SEARCH	en	2026-11-24 10:01:12.055	cmwbpyups73t850zwf7nrgxxh
+cmwuj4vzn000e07jpeuzq99ej	cmwabumzb000c08l5qg9pp7e4	PRODUCT_VIEW	\N	DIRECT	ca	2026-11-24 10:06:10.931	cmwbpozyf6yom518dndpul89p
+cmwuj5bje000f07jp7z3cdt1v	cmwabumzb000c08l5qg9pp7e4	PRODUCT_VIEW	\N	DIRECT	ca	2026-11-24 10:06:31.082	cmwbpt5zb70sw3j098yq0uxt5
+cmwujd91c000g07jpsv3daqds	cmwabumzb000c08l5qg9pp7e4	PRODUCT_VIEW	\N	DIRECT	ca	2026-11-24 10:12:41.088	cmwbprmge70050ei3wsnzabvm
+cmwujeoqc000h07jp0phviy84	cmtt5e5ni000504jpg4lzgr78	PRODUCT_VIEW	\N	DIRECT	ca	2026-11-24 10:13:48.084	cmvetb07gfwhh5e75p4ken58e
+cmwujeyf8000i07jphp5loprn	cmtt5e5ni000504jpg4lzgr78	PRODUCT_VIEW	\N	DIRECT	ca	2026-11-24 10:14:00.644	cmvetblfofwrq56t5yurqioeh
+cmwujg73g000j07jpbh9gnv7k	cmwabumzb000c08l5qg9pp7e4	PRODUCT_VIEW	\N	DIRECT	ca	2026-11-24 10:14:58.54	cmwbq0f4774n211uaos9diga6
+cmwuji821000k07jp7ja6y7f2	cmwabumzb000c08l5qg9pp7e4	PRODUCT_VIEW	\N	DIRECT	ca	2026-11-24 10:16:33.097	cmwbpwe0072hd2jfe8grdrlda
+cmwuju53e000l07jpta1cgxr0	cmwabumzb000c08l5qg9pp7e4	PRODUCT_VIEW	\N	DIRECT	ca	2026-11-24 10:25:49.13	cmwbq0ifk74ol0kqhham0guc8
+cmwujxbm8000m07jpxpvxmf50	cmwabumzb000c08l5qg9pp7e4	PRODUCT_VIEW	\N	DIRECT	ca	2026-11-24 10:28:17.552	cmwbpoysf6yo44o486c0gowu9
+cmwuk29fh000n07jpyuhnqiug	cmvdeurhk000608jw49r1an3u	PRODUCT_VIEW	\N	DIRECT	ca	2026-11-24 10:32:07.997	cmwpka4voc5hd279isw0f8sk8
+cmwuk4nrd000o07jpjj8is2wu	cmtt5e5ni000504jpg4lzgr78	PRODUCT_VIEW	\N	DIRECT	ca	2026-11-24 10:33:59.881	cmveta9dnfw533fm5hh42er8t
+cmwuk7v4u000p07jp4271wspd	cmwabumzb000c08l5qg9pp7e4	PRODUCT_VIEW	\N	DIRECT	ca	2026-11-24 10:36:29.406	cmwbpyrq773rp3tjzokdk2z4k
+cmwuk92b8000q07jp86q5r9js	cmwabumzb000c08l5qg9pp7e4	PRODUCT_VIEW	\N	DIRECT	ca	2026-11-24 10:37:25.364	cmwbpyrq773rp3tjzokdk2z4k
+cmwuk9lzr000r07jpliy6wbkb	cmwabumzb000c08l5qg9pp7e4	PRODUCT_VIEW	\N	DIRECT	ca	2026-11-24 10:37:50.871	cmwbptjnp71060gsbgzsvheq2
+cmwukgkfu000s07jpu0xytm2y	cmtt5e5ni000504jpg4lzgr78	PRODUCT_VIEW	\N	DIRECT	ca	2026-11-24 10:43:15.45	cmvetavz4fwfc3y8r8j24osc6
+cmwukjxrf000t07jpxt34dfj4	cmwabumzb000c08l5qg9pp7e4	PRODUCT_VIEW	\N	SEARCH	en	2026-11-24 10:45:52.683	cmwbq012f74fu1vnvhqx3q4h0
+cmwukl3tt000u07jpdsh0z0g2	cmtt5e5ni000504jpg4lzgr78	PRODUCT_VIEW	\N	DIRECT	ca	2026-11-24 10:46:47.201	cmvetbjczfwq90gdkatpcn5c2
+cmwuknrfc000v07jpue3jhx6f	cmtt5e5ni000504jpg4lzgr78	PRODUCT_VIEW	\N	DIRECT	ca	2026-11-24 10:48:51.096	cmvetabhufw692p0768ffxbun
+cmwuknz5f000w07jpem02rtao	cmtt5e5ni000504jpg4lzgr78	PRODUCT_VIEW	\N	DIRECT	ca	2026-11-24 10:49:01.107	cmvetan0ofwbk48qcegkjeel3
+cmwukua7n000008l2i2c0743t	cmwabumzb000c08l5qg9pp7e4	PRODUCT_VIEW	\N	DIRECT	ca	2026-11-24 10:53:55.379	cmwbpy2lw73e5141tlxcc20mv
+cmwukv9ms000108l25tgprywn	cmwabumzb000c08l5qg9pp7e4	PRODUCT_VIEW	\N	DIRECT	ca	2026-11-24 10:54:41.284	cmwbpy2lw73e5141tlxcc20mv
+cmwukz70x000208l2f7v0rfbr	cmwabumzb000c08l5qg9pp7e4	PRODUCT_VIEW	\N	DIRECT	ca	2026-11-24 10:57:44.529	cmwbq0gwc74nv2itucvmybzcd
+cmwul44af000308l2q4j8m8a7	cmtt5e5ni000504jpg4lzgr78	PRODUCT_VIEW	\N	DIRECT	ca	2026-11-24 11:01:34.263	cmvetbco5fwmt409shvv12dgb
+cmwul5bbl000408l29nue0cdc	cmwabumzb000c08l5qg9pp7e4	PRODUCT_VIEW	\N	DIRECT	en	2026-11-24 11:02:30.033	cmwbq0abv74ki33h96cyyew5w
+cmwul5pno000508l2rvmvoa4f	cmwabumzb000c08l5qg9pp7e4	PRODUCT_VIEW	\N	DIRECT	ca	2026-11-24 11:02:48.612	cmwbpoodw6yiw1xxfis0bll3z
+cmwul76jt000608l2zp1eqxdc	cmwabumzb000c08l5qg9pp7e4	PRODUCT_VIEW	\N	DIRECT	ca	2026-11-24 11:03:57.161	cmwbpwcu572gu1ceh487k8zvn
+cmwulan83000708l2s00piafi	cmtt5e5ni000504jpg4lzgr78	PRODUCT_VIEW	\N	DIRECT	ca	2026-11-24 11:06:38.739	cmvetb2a5fwia2w6kvdg8vz5c
+cmwulb6vj000808l29sxjden9	cmwabumzb000c08l5qg9pp7e4	PRODUCT_VIEW	\N	DIRECT	ca	2026-11-24 11:07:04.207	cmwbpoyhf6yny0ev67te1bijq
+cmwulbcku000908l2y6vlcpib	cmtt5e5ni000504jpg4lzgr78	PRODUCT_VIEW	\N	DIRECT	ca	2026-11-24 11:07:11.598	cmvetat80fwe50hexokf3nbta
+cmwulhgr6000a08l26ex42b88	cmwabumzb000c08l5qg9pp7e4	PRODUCT_VIEW	\N	DIRECT	ca	2026-11-24 11:11:56.946	cmwbppva66z461stxxsub5kd0
+cmwulhi0o000b08l21oqrs6a0	cmtuipd97000504ih65dt77q5	PRODUCT_VIEW	\N	DIRECT	ca	2026-11-24 11:11:58.584	cmu0t2dd8000004l29nj1a08k
+cmwuljmp2000c08l23x3ysi6z	cmsq9vcg3000504ii72boaqr9	PRODUCT_VIEW	\N	DIRECT	ca	2026-11-24 11:13:37.958	cmvgdsi3gi8vf3uw2kgtr9ghg
+cmwuljv7f000d08l2el7dnc8i	cmveacks3000808jwogg6z0kj	PRODUCT_VIEW	\N	DIRECT	ca	2026-11-24 11:13:48.987	cmvfdsxd43d5756nly4lxabac
+cmwumceec000e08l25hvemgl0	cmwabumzb000c08l5qg9pp7e4	PRODUCT_VIEW	\N	SEARCH	en	2026-11-24 11:36:00.228	cmwbq012f74fu1vnvhqx3q4h0
+cmwumcpz8000f08l2jhanihc8	cmwabumzb000c08l5qg9pp7e4	PURCHASE_CLICK	WEBSITE	SEARCH	en	2026-11-24 11:36:15.236	cmwbq012f74fu1vnvhqx3q4h0
+cmwume9o5000g08l284lntqg1	cmwabumzb000c08l5qg9pp7e4	PRODUCT_VIEW	\N	SEARCH	es	2026-11-24 11:37:27.413	cmwbq012f74fu1vnvhqx3q4h0
+cmwumzi4i000008k7uaw5jpfk	cmwabumzb000c08l5qg9pp7e4	PRODUCT_VIEW	\N	SEARCH	en	2026-11-24 11:53:58.146	cmwbpshey70fo2k9qsqw4n2lg
+cmwupbqz9000108k7l7fp09ap	cmwabumzb000c08l5qg9pp7e4	PRODUCT_VIEW	\N	SEARCH	es	2026-11-24 12:59:28.725	cmwbpxv21739v2bzk7sjoq255
+cmwupqbb9000208k7ywp4t7m5	cmwabumzb000c08l5qg9pp7e4	PRODUCT_VIEW	\N	SEARCH	en	2026-11-24 13:10:48.261	cmwbprsfm702z23g5coi6ynnk
+cmwuqod3i000308k78ycrtwfa	cmwabumzb000c08l5qg9pp7e4	PRODUCT_VIEW	\N	DIRECT	en	2026-11-24 13:37:16.878	cmwbpvmey72353luzvh2njej6
+cmwuqx4z7000408k7jh9tar7u	cmwabumzb000c08l5qg9pp7e4	PRODUCT_VIEW	\N	SEARCH	es	2026-11-24 13:44:06.259	cmwbpqds96zd51dtylksl1qd3
+cmwur3iak000508k7py0ipzfy	cmsq2qfh9000504jor63lbyxz	PRODUCT_VIEW	\N	SEARCH	es	2026-11-24 13:49:03.452	cmur62sqs000006nr412mtg0v
+cmwur49mq000608k78mzd3l9w	cmu74eks0000504jzncojsx3w	PRODUCT_VIEW	\N	SEARCH	es	2026-11-24 13:49:38.882	cmuprgidt000004jp6mks5tdg
+cmwur4lg3000708k7e16b8vtx	cmtt5e5ni000504jpg4lzgr78	PRODUCT_VIEW	\N	INTERNAL	ca	2026-11-24 13:49:54.195	cmvetb0tifwhs1v7nfol96egk
+cmwur5fta000808k7tv10cpps	cmwabumzb000c08l5qg9pp7e4	PRODUCT_VIEW	\N	SEARCH	en	2026-11-24 13:50:33.55	cmwbpqds96zd51dtylksl1qd3
+cmwur5nfl000908k7pc1n0hz3	cmwabumzb000c08l5qg9pp7e4	PRODUCT_VIEW	\N	SEARCH	en	2026-11-24 13:50:43.425	cmwbpqds96zd51dtylksl1qd3
+cmwur7xrq000a08k7fsq3kls0	cmtt5e5ni000504jpg4lzgr78	PRODUCT_VIEW	\N	INTERNAL	ca	2026-11-24 13:52:30.135	cmveta6tdfw3y0qfchrcrvqxr
+cmwur8kij000b08k78llft265	cmvf45woi000608i3j2edq9ve	PRODUCT_VIEW	\N	INTERNAL	ca	2026-11-24 13:52:59.611	cmvf74dg3sc364hnaa10tkoq4
+cmwurbz2q000c08k7cvdiyjyy	cmun1w1c8000304jyitxai684	PRODUCT_VIEW	\N	INTERNAL	ca	2026-11-24 13:55:38.45	cmws1fotb000108jm909890w5
+cmwurdx6o000d08k7f9bb6kfa	cmsfp9jqk000a04lam2x5k8c6	PRODUCT_VIEW	\N	INTERNAL	ca	2026-11-24 13:57:09.312	cmspcirpv000604lfq3yab0n0
+cmwurea10000e08k758iheevg	cmvf45woi000608i3j2edq9ve	PRODUCT_VIEW	\N	INTERNAL	ca	2026-11-24 13:57:25.956	cmvf74i9zsc525derjw2t5sg8
+cmwurf2ch000008h0nt32uy46	cmszywj3r000504k3hsrpz7a0	PRODUCT_VIEW	\N	INTERNAL	ca	2026-11-24 13:58:02.657	cmt8dfs9f000404js9cd33yhl
+cmwurgfir000108h0aj4zujvy	cmu17ltw7000504l191l8596j	PRODUCT_VIEW	\N	INTERNAL	ca	2026-11-24 13:59:06.387	cmu3xaxah000604lg9c3ek8av
+cmwurj3md000208h0yj35nmv8	cmsfp9jqk000a04lam2x5k8c6	PRODUCT_VIEW	\N	INTERNAL	ca	2026-11-24 14:01:10.933	cmspcfgo5000304lfu295q3fj
+cmwurkbil000308h0wzu88x8l	cmszywj3r000504k3hsrpz7a0	PRODUCT_VIEW	\N	INTERNAL	ca	2026-11-24 14:02:07.821	cmvgib85c000008lb5u8udf5h
+cmwus9yvq000408h0bxywujoy	cmvb37nm5000606k04r27atac	PRODUCT_VIEW	\N	SEARCH	ca	2026-11-24 14:22:04.502	cmvgg5wwd000308lg9ziq1h84
+cmwusg5bl000508h0ojfbtkwm	cmwabumzb000c08l5qg9pp7e4	PRODUCT_VIEW	\N	INTERNAL	ca	2026-11-24 14:26:52.785	cmwbpvbmj71wy1m1fxjx9ipzl
+cmwusgbpc000608h0moy9pfpz	cmwabumzb000c08l5qg9pp7e4	PURCHASE_CLICK	WEBSITE	INTERNAL	ca	2026-11-24 14:27:01.056	cmwbpvbmj71wy1m1fxjx9ipzl
+cmwutq9o1000708h0u3ox2hi7	cmun1w1c8000304jyitxai684	PRODUCT_VIEW	\N	INTERNAL	ca	2026-11-24 15:02:44.593	cmws1fotb000108jm909890w5
+cmwutqswz000808h0kbb98zc9	cmun1w1c8000304jyitxai684	PRODUCT_VIEW	\N	DIRECT	ca	2026-11-24 15:03:09.539	cmws1fotb000108jm909890w5
+cmwutqu44000908h0rtd9nbj6	cmun1w1c8000304jyitxai684	PRODUCT_VIEW	\N	INTERNAL	ca	2026-11-24 15:03:11.092	cmws2x2wz000007l5w9r9vv0b
+cmwutrmsi000a08h0puo5lu9p	cmun1w1c8000304jyitxai684	PRODUCT_VIEW	\N	INTERNAL	ca	2026-11-24 15:03:48.258	cmws1fotb000108jm909890w5
+cmwuts3na000b08h0eyo133fa	cmun1w1c8000304jyitxai684	PRODUCT_VIEW	\N	INTERNAL	ca	2026-11-24 15:04:10.102	cmup7rekx000006lfj850pmr8
+cmwuts82a000c08h09t9sw8se	cmtttwq1d000504joleuz8k9q	PRODUCT_VIEW	\N	INTERNAL	ca	2026-11-24 15:04:15.826	cmtzuqeeq000004l5696i135c
+cmwuucy26000d08h086aonobt	cmsiutxii000504joynhtbi7b	PRODUCT_VIEW	\N	INTERNAL	ca	2026-11-24 15:20:22.638	cmwqudra6z6270ajafgl4u5c5
+cmwuviczi000e08h02x4kuj8g	cmwabumzb000c08l5qg9pp7e4	PRODUCT_VIEW	\N	SEARCH	es	2026-11-24 15:52:34.878	cmwbq0bfk74l43xs5ncgyj8c0
+cmwuvv4ib000f08h0hpz22by1	cmu17ltw7000504l191l8596j	PRODUCT_VIEW	\N	INTERNAL	ca	2026-11-24 16:02:30.419	cmu3wqtjn000304k29e3nuxgd
+cmwuvvd72000g08h0myvg0twd	cmu17ltw7000504l191l8596j	PURCHASE_CLICK	WEBSITE	INTERNAL	ca	2026-11-24 16:02:41.678	cmu3wqtjn000304k29e3nuxgd
+cmwuwvw63000008l8ug13qyll	cmssm8wtj000504jqj714t0qy	PRODUCT_VIEW	\N	SEARCH	en	2026-11-24 16:31:05.883	cmvm3k1gbavqa46t10osu8iq4
+cmwv0j6x5000007l5ariee3pp	cmwtjno6o000507jk2tmtlq1k	PRODUCT_VIEW	\N	INTERNAL	ca	2026-11-24 18:13:11.753	cmwtk8wp1000008jmphv46xei
+cmwv0ji65000107l5wgwl5wlz	cmwtjno6o000507jk2tmtlq1k	PRODUCT_VIEW	\N	INTERNAL	ca	2026-11-24 18:13:26.333	cmwttse56000608jn8ae4i9bn
+cmwv0rj47000207l57n5q08y4	cmsiutxii000504joynhtbi7b	PRODUCT_VIEW	\N	INTERNAL	ca	2026-11-24 18:19:40.807	cmwqudra6z6270ajafgl4u5c5
+cmwv0rxux000307l566433oa6	cmsiutxii000504joynhtbi7b	PURCHASE_CLICK	WEBSITE	INTERNAL	ca	2026-11-24 18:19:59.913	cmwqudra6z6270ajafgl4u5c5
+cmwv0sm0o000407l5xcb7bgcf	cmsiutxii000504joynhtbi7b	PRODUCT_VIEW	\N	INTERNAL	ca	2026-11-24 18:20:31.224	cmwqudrw5z62h16zd6wsnhxrp
+cmwv0sn8p000507l5gq2fip18	cmsiutxii000504joynhtbi7b	PRODUCT_VIEW	\N	INTERNAL	ca	2026-11-24 18:20:32.809	cmwqudr4dz6251k8dqvbf8ykb
+cmwv0spqc000607l5xlocaby2	cmsiutxii000504joynhtbi7b	PRODUCT_VIEW	\N	INTERNAL	ca	2026-11-24 18:20:36.036	cmwqudqylz62322gc0j2tbifz
+cmwv0sqmf000707l58eo4fyn1	cmsiutxii000504joynhtbi7b	PRODUCT_VIEW	\N	INTERNAL	ca	2026-11-24 18:20:37.191	cmwqudr4dz6251k8dqvbf8ykb
+cmwv0sr2i000807l57rnn9cu0	cmsiutxii000504joynhtbi7b	PRODUCT_VIEW	\N	INTERNAL	ca	2026-11-24 18:20:37.77	cmwqudqsuz6214gpwhrxzdlue
+cmwv0srgs000907l5pnh3jhkk	cmsiutxii000504joynhtbi7b	PRODUCT_VIEW	\N	INTERNAL	ca	2026-11-24 18:20:38.284	cmwqudqn5z61z48gw1ccnko8f
+cmwv0szs1000a07l5q7mej22f	cmsiutxii000504joynhtbi7b	PRODUCT_VIEW	\N	INTERNAL	ca	2026-11-24 18:20:49.057	cmwqudq5hz61t1l5za30rvfso
+cmwv0w11l000b07l5z9p6xzra	cmsiutxii000504joynhtbi7b	PRODUCT_VIEW	\N	INTERNAL	ca	2026-11-24 18:23:10.665	cmwqudqbiz61v360gfoon5jhq
+cmwv0w1wm000c07l50q1i0n66	cmsiutxii000504joynhtbi7b	PURCHASE_CLICK	WEBSITE	INTERNAL	ca	2026-11-24 18:23:11.782	cmwqudqbiz61v360gfoon5jhq
+cmwv10ylw000d07l51285mngr	cmsiutxii000504joynhtbi7b	PRODUCT_VIEW	\N	INTERNAL	ca	2026-11-24 18:27:00.788	cmwqudra6z6270ajafgl4u5c5
+cmwv36dve000e07l5nmnn4tti	cmveacks3000808jwogg6z0kj	PRODUCT_VIEW	\N	INTERNAL	ca	2026-11-24 19:27:13.082	cmveueyajqomd0qsjckfzmv9e
+cmwv37a1e000f07l5xstvst83	cmveacks3000808jwogg6z0kj	PURCHASE_CLICK	WEBSITE	INTERNAL	ca	2026-11-24 19:27:54.77	cmveueyajqomd0qsjckfzmv9e
+cmwv3mo21000g07l59e9e8wpw	cmveacks3000808jwogg6z0kj	PRODUCT_VIEW	\N	INTERNAL	es	2026-11-24 19:39:52.777	cmvfdsjam3cy22tkwe1fsyl26
+cmwv3o25u000h07l5krzo4282	cmwabumzb000c08l5qg9pp7e4	PRODUCT_VIEW	\N	INTERNAL	es	2026-11-24 19:40:57.714	cmwbpo7i96yag56dgvc6qswnp
+cmwv3oveg000i07l5zn6d2fpk	cmvb37nm5000606k04r27atac	PRODUCT_VIEW	\N	INTERNAL	es	2026-11-24 19:41:35.608	cmvggldmg000707l2nlab18v8
+cmwv3pd6l000j07l5tiqdhsk6	cmtt5e5ni000504jpg4lzgr78	PRODUCT_VIEW	\N	INTERNAL	ca	2026-11-24 19:41:58.653	cmvetavz4fwfc3y8r8j24osc6
+cmwv3pkja000k07l526xqnfch	cmtt5e5ni000504jpg4lzgr78	PRODUCT_VIEW	\N	INTERNAL	ca	2026-11-24 19:42:08.182	cmvetbhu5fwp72kcqr9dyf3ez
+cmwv3pn6o000l07l5qdnmxhh6	cmtt5e5ni000504jpg4lzgr78	PURCHASE_CLICK	WEBSITE	INTERNAL	ca	2026-11-24 19:42:11.616	cmvetbhu5fwp72kcqr9dyf3ez
+cmwv3qc1f000m07l5xw9cag91	cmutnkcio000604l30ke9ahad	PRODUCT_VIEW	\N	INTERNAL	es	2026-11-24 19:42:43.827	cmuu59ui5000804lenxijshfo
+cmwv3qc1w000n07l5iz3fts0j	cmtt5e5ni000504jpg4lzgr78	PRODUCT_VIEW	\N	INTERNAL	ca	2026-11-24 19:42:43.844	cmvetavz4fwfc3y8r8j24osc6
+cmwv3qycn000o07l5mwy3f3tr	cmvf45woi000608i3j2edq9ve	PRODUCT_VIEW	\N	INTERNAL	ca	2026-11-24 19:43:12.743	cmvf74flasc3y3loyy471zkaw
+cmwv3qz1e000p07l5mlrbxnf0	cmvf45woi000608i3j2edq9ve	PURCHASE_CLICK	WEBSITE	INTERNAL	ca	2026-11-24 19:43:13.634	cmvf74flasc3y3loyy471zkaw
+cmwv3run6000q07l5rpdoedfs	cmtt5e5ni000504jpg4lzgr78	PRODUCT_VIEW	\N	INTERNAL	ca	2026-11-24 19:43:54.594	cmvetba8vfwlq2jhfqxzlzrtj
+cmwv4yedk000007l8c842go8x	cmwabumzb000c08l5qg9pp7e4	PRODUCT_VIEW	\N	SEARCH	es	2026-11-24 20:16:59.72	cmwbpzo9z74943ex0u3jhfh44
+cmwv6svkt000007l8r4qfea5c	cmvf45woi000608i3j2edq9ve	PRODUCT_VIEW	\N	INTERNAL	ca	2026-11-24 21:08:41.309	cmvf74flasc3y3loyy471zkaw
+cmwv6tt26000107l8mabwru4y	cmvdeurhk000608jw49r1an3u	PRODUCT_VIEW	\N	INTERNAL	ca	2026-11-24 21:09:24.702	cmwpka59tc5hm2aqulbtjk9ub
+cmwv6ylgx000207l8ti0b358i	cmtt5e5ni000504jpg4lzgr78	PRODUCT_VIEW	\N	INTERNAL	ca	2026-11-24 21:13:08.145	cmvetaohqfwc73nng95qm8m6l
+cmwv6yvr5000307l8h0r2mzeu	cmtt5e5ni000504jpg4lzgr78	VIEW	\N	INTERNAL	ca	2026-11-24 21:13:21.473	\N
+cmwv700cd000407l8dvb65aqx	cmtt5e5ni000504jpg4lzgr78	PRODUCT_VIEW	\N	INTERNAL	ca	2026-11-24 21:14:14.077	cmvetaohqfwc73nng95qm8m6l
+cmwv7gzoz000507l8e71vlppa	cmwabumzb000c08l5qg9pp7e4	PRODUCT_VIEW	\N	SEARCH	es	2026-11-24 21:27:26.387	cmwbq0bfk74l43xs5ncgyj8c0
+cmwv7noqj000607l8o9csei22	cmwabumzb000c08l5qg9pp7e4	PRODUCT_VIEW	\N	SEARCH	en	2026-11-24 21:32:38.779	cmwbpvvln727x1sfzfzvoif3b
+cmwv7tftz000707l85wpi9i0c	cmssm8wtj000504jqj714t0qy	PRODUCT_VIEW	\N	INTERNAL	ca	2026-11-24 21:37:07.175	cmvgci4bv5t8j2f6uzmacm86z
+cmwv7uy0j000807l8syagl9ag	cmssm8wtj000504jqj714t0qy	PRODUCT_VIEW	\N	INTERNAL	ca	2026-11-24 21:38:17.395	cmvgci4bv5t8j2f6uzmacm86z
+cmwv7v8uw000907l86sfwsk5r	cmssm8wtj000504jqj714t0qy	PURCHASE_CLICK	WEBSITE	INTERNAL	ca	2026-11-24 21:38:31.448	cmvgci4bv5t8j2f6uzmacm86z
+cmwv7x18g000a07l83qgdh28h	cmssm8wtj000504jqj714t0qy	PRODUCT_VIEW	\N	INTERNAL	ca	2026-11-24 21:39:54.88	cmvgci21m5t723oicmbl6o70w
+cmwv7x5v0000b07l83jlvksi1	cmssm8wtj000504jqj714t0qy	PURCHASE_CLICK	WEBSITE	INTERNAL	ca	2026-11-24 21:40:00.876	cmvgci21m5t723oicmbl6o70w
+cmwv7yvjj000c07l8ycktv18n	cmqmvftzu000504jxy963ldl9	PRODUCT_VIEW	\N	INTERNAL	ca	2026-11-24 21:41:20.815	cmqqbtklb000004ky2qtzxnhw
+cmwv80zky000d07l8bagrd9yy	cmvf45woi000608i3j2edq9ve	PRODUCT_VIEW	\N	INTERNAL	ca	2026-11-24 21:42:59.362	cmvf74cdzsc2o4m6fzv3xyv9i
+cmwv813gn000008js0etyya6w	cmvf45woi000608i3j2edq9ve	PURCHASE_CLICK	WEBSITE	INTERNAL	ca	2026-11-24 21:43:04.404	cmvf74cdzsc2o4m6fzv3xyv9i
+cmwv81xqg000108js7p3p5qbz	cmvf45woi000608i3j2edq9ve	PRODUCT_VIEW	\N	INTERNAL	ca	2026-11-24 21:43:43.624	cmvf74hmysc4r40e8q0d122rw
+cmwv82dya000208js9b0cm986	cmvf45woi000608i3j2edq9ve	PURCHASE_CLICK	WEBSITE	INTERNAL	ca	2026-11-24 21:44:04.643	cmvf74hmysc4r40e8q0d122rw
+cmwv8bf1l000308jshukjpyyf	cmveacks3000808jwogg6z0kj	PRODUCT_VIEW	\N	INTERNAL	ca	2026-11-24 21:51:05.961	cmvfdshxc3cxe56g3apcc57dq
+cmwv8f1ry000408jsdjptozx0	cmtmtvvcf000504l2a133x04p	PRODUCT_VIEW	\N	INTERNAL	ca	2026-11-24 21:53:55.39	cmtr11len000004jyajo1979x
+cmwv8hzma000508jsv8h1a29m	cmtmtvvcf000504l2a133x04p	PURCHASE_CLICK	WEBSITE	INTERNAL	ca	2026-11-24 21:56:12.562	cmtr11len000004jyajo1979x
+cmwv8ov44000608jsm325fbb3	cmw2eb3h2000808l4gduephaq	VIEW	\N	SEARCH	en	2026-11-24 22:01:33.316	\N
+cmwv8p6kv000708jsyjn62189	cmw2eb3h2000808l4gduephaq	PRODUCT_VIEW	\N	INTERNAL	en	2026-11-24 22:01:48.175	cmwb8gnll2df72e8hicxrf887
 \.
 
 
@@ -24823,10 +24981,10 @@ accounting.bankAccount	57200002	2026-10-18 19:29:38.786
 accounting.stripeSupplierContactId	6ac48f2eb8d645b6ef0ef115	2026-10-18 19:29:38.828
 platform.mode	marketplace	2026-11-05 06:09:45.454
 accounting.treasuryBalance	85.59	2026-11-23 17:40:04.679
-accounting.lockedAt		2026-11-24 07:25:03.63
 accounting.clearingTreasuryId	6af4b13727323916c001779a	2026-11-11 18:17:27.292
 accounting.clearingAccount	55500001	2026-11-11 18:17:28.191
 accounting.clearingBalance	0	2026-11-11 18:17:30.265
+accounting.lockedAt		2026-11-25 05:55:03.606
 subscriptions.plans	{"monthly":{"enabled":false,"priceNet":10},"yearly":{"enabled":true,"priceNet":12},"trialDays":0}	2026-11-20 16:38:53.761
 \.
 
@@ -25392,6 +25550,6 @@ SELECT pg_catalog.setval('"auth"."refresh_tokens_id_seq"', 1, false);
 -- PostgreSQL database dump complete
 --
 
--- \unrestrict zLe9e1Jz6bpp8lstwmrLj7WzTGvNfiocikvdSttbQYVb9cT2fThb4wV03mHihIZ
+-- \unrestrict UaultAEdFTZyk7UhcGzlyGaMkjuXmV2PzEtkQBmY7VmA7Xrs9TXPh3JaeuFQMOx
 
 RESET ALL;
